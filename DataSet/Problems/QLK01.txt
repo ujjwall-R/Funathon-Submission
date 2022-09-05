@@ -1,0 +1,87 @@
+
+After a thrilling but exhausting journey of monster hunting, the White Wolf has decided to return to Kaer Morhen. He needs to reach his destination by crossing a N×MN×M grid that contains at most one monster in each cell. His current location is at cell (1,1)(1,1) and his destination lies in the cell (N,M)(N,M). In every step, he is allowed to move 1 cell to the right or 1 cell downwards only.  Also, he cannot move outside the grid.
+The White Wolf has an initial health points of P points. Each time he fights with a monster, his health points decrease by X. If at any point in time, the total health points become less than or equal to 0, the White Wolf will immediately die and will never reach his destination.
+But that's not the end of the story. There are some special herbs placed in some cells throughout the grid (at most one in each cell). His health points will increase by Y points if he uses a herb. It is guaranteed that there is no cell such that a monster and a herb will be at the same cell. It is also guaranteed that there are no herbs or monsters at the starting and destination cells.
+Your task is to determine the maximum possible health points the White Wolf can have when he reaches Kaer Morhen. Otherwise, determine that it's impossible to reach his destination.
+Input:
+
+First line will contain T, the number of test cases. Then the  T test cases follow. 
+First line of each test case contains two space-separated integers N and M.
+Second line of each test case contains three space-separated integers P,X and Y.
+Then follows N lines of input, each containing a string a length M, representing the grid. Each character on the grid is either a 0 representing an empty cell, a 1 representing a monster, or a 2 representing a herb.
+
+Output:
+For each test case, output in a single line "−1" if it is not possible to reach the destination. Otherwise, print in a single line the required answer.
+Constraints
+
+1≤T≤100
+1≤N,M≤100
+1≤P,X,Y≤109
+All characters in the grid are 0,1 or 2 only.
+The top-left and the bottom-right cells contain the character 0, i.e., they are empty.
+
+Sample Input:
+2
+4 2
+78 16 94
+01
+10
+01
+20
+3 1
+60 64 27
+0
+1
+0  
+Sample Output:
+156
+-1  
+
+
+
+Author:
+5★sibasish_14
+
+
+Editorial:
+https://discuss.codechef.com/problems/QLK01
+
+
+Tags:
+
+               
+                 dynamic-programming, easy, greedy, sibasish_14, sibasish_14, yapc2020
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-05-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

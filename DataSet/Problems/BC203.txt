@@ -1,0 +1,87 @@
+
+Roy protected his confidential information by encrypting it using a secret method. He rotates the alphabet in the following manner:
+Original stringOriginal string - abcdefghijklmnopqrstuvwxyz
+Rotation by 3Rotation by 3  - defghijklmnopqrstuvwxyzabc
+Input:
+
+The first line contains the integer, nn, the length of the unencrypted string. 
+The second line contains the unencrypted string, s. 
+The third line contains k, the number of letters to rotate the alphabet by.
+
+Output:
+Print the encoded string.
+Constraints
+
+1≤n≤100
+0≤k≤100
+s is a valid ASCII string without any spaces.
+
+Sample Input:
+11
+middle-Outz
+2
+Sample Output:
+okffng-Qwvb
+EXPLANATION:
+Original alphabet:      abcdefghijklmnopqrstuvwxyz
+Alphabet rotated +2:    cdefghijklmnopqrstuvwxyzab   
+m -> o
+i -> k
+d -> f
+d -> f
+l -> n
+e -> g
+ -    -
+O -> Q
+u -> w
+t -> v
+z -> b   
+
+
+
+Author:
+3★ayush163
+
+
+Editorial:
+https://discuss.codechef.com/problems/BC203
+
+
+Tags:
+
+               
+                 ayush163, easy, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-04-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

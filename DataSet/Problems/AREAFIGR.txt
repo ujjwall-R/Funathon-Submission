@@ -1,0 +1,88 @@
+
+There is an equilateral triangle ABC with side length 2*a. The coordinates of the triangle's vertices are A = (-a, 0), B = (a, 0) and C = (0, sqrt(3) * a). Next, there are three circles with centers at the midpoints of sides AB, BC and AC respectively and radii r1, r2 and r3 respectively. Compute the area of the intersection of the triangle and the three circles.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains four space-separated integers a, r1, r2, r3.
+
+Output
+For each test case, print a single line containing one real number corresponding to the area of the intersection. Your answer will be considered correct if it has an absolute or relative error ≤ 5 * 10-2.
+Constraints
+
+1 ≤ T ≤ 20
+1 ≤ a ≤ 50
+1 ≤ r1, r2, r3 ≤ 200
+
+Example
+Input
+
+5
+10 5 5 5
+10 6 6 7
+10 12 13 14
+10 15 15 15
+10 19 20 18
+
+Output
+
+0.0000000
+1.417303000
+138.1789
+163.712
+173.2064190
+
+Explanation
+Example case 2: The black colored area shown in the figure is the intersection between the triangle and the three circles. 
+
+
+
+
+Author:
+admin2
+
+
+Editorial:
+https://discuss.codechef.com/problems/AREAFIGR
+
+
+Tags:
+
+               
+                 Areas, Sweep line Algorithm, Rectangles
+                 
+                     
+                     Advanced Algorithms, Computational Geometry, Polygons
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+25-11-2017
+
+
+Time Limit:
+5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,59 @@
+
+Elon Musk has trained N ensembles of neural networks, each given an index from 1 to N, to power a self-replicating robot. Owing to the complexities in interstellar travel, he has space for only one ensemble. Empirically, he finds that the combined intelligence I of the nth ensemble is given by the following equation:
+
+I(n) = Product of the prime factors of n
+
+For example, the intelligence of the 18th ensemble is given by:
+I(18) = 2*3 = 6
+
+Given N, help Elon find the index of the ensemble with the maximum intelligence.
+(Hint: Brute force will not work for large N. Efficiency of the algorithm is crucial for the survival of the self-replicating bots in deep space.)
+
+
+
+Author:
+suthirth
+
+
+Editorial:
+https://discuss.codechef.com/problems/PRPR3
+
+
+Tags:
+
+               
+                 prpo2016, simple, suthirth
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-09-2016
+
+
+Time Limit:
+5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

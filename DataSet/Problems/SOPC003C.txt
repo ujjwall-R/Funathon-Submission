@@ -1,0 +1,80 @@
+
+The only difference between the easy and hard versions is the contraints.
+In the new secret NASA, there are n astronauts. Professor Brand wants to form a team headed by Dr Mann for the Lazarus mission. Astronauts will team up in pairs for the mission. But there is one condition: two astronauts will team up with one another if and only if each person believes that the other person is good enough for him.
+An astronaut considers another good enough for him if and only if the other person has an astronaut rating of at least half of his own.
+The professor now wonders, how many pairs can be formed among the astronauts.
+Find the number of pairs possible.
+Input Format
+
+The first line contains TT, the number of test cases.
+For each test case, the first line contains nn, the number of astronauts.
+The next line has nn integers, the ratings of the astronauts.
+
+Constraints
+
+1≤T≤10
+1≤n≤105
+1≤a[i]≤109
+
+Output Format
+Output one line for each test case - the number of pairs possible among the astronauts.
+Sample Input
+2
+5
+1 4 9 16 25
+6
+2 3 4 4 18 22
+
+Sample Output
+2
+7
+
+
+
+
+Author:
+5★shriram_c253
+
+
+Editorial:
+https://discuss.codechef.com/problems/SOPC003C
+
+
+Tags:
+
+               
+                 binary-search, medium, shpc2019, shriram_c253, two-pointers
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-12-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

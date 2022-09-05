@@ -1,0 +1,106 @@
+
+Goku and vegeta are fighting rigorously from a long time, but they can't arrive to a conclusion that who is better and stronger than the other. So they decided to do it by other means. 
+Both of them started playing chess on an N×MN×M chess-board and vegeta has already placed RR Black rooks on the chess-board and then he asks goku to place one White rook on the chess-board such that it is safe . As we all know that goku is a big dumb head and can't do it by himself , we need to help him. 
+Find the probability of goku making a correct move . The probability is in form of P/QP/Q , where you need to find and print P and Q which are both co-prime integers .
+NOTE : How Does A Rook Attack??
+When a rook is placed on co-ordinates (X,Y) , It attacks Whole Row No X and Column No Y
+
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+First line of each testcase contains two space separated integers N,M.
+Second line contains one integer R, which denotes number of rooks already placed.
+Next R lines contains two space separated integers X , Y depicting co-ordinates of the respective rook .  
+
+Output:
+For each testcase, output should contain two space separated integers P and Q .
+Constraints
+
+1≤T≤103
+1≤N,M≤104
+1≤R≤(N×M)−1
+
+Subtasks
+
+20 points : 1≤N,M≤100
+30 points : 1≤R≤MAX(N,M)
+50 points : (original constraints)
+
+Sample Input:
+    3
+    8 8
+    1
+    5 3
+    6 6
+    2
+    5 3
+    3 5
+    2 2
+    2
+    1 1
+    2 2
+
+Sample Output:
+    49 64
+    4 9
+    0
+
+EXPLANATION:
+Test−Case:1
+
+From this chessboard we can see that goku's probability to make right move is 49/64 so the ans is 49 64
+Test−Case:2
+
+From this chessboard we can see that goku's probability to make right move is 16/36=4/9 so the ans is 4 9
+Test−Case:3
+
+From this chessboard we can see there's no place to move for goku so the probability is 0
+
+
+
+Author:
+4★mann2108
+
+
+Editorial:
+https://discuss.codechef.com/problems/SPBRD
+
+
+Tags:
+
+               
+                 chess, dynamic-programming, easy, mann2108
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-02-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

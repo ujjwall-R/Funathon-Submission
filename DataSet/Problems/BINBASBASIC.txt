@@ -1,0 +1,101 @@
+
+You are given a binary string S and an integer K. In one operation, you can pick any bit and flip it, i.e turn 0 to 1 or 1 to 0. Can you make the string S a palindrome using exactly K operations?
+Print YES if this is possible, and NO if it is not.
+Input Format
+
+The first line of input contains one integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case consists of two lines of input.
+The first line of each test case contains two space-separated integers N and K, denoting the length of the binary string and the number of operations to be performed.
+The second line contains the binary string S.
+
+Output Format
+For each test case, print the answer on a new line — YES if the S can be made a palindrome using exactly K operations, and NO otherwise.
+You may print each character of YES and NO in either uppercase or lowercase (for example, yes, yEs, Yes will all be considered identical).
+Constraints
+
+1≤T≤1000
+1≤N≤1000
+0≤K≤N
+S is a binary string, i.e, contains only characters 0 and 1
+
+Subtasks
+Subtask #1 (100 points): Original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+3 0
+110
+6 1
+101100
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+NO
+YES
+
+
+Explanation
+Test case 1: S is not a palindrome, and no operations can be performed on it because K=0.
+Test case 2: Flip the first bit to obtain S=001100, which is a palindrome.
+
+
+
+Author:
+6★munch_01
+
+
+Editorial:
+https://discuss.codechef.com/problems/BINBASBASIC
+
+
+Tags:
+
+               
+                 feb221, munch_01, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1447
+
+
+Date Added:
+1-02-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

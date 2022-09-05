@@ -1,0 +1,113 @@
+
+In a far away Galaxy of Tilky Way, there was a planet Tarth where the sport of Tompetitive Toding was very popular. According to legends, there lived a very random setter known for the terrible implementation problems he made there.
+Todechef had been at chaos all day! Turns out, two of the legendary toders, Misha and Mykhailo had a spat again and decided to settle the matter by a Toding Duel.
+"When they both last duelled this Saturday, they submitted over 10001000 submissions for a challenge question and crashed the judge. We had to make our contest unrated!" 
+The admins at Todechef tried to think of a solution, when one of them said-
+"Everyone hates implementation problems!"
+And thats how Vijju and Taran were summoned to make the nastiest, deadliest implementation problem to prevent Misha and Mykhailo from wrecking havoc on Todechef's servers.
+Vijju opened his thousand paged Tathematics book, and wrote down an evil function-
+EvilFunction(int l,int r){
+    sum=0;
+    for(i=l;i<=r;i++){
+        flag=(i==1);
+        for(j=2;j< i;j++){
+            cantCheckJ=0;
+            for(k=2;k<=FindSquareRootOf(j);k++)
+                if(j%k==0)
+                    cantCheckJ++;
+            if(cantCheckJ==0 and i%j==0)
+                flag=1;
+        }
+        if(flag==0)
+            sum+=Power(i,i);
+    }
+    return sum;
+}
+Here, Power(a,b) takes 22 integers as input and returns abab as output while FindSquareRootOf(a) takes one integer a as input and returns square root of it rounded off to nearest integer.
+Vijju then made the problem that given an interval of [l,r], you need to find the value this function returns.
+"Dont ask for just one interval!" Taran screamed, "Ask for so many intervals so that their solutions TLE in I/O operations itself!!"
+Not a bad idea.
+"Also, make sure the sample I/O is COMPLETELY incomprehensible!"
+Okay, Taran definitely deserved a promotion.
+And this is how, the nastiest implementation problem was born. But they want to test if its nasty enough. Can you help them in knowing if their problem is terrible enough to save Todechef?
+
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains of a single line of input, two integers L,R. 
+
+
+Output:
+For each testcase, output in a single line, the value the function returns. Since it can be large, output it modulo 109+7.
+
+Constraints
+
+1≤T≤105
+1≤L≤R≤105
+
+
+Subtasks
+
+30 points : 1≤T,L,R≤1000
+70 points : 1≤T,L,R≤105
+
+
+Sample Input:
+1
+24 30
+
+Sample Output:
+847614936
+
+
+EXPLANATION:
+EvilFunction returns the following value when given parameters are passed, as we can confirm by manual dry running.
+
+
+
+Author:
+5★vijju123
+
+
+Editorial:
+https://discuss.codechef.com/problems/TIMPLEM
+
+
+Tags:
+
+               
+                 icop1902, prefix-sum, prime, simple, taran_1407, vijju123
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-08-2018
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

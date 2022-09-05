@@ -1,0 +1,79 @@
+
+Mudit, Aakash, and Vaibhav are good friends. Once, they went for a jungle adventure. There, the trio came to know about a mysterious Apple tree. The trio thought of eating apples from the tree. The tree was rooted at node 11 and consisted of total NN nodes including node 11. Every node has an apple and a value associated with the node. The nodes are connected by edges having some weight w. The trio can move from any node v to node u and eat the apple at node u, only if node u is not node v and node u is in the subtree of node v and the path weight (from node v to node u) is less than or equals to the value associated at the destination node, i.e, value at node u.
+Thus, for each node v, the trio wants to know the number of vertices they can reach from node v and can eat the apples. Please help them.
+Input:
+
+The first line contains an integer N, denoting the number of nodes in the tree.
+The second line contains an array A of N integers, denoting the value associated at each node.
+The next N−1 lines contains three integers u,v, and w, denoting an edge between vertices u and v having weight w.
+
+Output:
+Print an array of N integers denoting the number of nodes visited from the ith node.
+Constraints
+
+1≤Ai≤109
+1≤w≤105
+1≤N≤200000
+
+Sample Input:
+5
+2 5 1 4 6
+1 2 7
+1 3 1
+3 5 6
+3 4 5
+
+Sample Output:
+1 0 1 0 0
+
+EXPLANATION:
+Node 1 can move to node 3, and node 3 can move to node 5.
+
+
+
+Author:
+5★vasu2907
+
+
+Editorial:
+https://discuss.codechef.com/problems/ENC2020E
+
+
+Tags:
+
+               
+                 binary-search, dynamic-programming, enco2020, vasu2907
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+19-11-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

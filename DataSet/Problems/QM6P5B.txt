@@ -1,0 +1,107 @@
+
+          
+            There is a sports tournament and we have the score board of the season. Each team plays in a group and each group has equal number of teams, teams play against each other in their respective groups only. A team can defeat another team if its score is higher than the score of the other team, irrespective of the group. 
+
+Find the winners of each group if two teams swaps their groups, in the current scoreboard. If after the swap the team has equal score as another team in that group, then the team that is swapping positions would attain the position of the team that it has swapped with.
+
+Print the winners of each group, each on a newline, group appearing earlier in input should be printed first. All teams in the same group would appear after each other in input. Higher scoring teams appears before teams scoring lower in their own group(appearing one after another)
+Example of a case
+kanbow a 2
+fam a 2
+lamta b 3
+tma b 2
+
+If teams "tma" and "kanbow" swaps position then tma would win group a, even though "fam" has equal score as "tma".
+
+Input:
+Input starts with an integer T, the count of test cases. Each test case would contain two space separated integers G, the number of groups, and B the number of teams in each group. It would be followed by B rows of team information G times. Information about each team would be on a newline, having 3 space separated entities, the name of the team, the group name of the team, and score of the team. 
+It will be followed by two team names separated by a space, which needs to be swapped.
+
+Output:
+Print the winners of each group each on a newline.
+Constraints:
+1<=T<=5
+1<=G<=5
+1<=N<=5
+1<=score of each team<=100
+All team names would be unique
+
+Example
+Input:
+2
+2 2
+kanbow a 2
+fam a 2
+lamta b 3
+tma b 2
+tma kanbow
+3 1
+ka a 1
+la b 2
+da c 3
+da ka
+
+Output:
+tma
+lamta
+da
+la
+ka
+
+Explanation for example 1: tma becomes winner after the swap, lamta's position doesn't change.
+            
+            
+            
+            
+            
+        
+
+        
+
+
+Author:
+3★chandubaba
+
+
+Editorial:
+https://discuss.codechef.com/problems/QM6P5B
+
+
+Tags:
+
+               
+                 bubble-sort, chandubaba, keteki, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+8-02-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

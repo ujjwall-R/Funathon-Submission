@@ -1,0 +1,80 @@
+
+You have to solve tt cases.
+In each case, you are given a string ss. You have to perform moves on the string ss, to make it a good string. 
+In one move, you can delete a character from string ss.
+A good string, is a string in which the number of occurrences of every character is at most 11.
+Find out the minimum number of moves required to make the given string ss a goodgood string, for each test-case.
+Input:
+
+First line will contain tt, the number of test-cases.
+Next tt lines, will contain a string ss.
+
+Output:
+For each test-case, output the minimum number of moves required to make string ss, a goodgood string.
+Constraints:
+
+1≤t≤1001≤t≤100
+1≤length(s)≤1041≤length(s)≤104
+
+Sample Input:
+2
+abc
+cccdab
+
+Sample Output:
+0
+2
+
+Explanation:
+
+For testcase−2testcase−2, you can remove any 2c′s2c′s from the string to make it goodgood. One of the resulting goodgood string(s) can be "cdab".
+
+
+
+
+Author:
+6★vok_8
+
+
+Editorial:
+https://discuss.codechef.com/problems/GOODLS1
+
+
+Tags:
+
+               
+                 algorithm, array, beginner, bgnr2020, cakewalk, codechef, college-chapter, easy, simple, simple-easy, strings, vok_8
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+18-11-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

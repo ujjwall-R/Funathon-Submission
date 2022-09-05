@@ -1,0 +1,90 @@
+
+The activity of a panipuri seller is "making a panipuri and putting it on the palte of his customer".    
+NN customers are eating panipuri, Given an array AA of length NN, ith customer takes Ai seconds to eat a panipuri.     
+The Speed of Panipuri seller refers to the number of customers served per second. Determine the minimum speed of panipuri seller so that no customer has to wait for panipuri after getting his/her first panipuri.    
+Assume that the plate can hold infinite panipuris, and customer starts eating next panipuri just after finishing the current one.    You would be provided with the time taken by each customer to eat a panipuri.
+Panpuri seller serves panipuri in round robin manner (first to last and then again first).
+Input:
+
+First line will contain T, number of testcases. Then the test cases follow.
+For each test case, the first line contains N number of customers.
+Then the second line will contain N space separated integers, A1 to AN, eating time taken by each customer(in seconds).
+
+Output:
+
+For each test case, print a single line containing the minimum integral speed of panipuri seller so that no customer has to wait. 
+
+Constraints
+
+0<T≤100
+0<N≤106
+0<Ai≤109
+Sum of N over all test cases does not exceed 106
+
+Sample Input:
+2
+4
+2 4 6 3
+5
+2 3 4 6 5
+
+Sample Output:
+2
+
+3
+EXPLANATION:
+Testcase 1:
+         Let's assume speed of panipuri seller be 1.
+       So starting from 0th second, in 0 to 1 second seller make a panipuri and put it into the plate of first customer, and first customer completely eat it in 1 to 3 second as he takes 2 second to eat a panipuri. But in 3 to 4 second panipuri seller is serving to 4th customer, and hence first customer have to wait, so 1 cannot be our answer.
+       Next possible speed can be 2 .
+       Starting from 0th second, at half second seller make a panipuri and put it into the plate of first customer,  first customer completely eat it on 2.5 second as he takes 2 second to eat a panipuri. In 0.5 to 1 second, seller serve the second customer. similarly in 1 to 2 second 3rd and 4th customer will be serve, in 2 to 2.5 second, seller will again serve the first customer so at 2.5 sec 1st customer will have a panipuri to eat.
+       Similarly proceeding further we will find that no customer have to wait when speed is 2.  
+
+
+
+Author:
+5★gouravv
+
+
+Editorial:
+https://discuss.codechef.com/problems/ECPC10B
+
+
+Tags:
+
+               
+                 easy, ecpg2020, gouravv, looping, math
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-10-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

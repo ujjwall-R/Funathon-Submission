@@ -1,0 +1,98 @@
+
+Read problems statements in Russian, Vietnamese, Hindi, Mandarin chinese and Bengali as well.
+For a binary matrix with RR rows and CC columns (each cell in a binary matrix contains either 0 or 1), we define the associated graph of this matrix as follows:
+
+each 8-connected component of cells containing the same value corresponds to one node of the graph
+for each pair of adjacent 8-connected components, there is an edge between their corresponding nodes
+
+A cell in 8-connected terminology is neighboring to another cell if they have a common side or a common corner.
+You are given a graph G with N vertices (numbered 1 through N) and M edges. Construct a binary matrix such that its associated graph is isomorphic to G or determine that it does not exist.
+Input
+
+The first line of the input contains two space-separated integers N and M.
+Each of the next M lines contains two space-separated integers u and v denoting an edge between vertices u and v.
+
+Output
+
+If there is no solution, print a single line containing one integer −1.
+Otherwise:
+Print one line containing two space-separated integers R and C - the number of rows and the number of columns of your matrix.
+Then, print R lines. For each i (1≤i≤R), the i-th of these lines should contain a string with length C describing the i-th row of the matrix. Each character of this string should be either '0' or '1'.
+
+The number of cells of your matrix must be at most 105.
+Constraints
+
+2≤N≤100
+1≤u,v≤N
+the graph does not contain any self-loops or duplicate edges
+
+Example Input
+3 2
+1 2
+1 3
+
+Example Output
+1 3
+101
+
+Example Input
+3 3
+1 2
+1 3
+2 3
+
+Example Output
+-1
+
+
+
+
+Author:
+7★bciobanu
+
+
+Editorial:
+https://discuss.codechef.com/problems/HPIRATES
+
+
+Tags:
+
+               
+                 Trees, ad-hoc, Observation
+                 
+                     
+                     Data Structures, Graphs, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+1-11-2018
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,115 @@
+
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+ 
+You are given a sequence of n integers a1, ..., an.
+Count the number of sequences b = b1, ..., bn such that: 0 ≤  b1 ≤  ... ≤  bn < 231 and (a1 XOR b1) ≤ … ≤ (an XOR bn).
+Return this count, modulo 109+7.
+
+
+Here XOR denotes the bitwise XOR.
+
+Input
+
+The first line of input will contain an integer T, the number of test cases.
+
+
+Each test case will be in two lines.
+
+
+The first line of the case will contain an integer n.
+
+
+The next line of the case will contain n space separated integers a1,...,an.
+
+Output
+Output a single number, the number of sequences, modulo 109+7. 
+Constraints
+
+1 ≤ T ≤ 100 
+1 ≤ n ≤ 5
+0 ≤ ai < 231
+
+Example
+Input: 
+4
+1
+42
+5
+5 4 3 2 1
+4
+1194533513 122420337 1448417648 120078455
+3
+31 2047 2147483647
+
+Output:
+147483634
+986095186
+0
+468598063
+
+Explanation
+
+In the first case, there are 231 possible sequences, so the answer is 231 modulo 109+7 = 147483634
+
+
+For the second case, one possible example of a valid sequence is b =  9, 9, 18, 19, 32. We can check that this sequence is nondecreasing, and also, we have (a1 XOR b1) = 12, (a2 XOR b2) = 13, (a3 XOR b3) = 17, (a4 XOR b4) = 17, (a5 XOR b5) = 33, which is also nondecreasing.
+
+
+For the third case, no sequences satisfy the conditions.
+
+
+
+
+Author:
+7★lg5293
+
+
+Tester:
+7★errichto
+
+
+Editorial:
+https://discuss.codechef.com/problems/INCXOR
+
+
+Tags:
+
+               
+                 Digit DP, DP Bitmask
+                 
+                     
+                     Advanced Algorithms, Advanced DP
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-03-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,103 @@
+
+Problem Name:
+Ye Re Ye Re Pawase
+Problem Definition:
+As per the latest reports by Meteorological Department, it has been predicted that India will face an acute water shortage in the coming months. So the ever hard-working Municipal Body of Kamothe has come up with a proposal of setting up a huge tank having capacity V for the purpose of rainwater harvesting. They have planned for a trial period of N days.
+Using tech from the future, the Meteorological Department has predicted the exact amount of rainfall for each day Ai where 1 ≤  i ≤ N.
+The municipal body has appointed a responsible but lazy citizen of Kamothe, Mr. Shivam Pawase to transfer water from the tank when it overflows.
+They have not yet decided the capacity of the tank but Shivam wants to know on which days since the beginning of the trial period he would have to be at the facility to transfer the water from the tank, once the tank is full if the capacity of the tank is V. Shivam only wants to go to the facility at the end of the day. The transfer of water happens instantaneously.
+Note: If there is no day when he must visit, i.e the tank never overflows, output 0 0
+Input:
+
+First Line contains Number of Test Cases: T
+For each test case:
+First line contains Length of trial period and number of periods(space separated): N and Q
+Second Line contains List of Amount of rainfall on each day i: Ai
+For each query for Q queries, on new line:
+Capacity of Tank: V
+
+Output:
+
+For each query, output the number of days and last day from the start of the trial period when Shivam has to visit the facility to transfer the contents of the tank.
+
+Constraints:
+
+1 ≤ T ≤ 100
+1 ≤ N ≤ 365
+1 ≤ Ai ≤ 1500
+1 ≤ Q ≤ 1000
+10000 ≤ V ≤ 20000
+
+Example
+Input
+2
+17 3
+1500 1500 1500 1500 1000 1000 1000 1500 1500 1000 1000 1500 1500 1500 1000 1000 1500
+10000
+12000
+15000 
+6 1
+500 600 700 800 900 1000
+10000
+
+Output
+2 14
+1 9
+1 11
+0 0
+
+Explanation:
+For the 1st testcase
+When V = 10000, he must visit twice, first at the end of the 7th day, otherwise it would overflow on the 8th day. He transfer all the water collected so far somewhere else.
+Then must visit at the end of the 14th day.
+When V = 12000, He must visit only once( At the end of 9th day)
+When V = 15000, He must visit only once( At the end of 11th day)
+
+
+
+Author:
+4★shmabulock
+
+
+Editorial:
+https://discuss.codechef.com/problems/RAIN
+
+
+Tags:
+
+               
+                 binary-search, kjsce, prefix-sum, shmabulock, short-contest
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-04-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

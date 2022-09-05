@@ -1,0 +1,121 @@
+
+You are given an array AA (having the values of all elements in range [0,2000])  of length N. Each index i∈[1,N] has an initial weight of Wi units. You have to perform Q queries. The queries can be of 2 types:
+
+Type 1:    1 X
+Type 2:    2 V L R
+
+Type 1 queries ask you to increase the weight of all indices by X units.
+Type 2 queries ask you to calculate the total weight contributed by elements having value V in the index range [L,R]
+Note: Use fast input/output methods. If you want to submit code in Python/Python 3 then submit the same code in PyPy /PyPy 3.
+Input
+
+First line contains T, the number of testcases. Each testcase is described as follows:
+First line of testcase contains two integers N and Q, denoting the length of string and the number of queries
+Second line of testcase contains N space separated integers, ith of these represents Ai ( for 1≤i≤N )
+Third line of the testcase contains N space separated integers denoting Wi ( for 1≤i≤N )
+Q more lines follow, each line will contain a query as described in the problem statement
+
+Output
+For each query of Type 2, print a line containing the answer for query
+Constraints
+
+1≤T≤10
+1≤N,Q≤105
+0≤Ai,V≤2000
+0≤Wi,X≤100
+1≤L≤R≤N
+The sum of N over all testcases does not exceed 5∗105
+The sum of Qover all testcases does not exceed 5∗105
+
+Subtasks
+
+Subtask 1 (10 points): 1≤N,Q≤100
+Subtask 2 (20 points): All elements of A have same value, i.e. Ai=Aj ∀i,j∈[1,N]
+Subtask 3 (20 points): 0≤Ai≤25 and here are no queries of Type 1
+Subtask 4 (20 points): 0≤Ai≤25
+Subtask 5 (30 points): Original Constraints
+
+Sample Input
+2
+10 5
+1 2 3 3 4 5 4 6 3 8
+0 1 2 3 4 5 6 7 8 9
+2 1 1 10
+2 3 1 10
+1 3
+2 1 1 10
+2 3 1 10
+1 3
+8
+7
+2 8 1 1
+1 3
+2 8 1 1
+
+Sample Output
+0
+13
+3
+22
+7
+10
+
+Explanation
+Sample Case 1:
+
+Initial weights are: {0,1,2,3,4,5,6,7,8,9}
+1st query is of Type 2, and the contribution of value 1 is asked. Since it is present only at index 1 in the range [1,10], hence total contribution of value 1=W1=0 units
+2nd query is of Type 2, and the contribution of value 3 is asked. Since it is present at indices {3,4,9} hence, total contribution of value 3=W3+W4+W9=2+3+8=13 units
+3rd query is of Type 1 which asks to increase the weights by 3 units, hence the new weights will be {3,4,5,6,7,8,9,10,11,12}
+Answer for 4th query =W0=3 units
+Answer for 5th query =W3+W4+W9=5+6+11=22 units
+
+
+
+
+Author:
+5★mayureshpatle
+
+
+Editorial:
+https://discuss.codechef.com/problems/CAC201
+
+
+Tags:
+
+               
+                 binary-search, mayureshpatle, prefix-sum
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-07-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

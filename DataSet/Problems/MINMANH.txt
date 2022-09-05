@@ -1,0 +1,143 @@
+
+You are given two sets of points SS and TT on the xyxy-plane. SS contains NN points and TT contains  MM points.
+The points (xi,yi)(xi,yi) in TT have a special property - for every 1≤i<M, xi+1>xi and yi+1<yi.
+For each point (x,y)∈T, find the minimum Manhattan distance between (x,y) and a point in S. Formally, for each (x,y)∈T, find
+min(xi,yi)∈S(|x−xi|+|y−yi|)
+Input Format
+
+The first line of input contains two space-separated integers N and M - the size of S and T, respectively.
+The next N lines each contain two space-separated integers xi and yi, representing the points of S.
+The last M lines each contain two space-separated integers xi and yi, representing the points of T.
+
+Output Format
+
+For each test case, output M lines. The i-th of these lines should contain a single integer, the minimum Manhattan distance between the i-th point in T and a point in set S.
+
+Constraints
+
+1≤N≤105
+1≤M≤105
+−109≤xi,yi≤109
+
+Subtasks
+Subtask 1(100 points): Original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2 2
+0 0
+1 1
+0 1
+1 0
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+1
+
+
+Explanation
+The sets are S={(0,0),(1,1)} and T={(0,1),(1,0)}. Every point in S is at a (Manhattan) distance of 1 from every point in T.
+
+                        Sample Input 2
+                        
+
+
+
+
+
+3 3
+2 2
+3 3
+3 1
+0 3
+3 1
+5 0
+
+
+
+                        Sample Output 2
+                        
+
+
+
+
+
+3
+0
+3
+
+
+Explanation
+The sets are S={(2,2),(3,3),(3,1)} and T={(0,3),(3,1),(5,0)}. 
+
+The point closest to (0,3) is (3,3), with distance 3
+The point (3,1) in S coincides with the point (3,1) in set T.
+The point closest to (5,0) is (3,1), with distance 3
+
+
+The points in red are the points of the set S and those in blue belong to set T. The green-coloured line segments represent the Manhattan distance between two points. 
+
+
+
+Author:
+4★jayeshaw
+
+
+Editorial:
+https://discuss.codechef.com/problems/MINMANH
+
+
+Tags:
+
+               
+                 Case work, Computational Geometry
+                 
+                     
+                     Special, Advanced Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2854
+
+
+Date Added:
+1-12-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

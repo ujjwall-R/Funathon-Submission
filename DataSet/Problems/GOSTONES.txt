@@ -1,0 +1,77 @@
+
+Satkkeerthi has decided to participate in the Game of Stones. There are nn cities numbered 11 to nn and m directed
+roads between the cities. 
+There is an infinitely large pile of stones in each city, of one particular colour. Each colour is described by a colour code, ai at the ith city.  
+A player must choose a path starting from one city, and at every city along the path, he/she adds one stone to the collection at hand. The score of a player is defined as the maximum number of stones collected of a particular colour. Help Satkkeerthi maximize his score and be declared the bearer of an aptronym!
+Input:
+The first line of input contains two integers n,m,the number of cities and the number of roads connecting them, respectively.
+The second line contains n integers separated by a space, ai denoting the colour code of the stone at city i.
+Then m lines follow, where each line contains two integers x and y, indicating that there is a directed road from city x to city y. We remind you that x and y may be equal, and do not guarantee complete connectivity of all cities.
+Output:
+Print a single integer, the maximum score which Satkkerthi can achieve. If his score can be arbitrarily large, print -1.
+Constraints:
+
+1≤n,m≤105
+1≤colourcode≤100
+1≤x,y≤n
+
+Sample input:
+ 5 6
+ 1 2 1 2 2
+ 1 2
+ 1 3
+ 1 4
+ 2 3
+ 4 5
+ 5 2
+
+Sample Output:
+   3
+
+Explanation:
+The path 4----2-----5 contains 3 stones of colour 2 and is thus the maximum score that can be obtained.
+
+
+
+Author:
+3★bluishgreen
+
+
+Tags:
+
+               
+                 bluishgreen, depth-first-search, dynamic-programming, graphs, jp2018, medium, topological-sort
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+1-06-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

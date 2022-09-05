@@ -1,0 +1,77 @@
+
+Dio has recently been watching too much Jojo's Bizzare Adventure anime. As a result of this he always speaks the word "Muda" when ending a sentence. His birthday is fast approaching and you as his best friend decides to gift him a string that contains at least one word "Muda". But unfortunately the string that you bought from the shop may not contain any such word. So you decide to change some characters to any other character so that the string contains at least one "Muda". Your task is to output the minimum numbers of operations that you need to perform such that the string contains at least one "Muda".
+Input:
+
+First line will contain TT, number of testcases. Then the testcases follow. 
+Each testcase contains of a single line the string SS. 
+
+Output:
+For each testcase, output in a single line the minimum number of operations required.
+Constraints
+
+1≤T≤101≤T≤10
+4≤|S|≤105
+
+Subtasks
+
+100 points: Original Constraints
+
+Sample Input:
+1
+afdMdda
+
+Sample Output:
+1
+
+EXPLANATION:
+The substring S[4..7] = "Mdda" requires only S[5] to be changed to character 'u'. Therefore the minimum number of operations is 1.
+Remember 'M' is different from 'm' .
+
+
+
+Author:
+4★nihal_47
+
+
+Editorial:
+https://discuss.codechef.com/problems/MUDAS
+
+
+Tags:
+
+               
+                 cakewalk, imti2020, nihal_47, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-04-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

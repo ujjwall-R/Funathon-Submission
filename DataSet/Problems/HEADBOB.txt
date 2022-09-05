@@ -1,0 +1,95 @@
+
+ Read problems statements in Mandarin Chinese  and Russian.
+Tanu has got interested in signs and gestures that we use for communication. One such gesture is the head-bob.When we want to signal "Yes" to someone, we move the head up-and-down. For "No", the head is moved left-and-right, rotating about the vertical axis. There is a peculiar way of gesturing "Yes", commonly seen in India, by moving head sideways (rotating about the forward-back axis). This is called the  Indian head-bob.Tanu observed many people on the railways station, and made a list of gestures that they made. Usual "Yes" gesture is recorded as "Y", no as "N" and Indian "Yes" gesture as "I". (Assume no foreigner uses the Indian "Yes" gesture and vice-versa). Identify which of them were Indians, which were not Indian, and which one you cannot be sure about.InputFirst line contains T, number of people observed by Tanu.Each person is described in two lines. First line of the description contains a single integer N, the number of gestures recorded for this person. Next line contains a string of N characters, each character can be "Y", "N" or "I".OutputFor each person, print "INDIAN" if he/she is from India, "NOT INDIAN" if not from India, and "NOT SURE" if the information is insufficient to make a decision.ConstraintsFor 30 points: 1 ≤ T,N ≤ 100For 70 points: 1 ≤ T,N ≤ 1000
+            
+            
+            
+            
+            
+                
+                    
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+5
+NNNYY
+6
+NNINNI
+4
+NNNN
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+NOT INDIAN
+INDIAN
+NOT SURE
+
+
+
+
+
+Author:
+3★piyushkumar
+
+
+Tester:
+5★xiaodao
+
+
+Editorial:
+https://discuss.codechef.com/problems/HEADBOB
+
+
+Tags:
+
+               
+                 Case work, Conditional Statements
+                 
+                     
+                     Special, Basic Programming Concepts
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1065
+
+
+Date Added:
+20-08-2014
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,115 @@
+
+Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Given a triplet of integers (X , Y , Z), such that X ≤ Y and Y ≥ Z, we define f(X , Y , Z) to be (X + Y) * (Y + Z). If either X > Y or Y < Z, or both, then f(X , Y , Z) is defined to be 0.
+You are provided three arrays  A , B and C   of any length (their lengths may or may not be equal).  
+Your task is to find the sum of f(X , Y , Z) over all triplets (X, Y , Z) where   X, Y and Z  belong to  A, B and C respectively.
+ Output your sum for each test case modulo 1000000007.
+Input
+
+The first line contains a single integer, T, which is the number of test cases. The description of each testcase follows:
+The first line of each testcase contains 3 integers: p, q and r. These denote the lengths of A,B and C respectively. 
+The second line contains p integers, which are the elements of A
+The third line contains q integers, which are the elements of B
+The fourth line contains r integers, which are the elements of C
+
+Output
+ Output the required sum modulo  1000000007  for each test case in a new line.
+Constraints
+
+1 ≤ T ≤ 10 
+1 ≤ p, q, r ≤ 100000 
+1 ≤ every array element ≤ 1000000000
+
+Subtasks  
+
+Subtask #1 (30 points): 1 ≤ p,q,r  ≤ 100 
+Subtask #2 (70 points): 1 ≤ p,q,r  ≤ 100000 
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1 
+3 1 3
+1 2 3
+5
+4 5 6
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+399
+
+
+Explanation
+ As there is only one choice for Y which equals to 5, to get a non-zero function value,we can choose any element for X from the set { 1 , 2 , 3 } and for Z from the set { 4  , 5 } 
+So triplets which give non-zero function values are: 
+ { 1 , 5  , 4 } :  ( 1 + 5 ) * ( 5 + 4 )  = 54 
+{ 1 , 5  , 5 } :  ( 1 + 5 ) * ( 5 + 5 )  = 60 
+{ 2 , 5  , 4 } :  ( 2 + 5 ) * ( 5 + 4 )  = 63 
+{ 2 , 5  , 5 } :  ( 2 + 5 ) * ( 5 + 5 )  = 70 
+{ 3 , 5  , 4 } :  ( 3 + 5 ) * ( 5 + 4 )  = 72 
+{ 3 , 5  , 5 } :  ( 3 + 5 ) * ( 5 + 5 )  = 80 
+Final answer : 54 + 60 + 63 + 70 + 72 + 80  = 399 
+
+
+
+Author:
+5★vipsharmavip
+
+
+Editorial:
+https://discuss.codechef.com/problems/SUMQ
+
+
+Tags:
+
+               
+                 Dynamic Programming, Prefix Sum, Suffix Sum
+                 
+                     
+                     Algorithms, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1772
+
+
+Date Added:
+17-05-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

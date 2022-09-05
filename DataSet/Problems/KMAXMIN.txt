@@ -1,0 +1,80 @@
+
+You are given an integer array( A ) of size N and an integer value K.
+Find the number of sub-arrays of A, such that the difference between maximum value and minimum value in the sub array is less than or equal to K.
+Sub-array is a contiguous portion of an array and two sub-arrays are different if their starting index or ending index is not same.
+Input:
+
+First line will contain two integers N and K, size of the array and the difference threshold. 
+Second line contains N space separated integers, representing the array elements. 
+
+Output:
+Print a single integer, the number of sub-arrays satisfying the above mentioned condition.
+Constraints
+
+1≤N≤100000
+0≤K,A[i]≤109
+
+Sample Input:
+3 2
+7 6 14
+
+Sample Output:
+4
+
+EXPLANATION:
+The sub-arrays which satisfy the condition are 
+
+[7] difference = 0
+[6] difference = 0
+[14] difference = 0
+[7,6] difference = 1
+
+
+
+
+Author:
+5★murugappan_s
+
+
+Editorial:
+https://discuss.codechef.com/problems/KMAXMIN
+
+
+Tags:
+
+               
+                 binary-search, ccpc2019, medium-hard, murugappan_s, range-minimum-query, segment-tree, sparse-table
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+19-06-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

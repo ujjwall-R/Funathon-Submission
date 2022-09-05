@@ -1,0 +1,70 @@
+
+You are given an array AA of nn integers as input. You have to remove a sub-array (can be empty) from the array AA to make it sorted, in increasing order. Find the minimum size of such a sub-array.
+Input:
+
+First line will contain n, the number of elements of array.
+Second line will contain array A of n integers.
+
+Output:
+Output the minimum size of a sub-array (can be empty) that can be removed from A, to make it sorted in increasing order.
+Constraints:
+
+1≤n≤105
+0≤A[i]≤109
+
+Sample Input:
+4
+1 3 5 7
+
+Sample Output:
+0
+
+
+
+
+Author:
+6★vok_8
+
+
+Editorial:
+https://discuss.codechef.com/problems/REMLS1
+
+
+Tags:
+
+               
+                 algorithm, binary-search, codechef, college-chapter, dynamic-programming, easy-medium, intm2020, medium, recursion, vok_8
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+19-11-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

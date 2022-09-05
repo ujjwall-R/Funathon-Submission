@@ -1,0 +1,83 @@
+
+You are now at NASA! This time, in a strange format, NASA conducts one event every day over a span of nn days. As a participant you can buy tickets. Each ticket is allowed to be used for any dd consective days.
+You are given a detailed plan of the NASA events, and one ticket. You now want to find out, what is the maximum number of unique events you can attend by attending using 1 ticket for some consecutive set of d days?
+Input Format
+
+The first line has T, the number of test cases.
+For each test case, the first line has two integers n and d.
+Each of the next n lines has a string, the names of each event. There are no spaces in any event’s name.
+
+Constraints
+
+1≤T≤10
+1≤d≤n≤104
+For each string denoting an event, 1≤ size of string ≤10 
+
+Output Format
+For each test case, print one line having the maximum number of unique events you can attend using one ticket.
+Sample Input
+2
+3 3
+lazarus
+lazarus
+lazarus
+5 3
+lazarus
+lazarus
+endurance
+apollo
+apollo
+
+Sample Output
+1
+3
+
+
+
+
+Author:
+5★shriram_c253
+
+
+Editorial:
+https://discuss.codechef.com/problems/SOPC009
+
+
+Tags:
+
+               
+                 data-structure, medium, shpc2019, shriram_c253
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-12-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

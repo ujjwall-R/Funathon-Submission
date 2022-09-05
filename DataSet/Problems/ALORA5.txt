@@ -1,0 +1,93 @@
+
+“We've all got both light and dark inside us. What matters is the part we choose to act on. That's who we really are.” 
+Dumbledore's Army arrived at "12 Grimmauld Place". But to enter this house they need to give a password. Dumbledore didn't want any death eater to his secret place thus he made finding the password tricky. You and Harry want to enter the headquarters. Help Harry to find the password.
+For a given  number n, the password is an array of 1+n∗(n−1)2 numbers. The value at ith index (0<=i<=n∗(n−1)2) in password array is count of permutations of first n natural numbers such that inversion count of the permutation is i. Since the values in password array can be very large, you need to provide the password array with values  MOD 104+7.
+An inversion in a permutation p is a pair of indices (i, j) such that i > j and pi < pj.
+For example, a permutation (4, 1, 3, 2) contains 4 inversions by considering the indices (assuming 1-based indexing): (2, 1), (3, 1), (4, 1), (4, 3).
+Help Harry before Death Eaters enter the headquarters.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The next line contains T space-separated integers, each of which denotes N for the ith test case. Here N denotes the length of the array for which the password has to be calculated.  
+
+Output
+
+For each test case, print all the 1+n∗(n−1)2 elements, separated by space, of the password array.  
+
+Constraints:
+
+1≤T≤50
+1≤N≤500
+
+Sample Input
+3
+1 3 5
+Sample output
+1
+1 2 2 1
+1 4 9 15 20 22 20 15 9 4 1
+Explanation
+For test case 1 - 
+The permutations are 
+
+1 ( 0 inversions)
+
+For test case 2 - 
+The permutations are 
+
+1 2 3 (0 inversions)
+2 1 3 (1 inversions)
+1 3 2 (1 inversions)
+3 1 2 (2 inversions)
+2 3 1 (2 inversions)
+3 2 1 (3 inversions)
+
+
+
+
+Author:
+5★vikas_nitd
+
+
+Editorial:
+https://discuss.codechef.com/problems/ALORA5
+
+
+Tags:
+
+               
+                 alohomora, mahonian-numbers, prefix-sum, recursion, vikas_nitd
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-01-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

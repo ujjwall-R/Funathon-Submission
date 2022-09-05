@@ -1,0 +1,81 @@
+
+ 
+Fluffy the squirrel just got an array as his birthday present! There are n integers in the array, a1, a2, ..., an. Fluffy doesn't like to see larger number in front of smaller numbers. Thus, he wants to choose some of the integers from the array, and destroy them. 
+
+Now, for each segment of the array that contains no destroyed elements, Fluffy wants the numbers to be non-decreasing, i.e. each element is at most equal to the one following it. For example, [3, 4, 4, 5] is non-decreasing but [4, 6, 5] isn't. He needs your help to find out how many ways are there to choose the set of integers to destroy (which may be empty or the entire set) such that all segments containing no destroyed elements are non-decreasing. Since the answer might be too large, he is just interested in the remainder of the answer when divided by 1000000007. (109 + 7)
+ 
+Input
+The first line of the input contains a single integer n, the number of integers of the array. The next line contains n space-seperated integers, a1, a2, ..., an, denoting the elements of the array.
+Output
+Output a single integer, the number of ways to destroy a set of integers such that all segments without a destroyed element are non-decreasing.
+Constraints
+
+1 ≤ n ≤ 100000
+1 ≤ ai ≤ 109
+
+Subtasks
+
+Subtask 1 (37 points) : 1 ≤ n ≤ 20
+Subtask 2 (63 points) : Original Constraints
+
+ 
+Example
+Input:
+3
+4 6 3
+
+Output:
+6
+
+ 
+Explanation
+Example case 1. There are 6 sets of integers that can be removed, and they are {3}, {6}, {3, 4}, {3, 6}, {4, 6}, {3, 4, 6}. Note that {6} can be removed because Fluffy will have two segments [4] and [3], which are both non-decreasing. Note that {} (the empty set, which means we remove none of the integers) can't be removed because [4, 6, 3] is not non-decreasing (6 > 3)
+
+
+
+Author:
+6★zscoder
+
+
+Editorial:
+https://discuss.codechef.com/problems/MCO16102
+
+
+Tags:
+
+               
+                 dynamic-programming, simple, zscoder
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+18-10-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, CPP14, PYTH, PYP3
+
+
+
+
+
+Submit
+

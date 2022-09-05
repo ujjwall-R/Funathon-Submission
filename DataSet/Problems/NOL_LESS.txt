@@ -1,0 +1,129 @@
+
+You are trying to create an array AA containing NN integers. However, your array-creating-machine has some restrictions. More formally, you are given a constant DD, and two arrays B and C, each with M elements, then:
+
+Ai≤D for all 1≤i≤N
+Ai≥Ai−1 for all 1<i≤N
+ACj⋅Bj≤D for all 1≤j≤M
+
+Find how many different arrays can you create. Since answer can be big, print it modulo 
+998244353.
+Input Format
+
+The first line of the input contains a single integer T - the number of test cases. The test cases then follow.
+The first line of each test case contains 3 integers N, M, and D - the length of the array A you need to create, the length of B and C, the constant from the statement.
+The i-th line of the next M lines of each test case contains two integers Ci and Bi.
+
+Output Format
+For each test case output a single integer - the number of different arrays you can create modulo 998244353.
+Constraints
+
+1≤T≤104
+1≤N≤107
+1≤M,D≤105
+1≤Ci≤N
+1≤Bi≤D
+It's guaranteed that the sum of M over all test cases doesn't exceed 105, and sum of D over all test cases doesn't exceed 105
+It's guaranteed that in each test case all Ci are different
+
+Subtasks
+
+Subtask 1 (30 points): sum of D over all test cases doesn't exceed 3000.
+Subtask 2 (70 points): Original constraints.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5
+4 2 6
+3 3
+1 4
+5 3 6
+4 2
+3 3
+1 4
+4 1 4
+3 2
+14 3 100
+3 39
+7 3
+10 11
+100 1 1000
+50 100
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+16
+33
+13
+547870382
+141926475
+
+
+Explanation
+
+Test case 1: One array is {1,1,1,1} and for each value of last element from 2 to 6, there are 3 possible combinations of first three values: {1,1,1}, {1,1,2}, {1,2,2}. Therefore there are a total of 1+5⋅3=16 possible arrays.
+
+
+
+
+Author:
+7★kristevalex
+
+
+Editorial:
+https://discuss.codechef.com/problems/NOL_LESS
+
+
+Tags:
+
+               
+                 Combinatorics, NTT, Dynamic Programming
+                 
+                     
+                     Mathematics, Transformations, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2984
+
+
+Date Added:
+23-12-2021
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

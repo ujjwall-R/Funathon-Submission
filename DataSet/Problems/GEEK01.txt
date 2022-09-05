@@ -1,0 +1,84 @@
+
+Problem Statement
+Let us define median of a square matrix M (of size N * N) as the median of the median of all rows. Given a matrix M, find it’s median.
+Input section
+The first line contains, T, denoting the number of test cases.
+First line of each test case consists an integer N, denoting the size of the matrix. Next N lines contains N space separated integers denoting the elements of the matrix.
+As the test files are upto 17 MB, it is advised to use faster input, output in C++ and Java. Time limit may be too strict for python users. You are advised to use pypy.
+Output section
+For each test case, print the median of the matrix, which is the median of the median of all rows.
+Input constraints
+1 ≤ T ≤ 10
+1 ≤ N ≤ 1000, N is odd.
+0 ≤ A[i][j] ≤ 105, where A[i][j] deontes the element of the matrix in ith row and jth column.
+
+Subtasks
+
+Subtask #1 (10 points) : 1 ≤ N ≤ 3
+Subtask #2 (30 points) : 1 ≤ N ≤ 100
+Subtask #3 (60 points) : Original Constraints
+
+Sample Input
+2
+3
+17526 49346 90822
+51879 9789 38513
+1337 56186 53770
+1
+93538
+
+Sample Output
+49346
+93538
+
+
+For the first test case, the medians of the rows are {49346, 38513, 53770}. So the overall median of matrix is 49346.
+
+
+
+Author:
+6★likecs
+
+
+Editorial:
+https://discuss.codechef.com/problems/GEEK01
+
+
+Tags:
+
+               
+                 cakewalk, likecs, likecs, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+9-11-2017
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

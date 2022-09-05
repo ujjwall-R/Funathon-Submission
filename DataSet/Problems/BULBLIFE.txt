@@ -1,0 +1,101 @@
+
+A bulb company claims that the average lifetime of its bulbs is at least XX units.
+The company ran a test on NN bulbs. You are given the lifetime of N−1N−1 of these bulbs. What is the minimum non-negative integer value of lifetime the remaining bulb can have, such that the claim of the company holds true?
+Input Format
+
+The first line contains a single integer T - the number of test cases. Then the test cases follow.
+The first line of each test case contains two integers N and X - denoting the number of test bulbs and the minimum average lifetime of bulbs in the company's claim.
+The second line of each test case contains N−1 space-separated integers A1,A2,…,AN−1 denoting the lifetimes of N−1 of the test bulbs.
+
+Output Format
+For each testcase, output the minimum non-negative integer value of lifetime the remaining bulb can have such that the claim of the company holds true.
+Constraints
+
+1≤T≤100
+2≤N≤100
+0≤Ai≤1000
+1≤X≤1000
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+3 4
+1 5
+4 2
+5 8 6
+3 1000
+0 0
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+6
+0
+3000
+
+
+Explanation
+Let Y denote the value of the lifetime of the remaining bulb.
+Test case 1: The remaining bulb must have lifetime no less than 6 units. The average lifetime with Y=6 is (1+5+6)3=4≥X. It can be proven that for any non-negative integer value of Y<6 it is not possible to have an average lifeftime of at least X=4.
+Test case 2: The average lifetime with Y=0 is (5+8+6+0)4=4.75≥X. Thus the minimum non negative value which satisfies the condition is Y=0.
+
+
+
+Author:
+utkarsh_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/BULBLIFE
+
+
+Tags:
+
+               
+                 cakewalk, math, start34, utkarsh_adm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+846
+
+
+Date Added:
+9-04-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,101 @@
+
+You are given a tree with N vertices. The vertices are numbered from 1 to N. Some of the vertices are colored black and some are colored red. Also, some vertices can be uncolored. There is at least one black and at least one red vertex.
+Compute the number of subsets of vertices W such that:
+
+Each vertex in W is uncolored.
+W is a connected subgraph of the tree.
+If you remove all the vertices of set W, there will be at least one pair of vertices (u,v) such that u is black and v is red, and there is no path from u to v.
+
+Output your answer modulo 109+7.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N denoting the number of vertices.
+Each of the next N−1 lines contains two space-separated integers u and v denoting an edge between vertices u and v.
+The next line contains N space-separated integers denoting the colors of the vertices. The ith of these integers is 0 if vertex i is uncolored, 1 if it's black, or 2 if it's red.
+
+Output
+For each test case, print a single line containing one integer denoting the number of ways to select a valid subset W, modulo 109+7.
+Constraints
+
+1≤T≤2⋅105
+2≤N≤105
+1≤u,v≤N
+Sum of N over all test cases doesn't exceed 106
+
+Example Input
+2
+6
+1 2
+1 3
+1 4
+3 5
+3 6
+0 1 0 1 2 0
+6
+1 2
+1 3
+1 4
+3 5
+3 6
+1 0 0 0 2 0
+
+Example Output
+5
+2
+
+Explanation
+Test Case 1: The possible subsets W are {1}, {3}, {1,3}, {3,6} and {1,3,6}.
+Test Case 2: The possible subsets W are {3} and {3,6}.
+
+
+
+Author:
+admin2
+
+
+Editorial:
+https://discuss.codechef.com/problems/BLREDSET
+
+
+Tags:
+
+               
+                 Trees
+                 
+                     
+                     Data Structures, Graphs
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-11-2017
+
+
+Time Limit:
+5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

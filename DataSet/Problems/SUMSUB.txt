@@ -1,0 +1,121 @@
+
+Chef has a sequence of NN integers A1,A2,…,ANA1,A2,…,AN. He defines a function f(i,j)f(i,j) as follows:
+f(i,j)=Ai+max(Ai,Ai+1)+max(Ai,Ai+1,Ai+2)+⋯+max(Ai,Ai+1,…,Aj)
+Chef tries to find the sum of f(i,j) over all (i,j) such that 1≤i≤j≤N (i.en∑i=1n∑j=if(i,j)), but fails. Can you help him find the sum? 
+Since the sum can be very large, find it modulo (109+7).
+Note: Since the size of the input and output is large, please use fast input-output methods.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains an integer N.
+The second line contains N space-separated integers A1,A2,…,AN.
+
+Output Format
+For each test case, print a single line containing one integer - the required sum i.e n∑i=1n∑j=if(i,j) modulo (109+7).
+Constraints
+
+1≤T≤5⋅103
+1≤N≤2⋅105
+1≤Ai≤109
+Sum of N over all test cases does not exceed 106.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+2
+1 2
+3
+1 2 3
+4
+5 4 1 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+6
+20
+82
+
+
+Explanation
+Test case 1: 
+
+f(1,1)=A1=1.
+f(1,2)=A1+max(A1,A2)=1+max(1,2)=1+2=3.
+f(2,2)=A2=2. 
+
+Hence the required sum =1+3+2=6.
+Test case 2: 
+
+f(1,1)=A1=1.
+f(1,2)=A1+max(A1,A2)=1+max(1,2)=1+2=3.
+f(1,3)=A1+max(A1,A2)+max(A1,A2,A3)=1+max(1,2)+max(1,2,3)=1+2+3=6.
+f(2,2)=A2=2. 
+f(2,3)=A2+max(A2,A3)=2+max(2,3)=2+3=5.
+f(3,3)=A3=3. 
+
+Hence the required sum =1+3+6+2+5+3=20.
+
+
+
+Author:
+5★soumyadeep_21
+
+
+Editorial:
+https://discuss.codechef.com/problems/SUMSUB
+
+
+Tags:
+
+               
+                 Stacks, Dynamic Programming, Observation
+                 
+                     
+                     Data Structures, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2636
+
+
+Date Added:
+4-10-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

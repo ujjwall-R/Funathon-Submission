@@ -1,0 +1,102 @@
+
+Read problems statements in Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+You have three shoes of the same size lying around. Each shoe is either a left shoe (represented using 00) or a right shoe (represented using 11). Given AA, BB, C, representing the information for each shoe, find out whether you can go out now, wearing one left shoe and one right shoe.
+Input Format
+
+The first line contains an integer T, the number of test cases. Then the test cases follow.
+Each test case contains a single line of input, three integers A, B, C.
+
+Output Format
+For each test case, output in a single line the answer: 1 if it's possible to go out with a pair of shoes and 0 if not.
+Constraints
+
+1≤T≤8
+0≤A,B,C≤1
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+0 0 0
+0 1 1
+1 0 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+1
+1
+
+
+Explanation
+Test Case 1: Since there's no right shoe, it's not possible to go out with a pair of shoes.
+Test Case 2: It's possible to go out with a pair of shoes wearing the first and last shoes.
+Test Case 3: It's possible to go out with a pair of shoes wearing the first and second shoes.
+
+
+
+Author:
+6★ashishgup
+
+
+Tester:
+7★aryanc403
+
+
+Editorial:
+https://discuss.codechef.com/problems/SHOEFIT
+
+
+Tags:
+
+               
+                 Case work, Conditional Statements, Brute Force
+                 
+                     
+                     Special, Basic Programming Concepts, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+925
+
+
+Date Added:
+19-07-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

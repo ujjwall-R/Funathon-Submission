@@ -1,0 +1,107 @@
+
+Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
+Alice and Bob have got an integer NN. They decide to play a game. Alice and Bob make alternating moves: Alice makes the first move, Bob makes the second move, Alice makes the third one, and so on. The game continues until NN becomes 00. The player who is unable to make a move loses.
+During each turn a player can make one of the following moves:
+
+Choose an integer XX such that XX can be expressed as 2Y2Y, Y≥1Y≥1. The chosen XX must also be a factor of NN. After choosing an integer XX which satisfies the mentioned criteria, the player will divide NN by XX. 
+If Move 11 is not possible , the player will subtract 11 from NN.
+
+Predict the winner of the game if the game is played optimally by both the players.
+Input Format
+
+The first line of input contains a single integer TT denoting the number of test cases. The description of TT test cases follows.
+The first line of each test case contains an integer NN.
+
+Output Format
+For each test case, print "Alice" if Alice wins the game else print "Bob". Print the output without quotes.
+Constraints
+
+1≤T≤2∗1051≤T≤2∗105
+1≤N≤10181≤N≤1018
+
+Subtasks
+
+10 points : 1≤N≤201≤N≤20 ,  1≤T≤20
+30 points : 1≤N≤105,  1≤T≤105
+60 points : 1≤N≤1018
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+1
+2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Alice
+Bob
+
+
+Explanation
+Test case 1: Alice can't perform the first move, hence she subtracts 1 from N and N becomes 0. Bob can't make a move now.
+Test case 1: Alice first divides N by 2 , after which N becomes 1. Bob, in the next move decrements N by 1 after which N becomes 0 and Alice loses.
+
+
+
+Author:
+6★munch_01
+
+
+Editorial:
+https://discuss.codechef.com/problems/ALBOFACE
+
+
+Tags:
+
+               
+                 Case work, Basic Maths
+                 
+                     
+                     Special, Mathematics
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1837
+
+
+Date Added:
+22-09-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

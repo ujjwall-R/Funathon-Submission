@@ -1,0 +1,101 @@
+
+
+A number X is called Permut number if X and 2X ( both without leading zeroes ) have same number of digits and are permutations of each other. Given A and B, find the number of Permut numbers >= A and <= B.
+
+
+Note : X is called permutation of Y if every digit ( 0 - 9 ) occurs same number of times in both the numbers ( maybe at different positions ).
+
+
+Input :
+
+
+The first line contains the number of test cases T. T lines follow, containing two integers A and B.
+
+
+Output :
+
+
+Output T lines, one for each test case containing the desired answer for the corresponding test case.
+
+Constraints :
+1 <= T <= 10000
+1 <= A <= B <= 10000000000 (10^10)
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+1 100
+499875921 499875921
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+1
+
+
+
+
+
+Author:
+syco_adm
+
+
+Tester:
+4★anshuman_singh
+
+
+Editorial:
+https://discuss.codechef.com/problems/ARRANGE2
+
+
+Tags:
+
+               
+                 hard, july10, syco_adm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2168
+
+
+Date Added:
+5-05-2010
+
+
+Time Limit:
+0.153836 secs
+
+
+Source Limit:
+5000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

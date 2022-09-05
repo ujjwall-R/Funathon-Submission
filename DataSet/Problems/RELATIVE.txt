@@ -1,0 +1,88 @@
+
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+In Chefland, the speed of light is c m/sc m/s, and acceleration due to gravity is g m/s2g m/s2. 
+Find the smallest height (in meters) from which Chef should jump such that during his journey down only under the effect of gravity and independent of any air resistance, he achieves the speed of light and verifies Einstein's theory of special relativity.
+Assume he jumps at zero velocity and at any time, his velocity (v) and depth of descent (H) are related as
+v2=2⋅g⋅H.
+Input
+
+The first line contains an integer T, the number of test cases. Then the test cases follow.
+Each test case contains a single line of input, two integers g, c.
+
+Output
+For each test case, output in a single line the answer to the problem. We can show that under the constraints, the answer is an integer.
+Constraints
+
+1≤T≤5⋅103
+1≤g≤10
+1000≤c≤3000
+2⋅g divides c2.
+
+Subtasks
+Subtask #1 (100 points): Original constraints
+Sample Input
+3
+7 1400
+5 1000
+10 1000
+
+Sample Output
+140000
+100000
+50000
+
+Explanation
+Test Case 1: For Chef to achieve the speed of light, the minimum height required is c22⋅g = 1400⋅140014 = 140000 meters.
+Test Case 3: For Chef to achieve the speed of light, the minimum height required is c22⋅g = 1000⋅100020 = 50000 meters.
+
+
+
+Author:
+daanish_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/RELATIVE
+
+
+Tags:
+
+               
+                 Physics, Mathematics, Brute Force
+                 
+                     
+                     Special, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+28-06-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,84 @@
+
+Problem Name:
+MYBOOKS
+Problem Definition :
+There are n students who are waiting in a queue for getting their favourite books from the library. The library contains infinite copies of m books. Now a student likes a particular book if the number of pages of that book lies in the range he wants. In short every student wants a book to be of l minimum pages and r maximum pages, where l and r varies as per student, and are inclusive. You have to tell the number of books that every student gets and the total number of pages he can read. Note that, each student, takes only one copy of a particular book
+Constraints :
+
+1 <= T <= 10
+1 <= m <= 105
+1 <= n <= 104
+1 <= pages in a book <= 4000
+1 <= li<=ri <= 5000
+
+Input :
+
+The first line contains T, the number of testcases.
+For each testcase:
+The first line contains two integers n and m, no of students and no of books in library respectively.
+Next line contains m space seperated integers denoting the numbers of pages in m books respectively.
+Next line contain li i.e left range or minimum no of pages that a student wants a book to have
+Next line contain ri i.e right range or maximum no of pages that a student wants a book to have (Look at the sample testcase for clear idea)
+
+Output :
+
+For each testcase output n lines, each line containing two space seperated integers denoting the no of books that a students gets and the no of pages he has to read.
+
+Sample Testcase
+Input :
+14 525 56 38 31 10020 30 40 6030 40 60 120
+Output:
+1 252 691 561 100
+Explanation:
+As 1st student wants to read books within pages 20 and 30 and there is only one book available of pages 25 so the output is 1 book and total 25 pages. As 2nd student wants to read books within pages 30 and 40 and there are two books of pages 31 and 38 available so he gets 2 books and total 69 pages(31+38). Similarly for other students.
+
+
+
+
+
+Author:
+4★shmabulock
+
+
+Editorial:
+https://discuss.codechef.com/problems/BOOK
+
+
+Tags:
+
+               
+                 binary-search, easy, kjcs2018, prefix-sum, shmabulock
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+25-09-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,86 @@
+
+Agent Chef 
+RAW (Indian spy agency) hacked into a terrorist computer which according to 
+their intelligence contains information about future terrorist attacks. But there is
+a problem that the computer uses a particular encryption technique to safeguard its 
+data. That computer gives a token, which consists of space separated elements. These 
+elements are numbers each ranging from 0 to 9. It is known this encryption can be broken 
+by constructing a number with the given elements in the order given by the computer and
+adding the reverse of that number to the original number. The sum so obtained is the key
+to break the encryption. This mission to construct the decryption device has been given to
+agent Chef. Help the Chef construct this device. 
+Input Format: 
+First line contains an integer T, representing no. of test cases.
+For each of test cases:
+First line contains an integer N, representing size of token.
+Second line contains N elements of token that are space separated.
+
+Output Format: 
+For each test case output will be a token of space separated elements.
+Constraints: 
+T <= 20
+1 <= N <= 1000 
+Each element will be a number from 0 to 9
+Examples: 
+Input
+2
+6
+2 1 4 2 6 7
+5
+1 3 2 8 0
+Output
+9 7 6 6 7 9
+2 1 5 1 1
+Explanation:
+First line gives T=2 (2 test cases). 6 in next line means there will be 6 elements in the 
+token and the next line has the token itself. Output is 9 7 6 6 7 9 as 214267+762412=976679.
+ Similarly, 13280+08231=21511 for the second test case.
+
+
+
+Author:
+1★akshatjain2209
+
+
+Editorial:
+https://discuss.codechef.com/problems/CDIT03
+
+
+Tags:
+
+               
+                 akshatjain2209, array, cdit2016, easy-medium
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+11-03-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

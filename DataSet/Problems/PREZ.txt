@@ -1,0 +1,129 @@
+
+You are given a string SS of length NN, which consists of digits from 00 to 9. You can apply the following operation to the string:
+
+Choose an integer L with 1≤L≤N and apply Si=(Si+1)mod10 for each 1≤i≤L.
+
+For example, if S=39590, then choosing L=3 and applying the operation yields the string S=406_90.
+The prefix of string S of length l(1≤l≤∣S∣) is string S1S2…Sl. A prefix of length l is called good if S1=0,S2=0,…,Sl=0. Find the length of the longest good prefix that can be obtained in string S by applying the given operation maximum K times.
+Input Format
+
+The first line of input contains an integer T, denoting the number of test cases. The T test cases then follow:
+The first line of each test case contains two space-separated integers N,K.
+The second line of each test case contains the string S.
+
+Output Format
+For each test case, output in a single line the length of the longest good prefix that can be obtained in string S by applying the given operation maximum K times.
+Constraints
+
+1≤T≤105
+1≤N≤105
+0≤K≤109
+∣S∣=N
+S contains digits from 0 to 9
+Sum of N over all test cases does not exceed 3⋅105.
+
+Subtasks
+
+Subtask 1 (100 points): Original constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+6
+3 5
+380
+3 9
+380
+4 2
+0123
+5 13
+78712
+6 10
+051827
+8 25
+37159725
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+3
+1
+3
+2
+5
+
+
+Explanation
+Test case 1: There is no way to obtain zeros on the prefix of the string S=380 by applying the given operation maximum 5 times.
+Test case 2: The optimal strategy is: choose L=2 and apply the operation twice, resulting in S=500, then choose L=1 and apply the operation 5 times, resulting in S=000.
+Test case 4: One of the possible sequence of operations is the following:
+
+Choose L=5 and apply the operation thrice, resulting in S=01045.
+Choose L=2 and apply the operation 9 times, resulting in S=90045. 
+Choose L=1 and apply the operation once, resulting in S=00045. 
+
+
+
+
+Author:
+5★soumyadeep_21
+
+
+Tester:
+7★tabr
+
+
+Editorial:
+https://discuss.codechef.com/problems/PREZ
+
+
+Tags:
+
+               
+                 binary-search, easy, ltime104, modular-arithmetic, soumyadeep_21
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1790
+
+
+Date Added:
+7-01-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

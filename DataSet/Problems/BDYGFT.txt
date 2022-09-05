@@ -1,0 +1,81 @@
+
+Vishal Wants to buy 2 gifts for his best friend whose name is Annabelle(her age is 20), So they both went for shopping in a store. But Annabelle gave, Vishal a condition that she will accept this gifts only when the total price of the gifts is the same as her age times 100.
+The store contains, a list of items whose prices are also displayed, Now Vishal is asking for your help to buy gifts, as he wants to impress Annabelle this time.
+Note: Vishal cannot buy the same item more than once.
+Input:
+
+The first line of the input contains a single integer T. T denoting the number of test cases. The description of T test cases is as follows.
+The next line of the input contains a single integer N. N denotes the total number of items in store.
+The next line of the input contains N space-separated integers A1,A2,A3...An where ith number denotes the price of ith element.
+
+Output:
+
+For each test-case print "Accepted"(without quotes) if the gifts are accepted by Annabelle, else print "Rejected"(without quotes)
+
+Constraints:
+
+1≤T≤103
+1≤N≤105
+1≤A1,A2,A3...An≤107
+
+Sample Input:
+1
+5
+10 2 1000 50 1000
+
+Sample Output:
+Accepted
+
+Explanation:
+
+As the given list of items have 2 items whose price sum up to the age times 100 of Annabelle i.e. 1000+1000 = (20 *100)    
+
+
+
+
+Author:
+pro_army
+
+
+Editorial:
+https://discuss.codechef.com/problems/BDYGFT
+
+
+Tags:
+
+               
+                 array, arys2020, easy, pro_army
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-11-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

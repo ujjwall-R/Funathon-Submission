@@ -1,0 +1,94 @@
+
+There is an urgent need of N agents for N missions. The missions are numbered from 1 to N. All agents have some intelligence level denoted by their IQ (a positive integer ) . Major Francis asked Perry the platypus for the list of agents to be sent on missions. For each mission: i, there is  a default agent available (Ai) , and an Special agent (Bi) which may want some money(Ci)  to go on mission. Perry is busy with Candice, now you have to prepare the list of agents with the minimum amount to pay. Remember that Perry loves sorted things.  
+More formally you have to make a non−decreasing list of the agent's IQ by either selecting a default agent or paid agent , with minimum possible payment, Or determine that list cannot be made.  
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase consists of 4 lines.
+First line of each testcase contains integer N denoting no. of missions.
+Second line contains N space separated integers   (Ai)
+describing IQ level of default agent for the ith mission . 
+Third line contains N space separated integers  (Bi)
+describing IQ level of special agent for the ith mission.  
+Fourth line contains N space separated integers   (Ci)
+describing the cost  of  ith special agent.
+
+Output:
+For each testcase, print in a single line the minimum cost that satisfys the given condition or −1  , if not possible.  
+Constraints
+
+1≤T≤1000
+1≤N≤4000 
+1≤Ai,Bi≤109
+0≤Ci≤100
+
+Sample Input:
+3
+3
+1 4  2
+5 2 6
+4 5 6
+2
+5 2
+6 2
+7 2
+4
+4  2  2  5
+1  4  5  8
+10 2 3  16  
+Sample Output:
+5
+ -1
+5  
+EXPLANATION:
+In first testcase  agents list possibles are:    [1 ,2 ,2] with 5 cost  and, [1 ,4, 6]  with 6 cost .
+In second no sorted list of agents are possible :) 
+
+
+
+Author:
+4★sherlock8696
+
+
+Editorial:
+https://discuss.codechef.com/problems/PERRY
+
+
+Tags:
+
+               
+                 dynamic-programming, sherlock8696, str2020
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+3-10-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

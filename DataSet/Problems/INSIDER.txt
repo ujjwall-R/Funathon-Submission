@@ -1,0 +1,127 @@
+
+Read problem statements in Mandarin Chinese Vietnamese, and Russian
+You are given an array AA with NN positive integers.
+An xx-insider of this array is a subsequence of A such that x is strictly in between any two consecutive elements of the subsequence. 
+More formally, a subsequence S=[s0,s1,…sk−1] of the array A is an x-insider if for every integer i such that 1≤i≤k−1, either
+
+si−1<x<si or
+si−1>x>si
+
+For example, for the array [1,4,2,4], the subsequence [1,4,2] is a 3-insider because 1<3<4 and 4>3>2. The subsequence [1,2] is not an x-insider for any integer x. The subsequence [1,4] is a 2-insider as well as a 3-insider. 
+Let mk be the smallest integer such that A contains an mk-insider of length exactly k. If such an integer does not exist then mk=−1.
+Similarly, let Mk be the largest integer such that A contains an Mk-insider of length exactly k. If such an integer does not exist then Mk=−1.
+Find m2,m3,…mN and M2,M3,…MN.
+Input Format
+
+The first line contains an integer T, the number of testcases. The description of the T testcases follows.
+Each testcase consists of two lines.
+The first line contains a single integer, N, the size of the array A.
+The second line contains N space-separated integers, A1,A2,…AN, the elements of the array A.
+
+Output Format
+
+For each testcase print two lines.
+In the first line print N−1 space separated integers, the values of m2,m3,…mN respectively.
+In the second line print N−1 space separated integers, the values of M2,M3,…MN respectively.
+
+Constraints
+
+1≤T≤105
+2≤N≤105
+sum of N over all testcases ≤2⋅105
+1≤Ai≤109 for all valid i
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+5
+1 2 4 1 5
+3
+1 1 1
+3
+3 2 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2 2 2 -1
+4 3 3 -1
+-1 -1
+-1 -1
+2 -1
+2 -1
+
+
+Explanation
+Test Case 1: The given array is [1,2,4,1,5]. 
+Insiders of length 2: The only subsequences of length 2 that are x-insiders for integer values of x are [1,4],[1,5],[4,1],[2,4],[2,5]. The subsequences [1,4],[1,5],[4,1] are 2-insiders. All of them are 3-insiders. The subsequences [1,5] and [2,5] are 4-insiders. Thus m2=2 and M2=4.
+Insiders of length 3: The subsequences of length 3 that are x-insiders for some integer x are [1,4,1], [2,4,1], and [4,1,5]. [1,4,1] is both a 2-insider and a 3-insider; [2,4,1] is only a 3-insider; and [4,1,5] is both a 2-insider and a 3-insider. Thus m3=2 and M3=3.
+Insiders of length 4: The subsequences of length 4 that are x-insiders for some integer x are [1,4,1,5] and [2,4,1,5]. [1,4,1,5] is both a 2-insider and a 3-insider ; and [2,4,1,5] is a 3-insider. Thus m4=2 and M4=3.
+Insiders of length 5: The only subsequence of length 5 is the array A itself, which is not an x-insider for any integer value of x. Thus m5=M5=−1.
+Hence the answers for this testcase are m=[2,2,2,−1] and M=[4,3,3,−1].
+Test Case 2: The given array is [1,1,1]. Since all elements are equal, none of the subsequences of this array are x-insiders (for any integer x). Hence the answers are m=[−1,−1] and M=[−1,−1].
+Test Case 3: The only subsequence (of length at least 2) that is an x-insider (for integer values of x) is [3,1] which is a 2−insider. Hence the answers are m=[2,−1] and M=[2,−1].
+
+
+
+Author:
+srikkanth_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/INSIDER
+
+
+Tags:
+
+               
+                 Difference Arrays, Greedy, Sliding Window, Sorting, Binary Search
+                 
+                     
+                     Data Structures, Arrays, Algorithms, Searching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+26-10-2021
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

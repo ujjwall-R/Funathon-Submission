@@ -1,0 +1,84 @@
+
+Please Help !! Only few minute's left for the contest. I am stuck with one problem can you help me.
+Problem Statement: -
+Given an array A of length N your task is to find the maximum sum of k length contiguous subarray possible.
+You can help him as you already finish your all question, instead of giving whole solution you will reply to it's test cases.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+The first line of each test case contains two space separated integers N, denoting length of the array A and K denoting length of the contiguos subarray to be chosen.
+The second line contain N space separated integers A[i] denoting element at each index i.
+
+Output:
+
+For each test case print a single line containing an integers that denote the maximum sum of k lenght contiguos subarray possible.
+
+Constraints
+
+1≤T≤100
+1≤N≤105
+1≤K≤N
+−1000≤A[i]≤1000
+
+Subtasks
+
+40 points : 1≤N≤1000
+60 points : Original Constraints
+
+Sample Input:
+   1
+   6 2
+   1 2 -2 5 -1 2
+
+Sample Output:
+    4
+
+
+
+
+Author:
+4★mann2108
+
+
+Editorial:
+https://discuss.codechef.com/problems/CR3
+
+
+Tags:
+
+               
+                 array, basic-programming, cakewalk, ils42019, mann2108, mann2108, subarray
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-09-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

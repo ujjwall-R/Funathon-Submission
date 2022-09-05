@@ -1,0 +1,125 @@
+
+ 
+Jumping Jack is new to the Heroic Society.He is so obsessed with jumping that he can do it the whole day without getting tired
+Jumping Jack likes challenges a lot, and he is challenged by the beautiful Cho Chang to jump a river.
+Since Jumping Jack can't jump the river in a single leap, Cho Chang gave him N magical leaves which will float on water.
+Jumping Jack arranged the leaves in a stright line on the water's surface.
+The last leaf arraged by Jumping Jack represents the bank of the river. If Jumping Jack can reach the last leaf then it means that 
+  can cross the river.
+
+Jumping jack has three different style of jumping which are as follows:
+
+Jump one step forward
+Jump two steps forward 
+Jump three steps forward 
+
+But there's a twist in the game.Cho Chang unknowingly gave him some pseudo-magical leaves.
+If Jumping Jack steps on any pseudo-magical leaf he will drown.
+You are given the information about the leaves arranged by Jumping Jack in the form of an array A.
+A[i] is Zero if the leaf is magical and One if it is pseudo-magical
+Find out whether it is possible for Jumping Jack to cross the river or not,
+if YES then the minimum leaps required by him to cross the river.
+if NOthen print "Never Give Up" without quotes.
+Note: Reaching the last leaf is considered as crossing the river. If Jumping Jack can't reach the last leaf then he can't cross the river
+Initially Jumping Jack is standing on the first leaf.
+
+ 
+Input
+The first line of the input contains an integer T denoting the number of test cases.
+   The description of T test cases follows.
+   First line of each test case contains an integer N
+   Second line contains N space separated integers denoting whether the leaf is magical(0) or pseudo-magical(1)
+ 
+Output
+For each test case output one single line the minimum number of leaps required to cross the river if it is possible.
+  If it is not possible to cross the river then print "Never Give Up" without quotes
+ 
+Constraints and subtasks
+
+0 ≤ Ai ≤ 1
+
+Subtask 1: 30 points
+1 ≤ T ≤ 50
+1 ≤ N ≤ 20000
+
+Subtask 2: 70 points
+1 ≤ T ≤ 1000
+1 ≤ N ≤ 2000000
+
+ 
+Example
+Input:
+4
+3
+0 0 0
+5
+0 1 1 0 0
+7
+0 1 1 0 1 0 0
+5
+0 1 1 1 0
+
+Output:
+1
+2
+2
+Never Give Up
+
+
+ 
+Explanation
+Example case 1. Jumping Jack can reach the last leaf in a single leap of two steps.
+Example case 1. Jumping Jack can reach the last leaf in two leaps 
+  one leap of 3 steps and another of 1 step.
+Example case 1. Jumping Jack can reach the last leaf in two leaps 
+  both leaps of 3 steps.
+Example case 1. Jumping Jack can NOT reach the last leaf.
+
+
+
+Author:
+2★priyanshu789
+
+
+Editorial:
+https://discuss.codechef.com/problems/SRTX16C
+
+
+Tags:
+
+               
+                 array, easy, maths, priyanshu789, srtx2016
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+9-11-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+JAVA, C, CPP14, PYP3, CS2, WSPC
+
+
+
+
+
+Submit
+

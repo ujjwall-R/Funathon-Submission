@@ -1,0 +1,109 @@
+
+A lot of people participating in a contest are obsessed with looking at the leaderboard to see how they are doning (Even you might have checked it just now. Hope you are doing well :P).
+Considering there are NN teams participating and there are MM problems in the contest. What would be the expected number of problems solved by the team at rank K on the leaderboard?
+If the expected value is P/Q you must print the value P∗Q−1%MOD, where MOD=109+7.
+Input
+
+First line contains T, number of test case,
+For each test case, you are given 3 space seperated integers N, M and K.
+
+Output
+
+For each test case print the desired answer.
+
+Constraints
+
+1≤T≤10
+1≤K≤N≤109
+1≤M≤50
+
+Sample Input
+2
+1 1 1
+2 2 2
+
+Sample Output
+500000004
+545454550
+
+Explanation
+For the first test case, there can be only 2 possiblities(Here S represents solved and U represents unsolved) - 
+U
+S
+Therefore expected number of problems solved by rank 1 = 1∗(1/2)+0∗(1/2)=1/2
+For the second example there can be 11 possibilities - 
+2 problems solved by rank 2 -
+SS
+SS
+1 problem solved by rank 2 -
+SS
+SU
+SS
+US
+SU
+SU
+SU
+US
+US
+SU
+US
+US
+0 problem solved by rank 2 -
+SU
+UU
+US
+UU
+UU
+UU
+SS
+UU
+Therefore expected number of problems solved by rank 2 - 0∗(4/11)+1∗(6/11)+2∗(1/11)=8/11
+
+
+
+Author:
+6★dvyn01
+
+
+Editorial:
+https://discuss.codechef.com/problems/LDRBRD
+
+
+Tags:
+
+               
+                 combinatorics, dvyn01, dynamic-programming, maths, matrix-exponentiation, onco2020
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+30-01-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

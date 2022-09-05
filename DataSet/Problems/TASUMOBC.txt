@@ -1,0 +1,112 @@
+
+ Read problems statements in Mandarin Chinese  and Russian.
+ As we all know, Binomial Coefficient C(n, r) is defined by the
+following formula. 
+
+
+
+Also define S(n) as follows. 
+ 
+
+Note that n will be provided to you as an input parameter.
+
+Since S(n) can be very large, please print it modulo (109 + 7).
+
+Input
+
+The first line contains a single integer T representing the number of test cases.
+Each of the next T lines contains an integer n.
+
+Output
+
+For each test case, output a single line containing the value of S(n) modulo (109 + 7). 
+
+Constraints
+
+10 points:
+1 ≤ T ≤ 300
+1 ≤ n ≤ 300
+
+
+30 points:
+1 ≤ T ≤ 105
+1 ≤ n ≤ 5000
+
+
+60 points:
+1 ≤ T ≤ 105
+1 ≤ n ≤ 1018
+
+Example
+Input:
+5
+1
+2
+3
+4
+5
+
+Output:
+2
+4
+2
+4
+8
+
+
+
+
+
+Author:
+tuan_adm
+
+
+Tester:
+6★stzgd
+
+
+Editorial:
+https://discuss.codechef.com/problems/TASUMOBC
+
+
+Tags:
+
+               
+                 Digit DP, Lucas Theorem, Permutations & Combinations
+                 
+                     
+                     Advanced Algorithms, Advanced DP, Mathematics, Modular Arithmetic, Combinatorics
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2383
+
+
+Date Added:
+6-12-2014
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

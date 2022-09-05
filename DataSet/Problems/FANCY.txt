@@ -1,0 +1,100 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+"I don't have any fancy quotes." - vijju123
+Chef was reading some quotes by great people. Now, he is interested in classifying all the fancy quotes he knows. He thinks that all fancy quotes which contain the word "not" are Real Fancy; quotes that do not contain it are regularly fancy.
+You are given some quotes. For each quote, you need to tell Chef if it is Real Fancy or just regularly fancy.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single string S denoting a quote.
+
+Output
+For each test case, print a single line containing the string "Real Fancy" or "regularly fancy" (without quotes).
+Constraints
+
+1≤T≤50
+1≤|S|≤100
+each character of S is either a lowercase English letter or a space
+
+Subtasks
+Subtask #1 (100 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+i do not have any fancy quotes
+when nothing goes right go left
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Real Fancy
+regularly fancy
+
+
+Explanation
+Example case 1: "i do not have any fancy quotes"
+Example case 2: The word "not" does not appear in the given quote.
+
+
+
+Author:
+5★shivam_g1470
+
+
+Editorial:
+https://discuss.codechef.com/problems/FANCY
+
+
+Tags:
+
+               
+                 String, Implementation
+                 
+                     
+                     Data Structures, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1279
+
+
+Date Added:
+1-01-2019
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

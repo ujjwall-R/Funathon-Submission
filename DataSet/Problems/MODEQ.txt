@@ -1,0 +1,129 @@
+
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Given integers NN and MM, find the number of ordered pairs (a,b)(a,b) such that 1≤a<b≤N and ((M mod a) mod b)=((M mod b) mod a).
+Input
+
+The first line contains an integer T, the number of test cases. Then the test cases follow. 
+The only line of each test case contains two integers N, M. 
+
+Output
+For each testcase, output in a single line the answer to the problem.
+Constraints
+
+1≤T≤1000
+2≤N≤106
+1≤M≤5⋅105
+The sum of N over all test cases does not exceed 106.
+
+Note: Multiplier for JAVA for this problem is reduced to 1.25 instead of usual 2.
+Subtasks
+Subtask #1 (10 points): 
+
+1≤T≤10
+2≤N≤103
+1≤M≤105
+
+Subtask #2 (40 points): 
+
+1≤T≤100
+2≤N≤105
+1≤M≤105
+The sum of N over all test cases does not exceed 106.
+
+Subtask #3 (50 points): Original Constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+3 5
+3 6
+3 10
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+3
+2
+
+
+Explanation
+Test Case 1: There are 2 valid pairs satisfying the conditions. These are:
+
+(1,2): (1≤1<2≤N). Given M=5, ((5%1)%2)=(0%2)=0. Also, ((5%2)%1)=(1%1)=0.
+(1,3): (1≤1<3≤N). Given M=5, ((5%1)%3)=(0%3)=0. Also, ((5%3)%1)=(2%1)=0.
+
+Test Case 2: There are 3 valid pairs satisfying the conditions. These are:
+
+(1,2): (1≤1<2≤N). Given M=6, ((6%1)%2)=(0%2)=0. Also, ((6%2)%1)=(0%1)=0.
+(1,3): (1≤1<3≤N). Given M=6, ((6%1)%3)=(0%3)=0. Also, ((6%3)%1)=(0%1)=0.
+(2,3): (1≤2<3≤N). Given M=6, ((6%2)%3)=(0%3)=0. Also, ((6%3)%2)=(0%2)=0.
+
+Test Case 3: There are 2 valid pairs satisfying the conditions. These are:
+
+(1,2): (1≤1<2≤N). Given M=10, ((10%1)%2)=(0%2)=0. Also, ((10%2)%1)=(0%1)=0.
+(1,3): (1≤1<3≤N). Given M=10, ((10%1)%3)=(0%3)=0. Also, ((10%3)%1)=(1%1)=0.
+
+
+
+
+Author:
+daanish_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/MODEQ
+
+
+Tags:
+
+               
+                 Sieve of Eratosthenes, Divisors, Binary Search
+                 
+                     
+                     Mathematics, Number Theory, Integer Factorisation, Algorithms, Searching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1761
+
+
+Date Added:
+28-04-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

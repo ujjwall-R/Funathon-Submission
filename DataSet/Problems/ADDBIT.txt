@@ -1,0 +1,79 @@
+
+ Loki was working with binary strings and he encountered an interesting problem.
+ In Loki's world, binary strings are stored in reverse, i.e., the least significant bit is stored in the first character of the string, the next significant bit is stored in the second character, and so on; the most significant bit is stored in the last character.
+ Let N be the number of bits in the binary string 
+Loki was going to add "1" to this binary string. Find the number of bits among the N bits of the string which change their state. 
+  If the result of the addition to the binary string increases the number of bits, the newly formed bits are discarded.  
+Input
+ The first line consists of T, the number of test cases. Each case consists of S, the binary string, on a single line. 
+Output
+Print one integer for each test case - the number of bits in the string whose state changes, when we add the value "1" to the string. 
+Constraints
+ 1 <= T <= 10
+ 1 <= Length of String S, i.e., |S| <= 100 
+Example
+Input:
+3
+0
+100
+11
+
+Output:
+1
+2
+2
+
+ 
+Explanation
+Example case 1. The binary string is "0". When we add "1" to it, it becomes "1". Hence, the number of bits which changed their state is 1. 
+Example case 2. The binary string is "001". When we add "1" to it, it becomes "010". Hence, the number of bits which changed their state is 2. 
+Example case 3. The binary string is "11". When we add "1" to it, it becomes "100". But we will discard newly added bits from the string, as mentioned in the problem. Hence the answer is 2. 
+
+
+
+Author:
+5★akshayvenkat97
+
+
+Editorial:
+https://discuss.codechef.com/problems/ADDBIT
+
+
+Tags:
+
+               
+                 akshayvenkat97, cakewalk, popc2018, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+14-01-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,79 @@
+
+You are given an integer NN.  
+Your task is to find any two integers A,BA,B such that 1≤A,B≤2∗N1≤A,B≤2∗N and difference of A and B exactly equals to N i.e. A−B=N.
+Input:
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer N. 
+
+Output:
+
+For each testcase, output two space-separated integers A,B in newline.
+
+Constraints
+
+1≤T≤105
+1≤N≤109
+
+Sample Input:
+2
+5
+6
+
+Sample Output:
+6 1
+7 1
+
+EXPLANATION:
+Test case 1 : If we choose A = 6 and B = 1 then A - B = 5.
+Note :  A = 7 and B = 2 is also a valid answer but A = 11 and B = 6 not because 11 > 2*N.
+Test case 2 : If we choose A = 7 and B = 1 then A - B = 6.
+
+
+
+Author:
+5★pankajsharma1
+
+
+Editorial:
+https://discuss.codechef.com/problems/D2C102
+
+
+Tags:
+
+               
+                 basic-math, cakewalk, d2co2020, pankajsharma1
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+20-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

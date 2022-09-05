@@ -1,0 +1,107 @@
+
+The Fundamental Theorem of Arithmetic states that every number can be represented uniquely by its prime factorization, which is the decomposition of the number into the product of its prime powers.
+Formally, the prime factorization of a number N=pq11×pq22×pq33⋯×pqmmN=pq11×pq22×pq33⋯×pqmm, where p1,p2,p3,...,pmp1,p2,p3,...,pm are the prime factors, and q1,q2,q3,…,qmq1,q2,q3,…,qm are the corresponding exponents, such that pqii is the largest power of the prime pi that divides N.
+You're given the prime factorization of a number N. You need to process Q queries. In each query, you will be given a positive integer K. Let's call a divisor, D of N overpowered relative to K if the sum of exponents in the prime factorization of D equals to K. 
+More formally, if D=pr11×pr22×pr33⋯×prmm, then D is an overpowered divisor of N relative to K iff it divides N and r1+r2+r3+⋯+rm=K.
+You need to print the sum of each distinct overpowered divisor of N relative to K modulo 998244353.
+Input Format
+
+The first line contains a single integer m, the number of prime factors in the prime factorization of N.
+The next m lines contains two space-separated integers pi qi, describing the prime factorization of N.
+The next line contains a single integer Q, the number of queries. Description of the queries follows.
+The next Q lines consist of a single integer Ki describing the ith query.
+
+Output Format
+For each query, you have to print a single integer, the answer to that query.
+Constraints
+
+0≤m≤5×104
+1≤pi≤106
+1≤qi≤105
+Sum of qi over all primes won't exceed 105.
+0≤K≤105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+2 3
+3 2
+1
+3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+38
+
+
+Explanation
+
+We have N=23×32=72, and the only query we need to process is K=3.
+We notice that there are exactly three distinct overpowered divisors of 72 relative to 3, i.e., 21×32=18 (as 1+2=3), 22×31=12 (as 2+1=3), and 23×30=8 (as 3+0=3).
+Hence, the sum of each distinct overpowered divisor of 72 relative to 3 is 18+12+8=38.
+
+
+
+
+Author:
+6★hitch_hiker42
+
+
+Editorial:
+https://discuss.codechef.com/problems/OPDIVF
+
+
+Tags:
+
+               
+                 FFT, Divide and Conquer
+                 
+                     
+                     Mathematics, Transformations, Algorithms, Recursion
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+18-07-2021
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

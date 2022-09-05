@@ -1,0 +1,112 @@
+
+Alice has a bucket of water initially having WW litres of water in it. The maximum capacity of the bucket is XX liters.
+Alice turned on the tap and the water starts flowing into the bucket at a rate of YY litres/hour. She left the tap running for exactly Z hours. Determine whether the bucket has been overflown, filled exactly, or is still left unfilled.
+Input Format
+
+The first line of input will contain a single integer T, denoting the number of test cases. The description of the test cases follows.
+Each test case consists of a single line of input containing four space-separated integers W, X, Y, Z.
+
+Output Format
+For each test case, print the answer on a new line:
+
+If the bucket has overflown print overflow
+If it is exactly filled print filled
+If it is still unfilled, print unfilled
+
+You may print each character of the string in uppercase or lowercase (for example, the strings filled, FIlled, fiLLed, and FILLED will all be treated as identical).
+Constraints
+
+1≤T≤1000
+1≤W,X,Y,Z≤1000
+
+Subtasks
+
+Subtask 1 (100 points):
+Original constraints.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+1 2 3 4 
+10 70 10 6 
+2 100 4 3
+4 3 2 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+overFlow
+filled
+Unfilled
+overflow
+
+
+Explanation
+Test case 1: Initially the bucket had 1 litre of water, we then added 3 litres of water for 4 hours. Thus, the total bucket inflow was 1+3×4=13 litres. Since this is greater than the capacity of 2 litres, the bucket will OVERFLOW
+Test case 2: Initially the bucket had 10 litres of water, we then added 10 litres of water for 6 hours. Thus, the total bucket inflow was 10+10×6=70 litres. Since this is equal to the capacity of 70 litres, the bucket will be FILLED
+Test case 3: Initially the bucket had 2 litres of water, we then added 4 litres of water for 3 hours. Thus, the total bucket inflow was 2+4×3=14 litres. Since this is lesser than the capacity of 100 litres, the bucket will be UNFILLED.
+Test case 4: Initially the bucket had 4 litres of water, we then added 2 litres of water for 1 hours. Thus, the total bucket inflow was 4+2×1=6 litres. Since this is more than the capacity of 3 litres, the bucket will OVERFLOW.
+
+
+
+Author:
+mradul_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/WATERFLOW
+
+
+Tags:
+
+               
+                 Basic Maths
+                 
+                     
+                     Mathematics
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+483
+
+
+Date Added:
+29-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

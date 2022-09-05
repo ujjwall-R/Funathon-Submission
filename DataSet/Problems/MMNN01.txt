@@ -1,0 +1,107 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+A cake consists of NN pieces arranged in a row. Each piece has one of MM distinct flavours (numbered 1 through M) which are available in Chef's kitchen. For each valid i, the cost of the i-th flavour is i rupees.
+When Chef bakes a cake, he chooses the flavour of each piece independently and uniformly randomly from these M flavours. After baking the cake, he splits it into several contiguous segments (each piece must belong to exactly one segment) and sells each segment to a different customer.
+The price of a segment is the sum of costs of all distinct flavours of the pieces in that segment. For example, the cost of a segment with flavours (1,2,1,5) is 1+2+5=8. Chef's profit is the sum of prices of all segments. Chef is very greedy, so he wants to maximise his profit, but he is also a perfectionist, so he wants to split the cake into the minimum number of segments such that his profit is still the largest possible.
+Chef is wondering about the number of customers he would be able to serve. Help him find the expected value of the number of segments he would split a cake into.
+It can be proved that this expected value can be expressed as a fraction p/q, where p and q are positive integers and q is coprime to 109+7. You should find p⋅q−1 modulo 109+7, where q−1 denotes the multiplicative inverse of q modulo 109+7.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers N and M.
+
+Output
+For each test case, print a single line containing one integer p⋅q−1 modulo 109+7.
+Constraints
+
+1≤T≤2⋅105
+1≤N≤2⋅105
+1≤M≤109
+the sum of N over all test cases does not exceed 2⋅105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+4 2
+5 6
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+875000009
+948302478
+
+
+Explanation
+Example case 1:
+For the following sequences of flavours, the cake can be divided into:
+
+2 segments: (1,2,1,2),(1,2,2,1),(2,1,1,2),(2,1,2,1)
+3 segments: (1,1,1,2),(1,1,2,1),(1,1,2,2),(1,2,1,1),(1,2,2,2),(2,1,1,1),(2,1,2,2),(2,2,1,1),(2,2,1,2),(2,2,2,1)
+4 segments: (1,1,1,1),(2,2,2,2)
+
+The expected value of the number of segments is (2⋅4+3⋅10+4⋅2)/16=23/8.
+
+
+
+Author:
+3★mamnoonsiam
+
+
+Editorial:
+https://discuss.codechef.com/problems/MMNN01
+
+
+Tags:
+
+               
+                 Expected Value, Generating Functions, FFT
+                 
+                     
+                     Mathematics, Probability, Sequences and Progression, Transformations
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2975
+
+
+Date Added:
+16-10-2019
+
+
+Time Limit:
+2.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

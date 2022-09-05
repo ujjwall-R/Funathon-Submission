@@ -1,0 +1,81 @@
+
+After the hundred years of war started by the Fire Nation, its time for the Water Tribes to bring it to an end. Avatar asked Sokka to go to the Southern WarZone from The Northern WarZone and gave him some money in a bag for his journey. Sokka has the World Map to guide him during his journey . The World Map is described as a NxN grid where the Northern WarZone is denoted by (0,0) and the Southern WarZone is denoted by (N−1,N−1). Each location on the world map is denoted in a similar way by two integers r and c. For each location having:  
+
+r=c denotes neutral land ( (0,0) and (N−1,N−1) also come under this category)       
+r<c denotes the land under the rule of Water Tribes     
+r>c denotes the land under the rule of Fire Kingdom   
+
+Being wise Sokka travels only from one location to any other valid location (by valid location we mean a location which exists on the world map grid i.e. for that location 0≤r<N and 0≤c<N ) just to the right (r,c+1) or below (r+1,c) the current location randomly. Due to the times of war , Sokka has to pay one coin  each time he transitions from one nation to another. Here a transition is counted when Sokka is in Water Tribe land and moves to Fire Nation Land crossing the neutral land or vice versa .The first move is obviously never counted as a transition. Moreover , the coin is to be payed exactly once for one such transition (eg. if he makes this transition k times he has to pay k coins).  
+The initial number of coins Sokka has is 2∗N. The probability that the coins he has when he reaches his destination is lesser than the number of coins he started his journey with can be expressed as a fraction P/Q, where P and Q are integers (P≥0,Q>0)  and Q is co-prime with (109)+7. You should compute P/Q modulo (109)+7 for T values of N.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains of a single line of input, one integer N, the size of the world map grid. 
+
+Output:
+For each testcase, output in a single line , the Probability modulo (10^9)+7.
+Constraints
+
+1≤T≤100000
+2≤N≤109
+
+Sample Input:
+2    
+
+5
+2    
+Sample Output:
+200000002     
+
+0  
+EXPLANATION:
+For N=2, there is no possible path in which Sokka has to spend money, so the final number of coins in the bag is not lesser than the initial amount.
+
+
+
+Author:
+6★kkdrummer
+
+
+Editorial:
+https://discuss.codechef.com/problems/COW3F
+
+
+Tags:
+
+               
+                 combinatorics, cow42020, kkdrummer, medium-hard, probability
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-04-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

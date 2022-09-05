@@ -1,0 +1,125 @@
+
+You are given two arrays AA and BB, each of size N. You can perform the following types of operations on array A.
+
+Type 1: Select any prefix of A and increment all its elements by 1.
+Type 2: Select any suffix of A and increment all its elements by 1.
+
+Your task is to transform the array A into array B using the minimum number of operations. If it is impossible to do so, output −1.
+For an array A having N elements:
+
+A prefix of the array A is a subarray starting at index 1.
+A suffix of the array A is a subarray ending at index N.
+
+Input Format
+
+First line will contain T, number of test cases. Then the test cases follow.
+The first line of each test case contains a single integer N, the size of arrays A and B.
+The next line contains N space-separated integers, where the ith integer denotes Ai.
+The next line contains N space-separated integers, where the ith integer denotes Bi.
+
+Output Format
+For each test case, print a single line containing one integer ―  minimum operations required to convert A into B. Print −1 if it is impossible to convert A into B.
+Constraints
+
+1≤T≤104
+1≤N≤105
+−1014≤Ai,Bi≤1014
+Sum of N over all test cases does not exceed 2⋅105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+5
+2 3 5 1 2
+4 3 6 2 3
+4
+0 0 0 0
+1 2 2 1
+3
+1 2 3
+1 2 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+2
+-1
+
+
+Explanation
+Test Case 1: Given A=[2,3,5,1,2]. It can be converted to array B=[4,3,6,2,3] in 3 operations:
+
+Operation 1: Perform a type 1 operation. Choose the prefix of length 1 and increment the elements by 1. Thus, the updated array is A=[3,3,5,1,2].
+Operation 2: Perform a type 1 operation. Choose the prefix of length 1 and increment the elements by 1. Thus, the updated array is A=[4,3,5,1,2].
+Operation 3: Perform a type 2 operation. Choose the suffix of length 3 and increment the elements by 1. Thus, the updated array is A=[4,3,6,2,3].
+
+It can be proven that we cannot convert the array A into array B in less than 3 operations.
+Test Case 2: Given A=[0,0,0,0]. It can be converted to array B=[1,2,2,1] in 2 operations:
+
+Operation 1: Perform a type 1 operation. Choose the prefix of length 3 and increment the elements by 1. Thus, the updated array is A=[1,1,1,0].
+Operation 2: Perform a type 2 operation. Choose the suffix of length 3 and increment the elements by 1. Thus, the updated array is A=[1,2,2,1].
+
+It can be proven that we cannot convert the array A into array B in less than 2 operations.
+Test Case 3: Given A=[1,2,3]. The value of A[3] will always be greater than B[3]. Hence, it is impossible to convert A into B using any number of operations.
+
+
+
+Author:
+6★piyush_2007
+
+
+Editorial:
+https://discuss.codechef.com/problems/PRESUFOP
+
+
+Tags:
+
+               
+                 easy-medium, piyush_2007, prefix-suffix, start30
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2317
+
+
+Date Added:
+14-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

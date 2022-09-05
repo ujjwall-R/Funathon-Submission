@@ -1,0 +1,118 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef and Dhyey have become friends recently. Chef wants to test Dhyey's intelligence by giving him a puzzle to solve.
+The puzzle contains an integer sequence A1,A2,…,AN. The answer to the puzzle is the maximum of Ai%Aj, taken over all valid i, j.
+Help Dhyey solve this puzzle.
+Input
+
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1,A2,…,AN.
+
+Output
+For each test case, print a single line containing one integer — the answer to the puzzle.
+Constraints
+
+2≤N≤105
+1≤Ai≤109 for each valid i
+
+Subtasks
+Subtask #1 (30 points): 2≤N≤1,000
+Subtask #2 (70 points): 2≤N≤105
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5  
+1 2 3 4 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+
+
+
+                        Sample Input 2
+                        
+
+
+
+
+
+6  
+5 5 5 2 3 8
+
+
+
+                        Sample Output 2
+                        
+
+
+
+
+
+5
+
+
+
+
+
+Author:
+5★raj1238
+
+
+Editorial:
+https://discuss.codechef.com/problems/MAXREM
+
+
+Tags:
+
+               
+                 Modular Arithmetic, Basic Maths, ad-hoc
+                 
+                     
+                     Mathematics, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1221
+
+
+Date Added:
+23-03-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

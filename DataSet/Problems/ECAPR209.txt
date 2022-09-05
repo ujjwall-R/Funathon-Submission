@@ -1,0 +1,90 @@
+
+Naruto is conducting exams for the junior ninjas and has come up with a new form of examination. 
+A maze of MM X MM is constructed in the form of a matrix (1-indexed). Each cell has a monster of power level Mi,jMi,j. 
+The ninjas also have their power level P and they can only beat monsters with power level strictly less than their own power level.
+The ninjas are made to enter the maze at the cell indexed 1,1. The ninjas fight the monster and if they win, they can clone themselves and send one clone each towards left, right, up, and down to fight other monsters. They can send a clone to a cell only once and the clones have power the same as the original. The clones upon entering a new cell, fight the monster and the whole process is repeated.
+You will be asked Q queries, for each query you will be given the power level of the ninja entering the maze. Find the number of monsters he or she will kill.
+With some weird technique, Naruto revives all the killed monsters after each query for the next ninja.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+First line contains N and Q.
+Following N lines represent the matrix, each line containing N integers.
+The nest line contains Q elements, each representing a query.
+
+Output:
+For each testcase, print Q lines, of which the ith line is the answer to the ith query.
+Constraints
+
+1≤T≤10
+2≤M,Q≤103
+2≤Mi,j,Pi≤105
+
+Sample Input:
+1
+3 4
+1 3 4 
+2 4 3
+9 3 8 
+4 1 10 3
+
+Sample Output:
+3
+0
+9
+2
+
+EXPLANATION:
+Second query: The power level is not enough to beat the monster in the cell [1,1], so the answer is 0.
+Third query: The power is high enough to beat all monsters. 
+First query: Can kill monsters in the cell [1,1], [2,1] and [1,2].
+Fourth Query: Can kill monsters in the cell [1,1] and [1,2].
+
+
+
+Author:
+5★sandeep1103
+
+
+Editorial:
+https://discuss.codechef.com/problems/ECAPR209
+
+
+Tags:
+
+               
+                 breadth-first-search, encd2020, offline-query, priority-queue, sandeep1103, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+18-04-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

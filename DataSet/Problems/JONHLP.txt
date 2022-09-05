@@ -1,0 +1,85 @@
+
+Peely and Jonesy are playing game of Energy Sequences.
+Energy Sequence is known as [x,x∗e,x∗e2,x∗e3,......,x∗ek][x,x∗e,x∗e2,x∗e3,......,x∗ek] for any value xx and k, where e=energy
+Peely gives Jonesy a Sequence and Energy, Jonesy's task is to find the longest energy sub-sequence of the given Sequence.
+As Always Jonesy is busy, He asks your help to complete the task.  
+sub-sequence of an array can be obtained by erasing some (possibly zero) elements from the array.
+You can erase any elements, not necessarily going successively. The remaining elements preserve their order.
+For example, for the array [1,2,3,4,5] the following arrays are sub-sequences: [1], [1,2,3,4,5], [2,3,5], but the array [4,1] is not.  
+Input:
+
+First line will contain T, number of Testcases. Then the Testcases follow. 
+First line of each test case contains two space separated integers N,E denoting the numbers in Sequence and E denoting the energy given by Peely 
+Second line of each test case contains N space separated integers A1,A2,A3,......AN denoting the sequence given by Peely.
+
+Output:
+For each Testcase, output a single line containing the length of longest sub-sequence.
+Constraints
+
+1≤T≤100
+2≤N≤105
+2≤E≤102
+1≤Ai≤109
+
+Subtasks
+
+30 points : 1≤N≤1000 
+70 points : Original Constraints 
+
+Sample Input:
+1
+6 2
+6 2 3 4 1 8  
+Sample Output:
+3
+EXPLANATION:
+Here, [2,4,8] is the longest sub-sequence it can be represented by [2,2∗2,2∗22] with energy=2 so the length of Longest sub-sequence is 3.
+
+
+
+Author:
+3★mj_13
+
+
+Editorial:
+https://discuss.codechef.com/problems/JONHLP
+
+
+Tags:
+
+               
+                 dynamic-programming, easy, imti2020, mj_13
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+25-04-2020
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,99 @@
+
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+There are N integers X1, X2, ..., XN.
+Let's define Yi,j = Xi × Xj mod 359999.
+How many integer 6-tuples (a, b, c, d, e, f) are there such that:
+
+
+1 ≤ a, b, c, d, e, f ≤ N
+gcd(Ya, b, Yc, d, Ye, f) = 1
+
+
+We define gcd(0, 0) = 0.
+Input
+The first line of input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N integers separated by single spaces: X1, X2, ..., XN.
+Output
+For each test case, output a single line containing the answer. Since the answer can be very large, only output it modulo 109 + 7.
+Constraints
+
+1 ≤ T ≤ 3
+1 ≤ Xi ≤ 106
+
+Subtasks
+Subtask #1 (47 points):
+
+1 ≤ N ≤ 103
+
+
+Subtask #2 (53 points):
+
+1 ≤ N ≤ 106
+The sum of the Ns is ≤ 106
+
+Example
+Input:
+1
+3
+300 3000 30000
+
+Output:
+234
+
+
+
+
+Author:
+7★kevinsogo
+
+
+Tester:
+6★iscsi
+
+
+Editorial:
+https://discuss.codechef.com/problems/TUPLES
+
+
+Tags:
+
+               
+                 Primitive Root, Chinese Remainder Theorem, Inclusion Exclusion Principle, FFT, Mobius Function
+                 
+                     
+                     Mathematics, Number Theory, Modular Arithmetic, Set Theory, Transformations, Mobius Inversion
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2940
+
+
+Date Added:
+8-12-2016
+
+
+Time Limit:
+6 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

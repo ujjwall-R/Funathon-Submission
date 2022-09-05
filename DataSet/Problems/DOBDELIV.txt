@@ -1,0 +1,85 @@
+
+You are given a MM x MM grid representing a city. A cell in this grid is represented as (i,j)(i,j), i.e. the cell at the i-th row and j-th column in the grid. You own two trucks A and B that deliver goods. Truck A is located at at (Ax,Ay) and Truck B is located at (Bx,By). Both trucks have an infinite number of goods. The two trucks could initially be at the same location.
+The distance to travel between cells (i1,j1) and (i2,j2) is the Manhattan Distance, i.e.,  |i1−i2|+|j1−j2| units.
+Your company has to serve N orders, where the i-th order is located at position (xi,yi). An order is said to be served if some truck moves to the location of the i-th order. Additionally, the i-th order can be served only once all order numbers from 1 to i−1 have been served.
+What is the minimum total distance that the trucks must travel to serve all N orders?
+Input:
+
+First line will contain N, the number of orders to serve.
+The next line contains 2 space separated integers, Ax,Ay, the co-ordinates of truck A
+The next line contains 2 space separated integers, Bx,By, the co-ordinates of truck B
+N lines lines follow, i-th of which contains 2 space separated integers, (xi,yi), the location of the i-th order.
+
+Output:
+Print a single integer, denoting the minimum total distance travelled by the trucks.
+Constraints
+
+1≤N≤5000
+1≤Ax,Ay,Bx,By,xi,yi≤109
+
+Subtasks
+
+30 points : 1≤N≤100 and 1≤Ax,Ay,Bx,By,xi,yi,≤100
+70 points : original constraints
+
+Sample Input:
+3
+3 2
+4 2
+2 1
+2 4
+2 1  
+Sample Output:
+6
+EXPLANATION:
+Truck A serves orders 1 and 3 while truck B serves order number 2. Total distance covered by A is 2 units and by B is 4 units. The total distance covered by both trucks combined is 6 units and this is optimal.
+One should keep in mind that order number 3 is not served instantly when truck A arrives at location (2,1). Instead it is served only after both orders 1 and 2 have been served.
+
+
+
+Author:
+5★vastolorde95
+
+
+Editorial:
+https://discuss.codechef.com/problems/DOBDELIV
+
+
+Tags:
+
+               
+                 dynamic-programming, easy-medium, locapr18, vastolorde95
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2548
+
+
+Date Added:
+26-04-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

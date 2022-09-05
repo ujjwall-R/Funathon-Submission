@@ -1,0 +1,102 @@
+
+Read problems statements in Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Given an array AA of NN non-negative integers, you can choose any non-negative integer X and replace every element Ai with (Ai⊕X) Here, ⊕ denotes the bitwise XOR operation.
+Using the above operation exactly once, your goal is to minimize the bitwise OR of the new array. In other words, find X such that (A1⊕X)∨⋯∨(AN⊕X) is minimized, where ∨ denotes the bitwise OR operation.
+Find the value of X and the minimum possible bitwise OR of the new array.
+Input Format
+
+The first line contains a single integer T - the number of test cases. Then T test cases follow.
+The first line of each test case contains a single integer N - the length of the array.
+The next line contains N integers A1,…,AN.
+
+Output Format
+For each test case, print two integers: X and the minimum possible bitwise OR of the new array.
+If there are multiple values of X that achieve the minimum bitwise OR, print any of them.
+Constraints
+
+1≤T≤5000
+1≤N≤100
+0≤Ai≤109
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+2
+4 6
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+6 2
+
+
+Explanation
+Here, if we take X=6, then our expression would become (4⊕6)∨(6⊕6)=2∨0=2, which is the minimum possible.
+
+
+
+Author:
+5★prasant21
+
+
+Tester:
+7★aryanc403
+
+
+Editorial:
+https://discuss.codechef.com/problems/XORORED
+
+
+Tags:
+
+               
+                 Bitwise Operation
+                 
+                     
+                     Mathematics, Bit Manipulation
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1621
+
+
+Date Added:
+15-07-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,78 @@
+
+The chef may be losing his mind.  He has demanded you solve the following task: 
+given an integer P, find the smallest positive integer whose product of digits, modulo 1000000007, is P.
+You can't imagine what this has to do with cooking, but you'd better do what he says or you won't get to sample his culinary delights.
+
+Input:
+Input will begin with a positive integer T<=15, the number of test cases.
+T lines follow, each containing an integer P between 0 and 1000000006, inclusive.
+Output:
+For each test case, print on a single line the smallest positive integer whose product of digits, modulo 1000000007, is P.
+It is guaranteed that such an integer exists with fewer than 700 digits.
+Sample input:
+4
+16
+486
+220703118
+0
+Sample output:
+28
+699
+5555555555555
+10
+
+
+
+Author:
+david_adm
+
+
+Tester:
+Maksflow
+
+
+Editorial:
+https://discuss.codechef.com/problems/DIGITS
+
+
+Tags:
+
+               
+                 Number Theory, Greedy, Binary Search
+                 
+                     
+                     Mathematics, Algorithms, Searching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+25-09-2010
+
+
+Time Limit:
+2.48684 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

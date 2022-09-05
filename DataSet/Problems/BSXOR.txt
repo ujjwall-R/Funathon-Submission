@@ -1,0 +1,106 @@
+
+Chef has a binary string SS of length NN. He wonders if it is possible to divide SS into exactly K non-empty substrings such that each Si belongs to exactly one substring and the XOR of each substring is the same. Can you help Chef to determine if it is possible to do so?
+Note: XOR of substring SL⋯R is defined as: XOR(SL⋯R)=SL⊕SL+1⊕⋯⊕SR.
+Here, ⊕ denotes the bitwise XOR operation.
+Input Format
+
+The first line contains a single integer T - the number of test cases. Then the test cases follow.
+The first line of each test case contains two integers N and K - the length of the binary string S and the number of substrings in which S has to be divided.
+The second line of each test case contains a binary string S of length N containing 0s and 1s only.
+
+Output Format
+For each test case, output YES if S can be divided into K substrings such that XOR of each substring is the same. Otherwise, output NO.
+You may print each character of YES and NO in uppercase or lowercase (for example, yes, yEs, Yes will be considered identical).
+Constraints
+
+1≤T≤105
+1≤K≤N≤105
+Sum of N over all test cases does not exceed 2⋅105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+3 2
+111
+5 3
+01100
+8 3
+01001111
+6 2
+000100
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+NO
+YES
+YES
+NO
+
+
+Explanation
+Test case 1: It can be proven that there is no way to divide S=111 into K=2 substrings such that XOR of each substring is the same.
+Test case 2: One of the possible ways of dividing S is: 0_ 11_ 00_. Here XOR of each substring is 0.
+Test case 3: One of the possible ways of dividing S is: 01_ 001_ 111_. Here XOR of each substring is 1.
+Test case 4: It can be proven that there is no way to divide S=000100 into K=2 substrings such that XOR of each substring is the same.
+
+
+
+Author:
+6★jeevanjyot
+
+
+Editorial:
+https://discuss.codechef.com/problems/BSXOR
+
+
+Tags:
+
+               
+                 jeevanjyot, simple, start34, strings, xor
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1943
+
+
+Date Added:
+9-04-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,104 @@
+
+You are given an integer NN. Find the number of distinct XORs it is possible to make using two positive integers no larger than NN.
+Formally, let SS be the set
+S={x⊕y∣1≤x,y≤N}S={x⊕y∣1≤x,y≤N}
+where ⊕ denotes the bitwise XOR operation. 
+Find |S| (where |S| denotes the size of set S. Note that a set, by definition, has no repeated elements). The answer might be large, so output it modulo 109+7.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case consists of a single line of input, which contains one integer N.
+
+Output Format
+For each test case, output a single line containing the answer, modulo 109+7.
+Constraints
+
+1≤T≤105
+1≤N≤1012
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+1
+3
+7
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+4
+8
+
+
+Explanation
+Test Case 1: N=1, so the only XOR we can possibly make is 1⊕1=0. Thus, the answer is 1.
+Test Case 2: N=3, which gives us S={0,1,2,3} as the set of possible XORs. Thus, the answer is |S|=4.
+
+
+
+Author:
+6★munch_01
+
+
+Tester:
+7★aryanc403
+
+
+Editorial:
+https://discuss.codechef.com/problems/BRTXORS
+
+
+Tags:
+
+               
+                 Modular Arithmetic, Basic Maths, Bitwise Operation
+                 
+                     
+                     Mathematics, Bit Manipulation
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1977
+
+
+Date Added:
+12-12-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

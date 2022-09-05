@@ -1,0 +1,74 @@
+
+Zen and Zenny decided to play a game.Game consist of P apples in a container B and they have also an array A with N elements.Game is played as follows , each player take turn to pick an element from the array and removes that number of apples from the container B, the player who is unable to remove the apples from the container looses the game. Zen start the game and if both players play optimally , your task is to determine the winner.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each test case contain two lines , first line contain two integer P and N and second line contain elements of array A. 
+
+Output:
+For each test case print name of the winner of the game .
+Constraints
+
+1≤T≤1000
+1≤P≤10000
+1≤N≤100
+1≤A[i]≤P
+
+Sample Input:
+2
+3 2
+1 2
+5 3
+1 2 3
+Sample Output:
+Zenny
+Zen
+
+
+
+Author:
+3★dcpandey
+
+
+Editorial:
+https://discuss.codechef.com/problems/ZEN5
+
+
+Tags:
+
+               
+                 dcpandey, dynamic-programming, uiet2020
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+8-08-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

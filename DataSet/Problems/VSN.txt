@@ -1,0 +1,100 @@
+
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+You are given two points PP and QQ and an opaque sphere in a three-dimensional space. The point PP is not moving, while Q is moving in a straight line with constant velocity. You are also given a direction vector d with the following meaning: the position of Q at time t is Q(t)=Q(0)+d⋅t, where Q(0) is the initial position of Q.
+It is guaranteed that Q is not visible from P initially (at time t=0). It is also guaranteed that P and Q do not touch the sphere at any time.
+Find the smallest positive time tv when Q is visible from P, i.e. when the line segment connecting points P and Q does not intersect the sphere.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains 13 space-separated integers.
+The first three integers Px,Py,Pz denote the coordinates of P.
+The next three integers Qx,Qy,Qz denote the initial coordinates of Q.
+The next three integers dx,dy,dz denote the components of the direction vector d.
+The last four integers cx,cy,cz,r denote the coordinates of the centre of the sphere and its radius.
+
+Output
+For each test case, print a single line containing one real number — the time tv. Your answer will be considered correct if its absolute or relative error does not exceed 10−6. It is guaranteed that tv exists and does not exceed 109.
+Constraints
+
+1≤T≤105
+the absolute values of coordinates of all points do not exceed 2⋅109
+1≤r≤109
+
+Subtasks
+Subtask #1 (25 points): Pz=Qz=dz=cz=0
+Subtask #2 (75 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+3 0 0 -10 -10 0 0 10 0 0 -3 0 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1.0000000000
+
+
+
+
+
+Author:
+7★nots0fast
+
+
+Tester:
+6★mgch
+
+
+Tags:
+
+               
+                 Cross Product, Binary Search
+                 
+                     
+                     Advanced Algorithms, Computational Geometry, Algorithms, Searching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1931
+
+
+Date Added:
+4-04-2018
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

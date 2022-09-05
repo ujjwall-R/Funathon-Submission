@@ -1,0 +1,80 @@
+
+You are given a non-negative integer NN, its decimal representation consists of atmost 10001000 digits and doesn't contain any leading zeroes.
+You have to determine whether it is possible to remove some of the digits (possibly no digit) so that the final number is a non-negative integer containing at least a single digit, and is divisible by 44 (the number should not contain any leading zeros). After removing the digits, you are not allowed to rearrange the digits.
+If multiple solution exists, you should print the smallest one.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow.
+Each testcase contains a string representing a non negative integer N.
+
+Output:
+For each testcase:
+
+Print "NO" (without quotes), if there is no such way to remove some digits from number N.
+Else, print "YES" (without quotes) and the final number followed by a space. If there are multiple possible answers, you should print the smallest one.
+
+Constraints:
+
+1≤T≤10000
+Number of digits in the non-negative integer is ≤1000
+
+Sample Input:
+3
+78945666384
+17
+10
+
+Sample Output:
+YES 4
+NO
+YES 0
+
+
+
+
+Author:
+3★dutsrat
+
+
+Editorial:
+https://discuss.codechef.com/problems/DIV4
+
+
+Tags:
+
+               
+                 blup2019, dutsrat, dutsrat, math
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+1-02-2019
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

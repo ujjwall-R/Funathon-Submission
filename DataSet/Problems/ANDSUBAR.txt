@@ -1,0 +1,107 @@
+
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given an integer NN. Consider the sequence containing the integers 1,2,…,N in increasing order (each exactly once). Find the length of the longest subarray in this sequence such that the bitwise AND of all elements in the subarray is positive.
+Input Format
+
+The first line contains T denoting the number of test cases. Then the test cases follow.
+Each test case contains a single integer N on a single line.
+
+Output Format
+For each test case, output on a single line the length of the longest subarray that satisfy the given property.
+Constraints
+
+1≤T≤105
+1≤N≤109
+
+Subtasks
+
+Subtask 1 (100 points): Original constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5
+1
+2
+3
+4
+7
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+1
+2
+2
+4
+
+
+Explanation
+Test case 1: The only possible subarray we can choose is [1]. 
+Test case 2: We can't take the entire sequence [1,2] as a subarray because the bitwise AND of 1 and 2 is zero. We can take either [1] or [2] as a subarray.  
+Test case 4: It is optimal to take the subarray [2,3] and the bitwise AND of 2 and 3 is 2.
+Test case 5: It is optimal to take the subarray [4,5,6,7] and the bitwise AND of all integers in this subarray is 4.
+
+
+
+Author:
+5★soumyadeep_21
+
+
+Editorial:
+https://discuss.codechef.com/problems/ANDSUBAR
+
+
+Tags:
+
+               
+                 Inbuilt functions, Basic Maths, Logarithm, Bitwise Operation, ad-hoc, Observation
+                 
+                     
+                     Basic Programming Concepts, Mathematics, Number Theory, Bit Manipulation, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1502
+
+
+Date Added:
+8-09-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

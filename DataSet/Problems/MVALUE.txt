@@ -1,0 +1,104 @@
+
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Given an array AA of size NN. Find the maximum value of the expression a∗b+a−ba∗b+a−b where aa and bb are 22 distinct elements of the array.
+Input:
+
+First line will contain TT, number of testcases. Then the testcases follow. 
+Each testcase contains of two lines of input.
+First line will contain NN, number of elements of the array. 
+Second line contains NN space separated integers, elements of the array AA. 
+
+Output:
+For each testcase, output in a single line answer to the problem.
+Constraints
+
+1≤T≤201≤T≤20
+2≤N≤1052≤N≤105
+−109≤Ai≤109−109≤Ai≤109
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+2   
+2 2
+3
+5 3 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+17
+
+
+Explanation
+Case 1: Only possible pair is [2,2][2,2] for which answer = 2∗2+2−22∗2+2−2 = 44.
+Case 2: There are six possible pairs. 
+For pairs [2,3][2,3] and [3,2][3,2], answer = 2∗3+max(2−3,3−2)2∗3+max(2−3,3−2) = 77
+For pairs [3,5][3,5] and [5,3][5,3] answer = 5∗3+max(3−5,5−3)5∗3+max(3−5,5−3) = 1717 and 
+For the pairs [2,5][2,5] and [5,2][5,2], answer = 2∗5+max(2−5,5−2)2∗5+max(2−5,5−2) = 1313. 
+So final answer is maximum of {7,17,13}{7,17,13} = 1717.
+
+
+
+Author:
+daanish_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/MVALUE
+
+
+Tags:
+
+               
+                 Basic Maths, ad-hoc, Sorting
+                 
+                     
+                     Mathematics, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1738
+
+
+Date Added:
+26-12-2020
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

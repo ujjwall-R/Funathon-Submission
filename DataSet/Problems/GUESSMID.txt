@@ -1,0 +1,94 @@
+
+Chef's father has bought three cakes for him, his brother and sister. Unfortunately, one of the cakes is larger than the other two and so they need to decide who the lucky person is, who gets that larger cake.
+Chef's father decides to make them play a game, and the winner will get the larger cake. The game is as follows: The father will choose an interval of numbers and give it to them. All the three children will have to write an integer from the interval [both end points inclusive], and the child whose chosen number is the middle number when all the three numbers are sorted, wins the game, and hence the larger cake.
+If there is a tie for the middle number, the father would choose the winner uniform randomly from all the three children. Note that even if only two children had tied for the middle element, the father will choose from all the three children to pick the winner randomly.
+Luckily, Chef has an advantage! He knows that both his brother and sister have a favourite digit, and he knows that both of them will choose a number from within the interval such that the number of times that their favourite digit appears in the number as a digit is maximized. If there are multiple numbers which satisfy this criteria, then they will pick any one of them uniformly at random.
+For example,
+
+If the interval is [10, 23], and the brother's favourite digit is 2, then he will choose 22, because 2 appears in it twice, and that is the maximum you can get.
+If the interval is [10, 21], and the brother's favourite digit is 2, then he will choose one number from {12, 20, 21} uniformly at random.
+
+Chef doesn't know how exactly he can utilize this information to win the larger cake. Can you help him? Given the information about the interval, and his siblings' favourite digits, find out which number he should pick, so as to maximize his chance of winning. If there are more than one number with the same maximum probability of winning, then output the smallest number among them.
+Input Format
+
+The first line will contain TT, the number of test cases. The description of each test case follows.
+Each test case contains a single line of input, with four integers: A,B,C,DA,B,C,D. The interval is denoted by [A,B][A,B], the brother's favourite digit is C, and the sister's favourite digit is D.
+
+Output Format
+
+For each testcase, output in a single line, the answer: the number which Chef should choose to maximize his chance of winning.
+
+Constraints
+
+1≤T≤104
+1≤A≤B≤109
+1≤C,D≤9
+C≠D
+
+Example Input
+3
+1 100 2 3
+22 22 1 9
+34 100 2 3
+
+Example Output
+23
+22
+44
+
+Explanation
+
+In the first test case, the brother will choose 22, and the sister will choose 33. The Chef can choose any of {23, 24, …, 32} and win the game. But you should output the smallest among them, and hence the answer is 23.
+
+
+
+
+Author:
+1★istva_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/GUESSMID
+
+
+Tags:
+
+               
+                 Digit DP, Probability, Sorting
+                 
+                     
+                     Advanced Algorithms, Advanced DP, Mathematics, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+5-07-2012
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

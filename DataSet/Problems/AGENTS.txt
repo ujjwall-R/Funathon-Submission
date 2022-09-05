@@ -1,0 +1,108 @@
+
+ Read problems statements in Mandarin Chinese and Russian as well.
+A special agent is usually the title for a detective or investigator for a state, county, municipal, federal or tribal government who conducts criminal investigations and has arrest authority. An agent is a federal law enforcement officer with arrest authority but who does not conduct major criminal investigations or who may conduct investigations but does not have arrest authority. Special agents are distinctly able to do both.
+Special agents are often involved in breaking secret ciphers. In this problem we'll consider one of the challenges that agents usually face while decrypting secret messages.
+Quite often, decrypting involves solving equations. In this problem, it will be an integral equation. You are given two polynomials Q(x) = q0 + q1 x + q2 x2 + ... + qn xn(qn ≠ 0) and T(x) = t0 + t1 x + t2 x2 + ... + tm xm(tm ≠ 0) with integer coefficients. Your task is to solve an equation of the following form:
+
+
+
+
+To solve that equation means to find such a function P(x) that turns it into an equality for every real x. One can easily prove, that P(x) is a polynomial. Also, you may assume that such a polynomial always exists and unique.
+
+Input
+The first line of the input contains an integer K denoting the number of test cases. The description of K test cases follows.
+The first line of the test case description contains one integer n denoting the degree of polynomial Q.
+The second line contains n + 1 integers q0, q1, ..., qn denoting the coefficients of Q.
+The third line contains one integer m denoting the degree of polynomial T.
+The fourth line contains m + 1 integers t0, t1, ..., tm denoting the coefficients of T.
+Output
+For each query, output two lines: the first line contains one integer denoting the degree of polynom P, the second line contains the coefficients of P in the format described above with one exception: the coefficients may be real. Your answer will be accepted if the absolute error is not greater than 10-6.
+It's guaranteed that the correct polynomial P(x) is not a zero polynomial.
+Constraints
+
+1 ≤ K ≤ 50
+0 ≤ N ≤ 50
+0 ≤ M ≤ 50
+|qi|, |ti| ≤ 50
+qn ≠ 0
+tm ≠ 0
+
+Example
+Input:
+1
+1
+1 2
+0
+5
+
+Output:
+1
+-1.5 2
+
+
+Explanation
+In the sample case, we are given the following data:
+
+
+P(x) can be defined as following:
+
+As we can see from the output, the answer is
+
+We can simply replace P(x) with its value from the output to make sure, that all the equation solved correctly:
+
+
+
+
+Author:
+6★kostya_by
+
+
+Tester:
+6★stzgd
+
+
+Editorial:
+https://discuss.codechef.com/problems/AGENTS
+
+
+Tags:
+
+               
+                 Polynomial, Linear Algebra
+                 
+                     
+                     Mathematics, Algebra
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2815
+
+
+Date Added:
+16-03-2015
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

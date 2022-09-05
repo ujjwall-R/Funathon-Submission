@@ -1,0 +1,84 @@
+
+Swati loves Sstrings. She considers an ordinary string to be a Sstring if it contains the substring "SS". Now for a given string SS and an integer NN, she creates a new string S′=S+S+⋯+S⏟concatenating N times.
+Swati is a very busy girl, and she doesn't have time to find whether S′ is a Sstring or not. So she asks you to check whether S′ is a Sstring or not. And if it is, find the number of occurrences of the substring "SS" in S′. Capiche?
+Input:
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains an integer N.
+The second line contains the string S.
+
+Output:
+For each test case print a single line containing a single integer, the number of occurrences of the substring "SS" in S′.
+If S′ is not a Sstring, then print 0.
+Constraints:
+
+1≤T≤10
+1≤N,|S|≤105
+(|S| is the length of the string S)
+S contains only uppercase English alphabets
+
+Subtasks:
+
+30 points: 1≤N,|S|≤100
+70 points: original constraints
+
+Sample Input:
+2
+5
+PLEASSE
+3
+WHAT
+
+Sample Output:
+5
+0
+
+
+
+
+Author:
+5★ankushkhanna
+
+
+Editorial:
+https://discuss.codechef.com/problems/DWW19H
+
+
+Tags:
+
+               
+                 ankushkhanna, ankushkhanna, dwwu2019, easy, implementation, observation
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+29-12-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

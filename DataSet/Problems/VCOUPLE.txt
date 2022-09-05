@@ -1,0 +1,106 @@
+
+There are two groups, one of NN boys and the other of NN girls numbered from 11 to N.
+You are given two arrays A and B containing N numbers each, denoting the height of boys and girls in the group.
+You have to form N couples, where each couple will consist of 1 boy and 1 girl. 
+Each couple has a LIKENESS VALUE, where
+
+LIKENESS VALUE = height of girl in the couple + height of boy in that couple.
+
+You have to form N couples in such a way that the maximum of LIKENESS VALUE of all the couples is minimum.
+Note:-  No boy or girl can form more than one couple.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N:- number of boys and number of girls in the group.
+The second line of each test case contains N space-separated integers, denoting the height of N boys.
+The third line of each test case contains N space-separated integers, denoting the height of N girls.
+
+Output
+
+For each test case, print the maximum LIKENESS VALUE in a new line.
+
+Constraints
+
+1≤T≤5
+1≤N≤2∗104
+1≤Ai,Bi≤109 , for all 1≤i≤N
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+3
+4 5 1
+2 2 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+7
+
+
+Explanation
+You can form couples of boy and girl with index pair (1,1),(2,2),(3,3). So, the Likeness value of the three couples will be (4+2),(5+2),(1+2)=6,7,3. The maximum value will be 7 and there are no other ways that can minimize the maximum value(7).
+
+
+
+Author:
+5★adikr_singh
+
+
+Editorial:
+https://discuss.codechef.com/problems/VCOUPLE
+
+
+Tags:
+
+               
+                 Loops, Greedy, Sorting
+                 
+                     
+                     Basic Programming Concepts, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1412
+
+
+Date Added:
+6-04-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

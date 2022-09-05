@@ -1,0 +1,101 @@
+
+You are a kid playing with rectangle blocks with sides of length xx and yy and height of 1 unit.
+Your friend gives you n blocks one by one. You can either accept the block or reject it. You want to stack the blocks such that the blocks form a tall tower. While stacking the blocks you make sure to only accept the block if and only if the block is smaller than the block on top right now. 
+A block is smaller if it fits inside the boundaries of the block currently on top (i.e. doesn’t stick out)
+NOTE: You can always reject a block if you want 
+NOTE: You always stack the blocks such that the height of the tower increases by 1 unit every time
+
+You need to find the maximum height of the tower possible if you already know the blocks which your friend is going to give you and in which order.
+Input Format
+
+The first line of the input contains an integer nn, the number of blocks your friend gives you
+The next n lines are the blocks that your friend gives you in order
+Each line contain two space-separated integers x and y, the size of the block
+
+Output Format
+Output one integer, the maximum possible height of the tower
+Constraints
+
+1≤n≤1000
+2≤x,y≤106
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+9
+1000 1000
+950 920
+790 800
+805 830
+450 430
+777 744
+125 111
+530 580
+203 254
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+6
+
+
+
+
+
+Author:
+test_account_9
+
+
+Editorial:
+https://discuss.codechef.com/problems/TTOWER
+
+
+Tags:
+
+               
+                 c-plus-plus, dynamic-programming, test_account_9
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+27-02-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

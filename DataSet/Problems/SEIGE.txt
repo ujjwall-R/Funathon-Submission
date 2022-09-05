@@ -1,0 +1,99 @@
+
+The Stark Kingdom has NN cities (numbered 1 to NN) representing a connected undirected graph. There are MM bidirectional roads connecting any two cities. ithith city has AiAi soldiers.
+The Lannisters secretly sent an army to the Stark Kingdom to defeat them. When the Starks came to know of this, very little time was left and they had to gather a huge army.
+Warlords of XX cities D1,D2,D3,…,DXD1,D2,D3,…,DX were given the task of gathering soldiers from R cities C1,C2,C3,…,CR other than the chosen X ones. As time left was very less, they had to choose the nearest cities (i.e. the warlord can choose a city at distance i+1 from it only if all the possible cities at distance i from all the X warlords have already been chosen). A warlord can choose a city only if there is a path from that city to the warlord's city. The total number of soldiers ∑Ay gathered form all R cities should be maximum possible. Print the maximum number of soldiers that can be gathered. 
+Input:
+
+First line has two space separated integers, N and M.
+Next line has N space separated integers Ai denoting the number of soldiers in the ith city.
+Next M lines have two space separated integers b and c denoting that there exists a road between cities b and c.
+Next line has two space separated integers X, the number of chosen cities and R, the number of cities from which soldiers are to be recruited.
+Next line has X space separated integers Di – the cities whose warlords were chosen.
+
+Output:
+For each case print one integer – the maximum number of soldiers that can be gathered.
+Constraints
+
+2≤N≤2×105
+M≤min(2×105,n(n−1)).
+1≤Ai≤104
+1≤b,c≤N
+0≤X,R≤N
+X+R≤N
+1≤Di≤N
+
+Sample Input:
+11 12
+2 3 4 5 6 7 8 9 10 11 12
+1 9
+2 9
+1 3
+2 3
+1 4
+4 3
+3 5
+3 6
+6 7
+7 8
+6 10
+10 11
+2 4
+3 6
+
+Sample Output:
+30
+
+EXPLANATION:
+
+Let the warlord of city 3 choose 4 and 5 and of city 6 choose 7 and 10.
+The cities are at minimum possible distance from the warlord’s city that chose them.
+So, the number of soldiers = A4+A5+A7 + A10 = 30.                
+
+
+
+Author:
+3★deo002
+
+
+Editorial:
+https://discuss.codechef.com/problems/SEIGE
+
+
+Tags:
+
+               
+                 breadth-first-search, deo002, easy-medium, logi2020, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-10-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

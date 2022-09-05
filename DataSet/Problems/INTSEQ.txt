@@ -1,0 +1,104 @@
+
+You are given an integer $K$.
+Consider an integer sequence $A = [A_1, A_2, \ldots, A_N]$.
+Define another sequence $S$ of length $N$, such that $S_i = A_1 + A_2 + \ldots + A_i$ for each $1 \leq i \leq N$.
+$A$ is said to be interesting if $A_i + S_i = K$ for every $1 \leq i \leq N$.
+Find the maximum length of an interesting sequence. If there are no interesting sequences, print $0$.
+Input Format
+
+The first line of input contains an integer $T$, denoting the number of test cases. The description of $T$ test cases follows.
+Each test case consists of a single line of input, which contains a single integer $K$.
+
+Output Format
+
+For each test case, print a new line containing one integer — the maximum length of an interesting sequence for a given value of $K$.
+
+Constraints
+
+$1 \leq T \leq 5000$
+$1 \leq K \leq 10^9$
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+8
+4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+2
+
+
+Explanation
+Test Case $1$: Consider the sequence $A = [4, 2, 1]$. $S = [4, 4 + 2, 4 + 2 + 1] = [4, 6, 7]$. 
+The sum of the corresponding elements of $A$ and $S$ are $4 + 4 = 8$, $2 + 6 = 8$ and $1 + 7 = 8$. Thus $A$ is an interesting sequence of size $3$.  
+Test Case $2$: Consider the sequence $A = [2, 1]$. $S = [2, 2 + 1] = [2, 3]$. 
+The sum of the corresponding elements of $A$ and $S$ are $2 + 2 = 4$ and $1 + 3 = 4$. Thus $A$ is an interesting sequence of size $2$.
+It's guaranteed that, in both examples above, there doesn't exist a longer sequence satisfying the problem constraints.
+
+
+
+Author:
+utkarsh_adm
+
+
+Tester:
+7★aryanc403
+
+
+Editorial:
+https://discuss.codechef.com/problems/INTSEQ
+
+
+Tags:
+
+               
+                 simple, start22, utkarsh_adm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1393
+
+
+Date Added:
+11-01-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,96 @@
+
+ 
+One of the teachers from CSE department did not agree for mass bunk during Pongal. After repeated requests from students, he told that he would accept for the bunk if everyone solves this question. 
+
+The question is as follows: 
+
+
+Given a number N, which is the size of array where indices are from 1 to N .
+Initially all the elements of array are 0 . 
+Q queries are given . 
+Each query contains two variables L and R . 
+For each query you have to perform the following operation : for each index i where L<=i<=R  you have to add a value of of (i-L+1) to the array element at index i .
+After performing Q queries, a number M is given. It is followed by M number of indices (I) where, for each index you have to output the value of element present in that index (I) of array.
+
+
+Input
+
+First line contains an integer N indicating the size of array indexed from 1 to N.
+Second line contains an integer Q denoting the number of Queries.
+It is followed by Q number of lines where each line contains two space seperated integers L and R. 
+Next Line contains an Integer M denoting number of queries whose output is to be printed.
+It is followed by M number of lines where each line contains an integer I (index of element in array).
+Output
+For each of the M queries, output the value of element present in the  array at index I.
+Constraints
+
+1 <= N <= 1000000
+1 <= Q <= 1000000
+1 <= L <= R <= N
+1 <= M <= N
+
+Example
+Input:
+5
+3 
+1 3 
+2 4 
+1 5 
+3 
+1 
+3
+5
+
+Output:
+2
+8
+5
+
+
+
+Author:
+6★himkha_100
+
+
+Editorial:
+https://discuss.codechef.com/problems/COWA19B
+
+
+Tags:
+
+               
+                 cowr2020, himkha_100, pre-computation, prefix-sum, suffix-array
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-01-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

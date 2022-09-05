@@ -1,0 +1,107 @@
+
+Chef wants to store some important numerical data on his personal computer. He is using a new data type that can store values only from 00 till NN both inclusive. If this data type receives a value greater than NN then it is cyclically converted to fit into the range 00 to NN.
+For example: 
+
+Value N+1N+1 will be stored as 00.
+Value N+2N+2 will be stored as 11. 
+
+and so on…
+Given XX, the value chef wants to store in this new data type. Determine what will be the actual value in memory after storing XX.
+Input Format
+
+First line will contain TT, number of testcases. Then the testcases follow.
+Each testcase contains a single line of input, two space separated integers N,XN,X - the maximum value a data type can store and the value Chef wants to store in the data type respectively.
+
+Output Format
+For each testcase, output in a single line the value which will be actually stored in memory.
+Constraints
+
+1≤T≤30001≤T≤3000
+1≤N≤501≤N≤50
+0≤X≤500≤X≤50
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5
+15 0
+15 10
+11 12
+27 37
+50 49
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+10
+0
+9
+49
+
+
+Explanation
+Test Case 11: The data type can store values from 00 to 1515. If we try to put 00 in this data type, then the stored value will be the same, that is 00.
+Test Case 22: The data type can store values from 00 to 1515. If we try to put 1010 in this data type, then the stored value will be the same, that is 1010.
+Test Case 33: The data type can store values from 00 to 11. If we try to put 12 in this data type, then the stored value will cyclically come back to 0. Hence the output is 0.
+Test Case 4: The data type can store values from 0 to 27. If we try to put 37 in this data type, then the stored value will cyclically convert to 9. Hence the output is 9.
+
+
+
+Author:
+utkarsh_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/DATATYPE
+
+
+Tags:
+
+               
+                 cakewalk, start25, utkarsh_adm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1133
+
+
+Date Added:
+7-02-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

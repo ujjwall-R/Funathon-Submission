@@ -1,0 +1,92 @@
+
+Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+There is a graph consisting of n nodes and m edges. There is a snake in each of its nodes. These snakes want to stage a coup against the mongoose who controls and puts restrictions on various aspects of their life. If there is an edge between some two nodes, then it means that the snakes in those nodes can talk with each other. The mongoose wants to protect himself against the coup. First, he calculates the degree of each node, i.e. the number of snakes a snake can talk to. He starts with an integer d = 0 and goes till d = n - 1. At each such d, he will select the set of nodes that have their degree (the originally computed degree, because the mongoose doesn't like to compute the degree each time) less than or equal to d. He will remove all the edges whose one or both the endpoints belong to this set. The snakes want to find, for each d, the minimum number of edges (or communication channels) that they should add so that each of the snakes is able to talk to every other snake either directly via an edge or via other snakes indirectly.
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of the each test case contains two space separated integers: n, m.
+Each of the next m lines contain two space separated integers ui, vi denoting that there is an edge between nodes ui and vi.
+Output
+For each test case, output n space separated integers corresponding to answers for d = 0 to n - 1.
+Constraints
+
+1 ≤ T ≤ 3
+1 ≤ n ≤ 105
+0 ≤ m ≤ min(n * (n - 1) / 2, 2 * 105)
+1 ≤ ui,  vi≤ n
+ui ≠ vi
+The graph doesn't have self loops and multi edges.
+
+Example
+Input
+1
+5 4
+1 2
+2 3
+2 4
+4 5
+
+Output
+0 3 4 4 4
+
+Explanation
+Example 1. The degree of the nodes are [1, 3, 1, 2, 1]. 
+For d = 0, all the vertices and edges are the present in the graph. The snakes can talk to each other already, and there is no need to add more edges. So, the answer is zero for d = 0. 
+For d = 1, the chosen vertex set will be [1, 3, 5]. The set of edges that will be removed will be (1, 2), (2, 3) and (4, 5). Only the edge (2, 4) is remaining. Now, in order to talk with each other, at least 3 edges must be added. One way of doing this is to add the three edges removed.
+For d = 2, the chosen vertex set will be [1, 3, 4, 5]. All the edges of the graph will be removed. Now, in order to talk with each other, at least 4 edges must be added to the graph.
+For d = 3 and d = 4 also, all the edges will be removed, and at least 4 edges must be added to the graph in order for all the snakes to talk with each other.
+
+
+
+Author:
+admin2
+
+
+Tester:
+6★kingofnumbers
+
+
+Editorial:
+https://discuss.codechef.com/problems/SNGRAPH
+
+
+Tags:
+
+               
+                 Graphs, Disjoint Set Union
+                 
+                     
+                     Data Structures, Advanced Data Structures
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+31-05-2017
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

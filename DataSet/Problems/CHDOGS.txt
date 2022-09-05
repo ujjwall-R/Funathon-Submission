@@ -1,0 +1,101 @@
+
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef has three dogs sitting at the vertices of an equilateral triangle. The length of each side of the triangle equals to s meters. Chef gives the command "Start!" and each dog starts to run with constant speed v meters per second. At each moment, each dog is running towards the dog just right to him (in counter-clockwise direction). Therefore, their trajectories are forming some spirals that converging to one point as illustrated below.
+
+
+How long does it takes dogs to meet each other after the command "Start!"?  
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The only line of each test case contains two space-separated integers s and v.
+Output
+For each test case, output a single line containing a real number corresponding to the answer of the problem. The answer will be considered correct if its absolute or relative error does not exceed 10-6.
+Constraints
+1 ≤ T ≤ 10
+1 ≤ s, v ≤ 109
+Subtasks
+Subtask #1 (40 points): 1 ≤ s, v ≤ 10
+Subtask #2 (60 points): original constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+2 5
+1 1000000000
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0.266667
+0.0000001
+
+
+Explanation
+Due to the triangle being very small, but the dogs running extremely fast, they will meet after less than 1e-6 seconds. Thus, due to remark about absolute or relative error in the output section, any answer within [0, 1e-6] will be considered correct.
+
+
+
+Author:
+6★antoniuk1
+
+
+Tester:
+7★alex_2oo8
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHDOGS
+
+
+Tags:
+
+               
+                 Geometry, Trigonometry
+                 
+                     
+                     Mathematics, Basic Maths
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1473
+
+
+Date Added:
+12-02-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

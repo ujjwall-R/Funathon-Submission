@@ -1,0 +1,69 @@
+
+Problem Statement:
+Little Sagar loves studying. Recently, He found a few pens each of length 1 inches in the pen stand. He took all of them and decided to mark a rectangular area on the floor with pens and warn rest of the council members to not to enter that area so that he can study in peace. He wants to maximize that area. But, unable to do so, He seeks for your help. You being the elder brother of Sagar, write a program for him to find maximum area that he can cover in inches using N pens.
+Input:
+First line of input contains an integer T.
+T lines follow each containing a single integer N - No of pens.
+Output:
+Print the area of largest rectangle that can be formed using the given pens.
+Constraints:
+
+0 ≤ T ≤ 25000
+1 ≤ N ≤10 10
+
+Example:
+Input:
+36911
+Output:
+246
+Explanation:
+For 1st case: With 6 pens he can make one of the rectangle as 1 x 2, which will have the maximum area covered. 
+
+
+
+Author:
+4★vedipen
+
+
+Editorial:
+https://discuss.codechef.com/problems/SPEN
+
+
+Tags:
+
+               
+                 cakewalk, kjcs1601, vedipen
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+30-09-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

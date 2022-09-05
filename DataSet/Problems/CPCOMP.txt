@@ -1,0 +1,96 @@
+
+Read problems statements Hindi ,Bengali , Mandarin chinese , Russian and Vietnamese as well.
+Consider an undirected graph G with N vertices, numbered 1 through N. You are given an integer sequence A1,A2,…,AN describing the edges of this graph — for each pair of vertices u and v, there is an edge between those vertices if and only if Au and Av are coprime. Find the number of connected components of G. 
+Input
+
+The first line of the input contains a single integer N.
+The second line contains N space-separated integers A1,A2,…,AN.
+
+Output
+Print a single line containing one integer — the number of connected components.
+Constraints
+
+1≤N≤2⋅105
+1≤Ai≤2⋅105 for each valid i
+
+Subtasks
+Subtask #1 (5 points): 1≤N≤500
+Subtask #2 (25 points): 1≤N≤5,000
+Subtask #3 (70 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5
+6 2 3 24 10
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+
+
+Explanation
+There are two edges (2,3) and (3,5). There are 3 connected components (1), (2,3,5) and (4).
+
+
+
+Author:
+7★bciobanu
+
+
+Editorial:
+https://discuss.codechef.com/problems/CPCOMP
+
+
+Tags:
+
+               
+                 Disjoint Set Union, Connected Components, Number Theory
+                 
+                     
+                     Advanced Data Structures, Advanced Algorithms, Advanced Graph Algos, Mathematics
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2430
+
+
+Date Added:
+16-09-2018
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

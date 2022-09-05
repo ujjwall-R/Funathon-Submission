@@ -1,0 +1,101 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Shlok and Sachin are good friends. Shlok wanted to test Sachin, so he wrote down a string SS with length NN and one character XX. He wants Sachin to find the number of different substrings of S which contain the character X at least once. Sachin is busy with his girlfriend, so he needs you to find the answer.
+Two substrings of S are considered different if their positions in S are different.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N. 
+The second line contains a string S with length N, followed by a space and a character X.
+
+Output
+For each test case, print a single line containing one integer — the number of substrings of S that contain X.
+Constraints
+
+1≤T≤1,000
+1≤N≤106
+S contains only lowercase English letters
+X is a lowercase English letter
+the sum of N over all test cases does not exceed 106
+
+Subtasks
+Subtask #1 (30 points): the sum of N over all test cases does not exceed 103
+Subtask #2 (70 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+3
+abb b
+6
+abcabc c
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+5
+15
+
+
+Explanation
+Example case 1: The string "abb" has six substrings: "a", "b", "b", "ab", "bb", "abb". The substrings that contain 'b' are "b", "b", "ab", "bb", "abb".
+
+
+
+Author:
+5★jnarutoj
+
+
+Editorial:
+https://discuss.codechef.com/problems/STRCH
+
+
+Tags:
+
+               
+                 april19, combinatorics, jnarutoj, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1486
+
+
+Date Added:
+20-03-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

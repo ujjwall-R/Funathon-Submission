@@ -1,0 +1,86 @@
+
+You are given a set of words. You have to determine if the given set of words is a kind set. A set of words is said to be a kind set if it contains atleast one word which can be formed by any possible combination of kind characters of the set. The collection of all the first characters of each of the word of a set is referred to as kind characters of the set.
+Consider the set of words -
+recursion
+durgapur
+codechef
+education
+programming
+recdpr
+The kind characters for the set are 'r','d','c','e','p','r'.
+The word "recdpr" can be formed by a possible combination of the kind characters of the set. Hence the given set is kind.
+It is guaranteed that all the characters of all the words of a set are lowercase characters (a-z) only.
+Input
+The first line contains an integer n denoting the number of sets. The first line of input k for each set denotes the number of words in the set. Each of the next k lines contains string s denoting the words in a set.
+Output
+For each of the n sets, output "kind" if the set is kind or "unkind" otherwise. Output your answer without quotes.
+Constraints
+1 <= n, |s| <= 100
+Example
+Input:
+2
+6
+recursion
+durgapur
+codechef
+education
+programming
+recdpr
+3
+car
+red
+bed
+
+Output:
+
+kind
+unkind
+
+
+
+Author:
+3★aman8050
+
+
+Editorial:
+https://discuss.codechef.com/problems/KSQ
+
+
+Tags:
+
+               
+                 aman8050, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+25-09-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,76 @@
+
+Chef’s school has a hectic timetable. There are NN periods in a day. In the ithith period, Chef is supposed to study subject ai. Since all the subjects are not related to cooking, Chef hates some subjects. Formally, given two integers x and y, Chef hates a subject if for that subject  ai, x ≤ ai ≤ y.
+Find the number of periods Chef has to attend, if he bunks all the periods of subjects he hates.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains of a two lines of input, first line contains three integers N,x,y. Second line contains N integers ai. 
+
+Output:
+For each testcase, output the answer for that testcase in a single line.
+Constraints
+
+1≤T≤100
+1≤N≤2∗105
+1≤x≤y≤109
+1≤ai≤109
+
+Sample Input:
+1
+5 5 9
+4 3 6 10 1
+
+Sample Output:
+4
+
+EXPLANATION:
+Chef has to attend periods 1st,2nd,4th and 5th.
+
+
+
+Author:
+4★pegasus_18
+
+
+Editorial:
+https://discuss.codechef.com/problems/CBNK
+
+
+Tags:
+
+               
+                 cakewalk, pegasus_18
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+9-04-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

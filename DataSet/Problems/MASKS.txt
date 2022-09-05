@@ -1,0 +1,81 @@
+
+The chef has received one problem but he is a bit busy in cooking so he needs you to solve it.
+There are N number of patients standing in a queue to withdraw money from atm.
+There are fewer masks available in our area.
+we cant provide a mask to everyone in the queue.
+if a person is not wearing a mask there is a possibility of transferring corona-virus to the person in front of him and behind him. 
+For eg-If the second person is wearing a mask then there is no possibility of passing any disease from  First to the Second person in the queue and so on.
+As we don't know who has Corona disease.
+we have to find the minimum number of mask required for not spreading diseases from one person to another person standing one behind others in the queue. 
+Input:
+
+First-line will contain T, number of test cases. Then the test cases follow. 
+Each test case contains a single line of input, one integer N.
+
+Output:
+For each test case, output in a single line answer given by printing the minimum number of mask required
+Constraints
+
+1≤T≤10
+0≤N≤1000000
+
+Sample Input:
+  1
+
+  1
+
+Sample Output:
+0
+
+EXPLANATION:
+There is no neighbour to the only person. Hence, no mask is required.
+ Hence the answer is 0
+
+
+
+Author:
+2★dhussa_09
+
+
+Editorial:
+https://discuss.codechef.com/problems/MASKS
+
+
+Tags:
+
+               
+                 cakewalk, clag2020, dhussa_09, may20
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+8-05-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

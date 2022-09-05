@@ -1,0 +1,112 @@
+
+A new map has been introduced in Among Us. This map is called The Tree Map. In this map N rooms are connected to each other in the form of a Tree.
+The game starts with N players where you are the Imposter and other N−1 players are Crewmates. Your task is to kill crewmates without getting caught. There is 1 crewmate in each room except the one in which you are.
+Before the game starts, the crewmates can block any one room and you are free to choose any unblocked room from where you start. Being an imposter you cannot travel through or to the blocked room.
+You don't want to be suspicious so you have decided to kill the crewmate who is farthest from the room you start the game. To kill a crewmate you have to visit the room in which the crewmate is present.    
+You are given Q queries and in each query you are given the room number for the blocked room. Your task is to find the number of rooms to travel in order to kill a crewmate (of course the farthest one to avoid being suspicious) when only the given room is blocked.   
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+First line of each testcase contains of a single integers N.
+Then N−1 lines follows containing two space separated integers u and v denoting  that room u and room v are connected.
+A single integer Q, denoting number of queries. 
+Q space separated integers denoting the blocked room number. 
+
+Output:
+For each testcase, print Q lines where ith line denotes the number of rooms to travel to kill the farthest crewmate when Qith room is blocked. 
+Constraints
+
+1≤T≤10
+2≤N≤5×104
+1≤u,v≤N
+u≠v
+1≤Q≤N
+1≤Qi≤N
+
+Sample Input:
+1
+7
+1 2
+1 3
+3 4
+3 5
+4 6
+6 7
+7
+1 2 3 4 5 6 7
+Sample Output:
+5
+5
+3
+4
+6
+4
+5  
+EXPLANATION:
+In this case the map looks like:    
+       1  
+     /   \  
+    2      3
+         /   \  
+       4      5  
+      /  
+    6  
+   /  
+ 7   
+
+If room 1 is blocked, you can choose to start with Room−5 and kill crewmate in Room−7 so number of rooms you need to travel is  [5−3−4−6−7] = 5.
+If room 2 is blocked, you can choose to start with Room−5 and kill crewmate in Room−7 so number of rooms you need to travel is  [5−3−4−6−7] = 5.
+If room 3 is blocked, you can choose to start with Room−7 and kill crewmate in Room−4 so number of rooms you need to travel is  [4−6−7] = 3.
+If room 4 is blocked, you can choose to start with Room−5 and kill crewmate in Room−2 so number of rooms you need to travel is  [5−3−1−2] = 4.
+If room 5 is blocked, you can choose to start with Room−2 and kill crewmate in Room−7 so number of rooms you need to travel is  [2−1−3−4−6−7] = 6.
+If room 6 is blocked, you can choose to start with Room−2 and kill crewmate in Room−5 or 4 so number of rooms you need to travel is [2−1−3−5] or [2−1−3−4] = 4.
+If room 7 is blocked, you can choose to start with Room−2 and kill crewmate in Room−6 so number of rooms you need to travel is  [2−1−3−4−6] =  5.  
+
+
+
+Author:
+recursionnitd
+
+
+Editorial:
+https://discuss.codechef.com/problems/REC15E
+
+
+Tags:
+
+               
+                 dynamic-programming, nitdgp, rc152020, recursionnitd, trees
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+12-12-2020
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

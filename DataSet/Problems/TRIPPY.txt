@@ -1,0 +1,75 @@
+
+You took a space craft on rent to visit Planet Stipi. On the way to Stipi, you decided to visit N planets (numbered from 1 to N) on the way to the destination (1st place being the source of your journey and Nth place being your destination). The spacecraft has a fuel tank of capacity 1L, so it needs regular refills. Every planet has a fuel station but the price of fuel is different over all the planets (Ai), also every planet is 1 km away from each other. There is a strange tradition on every petrol pump to get your fuel tank empty before getting it filled (The petrol pump will fill only 1 Litre, if the bike already contains some petrol, it needs to emptied). The spacecraft gives a mileage of K kmpL.
+Since you are very bad at planning trips but extremely proficient in writing code, you decided to write a program that could efficiently plan your trip. Since its end of the month and you have already spent your money on various things. So, the program should print the minimum cost of the trip i.e. the total money to be spent on fuel.
+Initially, the fuel tank is empty.
+INPUT
+
+First line contains two integers N and K.
+Second line contains N spaced integers- Ai denoting the cost of fuel in ith spacecraft.
+
+OUTPUT
+
+The only line of output contains a single integer, denoting the minimum cost.
+
+CONSTRAINTS
+
+1<=N<=1000000
+1<=K<=10000
+1<=Ai<=1000
+
+SAMPLE INPUT
+5 3
+1 2 3 4 5
+
+SAMPLE OUTPUT
+3
+
+
+
+
+Author:
+4★tds115
+
+
+Editorial:
+https://discuss.codechef.com/problems/TRIPPY
+
+
+Tags:
+
+               
+                 dynamic-programming, heap, plin2020, tds115
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+6-01-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

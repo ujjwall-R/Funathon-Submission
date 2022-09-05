@@ -1,0 +1,85 @@
+
+ 
+Fluffy the squirrel is playing chess today. He has a n times n chessboard. An integer is written on each square of the chessboard. A rook is a chess piece, which can attack every square in its row and column, including the square its standing on. 
+
+Fluffy would like to place a rook on the chessboard. He defines the score of the rook as the sum of the integers written in all the squares it attacks. He wants to place exactly one rook on the chessboard. What is the maximum possible score of the rook?
+ 
+Input
+The first line of the input will contain a single integer, n, the size of the chessboard.
+
+The next n lines will contain n integers each, denoting the number written on each square.
+
+Output
+Output a single integer, the maximum score Fluffy can get by placing a rook on the chessboard.
+Constraints
+
+1 ≤ n ≤ 1000
+-109 ≤ The numbers in the squares of the chessboard ≤ 109
+
+Subtasks
+
+Subtask 1 (21 points) : 1 ≤ n ≤ 300
+Subtask 2 (79 points) : 1 ≤ n ≤ 1000
+
+Example
+Input:
+3
+4 2 1
+-1 0 2
+3 -19 -1
+
+Output:
+9
+
+ 
+Explanation
+Example case 1. Fluffy can place the rook at the 1st column of the 1st row. The score of the rook will be 4 + 2 + 1 - 1 + 3 = 9. It can be seen that this is the maximum possible in this case. Note that the number 4 is counted only once. If Fluffy places the rook at the 3rd column of the 3rd row, his score would be 1 + 2 - 1 - 19 + 3 = -14, which is worse.
+
+
+
+Author:
+6★zscoder
+
+
+Editorial:
+https://discuss.codechef.com/problems/MCO16201
+
+
+Tags:
+
+               
+                 brute-force, cakewalk, zscoder
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+2-11-2016
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, CPP14, PYTH, PYP3
+
+
+
+
+
+Submit
+

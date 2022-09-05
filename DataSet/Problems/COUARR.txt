@@ -1,0 +1,113 @@
+
+Consider an array AA with NN positive integers. 
+Let B be defined as an array of N integers such that for each 1≤i≤N:
+
+Bi=Ai−1, if Ai is even.
+Bi=Ai+1, if Ai is odd. 
+
+You are given an array C of size 2⋅N which is formed by taking all the elements of the arrays A and B and rearranging them.
+You need to find the number of distinct arrays A whose sum of elements is K, from which C can be obtained.
+Note: Two arrays X and Y are considered to be distinct if there exists no rearrangement of X which is the same as Y.
+Since the final answer can be very large, print the answer modulo 109+7.
+Input Format
+
+The first line contains a single integer T - the number of test cases. Then the test cases follow.
+The first line of each test case contains two space-separated integers N and K - the parameters mentioned in the statement.
+The second line of each test case contains 2⋅N space-separated integers C1,C2,…,C2N denoting the array C.
+
+Output Format
+For each test case, output the number of distinct arrays A such that the sum of its elements is K. Print the answer modulo (109+7).
+Constraints
+
+1≤T≤103
+1≤N≤103
+1≤Ci≤2⋅103
+1≤K≤2⋅106
+Sum of N over all the test cases does not exceed 103.
+
+Subtasks
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+2 4
+1 2 3 4
+2 5
+1 2 3 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+2
+
+
+Explanation
+Test case 1: If A=[1,3], then B=[2,4]. C=[1,2,3,4] can be obtained by rearranging the elements of A and B. It can be proven that A=[1,3] is the only such distinct array whose elements sum to 4. Thus the answer is 1.
+Note that arrays [1,3] and [3,1] are not distinct.
+Test case 2: 
+
+If A=[2,3], then B=[1,4]. C=[1,2,3,4] can be obtained by rearranging the elements of A and B.
+If A=[1,4], then B=[2,3]. C=[1,2,3,4] can be obtained by rearranging the elements of A and B.
+
+It can be proven that [2,3] and [1,4] are the only such distinct arrays whose elements sum to 5. Thus the answer is 2.
+
+
+
+Author:
+4★shreyshbapodia
+
+
+Editorial:
+https://discuss.codechef.com/problems/COUARR
+
+
+Tags:
+
+               
+                 dynamic-programming, easy-medium, shreyshbapodia, start34
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2861
+
+
+Date Added:
+9-04-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

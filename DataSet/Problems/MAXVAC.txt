@@ -1,0 +1,102 @@
+
+You are given Chef's calendar for the next NN days, defined as a binary string SS of length NN where Si=0Si=0 means that Chef has a holiday on the ith day from now, and Si=1 means that Chef has to work on that day. 
+Chef wants to plan his vacations. For each vacation, Chef needs X consecutive holidays in his calendar. Obviously, he can only go on one vacation at a time.
+Chef can take at most one extra holiday. That is, he can flip at most one digit in S from 1 to 0. If he does this optimally, what is the maximum number of vacations that he can go on?
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and X.
+The second line of each test case contains a binary string S of length N — Chef's schedule.
+
+Output Format
+For each test case, output on a new line the answer — the maximum number of vacations Chef can take if he takes at most one more extra holiday.
+Constraints
+
+1≤T≤1000
+1≤N≤2⋅105
+1≤X≤N
+The sum of N across all test cases does not exceed 2⋅105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+7 2
+0010001
+4 3
+1010
+5 2
+00100
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+1
+2
+
+
+Explanation
+Test Case 1: Chef can flip the 3rd digit to make his calendar 0000001. This allows him to take 3 vacations in the first 6 days. 
+Test Case 2: Chef can flip the 3rd digit to make his calendar 1000. This allows him to take one vacation using the last 3 days.
+Test Case 3: Regardless of whether Chef flips the 3rd digit or not, he can take at most 2 vacations.
+
+
+
+Author:
+utkarsh_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/MAXVAC
+
+
+Tags:
+
+               
+                 simple, start23, utkarsh_adm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2147
+
+
+Date Added:
+24-01-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

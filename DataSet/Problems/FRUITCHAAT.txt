@@ -1,0 +1,94 @@
+
+Chef has closed his restaurant and decided to run a fruit stand instead. His signature dish is a fruit chaat consisting of 22 bananas and 11 apple. He currently has XX bananas and Y apples. How many chaats can he make with the fruits he currently has? 
+Input Format
+
+The first line will contain T, the number of testcases. Then the testcases follow.
+Each testcase consists of a single line containing two space separated integers - X and Y
+
+Output Format
+For each testcase, output the answer on a new line. 
+Constraints
+
+1≤T≤100
+0≤X,Y≤100
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+72 50
+38 93
+51 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+36
+19
+4
+
+
+Explanation
+Test Case 1: Chef can make 36 chaats using 72 bananas and 36 apples.
+Test Case 2: Chef can make 19 chaats using 38 bananas and 19 apples.
+Test Case 3: Chef can make 4 chaats using 8 bananas and 4 apples.
+
+
+
+Author:
+utkarsh_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/FRUITCHAAT
+
+
+Tags:
+
+               
+                 cakewalk, start25, utkarsh_adm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+822
+
+
+Date Added:
+7-02-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

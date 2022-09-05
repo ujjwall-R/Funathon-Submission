@@ -1,0 +1,121 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Alice and Bob created NN and MM recipes, respectively (N,M≥1), and submitted them to Chef for evaluation. Each recipe is represented by a string containing only lowercase English letters. Let's denote Alice's recipes by A1,A2,…,AN and Bob's recipes by B1,B2,…,BM.
+Accidentally, Chef mixed up those recipes ― now, he has L=N+M recipes in a sequence S1,S2,…,SL. Thankfully, the recipes created by Alice and Bob are distinguishable from each other. It is well-known that for each recipe s created by Alice, the following property holds, and for each recipe created by Bob, it does not hold: For each 1≤l<r≤|s|, the substring sl,sl+1,…,sr contains at least as many vowels as consonants. The letters 'a', 'e', 'i', 'o', 'u' are vowels, while the other letters are consonants.
+The score of a candidate who made K recipes is calculated as the product of xcfxKc for all letters c that occur in at least one of these recipes; here, xc is the number of recipes which contain the letter c and fxc is the total number of occurrences of this letter in all K recipes.
+Let's denote the scores of Alice and Bob by scA and scB respectively. Chef wants to know their ratio scA/scB. We know that Chef is a legendary cook, but he is not very good at calculating, so he is asking you to find that number.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer L.
+L lines follow. For each valid i, the i-th of these lines contains a single string Si.
+
+Output
+For each test case, if the ratio of scores exceeds 107, print a single line containing the string "Infinity" (without quotes); otherwise, print a single line containing one real number scA/scB.
+Your answer will be considered correct if its absolute or relative error does not exceed 10−6. It is guaranteed that scA/scB does not lie in the range 107±10.
+Constraints
+
+1≤T≤105
+2≤L≤105
+2≤|Si|≤105 for each valid i
+for each valid i, Si contains only lowercase English letters
+the sum of |S1|+|S2|+…+|SL| over all test cases does not exceed 107
+
+Subtasks
+Subtask #1 (25 points):
+
+L≤10
+|Si|≤10 for each valid i
+
+Subtask #2 (75 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+4
+aba
+abc
+bab
+aac
+3
+aba
+baab
+abc
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1.1250000
+0.0277778
+
+
+Explanation
+Example case 1: The recipes "aba" and "aac" are created by Alice, while the recipes "abc" and "bab" are created by Bob. The scores are:
+
+scA=xafxNa⋅xbfxNb⋅xcfxNc=242⋅112⋅112=18
+scB=xafxMa⋅xbfxMb⋅xcfxMc=222⋅232⋅112=19
+scAscB=1/81/9=1.125
+
+
+
+
+Author:
+5★akil_av17
+
+
+Editorial:
+https://discuss.codechef.com/problems/WEIRDO
+
+
+Tags:
+
+               
+                 String, Logarithm, Arithmetic
+                 
+                     
+                     Data Structures, Mathematics, Number Theory, Basic Maths
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2197
+
+
+Date Added:
+1-09-2019
+
+
+Time Limit:
+1.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

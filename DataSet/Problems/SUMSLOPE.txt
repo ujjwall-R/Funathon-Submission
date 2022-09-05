@@ -1,0 +1,103 @@
+
+
+A digit in a number N is a minima if it is lesser than both the digits adjacent to it. Similarly, a digit is a maxima if it is greater than both the digits adjacent to it. The slope of N is the number of digits in N (leaving out the first and the last digit) which are either a minima or a maxima. Given A and B, count the sum of the slopes of all numbers between A and B.
+
+
+Input :
+
+
+The first line contains the number of test cases T. Each of the next T lines contains two integers A and B.
+
+
+Output :
+
+
+Output T lines one for each test case, containing the required sum for the corresponding test case.
+
+Constraints :
+1 <= T <= 50000
+1 <= A <= B <= 1000000000000000 (10^15)
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+101 101
+1 100
+100 150
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+0
+19
+
+
+
+
+
+Author:
+syco_adm
+
+
+Tester:
+4★keshav_57
+
+
+Editorial:
+https://discuss.codechef.com/problems/SUMSLOPE
+
+
+Tags:
+
+               
+                 Digit DP
+                 
+                     
+                     Advanced Algorithms, Advanced DP
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1899
+
+
+Date Added:
+11-04-2010
+
+
+Time Limit:
+0.102564 secs
+
+
+Source Limit:
+10000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,123 @@
+
+CodeChef admins went on shopping at a shopping mall. 
+There are NN shops in the mall where the ithith shop has a capacity of AiAi people. In other words, at any point in time, there can be at most Ai number of people in the ith shop.
+There are X admins. Each admin wants to visit each of the N shops exactly once. It is known that an admin takes exactly one hour for shopping at any particular shop. Find the minimum time (in hours) in which all the admins can complete their shopping.
+Note: 
+
+An admin can visit the shops in any order.
+It is possible that at some point in time, an admin sits idle and does not visit any shop while others are shopping.
+
+Input Format
+
+First line will contain T, the number of test cases. Then the test cases follow.
+The first line of each test case contains two integers N and X - the number of shops and the number of admins.
+The second line of each test case contains N integers A1,A2,…,AN - the capacity of the shops.
+
+Output Format
+For each test case, output in a single line the minimum time (in hours) in which all the admins can complete their shopping.
+Constraints
+
+1≤T≤105
+1≤N≤105
+1≤X,Ai≤109
+Sum of N over all test cases does not exceed 2⋅105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+2 3
+3 3
+4 2
+1 2 3 4
+1 6
+2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+4
+3
+
+
+Explanation
+Test case 1: Minimum time required to complete the shopping is two hours. A possible way to complete shopping in 2 hours is :
+
+1st hour: All 3 admins visit shop 1. This is possible as the capacity of the shop is 3≥3.
+2nd hour: All 3 admins visit shop 2. This is possible as the capacity of the shop is 3≥3.
+
+Test case 2: Minimum time required to complete the shopping is 4 hours. A possible way to complete shopping in 4 hours is :
+
+1st hour: Admin 1 visits shop 1 and admin 2 visits shop 4.
+2nd hour: Admin 1 visits shop 2 and admin 2 visits shop 3.
+3rd hour: Admin 1 visits shop 3 and admin 2 visits shop 2.
+4th hour: Admin 1 visits shop 4 and admin 2 visits shop 1.
+
+Test case 3: Minimum time required to complete the shopping is 3 hours. A possible way to complete shopping in 3 hours is :
+
+1st hour: Admins 1 and 2 visits shop 1. All other admins sit idle.
+2nd hour: Admins 3 and 4 visits shop 1. All other admins sit idle.
+3rd hour: Admins 5 and 6 visits shop 1. All other admins sit idle.
+Note that, since the capacity of shop is 2, maximum 2 admins visit the shop at once.
+
+
+
+
+Author:
+5★notsoloud
+
+
+Editorial:
+https://discuss.codechef.com/problems/ADMINSHOP
+
+
+Tags:
+
+               
+                 math, notsoloud, simple, start35
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1529
+
+
+Date Added:
+16-04-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

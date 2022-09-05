@@ -1,0 +1,91 @@
+
+You are given N horizontal segments each of length R. You are given the x-coordinates of their left end-points: the i-th segment has the left end point at xi. You can see that the right end point will be at xi + R.
+You want to move the segments such that they lie entirely in the range [0, L]. After the movements, no two segments should overlap, however, they are allowed to touch each other.
+Find out the minimum number of segments that you need to move to achieve this. In other words, you want to maximize the number of segments that are left untouched. It's guaranteed that the sum of the lengths of the segments is such that they all can fit in [0, L].
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, L, R.
+The second line of each test case contains N space-separated integers. The i-th integer denotes the coordinate of the left end point of i-th segment, i.e. xi.
+
+Output
+For each test case, output a single integer corresponding to the minimum number of segments that you need to move.
+Constraints
+
+1 ≤ T ≤ 2500
+1 ≤ N ≤ 500
+1 ≤ L, R ≤ 109
+-109 ≤ xi ≤ 109
+Sum of N over all test cases in a single test file won't exceed 2500.
+L ≥ R * N, i.e. all the segments can fit inside the range.
+
+Example
+Input
+3
+4 4 1
+0 1 2 3
+4 4 1
+-1 2 3 5
+4 4 1
+2 2 2 2
+
+Output
+0
+2
+3
+
+Explanation
+Example 1. All the segments lie in the range [0, L]. None of the segments overlap with each other. Hence, we don't need to move any segment at all.
+Example 2. You can move the first segment to [0, 1]. You can also move the fourth segment to [1, 2]. After this movement, you can see that the all the segments lie in the range [0, L] and none of the segments overlap with each other. Overall, we moved 2 segments. There is no way to achieve this by moving less than 2 segments.
+
+
+
+Author:
+admin2
+
+
+Editorial:
+https://discuss.codechef.com/problems/NONOVSEG
+
+
+Tags:
+
+               
+                 Dynamic Programming, Sorting
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+12-12-2017
+
+
+Time Limit:
+4 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

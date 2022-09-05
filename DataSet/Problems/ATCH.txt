@@ -1,0 +1,84 @@
+
+Akshay has been given a problem by his teacher to find the maximum sum of subarray given an array of n length. 
+A subarray of an array is an array composed from a contiguous block of the original array's elements. 
+There is another thing given by the teacher that. Once the above maximum sum subarrays are selected, Akshay is allowed to remove atmost one element from them, to maximise the result further. 
+There should be atleast one element in the subarray at the end. Since Akshay is sleepy, can you solve the problem for him? 
+Note: Remember that you can remove atmost one element from a maximum sum subarray and not the other part of array. 
+Note: In case of two subarrays having equal value, take that sub-array which will give maximum value after removal of atmost one element.
+Input :
+
+First line contains t, the number of testcases. 
+The first line of each testcase contains an integer n, the number of elements in an array. 
+The second line contains n space seperated integers Ai denoting an array. 
+
+Output :
+For each testcase output a single integer on newline, the maximized final result expected by teacher. 
+Constraints :
+
+1≤t≤105 
+1≤n≤105 
+−109≤Ai≤109
+Sum of N over all tests is atmost 106.
+
+Sample Input :
+2
+5
+1 2 3 -2 3
+2
+-1 -2
+
+Sample Output:
+9
+-1
+
+Explanation
+For the first test case, we first find the maximum sum subarray which is [123−23] with sum = 7. Now chef removes −2 and makes final result = 9.
+
+
+
+Author:
+4★shmabulock
+
+
+Editorial:
+https://discuss.codechef.com/problems/ATCH
+
+
+Tags:
+
+               
+                 dynamic-programming, kjsce, maximum-sum, shmabulock, short-contest
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-04-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

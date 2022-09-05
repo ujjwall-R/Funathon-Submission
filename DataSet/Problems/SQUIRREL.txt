@@ -1,0 +1,122 @@
+
+There are n squirrel(s) waiting below the feet of m chestnut tree(s). The first chestnut of the i-th tree will fall right after Ti second(s), and one more every Pi second(s) after that. The “big mama” of squirrels wants them to bring their nest no less than k chestnuts to avoid the big storm coming, as fast as possible! So they are discussing to wait below which trees to take enough chestnuts in the shortest time. Time to move to the positions is zero, and the squirrels move nowhere after that.
+Request
+Calculate the shortest time (how many seconds more) the squirrels can take enough chestnuts.
+
+Input
+
+The first line contains an integer t, the number of test cases, for each:
+The first line contains the integers m,n,k, respectively.
+The second line contains the integers Ti  (i=1..m), respectively.
+The third line contains the integers Pi  (i=1..m), respectively.
+
+(Each integer on a same line is separated by at least one space character, there is no added line between test cases)
+Output
+For each test cases, output in a single line an integer which is the shortest time calculated.
+Limitations
+0<t≤20
+0<m,n≤10,000
+0<k≤107
+0<Ti,Pi≤100
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+3 2 5
+5 1 2
+1 2 1
+3 2 5
+5 1 2
+1 1 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+3
+
+
+Explanation
+Test case 11: Two squirrels wait below trees 22 and 33.
+
+After 1 second, a chestnut from tree 2 falls. Total chestnuts the squirrels have is 1.
+After 2 seconds, a chestnut from tree 3 falls. Total chestnuts the squirrels have is 2.
+After 3 seconds, two chestnuts fall from trees 2 and 3. Total chestnuts the squirrels have is 4.
+After 4 seconds, a chestnut from tree 3 falls. Total chestnuts the squirrels have is 5.
+
+Total time to gather 5 chestnuts is 5 seconds.
+Test case 2: Two squirrels wait below trees 2 and 3.
+
+After 1 second, a chestnut from tree 2 falls. Total chestnuts the squirrels have is 1.
+After 2 seconds, two chestnuts fall from trees 2 and 3. Total chestnuts the squirrels have is 3.
+After 3 seconds, two chestnuts fall from trees 2 and 3. Total chestnuts the squirrels have is 5.
+
+Total time to gather 5 chestnuts is 3 seconds.
+
+
+
+Author:
+anhdq_adm
+
+
+Tester:
+6★pieguy
+
+
+Editorial:
+https://discuss.codechef.com/problems/SQUIRREL
+
+
+Tags:
+
+               
+                 Dynamic Programming, Sorting, Binary Search
+                 
+                     
+                     Algorithms, Searching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1611
+
+
+Date Added:
+5-05-2010
+
+
+Time Limit:
+0.169935 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

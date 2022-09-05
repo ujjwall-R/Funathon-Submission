@@ -1,0 +1,89 @@
+
+Please note that the two versions of this problem differ only by constraints. The problem statement is exactly the same in both.
+You are given two strings A and B of lengths N and M respectively. Find the maximum length of a substring of A that is also present in B. Let this maximum length be K. Also, find all such substrings of length K that is present in both A and B and print the number of times each such substring occurs in B. 
+Input:
+
+First line contains a single integer T, the number of test cases.
+First line of each test case contains two space-separated integers, N and M.
+Second line of each test case contains two space-separated strings, A and B.
+
+Output:
+For each test case, output in the first line K, the maximum length of a common substring. Then follows X lines of output, where X denotes the number of substrings in A of length K that is also present in B. In each such line, print the substring of length K present in both the strings and the number of times that substring occurs in B (separated by a single space). The substrings must follow a lexicographic order, i.e., you must first print the substring that will occur earlier in a dictionary than the others.
+Constraints
+
+1≤T≤500
+1≤N,M≤5∗104
+Sum of N over all test cases doesn't exceed 105
+Sum of M over all test cases doesn't exceed 105
+All strings consist of lowercase latin letters only
+
+Sample Input:
+4
+14 17
+pqfwkhopkmcoqh yggxxpklorellnmpa
+1 16
+q bcnuvqhffbsaqxwp
+4 20
+rxsj owkkyhiddqscdxrjmowf
+6 7
+drrwso qfjmafa  
+Sample Output:
+2
+pk 1
+1
+q 2
+1
+j 1
+r 1
+s 1
+x 1
+0  
+
+
+
+Author:
+5★sibasish_14
+
+
+Editorial:
+https://discuss.codechef.com/problems/EQSBSTR2
+
+
+Tags:
+
+               
+                 binary-search, easy-medium, fcf22020, sibasish_14, sibasish_14, string-hashing
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+26-07-2020
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

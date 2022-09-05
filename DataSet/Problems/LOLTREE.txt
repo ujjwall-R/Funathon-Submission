@@ -1,0 +1,115 @@
+
+During Codechef’s December Long Challenge, Abdullah tried solving the problem “CHEFFIB” using centroid decomposition and fenwick tree but his approach was too slow. Frustrated by it, he came up with an easier (maybe?) version of the problem.
+Given a rooted tree T (root = node 1) with N vertices (all containing value 0), Perform Q queries of the following type and output the final tree (nodes 1 to N).
+U X A B: The character ‘U’ followed by 3 integers X A B
+For each query, let f be defined as
+f(1)=A
+f(2)=B
+f(i)=f(i-1)+f(i-2)
+For every node on the path from root to X (both inclusive):
+T[i]=T[i]+f[level(i)]
+Where level of root node is 1.
+INPUT:
+First line contains two integers N Q denoting the number nodes and number of queries.
+Following N-1 contain 2 space separated integers U V denoting there is an undirected edge between U and V
+Following Q lines contain queries as specified.
+ 
+OUTPUT:
+After completion of all Queries, print N space separated integers denoting the value at each node (1 to N)
+ 
+CONSTRAINTS:
+1<= N,Q <=2*105
+1<= X <= N
+0 <= A,B <= 109
+ 
+SAMPLE TEST:
+ 
+INPUT:
+9 5
+1 2
+1 3
+1 4
+2 5
+2 6
+2 7
+5 9
+3 8
+U 9 1 3
+U 6 7 8
+U 1 2 3
+U 8 1 6
+U 9 2 4
+ 
+OUTPUT:
+13 15 6 0 10 15 0 7 17
+ EXPLAINATION:
+The tree is as follows:
+ 
+For the first query:
+ X= 9
+A= 1
+B= 3
+The path from Root(1) to X(9) is 1,2,5,9  
+Add f(1)=1 to node 1
+Add f(2)=3 to node 2
+Add f(3)=1+3=4 to node 5
+Add f(4)=4+3=7 to node 9
+ 
+ Tree after 1st Query:
+1 3 0 0 4 0 0 0 7 Tree after 2nd Query:
+8 11 0 0 4 15 0 0 7
+Tree after 3rd Query:
+10 11 0 0 4 15 0 0 7
+Tree after 4th Query:
+11 11 6 0 4 15 0 7 7
+Tree after 5th Query:
+13 15 6 0 10 15 0 7 17
+
+
+
+Author:
+3★mehul_dholiya
+
+
+Editorial:
+https://discuss.codechef.com/problems/LOLTREE
+
+
+Tags:
+
+               
+                 cfea2018, depth-first-search, dynamic-programming, medium, mehul_dholiya
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-02-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

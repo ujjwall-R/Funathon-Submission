@@ -1,0 +1,97 @@
+
+Read problems statements in Russian, Vietnamese, Hindi, Mandarin chinese and Bengali as well.
+Chef got in the trouble! He is the king of Chefland and Chessland. There is one queen in Chefland and one queen in Chessland and they both want a relationship with him. Chef is standing before a difficult choice…
+Chessland may be considered a chessboard with NN rows (numbered 11 through NN) and M columns (numbered 1 through M). Let's denote a unit square in row r and column c by (r,c). Chef lives at square (X,Y) of this chessboard.
+Currently, both queens are living in Chessland too. Each queen, when alone on the chessboard, can see all squares that lie on the same row, column or diagonal as itself. A queen from (xq,yq) cannot see a square (r,c) if the square (X,Y) is strictly between them. Of course, if the queens can see each other, the kingdom will soon be in chaos!
+Help Chef calculate the number of possible configurations of the queens such that the kingdom will not be in chaos. A configuration is an unordered pair of distinct squares (xq1,yq1) and (xq2,yq2) such that neither of them is the square (X,Y). Two configurations are different if the position of queen 1 is different or the position of queen 2 is different.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains four space-separated integers N, M, X and Y. 
+
+Output
+For each test case, print a single line containing one integer — the number of configurations such that the kingdom will not be in chaos.
+Constraints
+
+1≤T≤1000
+1≤X≤N≤102
+1≤Y≤M≤102
+2≤N,M
+
+Example Input
+2
+3 3 2 2
+4 4 2 3
+
+Example Output
+24
+94
+
+Explanation
+Example case 1: Half of these configurations are:
+
+(1,1),(3,3)
+(1,1),(2,3)
+(1,1),(3,2)
+(1,2),(3,3)
+(1,2),(3,2)
+(1,2),(3,1)
+(1,3),(3,1)
+(1,3),(3,2)
+(1,3),(2,1)
+(2,1),(2,3)
+(2,1),(1,3)
+(2,1),(3,3)
+
+
+
+
+Author:
+6★mgch
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHQUEENS
+
+
+Tags:
+
+               
+                 ad-hoc
+                 
+                     
+                     Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+3-11-2018
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

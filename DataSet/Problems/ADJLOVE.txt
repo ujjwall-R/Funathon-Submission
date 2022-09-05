@@ -1,0 +1,103 @@
+
+An array is called lovely if the sum of product of each adjacent pair of elements is odd.
+More formally, the array SS of size MM is lovely if the value ∑M−1i=1∑M−1i=1 (Si.Si+1)(Si.Si+1) is odd.
+You are given an array A consisting of N positive integers. Find a permutation of array A which is lovely. 
+If multiple such permutations are possible, output any. If there is no lovely permutation, output -1.
+Input Format
+
+The first line contains an integer T denoting the number of test cases. The T test cases then follow.
+The first line of each test case contains an integer N.
+The second line of each test case contains N space-separated integers A1,A2,…,AN.
+
+Output Format
+For each test case, if a lovely permutation of A is possible, print a single line containing N integers denoting the elements of any lovely permutation of A. Otherwise, print -1.
+Constraints
+
+1≤T≤1000
+2≤N≤500
+1≤Ai≤106
+
+Subtasks
+
+Subtask 1 (100 points): Original constraints.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+5
+1 2 3 4 10
+3
+7 11 145
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3 1 10 2 4
+-1
+
+
+Explanation
+Test Case 1: The sum of products of adjacent pair of elements of the given array is 1⋅2+2⋅3+3⋅4+4⋅10=2+6+12+40=60. Since this value is even, this is not a lovely permutation of the array.
+A lovely permutation of the given array is [3,1,10,2,4]. The sum of products for this array would be 3⋅1+1⋅10+10⋅2+2⋅4=41, which is odd.
+Test Case 2: No permutation of the given array exists where the sum of products of adjacent pair of elements is odd. Thus, answer is −1. 
+
+
+
+Author:
+6★munch_01
+
+
+Editorial:
+https://discuss.codechef.com/problems/ADJLOVE
+
+
+Tags:
+
+               
+                 ltime106, munch_01, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1592
+
+
+Date Added:
+17-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

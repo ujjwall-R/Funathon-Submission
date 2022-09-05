@@ -1,0 +1,136 @@
+
+ Read problems statements in Mandarin Chinese  and Russian.
+Vidhi went to a magic show last week where she was astounded by a magic trick performed by the great Mandwarf, the brown. His trick was as follows :
+
+
+    Ask a volunteer from the audience to write down a list L of N integers. 
+    
+
+    Ask another volunteer from the audience to provide three integers A, B, C
+
+
+    Ask another volunteer from the audience to provide N length string called S where each letter is either 'R', 'A' or 'M'
+    
+
+    Close his eyes for a split second and give the output of The Ancient Algorithm on this input. 
+    
+
+
+We all know that The Ancient Algorithm is as follows :
+
+for i from 1 to N do 
+
+    if ith letter of S is 'R'
+        reverse L[i...N]
+    else if ith letter of S is 'A'
+        add A to all numbers of L[i..N].
+    else if ith letter of S is 'M'
+        multiply B to all numbers of L[i..N].
+
+    for all number in L[i..N], module them by C.
+
+    announce L[i] out loud
+
+end
+
+
+Vidhi's boyfriend got jealous when he saw her getting impressed by Mandwarf, the brown's wisdom. He wants to learn the trick to gain her undivided admiration. How about you help him?
+
+Constraints:
+1 ≤ T ≤ 100 
+1 ≤ N ≤ 1000
+0 ≤ L[i] ≤ 1018
+0 ≤ A,B ≤ 1018
+2 ≤ C ≤ 1018Input
+First line contains a single integer T, denoting the number of test cases. Then follow T test case scenarios. Each test case begins with an integer N, the size of the list L. Then in next line, you'd find N space separated integers - the list L itself. In next line, there'd be three space separated integers A, B, C followed by string S in the next line. 
+
+Output
+For each test case you've to output N space separated integers - the numbers announced by Mandwarf, the brown. 
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+3
+1 1 1
+2 3 1000
+ARM
+4
+1 2 3 4
+0 1 1000
+AMAM
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3 3 9
+1 2 3 4
+
+
+
+
+
+Author:
+2★nikhil_adm
+
+
+Tester:
+6★gerald
+
+
+Editorial:
+https://discuss.codechef.com/problems/MTRICK
+
+
+Tags:
+
+               
+                 1D Arrays, Modular Exponentiation, Two pointers
+                 
+                     
+                     Data Structures, Arrays, Mathematics, Modular Arithmetic, Algorithms, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1892
+
+
+Date Added:
+18-02-2012
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

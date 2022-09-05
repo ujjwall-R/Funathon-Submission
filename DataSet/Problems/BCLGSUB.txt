@@ -1,0 +1,104 @@
+
+Not all classes can be interesting. Some are too boring, and in case of offline classes, it's not always possible to run away too. On one such class, Vaibhav and Atul got too bored and so, they decided to play a game.
+Atul gave Vaibhav an integer array AA of length NN, and two more integers KK and LL. He asked Vaibhav to form KK new arrays of LL length from the array AA, such that the sum of all integers present in the new KK arrays combined should be as maximum as possible. Each new array should be a subarray of array AA and any element of array AA can be part of at most one new array. 
+As the size of array AA can be large, Vaibhav needs your help in the calculation. Help Vaibhav to solve the problem.
+Input Format
+
+First line will contain TT, number of testcases. Each test case contains 22 lines.
+First line of each test case contains 33 integers NN, KK and L, as described in the question.
+Second line contains N space separated integers A1,A2,...,AN.
+
+Output Format
+For each test case, output the maximum possible sum. If it is not possible to form K arrays of size L from array A, output −1.
+Constraints
+
+1≤T≤104
+1≤N≤104
+1≤K≤102
+1≤L≤103
+1≤A1,A2,...,AN≤109
+Sum of N∗K over all test case doesn't exceed 106
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+10 3 4
+1 2 3 4 5 6 7 8 9 10
+10 2 3
+1 2 3 4 5 6 7 8 9 10
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+-1
+45
+
+
+Explanation
+In test case 1, no possible solution is there.
+In test case 2, the best possible solution is to pick subarrays {{5,6,7},{8,9,10}}.
+
+
+
+Author:
+5★vaibhav_0318
+
+
+Tester:
+5★zombiedub
+
+
+Editorial:
+https://discuss.codechef.com/problems/BCLGSUB
+
+
+Tags:
+
+               
+                 dynamic-programming, prefix-sum, vaibhav_0318
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+26-02-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

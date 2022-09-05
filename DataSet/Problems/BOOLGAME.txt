@@ -1,0 +1,109 @@
+
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Consider N binary variables x1,x2,…,xN. For each valid i, the i-th of these variables can be xi=0 or xi=1; therefore, there are 2N possible assignments of values to the variables. For each valid i, setting xi=1 gives you score gi.
+In addition, there are M special intervals (numbered 1 through M). For each valid i, the i-th interval is [ui,vi] and if xui=xui+1=…=xvi=1, then your score increases by di.
+Note that both gi and di can be negative (setting more variables to 1 can decrease your score), and your score can also be negative. Formally, the score of an assignment of values to the binary variables is
+N∑i=1gi⋅xi+M∑i=1di⋅vi∏j=uixj.
+Find the K highest scores among all assignments on these variables. Formally, if we computed the scores of all 2N assignments and sorted them in non-increasing order, you should find the first K of these values.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, M and K.
+The second line contains N space-separated integers g1,g2,…,gN.
+M lines follow. For each valid i, the i-th of these lines contains three space-separated integers ui, vi and di.
+
+Output
+For each test case, print a single line containing K space-separated integers ― the K highest scores of assignments on the binary variables, in decreasing order.
+Constraints
+
+1≤T≤10
+1≤N≤60
+1≤M≤min(N⋅(N−1)/2,1,000)
+1≤K≤min(2N,200)
+|gi|≤109 for each valid i
+1≤ui<vi≤N for each valid i
+for each valid i and j (i≠j), ui≠uj or vi≠vj
+|di|≤109 for each valid i
+the sum of N over all test cases does not exceed 60
+
+Subtasks
+Subtask #1 (5 points): the sum of N over all test cases does not exceed 18
+Subtask #2 (20 points): K=1
+Subtask #3 (75 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+4 2 3
+-4 -2 5 2
+1 3 0
+1 4 -3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+7 5 5
+
+
+Explanation
+Example case 1: The best assignment is x=(0,0,1,1), with score 7. The second and third best assignments are (0,0,1,0) and (0,1,1,1), each with score 5.
+
+
+
+Author:
+5★theoneyouwant
+
+
+Editorial:
+https://discuss.codechef.com/problems/BOOLGAME
+
+
+Tags:
+
+               
+                 april21, brute-force, dynamic-programming, easy-medium, theoneyouwant
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2028
+
+
+Date Added:
+31-03-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

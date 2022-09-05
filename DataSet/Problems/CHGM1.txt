@@ -1,0 +1,77 @@
+
+          
+            Chef is playing a game with his friends.He and his friends are numbered through 1 to N. There is a reward system in the game, if a player wins at a time his/her points will get incremented by 1 and rest of them get decremented by 1, it is assumed that initially every one has zero point. At the end of the game, a group of contiguous people will be awarded with prize money, if the sum of points of them is maximum. Chef want to know the maximum sum.
+ Note : Group can be consist of any number between 1 to N inclusive.
+Input
+
+ First line will contain TT, number of testcases. Then the testcases follow. 
+ Each testcase contains of a two lines of input, First line will contain, number of people including chef.
+Second line will contain array of number A1,A2,A3,..........,ANA1,A2,A3,..........,AN denoting the points of each player at the end of game. 
+
+ Output 
+
+For each testcase, output in a single line containing maximum contiguous group sum.
+
+Constraints 
+
+ 1≤T≤10001≤T≤1000 
+ 1≤N≤104
+ 0≤|Ai|≤105
+
+Sample Input:
+1
+5
+ 1 2 3 4 5
+Sample Output:
+15
+EXPLANATION:
+ Maximum contiguous sum can be possible with 1,2,3,4,5 
+
+
+
+Author:
+4★dshahid380_
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHGM1
+
+
+Tags:
+
+               
+                 array, dshahid380_, easy, encoding, kadane-algorithm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-02-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

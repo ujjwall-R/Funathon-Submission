@@ -1,0 +1,84 @@
+
+Baby Chef has just learned about calculating Average of two numbers in school, but he is unable to find Average of more than two numbers. Chef, being very busy, is seeking help from you to write a program so that the baby chef can simply enter the numbers and get the average of multiple numbers in no time.
+Your task is to write a program that accepts an array of NN numbers in array A and prints array B  in which B[i]B[i] denotes the average of first ii numbers in array A.
+Input:
+
+The first line of the input contains a single integer T denoting the number of test cases. 
+The second line contains a single integer N which denotes size of array A.
+Third line of input contains N space-separated numbers of array A.
+
+Constraints:
+
+1 ≤ T ≤ 20
+1 ≤ N ≤ 50
+1 ≤ A[i] ≤ 100
+
+Output:
+For each test case, print N numbers of output array B in a single line.
+Sample Input:
+ 2
+ 3
+ 2 4 6
+ 4
+ 1 1 1 1
+
+Sample Output:
+ 2 3 4
+ 1 1 1 1
+
+Explanation:
+ Test case 1: Average of 2 is 2, Average of {2,4} is 3, Average of {2,4,6} is 4. So finally 
+  the answer is 2 3 4 .
+
+ Test case 2: Average of 1 is 1, Average of {1,1} is 1, Average of {1,1,1} is 1. So finally 
+  the answer is 1 1 1
+
+
+
+
+Author:
+3★furious_127
+
+
+Editorial:
+https://discuss.codechef.com/problems/HLPCHEF
+
+
+Tags:
+
+               
+                 cakewalk, easy, furious_127
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-01-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

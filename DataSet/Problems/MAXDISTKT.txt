@@ -1,0 +1,109 @@
+
+Read problem statements in Mandarin Chinese, Russian, and Vietnamese as well.
+Given an array BB of length NN, find an array AA of length NN where 0≤Ai≤1090≤Ai≤109 such that array CC where Ci=AimodBiCi=AimodBi, ∀i∈{1,2,...,N}∀i∈{1,2,...,N} has maximum number of distinct integers.
+In case of multiple answers, print any.
+Input Format
+
+First-line will contain T, the number of test cases. Then the test cases follow.
+Each test case contains two lines of input.
+First-line contains a single integer N.
+Second-line contains N space-separated integers B1,B2,…,BN.
+
+Output Format
+For each test case, output in a single line N space-separated integers A1,A2,…,AN, the elements of the array A such that array C has the maximum number of distinct elements.
+If the output array doesn't follow the constraints or the number of distinct elements in the array C is less than the optimal value, you will receive a wrong answer verdict.
+Constraints
+
+1≤T≤105
+1≤N≤2⋅105
+1≤Bi≤N
+0≤Ai≤109
+Sum of N over all tests is atmost 106.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+3
+2 1 3
+2
+1 1
+6
+1 2 3 3 2 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3 1 2
+2 3
+0 1 2 3 4 5
+
+
+Explanation
+Test Case 1: Array C={3mod2,1mod1,2mod3}={1,0,2}. So the number of unique elements are 3.
+Test Case 2: Array C={2mod1,3mod1}={0,0}. So the number of unique elements is 1.
+Test Case 3: Array C ={0mod1,1mod2,2mod3,3mod3,4mod2,5mod1} ={0,1,2,0,0,0}. So the number of unique elements are 3.
+In all the 3 cases, the number of unique elements can't be increased any further for any choice of the array A.
+
+
+
+Author:
+utkarsh_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/MAXDISTKT
+
+
+Tags:
+
+               
+                 Sorting
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+11-10-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

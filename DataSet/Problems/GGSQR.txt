@@ -1,0 +1,91 @@
+
+ 
+You are given a number N.
+  You have to print the square of that number on a new line
+
+ 
+Input
+Input description.
+
+First line will contain a single integer T denoting
+the number of integers.Next T lines will contain
+a single integer N.
+ 
+Output
+
+Output a single integer for each N, the square of the
+  number on a new line.
+
+
+ 
+Constraints
+
+1 ≤ T ≤ 100000
+1 ≤ N ≤ 100000
+
+ 
+Example
+Input:
+3
+5
+7
+2
+
+Output:
+25
+49
+4
+
+ 
+Explanation
+Example case 1.
+Simply print the square of the given number on a new line.
+
+
+
+Author:
+3★surajumang08
+
+
+Editorial:
+https://discuss.codechef.com/problems/GGSQR
+
+
+Tags:
+
+               
+                 basic-programming, cakewalk, surajumang08
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+8-01-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

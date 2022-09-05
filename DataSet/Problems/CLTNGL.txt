@@ -1,0 +1,82 @@
+
+Chef has a grid with N equally spaced horizontal lines and M equally spaced vertical lines. The points where a horizontal and a vertical line intersect are called grid points.
+Chef draws a triangle at random on this grid such that the vertices of the triangle lie on grid points and the area of the triangle is non-zero. All triangles satisfying this criteria are equally likely to be drawn by Chef.
+Calculate the expected number of grid points on the perimeter of this triangle, including the three vertices. It is guaranteed that it will be possible to express this value as an irreducible fraction pq where q is coprime to 109+7. Let r be the modular mutiplicative inverse of q with respect to modulus 109+7. Output the answer as p⋅r(mod109+7).
+Input:
+
+The first and only line contains 2 integers N and M.
+
+Output:
+
+Output in a single line the answer p⋅r(mod109+7).
+
+Constraints
+
+2≤N,M≤106
+
+Sample Input 1:
+2 2
+
+Sample Output 1:
+3
+
+Sample Input 2:
+2 3
+
+Sample Output2:
+333333339
+
+Explanation:
+
+Sample 1: The are 4 eligible triangles with vertices on grid points and non-zero area. All of them have 3 grid points on their perimeter.  
+Sample 2: There are 12 triangles that have 3 grid points on the perimeter and 6 triangles that have 4 grid points on the perimeter. The expected value can be calculated as 31218+4618=103. So p=10, q=3 and r=333333336. The answer is 10⋅333333336(mod109+7)=333333339.
+
+
+
+
+Author:
+6★meooow
+
+
+Editorial:
+https://discuss.codechef.com/problems/CLTNGL
+
+
+Tags:
+
+               
+                 cole2018, hard, meooow, mobius-inveresion
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3203
+
+
+Date Added:
+5-04-2018
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

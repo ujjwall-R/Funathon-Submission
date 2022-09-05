@@ -1,0 +1,105 @@
+
+Read problems statements Hindi , Vietnamese , Mandarin Chinese , Russian and Bengali as well.
+You are given a sequence of positive integers A0,A1,…,AN−1A0,A1,…,AN−1 and a sequence of non-negative integers C0,C1,…,CN−1C0,C1,…,CN−1. Let's denote M=998244353. You know that for
+Ci=N−1∑j=0BjAijmodM
+holds for each valid i, with some coefficients B0,B1,…,BN−1 (such that 0≤Bi<M for each i). Your task is to find these coefficients.
+It is possible to prove that under the given constraints, the solution is unique.
+Input
+
+The first line of the input contains a single integer N. 
+The second line contains N space-separated integers A0,A1,…,AN−1.
+The third line contains N space-separated integers C0,C1,…,CN−1. 
+
+Output
+Print a single line containing N space-separated integers B0,B1,…,BN−1.
+Constraints
+
+1≤N≤60,000
+1≤Ai<M for each valid i
+0≤Ci<M for each valid i
+Ai≠Aj for each valid i,j (i≠j)
+
+Subtasks
+Subtask #1 (5 points): 1≤N≤300
+Subtask #2 (15 points): 1≤N≤3,000
+Subtask #3 (20 points): Ci=Ci1modM for each valid i
+Subtask #4 (60 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+1 2 3
+3 6 14
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1 1 1
+
+
+Explanation
+The relations between A, B and C hold:
+
+C0=3=10+20+30
+C1=6=11+21+31
+C2=14=12+22+32
+
+
+
+
+Author:
+7★wxh010910
+
+
+Tags:
+
+               
+                 Generating Functions, FFT, NTT, Interpolation, Divide and Conquer
+                 
+                     
+                     Mathematics, Sequences and Progression, Transformations, Calculus, Algorithms, Recursion
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2877
+
+
+Date Added:
+12-09-2018
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

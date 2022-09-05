@@ -1,0 +1,81 @@
+
+Student Muna is an undergraduate student at the University. Her final exams are approaching and she is to pass exactly nn exams. Muna is a smart girl, so she will be able to pass any exam she takes on her first try. Besides, she can take several exams on one day, and in any order.
+According to the schedule, a student can take the exam for the ii-th subject on the day number aiai. However, Muna has arranged with each teacher and the instructor of the i-th subject allowed her to take an exam before the schedule time on day bi (bi < ai). Thus, Muna can take an exam for the i-th subject either on day ai, or on day bi. All the instructors put the record of the exam in the student's record book on the day of the actual exam and write down the date of the mark as number ai.
+Muna believes that it would be rather strange if the entries in the record book did not go in the order of non-decreasing date. Therefore, Muna asks you to help her. Find the minimum possible value of the day when Muna can take the last exam if she takes exams so that all the records in her record book go in the order of non-decreasing date.
+Input
+
+The first line contains a single positive integer n (1 ≤ n ≤ 5000) — the number of exams Muna will take.
+Each of the next n lines contains two positive space-separated integers ai and bi (1 ≤ bi < ai ≤ 109) - the date of the exam in the schedule and the early date of passing the i-th exam, correspondingly.
+
+Output
+Print a single integer — the minimum possible number of the day when Muna can take the last exam if she takes all the exams so that all the records in her record book go in the order of non-decreasing date.
+Sample Inputs
+3
+5 2
+3 1
+4 2
+
+3
+6 1
+5 2
+4 3
+
+Sample Outputs
+2
+
+6
+
+Note
+
+In the first sample Muna first takes an exam in the second subject on the first day (the instructor writes down the schedule date that is 3). On the next day she takes an exam in the third subject (the instructor writes down the schedule date, 4), then she takes an exam in the first subject (the instructor writes down the mark with date 5). Thus, Muna takes the last exam on the second day and the dates will go in the non-decreasing order: 3, 4, 5.
+In the second sample Muna first takes an exam in the third subject on the fourth day. Then she takes an exam in the second subject on the fifth day. After that on the sixth day Muna takes an exam in the first subject.
+
+
+
+
+Author:
+squ_test
+
+
+Editorial:
+https://discuss.codechef.com/problems/HW2C
+
+
+Tags:
+
+               
+                 chw22020, greedy, medium, sorting, squ_test
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+12-04-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14
+
+
+
+
+
+Submit
+

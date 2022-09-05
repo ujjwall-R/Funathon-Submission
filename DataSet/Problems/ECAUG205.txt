@@ -1,0 +1,82 @@
+
+Chef is a very kind-hearted fellow and he wants to host a charity event and donate his notebooks to the children who attend that event. Chef has a set of N  distinct types of notebooks which are numbered from 1 to N with each book containing  Ai(1<=i<=n) number of pages respectively. The event witnessed a group of K children and now its the chef task to distribute his notebooks among them.
+Chef wants to maximise the number of pages in each notebook so that the children get notebooks as thick as possible. Chef wants you to help him in splitting the notebooks so that the children exit the event happily.
+Note:
+
+No notebook can have pages from 2 or more different types of the notebook.
+Here Notebook type is referred to the notebook of different sizes, page quality or page print.
+We want to keep all kids happy, So each notebook must have the same number of the page which is the maximum possible  
+
+Input:
+
+First-line will contain T, the number of test cases. Then the test cases follow. 
+Each test case contains a single line of input, two integers N,K.
+Next line contains Ai(for i in 1 to N) number of pages in each notebook type
+
+Output:
+
+For each Testcase, the output must contain maximum pages in the new notebook 
+
+Constraints :
+
+1≤T≤1000
+1≤N,K≤105
+1≤Ai≤109
+
+Sample Input:
+1
+4 11
+802 743 457 539
+
+Sample Output:
+200
+
+
+
+
+Author:
+4★akay_99
+
+
+Editorial:
+https://discuss.codechef.com/problems/ECAUG205
+
+
+Tags:
+
+               
+                 akay_99, binary-search, easy-medium, enau2020
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+23-08-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

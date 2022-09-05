@@ -1,0 +1,92 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+You are given an integer DD. Find an integer sequence A1,A2,…,ANA1,A2,…,AN such that the following conditions are satisfied:
+
+1≤N≤105
+1≤Ai≤105 for each valid i
+∑Ni=1∑Nj=i(min(Ai,Ai+1,…,Aj)−GCD(Ai,Ai+1,…,Aj))=D
+
+It can be proved that a solution always exists under the given constraints.
+Note: GCD(B1,B2,…,BM) is the greatest integer which divides all the integers B1,B2,…,BM.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer D.
+
+Output
+For each test case, print two lines. The first of these lines should contain a single integer N. The second line should contain N space-separated integers A1,A2,…,AN.
+If there are multiple solutions, you may find any one of them.
+Constraints
+
+1≤T≤10
+0≤D≤109
+
+Example Input
+4
+2
+5
+200
+13
+
+Example Output
+3
+3 3 2 
+5
+2 8 5 1 10 
+7
+12 10 15 11 19 13 15
+4
+5 4 4 10 
+
+
+
+
+Author:
+6★sjshohag
+
+
+Editorial:
+https://discuss.codechef.com/problems/DIANE
+
+
+Tags:
+
+               
+                 ad-hoc
+                 
+                     
+                     Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2221
+
+
+Date Added:
+7-10-2020
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

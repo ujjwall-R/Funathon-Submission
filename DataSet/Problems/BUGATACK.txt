@@ -1,0 +1,123 @@
+
+ Read problems statements in Mandarin Chinese  , Russian and Vietnamese
+
+Anakin's spacecraft is being attacked by Buzz droids. Again. Buzz droids intend to disable rather than destroy their targets. They achieve this by introducing bugs in the program of the underlying software.
+
+
+One important module of every navigation controller is the Floyd-Warshall algorithm. Here is how the code for Floyd-Warshall looks like:
+
+
+n <- number of vertices in the graph
+
+adj[n][n] <- adjacency matrix(0/1) of a simple undirected graph
+
+connected[n][n] <- 2D matrix of size n * n
+
+for (i=1; i<=n; i++)
+  for (j=1; j<=n; j++)
+    connected[i][j] = adj[i][j]
+
+for (p=1; p<=n; p++)    // runs only up to n-k after reprogramming
+  for (i=1; i<=n; i++)
+    for (j=1; j<=n; j++)
+      connected[i][j] = (connected[i][j]) 
+			|| (i!=j && connected[i][p] && connected[p][j])
+
+return connected
+
+
+
+Due to reprogramming by Buzz droids, now the outer loop on p runs only from 1 to n-k (both inclusive).
+
+Your task is to find the number of simple undirected unweighted graphs for which the reprogrammed code still returns the correct answer. Two graphs are considered different if their adjacency matrices are not identical.
+
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+Each test case consists of single line containing two integers, n and k.
+
+Output
+
+For each test case, output a single line containing the number of graphs (modulo 10^9+7) for which the buggy code returns correct answer.
+
+Constraints
+
+1 ≤ T ≤  17000 
+1 ≤ n ≤  180 
+0 ≤ k ≤  n 
+
+ 
+Example
+Input:
+3
+1 1
+2 2
+3 1
+
+Output:
+1
+2
+7
+
+ 
+Explanation
+
+All graphs of size 1 or 2 produce correct result because the matrix does not change during any iteration. For n=3, k=1, out of a total of 8 graphs, there is only one graph for which the result is wrong: The one with the edge set {{1,3} , {2,3}}.
+
+Note
+Source limit for this problem has been decreased from 50000B to 15000B.
+            
+            
+            
+            
+            
+        
+
+        
+
+
+Author:
+5★utkarsh_lath
+
+
+Editorial:
+https://discuss.codechef.com/problems/BUGATACK
+
+
+Tags:
+
+               
+                 combinatorics, dynamic-programming, floyd-warshall, graphs, snck15fl, utkarsh_lath
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+18-06-2015
+
+
+Time Limit:
+6 secs
+
+
+Source Limit:
+15000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

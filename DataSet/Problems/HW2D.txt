@@ -1,0 +1,77 @@
+
+Mohammed has a wire, its length is nn. He wants to cut the wire in a way that fulfils the following two conditions:
+
+After the cutting each wire piece should have length aa, bb or c.
+After the cutting the number of wire pieces should be maximum.
+
+Help Mohammed and find the number of wire pieces after the required cutting.
+Input
+
+The first and the only line contains four space-separated integers n, a, b and c (1 ≤ n, a, b, c ≤ 4000) — the length of the original wire and the acceptable lengths of the wire pieces after the cutting, correspondingly. The numbers a, b and c can coincide.
+
+Output
+Print a single number — the maximum possible number of wire pieces. It is guaranteed that at least one correct wire cutting exists.
+Sample Inputs
+5 5 3 2
+
+7 5 5 2
+
+Sample Outputs
+ 2
+
+ 2
+
+Note
+
+In the first example Mohammed can cut the wire in such way: the first piece has length 2, the second piece has length 3.
+In the second example Mohammed can cut the wire in such way: the first piece has length 5, the second piece has length 2.
+
+
+
+
+Author:
+squ_test
+
+
+Editorial:
+https://discuss.codechef.com/problems/HW2D
+
+
+Tags:
+
+               
+                 chw22020, dynamic-programming, squ_test
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+12-04-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14
+
+
+
+
+
+Submit
+

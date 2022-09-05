@@ -1,0 +1,102 @@
+
+
+You are batting at the pitch and all eyes are on you, the best player in all of IPL!
+The opposing team will relentlessly bowl at you an infinite number of balls!
+
+You notice that you only ever score a boundary on the MthMth ball, if NN modmod M≤N/2M≤N/2, where N is the lucky number of your T-shirt. Now you wanna know how many boundaries will you hit in total? 
+
+Formally, you are given a positive integer N and you need to find the number of positive integers M such that N mod M≤N/2.
+
+    
+
+ Input 
+The first line contains a single integer T, which denotes the number 
+        of test cases. The description of each test case follows. 
+    
+ The first and the only line of each test case contains a single integer N.
+    
+ Output 
+For each test case, print in a new line, the number of integers M which follow the above condition.
+
+
+Constraints 
+ 1≤T≤105 
+ 1≤N≤2⋅109 
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+
+
+Explanation
+For N=3, N mod M?N/2 only for M=1,2,3. Hence, the number of possible values of M are 3.
+
+
+
+Author:
+6★shikhar7s
+
+
+Editorial:
+https://discuss.codechef.com/problems/ICM0013
+
+
+Tags:
+
+               
+                 Modular Arithmetic, ad-hoc, Observation
+                 
+                     
+                     Mathematics, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1112
+
+
+Date Added:
+3-04-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

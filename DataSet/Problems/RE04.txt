@@ -1,0 +1,67 @@
+
+Input description
+First line contains an integer T, representing the number of test cases.For each test case,next line contains an integer X.
+Output
+For each Test Case, the output contains one integer.
+Constraints
+T <= 100 
+1 <= X <= 10^4
+Example
+Input:
+2
+69
+1289
+
+Output:
+15
+320
+
+
+
+
+Author:
+2★akarun
+
+
+Editorial:
+https://discuss.codechef.com/problems/RE04
+
+
+Tags:
+
+               
+                 akarun, rven2017, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+16-03-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,75 @@
+
+Today is rose day, batch mates of Kabir and Tara decided to celebrate this day by exchanging roses with each other. 
+Note: exchanging means both the boy and the girl will give rose to each other. 
+In the class there are B boys and G girls. 
+Exchange of rose will take place if and only if at least one of them hasn't received a rose from anyone else and a rose can be exchanged only once.
+Tara has to bring maximum sufficient roses for everyone and is confused as she don't know how many roses to buy.You are a friend of Kabir, so help him to solve the problem so that he can impress Tara by helping her. 
+Input:
+
+First line will contain T, number of test cases. 
+Each test case contains two space separated integers B (Number of boys) and  G (Number of Girls).
+
+Output:
+For each test case, output in a single line the total number of roses exchanged.
+Constraints:
+
+1≤T≤105
+1≤B≤109
+1≤G≤109
+
+Sample Input:
+1
+2 3
+
+Sample Output:
+8
+
+
+
+
+Author:
+3★muzare_ali
+
+
+Editorial:
+https://discuss.codechef.com/problems/CC001
+
+
+Tags:
+
+               
+                 cakewalk, hecs2020, muzare_ali
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+16-02-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

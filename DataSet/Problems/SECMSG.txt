@@ -1,0 +1,85 @@
+
+
+Giovanni is given a secret message from a fortune-teller. The fortune-teller says that if in the message there exist exactly 3 dashes between every pair of numbers that add up to 11 then Giovanni will win the lottery otherwise not.
+
+
+Giovanni is bad at pattern recognition so he asks you to tell his fortune. Write a program to decide whether Giovanni wins the lottery or not.
+
+Input
+
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first each test case contains a string 
+
+Output
+
+print "YES" if Giovanni wins the lottery else "NO" ,without quotes
+
+Constraints
+
+1 ≤ T ≤ 102 
+0 ≤ Length of string ≤ 103 
+
+Example
+Input:
+3
+atrb5---6xyul2---eke7
+abc-4--sss-7lr-1
+ab5--7-6-6yuptr
+Output:
+YES
+YES
+NO
+
+Explanation
+In case 1 one pair (5, 6)  adding up to 11 exists and there are 3 dashes between them.
+In case 2 one pair (4, 7)  adding up to 11 exists and there are 3 dashes between them.
+In case 3 there are two pair (5, 6) which adds to 11 but one doesn't have exactly 3 dashes
+
+
+
+Author:
+3★prajapat786
+
+
+Editorial:
+https://discuss.codechef.com/problems/SECMSG
+
+
+Tags:
+
+               
+                 easy-medium, hashing, ince2019, prajapat786, prajapat786, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+4-09-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

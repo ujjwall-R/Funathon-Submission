@@ -1,0 +1,109 @@
+
+Read problem statements in Mandarin, Vietnamese, and Russian as well.
+For a given array B1,B2,…,BMB1,B2,…,BM of length at least 33, let's define its weight as the largest value of (Bi−Bj)⋅(Bj−Bk)(Bi−Bj)⋅(Bj−Bk) over all possible triples (i,j,k) with 1≤i,j,k≤M and i≠j,j≠k,k≠i. 
+You are given a sorted array A1,A2,…,AN (that is, A1≤A2≤…≤AN). 
+Calculate the sum of weights of all contiguous subarrays of A of length at least 3. That is, count the sum of weights of arrays [Ai,Ai+1,…,Aj] over all 1≤i<j≤N with j−i≥2.
+Input Format
+
+The first line of input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains an integer N.
+The second line of each test case contains N space-separated integers A1,A2,…,AN.
+
+Output Format
+For each test case, print a single line containing the sum of weights of all subarrays of A of length at least 3.
+Constraints
+
+1≤T≤1000
+3≤N≤3000
+1≤A1≤A2…≤AN≤106.
+Sum of N over all test cases won't exceed 6000.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+4
+1 2 3 4
+5
+1 42 69 228 2021 
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+1041808
+
+
+Explanation
+ Explanation of the first test case of the sample: 
+
+Given array has 3 subarrays of length at least 3.
+
+
+ [1,2,3] has weight 1, with i=1,j=2,k=3: (1−2)⋅(2−3)=1 
+ [2,3,4] has weight 1, with i=3,j=2,k=1: (4−3)⋅(3−2)=1 
+ [1,2,3,4] has weight 2, with i=1,j=2,k=4: (1−2)⋅(2−4)=2, or with i=1,j=3,k=4: (1−3)⋅(3−4)=2 
+
+
+
+
+Author:
+6★munch_01
+
+
+Editorial:
+https://discuss.codechef.com/problems/PRDTPAIN
+
+
+Tags:
+
+               
+                 1D Arrays, AP, GP, Inequalities, Arithmetic, Binary Search
+                 
+                     
+                     Data Structures, Arrays, Mathematics, Sequences and Progression, Algebra, Basic Maths, Algorithms, Searching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+19-11-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

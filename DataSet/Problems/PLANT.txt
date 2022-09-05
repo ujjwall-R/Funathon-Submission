@@ -1,0 +1,93 @@
+
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a string SS with length NN. You should find two non-intersecting substrings of S such that the second one is a substring of the first one and the product of these substrings' lengths is the maximum possible. More formally, let's denote a contiguous substring Sl,Sl+1,…,Sr by S[l,r]; you should find integers l1, r1, l2 and r2 which satisfy these four criteria:
+
+1≤l1≤r1≤N and 1≤l2≤r2≤N
+r2<l1 or r1<l2
+S[l2,r2] is a contiguous substring of S[l1,r1]
+the product P=(r2−l2+1)⋅(r1−l1+1) is maximum possible
+
+Find the maximum value of P. It is guaranteed that for the given test data, there is at least one way to choose l1,r1,l2,r2 such that the first three criteria are satisfied, i.e. the answer is well-defined.
+Input
+
+The first line of the input contains a single integer N.
+The second line contains a single string S with length N.
+
+Output
+Print a single line containing one integer ― the maximum product P.
+Constraints
+
+1≤N≤2⋅106
+S contains only lowercase English letters
+
+Subtasks
+Subtask #1 (50 points): N≤103
+Subtask #2 (50 points): original constraints
+Example Input 1
+5
+abaab
+
+Example Output 1
+6
+
+Explanation
+We can choose substrings S[1,2] and S[3,5].
+Example Input 2
+25
+atcodercodeforcescodechef
+
+Example Output 2
+76
+
+
+
+
+Author:
+6★mrkerim
+
+
+Editorial:
+https://discuss.codechef.com/problems/PLANT
+
+
+Tags:
+
+               
+                 String, Suffix Structures, Suffix Arrays, Sparse Table, Disjoint Set Union, DFS, Binary Search
+                 
+                     
+                     Data Structures, Advanced Data Structures, Algorithms, Graph Algos, Traversals, Searching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2836
+
+
+Date Added:
+23-11-2019
+
+
+Time Limit:
+6 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

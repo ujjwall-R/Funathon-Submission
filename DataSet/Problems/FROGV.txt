@@ -1,0 +1,106 @@
+
+Read problems statements in Mandarin Chinese and Russian.
+Nobody knows, but NN frogs live in Chef's garden.
+Now they are siting on the X-axis and want to speak to each other. One frog can send a message to another one if the distance between them is less or equal to KK.
+Chef knows all PP pairs of frogs, which want to send messages. Help him to define can they or not!
+Note : More than 11 frog can be on the same point on the X-axis.
+Input
+
+The first line contains three integers N, K and P.
+The second line contains N space-separated integers A1, A2, …, AN denoting the x-coordinates of frogs".
+Each of the next P lines contains two integers A and B denoting the numbers of frogs according to the input.
+
+Output
+For each pair print "Yes" without a brackets if frogs can speak and "No" if they cannot.
+Constraints
+
+1≤N,P≤105
+0≤Ai,K≤109
+1≤A,B≤N
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5 3 3
+0 3 8 5 12
+1 2
+1 3
+2 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Yes
+Yes
+No
+
+
+Explanation
+
+For pair (1,2) frog 1 can directly speak to the frog 2 as the distance between them is 3−0=3≤K . 
+For pair (1,3) frog 1 can send a message to frog 2, frog 2 can send it to frog 4 and it can send it to frog 3.
+For pair (2,5) frogs can't send a message under current constraints. 
+
+
+
+
+Author:
+berezin
+
+
+Editorial:
+https://discuss.codechef.com/problems/FROGV
+
+
+Tags:
+
+               
+                 Hashmaps, Dynamic Programming, Sorting
+                 
+                     
+                     Data Structures, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1668
+
+
+Date Added:
+10-03-2014
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,77 @@
+
+There are some short-cut ways to check divisibility of numbers in base 10. Here are some examples:
+
+Remember divisibility testing of 3 in base 10? It was simple, right? We need to add all the digits and then check if it is divisible by 3. Call this method "1-sum".
+In case of testing of 11, we need to add all digits by alternating their signs. For example, 1354379988104 = 11*123125453464 and (4-0+1-8+8-9+9-7+3-4+5-3+1) = 0, which is divisible by 11 (0 = 0*11).  Lets call this method "1-altersum".
+In case of 7, we need to add all 3-digit-groups by alternating their signs. For example,  8618727529993 = 7*1231246789999 and (993-529+727-618+8) = 581, which is divisible by 7 (581 = 7*83). Similarly, we call this method "3-altersum".
+In similar Manner, 13’s checking is "3-altersum".
+
+In this problem, we are interested to see divisibility checking of only prime numbers in base 10. For a prime P, you need to find the smallest positive integer N such that P’s divisibility testing is "N-sum" or "N-altersum".
+Input
+At first you will be given T (T ≤ 1000), the number of test cases. Then T lines will follow. In each line there will be single integer P (P ≤ 231-1 = 2147483647), the prime number (P is a prime number NOT equal to 2 or 5).
+Output
+For each line of input, produce exactly one line of output like either "Case <test-case>: <N>-sum" or "Case <test-case>: <N>-altersum". Please see sample input and output for details.
+Sample Input
+4
+3
+7
+11
+13
+Output
+Case 1: 1-sum
+Case 2: 3-altersum
+Case 3: 1-altersum
+Case 4: 3-altersum
+
+
+
+
+Author:
+kol_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/KOL16E
+
+
+Tags:
+
+               
+                 Fermat's Little Theorem, Modulo Multiplicative Inverse
+                 
+                     
+                     Mathematics, Modular Arithmetic
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-12-2016
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+40000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3
+
+
+
+
+
+Submit
+

@@ -1,0 +1,108 @@
+
+Read problem statements in Russian, Mandarin and Vietnamese as well.
+To prove that writing graduate work is important, you decided to invent some interesting problem connected to it:
+You are given a weighted complete undirected graph on NN nodes. For every pair of vertices (i,j)(i,j) with 1≤i<j≤N there is an edge with weight D⋅|i−j|+cij between them, with 0≤cij<D (remember, that graph is undirected, so there will be edge with such weight in both sides).
+You need to solve the travelling salesman problem on this graph. In other words, you need to find the length of the shortest possible route that visits each node exactly once and returns to the origin node.
+Input Format
+
+The first line contains one integer T − the number of test cases. The description of test cases follows.
+The first line of each test case contains two integers N,D.
+The i-th of the next N−1 lines contains N−i integers ci,i+1,…,ci,N. 
+
+Output Format
+For each test case print a single integer − the length of the shortest possible route that visits each city exactly once and returns to the origin city.
+Constraints
+
+1≤T≤2000
+2≤N≤2000
+2≤D≤1000
+0≤cij<D
+The sum of N over all test cases doesn't exceed 2000.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+4 3
+0 0 2
+2 0
+0
+5 4
+2 0 0 3
+1 2 0
+3 3
+1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+18
+38
+
+
+Explanation
+In the first test case, one of the possible shortest routes is (1,3,4,2,1).
+In the second test case, one of the possible shortest routes is (3,4,5,2,1,3).
+
+
+
+Author:
+6★gomelfk
+
+
+Editorial:
+https://discuss.codechef.com/problems/TSP
+
+
+Tags:
+
+               
+                 Graphs, Optimization Problems, Dynamic Programming, Observation
+                 
+                     
+                     Data Structures, Special, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2493
+
+
+Date Added:
+4-12-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

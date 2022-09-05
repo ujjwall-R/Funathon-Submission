@@ -1,0 +1,102 @@
+
+The city of Quensland has NN city and they are connected by N−1N−1 roads having no cycles. There always exists a unique path between any two cities.Each road is bidirectional having length of 1 and connects two different cities. A new pizza service has arrived in Quensland where requests are served as queries , please note that the toppings of the pizza differentiate the pizzas with their colors.
+If a query is given as p d c  , it is described as serving pizzas having toppings of color  changed to c to all the
+cities within the distance d from city p, including p itself.
+Mike the owner of the pizza service resides in city 1, thereby, rooting the whole tree at City1. Now , he wants to know the count of all distinct colors of the toppings after all the requests are served at the end of day for each city .
+0 is also considered as a color.
+NOTE: Given d may exceed the total distance when you start travelling from a city , in that case consider all the cities that can be covered by travelling distance d from the given tree.
+Input:
+
+The first line contains an integer N denoting the number of cities.
+The next N−1 lines contain two space separated integers ai and bi denoting that there is a road -connecting city ai and bi.
+The next line contains an integer Q denoting the number of queries.
+The next Q lines contain three space separated integers pi,di and ci denoting that the pizza service pi along with the pizza service within distance di should have pizza toppings of color changed to ci.
+
+Output:
+Print the answer in N space separated integers , the ith integer denoting the number of distinct colors of all toppings present in the subtree rooted at the ith city after all Q operations are performed.
+Constraints
+
+1≤N,Q≤100000
+1≤ai,bi,pi≤N
+ai≠bi
+0≤di≤20
+1≤ci≤100000
+
+SUBTASKS:
+
+10 points:
+1≤N,Q≤1000
+90 points:
+Original constraints
+
+NOTE - There are no self loops or multiple edges in the tree and initially all the pizza services have pizzas of topping coloured as 0.
+Sample Input:
+7
+1 2
+1 3
+1 4
+4 5
+5 6
+5 7
+2
+6 1 1
+1 2 2
+Sample Output:
+3 1 1 3 3 1 1
+EXPLANATION:
+Inititally all houses are uncolored , sol let the color array be [0,0,0,0,0,0,0]
+After query 1 - 
+The color array will be [0,0,0,0,1,1,0]
+After query 2 - 
+The color array wil be [2,2,2,2,2,1,0]
+Now for each ith node , the number of distinct colors in all the nodes having ith node as the root - 
+[3,1,1,3,3,1,1]
+
+
+
+Author:
+5★naveen19991124
+
+
+Editorial:
+https://discuss.codechef.com/problems/WEIRDTOP
+
+
+Tags:
+
+               
+                 dynamic-programming, naveen19991124, str2020, trees
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+9-10-2020
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+100000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

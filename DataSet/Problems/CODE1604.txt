@@ -1,0 +1,81 @@
+
+ 
+Problem description
+Rishabh is playing a game of jumbled words with his friends.The game comprises of a set of N distinct letters.The player is given the number, a set of distinct letters and a letter from the set.The player has to identify the position of the first and the last word that will be formed if the words formed from all the letters were arranged in a dictionary order and putting given letter at first position.The player has to find those words as well.Help Rishabh win the game.
+Input
+The first line consists of value of N i.e. total number of distinct letters.The second line consists of the set of distinct letters.And the third lines consists of the letter whose words you need to find out.
+Output
+Please output the first and the last words formed from the letter as well as their positions.
+Constraints
+
+1 ≤ N ≤ 26
+
+Distinct Set of Letters
+Example
+Input:
+10
+b a c z j t y q i p
+t
+
+Output:
+2540161 tabcijpqyz
+2903040 tzyqpjicba
+
+
+Explanation:
+First line says that there is 10 distinct alphabets and second line contain that 10 distinct alphabets.
+Now third line has that character that needed to put at first position.
+
+Now if we put 't' at first position then first word form will be 'tabcijpqyz' and its position will be 2540161 
+and similarly last word will be 'tzyqpjicba' and its position will be  2903040 
+
+
+
+
+
+Author:
+devender123_
+
+
+Editorial:
+https://discuss.codechef.com/problems/CODE1604
+
+
+Tags:
+
+               
+                 coit2016, combinatorics, devender123_, letter, medium, permutation, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+23-01-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

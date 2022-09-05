@@ -1,0 +1,92 @@
+
+Today, You and Chef went for a drive on a straight road with no cars on the highway early in the morning. But to Chef’s disappointment the highway is not so smooth, it has some potholes and moreover the highway has a fixed length, after that it is broken. The highway is straight and is given in the form of a binary string. Binary string is a string consisting of only 1s and 0s. 1s representing the highway is smooth at that point and 0s representing the highway has potholes in that position.
+Chef’s car has initial fuel in the car as F, which represents the distance the car can travel with that much fuel. Chef’s car has a reserve fuel in it too but at any point it can be used for increasing the fuel from F to F+1. Assume he has unlimited reserve fuel but can only use 1 unit of it to increase F to F+1 at a stopping point and as soon as F becomes 0 he will not be able to use his reserve fuel anymore.
+Chef can use F−1 fuel or F fuel and due to the reserve he can also use F+1 fuel. So he has 3 points to stop at F−1+P,F+P,F+1+P where P is the current position and at those points the fuel for the next part of the journey will be F−1,F,F+1 respectively. Chef stops when he has 0 Fuel left with him and in this case he can’t use his reserve fuel. But he can’t stop at a position with a pothole.
+So, he asks you to tell him that, will he be able to stop on a flat surface and not a pothole until his fuel F becomes 0, within the bounds of the highway. If there is still fuel left till the end of the highway then he will not stop within the bounds of the highway and the answer would be NO otherwise the answer is YES if he stops within the highway and always stops at flat surfaces.
+
+Input:
+First line will contain T, number of testcases. Then the testcases follow.
+Each testcase contains two lines.
+First line contains an integer n, the length of the highway and F, initial fuel.
+Second line contains a string S consisting of 0s and 1s.
+
+Output:
+For each testcase, output in a single line the answer : YES or NO.
+
+Constraints
+1≤T≤103+4
+1≤n≤10100
+1≤F≤n
+
+Subtasks
+Subtask #1(15 points): 1≤T≤10, 1≤n≤50, 1≤F≤n
+Subtask #2(25 points): 1≤T≤100, 1≤n≤103, 1≤F≤n
+Subtask #3(60 points): Original Constraints
+
+Sample Input:
+3
+6 2
+101100
+6 1
+101000
+7 3
+1100101
+
+Sample Output:
+YES
+YES
+NO
+
+EXPLANATION:
+For the first case, he starts at position 1 and from position 1 he has 3 options to chose i.e. to index 2, 3 or 4. He will not chose 2 because there is a pothole where he has to stop at 2. He will chose index 3 and will stop there. Now at index 3 he has a fuel of 2 so he again have options of going at 4,5,6 and he will go to index 4 and stop there. At index 4 now he has a fuel of 1 unit. So he can now use no fuel option(because he can chose 1-1=0 fuel) and hence has stopped.
+For the second case, he starts at position 1 with a fuel of 1 and he can stop there itself choosing the no fuel option(F-1) and can stop there only.
+For the last case, there will be no way in which Chef could stop himself within the bound of the highway, there will be still fuel left.
+
+
+
+Author:
+pec_chapter
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHDF
+
+
+Tags:
+
+               
+                 dynamic-programming, greedy, pec_chapter, recursion, ucsp2021
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+31-03-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

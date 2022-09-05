@@ -1,0 +1,91 @@
+
+ 
+
+Flippy the Bird has proposed n problems for the MCO qualifiers. He has labelled the problems from 1 to n. Fluffy the Squirrel has reviewed the problems, and assigned a difficulty rating di for each problem. The contest problems must have consecutive problem numbers. This means that the contest problems must have labels x, x + 1, ..., y for two positive  integers x and y. He believes a contest is balanced if there are at least l problems and at most r problems. Additionally, the average difficulty rating of the problems must be at most A. Flippy wants to set A to some real number (which means it might have decimal places) so that Fluffy can choose the problems for the contest in at least k ways, where k is a positive integer. Flippy wants A to be as small as possible. Find the optimal value of A.
+
+ 
+Input
+
+The first line contains 4 positive integers n, l, r, k, the number of problems, minimum and maximum number of problems in a balanced contest, and the minimum number of ways that Fluffy can select the problems for the contest. The next line contains n space-seperated integers, denoting the difficulty level of the problems. 
+
+ 
+Output
+Output a single real number, A, as explained in the problem statement. The answer will be considered correct if its relative or absolute error does not exceed 0.01.
+ 
+Constraints
+
+1 ≤ n ≤ 100000
+1 ≤ di ≤ 106
+
+1 ≤ l ≤  r ≤ n
+k will not exceed the number of ways to choose the problems when A = 106
+
+Subtasks
+
+Subtask 1 (7 points) : 1 ≤ n ≤ 300
+Subtask 2 (13 points) : 1 ≤ n ≤ 5000
+Subtask 3 (30 points) : l = 1, r = n
+Subtask 4 (50 points) : Original Constraints
+
+ 
+Example
+Input:
+5 2 3 4
+1 5 3 6 4
+
+Output:
+4.33333333
+
+ 
+Explanation
+Example case. Indeed, there are 4 ways to choose the problems so that the average is at most 4.33333333. (or more precisely 13/3, but the error is less than 0.01 so this is accepted) The 4 choices are {1, 5}, {1, 5, 3}, {3, 6, 4}, {5, 3}.
+
+
+
+
+Author:
+6★zscoder
+
+
+Editorial:
+https://discuss.codechef.com/problems/MCO16503
+
+
+Tags:
+
+               
+                 binary-search, binary-search-tree, dynamic-programming, zscoder
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-11-2016
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, CPP14, PYTH, PYP3
+
+
+
+
+
+Submit
+

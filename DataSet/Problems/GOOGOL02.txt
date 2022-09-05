@@ -1,0 +1,85 @@
+
+ 
+Before the conversion from ISM to IIT, the administration had started preparing for it by constructing new buildings in the campus, so that the campus must be at par with the infrastructures available in other IITs. Now, let us assume that all the free locations in the campus can be represented as a Matrix of N * M. Each element of the matrix is an integer which denotes the level of satisfaction the admin will get by constructing a building at that point. For a building whose corner points can be denoted by the points (x, y), (x, w), (z, y) and (z, w) gives a satisfaction equals to sum of all values that it encloses within these four points.
+For example, consider the matrix: 
+1 2 3 4
+2 3 4 5
+3 4 5 6
+The satisfaction value for the building denoted by the end points (1, 2), (1, 4), (3, 2), (3, 4) is 2 + 3 + 4 + 3 + 4 + 5 + 4 + 5 + 6 = 36 
+But the admin is quite sceptical when constructing buildings and prefers to construct only those building which will provide a satisfaction S which follows the following rule. 
+B = S mod A , where A and B are some integers
+Now the Admin wants to know, how many such buildings can be made which satisfies the above criterion ?
+ 
+Input
+The first line contains four space separated integers N , M, A and  B . Then N lines follow. Each of the next N lines contains M space separated integers. Thus input is a matrix of order  N x M 
+Output
+Output a single line denoting the number of buildings that will satisfy the criterion mentioned in the problem statement.
+Constraints
+
+1 ≤ M ≤ 350
+1 ≤ N ≤ 350
+1 ≤ A ≤ 100000
+0 ≤ B < A
+1 ≤ Value of any matrix element ≤ 2500000000
+
+ 
+Example
+Input:
+2 2 3 2
+2 5    
+6 1
+
+Output:
+4
+ 
+Explanation
+The buildings that will satisfy the constraint are {(1,1)} = 2 mod 3 = 2{(1,2)} = 5 mod 3 = 2 {(1, 1), (2, 1)} = 2 + 6 = 8 mod 3 = 2 and  {(1, 1), (1, 2), (2, 1), (2, 2)} = 2 + 5 + 6 + 1 = 14 mod 3 = 2 
+
+
+
+Author:
+3★surajjumpy
+
+
+Editorial:
+https://discuss.codechef.com/problems/GOOGOL02
+
+
+Tags:
+
+               
+                 ad-hoc, dynamic-programming, hashing, surajjumpy, two-pointers
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+31-03-2015
+
+
+Time Limit:
+2 - 2.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, PYPY, TEXT
+
+
+
+
+
+Submit
+

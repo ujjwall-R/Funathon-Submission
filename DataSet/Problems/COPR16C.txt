@@ -1,0 +1,70 @@
+
+Consider 2 strings. We define string a to be strictly greater than string b (both are of same length) when each character of a is strictly greater than corresponding character in b. Here a given character is strictly greater than another character if its ASCII value is greater than the other.Example “www” is strictly greater than “abc” but “gbc” is not strictly greater than “abc”.You are provided with the length of the string. For the string length l, you have to calculate how many pairs (x, y) exist such that string x is strictly greater than string y. Since the answer can be too large to fit in 32 bits, print the answer modulo 1000000007.Here the characters of the string may not be unique and all the characters are lowercase alphabets.
+
+Input Constraints
+
+ 1 <= t <= 2*104 
+ 1 <= j <= 108 
+
+Input Format:
+The first line contains t, the number of test cases.
+Next t lines contains an integer 'l'as specified in the question.
+
+Output Format:
+For each test case, print the required answer modulo 1000000007.
+Example
+Input:
+1
+10
+Output:
+821554767
+
+
+
+
+Author:
+6★likecs
+
+
+Editorial:
+https://discuss.codechef.com/problems/COPR16C
+
+
+Tags:
+
+               
+                 cakewalk, copr2016, likecs, likecs
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+19-02-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

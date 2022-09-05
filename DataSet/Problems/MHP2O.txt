@@ -1,0 +1,90 @@
+
+Today, we will learned about MontyMonty HallHall ParadoxParadox
+You are given an N number of doors such that behind one door there is a car. There 
+is one magician who knows which door is having a car.
+Now your task is to choose any door at random. Note that there may be a car behind your 
+chosen door (door1). Now the magician will open all the doors except two doors which you 
+have already chosen (door1) and another door (door2) which may or may not contain a car. 
+Now you have exactly two door's left. Your task is to find the probability of a car 
+behind the (door1) and similarly car behind the (door2).
+Note : − It's proven that you always write the probability in terms of P/Q.  
+Input:
+
+First line contains a single integer T.
+The Next T lines contain an integer N.
+
+Output:
+
+For each test case print the probability of the car behind the door1 and door2.
+In terms of 4 space separated integers.
+p1 q1 p2 q2
+p1/q1 −> Probability of car behind the door1.
+p2/q2 −> Probability of car behind the door2.
+
+Constraints
+
+1≤T≤105
+3≤N≤109
+
+Subtasks
+
+100 points : Original Constraints
+
+Sample Input:
+1
+3
+
+Sample Output:
+1 3 2 3
+
+EXPLANATION:
+If you observe carefully the probability of choosing door1 out of three doors is 1/3. Now when the magician open the door which not contain a car the probability of door2 such that car behind that door is 2/3
+
+
+
+Author:
+4★mann2108
+
+
+Editorial:
+https://discuss.codechef.com/problems/MHP2O
+
+
+Tags:
+
+               
+                 cakewalk, imti2020, mann2108, mann2108, probability
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-04-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

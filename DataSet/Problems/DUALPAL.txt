@@ -1,0 +1,90 @@
+
+ Read problems statements in Mandarin Chinese and Russian as well.
+A number is called a Dual Palindrome if it's representation in bases B1 and B2 are both palindromes.  e.g. Let  B1 = 3, B2 = 4, then number 130 (in base 10) will be called a Dual Palindrome, as it is palindrome in base 3 (11211) as well as in base 4 (2002). However, it is not a Dual Palindrome for B1 = 3 and B2 = 5 as it's not a palindrome in base 5(1010).
+Given two integers B1 and B2, Chef wants to find Dual Palindromes less than 260. If there are more than 1000 Dual Palindromes, then output the first 1000 only (these numbers should be in base 10).
+Input
+The fine line of the input contains an integer T denoting the number of test cases. Each test case consists of a single line containing two space separated integers: B1 and B2, respectively.
+
+Output
+For each test case, output a list of space separated integers which are Dual Palindromes less than 260 for the input bases. If there are more than 1000 Dual Palindromes, then output the first 1000 only. The numbers should be printed in an ascending order.
+Constraints
+
+1 ≤ T ≤ 5
+ 2 ≤ B1 < B2 ≤ 16 
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+2 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1 6643 1422773 5415589 90396755477 381920985378904469
+
+
+
+
+
+Author:
+imran_adm
+
+
+Tester:
+6★iscsi
+
+
+Editorial:
+https://discuss.codechef.com/problems/DUALPAL
+
+
+Tags:
+
+               
+                 backtracking, cook61, hard, imran_adm, maths
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+9999
+
+
+Date Added:
+31-07-2015
+
+
+Time Limit:
+8 secs
+
+
+Source Limit:
+8000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

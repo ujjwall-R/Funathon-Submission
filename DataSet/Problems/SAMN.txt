@@ -1,0 +1,77 @@
+
+On a random day, Ayushi came running to her hostel to UN-box her parcel, that she received from an e-commerce website as a gift from an unknown guy. To her surprise, the parcel had a secured case, which prompted her to play a small game to break into the security.
+The game was simple.
+Ayushi was asked to enter a number N and she had to find the largest number having N digit which is the "Samosa Number".
+"Samosa number" is developed by a "Samosa" Lover, that unknown boy.
+A number P is a Samosa Number if it follows the following three criteria :
+1.The number should consist of the odd digit at the odd positions but starts with an even digit.
+2.The number consists of each digit from 1 to N at most once.
+3.The number is prime.
+Ayushi was not so genius neither a coder, so she came running to you for the code. Are you willing to solve the problem for her, provided she is extremely cute and single, searching for a coder friend.
+INPUT
+A single integer (1≤N≤8). The number consists of integers from 1 to N but doesn't consist of 0.
+OUTPUT
+The largest number of N digit that is a Samosa Number.
+If it doesn't exist, then output "Dont Exist for N"(Value of N) without the quotes.
+
+Sample Input
+2
+
+Sample Output
+Dont Exist for 2
+
+Sample Input
+4
+
+Sample Output
+4231
+
+
+
+
+Author:
+3★thesuraj007
+
+
+Editorial:
+https://discuss.codechef.com/problems/SAMN
+
+
+Tags:
+
+               
+                 array, coss2020, easy-medium, externalcontest, prime, thesuraj007
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-01-2020
+
+
+Time Limit:
+0.01 - 2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, PYPY, NODEJS, RUBY, PHP, GO, kotlin, SCALA, JS, rust, R, swift, SQL
+
+
+
+
+
+Submit
+

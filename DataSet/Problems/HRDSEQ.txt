@@ -1,0 +1,102 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef decided to write an infinite sequence. Initially, he wrote 00, and then he started repeating the following process:
+
+Look at the last element written so far (the ll-th element if the sequence has length ll so far); let's denote it by xx.
+If xx does not occur anywhere earlier in the sequence, the next element in the sequence is 00.
+Otherwise, look at the previous occurrence of xx in the sequence, i.e. the kk-th element, where k<lk<l, this element is equal to xx and all elements between the k+1k+1-th and l−1l−1-th are different from xx. The next element is l−kl−k, i.e. the distance between the last two occurrences of xx.
+
+The resulting sequence is (0,0,1,0,2,0,2,2,1,…)(0,0,1,0,2,0,2,2,1,…): the second element is 00 since 00 occurs only once in the sequence (0)(0), the third element is 11 since the distance between the two occurrences of 00 in the sequence (0,0)(0,0) is 11, the fourth element is 00 since 11 occurs only once in the sequence (0,0,1), and so on.
+Chef has given you a task to perform. Consider the N-th element of the sequence (denoted by x) and the first N elements of the sequence. Find the number of occurrences of x among these N elements.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer N. 
+
+Output
+For each test case, print a single line containing one integer ― the number of occurrences of the N-th element.
+Constraints
+
+1≤T≤128
+1≤N≤128
+
+Subtasks
+Subtask #1 (30 points): 1≤N≤16
+Subtask #2 (70 points): 1≤N≤128
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+
+
+Explanation
+Example case 1: The 2-nd element is 0. It occurs twice among the first two elements, since the first two elements are both 0.
+
+
+
+Author:
+5★mynk322
+
+
+Editorial:
+https://discuss.codechef.com/problems/HRDSEQ
+
+
+Tags:
+
+               
+                 Implementation
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1278
+
+
+Date Added:
+21-06-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

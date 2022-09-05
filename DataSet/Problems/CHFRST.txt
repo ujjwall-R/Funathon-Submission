@@ -1,0 +1,83 @@
+
+Chef wants to set up restaurants between Berhampore and different cities.
+Given a distance DD between the city and Berhampore, You need to find the minimum no. of restaurants chef needs to build.
+However, distance between two consecutive restaurants should not be more than KK kilometers.
+Also, to maximize profit, Chef must set up restaurants on every major cities in between.
+Consider Chef already have a restaurant in berhampore. And roads between different cities do not overlap.
+Input:
+
+First line contains TT no. of test cases
+for every test case, Next line consists of three space separated integers, D , K and N
+for every test case, Next line contains N space separated integers containing distances between ith major city and Berhmapore
+
+Output:
+For every test case print minimum no. of restaurants he need to set up in new line
+Constraints
+
+1≤T≤10
+1≤D≤3000
+1≤K≤100
+0≤N≤50
+1≤A[i]≤3000
+
+Sample Input:
+1
+20 5 2
+4 17
+
+Sample Output:
+5
+
+EXPLANATION:
+Chef needs to build restaurants on 4 ( City 1 ), 9, 14, 17 ( City 2 ), 20 ( Destination - Which is a city )
+Hence a total of 5 restaurants
+NOTE : Combinations like 4, 8, 13, 17, 20  or 4, 7,12,17,20 or 4,9,13,17,20 etc. are also correct. 
+
+
+
+Author:
+4★babangain
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHFRST
+
+
+Tags:
+
+               
+                 array, babangain, babangain, biba2018, easy
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-08-2018
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

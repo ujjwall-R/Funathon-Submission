@@ -1,0 +1,129 @@
+
+PUBG Medi-Caps Tournament is coming soon!
+Chef wants to make a PUBG team of 5 members (4 main team members and 1 backup member) chosen from a set of NN people. He wants to give all players an equal chance, so he has marked a spot each for players from different tier-levels identified by the following strings: “bronze”, “silver”, “gold”, “platinum”, “diamond”, “crown”, “ace”, “conqueror”. He has decided upon selecting players for the team based upon the following tier criteria:
+
+one “bronze” or one “silver” 
+one “gold” or “platinum”
+exactly one “diamond”
+exactly one “crown”
+one “ace” or “conqueror”
+
+Given the information about the NN players, can you guide Chef as to whether it is possible to pick 5 players and form a valid team?
+Input Format
+
+The first line of input contains one integer TT denoting the number of test cases.
+T test cases follow.
+The first line of each test case contains a single integer N.
+Then N lines follow; the i-th line contains a single string Si, denoting the tier-level of the i-th player. 
+
+Use faster input/output methods (scanf/printf).
+Output Format
+For each test case, output “Yes” if it’s possible to pick 5 players as per the selection criteria and form a valid team; otherwise, output “No”.
+Constraints
+
+1≤T≤105
+5≤N≤105
+sum of N in all test cases ≤6∗105
+Si can only be one of the following strings: "bronze”, “silver”, “gold”, “platinum”, “diamond”, “crown”, “ace”, “conqueror”
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+5
+gold
+diamond
+crown
+silver
+ace
+7
+gold
+gold
+diamond
+diamond
+crown
+bronze
+silver
+7
+bronze
+gold
+platinum
+diamond
+crown
+ace
+conqueror
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Yes
+No
+Yes
+
+
+Explanation
+Example Case 2: There are neither players of “ace” tier or “conqueror” tier, so it is impossible to form a valid PUBG team.
+
+
+
+Author:
+3★artha6391
+
+
+Tester:
+2★anushka_nagar
+
+
+Editorial:
+https://discuss.codechef.com/problems/CMC301
+
+
+Tags:
+
+               
+                 ad-hoc, artha6391, cakewalk
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+19-10-2021
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

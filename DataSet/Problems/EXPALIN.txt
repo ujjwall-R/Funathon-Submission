@@ -1,0 +1,117 @@
+
+ Read problems statements in Mandarin Chinese , Russian and Vietnamese as well.
+
+You are given a binary string S of N bits. The bits in the string are indexed starting from 1. S[i] denotes the ith bit of S.
+
+
+Let's say that a sequence i1, i2, …, iK(1 ≤ K; 1 ≤ i1 < i2 < … < iK ≤ N) produces a palindrome when applied to S, if the string S[i1] S[i2] … S[ik] is a palindrome (that is, reads the same backward or forward).
+
+ 
+In addition, a sequence i1, i2, …, iK(1 ≤ K; 1 ≤ i1 < i2 < … < iK ≤ N) is said to be exponential, if ij + 1 = p * ij for each integer 1 ≤ j < K and for some integer p > 1. Note, that a sequence of one element is always exponential.
+
+Your task is to count the number of exponential sequences that produce a palindrome when applied to S.
+Input
+The first line of input contains an integer T denoting the number of test cases. The description of T test cases follows.
+
+The only line of description for each test case contains a binary string S of N bits.
+
+Output
+
+For each test case, output a single line containing the number of exponential sequences that produce a palindrome.
+
+Constraints
+
+1 ≤ T ≤ 10
+Subtask 1(20 points): 1 ≤ N ≤ 20
+Subtask 2(30 points): 1 ≤ N ≤ 1000
+Subtask 3(50 points): 1 ≤ N ≤ 5 × 105
+
+Note
+
+The first test of the first subtask is the example test. It's made for you to make sure that your solution produces the same verdict both on your machine and our server.
+
+Time Limits
+
+Time limit for the first and the second subtasks is 3s. Time limit for the third subtask is 6s.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+11010
+101001011
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+9
+18
+
+
+
+
+
+Author:
+6★kostya_by
+
+
+Tester:
+4★pavel1996
+
+
+Editorial:
+https://discuss.codechef.com/problems/EXPALIN
+
+
+Tags:
+
+               
+                 String
+                 
+                     
+                     Data Structures
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2442
+
+
+Date Added:
+27-12-2015
+
+
+Time Limit:
+3 - 6 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

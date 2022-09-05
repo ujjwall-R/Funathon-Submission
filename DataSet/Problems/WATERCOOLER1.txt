@@ -1,0 +1,103 @@
+
+The summer is at its peak in Chefland. Chef is planning to purchase a water cooler to keep his room cool. He has two options available: 
+
+Rent a cooler at the cost of XX coins per month.
+Purchase a cooler for YY coins.
+
+Given that the summer season will last for MM months in Chefland, help Chef in finding whether he should rent the cooler or not.
+Chef rents the cooler only if the cost of renting the cooler is strictly less than the cost of purchasing it. Otherwise, he purchases the cooler.
+Print YES if Chef should rent the cooler, otherwise print NO. 
+Input Format
+
+The first line of input will contain an integer T — the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains three integers X, Y and M, as described in the problem statement. 
+
+Output Format
+For each test case, output YES if Chef should rent the cooler, otherwise output NO. 
+You may print each character of the string in uppercase or lowercase (for example, the strings YeS, yEs, yes and YES will all be treated as identical).
+Constraints
+
+1≤T≤100
+1≤X,M≤104
+1≤Y≤108
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+5 10 1
+5 10 2
+5 10 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+YES
+NO
+NO
+
+
+Explanation
+Test case 1: Cost of renting the cooler =5 coins. Cost of purchasing the cooler =10 coins. So, Chef should rent the cooler as the cost of renting the cooler for 1 month is strictly less than purchasing it.
+Test case 2: Cost of renting the cooler =10 coins. Cost of purchasing the cooler =10 coins. So, Chef should not rent the cooler as the cost of renting the cooler for 2 months is not strictly less than purchasing it.
+Test case 3: Cost of renting the cooler =15 coins. Cost of purchasing the cooler =10 coins. So, Chef should not rent the cooler as the cost of renting the cooler for 3 months is not strictly less than purchasing it.
+
+
+
+Author:
+lavish_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/WATERCOOLER1
+
+
+Tags:
+
+               
+                 april221, basic-arithmatic, cakewalk, lavish_adm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+506
+
+
+Date Added:
+7-04-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

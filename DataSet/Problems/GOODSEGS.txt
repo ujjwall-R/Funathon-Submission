@@ -1,0 +1,97 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a permutation p1,p2,…,pNp1,p2,…,pN. Let's denote a contiguous subsequence pl,pl+1,…,prpl,pl+1,…,pr in it by [l,r] and call it interesting if max(pl,pl+1,…,pr)−min(pl,pl+1,…,pr)=r−l.
+Next, let's say that two interesting subsequences [a,b] and [c,d] are nested if a≤c≤d≤b or c≤a≤b≤d, and they are interleaved if max(a,c)≤min(b,d), but they are not nested. The intersection of two such interleaved subsequences is the subsequence [max(a,c),min(b,d)].
+You need to find the number of ordered pairs of interesting contiguous subsequences such that they are interleaved and their intersection contains at least X elements. Since this number may be very large, compute it modulo 998,244,353.
+Input
+
+The first line of the input contains two space-separated integers N and X.
+The second line contains N space-separated integers p1,p2,…,pN.
+
+Output
+Print a single line containing one integer ― the number of valid pairs of interesting subsequences modulo 998,244,353.
+Constraints
+
+1≤X≤N≤300000
+1≤pi≤N for each valid i
+p1,p2,…,pN are pairwise distinct.
+
+Subtasks
+Subtask #1 (10 points): N≤150
+Subtask #2 (20 points): N≤5,000
+Subtask #3 (70 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+6 2
+1 4 2 5 3 6
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+
+
+
+
+
+Author:
+7★gainullinildar
+
+
+Editorial:
+https://discuss.codechef.com/problems/GOODSEGS
+
+
+Tags:
+
+               
+                 Lazy Propagation, DFS
+                 
+                     
+                     Advanced Data Structures, Advanced Tree Structures, Segment Trees, Algorithms, Graph Algos, Traversals
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2769
+
+
+Date Added:
+25-02-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,104 @@
+
+Read problems statements in mandarin chinese, russian and vietnamese as well.
+On the occasion of the birthday, Chef bought a large circular cake and decorated it with  k  candles placed equally spaced around the circumference of the cake, i.e. the lengths of the arcs that connect any two adjacent candles are equal. 
+ Chef enumerated the candles from  1 to  k  in clockwise manner. He then chose two candles, say  A  and  B  and lit them up. Now, he left the kitchen and decided to come back in some time with friends to celebrate the birthday.
+Meanwhile Chef's little brother came to the kitchen and saw the cake. He wants to light up one of the not lit candles C such that angle  ACB  is an obtuse angle. He believes that such a pattern of lit candles will be auspicious. Can you find out how many candles C he can light up?
+Input
+The first line contains a single integer T, the number of test cases. Each test case is described by a single line containing three space-separated integers k, A, B. 
+Output
+For each test case, output a single line containing one integer: the answer for the test case.
+Constraints
+
+1 ≤ T ≤  105 
+3 ≤ k ≤  109 
+1 ≤ A, B ≤ k 
+ A ≠ B 
+
+ 
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+6 1 3
+6 1 4
+10 1 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+0
+3
+
+
+Explanation
+Example case 1. Only candle with number 2 is suitable.
+Example case 2. No matter how we choose C the angle would have 90 degrees.
+Example case 3. Candles with numbers 2,3,4 are suitable.
+
+
+
+Author:
+melnik
+
+
+Tester:
+6★kingofnumbers
+
+
+Editorial:
+https://discuss.codechef.com/problems/OBTTRNGL
+
+
+Tags:
+
+               
+                 Geometry
+                 
+                     
+                     Mathematics
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1647
+
+
+Date Added:
+17-08-2017
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

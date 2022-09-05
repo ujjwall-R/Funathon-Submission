@@ -1,0 +1,104 @@
+
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+You are given an integer n and a string s consisting only of characters 'a' and 'b'. Consider a string t=s+s+⋯+s⏟n times, i.e. the string obtained by concatenating n copies of s.
+Find the number of non-empty prefixes of t in which the number of occurrences of 'a' is strictly greater than the number of occurrences of 'b'.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains the string s and the integer n, separated by a single space. 
+
+Output
+For each test case, print a single line containing one integer — the number of valid prefixes.
+Constraints
+
+1≤T≤100
+1≤|s|≤103
+1≤n≤109
+each character of s is either 'a' or 'b'
+
+Subtasks
+Subtask #1 (30 points): 1≤n≤103
+Subtask #2 (70 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+aba 2
+baa 3
+bba 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+5
+6
+0
+
+
+Explanation
+Example case 1: The string t is "abaaba". It has five prefixes which contain more a-s than b-s: "a", "aba", "abaa", "abaab" and "abaaba".
+Example case 2: The string t is "baabaabaa". The strings "baa", "baaba", "baabaa", "baabaab", "baabaaba" and "baabaabaa" are the six valid prefixes.
+Example case 3: The string t is "bbabbabba". There is no prefix of this string which consists of more a-s than b-s. Therefore, the answer is zero.
+
+
+
+Author:
+admin2
+
+
+Editorial:
+https://discuss.codechef.com/problems/GOODPREF
+
+
+Tags:
+
+               
+                 Basic Maths
+                 
+                     
+                     Mathematics
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1758
+
+
+Date Added:
+2-04-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

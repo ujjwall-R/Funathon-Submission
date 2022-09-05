@@ -1,0 +1,105 @@
+
+Chef is having a bad day at work. In addition to the tasks he already has, his boss came to his desk and gave him a string S of length N. Chef's boss told him to take out the most frequent character in the string, and put in on his desk, and repeat this until the original string had disappeared, meanwhile making a list of all the extracted characters in the order in which they were extracted. Then Chef has to join the characters in this list to make a new string, and return it to his boss. Since more than one character can have the maximum frequency at any stage, the lexicographically smaller character must be extracted first. Can you help Chef with this task?
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+
+The first line of each test case contains an integer N, the length of Chef's string.
+
+The second line of each test case contains the string S.
+
+Note: Remember to trim trailing whitespace characters from S
+
+Output
+For each test case, output a single line containing the string Chef must return to his boss.
+
+
+Constraints
+
+1 ≤ T ≤ 100
+1 ≤ N ≤ 5000
+S is made up of lowercase alphabet characters only
+
+Example
+Input:
+3
+3
+abc
+3
+cba
+10
+abbcccdddd
+
+Output:
+abc
+abc
+dcdbcdabcd
+
+Explanation
+In test case 3, the steps are as follows-
+abbcccdddd, d is removed,
+abbcccddd, c is removed,
+abbccddd, d is removed,
+abbccdd, b is removed,
+abccdd, c is removed,
+abcdd, d is removed,
+abcd, a is removed,
+bcd, b is removed,
+cd, c is removed,
+d, d is removed.
+Answer becomes dcdbcdabcd.
+            
+            
+            
+            
+            
+        
+
+        
+
+
+Author:
+5★subham_75
+
+
+Editorial:
+https://discuss.codechef.com/problems/CL16BC
+
+
+Tags:
+
+               
+                 colg2016, easy, strings, subham_75
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+29-09-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

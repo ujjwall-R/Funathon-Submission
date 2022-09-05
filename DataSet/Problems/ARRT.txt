@@ -1,0 +1,103 @@
+
+Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
+You are given a sequence A1,A2,…,AN which contains pairwise distinct elements and a sequence B1,B2,…,BN, which also contains pairwise distinct elements (but not necessarily distinct from elements of A). For each valid i, 1≤Ai,Bi≤2⋅N.
+You may rotate B as many times as you want. A rotation consists of moving the first element of the sequence to the end. Afterwards, let's define a sequence C1,C2,…,CN as Ci=(Ai+Bi)%N for each valid i.
+There are N possible sequences C. Find the lexicographically smallest of these sequences.
+Note: A sequence x is lexicographically smaller than a different sequence y if xi < yi, where i is the smallest valid index where the sequences x and y differ.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1,A2,…,AN. 
+The third line contains N space-separated integers B1,B2,…,BN. 
+
+Output Format
+For each test case, print a single line containing N space-separated integers C1,C2,…,CN denoting the lexicographically smallest sequence.
+Constraints
+
+1≤T≤100
+1≤N≤105
+1≤Ai,Bi≤2⋅N for each valid i
+the sum of N over all test cases does not exceed 2⋅105
+
+Subtasks
+Subtask #1 (100 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+3
+1 4 5
+1 3 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1 2 0
+
+
+Explanation
+Example case 1: After rotating B once, it becomes (3,4,1). Now C=(1,2,0). This is the lexicographically smallest of all possible sequences C.
+
+
+
+Author:
+5★prasant21
+
+
+Editorial:
+https://discuss.codechef.com/problems/ARRT
+
+
+Tags:
+
+               
+                 ad-hoc
+                 
+                     
+                     Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1818
+
+
+Date Added:
+29-07-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

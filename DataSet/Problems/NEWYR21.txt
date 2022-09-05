@@ -1,0 +1,85 @@
+
+You are given with a string SS. The string contains N number of valid fragments. The fragment is a substring of a string. The fragment is called valid, if the string starts with the word "newyear", then goes on with 0 or more characters in-between, and eventually ends with the string "2021". Find such N valid fragments.
+The two fragments are considered to be different, if they start or end at different positions in the string S, even if the fragments read the same. Note that different valid fragments may overlap.
+
+Input:
+
+The first line and only line contains a string S. Containing only lowercase letters and numbers as characters.
+
+
+Output:
+
+Print a single line containing the integer N – the number of valid fragments.
+
+
+Constraints
+
+1≤S≤103
+
+
+Sample Input 1:
+   hellonewyearwelcome2021
+
+Sample Output 1:
+    1
+
+
+Sample Input 2:
+   newyearchef2021codenewyear2021
+
+Sample Output 2:
+    3
+
+
+EXPLANATION:
+Sample case 1: There is only one valid fragment namely,  newyearwelcome2021 and one occurrence of newyear2021.
+Sample case 2: There are three valid fragments, namely, newyearchef2021codenewyear2021 and two occurrences of newyear2021.
+
+
+
+Author:
+3★dharnendra23
+
+
+Editorial:
+https://discuss.codechef.com/problems/NEWYR21
+
+
+Tags:
+
+               
+                 dharnendra23, easy, nyre2020, strings, substring
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+27-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

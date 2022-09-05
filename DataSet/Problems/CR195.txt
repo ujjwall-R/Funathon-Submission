@@ -1,0 +1,94 @@
+
+Iron Man: "A hostile alien army came charging through a hole in space. We're standing 
+ 300 feet below it.  We're the AVENGERS. We can bust arm-dealers all the live long day. But that up there, that's. That's the ENDGAME. How are we guys planning on beating that?? "
+Captain America: "Together"
+Iron Man: "We'll lose"
+Captain America: "Then we'll do that together, too" 
+
+After the events of the Infinity War, the Avengers are broken. 
+They need to reverse the events of the Thanos' snap.  
+Ant-Man can help the Avengers go back in time by means of the Quantum Realm. 
+After coming out in the past from Quantum Realm, you can only move in 4 directions - Up, Down, Left, and Right (denoted by U, D, L, and R respectively). 
+However. the problems just don't end here for the Avengers. 
+
+The Avengers are not allowed to make four consecutive steps that can result in a circular step..  
+In other words, the string forming their steps must not contain any substring of the type URDL, DLUR, ULDR, RDLUetc. . 
+In a way, any 4 continuous steps which lead the person back to its place in a circular fashion is a circular step.
+UDLR,RLDU are not denoting the circuar/rotating step.
+Also, no two characters at the ith and i+2th indices must be same i.e 1st and 3rd characters can't be same. Similarly, 2nd and 4th characters can't be same. 
+
+The Avengers have to take each step very carefully.  
+You need to help them find out the number of different ways they can move without breaking any of the above-mentioned rules. 
+
+In other words, given an input N, you need to tell the number of possible strings made up of characters U, D, L and R of length N  which satisfy all the rules mentioned above.
+As the number of such strings can be large enough, output the answer modulo 109+7 
+Input:
+
+ First line will contain T, number of testcases. Then the testcases follow. 
+ Each testcase contains of a single line of input, one integer N.  
+
+Output:
+For each testcase, output in a single line answer to the given query modulo 109+7.
+Constraints: 
+
+ 1≤T≤10000 
+ 1≤N≤1018 
+
+Sample Input:
+3
+1
+3
+4
+Sample Output:
+4
+48
+136
+
+
+
+Author:
+5★shauryakr
+
+
+Editorial:
+https://discuss.codechef.com/problems/CR195
+
+
+Tags:
+
+               
+                 cord2019, matrix-exponentiation, medium-hard, shauryakr
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+23-02-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

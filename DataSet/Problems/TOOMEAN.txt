@@ -1,0 +1,113 @@
+
+You are given an array AA of length NN.
+You have to partition the elements of the array into some subsequences such that:
+
+Each element AiAi (1≤i≤N) belongs to exactly one subsequence.
+The mean of the mean of subsequences is maximised.
+
+Formally, let S1,S2,…,SK denote K subsequences of array A such that each element Ai (1≤i≤N) belongs to exactly one subsequence Sj (1≤j≤K).
+Let Xj (1≤j≤K) denote the mean of the elements of subsequence Sj. You need to maximise the value ∑Kj=1XjK.
+Print the maximum value. The answer is considered correct if the relative error is less than 10−6.
+Input Format
+
+First line will contain T, number of test cases. Then the test cases follow.
+First line of each test case consists of a single integer N - denoting the length of array A.
+Second line of each test case consists of N space-separated integers A1,A2,…,AN - denoting the array A.
+
+Output Format
+For each test case, output in a single line, the maximum possible mean of mean of subsequences. The answer is considered correct if the relative error is less than 10−6.
+Constraints
+
+1≤T≤1000
+2≤N≤105
+1≤Ai≤106
+Sum of N over all test cases does not exceed 3⋅105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+2
+10 20
+3
+1 2 3
+5
+50 50 50 50 50
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+15
+2.25
+50
+
+
+Explanation
+Test Case 1: We can partition the array in 2 ways - ({10},{20}) or ({10,20}). In both cases, mean of mean of subsequences comes out to be 15.
+Test Case 2: The optimal partition is ({1,2},{3}).
+
+Mean of first subsequence =1+22=1.5.
+Mean of second subsequence =31=3.
+
+Thus, mean of mean of subsequences is 1.5+32=4.52=2.25.
+Test Case 3: Any partition will yield the mean of mean of subsequences as 50. 
+
+
+
+Author:
+utkarsh_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/TOOMEAN
+
+
+Tags:
+
+               
+                 math, start37, utkarsh_adm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2254
+
+
+Date Added:
+2-05-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

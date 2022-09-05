@@ -1,0 +1,111 @@
+
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+
+You are given an array A with size N. For each K between 1 and N (inclusive), find out if it is possible to partition (split) the array A into K contiguous subarrays such that the sum of elements within each of these subarrays is the same. Each element of the original array should belong to exactly one subarray.
+
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1, A2, ..., AN.
+
+Output
+For each test case, print a single line containing N characters. For each K (1 ≤ K ≤ N), the K-th of these characters should be '1' if it is possible to partition the array in the desired way or '0' if it is impossible.
+Constraints
+
+1 ≤ T ≤ 1,000,000
+1 ≤ N ≤ 1,000,000
+1 ≤ sum of N over all test cases ≤ 1,000,000
+1 ≤ Ai ≤ 109 for each valid i
+
+Subtasks
+
+Subtask #1 (30 points): sum of N over all test cases ≤ 10,000
+
+
+Subtask #2 (70 points): original constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+5
+1 4 2 3 5
+4
+1 1 1 1
+4
+1 1 2 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+10100
+1101
+1010
+
+
+Explanation
+Example case 1: There are two possible partitions: into exactly 1 array (with sum 1+4+3+2+5) or into exactly 3 arrays (with sums 1+4 = 2+3 = 5).
+
+
+
+Author:
+6★mgch
+
+
+Tester:
+7★lg5293
+
+
+Tags:
+
+               
+                 Sieve of Eratosthenes, Prefix Sum
+                 
+                     
+                     Mathematics, Number Theory, Algorithms, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+27-03-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

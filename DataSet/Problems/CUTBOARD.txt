@@ -1,0 +1,102 @@
+
+Read problem statement in Mandarin chinese and Vietnamese.
+Suzumo has a chessboard with N rows and M columns. In one step, he can choose two cells of the chessboard which share a common edge (that has not been cut yet) and cut this edge.
+Formally, the chessboard is split into two or more pieces if it is possible to partition its cells into two non-empty subsets S1 and S2 (S1∩S2=∅, |S1|+|S2|=NM) such that there is no pair of cells c1,c2 (c1∈S1,c2∈S2) which share a common edge that has not been cut.
+Suzumo does not want the board to split into two or more pieces. Compute the maximum number of steps he can perform while satisfying this condition.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows. 
+The first and only line of each test case contains two space-separated integers N and M.
+
+Output
+For each test case, print a single line containing one integer — the maximum possible number of steps.
+Constraints
+
+1≤T≤64
+1≤N,M≤8
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+2 4
+3 3
+6 8
+7 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+4
+35
+24
+
+
+Explanation
+Example case 1:
+
+The edges cut by Suzumo in one optimal solution are marked by red lines.
+
+
+
+Author:
+7★alei
+
+
+Editorial:
+https://discuss.codechef.com/problems/CUTBOARD
+
+
+Tags:
+
+               
+                 ad-hoc
+                 
+                     
+                     Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1081
+
+
+Date Added:
+15-04-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

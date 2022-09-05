@@ -1,0 +1,62 @@
+
+Zipped Exe Link
+Input Format: 
+First line contains an integer N, Number of Test cases
+Following N lines will contain a string S.(may contain spaces and special characters)
+Output Format: 
+For each Test Case, the output contains an integer  
+Constraints: 
+
+1 <= N, <= 100 
+1 <= |S| <= 103  where |S| is the length of the string
+
+
+
+
+
+Author:
+1★akshatjain2209
+
+
+Editorial:
+https://discuss.codechef.com/problems/REVENG01
+
+
+Tags:
+
+               
+                 akshatjain2209, c-plus-plus, reng2016, simple, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-03-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

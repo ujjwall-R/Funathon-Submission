@@ -1,0 +1,73 @@
+
+Mark and Jane are very happy after having their first child. Their son loves toys, so Mark wants to buy some. There are a number of different toys lying in front of him, tagged with their prices. Mark has only a certain amount to spend, and he wants to maximize the number of toys he buys with this money.
+Given a list of prices and an amount to spend, what is the maximum number of toys Mark can buy? 
+Input:
+
+The first line contains two integers, n and k, where n is the number of priced toys and k is the amount Mark has to spend. 
+The next line contains n space-separated integers, giving the price of each toy. 
+
+Output:
+An integer that denotes the maximum number of toys Mark can buy for his son.
+Constraints
+
+1≤n≤105
+1≤k≤109
+1≤Price of each toy≤109
+A toy can't be bought multiple times
+
+Sample Input:
+7 50
+1 12 5 111 200 1000 10
+Sample Output:
+4
+EXPLANATION:
+He can buy only 4 toys at most. These toys have the following prices: 1, 12, 5, 10
+
+
+
+Author:
+3★ayush163
+
+
+Editorial:
+https://discuss.codechef.com/problems/MARTO
+
+
+Tags:
+
+               
+                 ayush163, greedy, medium
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+30-03-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

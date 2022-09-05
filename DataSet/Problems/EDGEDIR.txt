@@ -1,0 +1,94 @@
+
+Read problems statements Hindi , Vietnamese , Mandarin Chinese , Russian and Bengali as well.
+There is only little time left until the New Year! For that reason, Chef decided to make a present for his best friend. He made a connected and undirected simple graph with NN vertices and MM edges.
+Since Chef does not like odd numbers and his friend does not like undirected graphs, Chef decided to direct each edge in one of two possible directions in such a way that the indegrees of all vertices of the resulting graph are even. The indegree of a vertex is the number of edges directed to that vertex from another vertex. As usual, Chef is busy in the kitchen, so you need to help him with directing the edges. Find one possible way to direct them or determine that it is impossible under the given conditions, so that Chef could bake a cake as a present instead.
+Input
+
+The first line of the input contains a single integer TT denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+M lines follow. For each i (1≤i≤M), the i-th of these lines contains two space-separated integers ui and vi denoting an edge between vertices ui and vi.
+
+Output
+For each test case:
+
+If a valid way to direct the edges does not exist, print a single line containing one integer −1.
+Otherwise, print a single line containing M space-separated integers. For each valid i, the i-th of these integers should be 0 if edge i is directed from ui to vi or 1 if it is directed from vi to ui.
+
+Constraints
+
+1≤T≤5
+1≤N,M≤105
+1≤ui,vi≤N for each valid i
+the graph on the input is connected, does not contain multiple edges or self-loops
+
+Subtasks
+Subtask #1 (30 points): 1≤N,M≤1,000
+Subtask #2 (70 points): original constraints
+Example Input
+2
+4 4
+1 2
+1 3
+2 4
+3 4
+3 3
+1 2
+2 3
+1 3
+
+Example Output
+0 0 1 1
+-1
+
+
+
+
+Author:
+6★toonewbie
+
+
+Editorial:
+https://discuss.codechef.com/problems/EDGEDIR
+
+
+Tags:
+
+               
+                 Dynamic Programming, DFS
+                 
+                     
+                     Algorithms, Graph Algos, Traversals
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2285
+
+
+Date Added:
+18-11-2018
+
+
+Time Limit:
+1.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

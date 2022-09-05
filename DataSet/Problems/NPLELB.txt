@@ -1,0 +1,107 @@
+
+
+Alice likes to invent new games very often. One fine day she came up with a game called "Infinity".
+The game runs infinitely and is played by infinite players (strange huh?).
+The rules of the game are as follows:
+
+Of the infinite players playing the game, only 2 are active at a time. One is "striker" and the other one "unstriker".
+They have a dice having 8 faces with each face having a number from -1 to 6 (-1,0,1,2,...).
+Every minute the striker rolls the dice.
+
+If the number on dice is -1 then the striker is said to be "Knoced Down" and has to leave the game and new player takes his place and becomes striker.
+If it is something else then this number is added to the "Total Score" as well as the score of the player. Also if this number is odd then the unstriker becomes striker and striker becomes unstriker.
+
+After every x minutes, comes a "Swap Phase" when the striker becomes unstriker and the unstriker becomes striker.
+Note: The Swap Phase occurs after the above rules applicable for the dice throw are followed. 
+
+
+You are given the numbers appeared on dice in first n rolls. Simulate the game and after every striker is Knocked Down and leaves the game print 2 integers denoting his score and current Total Score. Finally after the n minutes output the Total Score.
+
+Input
+
+First line contains two integer n, denoting the number of minutes of the game whose details are given and x, the time inteval in which the Swap Phase occurs.
+Next n lines contain an integer (Y) each denoting the number appearing on the dice.
+
+Output
+Whenever a player is Knocked Down and has to leave the game print 2 integers, his score and current Total Score at that point respectively. Finally print the Total Score.
+Constraints
+
+1 <= n <= 105
+1 <= x <= n
+-1 <= Y <= 6
+
+Example
+Input:
+8 5
+3
+2
+-1
+6
+-1
+2
+-1
+5
+
+Output:
+2 5
+6 11
+5 13
+18
+
+ 
+Explanation
+Example case 1. 
+1: Player 1 is striker and Player 2 is unstriker. Player 1 scores 3. Total score 3. 
+2: Player 2 is striker and Player 1 is unstriker. Player 2 scores 2. Total score 5. 
+3: Player 2 is striker and Player 1 is unstriker. Player 2 Knoced Down. Player 3 becomes striker. 
+4: Player 3 is striker and Player 1 is unstriker. Player 3 scores 6. Total score 11. 
+5: Player 3 is striker and Player 1 is unstriker. Player 3 Knocked Down. Player 4 becomes striker. 
+Swap Phase Player 1 becomes striker and Player 4 becomes unstriker. 
+and so on..
+
+
+
+
+
+Author:
+npl_nitw
+
+
+Tags:
+
+               
+                 implementation, npl_nitw, nplq1601
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+11-10-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

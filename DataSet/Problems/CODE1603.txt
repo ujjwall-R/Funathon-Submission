@@ -1,0 +1,93 @@
+
+ 
+Problem description
+Kamaldeep came across a new way to represent a string.This is done by writing each segment of identical characters as the character and the length of the segment.
+For example the string str = "XXXZZZZZPP" can be represented as [ ('X', 3), ('Z', 5), ('P', 2) ].
+In this notation,two consecutive pairs cannot have same character. For example [('T', 4), ('T', 3)] is invalid and its correct representation is [('T', 7)]. Kamaldeep has written down a string in given representation, and he wants to count the number of sub-strings (a segment of consecutive characters) of the original string that are palindromes.
+Recall that a palindrome is a non-empty string that reads the same backward as forward. Two sub-strings are considered to be different if they have different lengths or start at different positions in the original string.
+Input
+The first line of the input contains an integer M denoting the number of test cases. The description of M test cases follows.
+Each test case gives a string in the above representation. The first line of each test case contains an integer N, the number of (character, integer) pairs in the given representation. Each of the next N lines contains a single character, followed by a space, followed by a positive integer, the kth line being the kth pair in the list..
+Output
+For each test case, output a single line containing the corresponding answer.
+
+Constraints
+
+1 ≤ M ≤ 10^4
+1 ≤ N ≤ 10^5
+
+Each character is an upper-case Latin character, i.e. 'A' through 'Z'.
+The length of the original string does not exceed 1,000,000,000 (10^9)
+The sum of the Ns over all test cases will not exceed 1,000,000 (10^6)
+Example
+Input:
+4
+3
+L 3
+Z 2
+A 3
+3
+O 2
+B 1
+A 2
+1
+S 11
+2
+I 4
+P 2
+
+Output:
+15
+7
+66
+13
+
+
+
+
+Author:
+devender123_
+
+
+Editorial:
+https://discuss.codechef.com/problems/CODE1603
+
+
+Tags:
+
+               
+                 coit2016, devender123_, easy-medium, medium, palindrome, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+23-01-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

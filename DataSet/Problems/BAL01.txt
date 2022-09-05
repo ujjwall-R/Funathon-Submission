@@ -1,0 +1,111 @@
+
+You are given a string SS, each of whose characters is either '0', '1', or '?'.
+The badness of a binary string is defined to be the (absolute) difference between the number of 11s and the number of 00s present in it. For example, 001 has badness |1−2|=1 and 11111 has badness |5−0|=5.
+Your task is to replace every '?' present in S with either '0' or '1', such that the badness of the resulting binary string is minimized.
+If there are multiple solutions, you may print any of them.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case contains two lines.
+The first line of each test case contains an integer N, the number of characters of the string S.
+The second line of each test case contains the string S, whose characters are either '0', '1', or '?'.
+
+Output Format
+For each test case, print a single line containing the binary string you obtained by replacing each '?' with either '0' or '1' such that its badness is minimum.
+If there are multiple possible strings that minimize badness, you may print any of them.
+Constraints
+
+1≤T≤105
+1≤N≤105
+The sum of N over all test cases does not exceed 2⋅105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+4
+?101
+4
+??10
+6
+???111
+5
+1?0?1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0101
+1010
+000111
+11001
+
+
+Explanation
+Test Case 1. There are only two possible strings that can be constructed - 1101 and 0101. 1101 has badness 2, and 0101 has badness 0. Thus, the only possible answer is 0101.
+Test Case 2. There are four possible strings that can be made, namely {0010,0110,1010,1110}. Their respective badness values are {2,0,0,2}. The minimum value here is 0, attained by both 0110 and 1010 - and so either of these strings is a valid answer.
+Test Case 3. There are eight possible strings, of which 000111 is the only one with minimum badness (that being 0).
+Test Case 4. There are four possible strings, out of which three of them (10001, 10011, 11001) have badness 1, which is minimum. All three of them are possible answers.
+
+
+
+Author:
+utkarsh_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/BAL01
+
+
+Tags:
+
+               
+                 String, Case work, Greedy
+                 
+                     
+                     Data Structures, Special, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1639
+
+
+Date Added:
+3-12-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

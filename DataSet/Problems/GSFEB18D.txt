@@ -1,0 +1,99 @@
+
+ 
+Jane recently saw a lie detector. She wanted to give it a try. Jane and Mean-akshi are best friends. They tell each other every secret. But, Mean-akshi has a BFF which Jane doesn't know about.
+ Mean-akshi tells her other BFF everything, sometimes more than Jane.
+Jane wanted to test their friendship, so here's the scene: 
+Question to Mean-akshi will be given as string S and a string M will be the answer of the question given by her. If the number of vowels (a, e, i, o, u) in both the question and her answer is same then Mean-akshi is telling the truth else she is lying. Mean-akshi will be asked question for N continuous times. If she is telling truth more than or equal to number of times she lied print jane else print secretbff (without spaces between secret and bff).
+
+
+Input
+The first line of the input contains an integer T denoting the number of test cases.
+The subsequent lines contain integer N denoting the number of questions. 
+Each N will have 2N lines in total i.e. the first line will be the question S followed by the second line which will be it's answer M.Thus, there'll be N pairs of Question and Answer.
+
+Output
+For each test case, output the answer as given below.
+ 
+Constraints
+
+1 ≤ T ≤ 100
+1 ≤ N ≤ 10. N is always even.
+1 ≤ |S|, |M| ≤ 64. All characters of strings are lowercase.
+
+ 
+Example
+Input:
+2
+4
+koko
+nako
+haha 
+okay
+lmao
+nai
+bata
+naibataungi
+4
+koko
+nakk
+siesgsta
+haha
+lmao
+naire
+bata
+batadiya
+
+Output:
+jane
+secretbff
+
+ 
+
+
+
+Author:
+janeadsouza
+
+
+Editorial:
+https://discuss.codechef.com/problems/GSFEB18D
+
+
+Tags:
+
+               
+                 gsf2018, janeadsouza, janeadsouza, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-02-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

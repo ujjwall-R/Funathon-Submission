@@ -1,0 +1,101 @@
+
+
+sum = ∑i=Ni=1∏k=Tk=1(i+k)
+
+
+Given Q queries in each query two numbers N and T is given, You have to  print the value of  sum . Since sum can be large, output it modulo 1000000007 (109+7)  .
+
+Input
+The first line of input contains an integer Q denoting the number of queries. 
+
+The next Q lines contains two space separated integers,N and T denoting the parameters of the summation above.
+
+
+Output
+
+For each query print the value of sum in  a new line . 
+  
+
+ 
+Constraints
+
+1 ≤ Q ≤ 100000
+1 ≤ N ≤ 10000000000
+1 ≤ T ≤ 1000
+
+
+Subtasks 
+Subtask #1 (20 points), Time limit : 2 sec
+Q<=100
+N<=100
+T<=100
+
+Subtask #2 (80 points), Time limit : 2 sec
+Q<=100000
+N<=10000000000
+T<=1000
+
+ 
+ 
+Input:
+1
+3 2
+Output:
+38
+
+ 
+Explanation
+N = 3 and T = 2
+ 
+2*3 + 3*4 + 4*5 = 38 
+
+
+
+
+
+Author:
+5★abhi_1595
+
+
+Editorial:
+https://discuss.codechef.com/problems/DSERIES
+
+
+Tags:
+
+               
+                 abhi_1595, easy, locmay18, math
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+24-05-2018
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,168 @@
+
+There is a country which has nn houses and m bi-directional roads between these houses, where the ith road connects house ui to vi. A subset of these houses S is called a city if any house in S is reachable from any other house in S. Formally, a subset of houses S is a city if x and y are reachable from each other for all x,y∈S. The funding required for a city S consisting of k houses is defined as k2.
+The president has given the mayor Saarang an order: divide the country into 2 cities with exactly one road connecting them. In other words, divide the country into two cities S1 and S2 such that:
+
+Each house i either belongs to S1 or S2.
+There exists a single road connect a house x from S1 and a house y from S2.
+
+For this purpose, you are allowed to build more bi-directional roads. The funding required to build a road between any 2 houses is c.
+Saarang, however, is busy preparing for his board exams so he requests you to solve this problem for him. Find the minimum total funding required to divide the country per the president's requirements, or −1 if no division is possible.
+Note: The total funding is the sum of the funding required for the 2 cities and the roads built. If after the division, the two cities have x and n−x houses respectively and you have built a total of a roads, The total funding will be x2+(n−x)2+c×a.
+Input Format
+
+First line will contain T, number of test cases. Then the test cases follow.
+The first line of each test case consists of three integers n, m and c.
+m lines follow, each consisting of 2 integers ui and vi indicating a road between houses ui and vi.
+
+Output Format
+For each test case, output the minimum funding required to divide the country per the president's requirements, or −1 if no division is possible.
+Constraints
+
+1≤T≤105
+2≤n≤105
+1≤m≤5⋅105
+1≤c≤109
+1≤ui,vi≤n and ui≠vi
+2≤∑n≤105
+1≤∑m≤5⋅105
+There is atmost one road between any x and y.
+
+Subtasks
+The input is divided into multiple subtasks. You will get the points for a subtask if you solve all the testcases for a subtask correctly within the time limit.
+
+Subtask 1 [3 points]: There is a road between u and v for all u,v∈{1,2,…,n} such that u≠v
+Subtask 2 [3 points]: m=n−1 and ui=1 for 1≤i≤m. There exists a path between u and v for all u,v.(1≤u,v≤n).
+Subtask 3 [8 points]: m=n−1 and there exists a path between u and v for all u,v.(1≤u,v≤n).
+Subtask 4 [14 points]: There exists a path between u and v for all u,v.(1≤u,v≤n).
+Subtask 5 [6 points]: 2≤∑n≤18 and 1≤∑m≤18
+Subtask 6 [16 points]: 2≤∑n≤300 and 1≤∑m≤300
+Subtask 7 [20 points]: 2≤∑n≤4000 and 1≤∑m≤4000
+Subtask 8 [30 points]: Original Constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+4 6 5
+4 3
+2 3
+2 4
+1 2
+4 1
+3 1
+6 6 2
+1 4
+2 5
+3 6
+1 5
+3 5
+6 5
+6 5 7
+1 4
+2 5
+3 6
+3 5
+6 5
+7 5 4
+1 4
+3 6
+3 5
+6 5
+2 7
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+-1
+20
+25
+33
+
+
+Explanation
+                    - Test case 1: there is no way to divide the country according to the mayor's requirements.
+
+- Test case 2: consider the 2 cities consisting of {2,3,5,6} and {1,4} houses respectively. There are no new roads built. The total funding is 42+22=20. This is the optimal assignment.
+
+
+
+- Test case 3: build a road between 2 and 4. Consider the 2 cities consisting of {3,5,6} and {1,2,4} houses respectively. The total funding is 32+32+7×1=25. This is the optimal assignment.
+
+
+
+- Test case 4: build a road between 2 and 4 and between 5 and 7. Consider the 2 cities consisting of {1,2,4,7} and {3,5,6} houses respectively. The total funding is 42+32+4×2=33. This is the optimal assignment.
+
+
+
+Note for all test cases that there may be multiple ways to get the same funding but there is no other division which has a smaller funding. 
+                
+            
+        
+
+        
+
+
+Author:
+4★saarang123
+
+
+Tester:
+7★aryanc403
+
+
+Editorial:
+https://discuss.codechef.com/problems/MINFUND
+
+
+Tags:
+
+               
+                 Graphs, Disjoint Set Union, Bridges, Knapsack, DFS
+                 
+                     
+                     Data Structures, Advanced Data Structures, Advanced Algorithms, Advanced Graph Algos, Connected Components, Algorithms, Dynamic Programming, Graph Algos, Traversals
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2763
+
+
+Date Added:
+11-11-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

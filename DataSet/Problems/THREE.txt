@@ -1,0 +1,101 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a string S. You can get a coin by choosing and removing three characters from S if the chosen characters form a palindrome in some order (possibly different from their order in the string). This operation may be performed repeatedly on the resulting string. Find the maximum number of coins you can get.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single string S.
+
+Output
+For each test case, print a single line containing one integer ― the maximum number of coins you can get.
+Constraints
+
+1≤T≤10
+1≤|S|≤105
+S contains only lowercase English letters
+
+Subtasks
+Subtask #1 (20 points): S contains only letters 'a' and 'b'
+Subtask #2 (20 points):
+
+1≤|S|≤100
+S contains only letters 'a', 'b' and 'c'
+
+Subtask #3 (60 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+abcd
+codechef
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+2
+
+
+
+
+
+Author:
+4★sahi1422
+
+
+Editorial:
+https://discuss.codechef.com/problems/THREE
+
+
+Tags:
+
+               
+                 Frequency Arrays, String, ad-hoc, Observation
+                 
+                     
+                     Data Structures, Arrays, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+20-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

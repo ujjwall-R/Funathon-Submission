@@ -1,0 +1,101 @@
+
+Jon like numbers which is formed using a same decimal digit. He calls them Samedonic Number.
+He is given a number N of D digits formed using at most 2 distinct decimal digits. He wants to make that number a Samedonic Number using the below operation any number of times.
+-> In one operation he can choose a segment of same digits and change them to a segment of any specific decimal digit.
+For e.g. He can choose a segment of 333 and change it into a segment of 444.
+What is minimum number of such operations Jon needs, to make the number N a Samedonic Number?
+A decimal digit can be any digit from 0 to 9.
+NOTE: D is the number of digits of N. Take input carefully. 
+Input Format
+
+First line will contain T, number of testcases. Then the testcases follow.
+Each testcase contains of a single line of input, one integer of D digits.
+
+Output Format
+For each testcase output the minimum number of such operations Jon needs.
+Constraints
+
+1≤T≤10
+1≤D≤106
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+33433
+111
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+0
+
+
+Explanation
+First Case:
+In one operation we can change 33433 to 33333, which is a Samedonic Number.
+So, total 1 operation needed.
+Second Case:
+111 is already a Samedonic Number.
+So, total 0 operation needed.
+
+
+
+Author:
+4★debrc
+
+
+Editorial:
+https://discuss.codechef.com/problems/CONSEONE
+
+
+Tags:
+
+               
+                 cakewalk, count, debrc, easy, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+5-08-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

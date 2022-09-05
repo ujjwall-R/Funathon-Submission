@@ -1,0 +1,82 @@
+
+You are given a matrix of characters. The matrix has N rows and M columns. Given a string s, you have to tell if it is possible to generate that string from given matrix.
+Rules for generating string from matrix are:
+
+You have to pick first character of string from row 1, second character from row 2 and so on. The (N+1)th character of string is to be picked from row 1, that is, you can traverse the rows in a cyclic manner (row 1 comes after row N).
+If an occurrence of a character is picked from a row, you cannot pick the same occurrence again from that row.
+
+You have to print Yes if given string can be generated from matrix using the given rules, else print No.
+Input Format:
+First line consists of T, denoting the number of test cases.
+Each test case consists of:
+First line consists of two integers N and M, denoting the matrix dimensions.
+Following N lines consist of M characters each.
+The last line consists of a string s.
+Output Format:
+For each test case, print "Yes" if the string can be generated else print "No". Answer for each test case should come in a new line.
+Input Constraints:
+ 1 ≤ T ≤ 5
+1 ≤ N, M ≤500
+1 ≤ |s| ≤ N∗M
+The matrix consists of lowercase English characters.
+String s consists of lowercase English characters.
+ Example 
+ Input 
+1
+3 3
+aba
+xyz
+bdr
+axbaydb
+Output
+Yes
+
+
+
+
+Author:
+2★bk1w2w
+
+
+Editorial:
+https://discuss.codechef.com/problems/STRGGEN1
+
+
+Tags:
+
+               
+                 array, bk1w2w, easy, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+26-01-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

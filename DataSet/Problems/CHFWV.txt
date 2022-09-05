@@ -1,0 +1,91 @@
+
+
+One day Chef's friend gave him a sequence a1,a2,a3,a4.....an. He told Chef to find the length of the longest appearing 
+Even Sequence. An even sequence is a sequence formed with only consecutive even numbers(e.g. 4 8 2 14 is an even sequence but 4 8 5 14 is not). But the twist is that firstly 
+he wants Chef to convert the sequence in a specified form where b1>= b2<=b3 >=b4<=.......... upto n terms and then find the length 
+of the longest appearing Even Sequence.
+NOTE: If there are multiple sequence possible, take the one that's lexicographically smallest.
+
+Input
+
+The first line of input contains one integer N denoting the numbers of Test Cases. The description of T test cases follows.
+The first line of each test case contains a single integer N denoting the number of element in the Sequence. 
+The second line contains N space-separated integers A1, A2, ..., AN denoting the elements of the sequence.
+
+
+Output
+output a single line containing the length of the longest appearing Even Sequence.
+
+Constraints
+
+1 ≤ T ≤ 100
+1 ≤ N ≤ 105
+1 ≤ A[i] ≤ 105
+
+
+Example Input
+2
+5
+1 2 3 4 5
+6
+6 7 8 10 12 16
+
+
+Example Output
+1
+5
+
+
+Explanation
+Example case 1:The given sequence can be converted to 2 1 4 3 5, 5 2 3 1 4 etc.. but we'll take the lexicographically smallest one i.e. 2 1 4 3 5.  
+Now we can see the longest appearing Even Sequence in the new sequence is 1.
+Example case 2:Similarly as case 1 the lexicographically smallest sequence is 7 6 10 8 16 12 and the lenght of the longest appearing Even sequence is 5. 
+
+
+
+Author:
+1★rahul_ojha_07
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHFWV
+
+
+Tags:
+
+               
+                 array, rahul_ojha_07
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+5-09-2018
+
+
+Time Limit:
+1 - 2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,115 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef has a string SS with length NN. He also has M other strings P1,P2,…,PM, which are called patterns. The characters in the strings are indexed from 1.
+Chef was wondering if he could find the M patterns in the string S in the given order. That is, he wanted to know whether it is possible to choose M ranges, denoted by [li,ri] for each i (1≤i≤M), such that 1≤l1≤r1<l2≤r2<…<lM≤rM≤N and for each valid i, the substring Sli,Sli+1,…,Sri equals Pi.
+As this problem was too easy for Chef, he decided to make a harder one. A permutation p=(p1,p2,…,pM) of integers 1 through M is called a matchable permutation if Chef can reorder the M patterns into Pp1,Pp2,…,PpM and then find them in S, in this order (in the same way as described above).
+Can you help Chef find the number of matchable permutations?
+Input
+
+The first line of the input contains two space-separated integers N and M.
+The second line contains a single string S.
+M lines follow. For each i (1≤i≤M), the i-th of these lines contains a single string Pi. 
+
+Output
+Print a single line containing one integer - the number of matchable permutations.
+Constraints
+
+1≤N≤105
+1≤M≤14
+1≤|Pi|≤105 for each valid i
+S,P1,P2,…,PM contain only lowercase English letters
+
+Subtasks
+Subtask #1 (10 points): 1≤M≤3
+Subtask #2 (30 points): 1≤N≤1,000
+Subtask #3 (60 points): original constraints
+Example Input 1
+10 3
+abbabacbac
+ab
+ac
+b
+
+Example Output 1
+3
+
+Explanation 1
+Among the 3!=6 possible permutations of (1,2,3), the matchable permutations are (1,2,3), (3,1,2) and (1,3,2). These correspond to permutations of patterns ("ab", "ac", "b"), ("b", "ab", "ac") and ("ab", "b", "ac") respectively. Each of them can be found in S in the given order.
+Example Input 2
+3 2
+aaa
+aa
+aa
+
+Example Output 2
+0
+
+
+
+Explanation 2
+We cannot match the two patterns in such a way that their ranges do not intersect.
+Example Input 3
+4 2
+aaaa
+aa
+aa
+
+Example Output 3
+2
+
+
+
+Explanation 3
+The matchable permutations are (1,2) and (2,1).
+
+
+
+Author:
+6★triplem5ds
+
+
+Editorial:
+https://discuss.codechef.com/problems/MATPER
+
+
+Tags:
+
+               
+                 DP Bitmask, KMP Algorithm, Bitmasking, Meet in the middle, Prefix Sum
+                 
+                     
+                     Advanced Algorithms, Advanced DP, String Matching, Mathematics, Bit Manipulation, Algorithms, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2407
+
+
+Date Added:
+26-02-2019
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

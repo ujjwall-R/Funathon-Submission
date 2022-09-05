@@ -1,0 +1,61 @@
+
+Zipped Exe Link
+Input Format: 
+First line contains an integer T, representing the number of test cases.
+For each Test Case, enter a string with space separated words (all alphabets are in small case).
+Output Format: 
+For each Test Case, the output contains a string.
+Constraints: 
+T <= 30 
+Length of input strings(both)  <= 10000 
+Length of output strings <= 10000 
+
+
+
+
+Author:
+1★akshatjain2209
+
+
+Editorial:
+https://discuss.codechef.com/problems/REVENG04
+
+
+Tags:
+
+               
+                 akshatjain2209, indexing, medium, reng2016, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+9-03-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

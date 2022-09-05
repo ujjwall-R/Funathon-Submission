@@ -1,0 +1,92 @@
+
+Chef has a bucket having a capacity of KK liters. It is already filled with XX liters of water. 
+Find the maximum amount of extra water in liters that Chef can fill in the bucket without overflowing.  
+Input Format
+
+The first line will contain T - the number of test cases. Then the test cases follow.
+The first and only line of each test case contains two space separated integers K and X - as mentioned in the problem.
+
+Output Format
+For each test case, output in a single line, the amount of extra water in liters that Chef can fill in the bucket without overflowing.  
+Constraints
+
+1≤T≤100
+1≤X<K≤1000
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+5 4
+15 6
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+9
+
+
+Explanation
+Test Case 1: The capacity of the bucket is 5 liters but it is already filled with 4 liters of water. Adding 1 more liter of water to the bucket fills it to (4+1)=5 liters. If we try to fill more water, it will overflow.
+Test Case 2: The capacity of the bucket is 15 liters but it is already filled with 6 liters of water. Adding 9 more liters of water to the bucket fills it to (6+9)=15 liters. If we try to fill more water, it will overflow.  
+
+
+
+Author:
+7★anript
+
+
+Editorial:
+https://discuss.codechef.com/problems/FBC
+
+
+Tags:
+
+               
+                 anript, cakewalk, implementation, start29
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+419
+
+
+Date Added:
+25-02-2022
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

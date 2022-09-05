@@ -1,0 +1,99 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+You are playing EVE Online. Initially, you have one dollar, but you have somehow acquired two cheat codes. The first cheat code multiplies the amount of money you own by 1010, while the second one multiplies it by 2020. The cheat codes can be used any number of times.
+You want to have exactly NN dollars. Now you are wondering: can you achieve that by only using some sequence of cheat codes?
+Input
+
+The first line of the input contains a single integer TT denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer N.
+
+Output
+
+For each test case, print a single line containing the string "Yes" if you can make exactly N dollars or "No" otherwise.
+
+Constraints
+
+1≤T≤100
+1≤N≤1018
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+200
+90
+1000000000000
+1024000000000
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Yes
+No
+Yes
+No
+
+
+
+
+
+Author:
+7★kmaaszraa
+
+
+Editorial:
+https://discuss.codechef.com/problems/CKWLK
+
+
+Tags:
+
+               
+                 Basic Maths, Integer Factorisation
+                 
+                     
+                     Mathematics, Number Theory
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1474
+
+
+Date Added:
+14-10-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,111 @@
+
+Utkarsh is forced to play yet another game with Ashish.
+In this game there are NN piles, ithith pile contains AiAi stones. Utkarsh moves first.
+In Utkarsh's turn, Ashish chooses a pile (which contains at least 1 stone), then Utkarsh removes any non-zero number of stones from that pile. Similarly, in Ashish's turn, Utkarsh chooses a pile with at least 1 stone, then Ashish removes any non-zero number of stones from that pile. The player who makes the last move wins.
+Determine the winner of the game if both players play optimally.
+Input Format
+
+The first line contains T - the number of test cases. Then the test cases follow.
+The first line of each test case contains an integer N - the number of piles.
+The second line of each test case contains N space separated integers A1,A2,…,AN, where Ai denotes the number of stones in the ith pile.
+
+Output Format
+For each test case, output on one line Utkarsh if Utkarsh wins the game, else output Ashish.
+You may print each character of the string in uppercase or lowercase (for example, the strings Utkarsh, utkarsh, UTKARSH and uTkArSh will all be treated as identical).
+Constraints
+
+1≤T≤200
+1≤N≤103
+1≤Ai≤109
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+1
+10
+4
+1 1 1 1
+3
+3 3 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Utkarsh
+Ashish
+Ashish
+
+
+Explanation
+
+Test case 1: Since there is only 1 pile, Ashish can choose only that pile for Utkarsh and he will remove all the stones from that pile and thus win the game.
+Test case 2: No matter which player choose which pile, the game will run for exactly 4 turns and thus Ashish will win the game.
+
+
+
+
+Author:
+6★utkarsh_25dec
+
+
+Tester:
+7★aryanc403
+
+
+Editorial:
+https://discuss.codechef.com/problems/DESTRUCT
+
+
+Tags:
+
+               
+                 Case work, Game Theory, Observation
+                 
+                     
+                     Special, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2496
+
+
+Date Added:
+11-12-2021
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

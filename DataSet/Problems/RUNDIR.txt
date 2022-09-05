@@ -1,0 +1,101 @@
+
+Read problem statement in Mandarin chinese and Vietnamese.
+Suzumo is the coach of the ChefLand OI team. Physical condition is very important in any olympiad, so he wants to make the children run a bit as a warmup.
+The team consists of NN children numbered 11 through NN standing at some positions on the x-axis. For each valid i, the initial x-coordinate of the i-th kid is xi, the running velocity of the i-th kid is constant and equal to vi.
+Suzumo wants to assign a running direction (left or right, i.e. in the direction of decreasing or increasing x-coordinate) to each kid; the children start running at time 0 in the assigned directions. Afterwards, Suzumo will measure the smallest time t at which some kid passes another one. Help Suzumo compute the maximum time t if he can assign the directions arbitrarily!
+Note: Child i passes child j at time tij if their coordinates satisfy xi<xj at any time t<tij and xi>xj at any time t>tij, or if they satisfy xi>xj at any time t<tij and xi<xj at any time t>tij.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+N lines follow. For each valid i, the i-th of these lines contains two space-separated integers xi and vi.
+
+Output
+For each test case, print a single line containing one real number — the maximum possible time t, or −1 if it is possible to assign directions in such a way that no kid ever passes another. Your answer will be considered correct if it has an absolute or relative error less than or equal to 10−6.
+Constraints
+
+1≤T≤100
+1≤N≤50
+1≤xi,vi≤109 for each valid i
+no two children have the same initial positions
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+3
+10 10
+20 30
+30 10
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0.5
+
+
+Explanation
+Example case 1: One optimal assignment of directions is left, right, right.
+
+
+
+Author:
+7★alei
+
+
+Editorial:
+https://discuss.codechef.com/problems/RUNDIR
+
+
+Tags:
+
+               
+                 Greedy, Sorting, Binary Search
+                 
+                     
+                     Algorithms, Searching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2379
+
+
+Date Added:
+15-04-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,134 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+In the nation of Chefland there are villages at co-ordinates (x,y)(x,y) whenever xx and y are non-zero odd co-prime integers. x can be either positive or negative, but y is always positive.
+In each village (x,y) there is a crossroads, with the roads marked North, South, East, West.
+Road East leads to (x+2y,y).
+Road West leads to (x−2y,y).
+Road North leads to either (x,y+2x) or (−x,−(y+2x)),  chosen so that the new y co-ordinate is positive.
+Road South leads to either (x,y−2x) or (−x,−(y−2x)), chosen so that the new y co-ordinate is positive.  
+Some citizens of Chefland prefer these equivalent definitions for the North and South roads:
+Road North leads to {(x,y+2x)when y+2x>0(−x,−(y+2x))when y+2x<0 
+Road South leads to {(x,y−2x)when y−2x>0(−x,−(y−2x))when y−2x<0 
+The cost to travel a road between two adjacent villages is 1 pound.
+Determine the minimum cost to travel between villages at (x1,y1) and (x2,y2). 
+Notes:
+
+The road network is defined so that the villages form an undirected graph.
+There are two roads joining (−1,1) and (1,1), but otherwise there is a single road between any adjacent pair of villages.
+The road network does not form a simple grid - that would be too easy!
+
+Input:
+
+First line will contain T, the number of testcases. Then the testcases follow. 
+Each testcase contains a single line of input, which has four integers x1,y1,x2,y2. 
+
+Output:
+For each testcase, output in a single line, the answer. That is, the minimum cost in pounds to travel from (x1,y1) to (x2,y2).
+Constraints
+
+T≤1000 
+
+The co-ordinates (x1,y1) and (x2,y2) of the villages satisfy
+
+−1015<x1,x2<1015 and
+0<y1,y2<1015
+
+Subtasks
+
+10 points : −10<x1,x2<10 and 0<y1,y2<10 
+10 points : original constraints, but the villages are selected so that the minimum cost for each testcase is <6
+30 points: −106<x1,x2<106 and 0<y1,y2<106
+50 points: original constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5
+7 5 7 5
+1 1 -1 1
+3 7 5 9
+113 167 361765 170831
+24844359 74532371 14673633991 3057007029
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+1
+6
+78
+278031
+
+
+Explanation
+In the first test case, the start and end village co-ordinates are both (7,5), so the cost is 0.
+In the second test case:
+From (1,1) go West to (−1,1) in one step. So the cost is 1.
+Note that the South road from (1,1) also goes to (−1,1).
+In the third test case:
+From (3,7) go South to (3,1).
+From (3,1) go West to (1,1).
+From (1,1) go West to (−1,1).
+From (−1,1) go West to (−3,1).
+From (−3,1) go West to (−5,1).
+From (−5,1) go North to (5,9).
+
+
+
+Author:
+5★john_smith_3
+
+
+Editorial:
+https://discuss.codechef.com/problems/VILLNET
+
+
+Tags:
+
+               
+                 binary-search, hard, john_smith_3, lowest-common-ancestor, oct20
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3113
+
+
+Date Added:
+29-09-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

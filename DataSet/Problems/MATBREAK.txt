@@ -1,0 +1,100 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+You are given a square matrix MM with N rows (numbered 1 through N) and N columns (numbered 1 through N). Initially, all the elements of this matrix are equal to A. The matrix is broken down in N steps (numbered 1 through N); note that during this process, some elements of the matrix are simply marked as removed, but all elements are still indexed in the same way as in the original matrix. For each valid i, the i-th step consists of the following:
+
+Elements M1,N−i+1,M2,N−i+1,…,Mi−1,N−i+1 are removed.
+Elements Mi,N−i+1,Mi,N−i+2,…,Mi,N are removed.
+Let's denote the product of all 2i−1 elements removed in this step by pi. Each of the remaining elements of the matrix (those which have not been removed yet) is multiplied by pi.
+
+Find the sum p1+p2+p3+…+pN. Since this number could be very large, compute it modulo 109+7.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers N and A.
+
+Output
+For each test case, print a single line containing one integer ― the sum of products at each step modulo 109+7.
+Constraints
+
+1≤T≤250
+1≤N≤105
+0≤A≤109
+the sum of N over all test cases does not exceed 105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+3 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+511620149
+
+
+Explanation
+Example case 1: 
+
+
+
+Author:
+7★rumblefool
+
+
+Editorial:
+https://discuss.codechef.com/problems/MATBREAK
+
+
+Tags:
+
+               
+                 Modular Arithmetic, Modular Exponentiation, Implementation
+                 
+                     
+                     Mathematics, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1793
+
+
+Date Added:
+6-04-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

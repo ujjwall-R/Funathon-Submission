@@ -1,0 +1,98 @@
+
+Read problems statements in Mandarin Chinese, Russian, and Bengali as well.
+Construct an array of length N containing only positive integers in the range [1,1000] such that there doesn’t exist a subarray that has all elements occurring in even frequency and the maximum element in the array is minimized. In case there are multiple solutions, you can output any.
+Input Format
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains of a single line of input, one integer N. 
+
+Output Format
+For each test case, output in a single line N space-separated integers representing the required array. If there are multiple solutions, you may output any.
+Constraints
+
+1≤T≤500
+1≤N≤1000
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+1
+2
+7
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+2 1
+1 2 3 2 1 2 3
+
+
+Explanation
+Test case 1: [1] is the obvious answer.
+Test case 2: Since we need two elements and they can't be the same (otherwise the frequency of that element of the whole array is even), [2,1] is the optimal answer. [1,2] is another optimal one.
+Test case 3: It can be proven that no construction exists with the maximum element of 2.
+
+
+
+Author:
+daanish_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/ODDARY
+
+
+Tags:
+
+               
+                 Gray code, Constructive
+                 
+                     
+                     Mathematics, Number System, Binary, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2255
+
+
+Date Added:
+2-03-2021
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

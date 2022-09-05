@@ -1,0 +1,88 @@
+
+ 
+Superman and Batman have been fighting for many years and the end doesn't seem near, so they decide to train disciples in order to carry on the fight when the time comes for them to retire to old-age homes. The students of Superman and Batman call themselves Sons of Superman and Sons of Batman respectively. Both the superheroes measure the scores of their students on the Super Scale, which is an integer ranging from 0 to 100. After a test has been taken and the scores evaluated, Superman decides to compare his disciples with his rival's. Curiously, the scores achieved by both his and Batman's students followed a strange pattern... the score of the ith student is found to be (p^i)%q.He decides to find out the average value of the score by which a Son of Superman is ahead of a Son of Batman, the pair having ranked the same in their respective schools. If there is an unmatched disciple, it is assumed the missing disciple of the pair has the same score.
+ 
+Input
+
+The first line of each test case contains a single integer N denoting the number of disciples of Superman.
+The second line contains two space separated integers pS and qS which can be used to calculate the scores of all the Sons of Superman as explained above.
+The third line of each test case contains a single integer M denoting the number of disciples of Batman.
+The fourth line contains two space separated integers pB and qB which can be used to calculate the scores of all the Sons of Batman as explained above.
+
+ 
+Output
+
+Output a single line containing the desired value correct to 1 decimal place..
+
+ 
+Constraints
+
+1 ≤ N, M ≤ 108
+1 ≤ p ≤ 100
+1 ≤ q ≤ 101
+
+
+
+Example
+
+Input:
+2
+2 100
+1
+3 10
+
+Output:
+0.5
+
+
+Explanation
+The scores of the Sons of Superman are 2 and 4, whereas Batman has only one disciple who scored 3. Thus answer is ((4-3)+(2-2))/2 = 0.5
+
+
+
+Author:
+2★nib_ir
+
+
+Editorial:
+https://discuss.codechef.com/problems/CLDSTR
+
+
+Tags:
+
+               
+                 cole2016, counting-sort, easy, nib_ir, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+29-01-2016
+
+
+Time Limit:
+1.25 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

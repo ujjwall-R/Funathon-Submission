@@ -1,0 +1,109 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef Ada baked a rectangular cake with width WW and height HH. To finish the cake, she placed RR raisins on it. For simplicity, we will represent raisins by points in a plane. For each valid ii, the position of the ii-th raisin is (Xi,Yi).
+The price of the cake is twice the area of the smallest convex polygon that contains all raisins.
+Ada thinks that the current price is too high, so she wants to choose positive integers N and M and cut the cake into a grid of cake pieces with N columns (numbered 1 through N from left to right) and M rows (numbered 1 through M from bottom to top), where all pieces have identical widths and heights. Also, the widths and heights of the pieces must be integers, which implies that N must be a divisor of W and M must be a divisor of H. Let's denote a piece at column i and row j by (i,j).
+Next, Ada wants to reorder the pieces using the following operations (they may be performed in any order and any number of times):
+
+1 r: Shift the row r of the matrix to the right, i.e. for each valid c, the final position of the piece (c,r) becomes (c+1,r) if c+1≤N or (1,r) otherwise.
+2 c: Shift the column c of the matrix upwards, i.e. for each valid r, the final position of the piece (c,r) becomes (c,r+1) if r+1≤M or (c,1) otherwise.
+
+At the end, Ada does not sell the pieces separately, but as a single cake. Therefore, the final price of the cake is still twice the area of the smallest convex polygon that contains all raisins for this new cake.
+Help Ada slice the cake into at most 210 pieces and perform at most 210 operations to minimise the final price of the cake.
+Input
+
+The first line of the input contains three space-separated integers W, H and R.
+R lines follow. For each i (1≤i≤R), the i-th of these lines contains two space-separated integers Xi and Yi.
+
+Output
+
+First, print a line containing three space-separated integers N, M and Q.
+Then, print Q lines. Each of these lines should describe one operation you want to perform, in the format described above.
+
+Test generation
+
+W=H=720720
+R=105
+for each valid i, Xi is chosen uniformly randomly among all integers between 1 and W−1 (inclusive) that are coprime with W
+for each valid i, Yi is chosen uniformly randomly among all integers between 1 and H−1 (inclusive) that are coprime with H
+
+Scoring
+If N⋅M>210, Q>210 or the widths or heights of the pieces are not integers, your solution will receive the Wrong Answer verdict.
+The score of a test file is the final price of the cake. The score of a submission is the sum of scores of all test files. Your goal is to minimise the score of your submission.
+There are three test files. During the contest, the displayed score will account for exactly two test files, i.e. your score reflects your submission's performance on approximately 66.66% (2/3) of the test files. However, if your program gets a non-AC verdict on any test file, your submission's verdict will be non-AC. In other words, an AC verdict denotes that your program runs successfully on all the test files. After the end of the contest, your score will be changed to include the sum of your program's scores over the third test file.
+Example Input
+9 6 6
+2 3
+1 1
+5 3
+2 5
+5 1
+8 5
+
+Example Output
+3 3 3
+1 2
+2 3
+2 3
+
+Explanation
+
+
+N=M=3
+The red points in the picture are the raisins.
+The piece highlighted in blue is denoted by (3,2).
+After shifting the second row to the right and the third column twice upwards, the resulting cake is:
+
+
+
+The score is twice the area of the polygon NORP, but there may be a better solution that leads to a smaller area.
+
+
+
+
+Author:
+7★alei
+
+
+Editorial:
+https://discuss.codechef.com/problems/RAISINS
+
+
+Tags:
+
+               
+                 alei, challenge, feb20, tmwilliamlin
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+28-01-2020
+
+
+Time Limit:
+5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

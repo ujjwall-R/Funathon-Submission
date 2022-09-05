@@ -1,0 +1,66 @@
+
+Given a positive integer nn, write a program to print the last digit of nn.
+For example, if n=1234n=1234, then print 4.
+Input:
+A positive integer n.
+Output:
+Output the last digit of n.
+Constraints
+
+1≤n≤105
+
+Sample Input:
+1234
+Sample Output:
+4
+EXPLANATION:
+Given n=1234, the output will be last digit i.e. 4.
+
+
+
+Author:
+3★ayush163
+
+
+Editorial:
+https://discuss.codechef.com/problems/BC201
+
+
+Tags:
+
+               
+                 ayush163, cakewalk, math
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-04-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

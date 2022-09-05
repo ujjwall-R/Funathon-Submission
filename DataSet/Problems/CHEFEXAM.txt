@@ -1,0 +1,82 @@
+
+ Problem Statement 
+
+Chef has exams coming up , he has taken up  N  subjects this semester. The subjects are numbered from 1 to N. 
+He needs atleast M average marks to pass this semester.
+He has limited time to study , at each hour he can choose a subject i to study and that increases the amount of marks he is going to get in that subject by C[i].
+For each subject it is known that if chef doesn't study that subject at all , he still manages to get A[i] marks in that and no matter how much he studies , he can't get more than B[i] marks in that subject (If chef studies the ith subject for X hours , he gets min(B[i] , A[i] + C[i] * X) marks in that subject). 
+Help chef calculate the minimum amount of time of studies he must do in order to pass have an average of atleast M marks or print -1 if he cannot pass under any given circumstances.
+Note that chef can only study a subject for an integer amount of hours.
+
+
+ Constraints 
+1 <= N <= 100 
+1 <= A[i] < B[i] <= 100 
+1 <= C[i] <= B[i] - A[i]  , C[i] divides (B[i] - A[i]) 
+1 <= M <= 100
+Input Format 
+The first line consists of 2 integers N , M.
+The lines 2 to N - 1 consists of 3 integers denoting A[i - 1] , B[i - 1] , C[i - 1]. 
+ Output Format  
+Print the minimum amount of time chef needs to study in order to pass the exam with M average marks or print -1 if chef cannot pass. 
+Sample 
+
+Input
+2 50
+30 70 10
+20 80 10
+Output
+5
+
+Input
+2 100
+1 100 1
+2 100 2
+
+Output
+148
+
+
+
+Author:
+skullcrackers
+
+
+Tags:
+
+               
+                 easy, ipc15flb, skullcrackers, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+28-09-2016
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,109 @@
+
+You are given an array A=[A1,A2,…,AN]A=[A1,A2,…,AN] containing distinct positive integers.
+Let BB be a permutation of AA. Define the value of B to be
+N∑i=1(BimodBi+1)
+where BN+1 is treated to be B1.
+Find the maximum value across all permutations of A.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case consists of two lines of input.
+The first line of each test case contains an integer N — the size of A.
+The second line of each test case contains N space-separated integers — the elements of A.
+
+Output Format
+
+For each test case, output a new line containing the answer — the maximum possible value across all permutations of A.
+
+Constraints
+
+1≤T≤103
+2≤N≤2⋅103
+1≤Ai≤1015
+Ai≠Aj for i≠j
+The sum of N across all test cases won't exceed 2⋅103.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+2
+5 13
+4
+11 5 14869010166 19007432007
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+8
+14869010184
+
+
+Explanation
+Test case 1: The value of any permutation is (5mod13)+(13mod5)=5+3=8.
+Test case 2: The 6 cyclic permutations of the given array and their corresponding values are:
+
+[5,11,14869010166,19007432007] with value 14869010184
+[5,14869010166,11,19007432007] with value 28
+[11,5,14869010166,19007432007] with value 14869010175
+[11,14869010166,5,19007432007] with value 20
+[14869010166,5,11,19007432007] with value 4138421858
+[14869010166,11,5,19007432007] with value 4138421857
+
+Among these, the highest value is 14869010184.
+
+
+
+Author:
+6★iceknight1093
+
+
+Tags:
+
+               
+                 dynamic-programming, easy-medium, greedy, iceknight1093, ltime107
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2723
+
+
+Date Added:
+12-04-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

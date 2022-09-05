@@ -1,0 +1,129 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+The droid R2-D2 is travelling in space with a special mission. In space, there are NN planets (numbered 11 through NN) and M bidirectional space highways. Each space highway connects two planets and in order to use it, R2-D2 needs to have a sufficiently high status level.
+The droid’s mission consists of Q stages. In each stage, there are two planets x and y such that the droid should start the stage at planet x with some initial status level L (L≥0) and travel to planet y. For each valid i, when R2-D2 is at planet i (including the initial planet x), he may increase his status level by Ai; it is not allowed to increase the status level multiple times on the same planet in the same stage. Find the minimum value of L such that it is possible for R2-D2 to reach planet y or determine that it is impossible to reach planet y for any L.
+Note that the level R2-D2 has at the end of each stage is not carried over to the next stages (he may start the next stage with a lower initial status level).
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+The second line contains N space-separated integers A1,A2,…,AN.
+Each of the following M lines contains three space separated integers U, V and W denoting that there is a space highway between planets U and V and R2-D2 may use this highway only if his status level is at least W.
+The next line contains a single integer Q.
+The following Q lines describe stages. Each of these lines contains two space-separated integers x and y.
+
+Output
+For each stage, print a single line containing one integer ― the minimum status level required to complete the stage, or −1 if it is impossible to complete this stage.
+Constraints
+
+1≤T≤100
+1≤N,M,Q≤105
+0≤Ai≤109 for each valid i
+0≤W≤109
+1≤U,V,x,y≤N
+the sum of N over all test cases does not exceed 400,000
+the sum of M over all test cases does not exceed 400,000
+the sum of Q over all test cases does not exceed 400,000
+
+Subtasks
+Subtask #1 (12 points):
+
+N,Q≤1,000
+M≤1,200
+the sum of N over all test cases does not exceed 4,000
+the sum of M over all test cases does not exceed 4,000
+the sum of Q over all test cases does not exceed 4,000
+
+Subtask #2 (28 points): Ai=0 for each valid i
+Subtask #3 (60 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+6 5
+1 3 1 2 0 0
+1 2 4
+1 3 2
+1 4 3
+3 4 5
+3 5 7
+4
+2 2
+1 5
+5 1
+3 6
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+1
+7
+-1
+
+
+Explanation
+In the second stage, R2-D2 can travel through planets 1→3→1→4→1→2→1→3→5.
+
+
+
+Author:
+7★farhod_farmon
+
+
+Editorial:
+https://discuss.codechef.com/problems/R2D2
+
+
+Tags:
+
+               
+                 Trees, Disjoint Set Union, DFS Order, Prim's Algorithm, Binary lifting, Sorting
+                 
+                     
+                     Data Structures, Graphs, Advanced Data Structures, Algorithms, Graph Algos, Traversals, Tree Algos, Lowest Common Ancestor, DFS, Minimum Spanning Trees
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3139
+
+
+Date Added:
+25-04-2019
+
+
+Time Limit:
+4 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

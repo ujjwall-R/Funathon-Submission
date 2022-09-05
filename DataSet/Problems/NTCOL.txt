@@ -1,0 +1,137 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+You have a grid with NN rows (numbered 11 through NN) and MM columns (numbered 11 through MM). Initially, the grid is empty. You also have N⋅MN⋅M tiles with three colours: RR tiles are red, GG tiles are green and BB tiles are blue.
+Find a way to place these tiles in the grid such that for each tile, there are at most two distinct colours among the tiles that share a side with it.
+For example, a valid placement for N=M=R=G=B=3N=M=R=G=B=3 is:
+
+
+
+Input
+
+The first line of the input contains a single integer TT denoting the number of test cases. The description of TT test cases follows.
+The first and only line of each test case contains five space-separated integers NN, MM, RR, GG and BB.
+
+Output
+For each test case, print NN lines describing the placement of the tiles in the grid. For each valid ii, the i-th of these lines should contain a string with length M describing the tiles in the i-th row, with red, green and blue tiles denoted by the characters 'R', 'G' and 'B' respectively.
+If there are multiple solutions, you may find any one of them. It can be proved that a solution always exists. 
+Constraints
+
+1≤T≤15,000
+1≤N,M≤500
+0≤R,G,B≤N⋅M
+R+G+B=N⋅M
+the sum of N⋅M over all test cases does not exceed 3⋅105
+
+Example Input
+6
+1 1 0 0 1
+1 3 1 1 1
+3 2 1 4 1
+3 3 3 3 3
+4 3 4 2 6
+10 10 41 20 39
+
+Example Output
+B
+RGB
+RG
+GG
+GB
+RGB
+BRG
+GBR
+GGB
+BBB
+BBR
+RRR
+RRRRRRRRRR
+RRRRRRRRRR
+RRRRRRRRRR
+RRRRRRRRRR
+RGGGGGGGGG
+GGGGGGGGGG
+GBBBBBBBBB
+BBBBBBBBBB
+BBBBBBBBBB
+BBBBBBBBBB
+
+Explanation
+Let's denote a cell in the i-th row from the top and j-th column from the left by (i,j).
+Example case 1: The only option is to place the single blue tile at (1,1). This cell clearly has no adjacent cells and therefore, the number of distinct colours among tiles that share a side with it is 0, satisfying the condition.
+Example case 2: 
+
+
+
+The red tile at (1,1) shares a side only with the green tile at (1,2).
+The green tile at (1,2) shares a side with the red tile at (1,1) as well as with the blue tile at (1,3).
+The green tile at (1,3) shares a side only with the green tile at (1,2).
+Each tile has at most 2 tiles that share a side with it, so the condition must be satisfied. Note that there are other valid answers such as BGR, GBR, etc.
+Example case 3:
+
+
+
+Each tile has tiles with at most 2 distinct colours adjacent to it, so the condition is satisfied by this placement.
+For example, the tile at (2,1) shares sides with the tiles at (1,1), (2,2) and (3,1), which are red, green and green respectively.
+Example case 4: The example output corresponds to the figure in the statement. 
+For example, the tile at (2,2) shares sides with the tiles at (1,2), (2,1), (2,3) and (3,2), which are green, blue, green and blue respectively.
+Once again, we can see that each tile has only tiles with at most two distinct colours adjacent to it, so the condition is satisfied by this placement.
+Note that the placement in the following figure is invalid, since the tile at (2,2) has tiles with all three distinct colours adjacent to it. There are four tiles which share a side with it ― the tiles at (1,2), (2,1), (2,3) and (3,2), which are coloured green, green, red and blue respectively.
+
+
+
+The following placement is also invalid for this test case, since the number of tiles with each colour is wrong ― there are 5 red tiles, 3 green tiles and 1 blue tile.
+
+
+
+
+
+
+Author:
+6★explodingfrz
+
+
+Editorial:
+https://discuss.codechef.com/problems/NTCOL
+
+
+Tags:
+
+               
+                 Observation
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2621
+
+
+Date Added:
+11-01-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

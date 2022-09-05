@@ -1,0 +1,94 @@
+
+The mayor of Townsville City wants to build a telephone network in the city.
+The city is represented as a square grid of size NN x NN. Rows and columns of the grid are numbered from 11 to N. Each cell of the grid (i,j) has a tower of height Hi,j. The height of each tower is between 1 and K (inclusive). It is guaranteed that there is at least one tower of each height in the city.
+
+The mayor's engineering team wants to use exactly K−1 cables to create the network.
+The first cable should be between a tower of height 1 and a tower of height 2, the second cable should be between a tower of height 2 and a tower of height 3, and so on with the (K−1)th cable connecting a tower of height (K−1) and a tower of height K, i.e., a chain of cables needs to be created in the height order 1,2,3,...,K.
+The cost of connecting two cells (i1,j1) and (i2,j2) is |i2−i1|+|j2−j1|.
+For all i such that 1≤i<K, the ith and (i+1)th cables should have one tower in common.
+
+Find the minimum total cost of the chain of cables required to build the telephone network.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains 2 space-separated integers N and K.
+N lines follow. Each line contains N space-separated integers. The jth number in the ith line represents Hi,j.
+
+Output
+For each test case, print a single line containing the minimum cost of cables used.
+Constraints
+
+1≤T≤100
+1≤N≤100
+1≤K≤N2
+1≤Hi,j≤K for each valid (i,j)
+the sum of N over all test cases does not exceed 100
+
+Example Input
+1
+3 3
+1 1 1
+2 2 2
+3 3 3
+
+Example Output
+2
+
+Explanation
+Example case 1: 
+
+One of the chains that can be formed with minimum cost is (1,1) -> (2,1) -> (3,1) with cost 2.
+Even though (1,2) -> (2,3) -> (3,1) is also a valid chain (among other valid chains), it's cost is 5 which is not the minimum.
+
+
+
+
+Author:
+2★wittyceaser
+
+
+Editorial:
+https://discuss.codechef.com/problems/TELNET
+
+
+Tags:
+
+               
+                 Loops, Basic Maths, Dynamic Programming, Implementation
+                 
+                     
+                     Basic Programming Concepts, Mathematics, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+12-12-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

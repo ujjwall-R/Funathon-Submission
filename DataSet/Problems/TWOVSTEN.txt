@@ -1,0 +1,101 @@
+
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Chef Two and Chef Ten are playing a game with a number XX. In one turn, they can multiply XX by 2. The goal of the game is to make X divisible by 10.
+Help the Chefs find the smallest number of turns necessary to win the game (it may be possible to win in zero turns) or determine that it is impossible.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer denoting the initial value of X. 
+
+Output
+For each test case, print a single line containing one integer — the minimum required number of turns or −1 if there is no way to win the game.
+Constraints
+
+1≤T≤1000
+0≤X≤109
+
+Subtasks
+Subtask #1 (100 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+10
+25
+1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+1
+-1
+
+
+
+
+
+Author:
+5★altruist_
+
+
+Tester:
+6★kingofnumbers
+
+
+Editorial:
+https://discuss.codechef.com/problems/TWOVSTEN
+
+
+Tags:
+
+               
+                 Basic Maths
+                 
+                     
+                     Mathematics
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+936
+
+
+Date Added:
+20-04-2018
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

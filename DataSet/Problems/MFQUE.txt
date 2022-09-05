@@ -1,0 +1,87 @@
+
+
+Mindfire Solutions Ltd. wants to judge its employees based on their performance. You are given the list of an employee’s monthly performance details in form of an array from the day he started.
+Mindfire wants you to analyse the progress from Lth month to Rth month. The progress is calculated as follows:-
+		1.	Sort the performance array from the interval L to R
+		2.	Calculate the sum of squared differences of consecutive elements. 		                  
+	i.e. (S[2]-S[1])2 + (S[3]-S[2])2 + (S[4]-S[3])2 + ........ + (S[R-L+1]-S[R-L])2.
+
+Input
+The first line of the input contains an integer N denoting the number of months the employee has worked.
+The second line contains N space separated non-negative integers denoting the monthly performance.
+The third line contains an integer Q denoting the number of queries.
+Each of the following Q lines contains two space separated integers L and R denoting the start and end month of period of analysis.
+Output
+For Each Query output one integer in a newline – the result of progress analysis for the corresponding period.
+Constraints
+
+1 ≤ N, Q ≤103
+0 ≤ A[i] ≤103
+
+Example
+Input:
+6
+6 8 2 10 3 2 
+4
+2 6
+1 6
+2 5
+1 2
+Output:
+30
+18
+30
+4
+Explanation:
+The first query: sorted array looks like (2, 2, 3, 8, 10) and the answer is calculated as (2-2)2 + (3-2)2 + (8-3)2 + (10-8)2 = 30
+The second query: sorted array looks like (2, 2, 3, 6, 8, 10) and the answer is calculated as (2-2)2 + (3-2)2 + (6-3)2 + (8-6)2 + (10-8)2 = 18
+The last query: sorted array looks like (6, 8) and the answer is calculated as (8-6)2 = 4
+
+
+
+Author:
+1★bigo_admin
+
+
+Editorial:
+https://discuss.codechef.com/problems/MFQUE
+
+
+Tags:
+
+               
+                 bigo_admin, easy-medium, sqrt-decomp
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+11-01-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

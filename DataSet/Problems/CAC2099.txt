@@ -1,0 +1,117 @@
+
+The year is 2099 and Miguel O’Hara is playing a good ol’ game board game with his daughter. But since they were too smart for any normal games, they made up a mind-boggling game for themselves. 
+You have a board of size N x N. Every block on the board has 1 random piece on it and every piece has an assigned value. They have to perform the following steps and give the answer wisely.
+
+Firstly, they have to choose a square of size K x K (where 1<=K<=N) on the board such that (k∗p1) ^ (k∗p2) …. ^ (k∗pk) is maximum, where ^ denotes the bitwise XOR and pi is the ith element of the south-east diagonal of the square (diagonal running from top left to bottom right of the matrix)
+If there are multiple such squares possible with the maximum XOR, choose the square having the maximum size, i.e., the number of elements present in the square.
+As a final task, the player has to give the total number of ways W possible to reach the ending point(bottom right) from the starting point(top left) in the chosen square without crossing the south-east diagonal (diagonal running from top left to bottom right of matrix), moving only in the right or downward direction.(The player can move only on the boundary of the chosen square. See the below diagram for more clarity.)
+
+The player has to give the maximum XOR and the number of such paths W as the answer.
+Since even W can be large, output W modulo 1000000007 (109+7)
+Input Format
+
+First line contains the number of test cases, T
+Second line contains the integer N.
+In the next N lines, each line contains N, space separated integers. Where j-th integer in i-th line denote a[i][j]
+
+Output Format
+For every test case:
+
+2 integers, P, maximum achievable points for the turn, and W, the number of ways to get from one end of the diagonal to another without crossing it.
+
+Constraints
+
+1≤T≤10
+1≤N≤100
+1≤a[i][j]≤100
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+5
+3 4 2 6 3
+4 6 5 1 5
+5 6 5 1 4
+1 2 3 5 5
+2 4 5 2 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+29 10
+
+
+Explanation
+        1   2   3   4   5    --- Column Index
+
+  1     3 | 4 | 2 | 6 | 3 | 
+  2     4 | 6 | 5 | 1 | 5 | 
+  3     5 | 6 | 5 | 1 | 4 | 
+  4     1 | 2 | 3 | 5 | 5 | 
+  5     2 | 4 | 5 | 2 | 1 | 
+
+A piece moving from (3,2) to (5,4) passing through (4,3) would be the optimum choice
+diagonal makes 3x3 square =3*a[3][2] ^ 3*a[5][4] ^ 3*a[4][3] = 29
+For the diagonal (3,2) to (5,4), moving only south or east, the player has a total of 10 possible paths without crossing the diagonal as shown below.
+
+
+
+
+Author:
+3★prathakgarg
+
+
+Editorial:
+https://discuss.codechef.com/problems/CAC2099
+
+
+Tags:
+
+               
+                 dynamic-programming, matrices, permutation, prathakgarg, xor
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

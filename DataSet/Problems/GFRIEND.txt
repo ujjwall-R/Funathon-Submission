@@ -1,0 +1,95 @@
+
+Jon is single and lonely. He wants to talk to a girl to break his loneliness. 
+So, he went to a online chat site and started searching for girls. 
+He realised that users with UsernameUsername ended with FF are female users and users with UsernameUsername ended with M are male users. It is guaranteed that an Username will always end with F or M.
+Write a program to help Jon find out more female users.
+Input Format
+
+First line will contain T, number of testcases. Then the testcases follow.
+Each testcase contains of a single line of input, one string Username.
+
+Output Format
+For each testcase, output in a single line answer "Yes" if a given Username is of a female user and "No" if a given Username is of a male user.
+Constraints
+
+1≤T≤1000
+2≤length(Username)≤106
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+snehaF
+rajM
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Yes
+No
+
+
+
+
+
+Author:
+4★debrc
+
+
+Tester:
+2★dustu_947
+
+
+Editorial:
+https://discuss.codechef.com/problems/GFRIEND
+
+
+Tags:
+
+               
+                 cakewalk, debrc, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+2-08-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

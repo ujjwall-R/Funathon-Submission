@@ -1,0 +1,79 @@
+
+ 
+7 came back home, from College, very very hungry! Chef was really caught up, with loads of Party orders and hence couldn't satiate 7's hunger. 7 was so famished, that when it saw "scrumptious 9", prepared by Chef, specially for the party, it couldn't control itself and gobbled it up! Now, Chef is extremely furious and has decided to not allow 7 into his kitchen. 7 is however clubbing up with others and trying to get in.
+Help Chef prevent 7 from entering into the kitchen.
+
+Input
+The first line of the input contains an integer T denoting the number of test cases. Each line of the test case begins with N denoting number of inputs, followed by numbers a1, a2,...,aN , entering the kitchen.
+Output
+Only numbers that do not contain 7 in the units place must be allowed into the kitchen. Print all the numbers from the input that must be given an entry into the kitchen
+Constraints
+
+1 ≤ T ≤ 100
+1 ≤ N ≤ 105
+1 ≤ ai ≤ 108
+
+ 
+Example
+Input:
+2
+4 7 17 27 37
+7 21 67 98 34 17 23 16
+
+Output:
+
+21 98 34 23 16
+
+ 
+Explanation
+Example case 1 :  An empty line will be printed because there all numbers with 7 at units place
+Example case 2 :  Numbers 67 and 17 contain 7 in units place and hence need to be omitted from the output list.
+
+
+
+Author:
+janeadsouza
+
+
+Editorial:
+https://discuss.codechef.com/problems/GSFEB18B
+
+
+Tags:
+
+               
+                 cakewalk, gsf2018, janeadsouza, janeadsouza
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-02-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

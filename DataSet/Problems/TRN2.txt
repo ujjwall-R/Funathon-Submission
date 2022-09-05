@@ -1,0 +1,103 @@
+
+Sheldon loves trains. One day he decided to take a trip. He has a map of the train routes. He wants to find the total travel duration between any two given stations. A train traveling from station a to b will stop at all intermediate stations for a particular amount of time.  The map has the following information:
+
+ The travel times between two consecutive stations.
+ The waiting times for all intermediate stations.
+ He wants to find the total travel duration between any two stations subject to the following 2 conditions:
+
+ Considering the waiting times of all intermediate stations without any changes (Condition - a)
+ Considering the waiting times of all intermediate stations to be the smallest of all waiting times of stations between the starting station and the ending station (Condition - b)
+
+
+
+See Explanation Section for better understanding.
+Input
+
+First line has an integer T, the number of test cases. T test cases follow.
+
+First line of each test case has N, the number of stations.
+Second line of each test case has timei, the time for traveling from stationi to stationi+1.
+Third line of each test case has waiti, the waiting times for the intermediate stations between the first and last stations
+Fourth line has Q, the number of queries, Q lines follow
+Each query has K , A and B - the type of query, the starting and ending stations,respectively.
+
+ 
+Output
+
+For each query, print one line.
+If query type is 0, the line should contain the total duration by applying condition-a.
+If query type is 1, the line should contain the total duration by applying condition-b.
+
+Constraints
+All values can be stored in a 32-bit integer variable.
+Example
+Input:
+1
+6
+20 30 40 50 60
+2 3 4 5
+4
+0 2 5
+1 2 5
+0 6 1
+1 6 1
+
+Output:
+127
+126
+214
+208
+
+ 
+Explanation
+
+Sheldon doesn't need explanations. 
+
+
+
+Author:
+4★accelmage
+
+
+Editorial:
+https://discuss.codechef.com/problems/TRN2
+
+
+Tags:
+
+               
+                 accelmage, array, easy, etbr2017
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-04-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

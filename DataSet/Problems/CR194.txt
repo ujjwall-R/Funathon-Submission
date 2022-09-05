@@ -1,0 +1,78 @@
+
+Thor: "I told you. You would die for that."
+Thanos: "You should have….You…..You should have gone for the HEAD" 
+Thor does not want to repeat his mistake as he did while previously fighting Thanos. Therefore, he is sharpening his axe -  STORMBREAKER to aim absolutely correct this time.  However, to sharpen it, he has to break a magic spell of a string.    
+A string is said to be magical if at least one sub-sequence of that string forms the word "codered". Now the organizers want to see if the participants are able to help Thor solve the same problem or not i.e. given a string S, you have to output "yes" if any sub-sequence of the string S forms the word "codered" otherwise print "no".
+Input
+
+The first line contains one integer T, denoting the number of test cases.
+The first line of each test case contains an integer L, denoting the length of the string.
+The second line contains a string of length L formed of small English alphabets between a to z.
+
+Output:
+The output has to "yes" or "no" (without quotes) depending whether it is possible to form the word or not.
+Constraint:
+
+1≤T≤1000
+1≤L≤1000
+
+Sample Input:
+2
+14
+abcuodfegrheyd
+10
+codeeerdee
+
+Sample Output:
+yes
+no
+
+
+
+
+Author:
+5★shauryakr
+
+
+Editorial:
+https://discuss.codechef.com/problems/CR194
+
+
+Tags:
+
+               
+                 cakewalk, cord2019, shauryakr
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-02-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

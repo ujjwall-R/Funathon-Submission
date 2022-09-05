@@ -1,0 +1,79 @@
+
+Geometric progressions are cool sequences of numbers. Formally, we define a geometric progression as a series of numbers, with a common ratio k, such that the sequence is of the form b*k0 , b*k1, b*k2,b*k3,b*k4 and so on.    
+
+Alternatively, we can define a Geometric Progression as a sequence of terms in which each succeeding term is obtained by multiplying its preceding term by a constant.
+
+
+We are given an array of N integers, and the value of K (common ratio). 
+ Find the number of triplets that can be formed from the array A,
+ such that their common ratio is K. 
+ i.e., Find the total number of possible distinct combinations of (i1,i2,i3) such that A[i1] , A[i2] , A[i3] are in GP and  1 ≤ i1 < i2 < i3 ≤ N 
+Input
+The first line contains N and K, and the second line consists of N integers 
+Output
+A single number - the number of ways to form a GP triplet of common ratio K 
+Constraints
+ 1 <= N <= 100000 
+ 1 <= K <= 100000 
+ -1000000000 <= A[i] <= 1000000000 
+Example 1
+Input:
+5 2
+1 1 2 2 4
+
+Output:
+4
+
+ 
+Explanation
+ The possible triplet values are (1,3,5), (1,4,5), (2,3,5), (2,4,5).
+ All these combinations produce a subsequence [1,2,4] and this is a GP of common ratio 2. 
+
+
+
+Author:
+5★akshayvenkat97
+
+
+Editorial:
+https://discuss.codechef.com/problems/GPTRIPLE
+
+
+Tags:
+
+               
+                 akshayvenkat97, dynamic-programming, easy-medium, popc2018, standard-template-library
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-01-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

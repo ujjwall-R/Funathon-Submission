@@ -1,0 +1,100 @@
+
+Chef wants to reach home as soon as possible. He has two options:
+
+Travel with his BIKE which takes XX minutes.
+Travel with his CAR which takes YY minutes.
+
+Which of the two options is faster or do they both take same time?
+Input Format
+
+First line will contain TT, number of test cases. Then the test cases follow.
+Each test case contains a single line of input, two integers X,Y representing the time taken to travel with BIKE and CAR respectively.
+
+Output Format
+For each test case, print CAR if travelling with Car is faster, BIKE if travelling with Bike is faster, SAME if they both take the same time.
+You may print each character of CAR, BIKE and SAME in uppercase or lowercase (for example, CAR, Car, cAr will be considered identical).
+Constraints
+
+1≤T≤100
+1≤X,Y≤10
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+1 5
+4 2
+6 6
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+BIKE
+CAR
+SAME
+
+
+Explanation
+Test case-1: Travelling with BIKE takes 1 minute while travelling with CAR takes 5 minutes. So travelling with BIKE is faster.
+Test case-2: Travelling with BIKE takes 4 minutes while travelling with CAR takes 2 minutes. So travelling with CAR is faster.
+Test case-3: Travelling with both BIKE and CAR takes the SAME time i.e. 6 minutes.
+
+
+
+Author:
+utkarsh_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/TRAVELFAST
+
+
+Tags:
+
+               
+                 cakewalk, math, start26, utkarsh_adm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+571
+
+
+Date Added:
+14-02-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

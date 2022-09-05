@@ -1,0 +1,86 @@
+
+Chef is a very competitive person and has challenged his Math Professor that he can tell count of the number that is appearing most number of times in given list of numbers. Chef is relying on you to help him find the count quicker by writing a program.
+For Simplicity of the competition Chef and Professor have agreed to have only 0's and 1's in the list of numbers.
+Help Chef in finding out the count of number that occurs most in the given array by writing a program.
+Note:
+
+It is guaranteed that no. of 0's and 1's in the input array are not equal.
+
+Input:
+
+The first line of each test case contains a single integer N which denotes number of elements in array.
+Second line of each test case contains array A of N numbers that contains only 0's and 1's.
+
+Constraints:
+
+1 <=N<= 1000
+A[i] = {0,1}
+
+Output:
+For each test case, print a single integer denoting count of maximum occurance of number in array.
+Sample Input 1:
+8
+0 1 1 0 1 1 1 0
+
+Sample Output 1:
+5
+
+Explanation:
+Number of 1's in given input array is 5 and no. of 0's is 3. As 5>3, so 5 is prined out.
+Sample Input 2:
+3
+1 0 1
+
+Sample Output 2:
+2
+Explanation:
+Similar to 1st input in this case the number of 1's in input array is 2 and 0's is 1. 2 being greater than 1, 2 is printed.
+
+
+
+Author:
+3★furious_127
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHFPROF
+
+
+Tags:
+
+               
+                 cakewalk, easy, furious_127
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+20-01-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

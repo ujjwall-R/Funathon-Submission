@@ -1,0 +1,82 @@
+
+ 
+Not only did 7 eat 9, but also exhausted Chef's pantry. So Chef's next task is to refill it. However, Chef only has a few baskets, and each basket has it's own limit in terms of the weight it can carry. The items to be purchased by Chef are plenty in number and varying in weight. Also, Chef has to buy an item, as a whole, indivisible entity, depending on the capacity of the basket and every item to be bought should have quantity as one only. Each item will yield Chef a specific profit.
+Help Chef decide which item he needs to select, keeping in mind that the end goal is to maximize profit, while keeping the total weight of items chosen, to be at the most, the capacity of the basket.
+Input
+
+The first line of the input contains an integer T denoting the number of test cases.
+The next line contains input N specifying number of items and M denoting capacity of the basket.
+The third line consists of p1, p2, ...pN, and specifies the profit yielded by each item.
+Similarly, the fourth line consists of w1, w2, ...wN, and specifies the weight of each item.
+ 
+Output
+
+For each test case, output a single line containing maximum profit earned by Chef, by selecting items from the given list.
+
+ 
+Constraints
+
+1 ≤ T ≤ 100
+1 ≤ N , pi , wi , M  ≤ 103
+
+ 
+Example
+Input:
+1
+4 7
+1 4 5 7 
+1 3 4 5
+
+Output:
+9
+
+ 
+
+
+
+Author:
+janeadsouza
+
+
+Editorial:
+https://discuss.codechef.com/problems/GSFEB18C
+
+
+Tags:
+
+               
+                 gsf2018, janeadsouza, janeadsouza, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-02-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

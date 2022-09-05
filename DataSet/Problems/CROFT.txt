@@ -1,0 +1,113 @@
+
+THE CROFTS GAME
+Lara and Jonah were onto Siberia for the expedition of the divine source. The flight was of 9 hours. To kill the time, they both decided to play a game. The rules of the game are simple.
+The game starts with two n-integer arrays, A and B, and is played by two players. (here Lara and Jonah)
+Both Lara and Jonah play in alternating turns, with Lara always playing first. During each turn, the current player must choose an integer i, (such that 0 <= i <= n – 1). If the current player is Lara, then she receives A[i] points; if the current player is Jonah, then he receives B[i] points.
+Each value of ‘i’ can be chosen only once, either by Lara or Jonah, not both. The game always ends after n moves.
+The player with the maximum number of points wins.
+TASK
+Given the values of n, A, and B, can you determine the outcome of the game? 
+Print ‘First’ if Lara will win, 
+Print ‘Second’ if Jonah will win, 
+Print 'Tie’ if they will tie. 
+Assume both players always play optimally.
+INPUT FORMAT:
+The first line of input contains a single integer, TestCases, denoting the number of test cases. Each of the 3 subsequent lines describes a test case. A single test case is defined over the following three lines:
+1. An integer, n, denoting the number of elements in arrays A and B.
+2. n space-separated integers, A0, A1, A2, ……An-1, where each Ai describes the element at index i of array A.
+3. n space-separated integers, B0, B1, B2, ……Bn-1, where each Bi describes the element at index i of array B.
+
+CONSTRAINTS:
+1 <= TestCases <= 10 
+1 <= n <= 1000 
+1 <= Ai, Bi <= 105 
+
+OUTPUT FORMAT:
+For each test case, print one of the following predicted outcomes of the game on a new line:
+Print ‘First’ if Lara will win, 
+Print ‘Second’ if Jonah will win, 
+Print ‘Tie’ if they will tie. 
+
+INPUT:
+3
+3
+1 3 4
+5 3 1
+2
+1 1
+1 1
+2
+2 2
+3 3
+
+OUTPUT:
+First
+Tie
+Second
+
+
+EXPLANATION:
+TestCase 1:
+ A = {1,3,4}, B = {5,3,1}. Lara and Jonah make the following n moves:
+       1. Lara chooses i = 2 and receives 4 points.
+       2. Jonah chooses i = 0 and receives 5 points. Note that Jonah will not choose i = 1, because this would
+           cause Lara to win. 
+       3. Lara chooses i = 1 (which is the only remaining move) and receives 3 points.
+
+As all n = 3 moves have been made, the game ends. Lara's score is 7 points and Jonah's score is 5 points, so Lara is the winner and we print ‘First’ on a new line.
+
+TestCase 2:
+ A = {1,1}, B = {1,1}. Because both players will only make 1 move and all possible point values are 1, the players will end the game with equal scores. Thus, we print ‘Tie’ on a new line.
+
+TestCase 3:
+ A = {2,2}, B = {3,3}. Because both players will only make 1 move and all the possible point values for Jonah are greater than all the possible point values for Lara, Jonah will win the game. Thus, we print ‘Second’ on a new line.
+
+
+
+
+Author:
+prescient
+
+
+Editorial:
+https://discuss.codechef.com/problems/CROFT
+
+
+Tags:
+
+               
+                 ad-hoc, greedy, medium, prescient, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-09-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, NODEJS, BASH, JS
+
+
+
+
+
+Submit
+

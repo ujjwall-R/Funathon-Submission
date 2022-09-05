@@ -1,0 +1,102 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Appy and Chef are participating in a contest. There are NN problems in this contest; each problem has a unique problem code between 11 and NN inclusive. Appy and Chef decided to split the problems to solve between them ― Appy should solve the problems whose problem codes are divisible by AA but not divisible by BB, and Chef should solve the problems whose problem codes are divisible by BB but not divisible by AA (they decided to not solve the problems whose codes are divisible by both AA and BB).
+To win, it is necessary to solve at least KK problems. You have to tell Appy whether they are going to win or lose.
+Input
+
+The first line of the input contains a single integer TT denoting the number of test cases. The description of TT test cases follows.
+The first and only line of each test case contains four space-separated integers NN, AA, BB and KK.
+
+Output
+For each test case, print a single line containing the string "Win" if they can solve at least KK problems or "Lose" otherwise (without quotes).
+Constraints
+
+1≤T≤151≤T≤15
+1≤K≤N≤10181≤K≤N≤1018
+1≤A,B≤1091≤A,B≤109
+
+Subtasks
+Subtask #1 (15 points):
+
+1≤T≤151≤T≤15
+1≤K≤N≤1061≤K≤N≤106
+1≤A,B≤103
+
+Subtask #2 (85 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+6 2 3 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Win
+
+
+Explanation
+Example case 1: Appy is solving the problems with codes 2 and 4, Chef is solving the problem with code 3. Nobody is solving problem 6, since 6 is divisible by both 2 and 3. Therefore, they can solve 3 problems and win.
+
+
+
+Author:
+3★hmrockstar
+
+
+Editorial:
+https://discuss.codechef.com/problems/HMAPPY2
+
+
+Tags:
+
+               
+                 Basic Maths, GCD, LCM, Observation
+                 
+                     
+                     Mathematics, Number Theory, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1358
+
+
+Date Added:
+25-01-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

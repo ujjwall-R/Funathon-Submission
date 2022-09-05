@@ -1,0 +1,105 @@
+
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Suppose for a unit rise in temperature, the solubility of sugar in water increases by Bg100 mL.
+Chef does an experiment to check how much sugar (in g) he can dissolve given that he initially has 1 liter of water at X degrees and the solubility of sugar at this temperature is Ag100 mL. Also, Chef doesn't want to lose any water so he can increase the temperature to at most 100 degrees.
+Assuming no loss of water takes place during the process, find the maximum amount of sugar (in g) can be dissolved in 1 liter of water under the given conditions.
+Input
+
+The first line contains an integer T, the number of test cases. Then the test cases follow. 
+The only line of each test case contains three integers X,A,B. 
+
+Output
+For each testcase, output in a single line the answer to the problem.
+Constraints
+
+1≤T≤1000
+31≤X≤40
+101≤A≤120
+1≤B≤5
+
+Subtasks
+Subtask #1 (100 points): Original Constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+40 120 1
+35 120 2
+40 115 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1800
+2500
+2950
+
+
+Explanation
+Test Case 1: Since solubility is increasing with temperature, the maximum solubility will be at 100 degrees which is equal to 120+(100−40)=180g100 mL. 
+So for 1 liter of water the value is 180⋅10=1800 g.
+Test Case 2: Since solubility is increasing with temperature, the maximum solubility will be at 100 degrees which is equal to 120+(100−35)⋅2=250g100 mL. 
+So for 1 liter of water the value is 250⋅10=2500 g.
+
+
+
+Author:
+daanish_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/SOLBLTY
+
+
+Tags:
+
+               
+                 Basic Maths, ad-hoc
+                 
+                     
+                     Mathematics, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+922
+
+
+Date Added:
+4-05-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

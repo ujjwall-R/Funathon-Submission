@@ -1,0 +1,114 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian and Vietnamese as well.
+Chef loves graphs. To express his love, he defines a function f(G,x,y)f(G,x,y) for an undirected connected graph GG with weighted edges and two of its vertices xx, y. f(G,x,y) is defined as the minimum of weights of all paths in G between the vertices x and y, where the weight of a path is the maximum of weights of edges in this path.
+Chef has two connected graphs G1 and G2. Each of these graphs has N vertices (labelled 1 through N) and M edges. Calculate S=N−1∑i=1N∑j=i+1f(G1,i,j)⋅f(G2,i,j) modulo 998,244,353.
+Input
+
+The first line of the input contains two space-separated integers N and M.
+M lines follow. Each of these lines contains three space-separated integers u, v and w denoting that vertices u and v in G1 are connected by an edge with weight w.
+M more lines follow. Each of these lines contains three space-separated integers u, v and w denoting that vertices u and v in G2 are connected by an edge with weight w.
+
+Output
+Print a single line containing one integer — the sum S modulo 998,244,353.
+Constraints
+
+1≤N≤105
+M=2N
+1≤u,v≤N
+1≤w≤108
+G1 and G2 are connected graphs
+
+Subtasks
+Subtask #1 (20 points): N=2,000
+Subtask #2 (30 points):
+
+N=105
+G1 and G2 are identical graphs
+
+Subtask #3 (50 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3 6
+1 2 3
+2 3 1
+3 1 2
+1 2 4
+2 3 5
+3 1 6
+1 2 2
+2 3 1
+3 1 3
+1 2 5
+2 3 4
+3 1 6
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+9
+
+
+
+
+
+Author:
+6★nqiiii
+
+
+Editorial:
+https://discuss.codechef.com/problems/MXMN
+
+
+Tags:
+
+               
+                 Centroid Decomposition, Auxiliary Tree
+                 
+                     
+                     Advanced Algorithms, Advanced Graph Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2754
+
+
+Date Added:
+14-06-2019
+
+
+Time Limit:
+4 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

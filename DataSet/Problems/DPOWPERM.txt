@@ -1,0 +1,79 @@
+
+
+Let N be a positive integer and S = {1, 2, 3, ..., N}. For a given positive integer d the function f : S --> S is called d-power permutation if there exists a bijection g : S --> S such that g ( g ( ... g ( x ) ... ) ) = f(x) for each x from S , where g is repeated exactly d times.
+
+You are given some bijection f : S --> S and a positive integer D. You need to find the number of those d <= D such that f is d-power permutation.
+
+Input
+ The first line contains a single positive integer T <= 10, the number of test cases. T test cases follow. The first line of each test case contains two positive integers N and D, where N <= 700 and D <= 1018. The second line contains N space-separated integers. ith number in the second line is the value f(i). It is guaranteed that f is bijection from S onto S.
+
+Output
+ For each test case, output a single line containing the answer for the corresponding test case.
+
+Example
+Input:
+2
+3 6
+1 2 3
+5 10
+2 1 4 5 3
+
+Output:
+6
+3
+
+Explanation
+In the second case the appropriate values of d is 1, 5 and 7.
+
+
+
+Author:
+2★anton_adm
+
+
+Tester:
+4★rajivka
+
+
+Editorial:
+https://discuss.codechef.com/problems/DPOWPERM
+
+
+Tags:
+
+               
+                 anton_adm, cook11, hard
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2862
+
+
+Date Added:
+11-06-2011
+
+
+Time Limit:
+0.52 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

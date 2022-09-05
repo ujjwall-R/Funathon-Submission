@@ -1,0 +1,86 @@
+
+Chef was recently hired by a firm to convert their offline bills to online bills. He was good at typing, and this was his passion too, that lead him to this job.
+But, he makes mistakes also. Given a list of N product names that Chef typed in a sheet, there is exactly one duplicate entry. He needs your help to identify this duplicate entry.
+Input:
+
+First line will contain TT, number of testcases. Then the testcases follow. 
+First line of test case contains an integer NN, the no. of products.
+The next NN lines contain strings denoting the product names.
+
+Output:
+For each testcase, output in a single line, the duplicate product name.
+Constraints
+
+1≤T≤100
+2≤N≤104
+The names contain only lowercase English letters, and length is not more than 10.
+
+Subtasks
+
+50 points : 2≤N≤100
+50 points : original constraints
+
+Sample Input:
+2
+2
+bat
+bat
+4
+bat
+ball
+glove
+glove
+
+Sample Output:
+bat
+glove
+
+
+
+
+Author:
+5★sahil_bansal
+
+
+Editorial:
+https://discuss.codechef.com/problems/FINDMEEE
+
+
+Tags:
+
+               
+                 hashing, mpcc2020, sahil_bansal, set, sorting, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+28-03-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

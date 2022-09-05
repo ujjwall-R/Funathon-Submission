@@ -1,0 +1,115 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+It's not always easy to make up stories around problems ― like this one.
+We know that there is a hidden sequence A1,A2,…,AN which contains only integers between 1 and K inclusive. We have acquired M triplets (X1,Y1,Z1),(X2,Y2,Z2),…,(XM,YM,ZM). A very reliable source has given us intel that for each valid i, the Yi-th occurrence of the integer Xi in the sequence A is AZi, i.e. AZi=Xi and there are Yi−1 indices j<Zi such that Aj=Xi.
+Find any sequence A consistent with this information or determine that no such sequence exists.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, K and M.
+M lines follow. For each i (1≤i≤M), the i-th of these lines contains three space-separated integers Xi,Yi and Zi.
+
+Output
+For each test case:
+
+If no valid sequence exists, print a single line containing the string "No".
+Otherwise, print two lines.
+The first of these lines should contain the string "Yes".
+The second line should contain N space-separated integers A1,A2,…,AN.
+
+Constraints
+
+1≤T≤5⋅105
+1≤N,K,M≤5⋅105
+1≤Xi≤K for each valid i
+1≤Yi,Zi≤N for each valid i
+all triplets are pairwise distinct
+the sum of N over all test cases does not exceed 5⋅105
+the sum of K over all test cases does not exceed 5⋅105
+the sum of M over all test cases does not exceed 5⋅105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+3 3 2
+1 1 2
+2 2 3
+3 1 1
+1 1 1
+3 1 1
+1 1 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Yes
+2 1 2 
+Yes
+1 1 1 
+No
+
+
+
+
+
+Author:
+7★kmaaszraa
+
+
+Editorial:
+https://discuss.codechef.com/problems/HDDN
+
+
+Tags:
+
+               
+                 Constructive, Implementation
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2782
+
+
+Date Added:
+18-10-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

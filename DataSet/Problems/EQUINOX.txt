@@ -1,0 +1,113 @@
+
+Sarthak and Anuradha are very good friends and are eager to participate in an event called Equinox. It is a game of words. In this game, NN strings S1,…,SNS1,…,SN are given. For each string Si, if it starts with one of the letters of the word “EQUINOX”, Sarthak gets A points and if not, Anuradha gets B points. The one who has more points at the end of the game wins. If they both the same number of points, the game is a draw..
+Print the winner of the game, if any, otherwise print “DRAW”.
+Input
+
+The first line contains an integer T, the number of test cases. Then the test cases follow. 
+The first line of each test case contains three integers N, A, B.
+N lines follow, each containing a string Si.
+All strings are in UPPERCASE.
+
+Output
+
+For each test case, print “SARTHAK” (case insensitive) if he has more points than Anuradha, print “ANURADHA” (case insensitive) if she has more points than Sarthak, otherwise print “DRAW” (case insensitive), without the quotes.
+
+Constraints
+
+1≤T≤100
+1≤N≤100
+1≤A, B≤109
+1≤|Si|≤100
+
+Subtasks
+Subtask #1 (100 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+4 1 3
+ABBBCDDE
+EARTH
+INDIA
+UUUFFFDDD
+2 5 7
+SDHHD
+XOXOXOXO
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+DRAW
+ANURADHA
+
+
+Explanation
+Test case 1: The strings which start with one of the letters of the word EQUINOX are { EARTH, INDIA, UUUFFFDDD }. Thus, Sarthak gets 1 point for each of these strings. In total, Sarthak gets 3 points.
+On the other hand, there is one string that does not start with one of the letters of the word EQUINOX. Thus, Anuradha gets 3 points for that string.
+Finally, since both of them have equal points, the game results in DRAW.
+Test case 2: There is only one string that starts with one of the letters of the word EQUINOX which is XOXOXOXO. Thus, Sarthak gets 5 point for this string.
+There is one string that does not start with one of the letters of the word EQUINOX. Thus, Anuradha gets 7 points for that string.
+Finally, Anuradha has the higher score. So she is the winner.
+
+
+
+Author:
+5★zankanotachi
+
+
+Editorial:
+https://discuss.codechef.com/problems/EQUINOX
+
+
+Tags:
+
+               
+                 Implementation
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1272
+
+
+Date Added:
+18-04-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

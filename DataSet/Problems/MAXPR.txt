@@ -1,0 +1,104 @@
+
+ Read problems statements in Mandarin Chinese  and Russian.
+Maxim likes arithmetic progressions and does not like sequences which are not arithmetic progressions.
+
+Now he is interested in the question: how many subsequences of his sequence a, consisting of n elements, are not arithmetic progressions.
+
+Sequence s[1],  s[2],  ...,  s[k] is called a subsequence of sequence a[1],  a[2],  ...,  a[n], if there will be such increasing sequence of indices i[1], i[2], ..., i[k] (1  ≤  i[1]  <  i[2]  < ...   <  i[k]  ≤  n), that a[i[j]]  =  s[j]. In other words, sequence s can be obtained from the a by deleting some elements.
+
+Sequence s[1],  s[2],  ...,  s[k] is called an arithmetic progression, if it can be represented as : 
+
+s[1] = p, where p — some integer;
+s[i] = p + (i - 1)·q (i > 1), where q — some integer. 
+
+In particular, the empty sequence or a sequence of one element is an arithmetic progression.
+ 
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows. 
+The first line of each test case contains an integer n — the number of elements in the sequence. The next line of the test case contains n integer, a[1], a[2], ..., a[n] — elements of the sequence.
+
+Output
+For each test case print the remainder of the division the answer on 1000000007 (10^9 + 7). All answers print on different lines. 
+Constraints
+ 1 ≤ T ≤ 10
+ 1 ≤ n ≤ 200000
+ 1 ≤ a[i] ≤ 100
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+1
+1
+3
+1 2 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+1
+
+
+
+
+
+Author:
+sereja_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/MAXPR
+
+
+Tags:
+
+               
+                 Combinatorics, AP, Bottom-up
+                 
+                     
+                     Mathematics, Sequences and Progression, Algorithms, Dynamic Programming, DP Approach
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2098
+
+
+Date Added:
+25-05-2013
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

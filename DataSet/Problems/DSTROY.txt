@@ -1,0 +1,77 @@
+
+Rick has set out on a space journey to destroy asteroids. He has identified N different groups (numbered from 1 to N) of Asteroids. The size of groups G1, G2, …., Gn are given.
+Using his superpowers, he can destroy exactly 1 asteroid from K different groups in 1 minute. He doesn't want to waste his superpower so he will stop once there are less than K groups available.
+You want to watch him destroy these asteroids for as long as possible. Can you find the maximum number of minutes you can keep him busy?
+Input:
+
+First line will contain N and K, number of groups and number of different groups he can destroy at once. 
+Second line contains N integers (G1, G2, ….,Gn) denoting each group's size.
+
+Output:
+Print one integer denoting the number of minutes he will take to complete the given task.
+Constraints
+
+1≤N≤106
+1≤K≤N
+1≤Ai≤109
+
+Sample Input:
+2 2
+2 3
+
+Sample Output:
+2
+
+EXPLANATION:
+After one minute,  asteroid groups will look like [1,2]
+After two minutes,  asteroid groups will look like [0,1]
+He will stop after two minutes since there are less than 2 groups which have an asteroid.
+
+
+
+Author:
+4★priyam2k
+
+
+Editorial:
+https://discuss.codechef.com/problems/DSTROY
+
+
+Tags:
+
+               
+                 binary-search, medium, plin2020, priyam2k
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+6-01-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

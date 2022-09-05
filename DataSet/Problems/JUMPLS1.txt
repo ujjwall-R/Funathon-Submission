@@ -1,0 +1,76 @@
+
+You can only jump from step−(x) to step−(x+1), step−(x+2), or step−(x+3).
+You have to solve t cases.
+In each case, you are given an integer n. You have to find the number of ways to reach step−(n), starting from step−(0).
+Input:
+
+First line will contain t, the number of test-cases.
+Next t lines, will contain an integer n.
+
+Output:
+For each test-case, output the number of ways to reach step−(n), starting from step−(0).
+Constraints:
+
+1≤t≤60
+1≤n≤60
+
+Sample Input:
+3
+1
+2
+3
+
+Sample Output:
+1
+2
+4
+
+
+
+
+Author:
+6★vok_8
+
+
+Editorial:
+https://discuss.codechef.com/problems/JUMPLS1
+
+
+Tags:
+
+               
+                 algorithm, binary-search, codechef, college-chapter, dynamic-programming, easy-medium, intm2020, medium, recursion, vok_8
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+19-11-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

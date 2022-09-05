@@ -1,0 +1,101 @@
+
+Read problems statements in Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Suppose the population is divided into the age groups [1,10],[11,20],[21,30],…,[91,∞)[1,10],[11,20],[21,30],…,[91,∞). The age groups are numbered from 11 to 10 and there are Xi people in age group i.
+The COVID vaccine drive has started and people will be vaccinated in the decreasing order of their age groups. Suppose P people are vaccinated per day and if less than P people are left in an age group, then the remaining doses for that day are given to the people of immediate lower age group and the process for that day continues until the vaccines for that day are finished or the entire population has been vaccinated. The selection of a person from a given age group is done randomly.
+Given X, P, and Chef’s age group G, tell the minimum and the maximum number of days will it take for Chef to get vaccinated.
+Input
+
+The first line contains an integer T, the number of test cases. Then the test cases follow. 
+Each test case contains a single line of input, twelve integers G, P, X1,X2,…,X10. 
+
+Output
+For each test case, output in a single line two space-separated integers, the minimum and maximum time required for Chef to get vaccinated.
+Constraints
+
+1≤T≤104
+1≤G≤10
+1≤P,Xi≤105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+5 2 2 2 2 2 2 2 2 2 2 2
+5 2 2 2 2 2 2 3 2 2 2 2
+9 4 2 2 2 2 3 2 2 2 2 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+6 6
+6 7
+1 1
+
+
+Explanation
+Test Case 1: It takes one day for every age group to get vaccinated.
+Test Case 2: Age groups 10−7 get vaccinated in a total of 4 days. On the 5-th day, 2 out of 3 people of age group 6 get vaccinated. On the 6-th day, the last person of the 6-th age group and one random person of the 5-th age group gets vaccinated. So if the person is Chef, the minimum time required for him to get vaccinated will be 6 days, and if not, Chef will get vaccinated on the 7-th day.
+Test Case 3: The last 2 age groups get vaccinated on the same day.
+
+
+
+Author:
+daanish_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/VACCINE3
+
+
+Tags:
+
+               
+                 Modular Arithmetic, Basic Maths, ad-hoc
+                 
+                     
+                     Mathematics, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1731
+
+
+Date Added:
+11-05-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,104 @@
+
+
+You are given the first N terms of a sequence.
+The remaining terms of the sequence are defined as follows:
+
+A [ i ] = number of j such that 0 ≤ j < i and A[ j ] ≥ i - j
+
+The sequence is indexed starting at 0.
+The first N terms of the sequence will each be equal to N-1, N, or N+1.
+In addition to the first terms of the sequence, you will be given a number of queries.
+For each query you are to calculate the value of the sequence at that index.
+Input
+Input will begin with an integer T, the number of test cases.
+Each test case begins with 2 integers N and Q on a line,
+followed by a line with N integers (each equal to N-1, N, or N+1),
+then a line with Q non-negative integers.
+Output
+For each test case, output Q integers on a line, one per query,
+indicating the respective element of the sequence.
+Sample Input
+3
+
+3 4
+3 3 3
+100 1000 1000000 1
+
+4 11
+3 4 4 5
+0 1 2 3 4 5 6 7 8 9 10
+
+5 4
+5 6 5 6 5
+6 14 22 29
+
+Sample Output
+3 3 3 3
+3 4 4 5 3 4 4 4 4 4 4
+5 5 5 5
+
+Constraints
+
+T≤100
+0<N≤100000
+0<Q≤100000
+Each query will be between 0 and 10^15, inclusive
+The sum of N+Q over all test cases will not exceed 500000
+
+Warning: Large input/output.
+
+
+
+Author:
+david_adm
+
+
+Tester:
+4★chmel_tolstiy
+
+
+Editorial:
+https://discuss.codechef.com/problems/YASEQ
+
+
+Tags:
+
+               
+                 Chinese Remainder Theorem, Constructive
+                 
+                     
+                     Mathematics, Modular Arithmetic, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+9999
+
+
+Date Added:
+7-09-2011
+
+
+Time Limit:
+0.42328 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

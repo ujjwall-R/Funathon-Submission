@@ -1,0 +1,80 @@
+
+
+Chef has list of all Fibonacci Numbers but in modulo 1013. This list in infinite. 
+We know that Fibonacci sequence starts with 0 and 1. So in this list each number apart from first two, is sum of previous two numbers modulo 1013.
+ex : (a+b)mod 1013.
+
+So beginning of the list looks like : 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
+
+Now you're given an integer n, find first occurrence of n in the given list. (0-indexed)
+
+Input
+First line contains an integer n- the number, which position in the list you should find. 
+Output
+Print a single integer- the first occurrence of the given number, if the number doesn't occur print -1. 
+Constraints
+
+1 ≤ n ≤ 1013
+
+Example
+Input:
+13
+Output:
+7
+
+Input:
+377
+Output:
+14
+
+Explanation
+Case1. Position of 13 in the Fibonacci list is 7.
+
+
+
+Author:
+1★vicky002
+
+
+Editorial:
+https://discuss.codechef.com/problems/SPIT05
+
+
+Tags:
+
+               
+                 data-structure, dynamic-programming, matrices, medium, number-theory, vicky002
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-04-2015
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

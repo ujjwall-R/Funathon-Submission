@@ -1,0 +1,114 @@
+
+You are given an array AA of size NN.
+A partitioning of the array AA is the splitting of A into one or more non-empty contiguous subarrays such that each element of A belongs to exactly one of these subarrays.
+Find the number of ways to partition A such that the parity of the sum of elements within the subarrays is alternating. In other words, if Si denotes the sum of the elements in the i-th subarray, then either
+
+S1 is odd, S2 is even, S3 is odd and so on.
+or S1 is even, S2 is odd, S3 is even and so on.
+
+For example if A=[1,2,3,3,5]. One way to partition A is [1,2][3,3][5]. Another way to partition A is [1][2][3][3,5]. Note that there exists more ways to partition this array.
+Since the answer may be large, output it modulo 998244353.
+Input Format
+
+The first line contains a single integer T - the number of test cases. Then the test cases follow.
+The first line of each test case contains an integer N - the size of the array A.
+The second line of each test case contains N space-separated integers A1,A2,…,AN denoting the array A.
+
+Output Format
+For each test case, output the answer modulo 998244353.
+Constraints
+
+1≤T≤10000
+1≤N≤2⋅105
+0≤Ai≤109
+Sum of N over all test cases does not exceed 2⋅105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+3
+1 2 3
+4
+4 4 4 4
+5
+1 2 3 3 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+1
+5
+
+
+Explanation
+Test case 1: The array can be partitioned as follows
+
+[1][2][3]
+[1,2,3]
+
+Test case 2: The array can be partitioned as follows
+
+[4,4,4,4]
+
+
+
+
+Author:
+5★prasant21
+
+
+Editorial:
+https://discuss.codechef.com/problems/CEFDIV
+
+
+Tags:
+
+               
+                 april222, dynamic-programming, prasant21
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2533
+
+
+Date Added:
+17-04-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

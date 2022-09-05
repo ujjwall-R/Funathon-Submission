@@ -1,0 +1,92 @@
+
+ 
+No Problem Statement
+
+
+  Find the logic from the given sample input/output. 
+ And answer Q queries
+
+Input
+First line of input contains testcases  t  
+      Second line of input contains value  v  
+ 
+Output
+Output correct value for each test case
+ 
+Constraints
+Should contain all the constraints on the input data that you may have. Format it like:
+
+1 ≤ v ≤ 1000
+
+ 
+Example
+Input:
+8
+10
+30
+45
+9
+69
+77
+127
+150
+Output:
+8
+42
+33
+4
+27
+19
+1
+222
+
+ 
+
+
+
+Author:
+4★srvptk
+
+
+Editorial:
+https://discuss.codechef.com/problems/KCC02
+
+
+Tags:
+
+               
+                 externalcontest, kcct2018, simple, srvptk
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+16-02-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, PHP, JS
+
+
+
+
+
+Submit
+

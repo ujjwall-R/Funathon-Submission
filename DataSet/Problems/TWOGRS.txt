@@ -1,0 +1,102 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+This problem has no story, so we at least wish you good luck solving it.
+Consider a multiset SS which contains AA copies of the integer 11, B copies of 2 and C copies of 3. For example, if A=3, B=3 and C=3, then S={1,1,1,2,2,2,3,3,3}.
+Your goal is to divide the elements of S into two groups (multisets); each element of S must be in exactly one of these groups and the sum of elements of one group must be equal to the sum of elements of the other group. In our example, it is possible to make the groups {1,1,2,2,3} and {1,2,3,3}; the sum of elements of each group is 9.
+Determine if it is possible to make such groups.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains three space-separated integers A, B and C. 
+
+Output
+For each test case, print a single line containing the string "YES" if it is possible to create two groups with equal sums or "NO" if it is impossible.
+Constraints
+
+1≤T≤1,000
+0≤A,B,C≤1,000,000
+A+B+C≥1
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5
+3 3 3
+3 2 3
+1 1 2
+1 0 1
+1 1 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+YES
+YES
+NO
+NO
+YES
+
+
+
+
+
+Author:
+2★mhammad1
+
+
+Editorial:
+https://discuss.codechef.com/problems/TWOGRS
+
+
+Tags:
+
+               
+                 Arithmetic, ad-hoc
+                 
+                     
+                     Mathematics, Basic Maths, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2082
+
+
+Date Added:
+21-09-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

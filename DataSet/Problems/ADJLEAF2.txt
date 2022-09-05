@@ -1,0 +1,90 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Consider a rooted tree. A leaf in this tree is a vertex that does not have any children. Suppose that we perform a depth-first search from the root and write down the numbers of all leaves in the order in which they are visited. Since the order of visiting the sons of any vertex during the search is not fixed, many different sequences of leaves may be created. We call a subset of all leaves good if it is non-empty and there is at least one sequence of leaves such that the leaves from this subset (in some order) form its contiguous subsequence.
+You are given a tree with N vertices numbered 1 through N. You should answer Q queries. In each query, you are given a vertex R and a set of leaves S; you should find out whether S is a good set when the tree is rooted at R.
+Input
+
+The first line of the input contains two space-separated integers N and Q.
+Each of the next N−1 lines contains two space-separated integers u and v describing an edge in the tree.
+The next Q lines describe queries. Each of these lines contains two space-separated integers R and K, followed by a space and K space-separated integers s1,s2,…,sK denoting the leaves in S.
+
+Output
+For each query, print a single line containing the string "YES" if the given set is good or "NO" otherwise.
+Constraints
+
+3≤N≤5⋅105
+1≤Q≤5⋅105
+1≤R≤N
+1≤K≤N
+1≤si≤N for each valid i
+all elements of S are distinct leaves
+vertex R has at least two adjacent vertices
+the sum of K over all queries does not exceed 5⋅105 
+
+Example Input
+10 2
+1 2
+1 3
+1 4
+2 5
+2 6
+3 7
+3 8
+4 9
+4 10
+1 2 9 10
+1 3 5 7 9
+
+Example Output
+YES
+NO
+
+
+
+
+Author:
+6★kingofnumbers
+
+
+Editorial:
+https://discuss.codechef.com/problems/ADJLEAF2
+
+
+Tags:
+
+               
+                 auxiliary-tree, dynamic-programming, kingofnumbers, snckel19, taran_1407
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-12-2018
+
+
+Time Limit:
+2.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

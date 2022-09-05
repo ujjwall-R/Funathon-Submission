@@ -1,0 +1,108 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Since it's almost Christmas, Dr.D wants to get in "That Christmas Feeling". As the first step, he's going to decorate his home. Since he's out of Christmas decorations, he must go buy some at the mall. There are exactly KK types of Christmas decorations and Dr.D wants to buy exactly one decoration of each type.
+The mall can be viewed as a sequence of NN shops (numbered 11 through N) in a straight line. For each valid i, the i-th shop is located at the point Pi, it sells only decorations of the type Di and it is only open in the time interval [Li,Ri]. Dr.D wants to choose a point inside the mall, park his car there and start shopping for K decorations. Since decorations are rather heavy, whenever Dr.D buys a decoration, he must load it into the car before buying another one. Shopping and moving around the mall (with or without decorations) does not take any time, but bringing heavy decorations back to the car still takes a lot of effort, so Dr.D would like to minimise the total distance he needs to walk with decorations.
+You should answer Q queries. In each query, you are given two integers X and T - Dr.D parks at the point X in the mall at time T, and you should find the minimum distance Dr.D needs to walk with decorations. However, if it is impossible to buy one decoration of each type or if Dr.D would have to wait for some shops to open in order to do that, he will go back home and destroy Christmas. We know that Dr.D is extremely smart, so he will choose the shops to buy decorations from optimally.
+Input
+
+The first line of the input contains three space-separated integers N, Q and K.
+N lines follow. For each valid i (1≤i≤N), the i-th of these lines contains four space-separated integers Pi, Di, Li and Ri.
+Each of the next Q lines contains two space-separated integers X and T describing a query.
+
+Output
+For each query, print a single line containing one integer - the minimum distance Dr.D needs to walk with decorations, or −1 if Dr.D destroys Christmas.
+Constraints
+
+1≤N,Q≤3⋅105
+1≤K≤N
+1≤Di≤K for each valid i
+1≤Pi≤109 for each valid i
+1≤Li≤Ri≤109 for each valid i
+1≤X,T≤109
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3 5 2
+4 1 3 8
+7 2 1 13
+9 1 5 7
+8 5
+8 8
+5 7
+3 2
+2 6
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+5
+3
+-1
+7
+
+
+
+
+
+Author:
+7★kmaaszraa
+
+
+Editorial:
+https://discuss.codechef.com/problems/DCRTIT
+
+
+Tags:
+
+               
+                 Segment Trees, Fenwick Trees, Coordinate Compression, Sorting, Offline Queries
+                 
+                     
+                     Advanced Data Structures, Advanced Tree Structures, Advanced Algorithms, Pre processing, Algorithms, Queries
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3101
+
+
+Date Added:
+20-12-2019
+
+
+Time Limit:
+4 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

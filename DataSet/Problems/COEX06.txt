@@ -1,0 +1,91 @@
+
+Chef and his girlfriend don’t think alike and are poles apart. They are deciding on a restaurant to spend their date, but they cannot decide on one place. They have made this simple task of choosing a restaurant very complex. They have randomly given  a unique number to all N restaurants of tricity. For each K contiguous restaurants, Chef’s girlfriend has given Chef the task of finding the difference between increasing and decreasing subranges from left to right. Chef’s girlfriend has convoluted ideas and then she further herself finds the sum of all the values which Chef calculated and will go on a date with him only if the sum is a positive number (including 0). If the number calculated by Chef’s grilfriend is negative then she will dump Chef and Chef will again be single. Your task is to find the sum which Chef’s girlfriend  calculates.
+ 
+Input
+First line of the input contains  T, the number of test cases.
+Each test case contains two positive integers N and K.
+N distinct positive integers bi follow separated by space.
+
+Output
+For each test case, output the sum which Chef calculates on a new line.
+
+Constraints
+
+1 ≤ T ≤ 10
+1 ≤ N ≤ 10^5
+1 ≤ K ≤ N
+1 ≤ bi ≤ N
+
+ 
+Example
+Input:
+1
+5 3
+1 4 3 2 5
+
+Output:
+-3
+Explanation
+Example case 1. Subrange : 1 4 3
+   Increasing subranges :1 ({1, 4})
+   Decreasing subranges : 1 ({4,3})
+   1st value = 1 - 1 = 0
+Subrange : 4 3 2
+   Increasing subranges : 0 ()
+   Decreasing subranges :3 ({4, 3}, {3, 2}, {4, 3, 2})
+   1st value = 0 - 3 = -3
+Subrange : 3 2 5
+   Increasing subranges : 1 ({2, 5})
+  Decreasing subranges : 1 ({3, 2})
+   1st value = 1 - 1 = 0
+Result = 0 + (-3) + 0 = -3
+
+
+
+
+Author:
+akashdeep_uiet
+
+
+Editorial:
+https://discuss.codechef.com/problems/COEX06
+
+
+Tags:
+
+               
+                 akashdeep_uiet, dynamic-programming, medium, programming, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-02-2016
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

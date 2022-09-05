@@ -1,0 +1,94 @@
+
+We all know how great ABD aka AB-DE-VILLIERS is. However his team mates were jealous of him and posed a problem for him to solve.The problem description is as follows :
+
+Given an array of integers,find the length of the largest subarray(contiguous) of the given array with the maximum possible GCD (Greatest Common Divisor).
+For info on GCD ,see this link: https://en.wikipedia.org/wiki/Greatest_common_divisor
+
+GCD of the subarray is defined as the GCD of all the elements of the subarray.
+As ABD is not aware of competitive programming he asks your help. Help him!
+
+Input
+First line will contain integer N denoting the size of array.
+
+Second line will contain N integers denoting array elements.
+Output
+The answer as specified in the problem statement .
+Constraints
+1 <= N <= 1000000
+
+1 <= array[i] <=100000000000
+
+Example
+Input:
+4
+2 4 8 3
+
+Output:
+1
+
+
+Explanation
+GCD of all possible subarrays of the given array are : 2 , 2 , 2 , 1 , 4 , 4, 1 , 8 , 1 , 3
+
+Largest GCD possible : 8
+
+Length of the largest subarray with GCD as 8 is 1
+
+Hence answer is 1 .
+
+            
+            
+            
+            
+            
+        
+
+        
+
+
+Author:
+4★arpitdec5
+
+
+Editorial:
+https://discuss.codechef.com/problems/BYTES11
+
+
+Tags:
+
+               
+                 ad-hoc, arpitdec5, bytes2016, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+24-01-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,111 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given an empty grid with NN rows (numbered 11 through N) and M columns (numbered 1 through M). You should fill this grid with integers in a way that satisfies the following rules:
+
+For any three cells c1, c2 and c3 such that c1 shares a side with c2 and another side with c3, the integers written in cells c2 and c3 are distinct.
+Let's denote the number of different integers in the grid by K; then, each of these integers should lie between 1 and K inclusive.
+K should be minimum possible.
+
+Find the minimum value of K and a resulting (filled) grid. If there are multiple solutions, you may find any one.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers N and M.
+
+Output
+
+For each test case, print N+1 lines.
+The first line should contain a single integer — the minimum K.
+Each of the following N lines should contain M space-separated integers between 1 and K inclusive. For each valid i,j, the j-th integer on the i-th line should denote the number in the i-th row and j-th column of the grid.
+
+Constraints
+
+1≤T≤500
+1≤N,M≤50
+the sum of N⋅M over all test cases does not exceed 7⋅105
+
+Subtasks
+Subtask #1 (100 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+1 1
+2 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+1
+3
+1 1 2
+2 3 3
+
+
+Explanation
+Example case 1: There is only one cell in the grid, so the only valid way to fill it is to write 1 in this cell. Note that we cannot use any other integer than 1.
+Example case 2: For example, the integers written in the neighbours of cell (2,2) are 1, 2 and 3; all these numbers are pairwise distinct and the integer written inside the cell (2,2) does not matter. Note that there are pairs of neighbouring cells with the same integer written in them, but this is OK. 
+
+
+
+Author:
+5★eartemov
+
+
+Editorial:
+https://discuss.codechef.com/problems/DIFNEIGH
+
+
+Tags:
+
+               
+                 Pigeonhole Principle, Constructive, Implementation
+                 
+                     
+                     Mathematics, Set Theory, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1881
+
+
+Date Added:
+31-05-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,74 @@
+
+You are given an array A of n integers as input. Also, you are given an integer x. You have to print all distinct sub-sequences of A, with sum exactly equal to x, in increasing order.
+Input:
+
+First line will contain n, the number of elements of array.
+Second line will contain array A of n integers.
+Third line will contain an integer, x.
+
+Output:
+Print all distinct sub-sequences of A, with sum exactly equal to x, in increasing order. (Print Each Sub-Sequence in a single line)
+Constraints:
+
+1≤n≤20
+−10≤A[i]≤10
+−200≤x≤200
+
+Sample Input:
+4
+2 3 -1 2
+2
+
+Sample Output:
+2
+3 -1
+
+
+
+
+Author:
+6★vok_8
+
+
+Editorial:
+https://discuss.codechef.com/problems/SUBSLS1
+
+
+Tags:
+
+               
+                 algorithm, binary-search, codechef, college-chapter, dynamic-programming, easy-medium, intm2020, medium, recursion, vok_8
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+19-11-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

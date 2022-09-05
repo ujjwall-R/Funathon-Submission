@@ -1,0 +1,108 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef Ada is preparing NN dishes (numbered 11 through NN). For each valid i, it takes Ci minutes to prepare the i-th dish. The dishes can be prepared in any order.
+Ada has a kitchen with two identical burners. For each valid i, to prepare the i-th dish, she puts it on one of the burners and after Ci minutes, removes it from this burner; the dish may not be removed from the burner before those Ci minutes pass, because otherwise it cools down and gets spoiled. Any two dishes may be prepared simultaneously, however, no two dishes may be on the same burner at the same time. Ada may remove a dish from a burner and put another dish on the same burner at the same time.
+What is the minimum time needed to prepare all dishes, i.e. reach the state where all dishes are prepared?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers C1,C2,…,CN.
+
+Output
+For each test case, print a single line containing one integer ― the minimum number of minutes needed to prepare all dishes.
+Constraints
+
+1≤T≤1,000
+1≤N≤4
+1≤Ci≤5 for each valid i
+
+Subtasks
+Subtask #1 (1 points): C1=C2=…=CN
+Subtask #2 (99 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+3
+2 2 2
+3
+1 2 3
+4
+2 3 4 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+3
+7
+
+
+Explanation
+Example case 1: Place the first two dishes on the burners, wait for two minutes, remove both dishes and prepare the last one on one burner.
+Example case 2: Place the first and third dish on the burners. When the first dish is prepared, remove it and put the second dish on the same burner.
+Example case 3: Place the third and fourth dish on the burners. When the third dish is prepared, remove it and put the second dish on the same burner. Similarly, replace the fourth dish (when it is prepared) by the first dish on the other burner.
+
+
+
+Author:
+7★alei
+
+
+Editorial:
+https://discuss.codechef.com/problems/ADADISH
+
+
+Tags:
+
+               
+                 Brute Force, Implementation
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1237
+
+
+Date Added:
+6-10-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

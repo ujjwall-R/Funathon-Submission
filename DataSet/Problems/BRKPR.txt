@@ -1,0 +1,90 @@
+
+Mr. White and Jessy Pinkman has earned some money on their first drug deal. There are N type of dollars such as A1,A2,A3……An, each of a seperate value. They have an argument about the sharing of the money.So they decided to toss a coin to decide who will select first. 
+If head(H) appears then Mr. White will get the chance to select first and then Pinkman otherwise incase of Tails(T) it's turn for Jessy Pinkman to select first and then Mr.White. 
+Each of the individual will select a dollar value at their turn optimally and one can't select the dollar note which has already been occupied. This will continue until every dollar is shared between them and at each selection they will toss the coin to decide. 
+You have to find the one who gets more share of the money and its value.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains three lines of input-- 
+The number of dollars(N) available.
+The value of N no. of dollar notes in a single 
+                                                                                  line seperated by a space such as A1,A2,A3……An.
+[N+1]/2 space separated values denoting 
+                                                                                   the toss results. 
+
+Output:
+For each testcase, output the name of the person (Mr. White or Pinkman) with more share of the money and the value of money he gets, seperated by a space.
+If both gets same amount of money then print '-1'(without quotes).
+Constraints
+
+1≤T≤1000
+1≤N≤104
+1≤Ai≤104 , 1≤i≤n
+
+Sample Input:
+3
+4
+100 90 85 45
+H T
+5
+85 73 49 33 23 
+T H H
+3
+112 66 46
+T H
+
+Sample Output:
+Pinkman 175
+Mr. White 145
+-1
+
+
+
+
+Author:
+2★riktam_kundu24
+
+
+Editorial:
+https://discuss.codechef.com/problems/BRKPR
+
+
+Tags:
+
+               
+                 brkc2020, easy, greedy, riktam_kundu24, sorting, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+20-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

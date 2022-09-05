@@ -1,0 +1,103 @@
+
+Chef found an array AA of NN elements. He defines a subarray as bad if the maximum element of the subarray is equal to the minimum element of the subarray.
+More formally, a subarray [L,R][L,R] (1≤L≤R≤N) is bad if max(AL,AL+1,…,AR)=min(AL,AL+1,...,AR).
+Chef is allowed to change at most K elements of the array.
+Find the minimum number of bad subarrays Chef can obtain after changing at most K elements of the array.    
+Input Format
+
+First line will contain T, the number of test cases. Then the test cases follow.
+Each test case contains two lines of input, the first line contains two space-separated integers N and K - the number of elements in the array and the maximum number of elements Chef can change respectively.
+The second line contains N space-separated integers A1,A2,…,AN - the initial array.
+
+Output Format
+For each test case, output the minimum number of bad subarrays Chef can obtain after changing at most K elements of the array.
+Constraints
+
+1≤T≤3⋅104
+1≤N≤105
+1≤K≤N
+1≤Ai≤109
+Sum of N over all test cases does not exceed 3⋅105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+3 1
+1 2 3
+4 2
+3 3 3 1
+5 1
+1 1 1 1 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+4
+7
+
+
+Explanation
+Test case 1: The minimum number of bad subarrays Chef can obtain is 3. Chef does not need to perform any operations. The subarrays where the maximum element is equal to the minimum element are [1,1],[2,2], and [3,3] where [L,R] denotes the subarray starting at index L and ending at index R.
+Test case 2: The minimum number of bad subarrays Chef can obtain is 4. Chef can perform 2 operations and change the array to [2,4,3,1]. The subarrays where the maximum element is equal to the minimum element are [1,1],[2,2],[3,3], and [4,4].
+
+
+
+Author:
+4★vladithur
+
+
+Editorial:
+https://discuss.codechef.com/problems/MINMAXEQ
+
+
+Tags:
+
+               
+                 april221, easy-medium, greedy, vladithur
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2288
+
+
+Date Added:
+6-04-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

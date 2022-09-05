@@ -1,0 +1,75 @@
+
+For a number N, find count of occurance of N in twin primes.
+Two prime numbers M and N are said to be Twin Primes if |M-N| = 2 
+Input
+First line contains T - Number of test cases
+Next T lines contains a number - N 
+Output
+For every N, print count of occurance in new line  
+Constraint:
+1<=T <= 1000
+2 <= N <= 100000  
+Sample Input
+3
+11
+5
+47  
+Sample Output
+1
+2
+0  
+Explanation
+11 is present in one twin prime set (11,13)
+5 is present in two twin prime set (3,5) and (5,7)
+47 is not present in any twin prime sets
+Note
+3x time multiplier for java instead of 2x for this problem.
+
+
+
+Author:
+4★babangain
+
+
+Editorial:
+https://discuss.codechef.com/problems/TWINPR
+
+
+Tags:
+
+               
+                 babangain, cakewalk
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-04-2019
+
+
+Time Limit:
+0.1 secs
+
+
+Source Limit:
+10000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

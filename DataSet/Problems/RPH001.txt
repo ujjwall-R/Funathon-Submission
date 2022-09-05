@@ -1,0 +1,74 @@
+
+Ganesh Gaitonde, the don of Gopalmath, wants everything the way he likes. His true love Jojo  is however upset with his rude behavior.
+Ganesh wants to impress Jojo with his skills, but Jojo is a maths freak.  She challenged Gaitonde to solve a mathematical problem. So he catches you, the best mathematician of gopalmath to solve the problem and you won`t be released until you solve it. 
+Jojo asks Ganesh to reverse and add two strings.  Now solve the problem if you wanna be freed.
+Input:
+first line is test cases
+followed by testcases, each line containg two numbers
+Output:
+For each testcase, output in a single line Integer value.
+Constraints
+
+1≤t≤100
+1≤n≤ 2200 
+
+Sample Input:
+   1
+   21 1
+
+Sample Output:
+   31
+
+EXPLANATION:
+   This above expression can be solved as below:
+   12+1=13 reverse of 13 is 31
+
+
+
+
+Author:
+4★rohan101
+
+
+Editorial:
+https://discuss.codechef.com/problems/RPH001
+
+
+Tags:
+
+               
+                 array, biginteger, coha2019, rohan101, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-08-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,102 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian and Vietnamese as well.
+Chef has KK chocolates and he wants to distribute them to NN people (numbered 1 through N). These people are standing in a line in such a way that for each i (1≤i≤N−1), person i and person i+1 are adjacent.
+First, consider some way to distribute chocolates such that for each valid i, the number of chocolates the i-th person would receive from Chef is Ai and the sum S1=∑N−1i=1|Ai−Ai+1| is minimum possible. Of course, each person must receive a non-negative integer number of chocolates.
+Then, Chef wants to create a new sequence B1,B2,…,BN by rearranging (permuting) the elements of the sequence A1,A2,…,AN. For each valid i, the number of chocolates the i-th person actually receives from Chef is Bi. Chef wants to distribute the chocolates (choose B1,B2,…,BN by permuting the sequence A and give Bi chocolates to the i-th person for each valid i) in such a way that S2=∑N−1i=1|Bi–Bi+1| is maximum possible. You need to find the maximum value of S2.
+It is guaranteed that S2 does not depend on the exact choice of the sequence A1,A2,…,AN, as long as it is a sequence that minimises S1.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains a single integer K.
+
+Output
+For each test case, print a single line containing one integer — the maximum value of the sum S2.
+Constraints
+
+1≤T≤10
+2≤N≤105
+2≤K≤10100,000
+
+Subtasks
+Subtask #1 (30 points): 2≤N,K≤1,000
+Subtask #2 (70 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+3
+2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+
+
+Explanation
+Example case 1: To minimise S1, Chef could give 1 chocolate to person 1 and 1 chocolate to person 2, so S1=|1−1|+|1−0|=1.
+To maximise S2, Chef can give 1 chocolate to person 1 and 1 chocolate to person 3, since the sequence B=(1,0,1) is a permutation of A=(1,1,0). Then, S2=|1−0|+|0−1|=2.
+
+
+
+Author:
+5★mayank1601
+
+
+Editorial:
+https://discuss.codechef.com/problems/MMAX
+
+
+Tags:
+
+               
+                 Modular Arithmetic
+                 
+                     
+                     Mathematics
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1609
+
+
+Date Added:
+20-06-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

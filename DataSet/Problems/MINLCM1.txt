@@ -1,0 +1,100 @@
+
+Read problem statements in Mandarin Chinese, Russian, and Vietnamese as well.
+You are given two positive integers XX and KK.
+You have to output the minimum and maximum value of LCM(i,j)LCM(i,j) where X≤i<j≤X⋅K. 
+We define LCM(i,j) for two positive integers i and j as the minimum positive integer y such that both i and j divide y without remainder. 
+Input Format
+
+First line will contain T, number of testcases. Then the testcases follow.
+Each testcase contains of a single line of input, two space separated integers X and K.
+
+Output Format
+For each testcase, output two space separated integers - the minimum and maximum possible value respectively of LCM(i,j) where X≤i<j≤X⋅K. 
+Constraints
+
+1≤T≤105
+1≤X≤108
+2≤K≤108
+It is guaranteed that, for each test case, X⋅K≤109 
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+4 3
+2 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+8 132
+4 30
+
+
+Explanation
+Test Case 1: We want to find the minimum and maximum value of LCM(i,j) for 4≤i<j≤12.
+It is easy to verify that the LCM(4,8)=8 is the minimum possible value whereas LCM(11,12)=132 is the maximum value. 
+Test Case 2: We want to find the minimum and maximum value of LCM(i,j) for 2≤i<j≤6. The maximum value is obtained for the pair (5,6) whereas the minimum is obtained for the pair (2,4).
+
+
+
+Author:
+6★ashishgup
+
+
+Editorial:
+https://discuss.codechef.com/problems/MINLCM1
+
+
+Tags:
+
+               
+                 Basic Maths, LCM
+                 
+                     
+                     Mathematics, Number Theory
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+20-10-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

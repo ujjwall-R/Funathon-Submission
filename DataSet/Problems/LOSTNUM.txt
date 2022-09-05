@@ -1,0 +1,75 @@
+
+Jackson, a tiny tot, just learned numbers. He is putting his efforts to jot them down as well. He wrote numbers in sequence and went to have milk. Unfortunately, he has an elder mischievous brother who comes in and edits a few numbers. (He may even add negative numbers) 
+Now given this jumbled set of numbers, your task is to help the little kid find the first missing natural number! 
+Input:
+
+The tirst-line contains TT, the total number of test cases. 
+The second line contains nn, denoting the total numbers in Jackson's notebook after his brother's mischief.
+The third line contains nn space separated numbers, which represent the array after Jackson’s brother messed around with them.
+(The sum of all test cases does not exceed 5∗1055∗105)
+
+Output:
+Print the smallest missing natural number. If all n numbers are present, print n+1.
+Constraints
+1≤T≤1000
+1≤n,|A[i]|≤105
+Sample Input
+2
+5
+1 2 3 -88 7
+6
+0 3 -88 7 90 -1
+
+Sample Output
+4
+1
+
+
+
+
+Author:
+3★kabirkanha
+
+
+Editorial:
+https://discuss.codechef.com/problems/LOSTNUM
+
+
+Tags:
+
+               
+                 cpp, easy, hashing, java, kabirkanha, python, snuc2020, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+26-10-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

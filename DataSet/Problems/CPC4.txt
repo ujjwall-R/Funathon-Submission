@@ -1,0 +1,124 @@
+
+SemCrack is hosting a campus drive for emerging programmers, there are N number of programmers who  attended the drive and their skills are as follows S[0], S[1].....S[N-1] (assume 0 based indexing). Company has it's set of protocols to select the programmer which are as follows:
+
+Campus has set a condition that a programmer can only be selected, if his/her skills are strictly greater than K, which is defined by company.
+
+There are Q number of queries that need to be executed. These queries may be of following two types:
+
+1 X Y (0 ≤ X ≤ N-1) - Replace the value of Xth array element by Y. 
+2 L R (1 ≤ L ≤ R ≤ N-1) - Return the number of selected programmers in this range.
+
+
+Input
+
+The first line contains two space separated positive integers N and K denoting the total number of programmers and K condition which is defined by company.Next line contains the skills of programmers S[0], S[1]......S[N-1].Next line contains an integer Q number of queries.
+Each of the next Q lines contains one of the two queries described above.
+
+ 
+Output
+For each query of type 2, print the required answer in a new line.
+ 
+Constraints
+
+1 ≤ N ≤ 105
+1 ≤ S[i] ≤ 108
+1 ≤ Q ≤ 106
+0 ≤ X ≤ N-1
+1 ≤ Y, K ≤ 108
+0 ≤ L  ≤  R  ≤ N-1
+
+ 
+Subtasks
+Subtask #1 (20 points):
+1 ≤ N ≤ 104
+1 ≤ Q ≤ 103
+
+Subtask #2 (30 points):
+1 ≤ N ≤ 105
+1 ≤ Q ≤ 105
+Subtask #3 (50 points): original constraints
+Example
+Input:
+10 3
+2 4 7 6 7 2 4 2 5 1
+5
+2 0 3
+1 4 7
+1 6 7
+2 1 1
+1 5 8
+
+Output:
+3
+1
+
+ 
+Explanation
+Example case 1.
+First you have an array S = {2, 4, 7, 6, 7, 2, 4, 2, 5, 1}
+Query 1.
+Number of selected programmers in range [0, 3]
+There are three programmer having skills greater then K
+2, 4, 7So answer is 3.
+Query 2.
+Replace value of 4th  element with 7.
+S = {2, 4, 7, 6, 7, 2, 4, 2, 5, 1}
+Query 3.
+Replace value of 6th  element with 7.
+S = {2, 4, 7, 6, 7, 2, 4, 7, 5, 1}
+Query 4.
+Number of selected programmers in range [1, 1]
+There is only one programmer having skills greater then K
+4So answer is 1.
+Query 5.
+Replace value of 5th  element with 8.
+S = {2, 4, 7, 6, 7, 2, 4, 7, 8, 1}
+
+
+
+Author:
+1★chhekur
+
+
+Editorial:
+https://discuss.codechef.com/problems/CPC4
+
+
+Tags:
+
+               
+                 chhekur, codh2018, dynamic-programming, easy, segment-tree, sqrt, square-root-decomposition
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+24-01-2018
+
+
+Time Limit:
+0.7 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

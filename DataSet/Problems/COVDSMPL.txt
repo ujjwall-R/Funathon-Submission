@@ -1,0 +1,125 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+This is an interactive problem.
+You are given the task of finding people infected with COVID-19 among the whole population. There are a total of N2N2 people and they are standing in a N×NN×N matrix, one person per cell.
+Formally, for each ii (1≤i≤N1≤i≤N) and jj (1≤j≤N1≤j≤N), let's denote Ai,j=1Ai,j=1 if the person standing in the ii-th row and jj-th column of the matrix is infected or Ai,j=0Ai,j=0 otherwise. Additionally, it is known that the infection spreads randomly at first and does not spread anymore ― that is, each person was initially infected with a probability P/100P/100, independently from all other people. You do not know the values of Ai,jAi,j and your task is to find these values.
+You may ask up to QQ queries (QQ is specified in the Constraints section below). In each query, you should choose a submatrix containing all people in rows r1r1 through r2r2 and columns c1c1 through c2c2 inclusive; the grader responds with the number of infected people in the queried submatrix.
+Each query has a cost; see the section Scoring for this cost. You should find out exactly which people are infected and the sum of costs of all queries you make should be as small as possible.
+Interaction
+
+First, you should read a line containing a single integer TT ― the number of test cases. The description of interaction for TT test cases follows.
+For each test case, you must start by reading a line containing two space-separated integers NN and PP.
+Then, you may ask queries.
+To ask a query, print a line containing five space-separated integers 11, r1r1, c1c1, r2r2 and c2c2.
+Then, you must read a line containing a single integer XX.
+If X=−1X=−1, your query was invalid or you asked more than QQ queries. Otherwise, XX denotes the number of infected people.
+After asking queries, when you know the matrix AA:
+Print a single line containing the integer 22.
+Then, print NN lines. For each ii (1≤i≤N1≤i≤N), the ii-th of these lines should contain NN space-separated integers Ai,1,Ai,2,…,Ai,NAi,1,Ai,2,…,Ai,N.
+Finally, you must read a line containing a single integer XX. If your matrix AA was correct, X=1X=1 and you should continue solving the remaining test cases. If it was incorrect, X=−1X=−1.
+
+At any point when you receieve X=−1X=−1, you should terminate your program immediately to receive the Wrong Answer verdict. Otherwise, you may receive any verdict.
+Constraints
+
+T=2T=2
+N=60N=60
+Q=5⋅N2=18,000Q=5⋅N2=18,000
+
+Example
+Grader                        You
+2
+4 2
+                            1 1 1 4 4
+6
+                            1 2 1 4 4
+4
+                            1 1 3 1 4
+2
+                            1 3 2 3 3
+1
+                            2
+                            0 0 1 1
+                            1 0 0 1
+                            0 0 1 0
+                            1 0 0 0
+1
+4 2
+                            1 1 1 4 4
+6
+                            1 2 1 4 4
+5
+                            1 1 3 1 4
+1
+                            1 3 2 3 3
+0
+                            2
+                            0 0 1 0
+                            1 0 0 1
+                            0 0 0 1
+                            1 0 1 0
+1
+
+Explanation
+Example case 1: Note that this test case cannot appear in the actual test data because N=4N=4. It is only given for the sake of illustrating the interaction between your program and the grader.
+Test Data Generation
+There are four types of tests and five test files for each type.
+
+Type 1: P=2P=2
+Type 2: P=5P=5
+Type 3: P=10P=10
+Type 4: P=15P=15
+
+In each test case and for each valid ii and jj, Ai,jAi,j is chosen to be 11 with probability P/100P/100 or 00 with probability (100−P)/100(100−P)/100 independently from all other values.
+Scoring
+The cost of asking a query about a submatrix with r2−r1+1=Ar2−r1+1=A rows and c2−c1+1=Bc2−c1+1=B columns is ⌈(2N−A)(2N−B)1+X⌉,⌈(2N−A)(2N−B)1+X⌉, where XX denotes the number of infected people in this submatrix.
+The score of a test case is the sum of costs of all queries you make. The score of a test file is the sum of scores of all test cases. The score of a submission is the sum of scores of all test files. Your goal is to minimise the score of your submission.
+There are twenty test files. During the contest, the displayed score will account for exactly one test file of each type, i.e. your score reflects your submission's performance on 20% (4/20) of the test files. However, if your program gets a non-AC verdict on any test file, your submission's verdict will be non-AC. In other words, an AC verdict denotes that your program runs successfully on all the test files. After the end of the contest, your score will be changed to include the sum of your program's scores over the other 16 test files.
+
+
+
+Author:
+6★taran_1407
+
+
+Editorial:
+https://discuss.codechef.com/problems/COVDSMPL
+
+
+Tags:
+
+               
+                 challenge, june20, rajarshi_basu, taran_1407
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-05-2020
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

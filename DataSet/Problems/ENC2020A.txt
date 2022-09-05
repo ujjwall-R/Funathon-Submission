@@ -1,0 +1,76 @@
+
+Chef has many friends, but his best friend is Hemant. They both love to watch anime.
+In fact, their weekends are meant for that only. Also, Hemant is highly into games, of which Chef is unaware. Hemant once gave a game to Chef and asked him to determine the winner of the game. Since the Chef is busy, and you are also his friend, he asked you to help him.
+The Game is played between two players, AA and BB. There are NN marbles. A and B plays alternately, and A goes first. Each player can choose 1 marble or even number of marbles in his turn. The player who is not able to choose any marbles loses the game.
+Input:
+
+The first line consists of a single integer T denoting the number of test cases.
+The Second line contains an integers N, denoting the number of marbles.
+
+Output:
+For each test case, print the name of the player who loses the game.
+Constraints
+
+1≤T≤105
+1≤N≤109
+
+Sample Input:
+3
+1 
+3
+7 
+
+Sample Output:
+B
+A
+B 
+
+
+
+
+Author:
+5★vasu2907
+
+
+Editorial:
+https://discuss.codechef.com/problems/ENC2020A
+
+
+Tags:
+
+               
+                 binary-search, dynamic-programming, enco2020, vasu2907
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+14-11-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

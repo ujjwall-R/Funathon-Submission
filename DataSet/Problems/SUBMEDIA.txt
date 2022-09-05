@@ -1,0 +1,100 @@
+
+You're given a sequence of N distinct integers. You need to find a subsequence of length K with the maximum possible median.
+The median of a sequence is the value of the element which is in the middle of the sequence after sorting it in non-decreasing order. If the length of the sequence is even, the left of two middle elements is selected. For example, if the sequence is [3,4,2,1,5], then the median is 3 since after sorting, it will look like [1,2,3,4,5] and 3 is the only middle element. The median of [4,2,1,5] is 2 since after sorting, the value 2 is the left of the two middle elements 2 and 4.
+A subsequence is a sequence that can be derived from the given sequence by deleting zero or more elements without changing the order of the remaining elements. For example, if the sequence is [2,1,4,5,7], then [1,5,7], [2,1,4], [5] are some valid subsequences but [4,1,2], [1,6,7] are not.
+Input Format
+
+The first line will contain T, the number of test cases. The description of test cases follow.
+The first line of each test case consists of two space-separated integers N, the length of the sequence, and K, the length of the subsequence to be found.
+The second line of each test case consists of N distinct space-separated integers Ai, the elements of the sequence.
+
+Output Format
+
+For each test case, output two lines.
+The first line should consist of the median of the subsequence with the maximum median.
+The second line should consist of K space-separated integers, representing a subsequence with that median. If there are multiple such subsequences, print any.
+
+Constraints
+
+1≤T≤30
+1≤K≤N≤2×105
+1≤Ai≤109
+Sum of N over all test cases won't exceed 5×105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+5 3
+1 4 3 6 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+5
+1 6 5
+
+
+
+
+
+Author:
+6★hitch_hiker42
+
+
+Editorial:
+https://discuss.codechef.com/problems/SUBMEDIA
+
+
+Tags:
+
+               
+                 Sorting, Subsequence
+                 
+                     
+                     Data Structures, Arrays, Algorithms, Groupings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1750
+
+
+Date Added:
+30-08-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

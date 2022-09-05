@@ -1,0 +1,96 @@
+
+Josiah is just beginning to program in C++. He wants to know some statistics about his code: the number of times certain keywords or identifiers appear.
+Given a piece of text acting like a program, how many different types of tokens appear? You must count the occurrences of the following:
+
+int
+bool
+void
+long
+string
+return
+ident: An valid identifier. It must start with an underscore or ascii letter. The rest of it must be an underscore, ascii letter, or numeral literal. For example, _hi_hi and num9num9 are valid identifiers, but 7num7num is not.
+
+Identifiers and keywords may not only be separated by spaces. They can be separated by any printable character. Any character that is not an underscore (_) or alphanumeric (letter or digit) is a separating character.
+HINT: Be sure to read in every character, including whitespace. In Python, you may use sys.stdin.read(), and you may use noskipws in C++.
+Input:
+The input will be a sample code file. This file will not necessarily be in the form of any programming language. It will be separated onto multiple lines.
+Output:
+There should be 7 lines of output, showing the counts of each type of token. A sample output is shown below.
+Constraints
+
+1≤charactersinfile≤107
+
+Sample Input 1:
+void print(int x) {
+    printf("%d", x);
+}
+
+int sum(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    long ans = sum(5, 10);
+    print(ans);
+
+    return 0;
+}
+
+Sample Output 1:
+int: 5
+bool: 0
+void: 1
+long: 1
+string: 0
+return: 2
+ident: 15
+
+
+
+
+Author:
+2★samhenry97
+
+
+Editorial:
+https://discuss.codechef.com/problems/CDSTTS
+
+
+Tags:
+
+               
+                 cakewalk, regular-expression, samhenry97
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+25-05-2018
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

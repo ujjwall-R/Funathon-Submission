@@ -1,0 +1,103 @@
+
+Alice and Bob are playing a game. At the start of the game, there are NN piles of stones, the ii-th of which has AiAi stones.
+Alice and Bob alternate moves. On their move, a player does the following:
+
+Choose one pile of stones, and discard the remaining N−1 piles.
+Partition the stones in the chosen pile into exactly N new piles of stones, each containing at least 1 stone. Note that this means that the number of piles is always N.
+
+The player who cannot make a move loses. Determine the winner of the game if Alice moves first.
+Input Format
+
+The first line of input contains an integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case contains two lines of input.
+The first line of each test case contains N, the number of piles.
+The second line contains N space-separated integers A1,A2,…,AN.
+
+Output Format
+For every test case print exactly one line containing the answer — either "Alice" or "Bob" (without the quotes).
+You can output Alice and Bob in any case (for example, the strings BOb, BOB, bob and boB will be recognized as a positive response)
+Constraints
+
+1≤T≤105
+2≤N≤105
+1≤Ai≤1018
+The sum of N over all test cases doesn't exceed 3⋅105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+3
+5 7 8
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Alice
+
+
+Explanation
+In the first move, Alice can select the first pile and divide it into 3 piles of sizes 2,2, and 1. After this, Bob cannot make a move since each pile has less than 3 stones.
+
+
+
+Author:
+5★nprakhar
+
+
+Editorial:
+https://discuss.codechef.com/problems/PARTGAME
+
+
+Tags:
+
+               
+                 Game Theory
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2803
+
+
+Date Added:
+19-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

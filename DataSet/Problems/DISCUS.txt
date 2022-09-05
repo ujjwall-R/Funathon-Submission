@@ -1,0 +1,95 @@
+
+In discus throw, a player is given 33 throws and the throw with the longest distance is regarded as their final score.
+You are given the distances for all 33 throws of a player. Determine the final score of the player.
+Input Format
+
+First line will contain TT, number of test cases. Then the test cases follow.
+Each test case contains of a single line of input, three integers A,B, and C denoting the distances in each throw.
+
+Output Format
+For each test case, output the final score of the player.
+Constraints
+
+1≤T≤100
+1≤A,B,C≤100
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+10 15 8
+32 32 32
+82 45 54
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+15
+32
+82
+
+
+Explanation
+Test Case 1: The longest distance is achieved in the second throw, which is equal to 15 units. Thus, the answer is 15.
+Test Case 2: In all throws, the distance is 32 units. Thus, the final score is 32.
+Test Case 3: The longest distance is achieved in the first throw which is equal to 82 units. Thus, the answer is 82.
+
+
+
+Author:
+utkarsh_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/DISCUS
+
+
+Tags:
+
+               
+                 cakewalk, march221, utkarsh_adm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+622
+
+
+Date Added:
+10-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

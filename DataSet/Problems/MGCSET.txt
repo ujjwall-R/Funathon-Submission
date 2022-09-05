@@ -1,0 +1,105 @@
+
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Katya has a sequence of integers a1,a2,…,an and an integer m.
+She defines a good sequence of integers as a non-empty sequence such that the sum of the elements in each of its non-empty subsequences is divisible by m.
+Katya wants to know the number of good subsequences of the sequence a. Can you help her?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers n and m.
+The second line contains n space-separated integers a1,a2,…,an.
+
+Output
+For each test case, print a single line containing one integer — the number of good subsequences.
+Constraints
+
+1≤T≤1,000
+1≤n≤30
+1≤m≤1,000
+1≤ai≤1,000 for each valid i
+
+Subtasks
+Subtask #1 (30 points): 1≤n≤5
+Subtask #2 (70 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+2 3
+1 2
+2 3
+1 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+1
+
+
+Explanation
+Example case 1: There are no good subsequences.
+Example case 2: There is exactly one good subsequence of a: [3].
+
+
+
+Author:
+6★barenuz
+
+
+Editorial:
+https://discuss.codechef.com/problems/MGCSET
+
+
+Tags:
+
+               
+                 Combinatorics, Observation
+                 
+                     
+                     Mathematics, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1472
+
+
+Date Added:
+1-07-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

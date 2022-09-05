@@ -1,0 +1,99 @@
+
+You are given an integer N. Construct a permutation A of length N which is attractive.
+A permutation is called attractive if the bitwise XOR of all absolute differences of adjacent pairs of elements is equal to 0.
+Formally, a permutation A=[A1,A2,…,AN] of length N is said to be attractive if:
+|A1−A2|⊕|A2−A3|⊕…⊕|AN−1−AN|=0
+where ⊕ denotes the bitwise XOR operation.
+Output any attractive permutation of length N. If no attractive permutation exists, print −1 instead.
+Note: A permutation of length N is an array A=[A1,A2,…,AN] such that every integer from 1 to N occurs exactly once in A. For example, [1,2,3] and [2,3,1] are permutations of length 3, but [1,2,1], [4,1,2], and [2,3,1,4] are not.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case consists of a single line of input, containing one integer N.
+
+Output Format
+For each test case, output on a single line an attractive permutation of N integers, or −1 if no attractive permutation exists.
+Constraints
+
+1≤T≤1000
+2≤N≤105
+Sum of N over all cases won't exceed 2⋅105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+3
+6
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3 2 1
+5 2 3 6 4 1 
+
+
+Explanation
+Test Case 1: |3−2|⊕|2−1|=1⊕1=0
+Note that there are other correct answers — for example, [1,2,3] would also be accepted as correct.
+Test Case 2: |5−2|⊕|2−3|⊕|3−6|⊕|6−4|⊕|4−1|=3⊕1⊕3⊕2⊕3=0
+
+
+
+Author:
+6★munch_01
+
+
+Editorial:
+https://discuss.codechef.com/problems/PERMXORITY
+
+
+Tags:
+
+               
+                 constructive, munch_01, simple, start28
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1437
+
+
+Date Added:
+26-02-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

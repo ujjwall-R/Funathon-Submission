@@ -1,0 +1,102 @@
+
+You are given two integers XX and YY. You need to construct two different strings S1 and S2 consisting of only the characters ‘a′ and ‘b′, such that the following conditions are satisfied:
+
+Both S1 and S2 are palindromes.
+Both S1 and S2 should contain exactly X occurrences of a and Y occurrences of b.
+
+If there are multiple possible answers, you may print any of them. If it is not possible to construct two distinct strings satisfying the conditions, print −1 instead.
+Input Format
+
+The first line of input will contain a single integer T, denoting the number of test cases. Then the test cases follow.
+Each test case consists of a single line of input containing two space-separated integers X,Y.
+
+Output Format
+For each test case:
+
+If it is not possible to construct two distinct strings satisfying the conditions, print −1
+Otherwise, print two lines — the first should contain the string S1 and the second should contain S2
+If there are multiple possible answers, you may print any of them.
+
+Constraints
+
+1≤T≤1000
+1≤X,Y≤103
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+2 4
+3 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+abbbba
+babbab
+-1
+
+
+Explanation
+Test case 1: The three palindromes containing 2 a-s and 4 b-s are abbbba,babbab, and bbaabb. Printing any two of these is a valid answer.
+Test case 2: There are no palindromes containing 3 each of a and b.
+
+
+
+Author:
+6★munch_01
+
+
+Editorial:
+https://discuss.codechef.com/problems/PALINPAIN
+
+
+Tags:
+
+               
+                 cakewalk, cakewalk, constructive, constructive, ltime107, ltime107, munch_01, strings, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1506
+
+
+Date Added:
+16-04-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

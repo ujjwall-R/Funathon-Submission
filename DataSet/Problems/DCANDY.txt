@@ -1,0 +1,78 @@
+
+Vidya has a box containing NN candies of different sweetness. She decided to distribute these candies among her three friends - 'ISH', 'OMI' and 'GOVI'. She opted a different strategy of distributing the candies. She picks three candies from the box randomly and distribute them in such a way that 'GOVI' gets the candy with minimum sweetness from the three picked candies. This process is repeated untill the box get emptied or contain less than three candies. What is the maximum total sweetness value of the candies that 'GOVI' can get at the end?
+Input:
+
+First line will contain TT, number of testcases.
+Each testcase contains single line integer NN.
+Next line contains N space separated integers,  where ith integer denotes the sweetness of ith candy. 
+
+Output:
+
+For each test case output the maximum sweetness of candies that 'GOVI' get after the distribution is completed.
+
+Constraints
+
+1≤T≤10
+1≤N≤105
+1≤K≤105 , where K is the Sweetness of candy
+
+Sample Input:
+1
+7
+
+1 3 2 5 6 11 7
+Sample Output:
+8
+
+EXPLANATION:
+She picks -> (6,11,7) and (3,2,5)
+Maximum Sweetness of Candies that 'Govi' gets -> 6 + 2 = 8
+
+
+
+Author:
+2★piyushbhutani
+
+
+Editorial:
+https://discuss.codechef.com/problems/DCANDY
+
+
+Tags:
+
+               
+                 easy, lico2020, piyushbhutani, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+18-06-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

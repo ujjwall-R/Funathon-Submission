@@ -1,0 +1,87 @@
+
+You have given an array of NN integers as AA = { A1,A2,A3,.......ANA1,A2,A3,.......AN }          
+You need to process Q queries
+Each query consist of 3 integers L,R,K and described below                 
+L R K: Find Largest K numbers between L and R . Lets call it as B1,B2,B3,......BK
+Find Value of below equation
+B1 ^ B2 ^ B3 ^……   ^BK
+Here  ^ denotes bitwise xor.
+Input:
+
+First line will contain a single integer N
+Next Line contains N space separated integers A1,A2,....AN.        
+Next line will contain a single integer Q
+Next Q Lines contains 3 space separated integers L,R,K.
+
+Output:
+For each testcase, output in a single line answer to given query.
+Constraints
+
+2≤N,Q≤105
+1≤Ai≤109 
+1≤L≤R≤N 
+1≤K≤R−L+1
+
+Sample Input:
+3
+
+1 2 3
+1
+1 3  2
+Sample Output:
+1
+
+EXPLANATION:
+A = [ 1,2,3]
+Largest 2 integers between (1,3) are 2,3
+So
+B = [2,3] = 2^3 = 1 
+
+
+
+Author:
+5★pankajsharma1
+
+
+Editorial:
+https://discuss.codechef.com/problems/ECPC10F
+
+
+Tags:
+
+               
+                 ecpg2020, medium-hard, pankajsharma1, persistent-segment-tree
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-10-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,80 @@
+
+Read problems statements in Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+You are given a tree with NN vertices (numbered 11 through NN).
+A simple path between two different vertices a and b (a<b) is called a clamp path if it does not contain any vertices with numbers smaller then a or greater than b.
+Calculate the number of clamp paths in the given tree.
+Input
+
+The first line of the input contains a single integer N.
+The second line contains N space-separated integers p1,p2,…,pN. For each valid i, if pi≠0, then there is an edge between vertices i and pi.
+
+Output
+Print a single line containing one integer - the number of clamp paths.
+Constraints
+
+2≤N≤220
+0≤pi≤N for each valid i
+there is exactly one vertex i with pi=0
+the graph described on the input is a tree
+
+Example Input
+7
+0 5 5 1 4 1 4
+
+Example Output
+10
+
+Explanation
+The clamp paths are 1 - 4, 1 - 5, 1 - 6, 1 - 7, 2 - 5, 2 - 7, 3 - 5, 3 - 7, 4 - 5 and 4 - 7.
+
+
+
+Author:
+6★demidenko
+
+
+Editorial:
+https://discuss.codechef.com/problems/CLAMPWAY
+
+
+Tags:
+
+               
+                 Disjoint Set Union, Segment Trees, Fenwick Trees, Euler Tour
+                 
+                     
+                     Advanced Data Structures, Advanced Tree Structures, Algorithms, Graph Algos, Traversals
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+4052
+
+
+Date Added:
+19-06-2021
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

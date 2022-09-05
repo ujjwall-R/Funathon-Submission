@@ -1,0 +1,154 @@
+
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Chef has an integer K and a randomly generated sequence A1,A2,…,AN. He asks you to choose N non-negative integers D1,D2,…,DN such that Di≤K for each valid i and add Di to Ai for each valid i.
+Also, Chef has M primes P1,P2,…,PM. It is guaranteed that for each valid i, Pi is the smallest prime greater than Pi−1. After all addition operations are performed on the sequence A, he finds the product of all elements of A and computes its remainders modulo each prime. Let's denote these remainders by B1,B2,…,BM. Please help Chef maximise 1M∑Mi=1Bi.   
+Input
+
+The first line of the input contains three space-separated integers N, M and K.
+The second line contains N space-separated integers A1,A2,…,AN.
+The third line contains M space-separated integers P1,P2,…,PM. 
+
+Output
+Print a single line containing N space-separated integers — the sequence A1,A2,…,AN obtained after performing all additions.   
+Constraints
+
+1≤N,M≤104
+1≤K≤2⋅109
+1≤Ai,Pi≤2⋅109 for each valid i
+Pi is the smallest prime greater than Pi−1 for each valid i 
+
+Example Input
+
+4 4 5
+1 2 3 4
+5 7 11 13
+
+Example Output
+
+2 6 6 9
+
+Explanation
+We can choose D=(1,4,3,5) — that is, we're adding 1 to A1, 4 to A2, 3 to A3 and 5 to A4. After these addition operations, A=(2,6,6,9). Let's calculate the sequence B. 
+
+B1=(A1⋅A2⋅A3⋅A4)%P1=3
+B2=(A1⋅A2⋅A3⋅A4)%P2=4
+B3=(A1⋅A2⋅A3⋅A4)%P3=10
+B4=(A1⋅A2⋅A3⋅A4)%P4=11
+
+The score for this output would be (B1+B2+B3+B4)/M=28/4=7.
+Score
+Your score for each test file will be the sum of all Bi divided by M.
+For the above example, the score you would obtain is 7.
+Test Generation Process
+There are four types of tests and five test files (test cases) of each type. During the contest, the displayed score will account for exactly one test file of each type, i.e. your score reflects your submission's performance on 20% (1/5) of the test files. However, if your program gets a non-AC verdict on any test file, your submission's verdict will be non-AC. In other words, an AC verdict denotes that your program runs successfully on all the test files. After the end of the contest, your score will be changed to the sum of your program's scores over all test files.
+The pseudocodes used for generating tests of each type are given below. Assume the function rnd.next(l, r) generates a random number uniformly in the range l through r (both inclusive) and nextPrime(x) finds the smallest prime greater than x.
+Type 1:
+     
+INF = 1000000000
+N = 100
+M = 10000
+K = rnd.next(1, 1000000)
+for i = 1 to N:
+    A[i] = rnd.next(1, INF)
+X = rnd.next(INF / 10, INF / 2) + INF
+for i = 1 to M:
+    P[i] = nextPrime(X)
+    X = P[i]
+
+ 
+
+Type 2: 
+     
+INF = 1000000000
+N = 1000
+M = 1000
+K = rnd.next(1, 1000)
+for i = 1 to N:
+    A[i] = rnd.next(1, INF)
+X = rnd.next(INF / 10, INF / 2) + INF
+for i = 1 to M:
+    P[i] = nextPrime(X)
+    X = P[i]
+
+ 
+
+Type 3: 
+     
+
+INF = 1000000000
+N = 1000
+M = 1000
+K = rnd.next(1, 1000000)
+for i = 1 to N:
+    A[i] = rnd.next(1, INF)
+X = rnd.next(INF / 10, INF / 2) + INF
+for i = 1 to M:
+    P[i] = nextPrime(X)
+    X = P[i]
+
+ 
+
+Type 4: 
+     
+INF = 1000000000
+N = 10000
+M = 100
+K = rnd.next(1, 1000000)
+for i = 1 to N:
+    A[i] = rnd.next(1, INF)
+X = rnd.next(INF / 10, INF / 2) + INF
+for i = 1 to M:
+    P[i] = nextPrime(X)
+    X = P[i]
+
+ 
+
+
+
+
+Author:
+6★mgch
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHEFPAR
+
+
+Tags:
+
+               
+                 april18, challenge, factorization, mgch, mgch, randomized, simulation
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3561
+
+
+Date Added:
+2-01-2017
+
+
+Time Limit:
+4 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

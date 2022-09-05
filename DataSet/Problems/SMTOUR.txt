@@ -1,0 +1,95 @@
+
+You are given a directed graph with n vertices and m edges. A walk is defined as a sequence of vertices, such that there is an edge from every vertex in the walk to the next vertex in the walk.
+Formally, a walk with t edges is a sequence v1,v2,…vt+1, where for each 1≤i≤t, there is an edge from vi to vi+1. 
+The vertices vi of a walk do not have to be distinct. A single edge can occur multiple times in a walk.
+Call a walk beautiful if it has atmost ⌊n24⌋ edges and each vertex is present in it at least once.
+There are multiple independent testcases. For each testcase, find a beautiful walk in the given graph or claim that it doesn't exist.
+Input
+
+First line will contain T, number of testcases. Then the testcases follow. 
+The first line of each testcase contains of n and m, the number of vertices and the number of edges in the graph respectively.
+The next m lines describe the edges of the graph. Each line consists of two integers a and b denoting a directed edge from a to b.
+
+Output
+For each testcase:
+
+If there doesn't exist a beautiful walk, print −1 on a newline.
+If there exists a beautiful walk, find any such walk. Say it has l≤n24 edges, and the sequence of vertices is {v1,v2,…vl+1}. Print l followed by v1,v2,…vl+1 on a new line.
+
+Constraints
+
+1≤T≤1000
+2≤n≤1000
+0≤m≤min(n(n−1),104)
+The sum of n over all testcases doesn't exceed 1000.
+There are no multiple edges in the input. Note that it is allowed to have an edge from i to j and another from j to i though.
+
+Example Input
+2
+5 6
+1 2
+2 3
+3 1
+1 4
+4 5
+5 1
+3 2
+1 2
+1 3
+
+Example Output
+5 1 2 3 1 4 5
+-1
+
+Explanation
+In the first testcase, the walk 1→2→3→1→4→5 is a beautiful walk, as it visits all vertices and has 5≤524 edges.
+Note that 5 1 4 5 1 2 3 is also a valid output.
+In the second test case, there is no beautiful walk, so you sould print −1.
+
+
+
+Author:
+7★jtnydv25
+
+
+Tags:
+
+               
+                 Strongly Connected Components, BFS
+                 
+                     
+                     Algorithms, Graph Algos, Traversals
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+10-12-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

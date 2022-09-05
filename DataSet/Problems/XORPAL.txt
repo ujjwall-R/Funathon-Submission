@@ -1,0 +1,109 @@
+
+A (11-indexed) binary string SS of length N is called a xor palindrome if the value of Si⊕S(N+1−i) is the same for all 1≤i≤N.
+For example, 0, 1111 and 0101 are xor palindromes, while 1110 and 110101 are not.
+You are given a binary string S of length N. Determine if it is possible to rearrange it to form a xor palindrome or not.
+Input Format
+
+The first line of input contains a single integer T — the number of test cases. The description of T test cases follows.
+The first line of each test case contains an integer N — the length of the binary string S.
+The second line of each test case contains the binary string S containing 0s and 1s only.
+
+Output Format
+For each test case, output YES if it is possible to rearrange S to convert it into a xor palindrome. Otherwise output NO.
+You may print each character of YES and NO in uppercase or lowercase (for example, yes, yEs, Yes will be considered identical).
+Constraints
+
+1≤T≤1000
+1≤N≤105
+S is a binary string, i.e, contains only the characters 0 and 1
+It is guaranteed that the sum of N over all test cases does not exceed 2⋅105.
+
+Subtasks
+Subtask #1 (100 points): Original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+2
+00
+4
+0011
+3
+001
+4
+0001
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+YES
+YES
+YES
+NO
+
+
+Explanation
+Test case 1: 00 is already a xor palindrome. [The value of Si⊕S(N+1−i) is 0 for all 1≤i≤N.]
+Test case 2: 0011 is already a xor palindrome. [The value of Si⊕S(N+1−i) is 1 for all 1≤i≤N.]
+Test case 3: 001 can be rearranged to form 010 which is a xor palindrome. [The value of Si⊕S(N+1−i) is 0 for all 1≤i≤N.]
+Test case 4: It can be proved that 0001 can not be rearranged to form a xor palindrome.
+
+
+
+Author:
+6★jeevanjyot
+
+
+Editorial:
+https://discuss.codechef.com/problems/XORPAL
+
+
+Tags:
+
+               
+                 bitwise-xor, feb222, jeevanjyot, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1339
+
+
+Date Added:
+9-02-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

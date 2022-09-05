@@ -1,0 +1,96 @@
+
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef and his friend Bharat have decided to play the game "The Chefora Spell".
+In the game, a positive integer NN (in decimal system) is considered a "Chefora" if the number of digits dd is odd and it satisfies the equation N=d−1∑i=0Ni⋅10i,
+where Ni is the i-th digit of N from the left in 0-based indexing.
+Let Ai denote the i-th smallest Chefora number.
+They'll ask each other Q questions, where each question contains two integers L and R. The opponent then has to answer with
+(R∏i=L+1(AL)Ai)mod109+7.
+Bharat has answered all the questions right, and now it is Chef's turn. But since Chef fears that he could get some questions wrong, you have come to his rescue!
+Input
+
+The first line contains an integer Q - the number of questions Bharat asks.
+Each of the next Q lines contains two integers L and R.
+
+Output
+Print Q integers - the answers to the questions on separate lines.
+Constraints
+
+1≤Q≤105
+1≤L<R≤105
+
+Subtasks
+Subtask #1 (30 points):
+
+1≤Q≤5⋅103
+1≤L<R≤5⋅103
+
+Subtask #2 (70 points): Original constraints
+Sample Input
+2
+1 2
+9 11
+
+Sample Output
+1
+541416750
+
+Explanation
+
+For the first question:
+(A1)A2=12=1.
+For the second question:
+(A9)A10⋅(A9)A11=9101⋅9111≡541416750(mod109+7).
+
+
+
+
+Author:
+4★singlabharat
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHEFORA
+
+
+Tags:
+
+               
+                 Pre processing, Binary Exponentiation, Modular Exponentiation
+                 
+                     
+                     Advanced Algorithms, Mathematics, Number Theory, Modular Arithmetic, Exponentiation
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+18-06-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

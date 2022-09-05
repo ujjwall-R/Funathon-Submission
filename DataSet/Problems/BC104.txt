@@ -1,0 +1,87 @@
+
+You are given a string containing characters AA and BB only. Your task is to change it into a string such that there are no matching adjacent characters. To do this, you are allowed to delete zero or more characters in the string.
+Your task is to find the minimum number of required deletions.
+For example, given the string s=AABAABs=AABAAB, remove an AA at positions 00 and 33 to make s=ABABs=ABAB in 22 deletions.
+Input:
+
+First line will contain TT, number of testcases. Then the testcases follow. 
+Each testcase contains a string ss. 
+
+Output:
+For each testcase, print the minimum number of deletions required on a new line.
+Constraints
+
+1≤T≤101≤T≤10
+1≤|s|≤1051≤|s|≤105
+Each string ss will consist only of characters AA and BB.
+
+Sample Input:
+5
+AAAA
+BBBBB
+ABABABAB
+BABABA
+AAABBB   
+Sample Output:
+3
+4
+0
+0
+4   
+EXPLANATION:
+
+Delete 3 A's.
+Delete 4 B's.
+0 deletions required.
+0 deletions required.
+Delete 2 A's and 2 B's.
+
+
+
+
+Author:
+3★ayush163
+
+
+Editorial:
+https://discuss.codechef.com/problems/BC104
+
+
+Tags:
+
+               
+                 ayush163, easy, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+10-04-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,102 @@
+
+JJ loves playing with averages. He has an array A of length N. He wants to divide the array A into two non-empty subsets P and Q such that the value of mean(P)+mean(Q) is as large as possible. (Note that each Ai must belong to either subset P or subset Q).
+Help him find this maximum value of mean(P)+mean(Q).
+As a reminder, the mean of a subset X of size M is defined as: mean(X)=∑Mi=1XiM. 
+For example, mean([3,1,4,5])=3+1+4+54=3.25.
+Input Format
+
+The first line contains T - the number of test cases. Then the test cases follow.
+The first line of each test case contains an integer N - the size of the array A.
+The second line of each test case contains N space-separated integers A1,A2,…,AN denoting the array A.
+
+Output Format
+Output the largest value of mean(P)+mean(Q).
+Your answer is considered correct if its absolute or relative error does not exceed 10−6.
+Formally, let your answer be a, and the jury's answer be b. Your answer is accepted if and only if |a−b|max(1,|b|)≤10−6.
+Constraints
+
+1≤T≤100
+2≤N≤1000
+1≤Ai≤106
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+2
+4 5
+5
+2 2 2 2 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+9.000000
+4.000000
+
+
+Explanation
+Test case-1: We can divide the two elements into two non-empty subsets P and Q as follows: P = [4], Q = [5]. 
+Therefore, mean(P) + mean(Q) = 9.
+Test case-2: In whatever way we divide the elements of the array, mean of both the subsets will always be 2.
+Therefore, mean(P) + mean(Q) = 4.
+
+
+
+Author:
+6★jeevanjyot
+
+
+Editorial:
+https://discuss.codechef.com/problems/MEANMAX
+
+
+Tags:
+
+               
+                 cook-off, cook137, jeevanjyot, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1520
+
+
+Date Added:
+10-01-2022
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

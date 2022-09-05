@@ -1,0 +1,95 @@
+
+It is known that in regular dice, the sum of opposite faces is 77.
+A regular dice is rolled and you are given the value XX showing on the top face. Determine the value on the bottom face.
+Input Format
+
+The first line will contain T - the number of test cases. Then the test cases follow.
+The first and only of each test case contains a single integer X - the value on the top face.
+
+Output Format
+For each test case, output the value on the bottom face.
+Constraints
+
+1≤T≤6
+1≤X≤6
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+3
+1
+6
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+6
+1
+
+
+Explanation
+Test case-1: The value on the top face is 3. Therefore, the value on the bottom face is 4 because 3+4=7.
+Test case-2: The value on the top face is 1. Therefore, the value on the bottom face is 6 because 1+6=7.
+Test case-3: The value on the top face is 6. Therefore, the value on the bottom face is 1 because 6+1=7.
+
+
+
+Author:
+utkarsh_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/BOTTOM
+
+
+Tags:
+
+               
+                 cakewalk, cook138, math, utkarsh_adm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+815
+
+
+Date Added:
+19-02-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

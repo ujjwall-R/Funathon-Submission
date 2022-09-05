@@ -1,0 +1,75 @@
+
+Read problems statements in Russian, Vietnamese, Hindi, Mandarin chinese and Bengali as well.
+Chef is interested in the history of SnackDown contests. He needs a program to verify if SnackDown was hosted in a given year.
+SnackDown was hosted by CodeChef in the following years: 2010, 2015, 2016, 2017 and 2019.
+Input
+The first line contain the number of test-cases T.
+The first line of each test-case contains a single integer N.
+Output
+For each test case print a single line containing the string "HOSTED" if SnackDown was hosted in year N or "NOT HOSTED" otherwise (without quotes).
+Constraints
+
+1≤T≤10
+2010≤N≤2019
+
+Example Input
+2
+2019
+2018
+
+Example Output
+HOSTED
+NOT HOSTED
+
+
+
+
+Author:
+6★mgch
+
+
+Editorial:
+https://discuss.codechef.com/problems/SNCKYEAR
+
+
+Tags:
+
+               
+                 Conditional Statements
+                 
+                     
+                     Basic Programming Concepts
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+895
+
+
+Date Added:
+11-10-2018
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

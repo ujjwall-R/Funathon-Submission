@@ -1,0 +1,78 @@
+
+
+Given N, if we write all numbers from 1 to N (both inclusive) in binary what is
+the count of 1s I have written.
+For example, if N=3,
+I will write down:
+1
+10
+11
+Therefore, a total of 4 ones.
+  
+Input Format:
+
+First line contains, T, the number of testcases. Each testcase consists of one integer per line denoting N.
+  
+Output Format:
+
+Print the required answer.
+  
+Constraints:
+
+  1 ≤ T ≤ 1000
+1 ≤ N ≤ 1000
+
+Sample Input:
+1
+3Sample Output:
+4
+Problem Setter: Lalit Kundu
+
+
+
+Author:
+4★darkshadows
+
+
+Editorial:
+https://discuss.codechef.com/problems/BIT
+
+
+Tags:
+
+               
+                 cakewalk, cdcrft14, darkshadows, simulation
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+28-01-2014
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,113 @@
+
+Chef is working on his swap-based sorting algorithm for strings.
+Given a string SS of length NN, he wants to know whether he can sort the string using his algorithm.
+According to the algorithm, one can perform the following operation on string SS any number of times:
+
+Choose some index ii (1≤i≤N)(1≤i≤N) and swap the ithith character from the front and the ithith character from the back.
+More formally, choose an index ii and swap SiSi and S(N+1−i)S(N+1−i).
+
+For example, d_cba_ can be converted to a_cbd_ using one operation where i=1.
+Help Chef find if it is possible to sort the string using any (possibly zero) number of operations.
+Input Format
+
+The first line of the input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains N, the length of the string.
+The second line contains a string S of length N consisting of lowercase letters of the Latin alphabet.
+
+Output Format
+For each test case, print YES if it is possible to sort the string by performing any number of operations. Otherwise, print NO.
+You may print each character of the string in uppercase or lowercase (for example, the strings YeS, yEs, yes and YES will all be treated as identical).
+Constraints
+
+1≤T≤100
+1≤N≤103
+Sum of N over all test cases does not exceed 2⋅103.
+S consists of lowercase Latin alphabets only.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+4
+dbca
+3
+ccc
+3
+bza
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+YES
+YES
+NO
+
+
+Explanation
+Test case 1: Chef can sort the string using 1 operation.
+
+Choose i=1 and swap S1=d and S4=a.
+This way, the string becomes abcd.
+
+Hence, the string is sorted.
+Test case 2: Chef needs 0 operations to sort this string as it is already sorted.
+Test case 3: It can be proven that the given string cannot be sorted using any number of operations.
+
+
+
+Author:
+5★pd_codes
+
+
+Tags:
+
+               
+                 String, Sorting
+                 
+                     
+                     Data Structures, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1238
+
+
+Date Added:
+14-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

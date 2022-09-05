@@ -1,0 +1,99 @@
+
+Dogesh and his entire kingdom live in a castle. Many times, they have received war threats from their neighborhood kingdom were monkeys live. To save his life and his kingdom he asks his friend, Cheems for help. Cheems suggests to construct some tunnels in the Warfield which opens up on the opposite side of the castle.
+Assume that castle of Dogesh lies on the line represented as y=mx+cy=mx+c and a set of NN points on Warfield in the form of (Xi,Yi) for each 1≤Xi≤N,1≤Yi≤N. You have to find out the number of pair of points which upon joining will make the tunnel that will help Dogesh to reach the opposite side of castle.
+Note: Do not consider those points which lie on the castle (the given line).
+Input Format
+
+First line will contain T, number of testcases. Then the testcases follow.
+For each test case, first line will contain three space separated integers N,m,c.
+Next N lines will contain two space separated integer Xi,Yi.
+
+Output Format
+For each testcase, Print the number of pair of points which upon joining will make a tunnel that will cross the castle.
+Constraints
+
+1≤T≤100
+1≤N≤105
+|m|,|c|,|Xi|,|Yi|≤109
+Sum of N over all testcases does not exceed 105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+4 1 1
+0 -10
+9 10
+-10 10
+10 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+
+
+Explanation
+The given castle line is y=x+1(m=1,c=1). Since (9,10) lies on the castle.
+Out of the remaining three points, (0, 10) and (10,3) lies on one side of castle while (-10,10) lies on opposite side of castle. 
+ So a total of 2 pairs can be formed (-10,10),(0,-10) and (-10,10),(10,3).
+
+
+
+Author:
+3★shreenath_125
+
+
+Editorial:
+https://discuss.codechef.com/problems/RSLN2202
+
+
+Tags:
+
+               
+                 math, rsln2022, shreenath_125
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+25-12-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

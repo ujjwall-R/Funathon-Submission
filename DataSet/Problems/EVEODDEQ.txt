@@ -1,0 +1,80 @@
+
+Chef was recently watching Modi Ji's speech and he had a perfect array of integers with him. A perfect array is one in which sum of odd index elements equals the sum of even index elements.
+As soon as Modi Ji announced the lockdown, he was shocked and lost one of the elements in the array. So, it is quite possible that the array is no longer perfect.
+He needs your help. You are given an array of N integers. You need to add exactly one integer in the beginning of the array so that it becomes perfect.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+First line of test case contains an integer N.
+Next line contains N space seperated integers, A0, A1, … , An−1.
+
+Output:
+For each testcase, output in a single line, the integer value to be added at the beginning of the array.
+Constraints
+
+1≤T≤100
+1≤N≤103
+−105≤Ai≤105
+
+Sample Input:
+2
+4
+1 2 3 4
+3
+6 1 2
+
+Sample Output:
+-2
+7
+
+EXPLANATION:
+In case 1, after adding −2 at 0th index, the array becomes: [−2, 1, 2, 3, 4]. The sum of odd and even index elements are both equal to 4 now.
+
+
+
+Author:
+5★sahil_bansal
+
+
+Editorial:
+https://discuss.codechef.com/problems/EVEODDEQ
+
+
+Tags:
+
+               
+                 array, easy, mathematics, mpcc2020, sahil_bansal
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+28-03-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,95 @@
+
+Chef really likes to compete on Codechef, and he has gained an impressive rating of XX, where X>0X>0. There is also a parallel universe, where ratings on Codechef are negative instead. The only thing that remains unchanged in the parallel universe is Chef's love for competing on Codechef. Chef's rating on Codechef in the parallel universe is YY, where Y<0Y<0.
+Due to some cosmic event, the parallel universe has been destroyed, resulting in Chef forgetting both XX and YY. He only remembers the sum S=X+YS=X+Y.  He wonders what the maximum possible product of his ratings is, given that he knows the sum of his ratings. 
+Input Format
+
+The first line of input will contain an integer TT — the number of test cases. The description of TT test cases follows.
+The first and only line of each test case contains an integer SS, the sum of Chef's ratings.
+
+Output Format
+
+For each test case, output the maximum possible product of Chef's ratings, given that he knows the sum of his ratings.
+
+Constraints
+
+1≤T≤1031≤T≤103
+0≤S≤1090≤S≤109
+
+Subtasks
+Subtask #1 (100 points): Original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+0
+1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+-1
+-2
+
+
+Explanation
+Test case 1: We have X>0 and X+Y=0. This implies that Y=−X. The product of ratings is −X2, and the maximum possible product is −1. 
+
+
+
+Author:
+lavish_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/RATING
+
+
+Tags:
+
+               
+                 basic-arithmatic, cakewalk, lavish_adm, march222, maximumproduct
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+909
+
+
+Date Added:
+23-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

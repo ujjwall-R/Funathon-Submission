@@ -1,0 +1,121 @@
+
+Read problem statements in Mandarin Chinese, Russian, and Vietnamese as well.
+Chef has a binary string SS of length NN, where the first KK characters of SS are '1', while the rest are '0'. He wants to make all the characters equal to '0'. You are allowed to perform the following operation on the string S as long as 2i−1≤N:
+
+In the ith operation, you can select any contiguous range of 2i−1 indices of S and flip their values.
+
+He can use the above operation any number of times. If there is no sequence of operations that can convert the string to all '0's, print NO. 
+Otherwise, print YES in the first line and then describe the operations. Print the starting indices of the contiguous range to be flipped in each operation. See Output Format for further details. 
+Input Format
+
+First line of the input will contain T, the number of test cases. Then the test cases follow.
+Each test case contains a single line of input, two integers N,K.
+
+Output Format
+For each test case, do the following:
+
+If there is no sequence of operations to convert each character of S to '0', print NO.
+Otherwise, print YES in the first line. (You may print each letter in any case (for example, YES, Yes, yes, yEs will all be recognized as positive answer)
+In the second line print M, the number of operations you want to perform. 
+Then print M lines describing the operations. In the ith line, print the starting index L of the range [L,L+2i−1−1] flipped in the ith operation.
+The value of L+2i−1−1 should not exceed N in any operation. 
+
+Constraints
+
+1≤T≤5000
+1≤N≤109
+0≤K≤N
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+5 0
+3 3
+2 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+YES
+0
+YES
+2
+3
+1
+NO
+
+
+Explanation
+Test case 1:
+Since K=0, all the characters of string S are already '0'. So, there is no need to perform any operation.
+Test case 2:
+We have N=3 and K=3. So S=111. 
+
+In first operation, we can choose index 3 (21−1=1 indices) and flip it, giving S=110. 
+In the second operation, we can choose indices 1,2 (22−1=2 indices) and flip them, giving S=000. 
+
+Therefore, we can make each character of S to '0' by flipping index 3 in first operation and indices 1 and 2 in the second operation.
+
+
+
+Author:
+utkarsh_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/BINFLIP
+
+
+Tags:
+
+               
+                 Constructive
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-09-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

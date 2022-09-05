@@ -1,0 +1,78 @@
+
+Chef has some numbers. His girlfriend Chefina feels good when chef gives her a particular pattern number also called as Armstrong number.
+Armstrong number is a number whose sum of its all individual digit raise to the power of the number of digit in that number is equal to that number itself
+eg.. 153 = 1^3 + 5^3 + 3^3 (153 is an Armstrong number)
+     1634 = 1^4 + 6^4 + 3^4 + 4^4 (1634 is an Armstrong number)
+As a love guru of chef you have to help chef to find Armstrong numbers Among the numbers which chef has initially so that Chefina feels good
+Input:
+First line will contain a positive Integer T which is the number of testcases
+Next T lines follows an Integer N.
+Output:
+For Every n You have to print "FEELS GOOD" without qoutes if it is an armstrong number otherwise Print "FEELS BAD" without quotes
+Constraints
+
+1≤T≤10
+2≤N≤106
+
+Sample Input:
+3
+153
+11
+1634
+
+Sample Output:
+FEELS GOOD
+FEELS BAD
+FEELS GOOD
+
+EXPLANATION:
+For test case 1 --> 153 = 1^3 + 5^3 + 3^3 (153 is an armstrong number)
+
+
+
+Author:
+3★manish_motwani
+
+
+Editorial:
+https://discuss.codechef.com/problems/CPCEJC5
+
+
+Tags:
+
+               
+                 basic-arithmatic, cakewalk, manish_motwani, sptc2020
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+30-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

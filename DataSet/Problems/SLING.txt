@@ -1,0 +1,107 @@
+
+You are given a N×MN×M matrix AA, filled with distinct numbers. You can start at any cell. If you are currently at cell (x1,y1), then you can jump to any other cell (x2,y2), if and only if the following two conditions are satisfied:
+
+Ax2,y2>Ax1,y1
+Manhattan distance between Ax2,y2 and Ax1,y1 >S. Formally, |x1−x2|+|y1−y2|>S.
+
+Let V be the set of the cells visited by you. 
+Maximize the value of ∑(x,y)∈V Ax,y.
+Input Format
+
+The first line of the input contains the number T - the number of test cases. Then the test cases follow.
+The first line of each test case contains three integers N,M,S - the parameters defined in the statement.
+Then N lines follow, with M integers in each line.
+Each of the next N lines contains M integers, where the j-th integer in i-th line is equal to Ai,j
+
+Output Format
+For each testcase output the maximum possible value of ∑(x,y)∈V Ax,y.
+Constraints
+
+1≤N,M≤1000
+0≤S≤N+M−2.
+1≤Ai,j≤109.
+It's guaranteed that all Ai,j are distinct.
+It's guaranteed that sum of N×M over all test cases doesn't exceed 106.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+3 2 2
+1 2
+4 5
+7 8
+2 2 0
+100 99
+98 97
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+9
+394
+
+
+Explanation
+Test case-1: It is optimal start at cell (1,1), then jump to cell (3,2). Therefore answer is A1,1+A3,2=1+8=9.
+Test case-2: It is optimal to start at (2,2) and follow this path: (2,2)→(2,1)→(1,2)→(1,1). Therefore answer is the sum of all the four cells =394.
+
+
+
+Author:
+5★arujbansal1
+
+
+Editorial:
+https://discuss.codechef.com/problems/SLING
+
+
+Tags:
+
+               
+                 arujbansal1, cook138, dynamic-programming, easy-medium, segment-tree
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2839
+
+
+Date Added:
+20-02-2022
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

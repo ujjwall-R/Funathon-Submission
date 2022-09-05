@@ -1,0 +1,98 @@
+
+Given an integer NN, help Chef in finding an NN-digit odd positive integer X such that X is divisible by 3 but not by 9.
+Note: There should not be any leading zeroes in X. In other words, 003 is not a valid 3-digit odd positive integer.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of testcases. The description of the T testcases follows.
+The first and only line of each test case contains a single integer N, denoting the number of digits in X.
+
+Output Format
+For each testcase, output a single line containing an N-digit odd positive integer X in decimal number system, such that X is divisible by 3 but not by 9.
+Constraints
+
+1≤T≤500
+1≤N≤104
+The sum of N over all test cases does not exceed 105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+1
+2
+3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+15
+123
+
+
+Explanation
+Test Case 1: 3 is the only 1-digit odd positive integer which is divisible by 3 but not by 9.
+Test Case 2: 15 is a 2-digit odd positive integer which is divisible by 3 but not by 9. 21 is also a valid answer, among others. Note that 03 is not a valid answer as there should not be any leading zeroes in the output.
+
+
+
+Author:
+6★lavish315
+
+
+Editorial:
+https://discuss.codechef.com/problems/MAKEDIV3
+
+
+Tags:
+
+               
+                 Conditional Statements, ad-hoc, Observation
+                 
+                     
+                     Basic Programming Concepts, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1379
+
+
+Date Added:
+18-09-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

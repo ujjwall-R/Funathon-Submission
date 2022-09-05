@@ -1,0 +1,129 @@
+
+Read problem statements in Russian, Mandarin and Vietnamese as well.
+Let's denote the length of the Longest Increasing Subsequence of the array BB by LIS(B). 
+For a permutation A of integers from 1 to N we can define two arrays of integers P and S, both of length N: Pi=LIS(A[1:i])=LIS([A1,A2,…,Ai]), Si=LIS(A[i:N])=LIS([Ai,Ai+1,…,AN]).
+Let's call a pair of arrays (P,S) viable, if there exists a permutation A with these arrays as P and S.
+Given two arrays P and S of length N, check if the pair (P,S) is viable and if it is, find any permutation A with these arrays as P and S.
+Input Format
+
+The first line of the input contains a single integer T − the number of test cases. The description of test cases follows.
+The first line of each test case contains one integer N − the size of the arrays P and S.
+The second line of each test case contains N integers P1,P2,…,PN.
+The third line of each test case contains N integers S1,S2,…,SN.
+
+Output Format
+For each test case print Yes if the pair (P,S) is viable and No otherwise. You may print each character of the string in uppercase or lowercase (for example, the strings yEs, yes, Yes and YES will all be treated as identical).
+In case of an affirmative answer, on the second line print any suitable permutation A.
+Constraints
+
+1≤T≤100000
+1≤N≤100000
+1≤Pi≤N
+1≤Si≤N
+The sum of N over all test cases doesn't exceed 100000
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+7
+3
+1 2 3
+3 2 1
+3
+1 1 1
+1 1 1
+3
+1 2 2
+2 2 1
+6
+1 1 1 2 2 2
+2 2 2 2 2 1
+8
+1 2 3 3 4 4 4 4
+4 3 3 3 2 2 1 1
+4
+1 1 2 2
+3 3 2 1
+2
+2 1
+1 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Yes
+1 2 3 
+Yes
+3 2 1 
+No
+Yes
+5 4 3 6 1 2 
+Yes
+1 6 7 2 8 3 5 4 
+No
+No
+
+
+
+
+
+Author:
+7★anton_trygub
+
+
+Editorial:
+https://discuss.codechef.com/problems/PERMLISCNSTR
+
+
+Tags:
+
+               
+                 Mathematics, Longest Increasing Subsequence, Constructive
+                 
+                     
+                     Algorithms, Dynamic Programming, DP on sequences
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+9999
+
+
+Date Added:
+5-12-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,90 @@
+
+Chef lives in Chefland. He has a chocolate bar of a length LL. To overcome the competition in Chefland  he thinks that he should have any size of chocolate bar so that he can serve first customer nicely. But he also has to make minimum effort .
+Chef wants to cut the Chocolate bar into some pieces in such a way that he can make chocolate bar of every possible length lenlen where 1≤len≤L1≤len≤L by adding already cutted pieces of chocolate bar. 
+For example :
+If length of Chocolate bar = 3 and pieces are of length 1,2.
+Then chef can make all chocolate bars of length from 1 to 3 using these 2 pieces by following addition :
+
+Chef already have chocolate bar of length 1 and 2. 
+Chef can make chocolate bar of length 3 using addition of 1 and 2 as 3 = 1 + 2
+
+So now chef has to make some cuts in Chocolate bar to divide it into exactly K pieces and length of each piece must be a positive an integer. 
+Also making cuts takes effort so chef wants to minimize the value of K.
+Chef is  busy in cooking dishes. So he asks for your help.
+Input:
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a number L, length of chocolate bar.
+
+Output:
+For each test case, print a single line containing number K minimum number of pieces of Chocolate bar we have to cut.
+Constraints
+
+1≤T≤100
+1≤L≤109
+
+Sample Input:
+2
+6
+4
+
+Sample Output:
+3
+3
+
+EXPLANATION:
+Test case 1:
+We can cut chocolate bar into minimum 3 pieces of length 1,2,3 . Now we have length of 1 ,2,3 pieces of chocolate bar and from this we can form length of 4 chocolate bar by adding pieces 1 and 3. Length of 5 chocolate bar can formed from by adding pieces 2 and 3.Length of 6 chocolate bar can be formed from by adding pieces 1,2,and 3.
+So that we can make any size of Chocolate bar of 1≤Length≤L :- 1 , 2 , 3 , 4 , 5 , 6 by adding length of 1,2 and 3 pieces.
+(1,2,3,4=3+1,5=3+2,6=1+2+3) 
+Test case 2:
+We can cut chocolate bar into minimum 3 pieces of length 1,1,2 . Now we have length of 1 ,1,2 pieces of chocolate bar and from this we can form length of 3 chocolate bar by adding pieces 1 and 2 .Length of 4 chocolate bar by adding pieces 1 ,1 and 2 .
+
+
+
+Author:
+3★aman_gupta2486
+
+
+Editorial:
+https://discuss.codechef.com/problems/D2C103
+
+
+Tags:
+
+               
+                 aman_gupta2486, cakewalk, d2co2020, logarithm, math, observation
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+20-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

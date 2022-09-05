@@ -1,0 +1,123 @@
+
+Problem Name :
+Justify Lines
+
+Problem Definition :
+
+Codecell team is creating their own Cheetah text editor, and they need a blazing fast algorithm to help them justify lines.  
+Justify means, that the words and whitespace in a line, stretches the whole width of the line.  
+Also, the team is aiming for flush left and right here, that means the starting and ending character of the line, will be anything except whitespace.
+Also, the text editor uses monospace fonts, which basically means, all the characters will of equal width.  
+While distributing whitespaces, to make the document look prettier, one must distribute the extra whitespaces between longer words  
+And if there are multiple whitespaces around which the sum of words is equal, start from the whitespace near the start of sentence 
+Move to next line if words don't fit in the line
+If only single word in the line, align it to the left
+The maximum width of the line will be always equal to or greater than the longest word 
+Also, note that there should be minimum of one whitespace between two words
+
+Ref: Justify 
+Input :
+
+First line contains n, the number of lines to justify
+Contains the x, the number of words in the line, and m the width of the line
+next x lines, contain a word each
+
+Output :
+
+Print the justified lines for the given input
+
+Constraints :
+
+1 <= n <= 1000
+1 <= x <= 1000
+3 <= m <= 10002
+
+Example :
+Input :
+    3
+    6 10
+    I
+    am
+    the
+    one
+    who
+    knocks
+    5 20
+    All
+    arrays
+    start
+    from
+    one
+    1 10
+    Covfefe
+
+Output :
+    I  am  the 
+    one    who 
+    knocks
+    All   arrays   start
+    from             one 
+    Covfefe
+
+Explanation :
+
+For the first case, the width of the line is 10, so we go by calculating width, when there is only one space, which is the minimum required between them
+I am the one who knocks in this case, total width is 23, so we will shift to newline whenever the counting surpases the width limit, in this case 10
+So, we obtain 3 lines, in this scenario-
+- I am the width 8
+- one who width 7
+- knocks width 6
+Now, while distributing white spaces for each line, we rank the spaces between the words, using a simple algorithm, that is the sum of length of words surrounding it.
+So, in the first line, the first space is ranked 2 (sum of words around it is 3), while the next one is ranked 1 (sum of words around it is 5), and while distributing we start distributing from rank 1, and move to other ranks, and cycle through them, untill the whole width of the line is consumed
+If same sum, lower rank given to the space on the left side.
+Doing this, for each line, and for the last line, as it has only one word, left align it and no whitespace later.
+
+
+
+
+Author:
+4★shmabulock
+
+
+Editorial:
+https://discuss.codechef.com/problems/JFY
+
+
+Tags:
+
+               
+                 easy-medium, list, shmabulock, sorting, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-04-2019
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

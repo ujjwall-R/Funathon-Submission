@@ -1,0 +1,101 @@
+
+ 
+Problem description.
+PK is stuck on earth. In order to return to his planet he has to solve a problem by selecting N numbers from a set of T numbers and arrange them in a special pattern.
+
+The pattern is such that the N numbers selected are in order i.e. they must be one of the subsequence of the given numbers. Also the N numbers selected should be in increasing order. 
+To make the situation a bit tougher for him the "BABA" gives PK q also.
+If q is 0 then the N numbers should be the largest subsequence among all such possible subsequences. ( Definition of largest subsequence given in note).
+If q is 1 then the N numbers should be the smallest subsequence among all such possible subsequences.
+If q is greater than 1, first find N numbers which forms the largest subsequence and then find the N numbers which forms the smallest subsequence.  
+
+If he is not able to find subsequence of length 'N' then he has to do the above process for subsequence whose length is maximum.
+
+PK could not solve the problem so he comes to you to help him solve the problem.
+Note :-
+A and B are two  sequences of numbers( having same length let say X ) then A > B 
+if there exist a i ( 1 <= i <= X ) such that Ai > Bi and for all j < i  ( Ai = Bi ).
+ 
+Input
+
+The first line of the input contains T the next T  line contains the T[i]th number. The last line contains N and Q.
+
+Output
+
+Print the  subsequence.
+for q > 1 first print the largest  and then print the smallest in next line.
+
+ 
+Constraints
+
+1 ≤ T ≤ 10000
+1 < N < T
+-300 ≤ T[i] ≤ 300
+ q>=0
+
+ 
+Example
+Input:
+3 
+1 
+2 
+3
+2 2
+
+Output:
+2 3 
+1 2
+ 
+Explanation
+Example case 1.
+since 2 3 is greater than 1 2 
+and q = 2
+
+
+
+Author:
+2★f2012086
+
+
+Editorial:
+https://discuss.codechef.com/problems/ICLFIN04
+
+
+Tags:
+
+               
+                 dynamic-programming, f2012086, icl2015, medium-hard
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+25-03-2015
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+JAVA, C, CPP14, PYP3
+
+
+
+
+
+Submit
+

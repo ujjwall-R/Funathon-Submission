@@ -1,0 +1,100 @@
+
+Read problems statements in Mandarin Chinese here
+City of Byteland can be described as a 2D2D grid of cells. Each cell may or may not contain a demon. You are given the list of cells that contain demons.
+In a single Kamehameha attack, Goku can kill all the demons standing in a row or in a column. But using Kamehameha drains Goku's power. You are to tell the minimum number of Kamehameha attacks that will be required by Goku to destroy all the demons.
+Input
+
+The first line contains a single integer TT, the number of test cases. The description of the test cases follows.
+The first line of each test case contains a single integer NN, the number of cells where enemies are present. The description of the enemies follows.
+The next N lines contain two space separated integers X and Y, the row and column of the cell in which a demon is present.
+
+Output
+For each test case, on a new line, print the minimum number of attacks that are required to kill all of the demons.
+Constraints
+
+1≤T≤10
+1≤N≤1000
+1≤X,Y≤109
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+3
+0 0
+1 0
+0 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+
+
+
+
+
+Author:
+kaush_adm
+
+
+Tester:
+3★shangjingbo
+
+
+Editorial:
+https://discuss.codechef.com/problems/KMHAMHA
+
+
+Tags:
+
+               
+                 Bipartite Graphs, Hopcroft Karp Algorithm, Vertex Cover
+                 
+                     
+                     Data Structures, Graphs, Advanced Algorithms, Advanced Graph Algos, Flow Networks, Maximum Bipartite Matching, Algorithms, Graph Algos, Coverings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2099
+
+
+Date Added:
+12-09-2013
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

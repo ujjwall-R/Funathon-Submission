@@ -1,0 +1,107 @@
+
+There are NN boxes with not necessarily distinct heights and widths which are placed in a single line.
+Amit and Saurav, are very competitive friends, they try to compete with each other in petty things. Amit and Saurav both start the game from different ends of the line. (Amit went to the left end and Saurav went to the right end of the line) and played a game, whosoever will travel the maximum distance(sum of widths of the boxes travelled) will win the game.
+There are restrictions for both of them in the game. They were as follows:-
+
+Amit can only travel to boxes whose height is greater than the current box.
+Saurav can only travel to boxes whose height is greater than or equal to the current box.
+
+Each player will start their game with the original lineup of boxes and can remove any number of boxes from the path in their respective turns in order to overcome their limitations.
+The game proceeds as follows:-
+
+First of all, Amit will play the game from the left end and notes down the maximum distance he travelled from the left end.
+After that, Saurav will play the game from the right end and notes down the maximum distance he travelled from the right end. 
+
+Your task is to find out who will win the game and what was distance (sum of widths of the boxes)  travelled by the winner.
+Please Note:- In case of the same distance travelled by both of them, Amit will be declared as a winner.
+Input:
+
+First-line will contain TT, the number of test cases. Then the test cases follow. 
+First line of each test case will contain a single integer NN.
+Second line, will contain N spaced integers h1,h2,h3,…..hN , telling the heights of the boxes.
+Third line, will contain N spaced integers w1,w2,w3,…..wN , telling the widths of the boxes.
+
+Output:
+For each test case, 
+Output two lines:-
+
+First-line will contain the name of the winner i.e. ‘Amit’ or ‘Saurav’ (without quotes)
+Second-line will contain the distance ( sum of widths of the boxes used ) travelled by the winner.
+
+Please Note- The Output is case-sensitive.
+Constraints
+
+1≤T≤100 
+1≤N≤105
+1≤hi,wi≤109
+Sum of N over all testcases does not exceed 105
+
+Sample Input:
+3
+4
+40 70 65 40
+20 10 40 55
+3
+82 79 81
+15 20 20
+3
+79 80 80
+20 20 20
+
+Sample Output:
+Saurav
+105
+Amit
+40
+Amit
+40
+
+
+
+
+Author:
+3★chirag_mathur
+
+
+Editorial:
+https://discuss.codechef.com/problems/CAC2
+
+
+Tags:
+
+               
+                 chirag_mathur, dynamic-programming, longest-inc-subsequence, medium, segment-tree
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+12-03-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

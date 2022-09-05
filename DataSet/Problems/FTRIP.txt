@@ -1,0 +1,107 @@
+
+Alice's school is planning to take some students from her class on a field trip. Alice is really excited about it. There are a total of S students in her class. But due to budget constraints, the school is planning to take only N students for the trip. These students will be picked randomly. And each student has equal chance of being picked.
+Alice's friend circle has M students including her. Though she is excited about the field trip, she will enjoy it only if there are atleast K of her friends with her on the trip. She is wondering what are the chances of that happening. She needs your help. Tell her the probability that she will enjoy given that she goes on the trip.
+Input:
+First line of input contains a single integer T, the number of test cases.
+Each test starts with a single line having 4 space separated integers, S, N, M and K.
+
+Output:
+For each test case, output a line containing the required probability. The answer will be accepted if the relative error is not more than 10-6.Constraints:
+1 ≤ T ≤ 100
+1 ≤ S ≤ 1000
+1 ≤ N ≤ S
+1 ≤ M ≤ S
+0 ≤ K < M
+
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+10 10 5 3
+10 4 6 4
+3 2 2 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1.000000
+0.000000
+0.500000
+
+
+Explanation
+Case #1:
+Every student will be taken to the trip. So all her 4 friends will accompany her to the trip no matter what. Case #2:
+Alice wants 4 out of her 5 friends to come along with her which isn't possible because the school is willing to pick only 4 students for the trip.
+                
+            
+        
+
+        
+
+
+Author:
+vamsi_adm
+
+
+Tester:
+6★pieguy
+
+
+Editorial:
+https://discuss.codechef.com/problems/FTRIP
+
+
+Tags:
+
+               
+                 Probability, Combinatorics
+                 
+                     
+                     Mathematics
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1878
+
+
+Date Added:
+27-03-2013
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

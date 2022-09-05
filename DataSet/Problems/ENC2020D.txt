@@ -1,0 +1,76 @@
+
+Mr. Vasu being one of the top coders in his college was given the responsibility to organize a coding contest for NIT Kurukshetra’s tech festival. Although he was very good at solving questions, he found that it was a much harder task to make questions. The contest’s date was coming close and he couldn’t come up with any problems. Finally, Mr. Vasu decides to copy questions from a website to make the contest (not a decision he was very proud of).
+The website has NN number of questions. Each of the questions has a difficulty rating associated with it. The ith question has a difficulty DiDi. You are given a list of the difficulty rating of all the questions. Vasu has to select QQ questions out of them (2≤Q≤N). He wants the minimum rating difference between any two questions out of all the questions that he selected should be maximized.
+Input:
+
+The first line contains a single integer N, denoting the number of questions
+The second line contains Q which denotes the number of questions Vasu has to pick.
+The third line contains N space-separated integers in ascending order denoting the difficulty rating of the question.
+
+Output:
+Print the largest minimum rating difference between any two questions selected by Vasu.
+Constraints
+
+2≤N≤106
+2≤Q≤N
+1≤Di≤109
+
+Sample Input:
+5
+3 
+1 2 8 4 9
+
+Sample Output:
+3
+
+EXPLANATION:
+Vasu can select the questions with difficulty rating 1, 4 and 8 resulting in a minimum rating difference of 3.
+
+
+
+Author:
+5★vasu2907
+
+
+Editorial:
+https://discuss.codechef.com/problems/ENC2020D
+
+
+Tags:
+
+               
+                 binary-search, dynamic-programming, enco2020, vasu2907
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+18-11-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

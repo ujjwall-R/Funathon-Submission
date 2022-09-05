@@ -1,0 +1,105 @@
+
+Read problems statements in Hindi,
+Mandarin chinese
+, Russian and Vietnamese as well.
+There are three piles of stones. The first pile contains a stones, the second pile contains b stones and the third pile contains c stones. You must choose one of the piles and split the stones from it to the other two piles; specifically, if the chosen pile initially contained s stones, you should choose an integer k (0≤k≤s), move k stones from the chosen pile onto one of the remaining two piles and s−k stones onto the other remaining pile. Determine if it is possible for the two remaining piles (in any order) to contain x stones and y stones respectively after performing this action.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains five space-separated integers a, b, c, x and y.
+
+Output
+For each test case, print a single line containing the string "YES" if it is possible to obtain piles of the given sizes or "NO" if it is impossible.
+Constraints
+
+1≤T≤100
+1≤a,b,c,x,y≤109
+
+Subtasks
+Subtask #1 (20 points): 1≤a,b,c,x,y≤100
+Subtask #2 (80 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+1 2 3 2 4
+3 2 5 6 5
+2 4 2 6 2
+6 5 2 12 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+YES
+NO
+YES
+NO
+
+
+Explanation
+Example case 1: You can take the two stones on the second pile, put one of them on the first pile and the other one on the third pile.
+Example case 2: You do not have enough stones.
+Example case 3: You can choose the first pile and put all stones from it on the second pile.
+
+
+
+Author:
+4★fekete
+
+
+Editorial:
+https://discuss.codechef.com/problems/SPLST
+
+
+Tags:
+
+               
+                 Brute Force, Implementation
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+25-07-2018
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

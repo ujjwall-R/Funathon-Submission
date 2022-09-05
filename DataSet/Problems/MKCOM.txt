@@ -1,0 +1,91 @@
+
+Mausil is a real estate agent, belonging to Pajal. He has a plan to build a series of M buildings in Pajal and for this he found a land which can accommodate M buildings in a row one after another. The rule of the Pajal government is that no building in Pajal can have more than N floors. Based on a few factors like cost of the land, water resources etc. the cost of constructing a building is not the same in all pieces of land and it also depends on the number of floors you want to have in that building.  
+A community is a maximal group of buildings which have the same number of floors. For example: buildings = [1,1,1,2,2,1,3,3,3] has 4 communities - {(1,1,1),(2,2),(1),(3,3,3)}. Mausil wants to have exactly K communities in this project.
+But in this land few buildings were already constructed. Mausil doesn’t want to collapse them. He wants to leave all the buildings which were already constructed as they are and construct buildings in the empty pieces of land. 
+So given an array buildings, an M×N matrix cost and an integer K where:
+
+buildings[i] denotes the number of floors that ith building has if it is positive and if it is 0, it denotes an empty piece of land in which a building has to be constructed.
+cost[i][j] denotes the cost of constructing a building in ith piece of land with j floors.
+
+If C denotes the minimum total cost required for constructing all the buildings in empty pieces of land such that there are exactly K communities. You are definitely smarter than Mausil, so please help Mausil to find C. If it is not possible to have exactly K communities return −1.
+Input:
+
+The first line of input has a single integer T denoting the number of test cases.
+First line of each test case has 3 space separated integers M,N and K.
+Second line of each test case has M space separated integers denoting the Buildings array.
+The following M lines for each test case have N space separated integers in each line, denoting the M×N cost matrix of that test case. 
+
+Output:
+
+For each test case print a single integer C if it is possible to have K communities, else print −1.
+
+Constraints:
+
+1≤K≤M≤100
+1≤N≤20
+0≤Buildings[i]≤N
+1≤Cost[i][j]≤104
+
+Sample Input:
+5 2 3
+0 2 1 2 0
+1 10
+10 1
+10 1
+1 10
+5 1
+
+Sample Output:
+11
+
+Explanation:
+Three buildings were already constructed, if we construct the remaining houses in optimal way the resultant Buildings array would be [2,2,1,2,2]. This land has 3 communities, (2,2),(1),(2,2). The cost of construction here is Cost[1][2]+Cost[5][2]=10+1=11(considering 1-based indexing).
+
+
+
+Author:
+5★karthikeya619
+
+
+Editorial:
+https://discuss.codechef.com/problems/MKCOM
+
+
+Tags:
+
+               
+                 cvxh2020, dynamic-programming, karthikeya619
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+19-08-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

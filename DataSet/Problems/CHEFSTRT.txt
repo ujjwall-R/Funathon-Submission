@@ -1,0 +1,87 @@
+
+Chef has an array of integers and he starts with an arbitrary initial value XX.
+He calculates the running sum of XX plus array element, from left to right. The running sum never gets below 1. Find the minimum value of X.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+First line of the test case contains the integer N.
+Next line contains N space separated integers A0,A1,...,An−1.
+
+Output:
+For each testcase, output in a single line, the number X.
+Constraints
+
+1≤T≤100
+1≤N≤105
+−109≤Ai≤109
+NOTE: X can be equal to Zero.
+
+Subtasks
+
+50 points : −103≤Ai≤1000
+50 points : original constraints
+
+Sample Input:
+2
+2
+-1 1
+5
+5 -10 6 7 -12
+
+Sample Output:
+2
+6
+
+EXPLANATION:
+In case 2, if X=6, the following results are obtained:
+Running SumA[i]6511-10167714-122
+The final value is 2, and the running sum has never dropped below 1. The minimum starting value for X is 6.
+
+
+
+Author:
+5★sahil_bansal
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHEFSTRT
+
+
+Tags:
+
+               
+                 array, mathematics, mpcc2020, sahil_bansal
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+29-03-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

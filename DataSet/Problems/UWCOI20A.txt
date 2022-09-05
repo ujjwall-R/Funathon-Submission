@@ -1,0 +1,101 @@
+
+Well known investigative reporter Kim "Sherlock'' Bumjun needs your help! Today, his mission is to sabotage the operations of the evil JSA. If the JSA is allowed to succeed, they will use the combined power of the WQS binary search and the UFDS to take over the world!
+But Kim doesn't know where the base is located. He knows that the base is on the highest peak of the Himalayan Mountains. He also knows the heights of each of the NN mountains. Can you help Kim find the height of the mountain where the base is located? 
+Input:
+
+First line will contain TT, number of testcases. Then the testcases follow.    
+The first line in each testcase contains one integer, N.    
+The following N lines of each test case each contain one integer: the height of a new mountain.
+
+Output:
+For each testcase, output one line with one integer: the height of the tallest mountain for that test case.
+Constraints
+
+1≤T≤10
+1≤N≤100000
+0≤ height of each mountain ≤109
+
+Subtasks:
+
+100 points: No additional constraints.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+5
+4
+7
+6
+3
+1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+7
+
+
+
+
+
+Author:
+astoria
+
+
+Editorial:
+https://discuss.codechef.com/problems/UWCOI20A
+
+
+Tags:
+
+               
+                 Implementation
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1078
+
+
+Date Added:
+24-02-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

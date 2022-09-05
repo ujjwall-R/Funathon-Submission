@@ -1,0 +1,100 @@
+
+You have a 1XN1XN checker board, an infinite supply of 1X11X1 dominos available in 3 different colours - red, green & blue, an infinite supply of 1X2 dominos available in 2 different colours - black and white. You have to figure out the number of distinct ways in which you can tile the checker board using dominos.
+Hint: The number of ways to tile Tn can be modelled by the recurrence relation Tn=3∗Tn−1+2∗Tn−2
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains of a single line of input, one integer N. 
+
+Output:
+For each testcase, output in a single line the number of distinct ways to cover the checker board using dominoes modulo 1000000007.
+Constraints
+
+1≤T≤10
+1≤N≤1017
+
+Subtasks
+
+20 points : 1≤N≤10
+30 points : 1≤N≤105
+50 points : 1≤N≤1017
+
+Sample Input:
+3
+2
+1
+5
+
+Sample Output:
+11
+3
+495
+
+EXPLANATION:
+Case 1: 1X2 checker board can be tiled these 11 combinations:
+(Red, Red)
+(Red, Green)
+(Red, Blue)
+(Green, Red)
+(Green, Green)
+(Green, Blue)
+(Blue, Red)
+(Blue, Green)
+(Blue, Blue)
+(Black)
+(White)
+Case 2: 1X1 checker board can be tiled these 3 combinations:
+(Red)
+(Green)
+(Blue)
+Case 3: 1X5 checker board can be tiled by 495 combinations, one such tiling is:
+(White, Red, White)
+
+
+
+Author:
+4★vallabh43
+
+
+Editorial:
+https://discuss.codechef.com/problems/TILDOM
+
+
+Tags:
+
+               
+                 dynamic-programming, easy-medium, gsc2021, matrix-exponentiation, matrix-multiplication, recurrence, recursion, vallabh43
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-01-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

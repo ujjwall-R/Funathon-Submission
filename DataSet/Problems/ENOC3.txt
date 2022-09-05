@@ -1,0 +1,99 @@
+
+There is a town named Chefland where Chef lives. One can only enter the Chefland through visa which is granted by head Chef of the town named Chef Sanjeev Kapoor. Chef Sanjeev is very interested in the single-bit operation, more specifically XORXOR operation.
+Hence he devised a test to get into the Chefland. In the test, he may give a number NN with digits say a1,a2,a3..............ana1,a2,a3..............an, where ai represents the ith digit of N. One must return him  number X with packets of digits 
+say x1,x2,x2.............,xn−1/xn, where xi represents ith packet of digits of X  such that, 
+
+ Print as it is if length of digit of N is 1. 
+xi=ai⊕ai+1   when 1≤i≤n−1. 
+And xn=an⊕a1, when i=n (Here, xi may have 2 digits).
+
+Your friend Akash wants to be a Chef in Chefland, but for that, he has to pass the test of the head chef to get the visa. Help Akash to pass the test.
+NOTE:  Each pair of indices should be considered only once.
+Input:
+
+First-line will contain T, the number of test cases. Then the test case follows. 
+ Each test case contains a single input N.
+
+Output:
+For each test case, output in a single answer as the Chef desires.
+Constraints
+
+1≤T≤105
+1≤N≤1018
+
+Sample Input:
+3
+1234
+60285
+572854
+
+Sample Output:
+3175
+6210133
+25101311
+
+EXPLANATION:
+
+Case 1: N=1234 
+x1=1⊕2=3 
+x2=2⊕3=1 
+x3=3⊕4=7,and 
+x4=4⊕1=5 
+Hence answer= 3175 
+Case 3: N=572854 
+x1=5⊕7=2 
+x2=7⊕2=5 
+x3=2⊕8=10
+x4=8⊕5=13
+x5=5⊕4=1,and 
+x6=4⊕5=1
+Hence answer=25101311 
+
+
+
+Author:
+4★akay_99
+
+
+Editorial:
+https://discuss.codechef.com/problems/ENOC3
+
+
+Tags:
+
+               
+                 akay_99, brute-force, easy, enoc2019, math, simple, strings, xor
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-10-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

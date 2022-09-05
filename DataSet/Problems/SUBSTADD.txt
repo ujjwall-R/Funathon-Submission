@@ -1,0 +1,120 @@
+
+Chef is asked to write a program that takes an array AA of length NN and two integers X,Y as input and modifies it as follows:
+
+Choose a random subset of elements of A (possibly empty)
+Increase all the elements of the chosen subset by X
+Increase the remaining elements in A by Y
+
+You are given N, X, Y, A and the array B that is returned by Chef's program. Determine whether Chef's program gave the correct output.
+Input Format
+
+The first line contains an integer T, the number of testcases. The description of the T testcases follow.
+Each testcase contains 3 lines. 
+The first line of each testcase contains a three space separated integers N,X,Y respectively.
+The second line of each testcase contains N space separate integers, the elements of the array A.
+The third line of each testcase contains N space separate integers, the elements of the array B.
+
+Output Format
+
+For each testcase, print in a single line either yes or no, according to whether Chef's program gave a valid output or not.
+You may output the answers in any case, for example the words Yes, YeS, YES, yES are all considered equivalent to yes.
+
+Constraints
+
+1≤T≤10
+1≤N≤1000
+0≤X,Y≤1000
+0≤Ai≤Bi≤1000 for all indices i
+
+Subtasks
+Subtask #1 (100 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+3 2 5
+9 5 1
+11 10 3
+3 2 5
+9 5 1
+11 7 3
+3 2 5
+9 5 1
+11 7 7
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Yes
+Yes
+No
+
+
+Explanation
+Test Case 1: The array A is {9,5,1}. If the chosen elements are 9,1 then the expected output would be {11,10,3}, so the answer is yes.
+Test Case 2: The array A is {9,5,1}. If the chosen elements are 9,5,1 then the expected output would be {11,7,3}, so the answer is yes.
+Test Case 3: The array A is {9,5,1}. There is no subset that can be chosen so that the expected output would be {11,7,7}, so Chef's implementation must be incorrect and the answer is no.
+
+
+
+Author:
+srikkanth_adm
+
+
+Tester:
+7★tabr
+
+
+Editorial:
+https://discuss.codechef.com/problems/SUBSTADD
+
+
+Tags:
+
+               
+                 cakewalk, looping, ltime104, srikkanth_adm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1263
+
+
+Date Added:
+28-01-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

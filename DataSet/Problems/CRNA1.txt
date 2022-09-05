@@ -1,0 +1,84 @@
+
+Though your jump through time has been of the span of days, the world you see looks like you jumped to the past. Corona has taken a stronger hold and you find everyone around you in hazmat suits. As you don’t have the corona test results in your hand, you are shoved into a van and taken to a lab. Being the sneaky explorer you are, you find the place where the new vaccine is being made. There is a lab assistant and instead of driving you away, asks your help, proving how desperately everyone needs to get rid of this pandemic. 
+The DNA strands of a certain microorganism have been given to you. There are NN different genes in this species, each of which can be represented as a unique square of a number between 11 to N. 
+The lab staff tells you that one of these genes is repeated and one is missing. This missing gene has to be found as the final ingredient for the vaccine. 
+Can you help rid this world of the virus by finding the missing gene?
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+First line of each testcase contains a single integer N denoting the number of genes.
+Second line of each testcase contains the N space separated perfect squares. 
+
+Output:
+For each testcase, output the missing gene data.
+Constraints
+
+1≤T≤10
+2≤N≤10000
+All the gene data are represented as a perfect squares
+
+Subtasks
+
+20 points : 1≤N≤100
+80 points : Original Constraints
+
+Sample Input:
+2
+5
+25 9 1 4 9
+3
+1 4 1
+
+Sample Output:
+16
+9
+
+
+
+
+Author:
+3★dharsan_r
+
+
+Editorial:
+https://discuss.codechef.com/problems/CRNA1
+
+
+Tags:
+
+               
+                 dharsan_r, heli2021, math, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+29-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,82 @@
+
+The Big Billion day has arrived and Ross has NN  items in his mind which he wants to purchase. 
+After purchasing Ross found that he has total of MM type items from 1 to M. 
+Now to distinguish the items from each other he wants to arrange them in such a way that items of same type occur continuously. 
+For this he can select any K ( 0 <= K <= N ) number of items and permute them. The other N−K elements remain untouched. 
+Can you help him to find the minimum value of K for which this is possible? 
+Input:
+
+The first line of the input contains two space separated integer N and M
+The second line contains N space-separated integers which denotes the type of items he has bought as 
+A1, A2, . . . . . AN . 
+
+Output:
+Print a single line containing one integer —  minimum value of K for which items of same type occurs continuously. 
+Constraints
+
+1≤N≤100000
+1≤M≤20
+1≤Ai≤M
+
+Sample Input:
+6 3
+1 2 3 1 2 3
+
+Sample Output:
+3
+
+EXPLANATION:
+One of the possible way is to select the items at indexes 1st , 3rd and 5th.
+We can permute the selected items by placing the 1st ,3rd and 5th items at 3rd ,5th and 1st places respectively to finally get 2 2 1 1 3 3. 
+
+
+
+Author:
+5★aditya10_
+
+
+Editorial:
+https://discuss.codechef.com/problems/ENG5
+
+
+Tags:
+
+               
+                 Bitmasking, Dynamic Programming
+                 
+                     
+                     Mathematics, Bit Manipulation, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2396
+
+
+Date Added:
+25-12-2018
+
+
+Time Limit:
+1.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

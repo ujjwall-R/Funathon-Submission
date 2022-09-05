@@ -1,0 +1,120 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese,Russian, and Vietnamese as well.
+You are given a K×KK×K matrix M. For each r and c (1≤r,c≤K), let's denote the element in the r-th row and c-th column by Mr,c. You are also given three integers N, a and d. Let's define a K×K matrix
+S=N∑i=0Fa+i⋅d⋅Mi.
+Here, M0 is the identity matrix and for any non-negative integer i, Fi is the i-th Fibonacci number ― formally, F0=0, F1=1 and Fi=Fi−1+Fi−2 for i>1.
+Let's denote elements of the matrix S in the same way as for M. For each valid r and c, compute Sr,c modulo 998,244,353.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains four space-separated integers K, a, d and N.
+K lines follow. For each valid i, the i-th of these lines contains K space-separated integers Mi,1,Mi,2,…,Mi,K.
+
+Output
+For each test case, print K lines. For each valid i, the i-th of these lines should contain K space-separated integers Si,1,Si,2,…,Si,K modulo 998,244,353.
+Constraints
+
+1≤T≤100
+1≤K≤100
+0≤a,d≤109
+0≤N≤101,000
+0≤Mi,j<998,244,353 for each valid i and j
+the sum of K over all test cases does not exceed 100
+
+Subtasks
+Subtask #1 (10 points):
+
+K=1
+N≤1018
+
+Subtask #2 (30 points):
+
+K≤20
+N≤1018
+
+Subtask #3 (60 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+1 0 2 4
+1
+2 3 4 5
+1 0
+0 1
+3 23 45 107
+5 7 2
+1 8 9
+3 4 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+33
+33552 0
+0 33552
+601338635 934201293 356700741
+960409891 125261415 197093893
+136328022 287118456 122438416
+
+
+
+
+
+Author:
+6★sjshohag
+
+
+Editorial:
+https://discuss.codechef.com/problems/PANIC
+
+
+Tags:
+
+               
+                 berlekamp-massey, cayley-hamilton, hard, math, matrix-exponentiation, nov20, number-theory, randomized, recurrence, sjshohag, sjshohag
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2863
+
+
+Date Added:
+16-07-2020
+
+
+Time Limit:
+5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

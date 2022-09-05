@@ -1,0 +1,83 @@
+
+Chef has been recruited to Chefland's Army. The army of a neighbouring country is continuosly infiltrating the Borders, since there is no proper marking or fencing on the land, chef's commanding officer(CO) commanded him to place milestone markings on the border.
+CO tells Chef that the border is an infinite x axis with non-negative integer coordinates starting from 0 and gives him four integers a, b, L, R . Markings are placed such that 1st mark is placed at (a) units , 2nd mark is placed at (a+b) units , 3rd mark is placed at (a+b+a) units , 4th mark is placed at (a+b+a+b) units… and so on.  
+CO wants to know the number of milestone markers used by Chef in [L,R] units ( inclusive of L and R ). 
+Since chef was so busy placing the markers, he forgot to count them. Chef is weak in Math,  help him report the answer to CO.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains of a single line of input, four integers a,b,L,R. 
+
+Output:
+
+For each testcase, output in a single line , the number of markers placed between L and R units.
+
+Constraints
+
+T≤105 
+0≤L≤R≤109
+1≤a,b≤109
+
+Sample Input:
+2  
+3 2 1 9  
+6 1 0 5 
+
+Sample Output:
+3  
+0  
+
+Explaination :
+
+In the first test case the three markers are placed at 3 , 5 , 8 units respectively.
+No marker is placed between 0 and 5 units. 
+
+
+
+
+Author:
+2★sumeet_0403
+
+
+Editorial:
+https://discuss.codechef.com/problems/COCR104
+
+
+Tags:
+
+               
+                 beginner, cakewalk, cros2020, sumeet_0403
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-06-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

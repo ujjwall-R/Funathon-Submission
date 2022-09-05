@@ -1,0 +1,81 @@
+
+There are n children in a school with their roll numbers from 1 to n. Each of those children has x number of storybooks and y number of toys. Now the school admin has decided to give toy cars to these
+children but due to a shortage of toy cars, the school has decided to arrange the children in a specific order
+
+Children with fewer toys are preferred first. 
+In case the children have the same number of toys, children with more number of storybooks will get their chances first. 
+In case the children have the same number of toys and the same number of storybooks, children with higher roll number will get their chances first
+
+Your task is to find out the order of the children based on which they are going to receive their toys.
+Input:
+
+First line will contain NN, number of children.  
+Each of the following NN lines contains two integers X,Y. The roll number of the children is the corresponding line number.  
+
+Output:
+In a single line print N space-separated roll numbers of the children in the order in which they are going to get their toys.
+Constraints
+
+1≤N≤4∗105
+2≤X,Y≤100
+
+Sample Input:
+5
+56 43
+8 27
+32 27
+32 27
+35 24
+
+Sample Output:
+ 5 4 3 2 1 
+
+
+
+
+Author:
+4★arnie8991
+
+
+Editorial:
+https://discuss.codechef.com/problems/ECJN203
+
+
+Tags:
+
+               
+                 arnie8991, easy, enju2020, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+19-06-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

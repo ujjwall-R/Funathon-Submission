@@ -1,0 +1,75 @@
+
+On a planet called RUIZ LAND, which is ruled by the queen, Erika Ruiz. Each person on that planet has a strength value (strength value >0).
+That planet has a special rule made by the queen that a boy and a girl will form a couple if their Hate value is a prime number where Hate is given by the formula:-
+Hate = (boy's strength value)  XOR (girl's strength value )
+You are given N numbers denoting the strength value of N girls, and each of the N girls has to form a couple with a boy such that sum of Hate value of all the N couples will be minimum.
+You need to print the strength value of each boy, Where the boy at index i will form a couple with the girl at index i, where 1≤i≤N.
+Assume that you can always find at least one boy having that strength for each girl.
+Input:
+
+First line will contain N, the number of Girls. 
+Next line contains N numbers separated by space denoting strength value for each girl.
+
+Output:
+Print the required N numbers denoting strength of boys.
+Constraints
+
+1≤N≤100000
+1≤Ai≤109 , (where 1≤i≤N) and Ai denotes strength of i'th girl.
+
+Sample Input:
+2
+10 16
+
+Sample Output:
+8 18
+
+
+
+
+Author:
+5★adikr_singh
+
+
+Editorial:
+https://discuss.codechef.com/problems/COUPLING
+
+
+Tags:
+
+               
+                 adikr_singh, cakewalk, inro2021
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

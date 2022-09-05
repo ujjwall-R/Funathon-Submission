@@ -1,0 +1,98 @@
+
+
+Chef loves to watch movies.
+But unfortunately, when he goes to buy the tickets, only one ticket is left.
+There are N people standing in line, in front of the booking office and everyone wants the ticket.
+
+Only one can get the ticket.
+
+The Rule is:
+
+1. People standing in the even position of the line (2nd, 4th,...) forms another line.
+ The line is from 1 to N( for this problem).
+
+The rule is repeated until, one remains.
+
+Help chef stand in the correct spot and get the movie ticket.
+
+
+INPUT:
+
+1. The first line will input the number of test cases T.
+2. Every T lines will input a single integer N.
+
+
+
+OUTPUT:
+1. There will be a single number as the output - the Position of Chef.
+
+
+CONSTRAINT:
+
+1 <= T <= 500
+2 <= N <= 1e18
+
+
+EXAMPLE INPUT:
+1
+5
+
+EXAMPLE OUTPUT:
+4
+
+EXPLANATION:
+
+For N=5, Let us suppose:
+-->1 2 3 4 5
+-->2 4
+-->4
+
+
+
+
+Author:
+5★nuttela
+
+
+Editorial:
+https://discuss.codechef.com/problems/MOVQUE
+
+
+Tags:
+
+               
+                 cakewalk, nuttela
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+23-01-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

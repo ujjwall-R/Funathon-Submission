@@ -1,0 +1,71 @@
+
+Sage has two weapons p and q.
+She has an array A of attacks. She wants to choose two indices i and j (1<=i<=j and j<=n) such that her power pA[i]+qA[j] is maximum.  
+Input:-
+First line contains three integers n,p and q(1<=n<=10^5 and -10^9<=p,q<=10^9).
+Second line contains n integers i.e the array of attacks (-10^9<=A[i]<=10^9).  
+Output:-
+Maximum possible value for pA[i]+qA[j].  
+Example 1:-
+Input:-
+5 4 6
+1 2 3 4 5  
+Output:-
+50  
+Explanation:-
+Sage can choose index i=5 and j=5.
+Then the result will be :- 45 + 65 = 20+30 = 50.
+Example 2:-
+2 -2 3
+1 2  
+Output:-
+4
+
+
+
+Author:
+3★avishake_maji
+
+
+Editorial:
+https://discuss.codechef.com/problems/MAXPOW
+
+
+Tags:
+
+               
+                 array, avishake_maji, medium, number-theory
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-02-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

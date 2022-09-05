@@ -1,0 +1,83 @@
+
+ 
+Given an array of length N containing integers  A1, A2, A3, ... AN . Given m queries of the form (l,r) find the maximum length of continuous subsequence (Ai, Ai+1, ...Aj) such that l ≤  i ≤  j ≤  r and (Ai + Ai+1 + Ai+2 + ... Aj) mod k = 0.
+ 
+Input
+First line of input contains three numbers N,m,k - length of array, number of queries, and number used to take modulus with.
+Next line will contain N integers denoting the value of elements of array.
+Next m lines will contain two integers l and r denoting a single query.
+
+ 
+Output
+Print a single line for each query with the maximum length satisfying the given condition. If no such subsequence exist for a query print "0" (without quotes).
+
+ 
+Constraints
+
+1 ≤ N ≤ 105
+1 ≤ m ≤ 104
+0 ≤ Ai ≤ 109
+2 ≤ k ≤ 106
+1 ≤ l ≤ r ≤ N
+
+ 
+Example
+Input:
+5 2 10
+2 3 5 2 3
+1 3
+2 4
+
+Output:
+3
+3
+ 
+
+
+
+Author:
+3★daga_07
+
+
+Editorial:
+https://discuss.codechef.com/problems/RNGMOD
+
+
+Tags:
+
+               
+                 cobl2016, daga_07, medium-hard, mos-algorithm, segment-tree
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+9-03-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

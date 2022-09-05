@@ -1,0 +1,102 @@
+
+AUSSIA  declared war on KRAIN.
+
+KRAIN found a way for communication.
+MR Vivek is the head of the Krain's defence. 
+It's the 21st century where robots are the soldiers.
+There is a boss for all robots named CHITTI .
+ Whenever he wants to control his soldiers he instructs CHITTI which will encode the message and share it with all other robots securely. So that other country's soldiers can't understand communication between them. Vivek programmed CHITTI to encode a statement S as follows:
+1.Any space should be replaced by &
+2.If the alphabet is not A/B/C/D/E then they should appear at the end in reverse order. For example, BESTFRIEND will become  BEEDNIRFTS. 
+As Vivek did a great job and won the war you're asked to code in the same way to make one more encoding robot.
+Input Format
+
+First-line contains the number of statements(T).
+
+Next T lines contain a sentence(S) to encode. 
+
+Output Format
+
+For each S print its encoded string in a single line.
+Constraints
+0<T<11>
+0<S<101
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+SOLDIERS ASSEMBLE
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+DE&AEBELMSSSRILOS
+
+
+
+
+
+Author:
+2★charann
+
+
+Tester:
+1★abhim4
+
+
+Editorial:
+https://discuss.codechef.com/problems/AUSSIAKRAINW
+
+
+Tags:
+
+               
+                 String
+                 
+                     
+                     Data Structures
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+4-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

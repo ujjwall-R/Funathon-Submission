@@ -1,0 +1,111 @@
+
+Chef and Chefina have decided to play the game of cubes and coins. There are NN cubes placed in a straight line numbered 11 through N. The i-th cube has a point Pi associated with it. Each player takes alternate turns and proceeds as follows -
+
+If only a single cube is left, player picks it. 
+Otherwise, he/she tosses an unbiased coin. If the coin lands on heads, player takes the first cube otherwise they take the last cube.
+
+What is the expected total points Chef will get if he goes first?
+Note: The unbiased coin lands on heads with probability 0.5 (and hence lands on tails with the same probability). Also, the total point is the sum of points of all cubes that Chef will get.
+Input Format
+
+First line of the input contains an integer T, the number of test cases. T test cases follow. Each test case consists of exactly 2 lines. 
+The first line of each test case contains a single integer N, the number of cubes. 
+The second line contains N space separated integers P1, P2, ..., PN, the points associated with cubes in the order they lie in a line.
+
+Output Format
+Output for each test case should contain a single real number in a separate line, the expected total points Chef will get for this particular test. 
+Constraints
+
+1≤T≤500
+1≤N≤2000
+0≤Si≤999
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+1
+100
+2
+42 0
+3
+1 4 9
+4
+5 5 5 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+100.000
+21.000
+9.500
+10.000
+
+
+Explanation
+Case 1: In the first move Chef has to take 100, and this is the only move. Hence, the expected points Chef will get is 100.
+Case 2: It is quite clear that Chef will make only 1 move. As he can get 42 or 0 with equal probability, the expected points he will get is equal to 0.5∗42+0.5∗0=21.
+
+
+
+Author:
+3★artha6391
+
+
+Tester:
+2★anushka_nagar
+
+
+Editorial:
+https://discuss.codechef.com/problems/CMC302
+
+
+Tags:
+
+               
+                 artha6391, dynamic-programming, easy
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+20-10-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,107 @@
+
+A permutation of length NN is an array of NN integers (P1,P2,…,PN)(P1,P2,…,PN) where every integer from 1 to N (inclusive) appears in it exactly once. The weight of a subsegment containing the elements (Pl,Pl+1,…,Pr) is defined as follows:  W(l,r)=(r−l+1)⋅minl≤i≤r(Pi)
+ where 1≤l≤r≤N and minl≤i≤r(Pi) denotes the minimum element of the subsegment.
+You are given two integers N and X. You need to determine if there exists a permutation of length N such that it contains at least one subsegment having weight X?
+Input Format
+
+The first line contains an integer T - the number of test cases. The T test cases then follow.
+The first and only line of each test case contains two space-separated integers N,X - the length of the permutation and the weight parameter mentioned in the question respectively.
+
+Output Format
+For each test case, print YES if there exists a permutation of length N having at least one subsegment with a weight of X, otherwise print NO.
+You may print each character of Yes and No in uppercase or lowercase (for example, yes, yEs, YES will be considered identical).
+Constraints
+
+1≤T≤104
+1≤N≤105
+1≤X≤1010
+Sum of N over all test cases does not exceed 3⋅105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+3 2
+3 5
+5 6
+4 10
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+YES
+NO
+YES
+NO
+
+
+Explanation
+Test case 1: [1,2,3] is one of the valid permutations because it contains the following subsegment having weight 2. 
+W(1,2)=(2−1+1)⋅min1≤i≤2(Pi)=2⋅1=2 
+Test case 2: It can be proven that there does not exist any permutation of length 3 which has a subsegment having weight 5.
+Test case 3: [4,2,1,3,5] is one of the valid permutations because it contains the following subsegment having weight 6.
+W(4,5)=(5−4+1)⋅min4≤i≤5(Pi)=2⋅3=6
+
+
+
+Author:
+5★soumyadeep_21
+
+
+Tester:
+7★tabr
+
+
+Editorial:
+https://discuss.codechef.com/problems/FIXWEIGHT
+
+
+Tags:
+
+               
+                 ad-hoc, cook139, easy, factorization, math, soumyadeep_21
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1686
+
+
+Date Added:
+2-02-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

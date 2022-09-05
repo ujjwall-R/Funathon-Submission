@@ -1,0 +1,134 @@
+
+A permutation of length NN is an array of NN integers such that every integer between 11 and N (inclusive) appears in it exactly once.
+Chef creates a set from a permutation (P1,P2,…,PN) of length N, as follows:
+
+Initially Chef takes a empty set S=ϕ, and then for every index i(1≤i≤N), Chef insert a pair of integers (li,ri) into S, where 1≤li≤ri≤N and (Pli,Pli+1,…,Pri) denotes the longest subsegment of the permutation with Pi as the maximum element. 
+
+Note: 
+
+The elements of the set S are always distinct.
+Two pairs (li,ri) and (lj,rj) are same only if li=lj and ri=rj.
+
+For example, if the permutation is (2,3,4,1), Chef creates the following set S={(1,1),(1,2),(1,4),(4,4)}.
+You are given a set T containing N distinct pairs of integers. Find the number of different permutations of length N from which Chef can create a set S, which is equivalent to set T. Since the number can be very large, print it modulo (109+7). 
+Two sets S and T are considered equivalent if:
+
+∣S∣=∣T∣, where ∣S∣ denotes the size of set S.
+Every element of S is present in T, i.e, for each (li,ri)∈S,(li,ri)∈T.
+
+Note that the elements of the set T may not be given in a particular order.
+Input Format
+
+The first line of input contains an integer T, denoting the number of test cases. The T test cases then follow:
+The first line of each test case contains a single integer N, denoting the size of set T.
+Each of the next N lines contains a pair of integers (li,ri), denoting the set T.
+
+Output Format
+For each test case, output on a single line the number of valid permutations, modulo (109+7). 
+Constraints
+
+1≤T≤105
+1≤N≤2⋅105
+1≤li≤ri≤N for each valid i
+(li,ri)≠(lj,rj) if i≠j
+Sum of N over all test cases does not exceed 2⋅105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+2
+2 2
+1 2
+3
+3 3
+1 3
+2 2
+5
+1 1
+5 5
+1 5
+1 2
+4 5
+7
+1 1
+7 7
+3 3
+1 7
+6 7
+1 4
+3 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+0
+6
+45
+
+
+Explanation
+Test case 1: There are two permutations of length 2. [1,2] generates the set S={(1,1),(1,2)} which is not equivalent to T={(2,2),(1,2)} and [2,1] generates the set S={(1,2),(2,2)}, which is equivalent to T={(2,2),(1,2)}.
+Test case 2: There is no permutation of length 3 which can generate a set equivalent to T={(3,3),(1,3),(2,2)}.
+Test case 3: Some of the valid permutations are:  [2,4,5,3,1], [1,4,5,3,2], [1,2,5,4,3] etc. However [1,2,3,4,5] is not a valid permutation since it generates the set S={(1,1),(1,2),(1,3),(1,4),(1,5)} which is not equivalent to set T.
+
+
+
+Author:
+5★soumyadeep_21
+
+
+Editorial:
+https://discuss.codechef.com/problems/HIDPERM
+
+
+Tags:
+
+               
+                 binary-search, easy-medium, recursion, soumyadeep_21, start25
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3011
+
+
+Date Added:
+4-02-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

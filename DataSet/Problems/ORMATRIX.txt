@@ -1,0 +1,104 @@
+
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+You are given a matrix of integers AA with NN rows (numbered 11 through NN) and MM columns (numbered 11 through MM). Each element of this matrix is either 00 or 11.
+A move consists of the following steps:
+
+Choose two different rows r1r1 and r2r2 or two different columns c1 and c2.
+Apply the bitwise OR operation with the second row/column on the first row/column. Formally, if you chose two rows, this means you should change Ar1,k to Ar1,k∨Ar2,k for each 1≤k≤M; if you chose two columns, then you should change Ak,c1 to Ak,c1∨Ak,c2 for each 1≤k≤N.
+
+For each element of the matrix, compute the minimum number of moves required to make it equal to 1 or determine that it is impossible. Note that these answers are independent, i.e. we are starting with the initial matrix for each of them.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+N lines follow. For each i (1≤i≤N), the i-th of these lines contains M integers Ai,1,Ai,2,…,Ai,M NOT separated by spaces.
+
+Output
+For each test case, print N lines. For each valid i, the i-th of these lines should contain M space-separated integers; for each valid j, the j-th of these integers should be the minimum number of moves required to make Ai,j equal to 1, or −1 if it is impossible.
+Constraints
+
+1≤T≤100
+1≤N,M≤1,000
+Ai,j∈{0,1} for each valid i,j
+the sum of N⋅M for all test cases does not exceed 1,000,000
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+3 3
+010
+000
+001
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1 0 1
+2 1 1
+1 1 0
+
+
+
+
+
+Author:
+6★kingofnumbers
+
+
+Editorial:
+https://discuss.codechef.com/problems/ORMATRIX
+
+
+Tags:
+
+               
+                 2D Arrays, Bitwise Operation, Observation, Implementation
+                 
+                     
+                     Data Structures, Arrays, Mathematics, Bit Manipulation, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1656
+
+
+Date Added:
+20-07-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

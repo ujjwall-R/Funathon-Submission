@@ -1,0 +1,109 @@
+
+Chef is given a binary string SS of length NN. As Chef loves 1010 and he is busy in the preparation of Christmas, he asks you to count the maximum number of continuous substrings 1010, which Chef can get after reordering symbols in the given string.
+As a reminder, a binary string is a string consisting only of 0's ans 1's.
+Input Format
+
+The first line of the input contains a single integer T - the number of test cases. The test cases then follow.
+The first line of the test case contains an integer N - the length of the binary string.
+The second line of each test case contains the binary string S.
+
+Output Format
+For each test case, print maximum number of continuous substrings 1010, which Chef can get after reordering symbols in the string.
+Constraints
+
+1≤T≤100
+2≤N≤100
+|S|=N
+S is a binary string
+
+Subtasks
+
+Subtask 1 (100 points): Original constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+2
+11
+8
+11000100
+10
+0100111100
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+2
+4
+
+
+Explanation
+
+Test case 1: There are no 0s in the string, so a 1010 substring is not possible.
+Test case 2: We can reorder string into 01010100, in which the first 1010 starts from index 2, and the second 1010 starts from index 4. It can be proven that there are no orderings that give the answer larger than 2.
+
+
+
+
+Author:
+3★kp_010
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHEF1010
+
+
+Tags:
+
+               
+                 String, Greedy, ad-hoc, Observation
+                 
+                     
+                     Data Structures, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1335
+
+
+Date Added:
+19-12-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

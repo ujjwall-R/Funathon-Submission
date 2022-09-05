@@ -1,0 +1,120 @@
+
+Read problem statements in Russian, Mandarin Chinese, Bengali, and Vietnamese as well.
+There are NN people, numbered from 11 to NN. They go to a cinema hall. Each of them buys a ticket, which has a number written on it. The number on the ticket of the ithith person is Ai. 
+There are infinite seats in the cinema hall. The seats are numbered sequentially starting from 1. All the N people stand in a queue to get their respective seats. Person 1 stands at the front of the queue, Person 2 stands in the second position of the queue, so on up to Person N who stands at the rear of the queue. They were given seats in this manner:
+Let the number on the ticket of the person currently standing in front of the queue be X. If the Xth seat is empty, the person gets out of the queue and takes the Xth seat. Otherwise the person goes to the rear of the queue, and the number on his ticket is incremented by one - that is, it becomes X+1.
+Print the seat number occupied by each of the N people.
+Input Format
+
+The first line of input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line of each testcase line contains N space-separated integers A1,A2,…,AN.
+
+Output Format
+For each test case, print a single line containing N space-separated integers, where the ith integer denotes the seat number finally occupied by the Person i.
+Constraints
+
+1≤T≤104
+1≤N≤105
+1≤Ai≤N
+The sum of N over all test cases does not exceed 5⋅105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+5
+1 2 3 2 4
+4
+4 1 3 2
+3
+1 1 1
+5
+2 5 1 5 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1 2 3 5 4
+4 1 3 2
+1 2 3
+2 5 1 6 3 
+
+
+Explanation
+Test case 1: 
+
+First, the first, second, third, and fifth person get the seats numbered 1, 2, 3, and 4 respectively because when they come to the front of the queue the corresponding seats are empty. The fourth person does not get the seat numbered 2, because when he comes to the front of the queue, the seat is already occupied by the second person. Hence he goes to the rear of the queue and the number on the ticket of the fourth person is incremented by one and becomes 3.
+The fourth person does not get the seat numbered 3 because it is already occupied by the third person. Hence the number on the ticket of the fourth person is incremented by one and becomes 4.
+Again, the fourth person does not get the seat numbered 4 because it is occupied by the fifth person. Hence the number on the ticket of the fourth person is incremented by one and becomes 5.
+Finally the fourth person gets the seat numbered 5.
+
+Test case 3: 
+
+The first person gets the seat numbered 1. The second and third people do not get the seat numbered 1 because when they come to the front of the queue, the seat is already occupied by the first person. Hence the number on the tickets of both is incremented by one and becomes 2.
+Then, the second person gets the seat numbered 2. The third person does not get the seat numbered 2 because when he comes to the front of the queue, it is already occupied by the second person. Hence the number on the ticket of the third person is increased to 3.
+Finally, the third person gets the seat numbered 3.
+
+
+
+
+Author:
+5★soumyadeep_21
+
+
+Editorial:
+https://discuss.codechef.com/problems/TICKETQU
+
+
+Tags:
+
+               
+                 Queues, Deque, Binary Search
+                 
+                     
+                     Data Structures, Algorithms, Searching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3067
+
+
+Date Added:
+27-07-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

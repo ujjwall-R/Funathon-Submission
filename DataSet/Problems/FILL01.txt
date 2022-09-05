@@ -1,0 +1,108 @@
+
+Chef has to work on a project for the next N hours. He is given a work plan to do this, which is given to you as a binary string S of length N. Si=1 if Chef has to work on the project during the i-th hour, and Si=0 if Chef is free during the i-th hour.
+Chef would like to use some of his free time to take naps. He needs a minimum of K consecutive hours of free time to take a nap. What is the maximum number of naps that Chef can take during the next N hours?
+Note that it is allowed for one nap to immediately follow another, i.e, Chef can wake up from one nap and then immediately take another one (if he has enough free time to do so), and these will be counted as different naps.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K respectively.
+The second line of each test case contains a binary string S of length N denoting Chef's work plan.
+
+Output Format
+
+For each test case, print a single line containing one integer — the maximum number of naps that Chef can take.
+
+Constraints
+
+1≤T≤105
+1≤N≤105
+1≤K≤N
+Sum of N over all test cases doesn't exceed 2⋅105
+S is a binary string, i.e, each character of S is either 0 or 1.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+4 1
+1010
+4 2
+0100
+11 3
+00100000001
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+1
+2
+
+
+Explanation
+Test Case 1: Chef can take two naps starting from the 2nd and 4th hours respectively.
+Test Case 2: Chef can take a nap starting from the 3rd hour.
+Test Case 3: Chef can take one nap starting from the 5th hour and another starting from the 8th hour.
+
+
+
+Author:
+srikkanth_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/FILL01
+
+
+Tags:
+
+               
+                 String, Loops, Integer Division
+                 
+                     
+                     Data Structures, Basic Programming Concepts, Mathematics, Basic Maths
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+8-12-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

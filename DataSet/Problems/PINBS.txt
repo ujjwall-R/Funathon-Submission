@@ -1,0 +1,108 @@
+
+You are given a binary string S of length N. Your task is to check if there exists a substring of S which is the binary representation of a prime number.
+Formally, check if there exist integers L and R such that 1≤L≤R≤N, and the substring SLSL+1SL+2…SR, when treated as a binary integer, is prime.
+Print "Yes" if such a substring exists, and "No" if it doesn't.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+Each testcase consists of a single line of input, containing a binary string S.
+
+Output Format
+For each test case, output a single line containing one string — "Yes" or "No", the answer to the problem.
+You may print each character of the answer in uppercase or lowercase (for example, the strings "yEs", "yes", "Yes" and "YES" will all be treated as identical).
+Constraints
+
+1≤T≤2.5⋅104
+|S|≤105 
+The sum of |S| over all tests does not exceed 3⋅105
+
+Subtasks
+Subtask 1 (30 points):
+
+1≤T≤103
+|S|≤10
+
+Subtask 2 (70 points):
+
+Original constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+1
+111
+101101
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+No
+Yes
+Yes
+
+
+Explanation
+Test case 1: There is only one substring, namely "1", and it isn't prime.
+Test case 2: The substrings of the given string are {"1", "11", "111", "1", "11", "1"}. Of these, "111" which represents 7 in binary, and "11" which represents 3 in binary, are primes.
+Test case 3: One of the substrings of the string is "1101", which is the binary representation of 13 — a prime.
+
+
+
+Author:
+5★arunsharma_
+
+
+Editorial:
+https://discuss.codechef.com/problems/PINBS
+
+
+Tags:
+
+               
+                 arunsharma_, jan221, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1473
+
+
+Date Added:
+30-12-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

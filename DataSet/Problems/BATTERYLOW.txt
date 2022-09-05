@@ -1,0 +1,98 @@
+
+Chef's phone shows a Battery Low notification if the battery level is 15%15% or less.
+Given that the battery level of Chef's phone is X%X%, determine whether it would show a Battery low notification. 
+Input Format
+
+First line will contain T, number of test cases. Then the test cases follow.
+Each test case contains a single line of input, an integer X, denoting the battery level of the phone.
+
+Output Format
+For each test case, output in a single line Yes, if the battery level is 15% or below. Otherwise, print No. 
+You may print each character of Yes and No in uppercase or lowercase (for example, YeS, YES, yes will be considered identical).
+Constraints
+
+1≤T≤100
+1≤X≤100
+
+Subtasks
+Subtask #1 (100 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+15
+3
+65
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Yes
+Yes
+No
+
+
+Explanation
+Test Case 1: The battery level is 15. Thus, it would show a battery low notification.
+Test Case 2: The battery level is 3, which is less than 15. Thus, it would show a battery low notification.
+Test Case 3: The battery level is 65, which is greater than 15. Thus, it would not show a battery low notification.
+
+
+
+Author:
+5★notsoloud
+
+
+Editorial:
+https://discuss.codechef.com/problems/BATTERYLOW
+
+
+Tags:
+
+               
+                 cakewalk, ltime105, notsoloud
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+479
+
+
+Date Added:
+25-02-2022
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

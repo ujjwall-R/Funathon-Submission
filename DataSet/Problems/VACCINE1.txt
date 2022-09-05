@@ -1,0 +1,87 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Increasing COVID cases have created panic amongst the people of Chefland, so the government is starting to push for production of a vaccine. It has to report to the media about the exact date when vaccines will be available.
+There are two companies which are producing vaccines for COVID. Company A starts producing vaccines on day D1 and it can produce V1 vaccines per day. Company B starts producing vaccines on day D2 and it can produce V2 vaccines per day. Currently, we are on day 1.
+We need a total of P vaccines. How many days are required to produce enough vaccines? Formally, find the smallest integer d such that we have enough vaccines at the end of the day d.
+Input
+
+The first and only line of the input contains five space-separated integers D1, V1, D2, V2 and P.
+
+Output
+Print a single line containing one integer ― the smallest required number of days.
+Constraints
+
+1≤D1,V1,D2,V2≤100
+1≤P≤1,000
+
+Subtasks
+Subtask #1 (30 points): D1=D2
+Subtask #2 (70 points): original constraints
+Example Input 1
+1 2 1 3 14
+
+Example Output 1
+3
+
+Explanation
+Since D1=D2=1, we can produce V1+V2=5 vaccines per day. In 3 days, we produce 15 vaccines, which satisfies our requirement of 14 vaccines.
+Example Input 2
+5 4 2 10 100
+
+Example Output 2
+9
+
+Explanation
+There are 0 vaccines produced on the first day, 10 vaccines produced on each of days 2, 3 and 4, and 14 vaccines produced on the fifth and each subsequent day. In 9 days, it makes a total of 0+10⋅3+14⋅5=100 vaccines.
+
+
+
+Author:
+daanish_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/VACCINE1
+
+
+Tags:
+
+               
+                 Conditional Statements, Basic Maths, Brute Force, Implementation, Binary Search on Answer
+                 
+                     
+                     Basic Programming Concepts, Mathematics, Algorithms, Searching, Binary Search
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+3-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

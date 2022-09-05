@@ -1,0 +1,103 @@
+
+There are 33 problems in a contest namely A,B,CA,B,C respectively. Alice bets Bob that problem C is the hardest while Bob says that problem B will be the hardest. 
+You are given three integers SA,SB,SC which denotes the number of successful submissions of the problems A,B,C respectively. It is guaranteed that each problem has a different number of submissions. Determine who wins the bet.
+1) If Alice wins the bet (i.e. problem C is the hardest), then output Alice.
+2) If Bob wins the bet (i.e. problem B is the hardest), then output Bob.
+3) If no one wins the bet (i.e. problem A is the hardest), then output Draw.
+Note: The hardest problem is the problem with the least number of successful submissions.
+Input Format
+
+The first line of input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains three space-separated integers SA,SB,SC, denoting the number of successful submissions of problems A,B,C respectively. 
+
+Output Format
+For each test case, output the winner of the bet or print Draw in case no one wins the bet.
+Constraints
+
+1≤T≤100
+1≤SA,SB,SC≤100
+SA,SB,SC are all distinct.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+1 4 2
+16 8 10
+14 15 9
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Draw
+Bob
+Alice
+
+
+Explanation
+Test case 1:  Problem A turns out to be the hardest so no one wins the bet.
+Test case 2:  Problem B turns out to be the hardest so Bob wins the bet.
+Test case 3:  Problem C turns out to be the hardest so Alice wins the bet.
+
+
+
+Author:
+utkarsh_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/HARDBET
+
+
+Tags:
+
+               
+                 Case work, Conditional Statements, Brute Force
+                 
+                     
+                     Special, Basic Programming Concepts, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+803
+
+
+Date Added:
+26-08-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

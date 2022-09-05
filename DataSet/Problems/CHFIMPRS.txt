@@ -1,0 +1,117 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Chef has a matrix AA with NN rows (numbered 1 through N) and M columns (numbered 1 through M); an element in row i and column j is denoted by Ai,j. He is going to play a game on this matrix with Chefina. In the game, Chef lists the elements of the matrix row by row in an alternating pattern, starting from the top left corner ― he writes down the first row from left to right, the second row from right to left, and so on. Chefina also lists the elements of the matrix row by row, but she starts from the top right corner and writes down the first row from right to left, the second row from left to right, and so on.
+Chefina gets impressed if the sequences written by Chef and Chefina turn out to be the same. Chef can rearrange the matrix in any way he chooses in order to impress Chefina. In the rearranged matrix, the number of occurrences of each integer must be the same as in the original matrix.
+For example, if the initial matrix is
+1 1
+1 2
+
+then there are four possible rearrangements:
+1 1     1 1     1 2     2 1
+1 2     2 1     1 1     1 1
+
+Find one way in which Chef can rearrange the matrix to impress Chefina or determine that it is impossible.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M. 
+N lines follow. For each i (1≤i≤N), the i-th of these lines contains M space-separated integers Ai,1,Ai,2,…,Ai,M.
+
+Output
+For each test case:
+
+If it is impossible to rearrange the matrix in such a way that Chefina gets impressed, print a single line containing the integer −1.
+Otherwise, print N lines describing your rearranged matrix. For each i (1≤i≤N), the i-th of these lines should contain M space-separated integers ― the elements in the i-th row of the rearranged matrix. This matrix must have the same number of occurrences of each integer as the original matrix.
+
+If there is more than one possible answer, you may find any one.
+Constraints
+
+1≤T≤105
+1≤N,M≤300
+1≤Ai,j≤105 for each valid i,j
+the sum of N⋅M over all test cases does not exceed 5⋅105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+1 2
+1 1
+2 2
+1 1
+2 1
+3 3
+1 2 3
+6 5 4
+7 8 9
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1 1
+-1
+-1
+
+
+Explanation
+Example case 1: The sequence printed by Chef is always [1,1] and the sequence printed by Chefina is also always [1,1], so Chef does not need to change the matrix and Chefina will be impressed.
+
+
+
+Author:
+5★rishup_nitdgp
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHFIMPRS
+
+
+Tags:
+
+               
+                 akashbhalotia, cook118, hashing, observation, palindrome, rishup_nitdgp, rishup_nitdgp, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2286
+
+
+Date Added:
+2-05-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

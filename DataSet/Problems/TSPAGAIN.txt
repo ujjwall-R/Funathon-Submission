@@ -1,0 +1,107 @@
+
+
+There are N cities numbered from 0..N-1. A salesman is located at city 0. He wishes to visit all cities exactly once and return back to city 0. There are K toll booths. Each toll booth has a certain range of functioning. The parameters for toll k are given as x_k and y_k. If the salesman travels from city i to j, he has to pay 1 dollar toll fee to each toll p having x_p >= i and y_p <= j. Calculate the cheapest way for the salesman to complete his tour.
+
+
+
+Input :
+
+The first line contains T the number of test cases. T test cases follow. The first line of each test case contains two space seperated integers N and K. Each of the next K lines contains 2 integers, the ith line containing xi and yi (0 <= xi,yi < N). A blank line seperates two test cases.
+
+Output :
+
+Output T lines, one for each test case, containing the required answer.
+
+Constraints :
+1 <= T <= 50
+2 <= n <= 1000
+1 <= K <= 10000
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+3 2
+2 0
+0 2
+
+3 4
+1 0
+2 1
+0 1
+1 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+6
+
+
+
+
+
+Author:
+syco_adm
+
+
+Tester:
+friggstad
+
+
+Editorial:
+https://discuss.codechef.com/problems/TSPAGAIN
+
+
+Tags:
+
+               
+                 Segment Trees, DP Approach
+                 
+                     
+                     Advanced Data Structures, Advanced Tree Structures, Algorithms, Dynamic Programming
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2085
+
+
+Date Added:
+20-03-2010
+
+
+Time Limit:
+3.53389 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

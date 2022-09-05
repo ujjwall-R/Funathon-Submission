@@ -1,0 +1,79 @@
+
+A positive integer is called a "PDS Number" if the product of its digits is divisible by the sum of its digits. Let PDS(N) be the N-th PDS Number (indexed from 1), you are requested to calculate it.
+
+Input
+There are several test cases (at most 10000), each formed as follows:
+
+The first and only line contains a positive integer N (N ≤  109).
+
+The input is ended by N = 0.
+
+Output
+For each test case, output on a line the respective PDS(N) calculated.
+
+Example
+Input:
+1
+20
+0
+
+Output:
+1
+66
+
+
+
+
+Author:
+anhdq_adm
+
+
+Tester:
+6★laycurse
+
+
+Editorial:
+https://discuss.codechef.com/problems/PDSNUM
+
+
+Tags:
+
+               
+                 Digit DP
+                 
+                     
+                     Advanced Algorithms, Advanced DP
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2323
+
+
+Date Added:
+23-08-2011
+
+
+Time Limit:
+2.26437 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,88 @@
+
+You’re given a tree with N nodes (where each node i has a value Ai) and Q queries in the form u v. The answer to each query is the XOR of value of nodes on the shortest path from node u to v.
+Input
+
+First line will contains a single integer T, number of test cases.
+First line of each test case contains two space-separated integers - N and Q
+Second line of each test case contains N space separated integers, the ith of which is Ai.
+The next N−1 lines contains two space separated integers - u and v - denoting that there is an edge from u to v and vice-versa
+The next Q lines each contain two space separated integers u and v, denoting a query.
+
+Output
+For each query, output the answer on a new line. 
+Constraints
+
+1≤T≤10
+3≤N≤105
+1≤Q≤105
+1≤Ai≤108
+
+Sample Input
+1
+5 2
+1 2 3 4 5
+1 2
+1 3
+2 4
+2 5
+3 5
+4 5
+
+Sample Output
+5
+3
+
+EXPLANATION:
+The path for (3,5) is :
+3 → 1 → 2 → 5; therefore, the answer for the query is 5. 
+The path for (4,5) is :
+4 → 2 → 5; therefore, the answer for the query is 3. 
+
+
+
+Author:
+5★nuttela
+
+
+Editorial:
+https://discuss.codechef.com/problems/ENOC1
+
+
+Tags:
+
+               
+                 dynamic-programming, easy-medium, enoc2019, lowest-common-ancestor, nuttela, trees
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-10-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

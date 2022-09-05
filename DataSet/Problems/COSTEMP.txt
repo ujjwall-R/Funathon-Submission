@@ -1,0 +1,84 @@
+
+Nearly 109+7 trillion kilometers far away from the Milkyway, there exists a parallel Universe of Light called the Cosmos of Solon where each planet is called a Temple. There are total N temples. Unlike humans, the Solomons (Giant aliens of the Light World) can travel from one temple to another through Cosmic Bridges and the distance observed by them between any two temples is 0 units (Interesting? Well, they travel with more than the speed of light) 
+But the year 2020, proved to be a curse for Solomons. This year, a Mega Star Urus struck their Universe and damaged many Cosmic Bridges. However the God of Light ensured that for any two distinct temples u and v there exists exactly one unique path through Cosmic Bridge(s), but the distance between two directly connected temples through a Bridge has now increased to 1 units.
+To prevail the existence of this Universe, the God of Light carved himself into exactly N Solomons which now rule the N temples and are independent of each other. One by one, the ith Solomon (0≤i≤N−1) transmits Light pulses through the network of Cosmic Bridges and determines the sum of distances to the remaining N−1 Solomons. 
+Can you help them find these quantities so they can reunite into God of Light again?
+Input Format:
+
+The first line of the input contains N, the total no. of temples. 
+Each of the next N−1 lines contain two space-separated integers u and v (u≠v) denoting the bidirectional Cosmic Bridge between temples u and v.
+
+Output Format:
+Print N space separated integers in a single line where the ith integer denotes the sum of distances from the ith (0≤i≤N−1) Solomon to the rest of N−1 Solomons.
+Constraints:
+
+1≤N≤106
+0≤u,v≤N−1
+
+Sample Input:
+ 5
+ 0 2
+ 0 3
+ 1 3
+ 3 4
+
+Sample Output:
+ 6 8 9 5 8
+
+Explanation:
+
+For temple 0 : distance(1) + distance(2) + distance(3) + distance(4) = 2+1+1+2=6
+For temple 1 : distance(0) + distance(2) + distance(3) + distance(4) = 2+3+1+2=8
+For temple 2 : distance(0) + distance(1) + distance(3) + distance(4) = 1+3+2+3=9
+For temple 3 : distance(0) + distance(1) + distance(2) + distance(4) = 1+1+2+1=5
+For temple 4 : distance(0) + distance(1) + distance(2) + distance(3) = 2+2+3+1=8 
+
+
+
+
+Author:
+5★karthikeya619
+
+
+Editorial:
+https://discuss.codechef.com/problems/COSTEMP
+
+
+Tags:
+
+               
+                 cvxh2020, depth-first-search, dynamic-programming, easy-medium, karthikeya619, trees
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-08-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

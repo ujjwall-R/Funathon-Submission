@@ -1,0 +1,86 @@
+
+Some like to collect coins, some caps, some stickers. But Tom likes to collect cut-outs of words from the newspaper. The most weird fact is that he decides a word W for a newspaper and cuts out its occurrences from that newspaper. But he is lazy, he skims through the newspaper and whenever he finds an occurrence of W in the newspaper, he cuts it out. In this process he might skip some occurrences. Also, some occurrences might overlap, for example in ababa, the occurrences of aba is overlapping. So, if Tom cuts out one of the occurrences, the other no longer exists.
+Given a newspaper as a string N (containing only lowercase English letters) [very weird newspaper indeed!] and a word W (also containing only lowercase English letters), find the total number of ways in which Tom can cut out at least one occurrence of W in N. (See sample input for better understanding).
+Input:
+
+First line contains a single integer T, the number of test cases. Then the test cases follow. 
+Each test case contains two lines. The first line of each test case contains the string N.
+The second line of each test case contains the string W.
+
+Output:
+For each test case, output a single line containing a single integer denoting the total number of ways in which Tom can cut out at least one occurrence of W in N. As this answer can be large, output the answer modulo 1000000007. (See sample input and explanation for better understanding).
+Constraints:
+
+1≤T≤10
+1≤|W|≤|N|≤2×105
+W and N contain only lowercase English letters
+
+Sample Input:
+3
+cabc
+ab
+cabc
+c
+ababa
+aba
+
+Sample Output:
+1
+3
+2
+
+Explanation:
+
+In the first test case, there is only one occurrence of ab in cabc. Hence, no. of ways of cutting out at least one occurrence of ab is 1.
+In the second test case, c occurs twice. Hence, no. of ways of cutting out at least one occurrence of c is 3 (just the first, just the second, and cutting both first and second).
+In the third test case, aba occurs twice, but they are overlapping. So, if the first occurrence is cut out, the second occurrence no longer exists. Hence, no. of ways of cutting out at least one occurrence of aba is 2 (just the first occurrence and just the second occurrence).
+
+
+
+
+Author:
+5★kishen1912000
+
+
+Editorial:
+https://discuss.codechef.com/problems/COLWORD
+
+
+Tags:
+
+               
+                 cnvx2020, dynamic-programming, kishen1912000, knuth-morris-pratt-algorithm, medium, z-algorithm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+25-09-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,107 @@
+
+Two brothers Ram and Gopal are fond of collecting watches. A sale of watches is being organized in their city for a week.  
+Both of them want to buy the watches but they can buy them only within certain limits given by their clever mother to reduce their possibility of getting watches.
+(Each watch has some rating RiRi and price PiPi).  
+Instructions are:
+
+On an even weekday, they cannot buy a watch with odd price and odd rating.  
+On an odd weekday, they cannot buy a watch with even price and even rating.  
+The price of the current watch should be less than the price of the last bought watch.
+The rating of the current watch should be greater than the rating of the last bought watch.
+If all the conditions are satisfied in a particular day, then it is compulsory to buy the watch for that day (since they don’t know the prices and ratings of the watches of coming days in the sale).  
+
+Count the maximum number of watches they can buy in the sale.
+Note: Weekdays start with 1 
+
+Input:
+
+First line will contain TT, number of testcases. Then the testcases follow. 
+Each test case consists of 2 lines.
+1st line contains 7 integers - prices of 7 watches on 7 days.
+2nd line contains 7 integers - ratings of 7 watches on 7 days.
+
+
+Output:
+For each testcase, output in a single line - total number of watches they can buy in the sale.
+
+Constraints
+
+1≤T≤105
+0≤Ri≤109
+0≤Pi≤109
+
+
+Sample Input:
+3
+1888 1963 2000 1577 1932 759 900
+4 5 3 7 1 9 5
+1963 1958 1953 1520 933 864 777
+3 4 5 6 7 8 9
+832 1000 987 1326 843 554 1280
+5 4 6 3 2 6 8
+
+
+Sample Output:
+0
+7
+2
+
+
+EXPLANATION:
+For test case 3, they can buy 2 watches.  
+Day 1 (odd week day) -> The price is even (fails instruction 2).
+Day 2 (even week day) -> Can buy this watch.
+Day 3 (odd week day) -> The rating is even (fails instruction 2).
+Day 4 (even week day) -> The rating is odd (fails instruction 2).
+Day 5 (odd week day) -> The rating is even (fails instruction 2).
+Day 6 (even week day) -> Can buy this watch.
+Day 7 (odd week day) -> The price and rating is even (fails instruction 2).  
+
+
+
+Author:
+4★rishabhrathi22
+
+
+Editorial:
+https://discuss.codechef.com/problems/CKALP08
+
+
+Tags:
+
+               
+                 cakewalk, implementation, rishabhrathi22
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+27-01-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

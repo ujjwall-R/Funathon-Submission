@@ -1,0 +1,106 @@
+
+Again a problem!
+
+Agniva is trapped inside the Dungeon and is about to be executed by the king of NumberLand.
+Dotionmo, zoindrek and Pavo has travelled across 2 cities to help Agniva get out of this trouble.
+They have almost reached Agniva, when suddenly, the king of NumberLand surprises them with another trap.
+
+
+"Hahahah! You Fools.", he says.
+
+
+"You have only 5 minutes to solve my puzzle, and it will be very very HARD.
+Once you solve the hardest problem of NumberLand, we will release Agniva."
+
+
+The problem statement:
+1. Agniva will be provided N cards in a bag.
+
+2. Every Card will have a number from 1 to N (inclusive).
+
+3. Agniva will pick a card at random from the bag, without looking at it (lets call it 'x').
+   Note :: He has to read all the cards from the bag.
+
+4. You will decide if the number 'x' has exactly 3 divisors. 
+   If true, shout 'YES'.	
+
+and "Remember!", says Mr. Soham.
+
+"The number x is divisible by '1' and the number 'x' ."
+
+"I will keep a count of the number of times, 
+you say the words 'YES'", says Mr. Soham.
+
+The friends don't want dragons after them. Help them :P
+
+Input
+1. The first line will input the number of test cases T.
+2. Every T lines will input a single integer N.
+
+Output
+1. There will be a single number as the output - the count of "YES".
+
+Constraints
+1 <= T <= 500
+1 <= N <= 1000000
+
+Example Input:
+2
+6
+8
+
+
+Example Output:
+1
+1
+
+
+
+
+
+Author:
+5★nuttela
+
+
+Editorial:
+https://discuss.codechef.com/problems/DUNDRG
+
+
+Tags:
+
+               
+                 cakewalk, nuttela
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-01-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

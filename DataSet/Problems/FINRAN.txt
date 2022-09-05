@@ -1,0 +1,126 @@
+
+          
+            
+In a classroom, there are n number of students, the students have finished their previous semester and now are stepping into the new semester. One of the faculty who comes to their classroom wants to know about the students who study extremely well as the faculty decides to give extra training to those students and improve them further for good placements. The faculty decides to select the students on the basis of their previous semester marks. He wants only the top rankers of the entire class in the previous semester i.e., notice that there can be more than one student for a particular rank if they score the same marks.
+So the faculty wants to find out all the roll numbers of the first 'k' ranks(Here k represents the number of ranks that faculty wants to find out). Help the faculty in finding out all the roll numbers of rankers of the class.(The indices of the array are considered as the rollnumbers of the students, consider array indices from 1).
+
+            
+                
+                    Input Format
+
+The first line of input consists of a single integer N denoting the number of students in the class.
+The second line of input consists of N space separated integers A1, A2, …, An.
+The third line of input consists of single integer k denoting the number of ranks the faculty wants to know.
+
+Output Format
+Print the Rank number and the roll numbers of the students who secured their respective ranks.
+Print each rank in a new line and rollnumbers with spaces between them.
+Constraints
+
+1<=n<=100
+1<=a[i]<=100
+1<=k<=15
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+10 
+97 12 97 97 13 98 95 98 56 76
+5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Rank 1 : 6 8 
+Rank 2 : 1 3 4 
+Rank 3 : 7 
+Rank 4 : 10
+Rank 5 : 9 
+
+
+
+                        Sample Input 2
+                        
+
+
+
+
+
+5
+100 98 56 75 98
+3
+
+
+
+                        Sample Output 2
+                        
+
+
+
+
+
+Rank 1 : 1
+Rank 2 : 2 5
+Rank 3 : 4 
+
+
+
+
+
+Author:
+4★mahendra444
+
+
+Editorial:
+https://discuss.codechef.com/problems/FINRAN
+
+
+Tags:
+
+               
+                 mahendra444, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+10-10-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

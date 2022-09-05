@@ -1,0 +1,103 @@
+
+You are given an array AA containing NN integers. A subsequence of this array is called good if all the elements of this subsequence are distinct.
+Find the number of good non-empty subsequences of AA. This number can be large, so report it modulo 109+7.
+Note that two subsequences are considered different if they differ in the indices chosen. For example, in the array [1,1] there are 3 different non-empty subsequences: [1] (the first element), [1] (the second element) and [1,1]. Out of these three subsequences, the first two are good and the third is not.
+Input Format
+
+The first line contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N, denoting the number of elements in A.
+The second line of each test case contains N space-separated integers A1,A2,…,AN.
+
+Output Format
+For each test case, print a single line containing one integer — the number of good subsequences modulo 109+7
+Constraints
+
+1≤T≤105
+1≤N≤105
+1≤Ai≤106
+The sum of N over all test cases does not exceed 106.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+2
+1 1
+2
+1 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+3
+
+
+Explanation
+
+Test Case 1: Explained in the problem statement.
+Test Case 2: There are 3 non-empty subsequences: [1], [2] and [1,2]. All three subsequences are good.
+
+
+
+
+Author:
+6★lavish315
+
+
+Editorial:
+https://discuss.codechef.com/problems/DISTELE
+
+
+Tags:
+
+               
+                 1D Arrays, Maps, Hashmaps, Modular Arithmetic, Basic Maths, Sorting
+                 
+                     
+                     Data Structures, Arrays, Mathematics, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+10-12-2021
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,87 @@
+
+Our Lonely Vijju is feeling sooo lonely that Sometimes he talks (rather shouts at god), "Why god, Why me!!!!, Where did i go wrong." The god had blessed him with only one thing ever, his IQ (Intelligence Quotient). He has the IQ N.
+God Taran had some mercy on him and granted him a superpower, that he can share his IQ with anyone and make him is friend. Formally, God Taran gave him an array B of length K. Vijju can partition his IQ into K parts represented by array A, with condition that 0≤A[i]≤B[i]. If A[i]>B[i], he will invite wrath of Mighty Taran, something he's deeply scared of and wants to avoid.
+But, having high IQ, Vijju thinks the number of ways he can do so, without attracting Wrath of Lord Taran.
+Vijju found this answer, but he ask you to verify his answer by solving this problem.
+Two Partitions A1 and A2 differ if A1[i]≠A2[i] for any position i.
+Vijju knows this problem is not for people with less IQ, so he ask you to find answer modulo 109+9.
+Input
+
+First line contains an Integer T denoting number of test cases. Each test case consist of two lines.
+For every test case, First line contains two integers N and K, as explained above.
+Next line contains K integers, specifying array B.
+
+Output
+
+For every test case, output in a single line the number of ways to form array A. If no possible array exist, print 0.
+
+Constraints
+
+1≤T≤10 
+1≤N,K,B[i]≤100.            
+
+Subtasks
+
+Subtask 1 (15 points): 1≤K≤10
+Subtask 2 (85 points): Original Constraints.
+
+Sample Input
+2
+8 3
+3 3 3
+8 3
+4 4 4         
+Sample Output
+3
+15
+Explanation
+In first sample, all possible arrays A are [2,3,3], [3,2,3] and [3,3,2].
+
+
+
+Author:
+6★taran_1407
+
+
+Editorial:
+https://discuss.codechef.com/problems/VIJJUPAR
+
+
+Tags:
+
+               
+                 dynamic-programming, easy, icop1902, taran_1407, taran_1407
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-08-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

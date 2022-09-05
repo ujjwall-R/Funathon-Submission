@@ -1,0 +1,163 @@
+
+Chef Ceil has some matchsticks in his kitchen.
+Detail of matchsticks:
+There are NN matchsticks in total. They are numbered from to 00 to N−1N−1 inclusive. The ith matchstick takes bi time to burn when lighted at one end, and it burns at a uniform rate.
+If lighted at both ends simultaneously, the matchstick will take only half of the original time to burn down.
+Arrangement:
+He ties rear end of the all the matchsticks together at one point and the front end is kept free. The matchstick numbered i is adjacent to matchstick numbered i+1 for all 0≤i≤N−2.  
+Bodies of matchsticks do not touch each other, except at the rear end.
+Task:
+There are Q queries, in each query we ask:
+If he lights the free end of all matchsticks numbered between L and R inclusive, what will be the time needed for all matchsticks to get completely burnt?
+Input
+
+First line of input contains a single integer N. 
+The next line contains N space separated integers, the ith of which is bi
+The next line contains a single integer Q
+The next Q lines each contain two space separated integers - L and R. The ith line represents the ith query.
+
+Output
+For each query, print the answer on a new line. 
+Constraints:
+
+1≤N≤105
+1≤bi≤108
+1≤Q≤105
+0≤L≤R≤N−1
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+5
+1
+0 0
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+5.0
+
+
+
+                        Sample Input 2
+                        
+
+
+
+
+
+2
+3 5
+1
+0 1
+
+
+
+                        Sample Output 2
+                        
+
+
+
+
+
+4.0
+
+
+
+                        Sample Input 3
+                        
+
+
+
+
+
+18
+3 4 2 1 5 7 9 7 10 5 12 3 1 1 2 1 3 2
+1
+4 10
+
+
+
+                        Sample Output 3
+                        
+
+
+
+
+
+9.0
+
+
+Explanation
+Test Case 3: , in the figure above, yellow colored matches are lighted by a lighter simultaneously.
+The numbers indicate the time required to burn that matchstick (if lighted at one end).
+Now the first lighted matchstick will completely burn in 5 seconds. Then it will light up all the rest matches from the rear end.
+Some matches will have fire at both ends and thus after 5 seconds, they will start burning with twice the original rate.
+Thus time taken for matches to burn completely will be :
+(from left to right):  8.0, 9.0, 7.0, 6.0, 5.0, 6.0, 7.0, 6.0, 7.5, 5.0, 8.5, 8.0, 6.0, 6.0, 7.0, 6.0, 8.0, 7.0.
+So, the answer will be 9.0 (the maximum among these).
+
+
+
+Author:
+mani_adm
+
+
+Tester:
+6★pieguy
+
+
+Editorial:
+https://discuss.codechef.com/problems/MSTICK
+
+
+Tags:
+
+               
+                 mani_adm, math, may13, segment-tree, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1714
+
+
+Date Added:
+22-06-2012
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,78 @@
+
+A bracket sequence is called regular if it is possible to obtain correct arithmetic expression by inserting characters «+»«+» and «1» into this sequence. For example, sequences (())(),() and (()(())) are regular, while )(,(() and (()))( are not.
+If s is a regular bracket sequence with depth d then (s) is a regular bracket sequence with depth d+1. For example, depth of ()()() is 1 and ()((())()) is 3.
+You are given a regular bracket sequence S of length N. Your task is to tell if there exists another regular bracket sequence with a larger depth than the original sequence and with the same number of opening and closing brackets as the original sequence.
+Input:
+
+First line contains a single integer T, the number of test cases.
+First line of each test case contains a single integer, N.
+Second line of each test case contains a single string, S.
+
+Output:
+For each test case, output in a single line "YES" if there exists another such regular bracket sequence. Otherwise, print "NO".
+Constraints
+
+1≤T≤105
+2≤N≤2∗105
+N is even
+Sum of N over all test cases doesn't exceed 106
+S is a regular bracket sequence
+
+Sample Input:
+2
+8
+(())()()
+2
+()  
+Sample Output:
+YES
+NO  
+
+
+
+Author:
+5★sibasish_14
+
+
+Editorial:
+https://discuss.codechef.com/problems/BRACKS
+
+
+Tags:
+
+               
+                 cakewalk, fcf22020, sibasish_14, sibasish_14
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+24-07-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,98 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Sonya loves problems with sequences, so she has a large collection of different sequences at home. Some of these sequences are magic sequences.
+A magic sequence with length N is an integer sequence s1,s2,…,sN with the following properties:
+
+At least one of its elements is 0.
+For each valid i, si is the distance of element si to the closest zero element. Formally, si is the minimum of |j−i| over all valid indices j such that sj=0. Note that this definition is self-consistent: if we fix the positions of all zeroes in the sequence, it does not require any of these elements to be non-zero or any other elements to be zero.
+
+For example, [0,1,2,1,0], [2,1,0,1,0,0] and [2,1,0,1,2] are magic sequences, but [1,1,0], [1] and [1,2,0,2] are not.
+Danya decided to determine how well Sonya is familiar with magic sequences, so he asked her a question. In this question, Danya gave Sonya a sequence a1,a2,…,aN. Sonya must determine whether it is possible to rearrange (permute) the elements of this sequence in such a way that the resulting sequence is a magic sequence. If it is possible, she also needs to find one such resulting sequence.
+Since Sonya needs to take care of her sequences, she asks you to answer Danya's question.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers a1,a2,…,aN.
+
+Output
+For each test case:
+
+If there is no solution, print a single line containing the string "No" (without quotes).
+Otherwise, print two lines. The first of these lines should contain the string "Yes" (without quotes). The second line should contain N space-separated integers — a permutation of a1,a2,…,aN which forms a magic sequence. If there are multiple possible solutions, print any of them. 
+
+Constraints
+
+1≤T≤3
+1≤N≤104
+0≤ai≤N for each valid i
+the sum of N over all test cases does not exceed 104
+
+Example Input
+3
+4
+1 2 1 1
+8
+5 0 4 1 0 2 3 1
+11
+0 1 1 2 0 3 1 2 0 2 1
+
+Example Output
+No
+Yes
+0 1 0 1 2 3 4 5
+Yes
+0 1 2 3 2 1 0 1 2 1 0
+
+
+
+
+Author:
+7★smelskiy
+
+
+Editorial:
+https://discuss.codechef.com/problems/MAGARR
+
+
+Tags:
+
+               
+                 ad-hoc, Observation, Implementation
+                 
+                     
+                     Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+26-01-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,86 @@
+
+Sometime in the future, the current batch of first yearites get a chance to visit college, to watch a race being organized on the sports day.
+There are NN participants who take part in the race. The speed of each member ii is si.  
+The operation lambda di of ith index is defined as the difference between the maximum and minimum running speed among the first i members who ran the race.
+Formally, if si denotes the speed of the ith member who participated in the race, then di=max(s1,s2,...,si)−min(s1,s2,...,si).
+You task is to minimise the sum of lambdas d1+d2+...+dn. To do this, you are allowed to change the order in which the members run. 
+What is the minimum possible sum that can be achieved? 
+
+Input
+The first line contains a single integer n(1≤n≤2000) — the number of members in the race. 
+The second line contains n integers s1,s2,…,sn(1≤si≤109)  – the running speeds of the members.
+
+Output
+Print a single integer  — the minimum possible value of d1+d2+⋯+dn after choosing the order of the members.
+
+Constraints
+1≤n≤2000
+1≤si≤109
+
+Subtasks
+Subtask #1 (100 points):
+Original Constraints
+
+Sample Input:
+ 3
+3 1 2
+
+Sample Output:
+ 3
+
+Explanation:
+ We may choose to make the third member run first, followed by the first member, and finally the second. Thus a1=2,a2=3, and a3=1. We have:
+
+d1=max(2)−min(2)=2−2=0.
+d2=max(2,3)−min(2,3)=3−2=1.
+d3=max(2,3,1)−min(2,3,1)=3−1=2.
+The resulting sum is d1+d2+d3=0+1+2=3. It can be shown that it is impossible to achieve a smaller value..
+
+
+
+Author:
+pec_chapter
+
+
+Editorial:
+https://discuss.codechef.com/problems/SPRTD
+
+
+Tags:
+
+               
+                 array, dynamic-programming, medium, pec_chapter, recursion
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-04-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

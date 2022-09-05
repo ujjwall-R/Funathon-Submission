@@ -1,0 +1,90 @@
+
+The children in the school are to have their final results announced today! There are in total 1-N roll numbers of students.
+The children have received their scores but are unhappy with the marks they received. So they flock around teacher A in large groups to increase their marks. While at the same time, another
+teacher, Teacher B asks the students to say their marks. However, teacher B has a weird habit. She likes to note down the sum of the marks of the students in a range of roll numbers and notes down the average roll number in the range. 
+Your task is to keep track of the marks of the students and also give teacher B the ceiling value of the current average marks of a range of roll numbers.
+Note: Ceiling value refers to the upper box function. Ceiling value of 4.2 is 5. Ceiling value of 5.8 is 6.
+Input:
+
+First-line will contain NN, the number of children with roll numbers from 1 to N.
+The next line contains NN space-separated integers M signifying the initial marks that the children received.
+The next contains Q or the number of Queries that you will have to process.
+The following Q lines contain the queries. Each query has 3 integers a,bandc.
+if a is 0, then its a query of type 0 in which you will have to update the marks of a student with roll number b by c marks.
+if a is 1, then its a query of type 1 in which you will have to give the ceiling value of the average marks of students from roll number b to c.
+
+Output:
+For every Query of type 1, you will have to print a single integer representing the ceiling value of the average marks of the range of roll numbers supplied in the query.
+Constraints
+
+1≤n≤100000
+1≤M≤20
+1≤Q≤1000000
+0≤a≤1
+1≤b,c≤n in case of Query of type 1
+1≤b≤n, 1≤c≤10 in case of Query of type 2
+
+Sample Input:
+6
+5 7 10 5 2 5
+5
+0 1 10
+1 1 5
+0 2 5
+1 2 6
+1 1 6
+
+Sample Output:
+8
+7
+9
+
+
+
+
+Author:
+4★arnie8991
+
+
+Editorial:
+https://discuss.codechef.com/problems/ECJN208
+
+
+Tags:
+
+               
+                 arnie8991, enju2020, medium, segment-tree
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+19-06-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

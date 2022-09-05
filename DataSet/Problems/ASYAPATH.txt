@@ -1,0 +1,108 @@
+
+
+Asya is a very intelligent girl and today she has come with a very interesting challenge for you.
+
+ 
+
+She has given you a matrix of size N x M. You have to travel through the matrix from (1, 1) to (N, M) and the only moves allowed from a cell (x, y) are (x + 1, y) or (x, y + 1).
+
+ 
+
+Sounds easy right !!
+
+ 
+
+Well, to make it lil more challenging, Asya has kept D disks on some cells of the matrix. She has given you a list of coordinates of the cells which have a disk on them. She has given you the following information about the disks:
+
+
+One cell can have at max one disk.
+If you reach a cell which has a disk, you have to take the disk, you can't leave it there.
+The radius of the i-th disk is (D - i + 1). For example if list has 3 disks, the radii of the disks are 3, 2 and 1 respectively.
+As you move through the matrix and pick up disks, you have to keep making a pile of disks, and to keep it stable, you have to keep the disks in ascending order of radius from top.
+You can't insert a disk at bottom or in between the disks you already have in pile, you have to insert the new disk at the top only.
+
+ 
+
+Following these rules, she has asked you to find the number of ways to reach (N, M) with exactly X number of disks in your pile. You have to print the answer for every X from 0 to D inclusive.
+
+ 
+
+As the answer can be very large, print the answer modulo 109 + 7
+
+Input : 
+
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a two integers N, M denoting the size of matrix.
+The second line of each test case contains a single integers  D, denoting the number of disks in the matrix.
+Two lines follow with D integers each, denoting rows of all the disks and columns of all the disks present in the matrix, respectively.
+
+ 
+Output : 
+
+For each test case, output a single line containing D + 1 integers, where i-th integer is the number of ways to reach (N, M) from (1,1) with exactly i number of disks in pile. (i ranges from 0 to D inclusive).
+
+ 
+Constraints : 
+
+1 ≤ T ≤ 5
+1 ≤ N, M ≤ 105
+0 ≤ D ≤ 102
+
+ 
+Example
+Input:
+1
+3 3 
+3
+1 1 1
+1 2 3
+
+Output:
+0 3 2 1
+
+ 
+
+
+
+Author:
+4★pakhandi
+
+
+Tags:
+
+               
+                 dynamic-programming, pakhandi
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+10-09-2016
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

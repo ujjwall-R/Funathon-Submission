@@ -1,0 +1,82 @@
+
+          
+            A POLYGON is drawn,whose vertices are points on a Lattice,a regularly spaced array of points .M and N are the number of inside and boundary points of the polygon respectively.You have to find the area of the polygon. 
+
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains of a single line of input, two integers M,N. 
+
+Output:
+For each testcase, output in a single line the area of the polygon.
+
+Constraints
+ 1≤T≤100
+ 3≤M≤109
+ 0≤N≤109
+
+
+Input:
+1
+10 12
+
+Output:
+15
+
+
+            
+            
+            
+            
+            
+        
+
+        
+
+
+Author:
+3★srthere
+
+
+Editorial:
+https://discuss.codechef.com/problems/REA
+
+
+Tags:
+
+               
+                 cakewalk, srthere
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+23-01-2019
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

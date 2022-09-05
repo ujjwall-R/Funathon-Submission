@@ -1,0 +1,85 @@
+
+There are nn friends. The ithith friend has AiAi coins.  You are also given an integer R
+Define a transaction as transfer of one coin from one friend to another. They can do as many transactions as they want under the constraint that:
+
+For any ordered pair of friends i and j, the number of transactions from i to j doesn't exceed R
+
+What is the maximum possible number of coins the friend with minimum coins can have in the end?
+Please note that the number of coins held by a person can't go negative at any time in the process of transactions.
+Input
+
+First line will contain n and R.
+Then second line contains n integers separated by a space, A1,A2,…,An.
+
+Output
+Print the maximum possible number of coins the friend with minimum coins can have in the end.
+Constraints
+
+1≤n≤105
+1≤Ai≤109
+1≤R≤103
+
+Example Input
+3 1
+1 3 5
+
+Example Output
+3
+
+Explanation
+Do the following transactions:
+1) 3 → 1
+2) 3 → 2
+3) 2 → 1
+
+
+
+Author:
+7★jtnydv25
+
+
+Editorial:
+https://discuss.codechef.com/problems/TRANSACT
+
+
+Tags:
+
+               
+                 Min Cut Max flow
+                 
+                     
+                     Advanced Algorithms, Advanced Graph Algos, Flow Networks
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-12-2019
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

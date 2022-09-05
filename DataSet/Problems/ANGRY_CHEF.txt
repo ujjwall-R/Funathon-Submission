@@ -1,0 +1,119 @@
+
+This morning Chef woke up with an uncontrollable urge to send a text message. But, can you believe it? His new phone just crashed and all of the words are missing from its dictionary! There used to be NN words in there, and he certainly doesn't have time to add all of them back right now.
+His plan is to just choose KK distinct words of the NN possible words, add them to the phone's dictionary, and then text each of them. To text a certain word, he must either type the word itself, or any nonempty prefix of it which is not a prefix of any other word in the dictionary.
+Can you help chef find out the minimum number of letters he must type to send the message of K words?
+Input Format
+
+First line will contain T, number of testcases. Then the testcases follow.
+For each testcase, the first line contains space-separated integers N and K.
+Then, N lines follow, each containing a word that used to be in the phone's dictionary.
+
+Output Format
+
+For the i-th test case, print a line containing "Test Case #i: "  followed by the minimum number of characters Chef needs to type to send the text message.
+
+Constraints
+
+1≤T≤20
+2≤N≤4,000
+1≤K≤min(N−1,100)
+The N words will have a total length of no more than 20,000 characters.
+The words are made up of only lower-case alphabetic characters.
+The words are pairwise distinct.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+6 4
+tin
+tiny
+tinny
+gigantic
+tilt
+tilts
+3 2
+apple
+apricot
+cherry
+5 3
+a
+aa
+aaa
+aaaa
+aaaaa
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Test Case #1: 11
+Test Case #2: 2
+Test Case #3: 6
+
+
+Explanation
+In the first case, one option is to choose the words "tin", "tinny", "gigantic", and "tilts". You can then text these words by typing "tin", "tinn", "g", and "til", respectively, for a total of 3+4+1+3=11 letters.
+
+
+
+Author:
+4★darknight_1729
+
+
+Tester:
+4★darknight_1729
+
+
+Editorial:
+https://discuss.codechef.com/problems/ANGRY_CHEF
+
+
+Tags:
+
+               
+                 darknight_1729, dynamic-programming, hard, trie
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+4-03-2022
+
+
+Time Limit:
+0.15 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

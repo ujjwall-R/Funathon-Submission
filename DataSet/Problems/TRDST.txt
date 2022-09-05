@@ -1,0 +1,104 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a connected graph with NN vertices (numbered 11 through NN) and N−1N−1 bidirectional edges. Also, you are given a sequence K1,K2,…,KNK1,K2,…,KN.
+Let's denote the distance between vertices uu and vv by d(u,v)d(u,v). Next, for each valid ii, let's define DiDi as the maximum integer such that there are at least KiKi vertices vv with d(i,v)>Did(i,v)>Di. (It can be proven that such integers exist for the given constraints.)
+Your task is to find the values of D1,D2,…,DND1,D2,…,DN.
+Input
+
+The first line of the input contains a single integer NN.
+The second line contains NN space-separated integers K1,K2,…,KNK1,K2,…,KN.
+Each of the next N−1N−1 lines contains two space-separated integeres uu and vv denoting that vertices uu and vv are connected by an edge.
+
+Output
+Print a single line containing NN space-separated integers D1,D2,…,DND1,D2,…,DN.
+Constraints
+
+1≤N≤1051≤N≤105
+1≤Ki≤N−11≤Ki≤N−1 for each valid ii
+1≤u,v≤N1≤u,v≤N
+
+Subtasks
+Subtask #1 (20 points): 1≤N≤1031≤N≤103
+Subtask #2 (80 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+8
+1 2 3 6 6 4 5 2
+1 2
+2 3
+2 5
+2 6
+4 5
+5 7
+5 8
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2 1 2 1 0 1 1 2
+
+
+
+
+
+Author:
+7★daniel_1999
+
+
+Editorial:
+https://discuss.codechef.com/problems/TRDST
+
+
+Tags:
+
+               
+                 Centroid Decomposition, Lowest Common Ancestor, Euler Tour, Prefix Sum, Range Minimum Queries
+                 
+                     
+                     Advanced Algorithms, Advanced Graph Algos, Algorithms, Graph Algos, Traversals, Simple Algos, Queries
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2382
+
+
+Date Added:
+27-01-2019
+
+
+Time Limit:
+5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

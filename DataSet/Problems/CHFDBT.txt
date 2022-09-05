@@ -1,0 +1,104 @@
+
+Akash has his maths test tomorrow. He secretly found out one of the questions from the test.
+As the test is online, he wants to write a code that solves the question. However, he is not good at coding and thus, wants Chef to help him with that.
+Chef is given a function F(X)F(X) such that the condition:
+
+F(X)=F(2⋅X)F(X)=F(2⋅X)
+holds true for all XX, where X is a positive integer.
+
+For a given positive integer N, find the maximum number of distinct elements in the array [F(1),F(2),F(3),…,F(N)].
+Input Format
+
+First line will contain T - the number of test cases. Then the test cases follow.
+Each test case contains a single line of input, one integer N.
+
+Output Format
+For each test case, output in a single line, the maximum number of distinct elements in the array [F(1),F(2),F(3),…,F(N)].
+Constraints
+
+1≤T≤1000
+1≤N≤109
+
+Subtasks
+
+Subtask 1 (30 points): 1≤N≤1000
+Subtask 2 (70 points): Original Constraints.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+2
+5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+3
+
+
+Explanation
+Test case 1: Let X=1. Thus, 2=2⋅1=2⋅X. Therefore, F(1)=F(2). So, in the array [F(1),F(2)], there is only 1 distinct element.
+Test case 2: Here, we can take X=1. Thus F(1)=F(2). Similarly, if we take X=2, F(2)=F(4). This means that F(1)=F(2)=F(4).
+However, it can be possible that the values F(1),F(3), and F(5) are distinct. Hence, the maximum number of distinct elements in the array [F(1),F(2),F(3),F(4),F(5)] is 3.
+
+
+
+Author:
+4★justfun21
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHFDBT
+
+
+Tags:
+
+               
+                 cakewalk, justfun21, march221, math
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1121
+
+
+Date Added:
+7-02-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

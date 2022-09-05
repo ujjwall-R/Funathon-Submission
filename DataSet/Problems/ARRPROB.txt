@@ -1,0 +1,80 @@
+
+Shahid is a computer science student and his teacher gave him a simple question to solve within time but he is little busy in his life, so he asked you to solve this problem.
+Problem statement : You have been given an array of positive integers  A1,A2,...,An with legnth N and you have to print an array of same legnth(N) where the values in the new array are the sum of every number in the array, except the number at that index.
+
+Input:
+
+The first line of input contains a single integer T denoting the number of test cases.
+Each test cases contain two lines.First line contains N, the length of the array and second line contains N space separated positive integers.
+
+Output:
+ For each test case, output a single array of same length.
+
+Constraints:
+
+1 ≤ T ≤ 100
+1 ≤ N ≤105
+0 <= A[i] <= 109
+
+
+Example:
+Input
+ 2
+ 4
+ 1 2 3 4
+ 3
+ 4 5 6
+Output
+ 9 8 7 6
+ 11 10 9 
+Explanation
+Test case 1: For the first index, the result will be 2+3+4= 9, similarly for the second, third and fourth index the corresponding results will be 8, 7 and 6 respectively.
+
+
+
+Author:
+3★dshahid380
+
+
+Editorial:
+https://discuss.codechef.com/problems/ARRPROB
+
+
+Tags:
+
+               
+                 array, dshahid380, dshahid380, encoding, horsbug98
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+3-08-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

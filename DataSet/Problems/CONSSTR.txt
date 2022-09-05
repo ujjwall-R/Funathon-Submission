@@ -1,0 +1,109 @@
+
+Read problems statements in Mandarin Chinese, Russian, and Bengali as well.
+Consider a string s. The following operation can be performed on it successively several (possibly zero) times. 
+
+Select any non empty suffix of s and append it to s
+
+For example, if s=abcd, then s can become either abcdd, abcdcd, abcdbcd or abcdabcd after one operation. Successive operations are now performed on the new string.
+You are given a string t, the resultant string after applying several (possibly zero) operations on some string. You must find any such string s of the shortest length from which t can be obtained after some sequence of operations. It can be proven that such a string always exists.
+Input Format
+
+The first line contains one number T, the number of test cases.
+The only line of each test case contains the string t.
+
+Output Format
+For each test case print a string s of the shortest possible length which satisfies the requirements. If there are multiple such strings, you may print any.
+Constraints
+
+1≤T≤100
+1≤|t|≤2⋅105
+String t contains only lowercase english alphabets.
+The total length of all the strings in the input is at most 2⋅105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+abbabbbabb
+abbbabbbb
+codechefcheff
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+ab
+ab
+codechef
+
+
+Explanation
+Test case 1: String ab satisfies the requirements.
+ab → abb → abbabb → abbabbbabb
+No string of length less than 2 exists from which abbabbbabb can be obtained after some operations.
+Test case 2: String ab satisfies the requirements.
+ab → abb → abbb → abbbabbb → abbbabbbb
+Test case 3: String codechef satisfies the requirements.
+codechef → codechefchef → codechefcheff
+
+
+
+Author:
+7★um_nik
+
+
+Editorial:
+https://discuss.codechef.com/problems/CONSSTR
+
+
+Tags:
+
+               
+                 Monotonic stack, String, Suffix Automaton, Suffix Arrays, Sparse Table, Lazy Propagation, HLD, Dynamic Programming, Longest Common Prefix, DFS
+                 
+                     
+                     Data Structures, Stacks, Advanced Data Structures, Suffix Structures, Advanced Tree Structures, Segment Trees, Advanced Algorithms, Advanced Graph Algos, Algorithms, DP on sequences, Graph Algos, Traversals
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3229
+
+
+Date Added:
+19-08-2021
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

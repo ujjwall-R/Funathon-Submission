@@ -1,0 +1,122 @@
+
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef has an array A consisting of N elements. He wants to find number of pairs of non-intersecting segments [a, b] and [c, d] (1 ≤ a ≤ b < c ≤ d ≤ N) such there is no number that occurs in the subarray {Aa, Aa+1, ... , Ab} and   {Ac, Ac+1, ... , Ad} simultaneously. 
+Help Chef to find this number.
+Input
+
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N denoting the number of elements in the array.
+The second line contains N space-separated integers A1, A2, ..., AN. 
+
+Output
+
+For each test case, output a single line containing one integer - number of pairs of non-intersecting segments. 
+
+Constraints
+
+1 ≤ T ≤ 5
+1 ≤ N ≤ 1000
+1 ≤ Ai ≤ 109
+
+Subtasks
+Subtask 1 (7 points)
+
+1 ≤ N ≤ 20
+
+Subtask 2 (34 points)
+
+1 ≤ N ≤ 300
+
+Subtask 3 (59 points)
+
+Original constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+3
+1 2 3
+4
+1 2 1 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+5
+4
+
+
+Explanation
+Example case 1.
+All possible variants are correct: {[1, 1], [2, 2]}, {[1, 1], [2, 3]}, {[1, 2], [3, 3]}, {[2, 2], [3, 3]}, {[1,1], [3, 3]}.
+
+Example case 2.
+Correct segments: {[1, 1], [2, 2]}, {[1, 1], [4, 4]}, {[2, 2], [3, 3]}, {[3, 3], [4, 4]}.
+
+
+
+Author:
+6★antoniuk1
+
+
+Tester:
+7★mugurelionut
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHSGMNTS
+
+
+Tags:
+
+               
+                 Sets, Disjoint Set Union, Loops, Dynamic Programming, Implementation
+                 
+                     
+                     Data Structures, Advanced Data Structures, Basic Programming Concepts, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2210
+
+
+Date Added:
+18-07-2015
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

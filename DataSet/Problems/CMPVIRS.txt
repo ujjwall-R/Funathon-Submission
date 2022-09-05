@@ -1,0 +1,82 @@
+
+There are NN computer screens in a line from left to right. The ithith screen from left displays number i(1≤i≤N)i(1≤i≤N). Now these computer screens are divided into m groups. You are given d1,d2,d3....dm(1≤d1≤d2≤d3...≤dm and ∑mi=1di=N). This means that 1st group contains screens displaying numbers from 1 to d1, 2nd group contains numbers from  d1+1 to d1+d2 and so on. Now there is a computer virus which is infecting these computer screens. Initially, all screens are uninfected. 
+Now, these computers perform the following operations as long as there exists an uninfected screen: 
+During each operation step, two things happen. First, the virus infects the rightmost uninfected screen in each group. Then, every uninfected screen updates the value on its screen to the sum of all values on uninfected screens to its left, and its own screen, modulo 109+7. 
+For given N and  d1,d2...dm find sum of all numbers on the screens of the computers (eventually, after everything becomes infected, and this process stops) modulo 109+7.
+Input:
+
+First line contains two integers N  and m.
+Next line contains m space separated integers denoting the array d1,d2.....,dm.
+
+Output:
+Output in a single line sum of all numbers on the screens of computers modulo 109+7.
+Constraints
+
+2≤N≤107
+1≤m≤103
+∑mi=1di=N
+1≤d1≤d2≤...dm−1≤dm 
+
+Sample Input:
+6 2
+3 3
+Sample Output:
+33
+EXPLANATION:
+There are two groups.
+Group1    Group2
+1 2 3                4 5 6 (3 and 6 infected)
+1 3 3                   7 12 6 (update value on each uninfected screen by sum of all numbers on uninfected screens to its left including the current screen modulo 1000000007)
+1 3 3             7 12 6 (Now virus infects the rightmost uninfected computer in each group)
+1 3 3             8 12 6 (update value on each uninfected screen by sum of all numbers on uninfected screens to its left including the current screen modulo 1000000007)
+1 3 3        8 12 6(Virus infects the rightmost uninfected computer in each group)
+Answer = (1+3+3+8+12+6)% 1000000007 = 33
+
+
+
+Author:
+6★kr_abhinav
+
+
+Editorial:
+https://discuss.codechef.com/problems/CMPVIRS
+
+
+Tags:
+
+               
+                 Mathematics, Combinatorics
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3368
+
+
+Date Added:
+3-04-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

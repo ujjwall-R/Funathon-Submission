@@ -1,0 +1,66 @@
+
+ 
+Chef Purchased an array A having N Integer values,After Playing it for while,he got bored of it and decided to update value of its element.In one second he can increase value of each array element by 1.He wants each array element’s value to become greater than or equal to K,
+ Please Help Chef to find out the minimum amount of time it will take,for him to do so..
+
+Input
+  3 4 
+ 1 2 5 
+First line consists of two space separated integers denoting N and K.Second line of N space separated integers denoting the array A.        
+Output
+ 3 
+ print the minimum time in which all array elements will become greater than or equal to K 
+Constraints
+
+1<=T<=5
+1<=N<=10^5 
+1<=A[i],k<=10^6 
+
+
+
+Author:
+2★vivek96
+
+
+Editorial:
+https://discuss.codechef.com/problems/EXOCODE4
+
+
+Tags:
+
+               
+                 array, basic-programming, cakewalk, looping, minimum, vivek96
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+8-03-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

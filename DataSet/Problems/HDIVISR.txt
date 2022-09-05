@@ -1,0 +1,113 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given an integer NN. Find the largest integer between 11 and 1010 (inclusive) which divides N.
+Input
+The first and only line of the input contains a single integer N. 
+Output
+Print a single line containing one integer ― the largest divisor of N between 1 and 10.
+Constraints
+
+2≤N≤1,000
+
+Subtasks
+Subtask #1 (100 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+91
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+7
+
+
+Explanation
+The divisors of 91 are 1,7,13,91, out of which only 1 and 7 are in the range [1,10]. Therefore, the answer is max(1,7)=7.
+
+                        Sample Input 2
+                        
+
+
+
+
+
+24
+
+
+
+                        Sample Output 2
+                        
+
+
+
+
+
+8
+
+
+Explanation
+The divisors of 24 are 1,2,3,4,6,8,12,24, out of which 1,2,3,4,6,8 are in the range [1,10]. Therefore, the answer is max(1,2,3,4,6,8)=8.
+
+
+
+Author:
+daanish_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/HDIVISR
+
+
+Tags:
+
+               
+                 Brute Force
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+860
+
+
+Date Added:
+3-02-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

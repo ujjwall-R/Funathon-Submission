@@ -1,0 +1,102 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Alice has a very complex machine ― when fed with a sequence A1,A2,…,ANA1,A2,…,AN, it produces a sequence B1,B2,…,BNB1,B2,…,BN, where for each valid i, Bi is the largest index j such that Ai divides Aj (since Ai divides itself, such an index always exist). For example, if the machine is fed with A=[2,6,5,3,4], it produces B=[5,2,3,4,5].
+Alice gave you a sequence B that was produced by the machine. Find an integer sequence A such that when it is fed into the machine, then the machine produces the sequence B. Alice does not like huge integers, so make sure that 1≤Ai≤4⋅106 holds for each valid i.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers B1,B2,…,BN.
+
+Output
+For each test case, print a single line containing N space-separated integers A1,A2,…,AN. For each valid i, 1≤Ai≤4⋅106 should hold.
+If there are multiple solutions, you may print any of them. It is guaranteed that at least one solution exists.
+Constraints
+
+1≤T≤2⋅104
+1≤N≤105
+1≤Bi≤N for each valid i
+the sum of N over all test cases does not exceed 2⋅105
+
+Subtasks
+Subtask #1 (20 points): B1,B2,…,BN are pairwise distinct
+Subtask #2 (80 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+5
+5 2 3 4 5
+4
+4 4 4 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2 6 5 3 4
+2 6 3 12
+
+
+
+
+
+Author:
+4★vasyl_protsiv
+
+
+Editorial:
+https://discuss.codechef.com/problems/RESTORE
+
+
+Tags:
+
+               
+                 Sieve of Eratosthenes, ad-hoc, Primes
+                 
+                     
+                     Mathematics, Number Theory, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1513
+
+
+Date Added:
+30-09-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

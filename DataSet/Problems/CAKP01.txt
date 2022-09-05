@@ -1,0 +1,81 @@
+
+Rishabh gives you a number N and challenges you to check the divisibility of, all the numbers formed from permutations of digits of N, by 7.
+For ex. permutations of 103 will be 103, 130, 13, 31, 310, and 301.
+Print the number of distinct permutations of N that are divisible by 7.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains of a single integer, N.
+
+Output:
+For each testcase, output in a single line the number of distinct permutations of N that are divisible by 7.
+Constraints
+
+1≤T≤1000
+0≤N≤107
+
+Sample Input:
+4
+94
+27
+4104
+7619
+
+Sample Output:
+1
+0
+2
+3
+
+EXPLANATION:
+In the first test case, only 49 is a possible permutation divisible by 7.
+In the third test case, 4410 and 441 are possible permutations.
+
+
+
+Author:
+4★rishabhrathi22
+
+
+Editorial:
+https://discuss.codechef.com/problems/CAKP01
+
+
+Tags:
+
+               
+                 easy, math, permutation, rishabhrathi22
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-01-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,125 @@
+
+It's Valentine's Month, and so Chef wants to gift a string to Chefina. He knows that Chefina likes palindromic strings. Chef has a string S consisting of digits from 0 to 9. He wants to convert this to a palindrome by performing zero or more operations, where an operation is defined as follows:
+
+Pick any digit and replace all of its occurrences with any other digit.
+
+For example, if S=12123, in one move it can be turned into 14143 or 12128, but not 32123.
+You are also given N integers cost1,cost2,…,costN, where the cost of performing an operation that replaces X characters is costX.
+Your task is to help Chef minimize the cost of converting his string to a palindrome.
+Input Format
+
+The first line of the input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case consists of 3 lines of input.
+The first line of each test case contains a single integer N, denoting the length of the string.
+The second line of each test case contains a string of length N, consisting of only the digits 0 to 9.
+The third line of each test case contains N space-separated integers, denoting the cost array.
+
+Output Format
+For each test case, output on a new line the answer — the minimum cost to convert the string to a palindrome.
+Constraints
+
+1≤T≤103
+1≤N≤105
+S contains only the digits 0 to 9
+1≤costi≤105
+The sum of N over all test cases doesn't exceed 2⋅105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+4
+7572
+5 1 4 3
+3
+010
+1 3 2
+6
+437022
+5 1 3 2 1 1
+4
+1112
+4 2 3 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+5
+0
+7
+3
+
+
+Explanation
+Test case 1: Replace all occurrences of 7 with 2 and then replace all occurrences of 2 with 5, making the final string 5555. The cost of doing this is 1+4=5.
+Test case 2: The cost is 0 since the given string is already a palindrome.
+Test case 3: We perform the following operations:
+
+Replace 2 with 0 with a cost of 1.
+Replace 0 with 3 with a cost of 3.
+Replace 3 with 4 with a cost of 2.
+Replace 4 with 7 with a cost of 1.
+
+Therefore, the total cost is 1+3+2+1=7.
+Test case 4: We can replace all occurrences of 1 with 2, incurring a total cost of 3.
+In all the examples above, it can be shown that it is not possible to convert the string to a palindrome at a lower cost.
+
+
+
+Author:
+5★suman_18733097
+
+
+Editorial:
+https://discuss.codechef.com/problems/PALINLOVE
+
+
+Tags:
+
+               
+                 bitmasking, dynamic-programming, medium, start24, suman_18733097
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3077
+
+
+Date Added:
+26-01-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

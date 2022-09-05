@@ -1,0 +1,63 @@
+
+ 
+Chef  like  palindrome strings more than normal trings ,so chef Just want to check if characters of a given string can be rearranged to form a palindrome string or not.
+ Help him to check, print YES if its possible,else print NO
+ 
+Input
+aaaabbbwwww
+Output
+ YES 
+Explanation 
+ Possible arrangement is waawbbbwaaw,which is palindrome string.
+
+Constraints
+1<=|s<=10^6|,string s contains only lowercase alphabets 
+
+
+
+Author:
+2★vivek96
+
+
+Editorial:
+https://discuss.codechef.com/problems/EXOCODE3
+
+
+Tags:
+
+               
+                 algorithm, hashing, important, palindrome, strings, vivek96
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+8-03-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,83 @@
+
+Ish went to a Trikon City where all the houses are triangular in shape. There he saw a lot of food shortage among the people due to the impact of COVID-19. His father is a government official, so he decided to help those poor people by supplying the food on their building with the help of jet-planes. The buildings are represented by three pairs of points, (x1,y1),(x2,y2)and(x3,y3)(x1,y1),(x2,y2)and(x3,y3). The jets flight direction is either parallel to x axis or y-axis. These jets drop the food packets on the every buiding they fly over on their flight. If a packet falls on the boundary of building then it will fell down and get wasted. No two buildings touch each other. Omi wants to figure out the number of buildings receiving the food packets on each flight. He wants your help to figure it out as he is not good in geometry.
+Input:
+
+First line of the input contains, NN, the number of buildings
+Next N lines contains 6 space separated integers, representing the pairs of cordinates of the    building
+Next line contains M, the number of fighter jets.
+Next M lines contains a single line equation representing their  flight in form x = c or y = c.
+Note : Note the space around the equal sign in the equation.
+
+Output:
+Output a single line integer, the number of buildings received the food packets on their roofs on each flight.
+Constraints
+
+2≤N≤105
+0≤x,y≤106
+0≤M≤106
+0≤c≤106
+
+Sample Input:
+ 3
+ 1 0 0 2 2 2
+ 1 3 3 5 4 0 
+ 5 4 4 5 4 4
+ 3
+ x = 1
+ x = 2
+ y = 1
+
+Sample Output:
+ 1
+ 1
+ 2
+
+
+
+
+Author:
+4★insanenerd2507
+
+
+Editorial:
+https://discuss.codechef.com/problems/ISHGRAPH
+
+
+Tags:
+
+               
+                 dynamic-programming, insanenerd2507, lico2020, two-pointers
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+20-06-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

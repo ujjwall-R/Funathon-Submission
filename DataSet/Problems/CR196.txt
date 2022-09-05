@@ -1,0 +1,92 @@
+
+Captain America: "We lost, all of us. We lost friends. We lost family. We lost a part of ourselves. This is the fight of our lives. "
+Black Widow: "This is gonna work Steve."
+Captain America: "I know it is. Cuz I don't know what I am gonna do if it doesn't" 
+
+Captain America decides that they need to go back in time to prevent the events of the Civil War from happening in the first place. This will enable them to face Thanos together in the altered reality.   
+
+The structure of the pathway to the different alternate realities is in the form of a tree. 
+This tree has NN different realities, and these different realities are connected by means of N−1N−1 bi-directional edges.
+The ithith edge connects reality xi and yi and has a fortune fi associated with it. 
+ 
+They want to choose a path on the given tree which will lead them to the maximum fortune possible. In general, an edge can only be traversed atmost one time. 
+But, Rocket Racoon with his hack made M of the edges GROOTED i.e. these M edges can be traversed at most twice.
+
+Help the Avengers find out the maximum fortune they can obtain. 
+Input:
+
+First line will contain two space separated integers - N and M.
+Second line comprises M space separated integers vali, denoting the indices of the GROOTED edges
+N−1 lines follow. Each of them comprises 3 space separated integers - xi, yi and fi as stated above.
+
+Output:
+Output in a single line answer the maximum fortune that can be obtained. 
+Constraints:
+
+1≤N≤105
+1≤M≤N−1
+1≤vali≤N−1
+1≤xi,yi≤N
+1≤fi≤109
+
+Sample Input:
+5 1
+2
+1 3 4
+1 5 6
+4 1 5
+4 2 3
+Sample Output:
+24
+EXPLANATION:
+The second edge between reality 1 and reality 5 is a GROOTED edge, and hence can be traversed twice.
+One of the paths is 2→4→1→5→1→3. The fortune collected via this path is 3+5+6+6+4=24
+
+
+
+Author:
+5★shauryakr
+
+
+Editorial:
+https://discuss.codechef.com/problems/CR196
+
+
+Tags:
+
+               
+                 cord2019, medium-hard, shauryakr
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+23-02-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

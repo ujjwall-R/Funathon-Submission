@@ -1,0 +1,89 @@
+
+Abhay is a bad boy and plans to steal things from a houses. Every house has a different amount of wealth to steal from. Abhay is very strict with his rules. He plans to rob only alternative houses. Help Abhay in doing so by taking care of his privacy and in a way that he does not get caught. You are given an integer vector showcasing the wealth of houses, your motive is to help Abhay figure out the maximum wealth he can steal going by his rules
+Input Format
+
+First-line contains the size of the array 
+The second line contains n numbers
+
+Output Format
+output in a single line answer
+Constraints
+
+1≤Array.length≤1001≤Array.length≤100
+2≤Array[i]≤10002≤Array[i]≤1000
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5
+2 7 9 3 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+12
+
+
+Explanation
+Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (money = 1).
+Total amount you can rob = 2 + 9 + 1 = 12
+
+
+
+Author:
+test_account_9
+
+
+Editorial:
+https://discuss.codechef.com/problems/PLANS
+
+
+Tags:
+
+               
+                 c-plus-plus, med-hard, test_account_9
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+14-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

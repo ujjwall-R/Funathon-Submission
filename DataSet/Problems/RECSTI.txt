@@ -1,0 +1,103 @@
+
+MoEngage has a bundle of NN sticks. The ithith stick has a length Li meters. 
+Find the minimum number of sticks (of any length) you need to add to the bundle such that you can construct some rectangles where each stick of the bundle belongs to exactly one rectangle and each side of a rectangle should be formed with exactly one stick.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N, denoting the number of given sticks.
+The second line of each test case contains N space-separated integers L1,L2,…,LN, denoting the length of the sticks.
+
+Output Format
+For each test case, output in a single line, the minimum number of sticks you need to add to the bundle to satisfy the given conditions.
+Constraints
+
+1≤T≤1000
+1≤N≤100
+1≤Li≤100
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+1
+1
+2
+2 5
+4
+2 2 3 3
+7
+1 3 5 7 1 7 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+2
+0
+1
+
+
+Explanation
+Test case 1: One possible way is to add 3 sticks with lengths 1,2, and 2. Now, it is possible to construct a rectangle with one pair of opposite sides having a length of 1 and another pair of opposite sides having a length of 2.
+Test case 2: The optimal way is to add 2 sticks with lengths 2 and 5. Now, it is possible to construct a rectangle with one pair of opposite sides having a length of 2 and another pair of opposite sides having a length of 5.
+Test case 3: There is no need to add more sticks to the bundle as it is possible to construct a rectangle using the given sticks.
+
+
+
+Author:
+5★soumyadeep_21
+
+
+Editorial:
+https://discuss.codechef.com/problems/RECSTI
+
+
+Tags:
+
+               
+                 cook140, implementation, math, simple, soumyadeep_21
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1555
+
+
+Date Added:
+1-04-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

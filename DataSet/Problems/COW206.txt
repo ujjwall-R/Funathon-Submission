@@ -1,0 +1,79 @@
+
+Our hero Jonathan Joestar has come to the supermarket to buy apples. However, each apple has different nutritional value and a different cost. On top of that, some apples might be poisoned.
+Luckily Jonathan's grandfather Joseph Joestar has already informed him which apples are poisoned. 
+Jonathan has only a fixed amount of money. Help Jonathan choose apples with the maximum nutritional value that he can buy avoiding all apples that have been poisoned.
+Input:
+
+First-line will contain 3 integers N,B,MN,B,M representing the number of apples, number of poisoned apples, amount of money that JoJo has.
+Next 2 lines contain NN space-separated integers denoting the cost and nutritional value of the ith apples. Let those lists be called cost,nutritioncost,nutrition.
+Next line contains B space-separated integers denoting indexes of the apples that are bad. (0-indexed). Let this list be called bad.
+
+Output:
+Output a single integer containing the total nutritional value of the apples that JoJo can buy with the money so that none of the apples is poisoned and the nutritional value is maximum.
+Constraints
+
+1≤N,B,M≤1000
+1≤cost[i]≤105
+1≤nutrition[i]≤105
+0≤bad[i]≤N−1
+
+Sample Input:
+ 4 1 10
+ 2 5 7 5
+ 125 22 569 544
+ 1
+
+Sample Output:
+  694
+
+EXPLANATION:
+Since 2nd apples, is poisoned JoJo cannot choose it. So the next best option that he can choose within the price that he has is the apple that costs 7 and apple that costs 2 giving JoJo 125+569 = 694 nutrition.
+
+
+
+Author:
+4★arnie8991
+
+
+Editorial:
+https://discuss.codechef.com/problems/COW206
+
+
+Tags:
+
+               
+                 arnie8991, cowc2020, dynamic-programming
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+27-03-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

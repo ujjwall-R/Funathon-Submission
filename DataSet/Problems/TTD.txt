@@ -1,0 +1,85 @@
+
+Alice gives Bob two integers A and N. Alice defines a series as follows
+Starting with A, next term in series is square of previous term i.e.
+T[N]=(T[N−1])2T[N]=(T[N−1])2
+T[1]=AT[1]=A
+Since NthNth term could be very large therefore she asks Bob to tell the unit digit of Nth term. Bob is currently busy with his homework can you solve this for him ?
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains of a single line of input, two integers A,N. 
+
+Output:
+For each testcase, output in a single line answer unit digit of Nth term.
+Constraints
+
+1≤T≤105
+0≤A≤109
+1≤N≤109
+
+Subtasks
+Subtask #1 (20 points):
+
+1≤T≤10
+1≤N≤2
+
+Subtask #2 (80 points): Original Constraints 
+Sample Input:
+1
+2 2
+
+Sample Output:
+4
+
+EXPLANATION:
+Series will be
+2,4 and unit digit of 2nd term is 4.
+
+
+
+Author:
+pec_chapter
+
+
+Editorial:
+https://discuss.codechef.com/problems/TTD
+
+
+Tags:
+
+               
+                 array, math, observation, pec_chapter
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+23-04-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

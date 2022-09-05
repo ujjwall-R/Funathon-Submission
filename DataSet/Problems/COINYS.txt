@@ -1,0 +1,88 @@
+
+ 
+Shini has n toys on the shelf of her room. Each of her Toys have a name. When she tried to arrange them in 
+alphabetical order, she realized that the names of all her toys start with either K,M or L. If Shini arranges
+ all her toys in a random order (not in the alphabetical order) then find the least number of her toys that
+ can be taken off the shelf so that no two adjacent toys have names starting with the same letter.
+
+ 
+Input
+The first lint contains T,the number of test cases.
+The first line of each test cases contains integer n — the number of toys on the shelf.
+The next line contains string s, which represents the first letter of each toy in order. We'll consider
+ the toys in the row numbered from 1 to n from left to right. Then the i-th character s equals "K", if th
+ e i-th toy's name starts with K, "L", if it starts with L and "M", if it starts with M. 
+
+ 
+Output
+For each test cases print a single integer — the answer to the problem 
+Constraints
+1 ≤ T≤ 1000 
+1 ≤ N≤ 100000 
+ 
+Example
+Input:
+
+1
+5
+MLLKL
+
+Output:
+
+1
+
+ 
+Explanation
+Example case 1.
+In the given test case there are two adjacent toys whose names start with L. If any one of
+ those toys are removed then it is seen that the order of toys is MLKL and hence no two adjacent toys have the same name.
+
+
+
+
+Author:
+1★saquib_here
+
+
+Editorial:
+https://discuss.codechef.com/problems/COINYS
+
+
+Tags:
+
+               
+                 array, saquib_here
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+24-02-2018
+
+
+Time Limit:
+0.1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,97 @@
+
+
+Ants have developed advanced ways to find, distribute and make their own food, to such extent that, it has been said that ants eat more meat than lions wolves and tigers combined!
+Argentine ant is one of the world’s worst invasive species(Species which are not native to a specific location, but have tendency to spread to a degree to cause damage to the native 
+species of a region) present in the Norfolk Island. It forms supercolonies and are aggressive competitors, displacing most other ant species. It can alter ecosystem processes such as 
+pollination and seed dispersal of native plant species.
+The federal environment department is in its mission to wipe out the species from  Norfolk Island. So, they are carrying out a survey in T sites within the island examinig the 
+food sources. They know that the ant species can survive in a site only if the food available is more than K units or else they will eventually die out from the site. For every site, 
+they go around the region examining N food sources, and finding A[i], the unit of food available from the ith source(1 ≤ i ≤ N).
+
+Determine for each site, whether the ant species can survive or they die out from the specific site.
+
+Input
+
+The first line contains two space-separated integers T and K. Then, information of T sites of the island follow.
+For each T, the first line contains N, the number of food sources and the second line contains N space-separated integers, A[i] (1 ≤ i 
+≤ N).
+
+
+Output
+For each T, output "SUCCESS" without quotes, if the ant species die out or "FAILURE" if the ant species survives.
+
+Constraints
+
+1 ≤ T ≤ 100
+0 ≤ K ≤ 1018
+1 ≤ N ≤ 105
+0 ≤ A[i] ≤ 1013
+
+
+Example Input
+3 7
+2
+4 4
+5
+1 8 6 4 5
+1
+6
+
+
+Example Output
+FAILURE
+FAILURE
+SUCCESS
+
+
+
+Example case 1:In the region the total food available is 8 units. So the ants survive.
+
+
+
+Author:
+5★horsbug98
+
+
+Editorial:
+https://discuss.codechef.com/problems/ARGTS
+
+
+Tags:
+
+               
+                 array, beginner, encoding, horsbug98, horsbug98
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+5-09-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

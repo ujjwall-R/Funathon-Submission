@@ -1,0 +1,103 @@
+
+Alice has an array AA of length NN. She is interested in finding the number of pairs (i,j) such that 1≤i<j≤N and Ai⊕Aj<Ai&Aj.
+⊕ represents the Bitwise XOR operator.
+& represents the Bitwise AND operator.
+Input Format
+
+The first line of input will contain an integer T — number of test cases. Then the test cases follow.
+Each test case contains two lines of input.
+The first line of each test case contains an integer N, the length of the array A.
+The second line of each test case contains N space-separated integers A1,A2,…,AN. 
+
+Output Format
+For each test case, output the number of pairs (i,j) such that 1≤i<j≤N and Ai⊕Aj<Ai&Aj. 
+Constraints
+
+1≤T≤104
+1≤N≤105
+1≤Ai≤109
+Sum of N over all test cases does not exceed 3⋅105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+4
+1 1 2 3
+4
+1 2 3 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+1
+
+
+Explanation
+Test case 1: The two pairs of indices satisfying the condition are (1,2) and (3,4), because
+
+A1⊕A2=0 and A1&A2=1
+A3⊕A4=1 and A3&A4=2
+
+Test case 2: The only pair of indices satisfying the condition is (2,3).
+
+
+
+Author:
+lavish_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/XORAND
+
+
+Tags:
+
+               
+                 bit-manipulation, easy, lavish_adm, math, start31
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1625
+
+
+Date Added:
+20-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

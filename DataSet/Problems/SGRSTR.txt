@@ -1,0 +1,89 @@
+
+Problem Statement
+ When Sagar was in the 4th grade, his class teacher asked him a problem he hasn't been able to solve till date. The problem is as follows: Given a string S of length N how many substrings of the string S are also substrings of the string "....xyzabcdefghijklmnopqrstuvwxyzabc..."? Can you help Sagar solve this problem?
+Note: The string "....xyzabcdefghijklmnopqrstuvwxyzabc..." wraps around infinitely in both directions
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.The first line of each testcase contains N denoting the length of the string and the second line of each testcase contains the string S.
+S will be made of only lowercase alphabets.
+
+Output
+For each test case, output the required answer
+Constraints
+
+1<=T<=20
+
+1<=N<=10^5
+
+
+Example:
+Input:
+
+2
+4
+abcd
+3
+bae
+Output:
+
+10
+3
+Explanation:
+
+Testcase 1: The possible substrings are "a", "b", "c", "d", "ab", "bc", "cd", "abc", "bcd", "abcd".
+
+            
+            
+            
+            
+            
+        
+
+        
+
+
+Author:
+4★vedipen
+
+
+Editorial:
+https://discuss.codechef.com/problems/SGRSTR
+
+
+Tags:
+
+               
+                 easy, kjcs16, modulo, strings, vedipen
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+20-09-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

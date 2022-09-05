@@ -1,0 +1,123 @@
+
+ Read problems statements in Russian also.
+Chef likes playing with strings. The most interesting game are named "CHEF in string". The move of the game consists of the following: Chef takes a subsequence of string's letters that form the word "CHEF" and then he removes that symbols. The goal of the game is to make the maximal number of moves. Please, help Chef and tell him the maximal possible number of moves that he is able to make for the given string S.
+Input
+ The first line of each test case contains a given string. This string consists of uppercase letters from the set {"C", "H", "E", "F"}. 
+Output
+Output a single line containing the maximal possible number of moves.
+Constraints
+1  ≤ |S| ≤ 100000
+Scoring
+Subtask 1 (25 points): |S| ≤ 2000 
+Subtask 2 (75 points):  See the constraints. 
+
+                        Sample Input 1
+                        
+
+
+
+
+
+CHEFCHEFFFF
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+
+
+Explanation
+
+In the first move, Chef can pick the subsequence [1,2,3,4][1,2,3,4]. Thus the characters at these indices are C, H, E, and F. Chef removes this subsequence. The remaining string is CHEFFFF.
+In the second move, Chef can pick the indices [1,2,3,4] of the remaining string CHEFFFF as the subsequence. The characters at these indices are C, H, E, and F. Chef removes this subsequence. The remaining string is FFF.
+Chef cannot make any more valid moves.
+
+
+                        Sample Input 2
+                        
+
+
+
+
+
+CHHHEEEFFCC
+
+
+
+                        Sample Output 2
+                        
+
+
+
+
+
+1
+
+
+Explanation
+
+In the first move, Chef can pick the subsequence [1,2,5,8]. Thus the characters at these indices are C, H, E, and F. Chef removes this subsequence. The remaining string is HHEEFCC.
+Chef cannot make any more valid moves.
+
+
+
+
+Author:
+furko_adm
+
+
+Tester:
+6★xcwgf666
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHRL2
+
+
+Tags:
+
+               
+                 Dynamic Programming, ad-hoc, Observation
+                 
+                     
+                     Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1751
+
+
+Date Added:
+12-01-2014
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

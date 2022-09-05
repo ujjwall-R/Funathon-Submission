@@ -1,0 +1,111 @@
+
+You are shopping in a store that has nn magical stones. For each stone, there is a probability gg that you will put it in your bag. The value g is the same for all stones, all stones are independent, and you are given the value of g modulo 998 244 353.
+Suppose when you checkout, you have r stones in your bag. Then you will be charged a price of (ar+b)k magical coins, where a,b,k are constants. What is the expected value of the price you will pay, for all 1≤k≤kmax? Find the expected values modulo 998 244 353.
+Input
+
+The first line contains five integers n, kmax, a, b, g
+
+Output
+
+For all 1≤k≤kmax, print the expected value of the price modulo 998 244 353.
+
+Constraints
+
+1≤n≤109
+1≤kmax≤5⋅105
+1≤a≤998 244 352
+0≤b≤998 244 352
+1≤g≤998 244 352
+
+Subtasks
+Subtask #1 (5 points):
+
+1≤n≤1000
+1≤kmax≤1000
+
+Subtask #2 (20 points):
+
+1≤n≤109
+1≤kmax≤100
+
+Subtask #3 (50 points):
+
+1≤n≤109
+1≤kmax≤5⋅104
+
+Subtask #4 (25 points):
+original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+11 3 1 0 499122177
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+499122182 33 249561300
+
+
+
+
+
+Author:
+5★zankanotachi
+
+
+Editorial:
+https://discuss.codechef.com/problems/XX
+
+
+Tags:
+
+               
+                 Bitmasking, Expected Value, Generating Functions, NTT
+                 
+                     
+                     Mathematics, Bit Manipulation, Probability, Sequences and Progression, Transformations
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2937
+
+
+Date Added:
+23-04-2021
+
+
+Time Limit:
+5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

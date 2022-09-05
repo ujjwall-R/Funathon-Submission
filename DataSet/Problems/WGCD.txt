@@ -1,0 +1,112 @@
+
+You are given an integer sequence A=(A1,A2,…,AN)A=(A1,A2,…,AN) of length N and an integer M such that 0≤M<N∑i=1Ai.
+An integer sequence B=(B1,B2,…,BN) of length N is called good if:
+
+0≤Bi≤Ai for each 1≤i≤N
+B1+B2+⋯+BN=M
+
+Find the maximum value of gcd(A1−B1,A2−B2,…,AN−BN) over all good sequences B. Here, gcd denotes  the greatest common divisor.
+Note: gcd(a,b,c)=gcd(a,gcd(b,c)) and gcd(a,0)=gcd(0,a)=a.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N,M.
+The second line of each test case contains N space-separated integers A1,A2,…,AN.
+
+Output Format
+For each test case, print a single line containing one integer — the maximum value of gcd(A1−B1,A2−B2,…,AN−BN) over all good sequences B.
+Constraints
+
+1≤T≤10
+1≤N≤105
+1≤Ai≤105
+0≤M<N∑i=1Ai
+
+Subtasks
+Subtask #1 (50 points): 1≤N≤104
+Subtask #2 (50 points): Original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+4 4
+1 3 5 7
+4 4
+5 5 5 5
+4 0
+4 6 9 12
+6 10
+15 9 3 8 14 17
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+4
+1
+7
+
+
+Explanation
+Test case 1: The optimal strategy is to take B=(1,0,2,1). The answer is gcd(1−1,3−0,5−2,7−1)=gcd(0,3,3,6)=3.
+Test case 2: The optimal strategy is to take B=(1,1,1,1). The answer is gcd(5−1,5−1,5−1,5−1)=gcd(4,4,4,4)=4.
+
+
+
+Author:
+5★soumyadeep_21
+
+
+Editorial:
+https://discuss.codechef.com/problems/WGCD
+
+
+Tags:
+
+               
+                 easy-medium, feb222, greatest-common-divisor, pre-computation, soumyadeep_21
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2563
+
+
+Date Added:
+24-12-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

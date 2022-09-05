@@ -1,0 +1,86 @@
+
+ 
+
+Mannai Sadhik was an internet craze, and all girls fell in love the second they set their eyes on him. He was getting tired of being a   legend, celebrity, kadhal mannan, chocolate boy   and decided to conduct a competition to filter out potential candidates for the post of his WIFE. 
+
+
+Mannai would give the girls a number N. The girls had to give Mannai the smallest lexicographical palindrome of length N, where the palindrome consisted of  lowercase English characters only.
+  Since this was an easy problem, Mannai added a special condition to it. The palindrome should not have any character repeated more than once!
+
+ If it is not possible to obtain a palindrome of length N that satisfies all the conditions, print  "-1" without quotes.  
+
+Please help the girls so that they can unite with our Kadhal Mannan, Mr. Mannai Sadhik! 
+ Lexicographic order is an order in which words are displayed in alphabetical order using the appearance of letters in the word. It is also know as dictionary order or alphabetical order 
+Input
+The first line of the input consists of T, the number of test cases. 
+Each test cases consists of N, the length of the required palindrome.
+ 
+Output
+For each test case, print the required palindrome in a single line, if it exists. If it does not exist, print "-1" without quotes.
+ 
+Constraints
+ 1 <= T <= 50 
+ 1 <= N <= 26 
+ 
+Example
+Input:
+1
+1
+
+Output:
+a
+
+ 
+Explanation
+ 
+There is one test case, and in that case, N = 1. 
+'a' is the lexicographically smallest palindrome of length 1, which does not have any repeating characters. Hence we print that. 
+
+
+
+Author:
+5★akshayvenkat97
+
+
+Editorial:
+https://discuss.codechef.com/problems/PALINREP
+
+
+Tags:
+
+               
+                 akshayvenkat97, cakewalk, palindrome, popc2018
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+14-01-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

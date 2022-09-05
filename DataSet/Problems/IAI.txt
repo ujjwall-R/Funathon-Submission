@@ -1,0 +1,111 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Vivek believes that this problem is the hardest problem ever and no one can solve it. Please prove him wrong.
+You are given a sequence A1,A2,…,ANA1,A2,…,AN and M intervals [L1,R1],[L2,R2],…,[LM,RM]. For any subset S of these intervals:
+
+If S is non-empty, let's define L=maxi∈S(Li) and R=mini∈S(Ri).
+The set S is disjoint if S is empty or L>R. Otherwise, the intersection of the intervals from this set is the interval [L,R].
+If S is not disjoint, its value is ∑Rj=L(j−L+1)⋅Aj.
+
+Find the maximum of values of all non-disjoint subsets of the given intervals.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+The second line contains N space-separated integers A1,A2,…,AN.
+M lines follow. For each i (1≤i≤M), the i-th of these lines contains two space-separated integers Li and Ri.
+
+Output
+For each test case, print a single line containing one integer ― the maximum value of a non-disjoint subset.
+Constraints
+
+1≤T≤5
+1≤N≤105
+1≤M≤5⋅104
+|Ai|≤106 for each valid i
+1≤L≤R≤N
+
+Subtasks
+Subtask #1 (30 points): 1≤M≤3⋅103
+Subtask #2 (70 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+3 2
+-2 1 -2
+1 2
+2 3
+3 2
+2 3 4
+1 2
+2 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+11
+
+
+Explanation
+Example case 1: It is optimal to choose the intervals [1,2] and [2,3]. Their intersection is the interval [2,2] (so the set of these two intervals is not disjoint) and its value is A2⋅1=1.
+
+
+
+Author:
+7★vivek_1998299
+
+
+Tags:
+
+               
+                 Segment Trees, Convex Hull, Prefix Sum
+                 
+                     
+                     Advanced Data Structures, Advanced Tree Structures, Advanced Algorithms, Computational Geometry, Polygons, Algorithms, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-05-2019
+
+
+Time Limit:
+4 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,72 @@
+
+Given N, and an N * N matrix, print the integers of the matrix (in a space separated format) in the spiral order, clockwise starting from the top left corner.
+Input:
+
+The first line will contain N.
+N*N matrix follows, i.e the next N lines contain N integers each.
+
+Output:
+Print the elements of the array separated by space in the manner as described above.
+Constraints
+
+1≤N≤1000
+
+Sample Input:
+4
+1 2 3 4
+12 13 14 5
+11 16 15 6
+10 9 8 7   
+Sample Output:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+EXPLANATION:
+Test case is self explanatory.
+
+
+
+Author:
+3★ayush163
+
+
+Editorial:
+https://discuss.codechef.com/problems/BC204
+
+
+Tags:
+
+               
+                 2-d-array, ayush163, easy-medium
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-04-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

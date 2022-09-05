@@ -1,0 +1,82 @@
+
+AliceAlice and BobBob were fond of playing. One day, AliceAlice came up with a game of power of two. The game is as follows:
+
+Alice starts the game.
+Bob gives Alice a number.
+If the number is a power of 2, divide it by 2 and change the turn, else subtract the highest power of 2 and change the turn.
+Continue until 1 is left.
+
+The person who cannot move further loses the game.
+
+Input:
+-The first line of each input consists of a test case t.
+-In every line of the t lines that follow, is given a number n.
+
+Output:
+-Output "Alice" if Alice is a winner, else output "Bob".
+
+Constraints:
+1 <= n <= 2^64 - 1
+1 <= t <= 10
+
+Sample Input:
+2
+1
+6
+
+Sample Output:
+Bob
+Bob
+
+Explanation :
+In the first case, since n is already 1, Alice doesn't get a chance to play the game. Hence he loses.
+In the second case, Alice subtracts the highest power of 2 less than 6, which is 4 and gives it to Bob. Now Bob divides this by 2 since it is a perfect power of 2. Since the number has become equal to 1, hence Bob wins the game.
+
+
+
+Author:
+pec_chapter
+
+
+Editorial:
+https://discuss.codechef.com/problems/QAPT
+
+
+Tags:
+
+               
+                 bit-manipulation, bitwise-operation, observation, pec_chapter, simple, ucsp2021
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+31-03-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

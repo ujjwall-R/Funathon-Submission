@@ -1,0 +1,97 @@
+
+Read problems statements in Mandarin Chinese  and Russian.
+Sereja has an array consisting of nn integers a1 ≤a2 ≤…≤ana1 ≤a2 ≤…≤an. Based on this array, he has to answer mm queries represented by pairs integers t and d. 
+The answer for a query is the smallest integer i for which there exist some k (i ≤ k) such that ai + d ≥ ai + 1, ai + 1 + d ≥ ai + 2, …, ak − 1 + d≥ ak, ak ≤ t and ak+1 > t (if it exists).
+Help Sereja find the answer for each query. 
+Input
+
+First line of input contains a single integer n
+Next line contain n space separated integers a1, a2, ..., an. 
+Next line contains a single integer m. 
+Next m lines contain pairs of integers representing the queries.
+
+Output
+
+For each query, output the answer on a separate line.
+
+Constraints
+
+1 ≤ n, m ≤105. 
+1 ≤ ai ≤106
+a1 ≤ t ≤106
+0≤ d ≤ 106
+
+Subtasks
+Subtask 1 (30 points): 1≤n,m≤104
+Subtask 2 (70 points): No additional constraints.
+Example Input
+5
+1 2 3 10 50
+6
+1 1
+5 3
+11 7
+100000 1
+1000000 1000000
+11 6
+
+Example Output
+1
+1
+1
+5
+1
+4
+
+
+
+
+Author:
+sereja_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/SEAD
+
+
+Tags:
+
+               
+                 Sparse Table, Segment Trees, Binary Search
+                 
+                     
+                     Advanced Data Structures, Advanced Tree Structures, Algorithms, Searching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2233
+
+
+Date Added:
+11-02-2014
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

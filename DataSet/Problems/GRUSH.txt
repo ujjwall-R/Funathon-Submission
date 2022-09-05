@@ -1,0 +1,89 @@
+
+In a game there are MM boxes, each containing AjAj grams of gold. In a turn, NN chains are kept on the ground with Li and Ri denoting the coordinates of the left and right end of the ith chain. You are allowed to lock at most one box of gold in each turn. To lock a box containing Aj grams of gold, you need a chain of thickness P and length at least Aj. To get a thickness of P you need to join P chains in place (you cannot drag the chains in any direction) and remove the extra part of the chains which are not helping in forming thickness P. The length of the resultant (continuous) is the length of the joined chain of thickness P. You win the gold present in your locked box. Given T turns with different settings of chains, find the maximum amount of gold you can win in each turn. 
+[All the turns are independent, i.e. if a box was locked in the previous turn, it is unlocked before the next turn.]
+Input:
+
+First line of the input contains a single integer M describing the number of boxes.
+Second line of the input contains M space separated integers denoting A1,A2….AM.
+Third line of the input contains a single integer T describing the number of turns. The description of T turns follows:
+First line of each turn contains two space separated integers N and P.
+This is followed by N lines. For each i (1≤i≤N), the ith of these lines contains two space separated integers Li and Ri.
+
+Output:
+For each of the turn, print the weight of gold won in grams.
+Constraints
+
+1≤T≤3000
+1≤M≤106
+1≤P≤N≤105
+1≤Li≤Ri≤109
+1≤Aj≤109
+the sum of N over all test cases does not exceed 6∗105
+
+Sample Input:
+5
+1 7 3 4 6  
+2
+4 2
+1 7
+6 9
+2 7
+1 5
+3 2
+3 10
+4 8
+3 5
+
+Sample Output:
+6
+4
+
+
+
+
+Author:
+5★kishen1912000
+
+
+Editorial:
+https://discuss.codechef.com/problems/GRUSH
+
+
+Tags:
+
+               
+                 binary-search, cnxh2020, easy-medium, heap, kishen1912000
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+3-01-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

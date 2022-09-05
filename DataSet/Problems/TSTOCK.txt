@@ -1,0 +1,78 @@
+
+Tony is interested in Wayne tech stocks. Before buying the shares he gathered Wayne share price for past NN days and was analyzing when he got Steve call for emergency Avengers meeting. Before leaving he asked JARVIS to tell him the maximum profit that could have been attained from single share in past NN days. 
+Can you tell the answer given by JARVIS ?
+Input:
+
+First line will contain NN, number of days. 
+Second line contains NN integers where ith integer represent share price on that day i.e. price[i]
+
+Output:
+Ouput single integer i.e. maximum profit.
+Constraints
+
+1≤N≤106
+1≤price[i]≤109
+
+Subtasks
+Subtask #1(100 points): Original Constraints
+Sample Input:
+5
+100 300 200 400 500
+
+Sample Output:
+500
+
+EXPLANATION:
+Day 1: Buy
+Day 2: Sell, Net profit = 200
+Day 3: Buy
+Day 4: Sell, Net profit = 500
+
+
+
+Author:
+pec_chapter
+
+
+Editorial:
+https://discuss.codechef.com/problems/TSTOCK
+
+
+Tags:
+
+               
+                 array, easy, pec_chapter, stream
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+10-05-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

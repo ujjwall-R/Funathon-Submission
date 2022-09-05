@@ -1,0 +1,105 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given N sets of integers A1,A2,…,AN. For each valid i, let's denote the elements of the set Ai by {ci,1,ci,2,…,ci,|Ai|}.
+Find the number of ways to choose a sequence (a1,a2,…,aN) such that:
+
+ai∈Ai for each valid i
+ai≠ai+1 for each valid i and a1≠aN
+
+Since this number may be large, compute it modulo 998,244,353.
+Input
+
+The first line of the input contains a single integer N.
+N lines follow. For each valid i, the i-th of these lines contains an integer |Ai| followed by a space and |Ai| space-separated non-negative integers ci,1,ci,2,…,ci,|Ai|.
+
+Output
+Print a single line containing one integer ― the number of ways to choose (a1,a2,…,aN), modulo 998,244,353.
+Constraints
+
+2≤N≤200,000
+|Ai|≥1 for each valid i
+|A1|+|A2|+…+|AN|≤200,000
+1≤ci,j≤200000 for each valid i,j
+
+Subtasks
+Subtask #1 (20 points): N≤100
+Subtask #2 (80 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+3 1 2 3
+2 1 2
+2 2 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+
+
+Explanation
+There are three possible sequences: (1,2,3), (2,1,3) and (3,1,2).
+
+
+
+Author:
+ildar_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/CIRCOLOR
+
+
+Tags:
+
+               
+                 Square Root Decomposition, Dynamic Programming
+                 
+                     
+                     Advanced Algorithms, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3104
+
+
+Date Added:
+27-11-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

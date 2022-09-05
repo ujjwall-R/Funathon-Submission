@@ -1,0 +1,78 @@
+
+Chef asks Chefina for a date . But Chef is a hardworking guy and has a value for money so he already pre-planned about his date and fixed a budget to spend from his savings . 
+Given a fixed budget BB and an array AA[ ] of size N for the amount of N expenses .
+You have to calculate the total amount and check whether the date costs him beyond his fixed budget . If the total amount goes beyond budget then print “YES” otherwise “NO” .
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+First line of each testcase contains of a single line of input, two integers N,B. 
+Second line of each testcase contains N integers A[0],A[1],...,A[N−1] separated by a single space.
+
+Output:
+For each testcase, output in a single line answer YES or NO .
+Constraints
+
+1≤T≤100
+1≤N≤104
+1≤A[i]≤104
+
+Sample Input:
+2
+2 5
+4 2
+4 15
+4 3 5 2 
+
+Sample Output:
+YES
+
+NO
+
+
+
+Author:
+3★shubham_goswam
+
+
+Editorial:
+https://discuss.codechef.com/problems/ERROR02
+
+
+Tags:
+
+               
+                 array, easy, eril2020, shubham_goswam
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+24-11-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

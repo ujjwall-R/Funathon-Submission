@@ -1,0 +1,80 @@
+
+          
+            You are provided an area divided into M x N blocks.
+A straight, red line has been drawn from one corner to another (left to right).
+Find the number of blocks that contains the red line on it.
+
+Input:
+
+1. The first line will input T - the number of testcases.
+2. The following T lines will contain M  , N as space separated inputs (M=rows, N=Cols)
+Output:
+1. Print a single line integer - the  number of tiles that fall in the path of diagonal
+
+
+Constraints:
+
+ 1 <= T <= 100
+ 0 <= M , N <= 1e18
+Example Input:
+
+2
+3 3
+3 4
+Example Output:
+
+3
+6
+
+Explanation:
+
+Example Case 1 : 3 rows, 3 cols. The red line will cover on 3 tiles (falling on the line).
+
+
+
+Author:
+5★nuttela
+
+
+Editorial:
+https://discuss.codechef.com/problems/DIETCOKE
+
+
+Tags:
+
+               
+                 cakewalk, nuttela
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-02-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

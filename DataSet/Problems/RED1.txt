@@ -1,0 +1,100 @@
+
+Arun has an integer NN. His friend likes the number 11, so Arun wants to reduce NN to 1.
+To do so, he can perform the following move several times (possibly, zero):
+
+Pick two integers X and Y such that X+Y is even and XY is a divisor of N. Then, replace N by NXY
+
+Note that at each step, XY only needs to be a divisor of the current value of N, and not necessarily a divisor of the integer Arun initially started with.
+Find the minimum number of moves Arun needs to reduce N to 1. If it is not possible to reduce N to 1 using the given operation, print −1 instead.
+Input Format
+
+The first line of input will contain an integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case consists of a single line of input containing one integer N.
+
+Output Format
+For each test case, output on a new line the answer — the minimum number of moves needed to reduce N to 1, or −1 if it is not possible to do so.
+Constraints
+
+1≤T≤105
+1≤N≤1018
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+25
+24
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+-1
+
+
+Explanation
+Test case 1: Choose X=25 and Y=1. X+Y=26 is even, and XY=25 is a divisor of N=25 so this is a valid choice of X and Y. Dividing N by XY leaves us with 2525=1 and we are done.
+Test case 2: It can be shown that no matter which moves are made, 24 cannot be reduced to 1.
+
+
+
+Author:
+5★arunsharma_
+
+
+Editorial:
+https://discuss.codechef.com/problems/RED1
+
+
+Tags:
+
+               
+                 Mathematics, Prime Divisors
+                 
+                     
+                     Number Theory, Integer Factorisation, Divisors
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2050
+
+
+Date Added:
+23-04-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

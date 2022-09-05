@@ -1,0 +1,75 @@
+
+There are NN friends in a group. Each of them have AiAi candies.
+Can they share all of these candies among themselves such that each one of them have equal no. of candies.
+Input:
+
+First line will contain TT, number of testcases. Then the testcases follow. 
+First line of each testcase contains of a single line of input, an integer N denoting no. of friends in the group. 
+Next line contains N space separated integers Ai  denoting the no. candies  ith friend has.
+
+Output:
+For each testcase, output "Yes" if it is possible to share equally else "No" (without " ").
+Constraints
+
+1≤T≤10
+1≤N≤100
+0≤Ai≤1000
+
+Sample Input:
+1
+3
+1 2 3
+Sample Output:
+Yes
+
+EXPLANATION:
+Each of them have 2 candies after sharing.
+
+
+
+Author:
+3★shrivas7
+
+
+Editorial:
+https://discuss.codechef.com/problems/ECJN202
+
+
+Tags:
+
+               
+                 cakewalk, enju2020, shrivas7
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+19-06-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

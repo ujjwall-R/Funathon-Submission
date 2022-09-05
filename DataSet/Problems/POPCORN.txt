@@ -1,0 +1,107 @@
+
+Vishesh has gone to watch the new Spider-Man movie, but he is having troubles choosing which Popcorn-and-Coke combo to buy.
+There are three combos AA, BB, and C available at the counter. You are given the time (in minute) for which each Popcorn bucket and Coke cup lasts. Given that Vishesh's satisfaction from a combo is defined as the total lasting time (in minute) of the Popcorn bucket and the Coke cup, find the maximum satisfaction he can get by buying a single combo.
+Input Format
+
+The first line of each input contains T - the number of test cases. The test cases then follow.
+The first line of each test case contains two space-separated integers A1 and A2, meaning that for combo A, the Popcorn bucket lasts A1 minutes and the Coke cup lasts A2 minutes.
+The second line of each test case contains two space-separated integers B1 and B2, meaning that for combo B, the Popcorn bucket lasts B1 minutes and the Coke cup lasts B2 minutes.
+The third line of each test case contains two space-separated integers C1 and C2, meaning that for combo C, the Popcorn bucket lasts C1 minutes and the Coke cup lasts C2 minutes.
+
+Output Format
+For each test case, output on a single line the maximum satisfaction Vishesh can get.
+Constraints
+
+1≤T≤1000
+1≤A1,A2,B1,B2,C1,C2≤109
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+3 6
+5 10
+8 7
+99 1
+55 55
+33 51
+54 146
+5436 627
+1527 5421
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+15
+110
+6948
+
+
+Explanation
+
+Test case 1:
+For combo A, the Popcorn bucket lasts 3 minutes, and the Coke cup lasts 6 minutes, so Vishesh gets a satisfaction of 3+6=9 if he buys this combo.
+For combo B, the Popcorn bucket lasts 5 minutes, and the Coke cup lasts 10 minutes, so Vishesh gets a satisfaction of 5+10=15 if he buys this combo.
+For combo C, the Popcorn bucket lasts 8 minutes, and the Coke cup lasts 7 minutes, so Vishesh gets a satisfaction of 8+7=15 if he buys this combo.
+
+Therefore Vishesh's maximum satisfaction is 15.
+
+
+
+Author:
+4★vishesh_s
+
+
+Editorial:
+https://discuss.codechef.com/problems/POPCORN
+
+
+Tags:
+
+               
+                 cakewalk, exun2021, math, vishesh_s
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+990
+
+
+Date Added:
+3-01-2022
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

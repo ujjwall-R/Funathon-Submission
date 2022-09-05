@@ -1,0 +1,90 @@
+
+Good's Train is a train which carry weights like grains, vegetables, and many other things in it.
+You are given a task to add weights in each compartment of this good's train. Initially train compartments may or may not be empty, and you will be given qq task, in each task you will be provided with 3 data stated as below.
+
+start number of compartment
+end number of compartment
+The weights, that needs to be onboarded in each compartment in the given range.
+
+After you have completed all your qq tasks, you will need to give the total weights that is currently in this Good's Train.
+Input:
+
+The first line of the input contains a single integer TT. T denoting the number of test cases. The description of T test cases is as follows.
+The next line of the input contains a single integer N. N denotes the total number of compartments in Good's Train(numbered from 1 to N).
+The next line of the input contains N space-separated integers A1,A2,A3...An where ith number denotes the initial weight of Good's that ith compartment have.
+The next line of the input contains a single integer q. q denotes the total number of tasks given to you.
+Next q lines contains, 3 space-separated integers S,E,W denoting the start, end number of compartments(both inclusive) and W denotes the weight to be onboarded in each compartment.
+
+Output:
+
+After completing all your q tasks, print the total weights that is currently in this Good's Train.
+
+Constraints:
+
+1≤T≤102
+1≤N≤105
+1≤A1,A2,A3...An≤107
+1≤Q≤106
+1≤S,E≤N
+1≤X≤107
+
+Sample Input:
+1
+5
+1 2 3 4 5
+2
+1 3 10
+2 4 15
+
+Sample Output:
+90
+
+
+
+
+Author:
+pro_army
+
+
+Editorial:
+https://discuss.codechef.com/problems/TRAINWT
+
+
+Tags:
+
+               
+                 array, arys2020, easy, pro_army
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-11-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

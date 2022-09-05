@@ -1,0 +1,78 @@
+
+Geralt of Rivia has accepted a contract to kill a deadly monster in a nearby forest. He is allowed to choose at most one mage to help him fight the monster. He can choose between Yennefer and Triss to help him. In order to make a decision, Geralt looked at his past N contracts. In each of his past contracts, Geralt either took the help of only one of the mages or no help at all. 
+For the current contract, Geralt will choose the mage who has helped him in at least ⌊N2⌋ past contracts. If both mages satisfy the condition, then he will choose Yennefer as she is the love of his life. If none satisfies the condition, he'll go alone. Since Geralt is busy playing Gwent, you have to help him with the decision.
+Input:
+
+First line will contain T, the number of test cases. Then T test cases follow. 
+First line of each test case will contain a single integer N, the number of contracts the witcher (Geralt) has previously completed.
+Second line of each test case contains a string of length N, the information about his past contracts. The string consists of the characters 0,1 and 2. 0 represents that the witcher took no help. 1 represents that the witcher took the help of Yennefer. 2 represents that the witcher took the help of Triss.
+
+Output:
+For each test case, output in a single line the string "Lone Wolf" if Geralt decides to take no help. Print "Yennefer of Vengerberg" if he decides to take the help of Yennefer. Print "Triss Merigold" if he decides to take the help of Triss.
+Constraints
+
+1≤T≤1000
+1≤N≤1000
+All characters of the string consists of 0,1 and 2
+
+Sample Input:
+3
+2
+12
+5
+22100
+5
+00010
+Sample Output:
+Yennefer of Vengerberg
+Triss Merigold
+Lone Wolf  
+
+
+
+Author:
+5★sibasish_14
+
+
+Editorial:
+https://discuss.codechef.com/problems/QLK00
+
+
+Tags:
+
+               
+                 cakewalk, sibasish_14, sibasish_14, yapc2020
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-05-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

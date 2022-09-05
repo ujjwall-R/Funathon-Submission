@@ -1,0 +1,101 @@
+
+ 
+Consider a numeric string str where stri denotes the digit(0 to 9) at index i. We call (x1, x2, x3, x4)
+quadruple a palindromic quadruple of string S if it satisfies the following criteria : Sx1 = Sx4 and Sx2 = Sx3
+where x1 < x2 < x3 < x4.
+You are given Q queries where each query is of form :
+
+1 i j : Print number of different palindromic quadruples (x1, x2, x3, x4) for string str such that
+i ≤ x1 < x2 < x3 < x4 ≤ j. As the result can be large, print it modulo 109 + 7.
+2 idx ch : Replace stridx with character ch.
+
+
+ 
+Input
+The first line contains a string str
+The second line contains a single integer, Q, the number of queries.
+Each of the next Q lines contains a query, with format as described in the problem statement.
+ 
+Output
+An integer for each query of type 1, one on each line.
+ 
+Constraints
+
+|str| ≤ 5 × 104
+stri, ch ∈ {0, 1, . . . , 9}
+1 ≤ Q ≤ 105
+1 ≤ i ≤  j  ≤ |str|
+1 ≤ idx ≤ |str|
+
+ 
+Example
+Input:
+01010
+5
+1 1 5
+2 2 0
+1 1 5
+2 4 0
+1 1 5
+Output:
+1
+1
+5
+
+ 
+Explanation
+
+Query 1: The String is "01010", Possible palindromic quadruples = {"0110"}, so answer = 1
+Query 2: Update str2 = 0, so the string is now "00010"
+Query 3: The String is "00010", Possible palindromic quadruples = {"0000"}, so answer = 1
+Query 4: Update str4 = 0, so the string is now "00000"
+Query 5: The String is "00000", Possible palindromic quadruples is "0000" which can be selected in 5 ways, so answer = 5
+
+
+
+Author:
+2★rounaqwl66
+
+
+Editorial:
+https://discuss.codechef.com/problems/PRCS16E
+
+
+Tags:
+
+               
+                 medium-hard, proc2016, rounaqwl66, segment-tree
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+2-08-2016
+
+
+Time Limit:
+12 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+JAVA, C, CPP14, PYP3
+
+
+
+
+
+Submit
+

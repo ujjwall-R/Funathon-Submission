@@ -1,0 +1,83 @@
+
+ Read problems statements in Mandarin Chinese  and Russian.
+You are given a sequence a1, a2, ..., aN. Count the number of triples (i, j, k) such that 1 ≤ i < j < k ≤ N and GCD(ai, aj, ak) = 1. Here GCD stands for the Greatest Common Divisor.
+Input
+The first line of input contains a single integer N - the length of the sequence.
+The second line contains N space-separated integers - a1, a2, ..., aN respectively.
+Output
+Output the required number of triples on the first line of the output.
+Constraints
+
+1 ≤ N ≤ 100 : 22 points.
+1 ≤ N ≤ 1000 : 23 points.
+1 ≤ N ≤ 105 : 55 points.
+1 ≤ ai ≤ 106
+
+
+Example
+Input:
+4
+1 2 3 4
+
+Output:
+4
+
+ 
+Explanation
+Any triple will be a coprime one.
+
+
+
+Author:
+sergey_adm
+
+
+Tester:
+4★furko
+
+
+Editorial:
+https://discuss.codechef.com/problems/COPRIME3
+
+
+Tags:
+
+               
+                 Inclusion Exclusion Principle, Mobius Function
+                 
+                     
+                     Mathematics, Number Theory, Set Theory, Mobius Inversion
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2484
+
+
+Date Added:
+5-06-2014
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

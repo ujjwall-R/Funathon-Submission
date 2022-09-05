@@ -1,0 +1,73 @@
+
+Problem description.
+Chaitya is a great problem solver. He found that most of his problems could be solved by arranging them in a particular order. The problem input consists of N. numbers, smaller than or equal to M. Chaitya’s analysis consists of sorting this sequence according to their occurrences.
+The output must be sorted so that for two numbers A and B, A will appear before B if the number of times A appears in the original order is larger than the number of times B does. If the number of occurrences is equal, the number whose value appears sooner in the input should appear sooner in the sorted sequence.
+Help Chaitya by creating a custom sorting tool.
+Input
+First line of input contains two integers, N, length of message, and M, the number from task description. Next line contains N integers smaller than or equal to M..
+Output
+Output should contain N numbers in the required sequence.
+Constraints
+1 ≤ N  ≤ 1000
+1 ≤ M ≤ 10^5 
+Example 1 :
+Input
+7 3
+2 3 3 3 2 1 2
+Output
+2 2 2 3 3 3 1
+Example 2 :
+Input
+4 2
+2 1 2 2 
+Output
+2 2 2 1
+
+
+
+Author:
+4★vedipen
+
+
+Editorial:
+https://discuss.codechef.com/problems/KJCP01
+
+
+Tags:
+
+               
+                 binary-search-tree, kcpr2016, map, pairing, sorting, standard-template-library, vector, vedipen
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+26-08-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP14, PYP3
+
+
+
+
+
+Submit
+

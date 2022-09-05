@@ -1,0 +1,107 @@
+
+Read problem statements in Mandarin, Russian, and Vietnamese as well.
+Chef prepared a problem. The admin has rated this problem for xx points. 
+A problem is called :
+1) Easy if 1≤x<1001≤x<100 
+2) Medium if 100≤x<200100≤x<200 
+3) Hard if 200≤x≤300 
+Find the category to which Chef’s problem belongs.
+Input Format
+
+The first line contains T denoting the number of test cases. Then the test cases follow.
+The first and only line of each test case contains a single integer x.
+
+Output Format
+For each test case, output in a single line the category of Chef's problem, i.e whether it is an Easy, Medium or Hard problem. The output is case sensitive.
+Constraints
+
+1≤T≤50
+1≤x≤300
+
+Subtasks
+
+Subtask 1 (100 points): Original constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+50
+172
+201
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Easy
+Medium
+Hard
+
+
+Explanation
+Test case 1: The problem with rating x=50 is an easy problem as 1≤50<100.
+Test case 2: The problem with rating x=172 is a medium problem as 100≤172<200.
+Test case 3: The problem with rating x=201 is a hard problem as 200≤201≤300.
+
+
+
+Author:
+5★soumyadeep_21
+
+
+Editorial:
+https://discuss.codechef.com/problems/PROBCAT
+
+
+Tags:
+
+               
+                 Case work, Conditional Statements, Basic Maths
+                 
+                     
+                     Special, Basic Programming Concepts, Mathematics
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+860
+
+
+Date Added:
+25-10-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

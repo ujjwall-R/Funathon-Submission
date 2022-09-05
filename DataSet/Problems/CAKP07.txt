@@ -1,0 +1,91 @@
+
+Being in the CodeChef College Chapter team, Chef thought of putting up a problem about palindromes. But he is unable to create a solution for it and asks for your help.
+You will be given a string ss.  
+You have to find the longest palindrome which can be formed by elimination of consecutive letters from between. i.e. you need to delete characters from index ii to jj where j≥i, i≥1, j≤n (1 based indexing).  
+Print the longest palindrome possible after deleting a contiguous subsequence of length ≥ 0 from between.  
+Rules:
+
+You cannot add any new characters.  
+You can not change order of the original string.  
+Absolute difference of number of characters chosen from beginning and number of characters chosen from end of the string in the palindrome should be ≤1.  
+
+Note: If more than one answer is possible, print lexicographically smallest one.
+
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains of a single line of input, a string s. 
+
+
+Output:
+For each testcase, output in a single line the longest palindrome possible.
+
+Constraints
+
+1≤T≤106
+1≤|s|≤108
+
+
+Sample Input:
+2
+dirvanirtomissionavrid
+fdnhhgiunuuntuaookslifunuighhndf
+
+
+Sample Output:
+dirvaninavrid
+fdnhhgiunufunuighhndf
+
+
+EXPLANATION:
+In test case 1, we delete characters from i=8 to j=16.
+In test case 2, we delete characters from i=11 to j=21.
+
+
+
+Author:
+4★rishabhrathi22
+
+
+Editorial:
+https://discuss.codechef.com/problems/CAKP07
+
+
+Tags:
+
+               
+                 codechef, palindrome, rishabhrathi22, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+24-01-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

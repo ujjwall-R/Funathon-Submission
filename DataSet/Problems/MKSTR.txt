@@ -1,0 +1,125 @@
+
+Read problems statements in Hindi,
+Mandarin chinese
+, Russian and Vietnamese as well.
+You have an initially empty string SS, a target string TT and a sequence of n strings p1,p2,…,pn. You may perform any number of operations; let's denote by |S| the length of the string S before the current operation. Each operation should be of one of the following types:
+
+insert a lowercase English letter x at the beginning of the string S; the cost of this operation is clx⋅|S|
+append a lowercase English letter x to the end of S with cost crx⋅|S|
+choose a valid index i and insert the string pi at the beginning of S with cost kli⋅|S|
+choose a valid index i and append the string pi to the end of S with cost kri⋅|S|
+
+Note that in the first two types of operations, x refers to any English lower case letter. Not just the letter 'x'.
+Your task is to calculate the minimum total cost of building the target string T, i.e. the minimum sum of costs of operations needed to make S equal to T.
+Input
+
+The first line of the input contains a single integer n.
+n lines follow. For each valid i, the i-th of these lines contains the string pi.
+The next line contains 26 space-separated integers cla,clb,…,clz.
+The next line contains 26 space-separated integers cra,crb,…,crz.
+The next line contains n space-separated integers kl1,kl2,…,kln.
+The next line contains n space-separated integers kr1,kr2,…,krn.
+The last line contains a single string T.
+
+Output
+Print a single line containing one integer — the minimum cost of building the target string.
+Constraints
+
+1≤n≤104
+1≤|pi|≤100 for each valid i
+1≤|T|≤1,000
+1≤cli,cri≤109 for each lowercase English letter i
+1≤kli,kri≤109 for each valid i
+all strings contain only lowercase English letters
+
+Subtasks
+Subtask #1 (30 points):
+
+n≤10
+|pi|≤10 for each valid i
+
+Subtask #2 (70 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+aba
+ba
+xy
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+3 2 1 3 5 9 10 11 11 9 9 8 7 6 5 1 33 22 11 90 1 1 2 3 5 8
+1 2 3
+1 1 1
+abacaba
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+5
+
+
+Explanation
+First of all, we should perform an operation of the first or second type and add the letter "c" to the initial empty string S, with cost 0 because |S|=0 currently. Next, we should perform an operation of the third type, inserting the string "aba" at the beginning of S with cost 1⋅1=1 (since |S|=1 currently); after this operation, S is "abac". Finally, we should perform an operation of the fourth type, appending the string "aba" to S with cost 1⋅4=4 (since |S|=4 currently). After this operation, S=T, so the total cost is 0+4+1=5.
+
+
+
+Author:
+4★fekete
+
+
+Editorial:
+https://discuss.codechef.com/problems/MKSTR
+
+
+Tags:
+
+               
+                 Hashmaps, Tries, Dynamic Programming, Hashing
+                 
+                     
+                     Data Structures, Advanced Data Structures, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+25-07-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

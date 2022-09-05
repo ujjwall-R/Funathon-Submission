@@ -1,0 +1,93 @@
+
+ 
+1 .  We have a list of pairs [("Tariq",71),("Brinda",85),("Shweta",71),("Sunita",85),("Salma",72),("Uday",60)], where each pair consists of a student's name and his/her marks in a course. We sort these pairs in ascending order of marks. Which of the folllowing corresponds to a stable sort of this input?
+A. [("Uday",60),("Tariq",71),("Shweta",71),("Salma",72),("Brinda",85),("Sunita",85)]
+B. [("Brinda",85),("Salma",72),("Shweta",71),("Sunita",85)("Tariq",71),("Uday",60)]
+C. [("Uday",60),("Shweta",71),("Tariq",71),("Salma",72),("Brinda",85),("Sunita",85)]
+D. [("Uday",60),("Tariq",71),("Shweta",71),("Salma",72),("Sunita",85),("Brinda",85)]
+
+2 .Let f(n) = 560n4 + 3651n3 + 3n+107 and g(n) = 3n4 + 15n2. Which of the following is true?
+A . f(n) is O(g(n)), but g(n) is not O(f(n))
+B . g(n) is O(f(n)), but f(n) is not O(g(n))
+C . f(n) is not O(g(n)) and g(n) is not O(f(n))
+D . f(n) is O(g(n)) and g(n) is O(f(n))
+
+3. Rajnikant has to complete 12 courses for his degree. There are six compulsory courses: Basic and Advanced Mathematics, Basic and Advanced Physics and Basic and Advanced Electronics. He also has to complete six Optional Courses. Each course takes one semester to complete. There are some constraints because of prerequisites.
+For Mathematics, Physics and Electronics, the Basic course must be completed before starting the Advanced course.
+Advanced Physics must be completed before starting Basic Electronics. 
+Advanced Mathematics must be completed before starting Advanced Physics.
+The Optional Courses can be done in any order, but no more than two Optional Courses can be taken in a semester.
+Given these constraints, what is the minimum number of semesters that Rajnikant needs to complete his course requirements.
+A. 3
+B. 5
+C. 6
+D. 7
+
+4.Find the unit digit of the expresssion
+374123 + 4214444 + 57226 +  33128 + 525!
+Which of the following is  correct.
+A. 5 
+B. 6
+C. 7
+D. 0 
+.
+
+Output
+Output should be a pure text file. Answers must be serially, i.e
+A 
+B
+C
+D
+if answer of 1st question is A ,
+if answer of 2nd question is B ,
+if answer of 3rd question is C ,
+if answer of 4th question is D ,  
+
+
+
+Author:
+5★ravit0001
+
+
+Editorial:
+https://discuss.codechef.com/problems/INLO24
+
+
+Tags:
+
+               
+                 complexity, inlo2016, medium-hard, number-theory, ravit0001
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+9-03-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYP3, TEXT
+
+
+
+
+
+Submit
+

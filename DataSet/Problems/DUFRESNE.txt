@@ -1,0 +1,81 @@
+
+Dufresne is a top banker in his country and he is in charge of all of the banks in the country. There are a total of NN banks in the country, which are placed in different parts all over the whole country. Each of the banks are directly connected to each of the other banks by straight roads.
+There is a place called The Great Lane in the country, which is a dream land for all the bankers. It has a total of MM banks on a single straight road. Other than The Great Lane, there is no single road which can have more than two banks.
+The condition of the roads is not so good. After earning so much with his services, Dufresne is thinking of doing some charity for his nation by repairing the roads for connecting all the banks with each other. But, he needs your help, as he doesn’t know how many roads he needs to get repaired. Can you tell him?
+Input:
+
+The first line of the input contains a single integer TT denoting the number of test cases. The description of T test cases follows.
+Each testcase contains of a single line of input, containing two integers N and M. 
+
+Output:
+For each testcase, output in a single line containing the minimum number of distinct roads Dufesne needs to get repaired. Print the answer modulo 109+7.
+Constraints
+
+1≤T≤10
+2≤M≤N≤109
+
+Subtasks
+
+20 points: 2≤M≤N≤100
+20 points: 2≤M≤N≤105
+60 points: original constraints
+
+Sample Input:
+1
+6 3
+
+Sample Output:
+13
+
+EXPLANATION:
+Example Case 1:
+3 banks are there on The Great Lane, so, we consider that as 1 repair. For the rest of the banks, we need to repair separate roads. It can be found that there are a total of 13 (minimum possible) that need to be repaired (including The Great Lane).
+
+
+
+Author:
+5★ankushkhanna
+
+
+Editorial:
+https://discuss.codechef.com/problems/DUFRESNE
+
+
+Tags:
+
+               
+                 ankushkhanna, ankushkhanna, cobe2019, combinatorics, easy-medium, geometry, lines, math
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+2-02-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

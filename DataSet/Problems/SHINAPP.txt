@@ -1,0 +1,78 @@
+
+"This world is rotten. The rotten should die." - Kira.
+You have "N" shinigamis and "M" apples. You need to give a positive number of apples to every shinigami and also make sure that every shinigami receives a distinct number of apples. Find out the number of ways in which you can distribute all M apples.Two ways are same if every shinigami gets the same number of apples.
+Input
+The first line contains "T" , the number of test cases. Each of the next "T" lines contains two integers, "N" and "M" , as stated in the question.
+Output
+For each of the "T" test cases, output the required ans. Since the answer can be very big , output it modulo 10^9 + 7 (1000000007).
+Constraints
+
+1 ≤ T ≤ 10^5
+1 ≤ N ≤ 300
+1 ≤ M ≤ 10^5
+
+ 
+Example
+Input:
+2
+1 2
+2 2
+
+Output:
+1
+0
+ 
+Explanation
+Test case #1:
+We have only one basket , where we can put the 2 apples. This can be done in only one way.
+Test case #2:
+We have two baskets but only two apples. We cannot obtain a partition with distinct and positive apples for each shinigami.
+
+
+
+Author:
+skullcrackers
+
+
+Editorial:
+https://discuss.codechef.com/problems/SHINAPP
+
+
+Tags:
+
+               
+                 dynamic-programming, ipc151a, ipcquestion, maths, skullcrackers
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+4-10-2015
+
+
+Time Limit:
+1 - 2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

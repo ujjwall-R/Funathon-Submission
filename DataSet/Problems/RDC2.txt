@@ -1,0 +1,66 @@
+
+Given a number n in one move you can either divide it by 5(if n%5==0) or subtract it by 3. You need to determine the minimum number of moves to make the n equal to 2, if this is not possible print -1.
+Input format
+The first line contains t denotes the number of test cases.
+The next t lines contains integer n.
+Output format
+Print minimum number of moves it takes to reach from n to 2 otherwise print -1.
+Constraint
+1<=t<=10^3
+1<=n<=10^6
+Sample Input
+2
+12
+40
+Sample Output 
+-1
+3
+
+
+
+Author:
+5★yashdwivedi
+
+
+Editorial:
+https://discuss.codechef.com/problems/RDC2
+
+
+Tags:
+
+               
+                 dynamic-programming, yashdwivedi
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+24-03-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

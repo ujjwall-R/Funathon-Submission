@@ -1,0 +1,106 @@
+
+
+Problem:
+ 
+You are going to your college via bike/scooter/car. You need to increase your speed to reach the college as soon as possible. Your speed right now is divided into N parts with their values S(i) (given).
+You can increase your speed X number of times by increasing any value by S(i)/2. Consider floor value if the speed is odd.
+You always try to increase the speed very few times and speed to be high. 
+
+You can't change the speed more than N times and can't change the same speed again.
+Finally, you need to maintain the total speed  ≥40 to reach the college on time.
+Print minimum number of times you need to change the speed, total speed, YES if you can reach the college on time else NO.
+
+INPUT:
+
+First-line contains T denoting number of test cases.
+
+Next T lines contains N  along with S(i) values as described above separated by space.
+
+OUTPUT:
+
+For every case print the minimum number of times you need to change the speed, total speed, YES if you can reach the college on time else NO. separated by space in a single line.
+
+Constraints:
+
+0<T<20
+
+
+0<N<100
+
+
+0<S(i)<200
+
+Sample Input:
+
+2
+4 1 2 3 4
+5 10 15 10 1 2
+
+Sample Output:
+
+4 14 NO
+1 45 YES
+
+EXPLANATION:
+
+
+In the first case, his/her speed got divided into 4 speeds as 1 2 3 4. even though he increased all the speeds as described his total speed is still 14 which is not sufficient to reach the college on time.   
+
+
+In the second case, he/she increases 15 as described total speed became maximum and it is more than the required speed to reach the college on time.
+            
+            
+            
+            
+            
+        
+
+        
+
+
+Author:
+2★charann
+
+
+Editorial:
+https://discuss.codechef.com/problems/REACHCMR
+
+
+Tags:
+
+               
+                 charann, easy, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+10-04-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

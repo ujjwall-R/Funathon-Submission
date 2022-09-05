@@ -1,0 +1,124 @@
+
+Read problems statements in Mandarin Chinese , Russian and Vietnamese as well.
+You are given a weighted graph with NN nodes and MM edges. Some of the nodes are marked as special nodes. Your task is to find the shortest pairwise distance between any two different special nodes.
+Input
+
+The first line of the input contains three space-separated integers N, M and K denoting the number of nodes, the number of edges, and the number of special nodes. 
+The next line contains K space-separated distinct integers A1, A2, …, AK, denoting the special nodes.
+The next M lines each contain three space-separated integers - X, Y, Z, denoting an edge connecting the nodes X and Y, with weight Z.
+
+Output
+Output the shortest pairwise distance between any two different special nodes.
+Constraints
+
+The given graph is connected.
+The given graph doesn't contain self loops and multiple edges.
+1≤Ai≤N
+1≤Zj≤104
+1≤Xj,Yj≤N
+
+Subtasks
+Subtask #1 (20 points): 
+
+2≤N≤300
+N−1≤M≤N⋅(N−1)2
+2≤K≤N
+
+Subtask #2 (25 points):
+
+2≤N≤105
+N−1≤M≤105
+2≤K≤10
+
+Subtask #3 (55 points):
+
+2≤N≤105
+N−1≤M≤3⋅105
+2≤K≤104
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5 5 3
+1 3 5
+1 2 3
+2 3 4
+3 4 1
+4 5 8
+1 5 19
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+7
+
+
+Explanation
+Nodes 1, 3, and 5 are special nodes. Shortest distance between nodes 1 and 3 is 7, and that between nodes 3 and 5 is 9. Shortest distance between nodes 1 and 5 is 16. Minimum of these distances is 7. Hence answer is 7.
+
+
+
+Author:
+sergey_adm
+
+
+Tester:
+5★zedthirtyeight
+
+
+Editorial:
+https://discuss.codechef.com/problems/PAIRCLST
+
+
+Tags:
+
+               
+                 Graphs, Floyd Warshall's Algorithm, Dijkstra's Algorithm, Multi source BFS, Observation
+                 
+                     
+                     Data Structures, Algorithms, Graph Algos, Shortest Paths, Traversals, BFS
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2515
+
+
+Date Added:
+21-02-2016
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

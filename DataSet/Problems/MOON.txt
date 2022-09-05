@@ -1,0 +1,82 @@
+
+Santa has N truffles and M candies to divide between his two buddy elves such that both have equal amounts of total sweetness. Each truffle has a sweetness value of X and each candy has a sweetness value of Y.
+Note: A unit of truffle or candy cannot be divided further and no item can be left out after division.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains of a single line of input, four integers N,M,X,Y. 
+
+Output:
+For each testcase, print "YES" in a newline if it possible to divide all the candies and truffles into two equal parts of sweetness values,
+Else, print "NO" in a newline.  
+Constraints
+
+1≤T≤103
+0≤N,M≤102
+0≤X,Y≤105
+
+Sample Input:
+3
+3 2 2 3
+2 0 1 10
+1 2 5 4
+
+Sample Output:
+YES
+YES
+NO
+
+EXPLANATION:
+In the first test case, all the truffles can be given to one elf and all the candies to another.
+Sweetness value with elf1 = 2 + 2 + 2 = 6.
+Sweetness value with elf2 = 3 + 3 = 6.
+Thus, both have equal amounts.   
+
+
+
+Author:
+5★eunoia_1729
+
+
+Editorial:
+https://discuss.codechef.com/problems/MOON
+
+
+Tags:
+
+               
+                 ad-hoc, cakewalk, eunoia_1729, ghc32020
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+6-01-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

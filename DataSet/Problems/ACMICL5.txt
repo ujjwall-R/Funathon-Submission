@@ -1,0 +1,85 @@
+
+ 
+Problem description.
+Rishabh doesn't know programming. As a programmer you thought you could help him. The problem is that you have T intervals. From each interval you will pick one integer value(integer picked could be the boundary also). Now you are required to sum those values. For each integer Ni between N and N+X(both included), print the total number of ways in which these values can be picked so that the sum of values is equal to Ni. As this number of ways may be large, print your answer modulo 1000000007. In case no such way exist, print NO corresponding to the sum. Also note {1,2} is different from {2,1}.
+Input
+
+Input begins with the first line containing T denoting the number of intervals.
+Then T lines contains s,e.
+The last line contains N and X.
+
+Output
+
+Output X+1 lines each line containing the number of ways of forming the required sum.
+
+Constraints
+
+1 ≤ T ≤  1000000 
+1 ≤ N ≤  100 
+1 ≤ X ≤  1000 
+Each of the interval is [s,e] where s>=0 and e<=500, s<=e
+
+ 
+Example
+Input:
+2
+0 2
+2 5
+1 2
+Output:
+NO
+1
+2
+
+ 
+Explanation
+There are two intervals . The number 1 cannot be formed as we have to take one integer each from 2 intervals, whereas 2 has 1 way and 3 has 2 ways.
+
+
+
+Author:
+2★f2012086
+
+
+Editorial:
+https://discuss.codechef.com/problems/ACMICL5
+
+
+Tags:
+
+               
+                 dynamic-programming, f2012086, hard, icl2015
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-02-2015
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3
+
+
+
+
+
+Submit
+

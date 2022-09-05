@@ -1,0 +1,100 @@
+
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef has 33 boxes of sizes AA, BB, and C respectively. He puts the boxes in bags of size D (A≤B≤C≤D). Find the minimum number of bags Chef needs so that he can put each box in a bag. A bag can contain more than one box if the sum of sizes of boxes in the bag does not exceed the size of the bag.
+Input Format
+
+The first line contains T denoting the number of test cases. Then the test cases follow.
+Each test case contains four integers A, B, C, and D on a single line denoting the sizes of the boxes and bags.
+
+Output Format
+For each test case, output on a single line the minimum number of bags Chef needs.
+Constraints
+
+1≤T≤100
+1≤A≤B≤C≤D≤100
+
+Subtasks
+Subtask 1 (100 points): Original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+2 3 5 10
+1 2 3 5
+3 3 4 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+2
+3
+
+
+Explanation
+Test case 1:  The sum of sizes of boxes is 2+3+5=10 which is equal to the size of a bag. Hence Chef can put all three boxes in a single bag.
+Test case 2: Chef can put boxes of size 1 and 3 in one bag and box of size 2 in another bag.
+Test case 3: Chef puts all the boxes in separate bags as there is no way to put more than one box in a single bag.
+
+
+
+Author:
+5★soumyadeep_21
+
+
+Editorial:
+https://discuss.codechef.com/problems/THREEBOX
+
+
+Tags:
+
+               
+                 Case work, Conditional Statements, Basic Maths, Observation
+                 
+                     
+                     Special, Basic Programming Concepts, Mathematics, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1183
+
+
+Date Added:
+20-09-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

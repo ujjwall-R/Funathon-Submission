@@ -1,0 +1,85 @@
+
+There are NN players in a team playing a famous mobile game Codechef Users' Battlegrounds (CUBG). Each player in the team needs guns to fight the other teams. To use guns the players need ammunition (or ammo). Initially, each player ii (1≤i≤N)(1≤i≤N) of the team has Ai units of ammo. Before they get into any fight, the team leader wanted to make sure that each player has equal amount of ammo (i.e., all Ai should be the same). There's only two ways he can do so:
+
+Exchange 1 unit of ammo between two teammates.
+Ask a teammate to loot 1 unit of ammo from a nearby building.
+
+Each of the above operations can be performed any number of times (including zero). Also, each type of operation takes 1 unit of time to complete. Note that it is not allowed for a player to drop some ammo on the ground (i.e. the total units of ammo cannot decrease).
+Since there's not much time left before the other teams approach, you have to help the leader figure out the minimum time needed to make sure all the teammates have equal units of ammo.
+Input:
+
+First line will contain T, the number of test cases. Then T the test cases follow. 
+First line of each test case contains a single integer N.
+Second line of each test case contains N space-separated integers A1,A2,...,AN.
+
+Output:
+For each test case, output in a single line the required answer.
+Constraints
+
+1≤T≤10
+1≤N≤105
+0≤Ai≤109
+
+Sample Input:
+3
+4
+7 8 6 4
+6
+7 3 10 2 3 8
+1
+10  
+Sample Output:
+4
+10
+0  
+Explanation:
+For test case 1: The final array after performing the operations is [7,7,7,7]. No other ammo distribution can be done in lesser time.
+
+
+
+Author:
+5★sibasish_14
+
+
+Editorial:
+https://discuss.codechef.com/problems/INAMMO
+
+
+Tags:
+
+               
+                 ftcf2020, greedy, math, sibasish_14, sibasish_14, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+6-06-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

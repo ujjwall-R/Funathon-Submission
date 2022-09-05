@@ -1,0 +1,91 @@
+
+New constraints are not updated in the translations.
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+You are given NN distinct points on a two-dimensional plane. It is guaranteed that no three of them are collinear. Let's call a subset of these points compact if the convex hull of this subset has exactly four vertices.
+Find the number of compact non-empty subsets of the given points. Since this number may be very large, compute it modulo 109+7109+7.
+Input
+
+The first line of the input contains a single integer NN.
+Each of the next N lines contains two space-separated integers x and y denoting the coordinates of one point.
+
+Output
+Print a single line containing one integer ― the number of compact subsets modulo 109+7.
+Constraints
+
+1≤N≤300
+|x|,|y|≤109
+no two points coincide and no three points are collinear
+
+Example Input 1
+4
+0 0
+100 0
+0 100
+100 100
+
+Example Output 1
+1
+
+Example Input 2
+5
+0 0
+100 0
+0 100
+100 100
+50 60
+
+Example Output 2
+4
+
+
+
+
+Author:
+4★erfaniaa
+
+
+Editorial:
+https://discuss.codechef.com/problems/CNVX4HUL
+
+
+Tags:
+
+               
+                 Segment Trees, Fenwick Trees, Geometry, Sweep line Algorithm
+                 
+                     
+                     Advanced Data Structures, Advanced Tree Structures, Advanced Algorithms, Mathematics, Computational Geometry
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2829
+
+
+Date Added:
+16-03-2019
+
+
+Time Limit:
+5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

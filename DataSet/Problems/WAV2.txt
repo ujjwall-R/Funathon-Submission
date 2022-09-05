@@ -1,0 +1,111 @@
+
+Read problems statements in Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Chef is stuck in the wavey world of polynomials. You are given all NN roots of a polynomial P(x)=∏Ni=1(x−ai). The roots are pairwise distinct integers, but they are not given in any particular order.
+To help Chef escape, you should answer Q queries (numbered 1 through Q). For each valid i, in the i-th query, you are given an integer xi and you have to determine whether P(xi) is positive, negative or 0.
+Input
+
+The first line of the input contains two space-separated integers N and Q.
+The second line contains N space-separated integers a1,a2,…,aN.
+Q lines follow. For each valid i, the i-th of these lines contains a single integer xi describing the i-th query.
+
+Output
+For each query, print a single line containing the string "POSITIVE", "NEGATIVE" or "0" (without quotes) describing the value of the polynomial for the i-th query.
+Constraints
+
+1≤N,Q≤2⋅105
+|ai|≤109 for each valid i
+a1,a2,…,aN are pairwise distinct
+|xi|≤109 for each valid i
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4 6
+1 3 5 100
+-2
+2
+4
+80
+107
+5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+POSITIVE
+NEGATIVE
+POSITIVE
+NEGATIVE
+POSITIVE
+0
+
+
+Explanation
+The given polynomial is (x−1)⋅(x−3)⋅(x−5)⋅(x−100).
+Query 1: x=−2. This means that P(−2)=(−2−1)⋅(−2−3)⋅(−2−5)⋅(−2−100)=(−3)⋅(−5)⋅(−7)⋅(−102)=10710>0. Thus, the answer is POSITIVE.
+Query 2: x=2. This means that P(2)=(2−1)⋅(2−3)⋅(2−5)⋅(2−100)=(1)⋅(−1)⋅(−3)⋅(−98)=−294<0. Thus, the answer is NEGATIVE.
+Query 3: x=4. This means that P(4)=(4−1)⋅(4−3)⋅(4−5)⋅(4−100)=(3)⋅(1)⋅(−1)⋅(−96)=288>0. Thus, the answer is POSITIVE.
+Query 6: x=5. This means that P(5)=(5−1)⋅(5−3)⋅(5−5)⋅(5−100)=(4)⋅(2)⋅(0)⋅(−95)=0. Thus, the answer is 0. 
+
+
+
+Author:
+4★rogue_raven
+
+
+Editorial:
+https://discuss.codechef.com/problems/WAV2
+
+
+Tags:
+
+               
+                 Square Root Decomposition, Polynomial, Sorting, Binary Search
+                 
+                     
+                     Advanced Algorithms, Mathematics, Algebra, Algorithms, Searching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1518
+
+
+Date Added:
+19-06-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

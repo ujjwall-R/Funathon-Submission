@@ -1,0 +1,79 @@
+
+Vasya likes too much of Chocolates . Once she was watching “Thomas the Train” Cartoon, she dreamed how good it would be if trains were made up of chocolates , and not only trains but the rivers too.
+She shares this dream with his younger sister . Suddenly her mother calls her for some work.
+Now her younger sister “Miami” is thinking to cut a piece of Chocolate from that imaginary chocolate river.
+But she didn’t like any obstacles in her piece of chocolate, such as an in-between tree, small mud island, or any other thing which are represented as 1 and wants a clean square piece of chocolate.
+The rest of the river is represented as 0.
+Each piece/unit of the river can be expressed as a cell of a matrix. She wants the maximum possible Sized Chocolate. But she is just a kid 3 years old and cannot figure out the size of the chocolate.
+Help her find the maximum possible size of the chocolate.
+Input:
+
+Two Integers N, M.
+Next N lines follows, 
+each line having M integers.
+Matrix can have 0 or 1 possible Values.
+1 : Obstacle
+0 : River with Chocolate
+
+Output:
+Print the maximum possible size of the Chocolate.
+Constraints 
+0 <= N,M <= 10^3.
+Sample Input:
+
+    3 3
+    1 1 0
+    1 1 1 
+    1 1 1
+
+Sample Output:
+1
+
+
+
+Author:
+3★huntsatyam
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHORIV
+
+
+Tags:
+
+               
+                 dynamic-programming, easy-medium, huntsatyam
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-01-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

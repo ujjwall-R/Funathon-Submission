@@ -1,0 +1,68 @@
+
+You are playing a game where you have been sent in a town to collect 10 types of coin and their symbol are defined with A,B,C,D,E,F,G,H,I,JA,B,C,D,E,F,G,H,I,J. In that town every enemy have a coin. By killing one you will get a coin from that enemy. Each enemy have only a unique coin.
+The challange of the game is You have to collect all the coin and only then you will get the victory. You are a brave gamer so you took this hard challange and successfully finished it. After finishing, you are thinking of the game. You know the order off collecting coin. Now you are thinking how many enemy did you have killed?
+Can you solve that out?
+Input:
+First line of the input is an integer TT.Next T line consists of a string which denotes the order of your collecting coins. The string consists of Uppercase latin latter only and from A to J.
+Output:
+Print T line, in each line an integer with the number of enemy you have killed in the operation.
+Constraints
+
+1≤T≤50001≤T≤5000
+
+Sample Input:
+1
+ABCDEFGHIJ
+
+Sample Output:
+10
+
+
+
+
+Author:
+3★aref111n
+
+
+Editorial:
+https://discuss.codechef.com/problems/HNH01
+
+
+Tags:
+
+               
+                 aref111n, newb2020, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+28-09-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,83 @@
+
+India has some of the most spectacular and unforgettable rail journeys in the world. Here you experience a simple way to find out everything you need to know in one easy place. There's no better way to enjoy India's outback, cities, coastal towns and regional areas in comfort.
+So, Junction in railway is a point where two or more rail route converge or diverge. Suppose, there are NN trains running in route East to West. The position of ith train is XiXi, and it is running with a velocity ViVi. Train can run in any of the direction either East to West or West to East.
+You have to tell whether it is possible that N trains meet at a junction, if possible then you have to tell the minimum possible time at which they meet.
+Note :- Meeting point is not compulsory to be an integer coordinate.
+Input:
+
+The first line contains single integer N — the number of trains.
+The second line contains N integers X1, X2, ..., Xn — the current coordinates of the trains, in meters.
+The third line contains N integers V1, V2, ..., Vn — the maximum speeds of the trains, in meters per second.
+
+Output:
+
+Print the minimum time (in seconds) needed for all the N trains to meet at some point on the road, if it is not possible then print ′−1′ (without quotes) .
+
+Constraints:
+
+2≤ N ≤ 6000
+1 ≤ Xi ≤ 109
+1 ≤ Vi ≤ 109
+Your answer will be considered correct, if its correct upto 30 decimal places.
+
+Sample Input:
+3
+7 1 3
+1 2 1
+
+Sample Output:
+1.999999999999999555910790149937
+
+Explanation:
+
+All trains can meet at the point 5 within 2 seconds.
+
+
+
+
+Author:
+1★vishalmourya
+
+
+Editorial:
+https://discuss.codechef.com/problems/CMAN5
+
+
+Tags:
+
+               
+                 c-plus-plus, cakewalk, cman2020, codechef, easy, number-theory, strings, vishalmourya
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+29-03-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

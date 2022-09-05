@@ -1,0 +1,96 @@
+
+chef's friend is a chemist. He has n atoms.
+He tells chef to note down the weight of all n atoms . All the weights are EVEN and DISTINCT. 
+chef has to find the number of all the subsequences of atoms whose sum of weights is completely divisible by two. 
+He also, has to find number of pairs of atoms whose sum of weights is completely divisible by two. 
+NOTE: use (long long int).
+Definition of Subsequence:
+In mathematics, a subsequence is a sequence that can be derived from another sequence by deleting some or no elements without changing the order of the remaining elements. 
+For example, the sequence {A,B,D}. A,B,D is a subsequence of {A,B,C,D,E,F}.obtained after removal of elements C, E, F.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains of two line of input.
+First-line contains an integer n, no of weights of all atoms.
+Second-line contains array A of even weights of all n atoms.
+
+Output:
+For each test case, the output consists of two lines. Each line contains a single integer.
+
+printing the COUNT of all the subsequences of atom whose sum of weights is completely divisible by two. 
+print count of maximum number of pairs of atom whose sum of weights is completely divisible by two. 
+
+Constraints
+
+1≤T≤10
+1≤n≤33
+2≤A[i]≤100  ( A[i] is even )
+0≤i≤(n−1)
+
+Sample Input:
+ 1
+ 2
+ 2 4
+
+Sample Output:
+ 3
+ 1
+
+EXPLANATION:
+The  subsequences  of atoms, whose  sum of weights is completely divisible by two  are  given as
+[2, 4 ,  (2,4)].Hence,count=3.
+pair of atom, whose sum of weights is completely divisible by two is only one here i.e.[(2,4)].
+Hence,count=1.
+Hence the answer is :
+ 3
+ 1
+
+
+
+
+Author:
+2★dhussa_09
+
+
+Editorial:
+https://discuss.codechef.com/problems/EVEN
+
+
+Tags:
+
+               
+                 colg2020, dhussa_09, logic-maths, simple, simple-easy
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-05-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,101 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef is given a sequence of integers A1,A2,…,AN.
+Chef considers a contiguous subsequence Al,Al+1,…,Ar (where 1≤l≤r≤N) fruitful if it satisfies the condition
+|Al−Ar|=max(Al,Al+1,…,Ar)−min(Al,Al+1,…,Ar).
+Please help Chef find the number of fruitful contiguous subsequences of the sequence A.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1,A2,…,AN.
+
+Output
+For each test case, print a single line containing one integer ― the number of fruitful contiguous subsequences.
+Constraints
+
+1≤T≤10
+1≤N≤250,000
+1≤Ai≤109 for each valid i
+
+Subtasks
+Subtask #1 (20 points): N≤2,000
+Subtask #2 (80 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+3
+1 2 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+6
+
+
+Explanation
+Example case 1: All contiguous subsequences, i.e. [1], [2], [3], [1,2], [2,3] and [1,2,3], are fruitful.
+
+
+
+Author:
+4★vitz_6
+
+
+Editorial:
+https://discuss.codechef.com/problems/ABSNX
+
+
+Tags:
+
+               
+                 Stacks, Merge Sort Tree, Segment Trees, Fenwick Trees
+                 
+                     
+                     Data Structures, Advanced Data Structures, Advanced Tree Structures
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2521
+
+
+Date Added:
+16-05-2020
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

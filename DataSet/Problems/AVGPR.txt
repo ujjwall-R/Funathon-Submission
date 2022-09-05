@@ -1,0 +1,106 @@
+
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+You are given an integer sequence AA with length NN.
+Find the number of (unordered) pairs of elements such that the average of these two elements is also present in the sequence. Formally, find the number of pairs (i,j)(i,j) such that 1≤i<j≤N and there is an index k (1≤k≤N) for which 2Ak=Ai+Aj holds.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1,A2,…,AN.
+
+Output
+For each test case, print a single line containing one integer — the number of valid pairs (i,j).
+Constraints
+
+1≤T≤10
+1≤N≤105
+|Ai|≤103 for each valid i
+
+Subtasks
+Subtask #1 (30 points): 1≤N≤103
+Subtask #2 (70 points): 1≤N≤105
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+2
+2 2
+3
+2 1 3
+6
+4 2 5 1 3 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+1
+7
+
+
+Explanation
+Example case 1: We can take k for Ak to be either 1 or 2, since Ak=2 either way. Since the problem asks for unordered pairs, (1,2) is the only possible valid pair (the same as (2,1)). Hence, the answer is 1.
+Example case 2: We see that A1=2=(1+3)/2. No other valid pair exists.
+
+
+
+Author:
+4★anuj_2106
+
+
+Editorial:
+https://discuss.codechef.com/problems/AVGPR
+
+
+Tags:
+
+               
+                 Frequency Arrays, Basic Maths
+                 
+                     
+                     Data Structures, Arrays, Mathematics
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1776
+
+
+Date Added:
+2-04-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

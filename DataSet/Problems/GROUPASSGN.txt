@@ -1,0 +1,97 @@
+
+Chef's professor is planning to give his class a group assignment. There are 2N2N students in the class, with distinct roll numbers ranging from 11 to 2N. Chef's roll number is X.
+The professor decided to create N groups of 2 students each. The groups were created as follows: the first group consists of roll numbers 1 and 2N, the second group of roll numbers 2 and 2N−1, and so on, with the final group consisting of roll numbers N and N+1.
+Chef wonders who his partner will be. Can you help Chef by telling him the roll number of his partner?
+Input Format
+
+The first line of input will contain an integer T — the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two integers N and X, denoting the number of groups that will be formed, and Chef's roll number. 
+
+Output Format
+For each test case, output the roll number of the student that will be Chef's partner.
+Constraints
+
+1≤T≤103
+1≤N≤108
+1≤X≤2N
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+2 2
+3 1
+3 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+6
+3
+
+
+Explanation
+Test case 1: The groups will be {(1,4),(2,3)}. Chef's roll number is 2, so his partner's roll number will be 3.
+Test case 2: The groups will be {(1,6),(2,5),(3,4)}. Chef's roll number is 1, so his partner's roll number will be 6.
+Test case 3: The groups will be {(1,6),(2,5),(3,4)}. Chef's roll number is 4, so his partner's roll number will be 3.
+
+
+
+Author:
+utkarsh_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/GROUPASSGN
+
+
+Tags:
+
+               
+                 cakewalk, math, start31, utkarsh_adm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+872
+
+
+Date Added:
+21-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

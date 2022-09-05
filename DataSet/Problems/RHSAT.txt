@@ -1,0 +1,78 @@
+
+Guruji wants to explain the rahasya of satyug project to Gaitonde. But to understand this project Gaitonde needs to solve a problem.
+The problem describes there are q queries each query contains integer n. String s should be obtained by appending each integer 1 to n  .
+ (if n=10 ,then s=12345678910) . Gaitonde have to find the sum of nth digit of string s  in each queries.
+Since Gaitonde is not good at problem-solving.So he gave you to solve this problem for him.
+Input
+The first line contains only integer q - number of queries ,then next q line contains integer n.
+Output
+Print the sum of integer obtained in each queries.
+Constraints
+
+1≤q≤104
+1≤n≤104
+
+Subtasks
+
+(30points)1≤q≤100,1≤n≤103
+(70points) Original constraints 
+
+Sample Input
+   2
+   11
+   12
+
+Sample Output
+   1
+
+Explanation
+In first query n=11(s=1234567891011) 11th digit of s is 0 and second query n=12(s=123456789101112) 12th digit of s is 1 .So final sum is 0+1=1.
+
+
+
+Author:
+4★rohan101
+
+
+Editorial:
+https://discuss.codechef.com/problems/RHSAT
+
+
+Tags:
+
+               
+                 brute-force, coha2019, greedy, implementation, rohan101, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-08-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

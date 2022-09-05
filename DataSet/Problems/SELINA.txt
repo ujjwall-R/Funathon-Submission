@@ -1,0 +1,98 @@
+
+Selina is Jon’s girlfriend.  They had planned to go for a date this evening, but Jon is stuck with a problem at work.
+He has a string SS of length NN, containing all lower case alphabets. The string contains a odd occurring character (characters that is present odd times). The task is to find the character (if not present print −1−1). Jon is already late for his date, so help him solve this as quickly as possible.
+Input Format
+
+First line will contain T, number of testcases. Then the testcases follow.
+Each testcase contains of a single line of input, one string S.
+
+Output Format
+
+Print the character.
+If no such character is present, print −1.
+
+Constraints
+
+1≤T≤106
+1≤N≤1000
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+abcbacc
+abcba
+abccba
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+c
+c
+-1
+
+
+Explanation
+Case 1: c is occurred 3 times i.e odd number of times.
+Case 2: c is occurring only 1 time.
+Case 3: no odd occurring character is present, printed −1.
+
+
+
+Author:
+4★sayan_kashyapi
+
+
+Editorial:
+https://discuss.codechef.com/problems/SELINA
+
+
+Tags:
+
+               
+                 bitwise-xor, cakewalk, easy, frequency-array, sayan_kashyapi
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+6-08-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, PYPY, NODEJS, RUBY, PHP, GO, kotlin, PERL, JS, rust, R, swift, SQL, PERL6, PRLG, SQLQ, ST
+
+
+
+
+
+Submit
+

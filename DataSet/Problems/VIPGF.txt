@@ -1,0 +1,105 @@
+
+ 
+Vipin loves his girfriend very much.But due to Culmyca'16 he is busy in making website of fest and due to this he is not giving time to his girlfriend.So he is not able to keep himself in touch with his girlfriend.
+So they are getiing spaces between them.You are best friend of Vipin you need to help him by clearing the spaces between them.
+Your task is to find the number of spaces between them.
+Input
+First line is T,no of test cases
+Next T lines each consisting of a sentence.
+
+Output
+T lines,containing count of spaces in the sentence.
+Constraints
+
+1 ≤ T ≤ 10^9
+1 ≤ Sentence Length ≤ 10^5
+
+ 
+Example
+Input:
+2
+vipin loves his girlfriend
+i am vipin's best friend
+
+Output:
+3
+4
+
+Code
+
+ #include<stdio.h>
+char a[100000];
+main()
+{   
+	long long int t;
+	scanf("%d",t);
+	while(--t)
+	{
+		long long int count=0;
+		scanf("%s",a);
+		for(int i=0;a[i+1]!='\0';i++)
+		{
+			if(a[i]==' ')count++;
+		}
+	     printf("%d\n",&count);
+	}
+}
+
+
+Steps to be followed
+
+1. Read the given description carefully and understand the problem.
+
+2. Analyze the code given in the problem and find bugs(errors) in these codes..
+
+3. The given code can be copied and compiled in an online compiler (Eg. ideone.com).
+
+4. Once the bugs are eliminated from the code, the clean code can be submitted as the solution to the problem..
+
+5. The solution should be a debugged version of the code provided and must satisfy the test cases to be accepted..
+
+
+
+
+Author:
+3★vipinkhushu
+
+
+Tags:
+
+               
+                 cdwr2016, easy, simple, vipinkhushu
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+24-02-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, C, CPP14, PYTH, PYP3, PYPY
+
+
+
+
+
+Submit
+

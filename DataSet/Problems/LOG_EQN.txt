@@ -1,0 +1,81 @@
+
+Chef has a sequence of N integers A1,A2,...,AN. 
+Chef thinks that a triplet of integers (i,j,k) is good if 1≤i<j<k≤N and P in the following expression contains an odd number of ones in its binary representation:
+P=[Ai<<(⌊log2(Aj)⌋+⌊log2(Ak)⌋+2)]+[Aj<<(⌊log2(Ak)⌋+1)]+Ak
+The << operator is called left shift, x<<y  is defined as x⋅2y.
+Help the Chef finding the total number of good triplets modulo 109+7.
+Input:
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N. 
+The second line of each test case contains N space-separated integers A1,A2,...,AN.
+
+Output:
+For each test case, print a single line containing one integer, the number of good triplets modulo 109+7.
+Constraints:
+
+1≤T≤103
+1≤N≤105
+1≤Ai≤109
+The sum of N over all testcases is less than 106
+
+Sample Input:
+1
+4
+1 1 2 3
+
+Sample Output:
+1
+
+
+
+
+Author:
+4★sahi1422
+
+
+Editorial:
+https://discuss.codechef.com/problems/LOG_EQN
+
+
+Tags:
+
+               
+                 Logarithm, Dynamic Programming, Prefix Sum
+                 
+                     
+                     Mathematics, Number Theory, Algorithms, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+19-10-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

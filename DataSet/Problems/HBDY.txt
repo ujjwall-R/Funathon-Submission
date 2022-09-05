@@ -1,0 +1,86 @@
+
+Today is the birthday of Mukesh. He wants to buy sweets for his friends so he went to the Chef sweet shop. He has XX amount of cash with him. The pricing of sweets is as follows.
+If he selects NN sweets and places them in a single line then the price of the ithith sweet from left is i2. 
+He wants to maximize his purchase of sweets to share with his friends. Can you help him? Chef has a total of 106 sweets. 
+
+Input:
+
+First line contains T, the number of testcases. Then the testcases follow. 
+Each testcase contains a single line of input, one integer X. 
+
+
+Output:
+For each testcase, output in a single line answer maximum sweets.
+
+Constraints
+
+1≤T≤104
+1≤X≤1018
+
+
+Subtasks
+
+Subtask #1(30 points): 1≤T≤10, 1≤X≤1013
+Subtask #2(70 points): Original Constraints
+
+
+Sample Input:
+1
+42
+
+
+Sample Output:
+4
+
+
+EXPLANATION:
+4 sweets will cost him 30 whereas 5 will cost 55. Thus he can't buy more than 4.
+
+
+
+Author:
+pec_chapter
+
+
+Editorial:
+https://discuss.codechef.com/problems/HBDY
+
+
+Tags:
+
+               
+                 binary-search, easy, math, pec_chapter
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+12-03-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

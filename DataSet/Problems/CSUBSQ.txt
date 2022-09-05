@@ -1,0 +1,97 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Let's call an integer sequence nice if the sum of its elements is divisible by a given integer KK. You are given an integer sequence A1,A2,…,AN. Hasan wanted to find the number of nice subsequences of this sequence. However, this problem is too easy, so Hasan decided to add an extra constraint. 
+For an arbitrary non-empty sequence of indices i1<i2<…<iL, let's call a subsequence Ai1,Ai2,…,AiL very nice if it is nice and iL−i1≥W. Help Hasan and find the number of very nice subsequences. Since this number may be very large, compute it modulo 109+7.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, K and W.
+The second line contains N space-separated integers A1,A2,…,AN.
+
+Output
+For each test case, print a single line containing one integer — the number of very nice subsequences modulo 109+7.
+Constraints
+
+1≤T≤1,000
+1≤N≤105
+2≤K≤50
+0≤W≤N−1
+0≤Ai≤K−1 for each valid i
+the sum of N over all test cases does not exceed 3⋅105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+6 3 3
+1 1 1 1 1 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+17
+
+
+
+
+
+Author:
+3★deadwing97
+
+
+Editorial:
+https://discuss.codechef.com/problems/CSUBSQ
+
+
+Tags:
+
+               
+                 Modular Arithmetic, Dynamic Programming, Divide and Conquer
+                 
+                     
+                     Mathematics, Algorithms, Recursion
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2804
+
+
+Date Added:
+14-12-2018
+
+
+Time Limit:
+5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

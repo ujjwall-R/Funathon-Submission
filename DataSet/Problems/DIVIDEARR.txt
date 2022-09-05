@@ -1,0 +1,117 @@
+
+Given a sequence X of length M, f(X) is defined as f(X)=∑M−1i=1|Xi+1−Xi|. 
+Specifically, if M=1, then f(X)=0.
+For e.g., f([3,1,7,2])=|1−3|+|7−1|+|2−7|=13
+JJ has an array A of length N. He wants to divide the array A into two subsequences P and Q (possibly empty) such that the value of f(P)+f(Q) is as large as possible. (Note that each Ai must belong to either subsequence P or subsequence Q).
+Help him find this maximum value of f(P)+f(Q).
+Note: A sequence X is a subsequence of a sequence Y if X can be obtained from Y by deletion of several (possibly, zero or all) elements.
+Input Format
+
+The first line contains T - the number of test cases. Then the test cases follow.
+The first line of each test case contains an integer N - the size of the array A.
+The second line of each test case contains N space-separated integers A1,A2,…,AN denoting the array A.
+
+Output Format
+Output the largest value of f(P)+f(Q).
+Constraints
+
+1≤T≤200
+1≤N≤1000
+1≤Ai≤105
+It is guaranteed that the sum of N over all test cases does not exceed 3000.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+6
+1 4 6 3 4 2
+5
+1 2 3 4 5
+2
+1 10
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+11
+6
+9
+
+
+Explanation
+Test case-1: One way to divide the array into two subsequences P and Q as follows: 
+P=[1,6,2], Q=[4,3,4]. 
+f(P)=|6−1|+|2−6|=9 and f(Q)=|3−4|+|4−3|=2. 
+Therefore f(P)+f(Q)=11. 
+It can be proven that this is the maximum value of f(P)+f(Q).
+Test case-2: One way to divide the array into two subsequences P and Q as follows: 
+P=[1,4], Q=[2,3,5]. 
+f(P)=|4−1|=3 and f(Q)=|3−2|+|5−3|=3. 
+Therefore f(P)+f(Q)=6. 
+It can be proven that this is the maximum value of f(P)+f(Q).
+Test case-3: One way to divide the array into two subsequences P and Q as follows: 
+P=[1,10], Q=[]. 
+f(P)=|10−1|=9 and f(Q)=0. 
+Therefore f(P)+f(Q)=9. 
+It can be proven that this is the maximum value of f(P)+f(Q).
+
+
+
+Author:
+6★jeevanjyot
+
+
+Editorial:
+https://discuss.codechef.com/problems/DIVIDEARR
+
+
+Tags:
+
+               
+                 dynamic-programming, easy-medium, jeevanjyot, start26
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2631
+
+
+Date Added:
+13-02-2022
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

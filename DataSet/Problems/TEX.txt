@@ -1,0 +1,84 @@
+
+
+Adhiraj, Bhavesh, Chirag decided to go on a trip to Hong Kong. They enjoyed very much on the trip. Now, the time of returning to home has arrived so they decided to equally distribute the expenses of the trip so that the trip would be fair (Since everyone should be happy after the trip). Since they are very tired after the whole trip hence want you being their friend to help them distribute the whole money.
+
+(Let's call Adhiraj A, Bhavesh B, Chirag C )…
+Even they want that they have to do the least number of transaction to one another (as they are very tired). 
+You being their friend decided to help them.
+Input:
+The first line will contain T that is number of test cases 
+Each line of test case contains A, B, C that is the amount paid by Adhiraj, Bhavesh, Chirag during the trip.
+Output:
+For each test case, you have to print the least number of transactions that have to be made between the friends so that the money could be equally distributed.
+Constraints
+
+1<=T<=100000
+0<=A, B, C<=10^8
+A+B+C is divisble by 3
+
+Sample Input:
+2
+2 4 3
+7 3 2
+Sample Output:
+1
+2
+EXPLANATION:
+Explanation of test case 1
+A gives 1 unit of money to B and everyone has hence paid 3 unit of money
+Explanation of test case 2
+C gives 2 unit of money to A
+B gives 1 unit of money to A and hence everyone has paid the same amount
+
+
+
+Author:
+5★jatin_cpp
+
+
+Tester:
+5★ishu_05
+
+
+Editorial:
+https://discuss.codechef.com/problems/TEX
+
+
+Tags:
+
+               
+                 ad-hoc, cakewalk, corp2018, jatin_cpp
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+19-04-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

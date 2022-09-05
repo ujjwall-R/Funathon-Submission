@@ -1,0 +1,101 @@
+
+Naveen made an encryption algorithm for the Introduction to Cryptography course project. The algorithm takes input a bit-string SS of length NN and returns a ciphertext of the same length. The pseudo-code for the algorithm is -
+Encryption (S, N )
+{
+    cipher = S
+    for i → 1 to N : 
+        j = ( i == N ) ? 1 : i+1
+        if ( S[i] == '1' and S[j] == '0' ) :
+            cipher[i] = '0'
+            cipher[j] = '1'
+
+    return cipher        
+}
+
+Note:
+
+SS contains only '1's and '0's.
+The given algorithm works on 1-based indexing.
+
+For example, if the original bit-string S was 010101, the encryption function returns 101010.
+Unfortunately, the above algorithm is not perfect, as more than one S can have the same ciphertext. 
+For a given ciphertext, Naveen wants to find out how many original bit-string S are possible.
+    For example, for the ciphertext '01001', there are two possible original strings - '10001' and '10010'.
+Naveen is busy preparing for the end-sem exams, can you help him by implementing a function that calculates the total possible original strings for a given ciphertext?.
+The answer can be very large, so print answer% (109+7).
+
+Input:
+
+First-line will contain T, the number of test cases. 
+Each test case contains a single line of input, a string consists of 1s and 0s.
+
+Output:
+
+For each test case print an integer, answer% (109+7) for the problem in a separate line. 
+
+Constraints
+
+1≤T≤10
+2≤lengthOfString≤105
+Sum of length of strings over all test cases does not exceed 105.
+
+Sample Input:
+2
+010001001
+101010
+
+Sample Output:
+2
+4
+
+EXPLANATION:
+In the first sample, the only possible original strings are 100010010 and 100010001.
+
+
+
+Author:
+4★sherlock8696
+
+
+Editorial:
+https://discuss.codechef.com/problems/CAC1
+
+
+Tags:
+
+               
+                 codechef, dynamic-programming, easy-medium, sherlock8696
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+11-03-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

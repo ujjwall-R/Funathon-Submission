@@ -1,0 +1,128 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+An encoder encodes the first 1616 lowercase English letters using 44 bits each. The first bit (from the left) of the code is 00 if the letter lies among the first 88 letters, else it is 11, signifying that it lies among the last 88 letters. The second bit of the code is 00 if the letter lies among the first 44 letters of those 88 letters found in the previous step, else it's 11, signifying that it lies among the last 44 letters of those 88 letters. Similarly, the third and the fourth bit each signify the half in which the letter lies. 
+For example, the letter jj would be encoded as :
+
+Among (a,b,c,d,e,f,g,h(a,b,c,d,e,f,g,h || i,j,k,l,m,n,o,p)i,j,k,l,m,n,o,p), jj appears in the second half. So the first bit of its encoding is 11.
+Now, among (i,j,k,l(i,j,k,l || m,n,o,p)m,n,o,p), jj appears in the first half. So the second bit of its encoding is 00.
+Now, among (i,j(i,j || k,l)k,l), jj appears in the first half. So the third bit of its encoding is 00.
+Now, among (i(i || j)j), jj appears in the second half. So the fourth and last bit of its encoding is 11.
+
+So jj's encoding is 10011001,
+Given a binary encoded string SS, of length at most 105105, decode the string. That is, the first 4 bits are the encoding of the first letter of the secret message, the next 4 bits encode the second letter, and so on. It is guaranteed that the string's length is a multiple of 4.
+Input:
+
+The first line of the input contains an integer TT, denoting the number of test cases.
+The first line of each test case contains an integer NN, the length of the encoded string.
+The second line of each test case contains the encoded string SS.
+
+Output:
+For each test case, print the decoded string, in a separate line.
+Constraints
+
+1≤T≤101≤T≤10
+4≤N≤1054≤N≤105
+The length of the encoded string is a multiple of 44.
+0≤Si≤10≤Si≤1
+
+Subtasks
+
+100100 points : Original constraints.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+4
+0000
+8
+00001111
+4
+1001
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+a
+ap
+j
+
+
+Explanation
+
+Sample Case 11 : 
+
+The first bit is 00, so the letter lies among the first 88 letters, i.e., among a,b,c,d,e,f,g,ha,b,c,d,e,f,g,h. The second bit is 00, so it lies among the first four of these, i.e., among a,b,c,da,b,c,d. 
+The third bit is 00, so it again lies in the first half, i.e., it's either aa or bb. Finally, the fourth bit is also 00, so we know that the letter is aa.
+
+Sample Case 22 : 
+
+Each four bits correspond to a character. Just like in sample case 11, 00000000 is equivalent to aa. Similarly, 11111111 is equivalent to pp. So, the decoded string is apap.
+
+Sample Case 33 : 
+
+The first bit is 11, so the letter lies among the last 88 letters, i.e., among i,j,k,l,m,n,o,pi,j,k,l,m,n,o,p. The second bit is 00, so it lies among the first four of these, i.e., among i,j,k,li,j,k,l. 
+The third bit is 00, so it again lies in the first half, i.e., it's either ii or jj. Finally, the fourth bit is 11, so we know that the letter is jj.
+
+
+
+Author:
+daanish_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/DECODEIT
+
+
+Tags:
+
+               
+                 Maps, Basic Maths, Binary, Observation, Brute Force, Implementation
+                 
+                     
+                     Data Structures, Mathematics, Number System, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+31-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

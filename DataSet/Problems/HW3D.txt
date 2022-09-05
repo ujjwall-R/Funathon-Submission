@@ -1,0 +1,69 @@
+
+You task is to find minimal natural number NN, so that N!N! contains exactly QQ zeroes on the trail in decimal notation. As you know N!=1∗2∗...∗N. For example, 5! = 120, 120 contains one zero on the trail.
+Input
+The only line contains one number Q (0≤Q≤108), representing the number of trailing zeros.
+Output
+In the only line print "No solution", if there is no such number N, and N otherwise.
+Sample Inputs
+2 
+
+5 
+
+24 
+
+Sample Outputs
+10
+
+No solution 
+
+100
+
+
+
+
+Author:
+squ_test
+
+
+Editorial:
+https://discuss.codechef.com/problems/HW3D
+
+
+Tags:
+
+               
+                 binary-search, chw32020, factorial, medium, squ_test
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+2-05-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14
+
+
+
+
+
+Submit
+

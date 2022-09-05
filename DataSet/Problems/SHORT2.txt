@@ -1,0 +1,81 @@
+
+Given a prime number p, find the number of pairs of integers (a, b) such that p < a, p < b and ab is divisible by (a-p)(b-p).
+
+Input
+The first line contains the number of test cases t (1 ≤ t ≤ 5). Then t test cases follow, each test case consists of a line containing one prime integer p (1 < p < 1012).
+
+Output
+For each test case output one line containing the required number. It's guaranteed that this number won't exceed 263-1.
+
+Example
+Input:
+3
+2
+23
+59
+
+Output:
+14
+80
+116
+
+Explanation:
+
+In the first test case the sought pairs are (3,3), (3,4), (3,5), (3,8), (4,3), (4,4), (4,6), (5,3), (5,12), (6,4), (6,8), (8,3), (8,6) and (12,5).
+
+
+
+
+Author:
+gennady_adm
+
+
+Tester:
+6★pieguy
+
+
+Editorial:
+https://discuss.codechef.com/problems/SHORT2
+
+
+Tags:
+
+               
+                 Mathematics, Implementation
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2640
+
+
+Date Added:
+30-09-2011
+
+
+Time Limit:
+0.365733 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

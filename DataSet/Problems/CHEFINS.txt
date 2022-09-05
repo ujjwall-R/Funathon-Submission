@@ -1,0 +1,101 @@
+
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+You are given some integers in the range between 1 and N. You have to answer Q queries, each query is given by number X, you have to tell whether you can write number X as a sum of allowed numbers. You can use an allowed integer zero or multiple times.
+Input
+The first line contains three integer numbers N and K, Q, where K denotes number of allowed integers, Q denotes number of queries. The second line containing K distinct integers Fi - allowed numbers.
+Each of the next Q lines containing one integer number X.
+Output
+For each query output "Yes" or "No" (without quotess) in separate line.
+Constraints
+
+1 ≤ N, K, Q, X ≤ 200,000
+1 ≤ Fi ≤ N
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4 2 3
+2 4
+2
+8
+5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Yes
+Yes
+No
+
+
+Explanation
+Example case 1. 2 = 2
+Example case 2. 8 = 2 + 2 + 4
+Example case 3. 5 can't be sum of any number of addends 2 and 4 
+
+
+
+Author:
+6★mgch
+
+
+Tester:
+5★tuananh93
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHEFINS
+
+
+Tags:
+
+               
+                 Polynomial, FFT
+                 
+                     
+                     Mathematics, Algebra, Transformations
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2615
+
+
+Date Added:
+9-12-2016
+
+
+Time Limit:
+1.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

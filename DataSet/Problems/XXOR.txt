@@ -1,0 +1,110 @@
+
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+You are given a sequence A1, A2, ..., AN and Q queries. In each query, you are given two parameters L and R; you have to find the smallest integer X such that 0 ≤ X < 231 and the value of (AL xor X) + (AL+1 xor X) + ... + (AR xor X) is maximum possible.
+Note: xor denotes the bitwise xor operation.
+Input
+
+The first line of the input contains two space-separated integers N and Q denoting the number of elements in A and the number of queries respectively.
+The second line contains N space-separated integers A1, A2, ..., AN.
+Each of the next Q lines contains two space-separated integers L and R describing one query.
+
+Output
+For each query, print a single line containing one integer — the minimum value of X.
+Constraints
+
+1 ≤ N ≤ 105
+1 ≤ Q ≤ 105
+0 ≤ Ai < 231 for each valid i
+
+Subtasks
+
+Subtask #1 (18 points):
+
+1 ≤ N ≤ 103
+1 ≤ Q ≤ 103
+0 ≤ Ai < 210 for each valid i
+
+
+
+Subtask #2 (82 points): original constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5 3
+20 11 18 2 13
+1 3
+3 5
+2 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2147483629
+2147483645
+2147483645
+
+
+
+
+
+Author:
+5★hruday968
+
+
+Editorial:
+https://discuss.codechef.com/problems/XXOR
+
+
+Tags:
+
+               
+                 2D Arrays, Bitwise Operation, Prefix Sum
+                 
+                     
+                     Data Structures, Arrays, Mathematics, Bit Manipulation, Algorithms, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1810
+
+
+Date Added:
+29-01-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

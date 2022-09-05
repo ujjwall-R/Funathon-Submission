@@ -1,0 +1,84 @@
+
+Bob and Alice are very close friends. Once they decided to go to a shop to buy strings for themselves. The strings available in the shop contain only lowercase Latin letters. Alice and Bob decided to buy strings of the same length NN. They also wanted the strings to be equal.
+It is guaranteed that the shop has at least two strings of the length NN. But it's not guaranteed that the shop has two equal strings. Hence, they decided to exchange characters among themselves to make the strings equal. Let the two strings they bought be represented by AA and B. For all i such that 1≤i≤N2, they can perform the following operations on the strings any number of times: 
+
+Swap Ai with Bi
+Swap Ai with AN−i+1
+
+You have to tell the minimum number of operations needed to make the strings equal. Or determine that it's impossible.
+Input:
+
+First line will contain T, the number of test cases. Then T the test cases follow. 
+First line of each test case contains a single integer N.
+Second line of each test case contains a single string A.
+Thrid line of each test case contains a single string B.
+
+Output:
+For each test case, output in a single line the required answer. If it not possible to make the strings equal, print "-1".
+Constraints
+
+1≤T≤10
+1≤N≤105
+|A|=|B|=N
+Strings contain only lowercase Latin letters
+
+Sample Input:
+2
+4
+wbbw
+rbbr
+1
+r
+z  
+Sample Output:
+2
+-1  
+
+
+
+Author:
+5★sibasish_14
+
+
+Editorial:
+https://discuss.codechef.com/problems/THETRADE
+
+
+Tags:
+
+               
+                 ftcf2020, greedy, sibasish_14, sibasish_14, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+8-06-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

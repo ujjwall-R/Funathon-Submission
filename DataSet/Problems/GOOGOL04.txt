@@ -1,0 +1,92 @@
+
+Problem description.
+
+It is the occasion of Annual Sports Day of ISM Dhanbad. Everybody has come to watch this spectacular event. The Event is going to start with a Marchpast. Since, the event has already been delayed by an hour, the students participating in the Marchpast line up randomly to save time.
+
+Now, the instructor got confused on how to arrange them properly in a short period of time. Therefore, he comes up with an idea that: He will remove the minimum number of students from the line such that he will end up with a line that has the students standing in monotonically increasing order according to their height.
+
+To solve this tedious task he asks you to come up with an optimal solution. Since there is no time for excuses.
+
+Input
+
+First line contains single integer N, number of students.
+Next N lines, contain single integer denoting the height of the ith student.
+
+Ouput
+
+Single Integer Output as explained in the Problem Statement.
+
+Constraints
+
+
+1 ≤ N ≤ 1,000,000
+0 ≤ A[i] ≤ 1,000,000,000
+
+
+Sample Input:
+
+6
+1
+0
+3
+5
+2
+7
+
+Sample Output:
+
+2
+
+Explanation:
+
+{1, 0, 3, 5, 2, 7} if we remove {0, 2} we will get the desired output i.e. {1, 3, 5, 7} in which the students are in monotonically increasing order.
+
+
+
+
+Author:
+3★surajjumpy
+
+
+Editorial:
+https://discuss.codechef.com/problems/GOOGOL04
+
+
+Tags:
+
+               
+                 binary-search, dynamic-programming, subsequence, surajjumpy
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+1-04-2015
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,107 @@
+
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+
+A dark tetrahedron's size is said to be N if each of its edges consists of N segments.
+To destroy a dark tetrahedron of size N, you have to erase at least N segments (you can't destroy a dark tetrahedron partially: the tetrahedron uses dark magic to self-cure if you erase less than N segments, and so it's the same as not erasing any segment). Also, to protect yourself from the tetraheldral curse, you must ensure that each vertex of a tetrahedron needs to have at least 2 incident segments. Note that a dark tetrahedron has 4 vertices, just like regular tetrahedrons.
+
+
+A Sauron-tetrahedron of size N with resistance K is made of N dark tetrahedrons with sizes 1, 2, ... , N. To destroy a Sauron-tetrahedron, you have to destroy at least K of its constituent tetrahedrons.
+
+
+Wizard Nikitosh needs to detroy a Sauron-tetahedron of size N with resistance K and he wants to know how many ways to destroy it are there. Since Nikitosh's creative juices only flow for wizardry, he needs your mathematical talent to solve this problem.
+You also need to follow the wizard's order to output the answer modulo 105+3.
+
+Input
+The first line of input contains an integer T denoting the number of test cases. The description of T test cases follows.
+For each test case, a single line contains two integers, N and K, representing the size of the super tetrahedron and its resistance.
+Output
+For each test case, output a single line. It must contain the number of ways to destroy a super tetrahedron of size N with resistance K (modulo 105+3).
+Constraints
+
+1 ≤ T ≤ 5
+1 ≤ N ≤ 6*104
+1 ≤ K ≤ N
+
+Subtasks
+
+Subtask #1 (20 points): 1 ≤ N ≤ 103
+Subtask #2 (80 points): 1 ≤ N ≤ 6*104
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+1 1
+2 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+9
+2439
+
+
+
+
+
+Author:
+4★rebryk
+
+
+Tester:
+6★iscsi
+
+
+Editorial:
+https://discuss.codechef.com/problems/REBTET
+
+
+Tags:
+
+               
+                 binomial-theorem, fast-fourier-transform, karatsuba-algorithm, medium-hard, nov15, rebryk
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2932
+
+
+Date Added:
+24-04-2015
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

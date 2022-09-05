@@ -1,0 +1,80 @@
+
+There are N people wanting to seat on a row of N seats. The persons and seats are numbered from 1 to N.
+The N people are ordered according to who chooses the seats first. In other words, person 1 is the first to seat, followed by person 2, then person 3, etc.
+In addition, the ith person has a preferred seat Si, a number from 1 to N, and a preferred direction Di, which is either left or right. This means that on the ith person's turn, he/she first checks seats Si if it is available. If it's available, then he/she sits there, otherwise he walks into the direction specified by Di and sits on the first seat available in that direction. It's possible that the ith person doesn't find an available seat at all; if that happens, that person fails to seat and simply leaves.
+You know their preferred seats [S1, S2, ..., SN], but you don't know their preferred directions [D1, D2, ..., DN]. So the problem is: how many assignments of preferred directions are there such that all N people successfully seat?
+Input
+The first line of input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N integers separated by single spaces: S1, S2, ..., SN.
+Output
+For each test case, output a single line containing the answer. Since the answer can be very large, only output it modulo 109 + 7.
+Constraints
+
+1 ≤ T ≤ 200
+1 ≤ N ≤ 60
+1 ≤ Si ≤ N
+
+Example
+Input:
+1
+3
+2 2 3
+Output:
+6
+
+Explanation
+The following assignments of preferred directions yield a successful seating:
+
+[left, left, left] which yields the seating [2, 1, 3].
+[left, left, right] which yields the seating [2, 1, 3].
+[left, right, left] which yields the seating [3, 1, 2].
+[right, left, left] which yields the seating [2, 1, 3].
+[right, left, right] which yields the seating [2, 1, 3].
+[right, right, left] which yields the seating [3, 1, 2].
+
+
+
+
+Author:
+admin3
+
+
+Tags:
+
+               
+                 acm16, admin3, dynamic-programming, icpc2016, kgp16, vijju123
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-12-2016
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3
+
+
+
+
+
+Submit
+

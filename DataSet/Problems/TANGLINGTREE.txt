@@ -1,0 +1,130 @@
+
+You are given an undirected tree of NN nodes. A positive weight WiWi is assigned to the node ii for all 1≤i≤N.
+For all 1≤j≤N−1, the j-th edge connects the nodes uj and vj, and has a restriction value of Rj.
+An array A1,A2,⋯,AN consisting of N non-negative integers is called valid if:
+
+For all 1≤j≤N−1, the condition Auj+Avj≤Rj holds.
+
+The profit of a valid array A is defined as profit(A)=N∑i=1Ai⋅Wi
+Find the maximum possible value of profit(A) for some valid array A.
+Input Format
+
+The first line of input contains a single integer T - the number of test cases. The description of T test cases follow.
+The first line of each test case contains a single integer N - the number of nodes in the tree.
+The second line of each test case contains N integers W1,W2,⋯,WN denoting the weights assigned to every node.
+The next N−1 lines contain three space-separated integers each, with the j-th line containing uj, vj, and Rj.
+
+Output Format
+For each test case, output the maximum possible value of profit(A).
+Constraints
+
+1≤T≤105
+3≤N≤105
+1≤Wi≤109
+1≤uj,vj≤N and uj≠vj
+1≤Rj≤109
+It is guaranteed that N⋅maxNi=1Wi⋅maxN−1j=1Rj≤1018.
+It is guaranteed that the input forms a valid tree for all test cases.
+The sum of N over all test cases do not exceed 105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+3
+6 9 4
+1 2 2
+2 3 1
+6
+1 2 2 6 100 100
+1 2 9
+2 3 17
+2 4 3
+3 5 1
+3 6 4
+3
+120734269 1000000000 1
+1 2 300000000
+2 3 300000000
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+16
+527
+300000000000000000
+
+
+Explanation
+Test case-1: All valid arrays A are:
+
+A=[0,0,0]; profit(A)=0⋅6+0⋅9+0⋅4=0
+A=[0,0,1]; profit(A)=0⋅6+0⋅9+1⋅4=4
+A=[0,1,0]; profit(A)=0⋅6+1⋅9+0⋅4=9
+A=[1,0,1]; profit(A)=1⋅6+0⋅9+1⋅4=10
+A=[1,1,0]; profit(A)=1⋅6+1⋅9+0⋅4=15
+A=[2,0,1]; profit(A)=2⋅6+0⋅9+1⋅4=16
+
+The maximum profit among all valid arrays A is 16, which is the answer.
+Test case-2: The optimal A is [9,0,0,3,1,4].
+Test case-3: The optimal A is [0,300000000,0].
+
+
+
+Author:
+1★arvindf232
+
+
+Editorial:
+https://discuss.codechef.com/problems/TANGLINGTREE
+
+
+Tags:
+
+               
+                 arvindf232, cook138, dynamic-programming, medium-hard, slope-trick, small-to-large
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+4076
+
+
+Date Added:
+20-02-2022
+
+
+Time Limit:
+4 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

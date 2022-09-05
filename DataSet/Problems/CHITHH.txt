@@ -1,0 +1,100 @@
+
+ 
+Chef studied science at school. But now he was tired of it. He likes to solve problems on Codechef. Here and now, he decided to go to his favourite site and solve several interesting problems. But as it turned out Chef is not yet ready to solve the harder problems. So you have to help him.
+
+If you take away all the foreword, then the task set is this: you have N non-negative numbers A1, A2 ... AN and M requests. Each request consists of three numbers (l, v, k). MagicInteger(l,v) is equal to concatenation of the numbers Ai, such that (i = l + v * q & 1 <= i <= n & q >= 0). For each such request you have to write the k-th digit of MagicInteger(l,v).
+
+
+Concatanation example:
+If you have 2 numbers 11, 22 - after concatenation you will have 1122.
+If you have 3 number 13, 44, 12 - after concatenation you will have 134412.
+One more example: 0, 3, 11, 0 - after concatenation you will have 03110. First digit of this string is 0, not 3.
+
+ 
+Input
+The first line contains an integer N denoting the number of integers in the given array. The second line contains N space-separated integers A1, A2, ..., AN denoting the given array. The third line has a single integer M denoting the number of requests. The next M lines contains three space separated numbers in each line (l, v, k) denoting each request. 
+Output
+For each request output a single line containing k-th digit of MagicInteger(l, v). If the length of MagicInteger(l,v) is smaller than k, you need to output "So sad" without quotes.
+Constraints
+
+1 ≤ N ≤ 105
+1 ≤ M ≤ 105
+0 ≤ Ai ≤ 109
+1 ≤ l, v ≤ 105
+1 ≤ k ≤ 106
+
+ 
+Example
+Input:
+4
+0 1 2 3
+5
+1 1 2
+1 2 2
+1 2 1
+2 2 3
+4 100000 1
+
+Output:
+1
+2
+0
+So sad
+3
+ 
+Scoring
+Subtask 1 (30 points): N ≤ 1000
+Subtask 2 (25 points): V ≤ 100
+Subtask 3 (45 points):  Look at constraints 
+
+
+
+Author:
+furko_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHITHH
+
+
+Tags:
+
+               
+                 Dynamic Programming, Binary Search
+                 
+                     
+                     Algorithms, Searching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2612
+
+
+Date Added:
+15-09-2013
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

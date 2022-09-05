@@ -1,0 +1,88 @@
+
+ 
+King Lanuk is the ruler of a vast kingdom which spans an M x M grid(each point on the grid is a city) which has an invisible electric fence around it. So if anybody by mistake crosses over the boundary, he dies.
+King Lunak decides to send his messengers on a N day quest. Each messenger starts from the capital of the city which is a cell given by X, Y (1-indexed). On each day, the messenger can move one step in either of the 8 cardinal directions. Now, King Lunak gave each messenger a unique N length string where the character at the ith index denotes which of the 8 directions the messenger will move in on the ith day of his quest. King Lunak sends out exactly as many messengers as the number of unique strings he can generate. The messengers know that some of these quest plans will cause them to cross the fence and thus die, but they dare not refuse the king.
+So King Lunak wants to know after N days, how many of the messengers survived.
+
+Input
+
+First line contains T which is the number of test cases.
+First line of each test case contains an integer M indicating the size of the grid.
+Second line of each test case contains 2 integers X, Y indicating the starting point for each messenger.
+Last line of each test case contains an integer N indicating the number of days.
+
+Output
+For each test case, output a single line containing the number of messengers alive modulo 109+7.
+Constraints:
+
+1 ≤ T ≤ 10
+1 ≤ M ≤ 20
+1 ≤ N ≤ 109
+
+Example
+Input:
+2
+4
+1 1
+1
+4
+2 2
+1
+
+Output:
+3
+8
+
+ 
+Explanation
+Case 1: There are 3 alive messengers. They are on cells (1, 2), (2, 2) and (2, 1). 
+Case 2: All 8 messengers will be alive.
+
+
+
+Author:
+blunderspride
+
+
+Editorial:
+https://discuss.codechef.com/problems/KTOUR
+
+
+Tags:
+
+               
+                 blunderspride, dynamic-programming, ipc151b, matrix-exponentiation, medium-hard
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+3-10-2015
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

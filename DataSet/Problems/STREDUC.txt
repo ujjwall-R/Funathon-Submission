@@ -1,0 +1,94 @@
+
+Give a string s of length l, and a set S of n sample string(s). We do reduce the string s using the set S by this way:
+
+Wherever Si appears as a consecutive substring of the string s, you can delete (or not) it.
+After each deletion, you will get a new string s by joining the part to the left and to the right of the deleted substring.
+
+
+Request
+By that way, try to reduce the given string s to get a new string of minimum length. You can do delete for unlimited times.
+Input
+
+
+The first line contains the string s.
+The second line contains the integer n.
+Within the last n lines, the i-th line contains the string Si.
+
+
+Output
+Output on a single line an integer which is the minimum length found.
+Example
+Input:
+aaabccd
+3
+abc
+ac
+aaa
+
+Output:
+2
+
+Limitations
+
+
+0<l≤250
+0<n≤30
+0<|Si|≤20
+
+
+
+
+
+Author:
+anhdq_adm
+
+
+Tester:
+4★anshuman_singh
+
+
+Editorial:
+https://discuss.codechef.com/problems/STREDUC
+
+
+Tags:
+
+               
+                 String, Dynamic Programming
+                 
+                     
+                     Data Structures, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2297
+
+
+Date Added:
+5-05-2010
+
+
+Time Limit:
+0.3 - 0.345555 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

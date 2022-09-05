@@ -1,0 +1,87 @@
+
+ 
+Fluffy the Squirrel is playing a game based on his friend Flippy the Bird. The game is called Flippy Bird. Initially, Flippy will be standing on the number 0 on the number line. Then, Fluffy can perform n moves. For each move i, Fluffy can choose a direction, left or right. Then, Flippy will move in that direction for ai seconds. (and he travels 1 unit every second) Fluffy wins if Flippy's final position is between l and r inclusive. There are 2n possible ways to choose the directions for all n moves. Fluffy wants to know how many ways are there for him to win. Can you help him?
+ 
+Input
+The first line contains an integer, n, denoting the number of moves Fluffy will make. The next line contains n space-seperated integers, where the i-th integer denotes ai. The next line contains two space-seperated integers l, r
+ 
+Output
+Output a single integer, the number of ways Fluffy can win. Output the answer modulo 1000000007 (109 + 7).
+ 
+Constraints
+
+1 ≤ n ≤ 500
+1 ≤ ai ≤ 100000
+1 ≤ Sum of all ai ≤ 100000
+-100000 ≤ l ≤ r ≤ 100000
+
+Subtasks
+
+Subtask 1 (33 points) : 1 ≤ n ≤ 20
+Subtask 2 (67 points) : Original Constraints
+
+ 
+Example
+Input:
+3
+2 4 1
+-1 1
+
+Output:
+2
+
+ 
+Explanation
+Example case. The two ways that Fluffy can win are :
+Go right on move 1 and 3, ending at position 2 - 4 + 1 = -1.
+Go right on move 2, ending at position -2 + 4 - 1 = 1.
+
+
+
+
+Author:
+6★zscoder
+
+
+Editorial:
+https://discuss.codechef.com/problems/MCO16303
+
+
+Tags:
+
+               
+                 dynamic-programming, easy, mco1602, zscoder
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-11-2016
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, CPP14, PYTH, PYP3
+
+
+
+
+
+Submit
+

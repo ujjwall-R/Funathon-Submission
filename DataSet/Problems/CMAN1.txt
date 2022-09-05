@@ -1,0 +1,83 @@
+
+Hey Welcome to competitive coding event of Code_Blasters !
+So let's start with a warm up exercise first.
+chef is a master of two number game ,and chef wants you to play this game with you as he has nothing to do due to COVID-19 lockdown.
+The game is simple chef will give you two numbers (let's say aa and bb  ) and you need to tell whether the given two numbers can become equal after performing given operations.
+
+Incrementing aa by 1 OR
+decrementing b by 1
+
+NOTE: you can perform the given two operations any number of times.
+Input:
+
+The first line of the input contains a single integer T .T denoting the number of test cases. The description of T   test   cases follows.
+Each test case contains two space seperated integer a and b denoting the two number given by chef.
+
+Output:
+
+For each test case, print "YES"(without quotes) if it is possible to make a and b equal, else print "NO"(without quotes).
+
+Constraints:
+
+1≤T≤1000
+1≤a≤106
+1≤b≤106
+
+Sample Input:
+2
+5 7
+10000 5000
+
+Sample Output:
+YES
+NO
+
+
+
+
+Author:
+1★vishalmourya
+
+
+Editorial:
+https://discuss.codechef.com/problems/CMAN1
+
+
+Tags:
+
+               
+                 c-plus-plus, cakewalk, cman2020, codechef, easy, number-theory, strings, vishalmourya
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+27-03-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

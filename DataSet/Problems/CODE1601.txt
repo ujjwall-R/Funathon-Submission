@@ -1,0 +1,80 @@
+
+ 
+Problem description
+In a meeting Monti is given a binary string of N characters. A binary string is string consisting of only 0's and 1's. Monti can swap any adjacent pair of characters in one operation. Monti has to bring at least M 1's together starting at any position of the string. Help him count the minimum number of operations required to do so.
+It is guaranteed that there are at least M 1's present in the given string.
+Input
+First line contains single integer T. Number of test cases.
+Next 2 * T lines represent T test cases. Each test case is described by two lines; first line contains a single integer M and the second line contains the input binary string.
+Output
+Output T lines, one for each test case containing the answer for that case.
+Constraints
+
+1 ≤ T ≤ 10
+1 ≤ N ≤ 50000
+1 ≤ M ≤ N
+
+Sum of N over all the cases if less than or equal to 50000
+Example
+Input:
+
+2
+3
+101001
+2
+101001
+
+Output:
+
+3
+1
+
+
+
+
+Author:
+devender123_
+
+
+Editorial:
+https://discuss.codechef.com/problems/CODE1601
+
+
+Tags:
+
+               
+                 coit2016, devender123_, easy, string-process, strings, substring
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+23-01-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

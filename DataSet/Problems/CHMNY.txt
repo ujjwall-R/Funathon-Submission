@@ -1,0 +1,73 @@
+
+There is a party in the Chef house, so he has many expensive gift and money in his house. Chef got information that at the party night a thief may steal his money. The chef is busy in party arrangement because some special guest will come to the party. 
+If there is a guard between money and thief then Chef's money is safe.
+Let's find out whether money is fully safe or not.
+Input:
+
+First-line will contain TT, number of test cases. 
+Each test case contains a single line of input, an string SS, which contains GG for a guard, M for money, T for the thief and ∗ for blank space.
+Note: G,T,M,∗ can present 0 or more times in the string .
+
+Output:
+
+For each test case, print a single line containing the string "YES" if money is fully safe or "NO" if money is not safe.
+
+Constraints
+
+1≤T≤103
+2≤|S|≤25
+
+Sample Input:
+1
+TGM**
+Sample Output:
+YES
+
+
+
+Author:
+3★vicasindia
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHMNY
+
+
+Tags:
+
+               
+                 cafe2020, easy, strings, vicasindia
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+20-10-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

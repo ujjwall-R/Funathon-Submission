@@ -1,0 +1,82 @@
+
+
+
+In this question you only need to print a sequence S of length N which fulfills the given constraints.
+
+ Given a number H , the HCF ( S0, S1, S2, .... ,Si, ..... ,SN-1 ) = H and Si > H , ∀ 0 ≤ i < N.
+ Si ≤ Si+1, ∀ 0 ≤ i < N-1
+ The value of the function sum(S) = S0 + S1 + .... + SN-1 should be the least.
+
+Input
+
+First line contains an integer T denoting the number of test cases.
+Next T lines follow. The ith line will contain two spaced separate integers H and N for the ith test case.
+
+Output
+For each test case, print a line containing N space separated integers of sequence S.
+Constraints
+
+1 ≤ T ≤ 103
+1 ≤ H ≤ 1014
+1 ≤ N ≤ 103
+
+Example
+Input :
+1
+1 2
+
+Output :
+2 3
+
+
+
+
+
+
+
+Author:
+3★deathcoder007
+
+
+Editorial:
+https://discuss.codechef.com/problems/PRINTF
+
+
+Tags:
+
+               
+                 cakewalk, cost2016, deathcoder007, math, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+9-02-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, JS
+
+
+
+
+
+Submit
+

@@ -1,0 +1,83 @@
+
+ 
+   
+Being a programmer, Chef like arrays lot. On Chef' birthday,Chef friends given him an array "a" consists of n distinct integers.
+
+Unfortunately, the size of array "a" is too small. Chef want a bigger array!,Chef friends agree to give him an bigger array.
+but only if Chef is able to answer the following questions correctly: 
+
+
+1-Largest element in array a
+
+
+2-Kth largest element
+
+Help him for getting bigger Array!
+Input
+
+The first line contains positive integer n,Next line contains n Space seprated Integers( a[0]....a[n-1]),next line contain integer k .
+
+Output
+Output the Following---Largest Element and Kth Largest Number 
+Constraints
+ 1  ≤  k, a[i] ≤  1000, 0 ≤ n,i ≤ 10^6  
+ 
+Example
+Input:
+  5
+  11 22 9 44 1
+  4
+ 
+Output:
+   22
+   9
+
+
+
+
+Author:
+2★vivek96
+
+
+Editorial:
+https://discuss.codechef.com/problems/EXPCODE1
+
+
+Tags:
+
+               
+                 array, easy, sorting, vivek96
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+1-03-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, PHP
+
+
+
+
+
+Submit
+

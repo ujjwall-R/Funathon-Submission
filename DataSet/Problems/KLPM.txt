@@ -1,0 +1,92 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a string S. Find the number of ways to choose an unordered pair of non-overlapping non-empty substrings of this string (let's denote them by s1 and s2 in such a way that s2 starts after s1 ends) such that their concatenation s1+s2 is a palindrome.
+Two pairs (s1,s2) and (s′1,s′2) are different if s1 is chosen at a different position from s′1 or s2 is chosen at a different position from s′2.
+Input
+The first and only line of the input contains a single string S.
+Output
+Print a single line containing one integer — the number of ways to choose a valid pair of substrings.
+Constraints
+
+1≤|S|≤1,000
+S contains only lowercase English letters
+
+Subtasks
+Subtask #1 (25 points): |S|≤100
+Subtask #2 (75 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+abba
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+7
+
+
+Explanation
+The following pairs of substrings can be chosen: ("a", "a"), ("a", "ba"), ("a", "bba"), ("ab", "a"), ("ab", "ba"), ("abb", "a"), ("b", "b").
+
+
+
+Author:
+2★bombshot
+
+
+Editorial:
+https://discuss.codechef.com/problems/KLPM
+
+
+Tags:
+
+               
+                 DP on sequences
+                 
+                     
+                     Algorithms, Dynamic Programming
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2347
+
+
+Date Added:
+28-02-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

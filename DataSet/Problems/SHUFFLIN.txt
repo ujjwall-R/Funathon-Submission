@@ -1,0 +1,107 @@
+
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef is given an array AA consisting of NN positive integers. Chef shuffles the array AA and creates a new array BB of length NN, where Bi=(Ai+i)mod2Bi=(Ai+i)mod2, for each i(1≤i≤N)i(1≤i≤N).
+Find the maximum possible sum of integers of the array B, if Chef shuffles the array A optimally.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+Each test case contains two lines of input.
+The first line of each test case contains an integer N.
+The second line of each test case contains N space-separated integers A1,A2,…,AN.
+
+Output Format
+For each test case, print a single line containing one integer - the maximum sum of integers of the array B.
+Constraints
+
+1≤T≤104
+1≤N≤105
+1≤Ai≤109
+Sum of N over all test cases does not exceed 3⋅105.
+
+Subtasks
+Subtask #1 (100 points): Original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+3
+1 2 3
+3
+2 4 5
+2
+2 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+3
+1
+
+
+Explanation
+Test case 1: One of the optimal ways to shuffle the array A is [2,1,3]. Then the array B=[(2+1)mod2,(1+2)mod2,(3+3)mod2]=[1,1,0]. So the sum of integers of array B is 2. There is no other possible way to shuffle array A such that the sum of integers of array B becomes greater than 2.
+Test case 2: One of the optimal ways to shuffle the array A is [2,5,4]. Then the array B=[(2+1)mod2,(5+2)mod2,(4+3)mod2]=[1,1,1]. So the sum of integers of array B is 3 . 
+
+
+
+Author:
+5★soumyadeep_21
+
+
+Editorial:
+https://discuss.codechef.com/problems/SHUFFLIN
+
+
+Tags:
+
+               
+                 1D Arrays, Basic Maths, ad-hoc, Observation
+                 
+                     
+                     Data Structures, Arrays, Mathematics, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1347
+
+
+Date Added:
+20-07-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

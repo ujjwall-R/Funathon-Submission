@@ -1,0 +1,79 @@
+
+Saurabh loves to climb mountains, but he climbs the mountain only when the height of the mountains are in increasing order. Now he decided to climb the mountains, but it may be possible that the height of the mountains is not in increasing order.
+There are NN mountains, whose heights are H[1],H[2],H[3],...,H[N]H[1],H[2],H[3],...,H[N]. But before climbing the mountains he has to arrange the height of mountains in increasing order.
+For doing this he can swap the heights of any two adjacent mountains i.e. H[i]H[i] and H[i+1].
+In swapping, the height of H[i] decreases by 1 while the height of H[i+1] increases by 1. This operation can be applied any number of times he wants. Can you help him to find the final sorted order of mountains so that he can climb the mountains?
+Input:
+
+The First-line contains an integer N, denoting the number of mountains.
+The Second line contains N space-separated integers representing the height of mountains.
+
+Output:
+If it is possible to arrange the height of mountains in increasing order, then Print “YES” and Print the sorted height of mountains in the next line. Else Print “NO”.
+Constraints
+
+1<=N<=105
+1<=H[i]<=105
+
+Sample Input:
+5
+7 3 9 6 10
+
+Sample Output:
+YES
+4 6 7 8 10
+
+EXPLANATION:
+In the given example [7,3,9,6,10],
+he will swap 7 and 3 changing the value of 7 to 6 and 3 to 4, now the heights are [4, 6, 9, 6, 10] and 
+Again, he will swap 9 and 6 changing the value of 9 to 8 and 6 to 7, now the heights are [4, 6, 7, 8, 10]. The heights are in Increasing Order.
+Author: Prince Singh
+
+
+
+Author:
+1★ik07onkar
+
+
+Editorial:
+https://discuss.codechef.com/problems/CLMBMNT
+
+
+Tags:
+
+               
+                 array, ik07onkar
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-02-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+1000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

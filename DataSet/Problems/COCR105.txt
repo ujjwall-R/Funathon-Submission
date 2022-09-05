@@ -1,0 +1,85 @@
+
+Champak is a bright student who is very fond of clocks. 
+He comes across a puzzle which states that he needs to calculate the number of times the minute hand and hour hand of a clock will make a 90o degrees angle between them.
+He is given T such queries with time range from L hours to R hours (both inclusive in the 24-hour format) like [L,R].
+He has to count the number of times the clock will have a right angle between the hour hand and the minute hand in the given time range.
+Input:
+
+First line will contain an integer T, number of queries. Then the queries follow. 
+Each query contains of a single line of input, two integers L,R. 
+
+Output:
+For each query, output in a single line the number of times the hour hand and the minute hand make a right angle between them from L hours to R hours (both inclusive).
+Constraints
+
+1≤T≤1000
+0≤L≤R≤24
+
+Sample Input:
+6
+3 5
+0 2
+5 8
+16 20
+7 7
+15 21
+
+Sample Output:
+4
+4
+6
+8
+0
+12
+
+EXPLANATION:
+For the second query, the hour hand and the minute hand will make right angles between them 4 times, twice between 0 to 1 hours and twice between 1 to 2 hours.
+
+
+
+Author:
+4★zappelectro
+
+
+Editorial:
+https://discuss.codechef.com/problems/COCR105
+
+
+Tags:
+
+               
+                 cros2020, math, zappelectro
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-06-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

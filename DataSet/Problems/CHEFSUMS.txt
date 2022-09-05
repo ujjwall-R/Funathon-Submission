@@ -1,0 +1,115 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef gave you a sequence of integers a1,a2,…,aN and 3 integers K, m and x. Let's define the following functions:
+G(i1,…,iK)=gcd(ai1,…,aiK)
+Sx(i1,…,iK)=axi1+axi2+…+axiK
+Pm(i1,…,iK)=(ai1⋅ai2⋅…⋅aiK)m
+W(T)=smallestprimedivisorofP1(T)
+Chef wants you to compute the sum of G(T)⋅W(T)⋅Sx(T)⋅Pm(T) over all K-tuples of indices T=(i1,i2,…,iK) such that ij∈{1,2,…,N} for each valid j (there are NK of these K-tuples). Since this sum could be enormous, compute it modulo 109+7.
+Input
+
+The first line of the input contains four space-separated integers N, K, m and x.
+The second line contains N space-separated integers a1,a2,…,aN.
+
+Output
+Print a single line containing one integer ∑TG(T)⋅W(T)⋅Sx(T)⋅Pm(T) modulo 109+7.
+Constraints
+
+1≤N≤106
+1≤K,m,x≤1018
+2≤ai≤106 for each valid i
+
+Subtasks
+Subtask #1 (5 points):
+
+N≤10
+K≤6
+
+Subtask #2 (20 points): for each valid i, ai is even
+Subtask #3 (75 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3 2 1 1
+2 3 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2414
+
+
+Explanation
+Example case 1: We have NK=32=9 possible pairs T of indices. The corresponding summands are:
+
+T=(1,1): gcd(2,2)⋅(21+21)⋅(2⋅2)1⋅2=64
+T=(1,2): gcd(2,3)⋅(21+31)⋅(2⋅3)1⋅2=60
+T=(1,3): gcd(2,4)⋅(21+41)⋅(2⋅4)1⋅2=192
+T=(2,1): gcd(3,2)⋅(31+21)⋅(3⋅2)1⋅2=60
+T=(2,2): gcd(3,3)⋅(31+31)⋅(3⋅3)1⋅3=486
+T=(2,3): gcd(3,4)⋅(31+41)⋅(3⋅4)1⋅2=168
+T=(3,1): gcd(4,2)⋅(41+21)⋅(4⋅2)1⋅2=192
+T=(3,2): gcd(4,3)⋅(41+31)⋅(4⋅3)1⋅2=168
+T=(3,3): gcd(4,4)⋅(41+41)⋅(4⋅4)1⋅2=1024
+
+Their sum modulo 109+7 is 2414.
+
+
+
+Author:
+wm101
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHEFSUMS
+
+
+Tags:
+
+               
+                 dynamic-programming, hard, math, sept20, wm101, wm101
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2899
+
+
+Date Added:
+22-07-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

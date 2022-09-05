@@ -1,0 +1,100 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Once upon a time, there was the body of all bodies. It was believed that one who could calculate its volume would have good fortune.
+The characteristics of the body are lost; however, it was discovered that at midday (when the Sun was directly above the body), the body's shadow on the ground was a simple polygon without self-intersections with N vertices, and when the sun was setting (it illuminated the body horizontally), the body's shadow on an ancient wall (perpendicular to solar rays) was a simple polygon without self-intersections with M vertices. Formally, the first polygon lies in the xy-plane and the second polygon in the xz-plane.
+Those two polygons were drawn by the ancients so that their successors could solve their mystery, and yet, no one could find the volume of the body of bodies.
+Your task is to find out what the maximum volume of the body of all bodies could ever be.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+Each of the following N lines contains two space-separated integers x and y denoting the coordinates of one vertex of the first polygon. These vertices are given in the order in which they appear on the perimeter of the polygon.
+The next line contains a single integer M.
+Each of the following M lines contains two space-separated integers x and z denoting the coordinates of one vertex of the second polygon. These vertices are also given in the order in which they appear on the perimeter of the polygon.
+
+Output
+If no body can produce the given pair of shadows, print a single line containing the integer −1. Otherwise, print a single line containing one real number — the maximum volume. Your answer will be considered correct if its absolute or relative error does not exceed 10−6.
+Constraints
+
+1≤T≤3
+3≤N≤105
+3≤M≤105
+|x|,|y|,|z|≤109
+
+Example Input
+2
+3
+0 0
+10 0 
+0 10
+4
+0 0
+10 0
+10 2
+0 2
+3 
+0 0
+10 0
+0 10
+4
+-10 0
+0 0
+0 10
+-10 10
+
+Example Output
+100
+-1
+
+Explanation
+Example case 1: The first polygon has area 50 and the second polygon perfectly covers the first polygon, so the body of all bodies can have thickness 2 and cross-section given by the first polygon. Then, the volume is 50⋅2=100.
+Example case 2: There is no body that can form these two polygons.
+
+
+
+Author:
+jafarbadour
+
+
+Editorial:
+https://discuss.codechef.com/problems/IMPO
+
+
+Tags:
+
+               
+                 computational-geometry, hard, jafarbadour, line-sweep, snckel19, taran_1407
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+25-11-2018
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

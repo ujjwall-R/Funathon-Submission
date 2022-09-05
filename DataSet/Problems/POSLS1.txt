@@ -1,0 +1,83 @@
+
+You are given an array AA of nn integers as input. Also, you are given an integer qq, the number of queries. In each query, you will be given an integer x, and you have to output the number of sub-arrays of A, having sum, exactly equal to x.
+Input:
+
+First line will contain n, the number of elements of array.
+Second line will contain array A of n integers.
+Third line will contain an integer, q.
+Next q lines will contain an integer, x.
+
+Output:
+For each of the q queries, output the number of sub-arrays of A, having sum exactly equal to x.
+Constraints:
+
+1≤n≤100
+0≤A[i]≤100
+1≤q≤105
+−1000000000≤x≤1000000000
+
+Sample Input:
+4
+2 3 0 2
+2
+10
+5
+
+Sample Output:
+0
+3
+
+Explanation:
+
+For query−1, we don't have any sub-array of A, with sum=10. So, the answer for this query is 0.
+For query−2, we have three sub-arrays of A (sub−array[1,..,3], sub−array[1,..,2] & sub−array[2,..,4]), with sum=5. So, the answer for this query is 3.
+
+
+
+
+Author:
+6★vok_8
+
+
+Editorial:
+https://discuss.codechef.com/problems/POSLS1
+
+
+Tags:
+
+               
+                 algorithm, array, beginner, bgnr2020, cakewalk, codechef, college-chapter, easy, simple, simple-easy, strings, vok_8
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+18-11-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

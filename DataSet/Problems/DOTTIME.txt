@@ -1,0 +1,109 @@
+
+Read problem statements in Bengali, Mandarin Chinese, and Russian as well.
+You are given a sequence of integers A1,A2,…,AN and an integer M.
+For any valid integers p,q, let's define F(p,q) as the dot product of the subsequences Ap,Ap+1,…,Ap+M−1 and Aq,Aq+1,…,Aq+M−1, i.e. F(p,q)=∑M−1i=0Ap+i⋅Aq+i.
+You should process Q queries. In each query:
+
+You are given two integers pos and val. Change the value of Apos to val.
+Then, find the sum S=∑N−M+1i=1∑N−M+1j=1F(i,j). Since this sum could be very large, compute it modulo 998,244,353.
+
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, M and Q.
+The second line of each test case contains N space-separated integers representing A1,A2,...AN.
+Q lines follow. Each of these lines contains two space-separated integers pos and val describing a query.
+
+Output
+For each query, print a single line containing one integer S modulo 998,244,353.
+Constraints
+
+1≤T≤100
+1≤M≤N≤5⋅105
+1≤Ai≤5⋅105 for each valid i
+1≤Q≤5⋅105
+1≤pos≤N
+1≤val≤5⋅105
+the sum of N over all test cases does not exceed 106
+the sum of Q over all test cases does not exceed 106
+
+Subtasks
+Subtask #1 (50 points): Q=1
+Subtask #2 (50 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+5 2 1
+3 2 4 1 5
+2 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+340
+
+
+
+
+
+Author:
+6★s_h_shahin
+
+
+Editorial:
+https://discuss.codechef.com/problems/DOTTIME
+
+
+Tags:
+
+               
+                 Lazy Propagation, Arithmetic
+                 
+                     
+                     Advanced Data Structures, Advanced Tree Structures, Segment Trees, Mathematics, Basic Maths
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2765
+
+
+Date Added:
+18-04-2020
+
+
+Time Limit:
+2.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

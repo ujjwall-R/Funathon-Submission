@@ -1,0 +1,88 @@
+
+Assume you're the owner of "XMAS" Factory located in Udyambag, Belagavi. This XMAS Factory is well known for producing high-quality toy cars including Christmas gifts for kids. These toy cars when turned ON moves forward and autonomously navigates. 
+There are M different types of toy cars. Each type of toy car has N number cars. There are M number of machines which produce cars of its corresponding type. For example a "Type 1" machine would produce "Type 1" car only. There is only one machine for each type. Each machine has a special button that reverses the logic of the circuit used in the toy car.  For example, if the logic circuit of the car is designed to move forward when turned ON then by pressing this special button on this machine, the car produced would move backward instead of moving forward similarly, if the logic circuit of the car is designed to move backward when turned ON then by pressing this special button on this machine, the car produced would move forward instead of moving backward thus revering the logic. K is the number of machines in which this special button is turned ON.
+
+A car is said to have correct logic if and only if it moves forward when turned ON.
+A car is said to have incorrect logic if it moves backward when turned ON.
+
+The factory has produced M*N number of toy cars. Out of which there are some faulty cars produced with incorrect logic. In order to correct the logic, all the cars are put back into corresponding types of machine. If K is the number of machines in which the special button is turned ON (pressed), you being the owner want to know what maximum number of cars could be produced with correct logic.
+Input:
+
+First line will contain single integer T indicating the number of test cases.
+For each test case, the first line contains 3 integers namely M, N and K where M is the total number of types of toy cars,  N is the total number of toy cars produced in each type, and K is the exact number of special buttons that will be turned ON.
+For each of the next M lines, there is a single integer between 0 and N that indicates the number of cars that are with correct logic.
+
+Output:
+For each testcase, output in a single line answer indicating the maximum number of toy cars with correct logic.
+Constraints
+
+1≤T≤20
+1≤K≤M≤106
+1≤N≤106
+
+Sample Input 1:
+    2
+    2 2 1
+    2
+    0
+    2 4 2
+    0
+    3
+
+Sample Output 1:
+    4
+    5
+
+EXPLANATION:
+There are two test cases in this sample test file.
+In the first test case, there are two types of cars with each type having in total 2 number of cars. Since there are two types of cars there would be corresponding two types of machines producing it. In the first type say "Type 1", both the cars have correct logic and in the second type say "Type 2", both the cars have incorrect logic. Since K=1, the special button of the "Type 2" machine can be turned ON to correct the logic of both the "Type 2" cars. Hence all the cars can be implemented with correct logic.
+In the second test case, there are two types of cars with each type having in total 4 number of cars. Since there are two types of cars there would be corresponding two types of machines producing it. In the first type say "Type 1"  all the cars have incorrect logic and in the second type say "Type 2", 1 car has incorrect logic and remaining 3 cars have correct logic. Since K = 2, the special button on both the machines must be turned ON. As a result, the number of cars with correct logic implemented are 4 from "Type 1" and 1 from "Type 2"
+
+
+
+Author:
+2★xx_maverick_xx
+
+
+Editorial:
+https://discuss.codechef.com/problems/SNTFAC3
+
+
+Tags:
+
+               
+                 array, basic-math, hard, lists, logical, nyre2020, sorting, xx_maverick_xx
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+27-12-2020
+
+
+Time Limit:
+4 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

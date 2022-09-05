@@ -1,0 +1,128 @@
+
+Alice initially has a string SS of length NN, and she decides to modify it! Her modification consists of KK steps numbered from 11 to K. In the i-th step, Alice reverses the prefix of length i of S.
+For example, suppose Alice starts with S=abferty, and she modifies it via 3 steps, then:
+
+After the first step, abferty→S=abferty
+After the second step, abferty→S=baferty
+After the third step, baferty→S=faberty
+So after 3 steps, her string becomes S=faberty.
+
+After performing her K-step modification, Alice ends up with the string S′. Now she challenges you to find the original string S. Can you do it?
+Input Format
+
+The first line of the input contains a single integer T - the number of test cases. The test cases then follow.
+The first line of the test case contains two space-separated integers N and K - the length of the string and the number of steps in Alice's modification.
+The second line of the test case contains S′ - the final string obtained after the modification.
+
+Output Format
+For each test case, output the original string S.
+Constraints
+
+1≤T≤1000
+1≤N≤106
+1≤K≤N
+|S′|=N
+S′ contains only lowercase alphabets
+Sum of N overall cases does not exceed 106.
+
+Subtasks
+
+Subtask 1 (30 points): 1≤N⋅K≤2000
+Subtask 2 (70 points): Original constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+7 3
+faberty
+7 5
+bbaaaba
+4 4
+zxwy
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+abferty
+aababba
+wxyz
+
+
+Explanation
+
+Test case 2: The modification steps from S to S′ is as follow:
+1-st step: aababba→S=aababba
+2-nd step: aababba→S=aababba
+3-rd step: aababba→S=baaabba
+4-th step: baaabba→S=aaabbba
+5-th step: aaabbba→S=bbaaaba
+Test case 3: The modification steps from S to S′ is as follow:
+1-st step: wxyz→S=wxyz
+2-nd step: wxyz→S=xwyz
+3-rd step: xwyz→S=ywxz
+4-th step: ywxz→S=zxwy
+
+
+
+
+Author:
+6★munch_01
+
+
+Editorial:
+https://discuss.codechef.com/problems/RMNTREV
+
+
+Tags:
+
+               
+                 String, ad-hoc, Observation, Two pointers
+                 
+                     
+                     Data Structures, Algorithms, Constructive, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1646
+
+
+Date Added:
+23-12-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

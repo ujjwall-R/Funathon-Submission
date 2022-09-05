@@ -1,0 +1,75 @@
+
+Park Street in Kolkata is famous for its mouth watering sweets. There are a total of N  shops in the market, which are extended over a single street with shops following one another. The shops are enumerated from 1 to N, from left to right. The market is unique in the sense that each shop sells only a single type of sweet. Additionally, no two shops sell the same type of sweet. For convenience, the different types of sweets are numbered from 1 to N.
+Though the famous market has been running smoothly for many years, the city Mayor decided to have it completely overhauled and aims to make this famous market great again. So he has issued a tender for the shops, which you happened to grab by using your good offices with the Mayor. The tender specifies that you should decide which type of sweet each shop should sell. You would like to do so, while keeping in mind that buyers like purchasing sweets if adjacent shops sell sweets of similar types, because then they can purchase similar type sweets without wandering around many shops. Formally, you would like to minimize the maximum absolute value of difference between the types of sweets in adjacent shops. Two shops which are numbered i and i + 1 (i < N) are said to be adjacent to each other.
+The city Mayor himself is very fond of sweets and has decided to have his own shop in the market too. He has chosen shop numbered S in which he will sell sweets of type Q. For the remaining N - 1 shops, you have to assign which sweets should be sold so as to minimize the maximum absolute difference in the type of sweets in adjacent shops.
+Input
+First line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The only line of each test case contains three space separated integers N, S, Q, denoting number of shops in the market, the shop chosen by the Mayor, and the type of sweet the Mayor's shop sells, respectively.
+Output
+For each test case, output two lines.
+In the first line of each test case, output the minimum value of the maximum difference in the types of sweets of adjacent shops.
+In the next line, output N space separated integers denoting the types of sweets sold in each of the shops. If there are multiple answers, output any one.
+Constraints
+
+1 ≤ T, N ≤ 500
+1 ≤ S, Q ≤ N
+
+Example
+Input:
+2
+3 2 3
+2 1 1
+
+Output:
+2
+1 3 2
+1
+1 2
+
+Explanation
+Example case 1.The city Mayor has decided to sell sweets of type 3 in the second shop. In the first shop, you can decide to sell sweets of type 1 and that of type 2 in the third shop. In this case, maximum difference in the type of sweets of adjacent shops is 2. There can be one other way of assigning sweets with shops, i.e. sell sweets of type 2 in shop 1 and that of type 1 in shop 3. In this case also, maximum difference in type of adjacent shops is 2. So, you can see that in any case, minimum value of maximum difference in type of adjacent shops will be 2. Hence answer is 2.
+
+
+
+Author:
+admin3
+
+
+Tags:
+
+               
+                 admin3, array, constructive, icpc2016, kgp16, looping
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-12-2016
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3
+
+
+
+
+
+Submit
+

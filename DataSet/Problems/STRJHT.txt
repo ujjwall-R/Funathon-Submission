@@ -1,0 +1,81 @@
+
+Chef loves to cook delicious food, but before cooking food comes shopping for the ingredients for preparing food. So Chef went to the nearest supermarket for buying the lowest price ingredients.
+But, as every super-market wants to maximize their profit, so they sell items in bundles rather than individual packs. Our Chef is smart enough to understand this trick, and he wants to get the required ingredients at the lowest price he can.
+So, Chef follows this simple trick rather than buying the entire bundle of items he would buy only the selected items from that bundle, of which the entire bundle is an integer multiple and these selected items must be minimized.
+The minimized string can be any permutation of any length from the given string. also, you can re-arrange the minimized string in any way to form the original string
+For Eg: one bundle in the supermarket can be  "abccabbca" ( where each character represents the starting letter from the name of the ingredients ), but the chef will only buy "abc" as the original bundle is '3' times the multiple of "abc" and we can re-make (any permutation) the entire bundle with "abc"
+But, Chef finds this task a little tedious, so he asks for your help to buy the ingredients.
+Note: the string which represents the bundle of ingredients contains only lowercase latin characters.
+Input:
+
+The first line of the input contains a single integer TT. TT denoting the number of test cases. The description of TT test cases is as follows.
+The next line of the input contains a single integer N. N denotes the total number of items in the current bundle.
+The next line of the input contains a string S of length N, in which each character is the starting letter from the name of the ingredient.
+
+Output:
+
+Print the minimum number of characters (which denotes the starting letter of ingredients), from which we can re-make the entire bundle of items. The characters printed must be lexicographically sorted.
+If it is not possible to get the required answer print −1
+
+Note: Each test case output must be printed on a new line
+Constraints:
+
+1≤T≤102
+1≤N≤105
+1≤S≤N
+
+Sample Input:
+1
+9
+abccabbca
+Sample Output:
+abc
+Explanation:
+
+In the 1st Test case: As we can re-make the given string "abccabbca" using the string "abc" i.e. the original string is '3' times the multiple of "abc". This can be proved is the minimum number of characters to re-make the given string.
+
+
+
+
+Author:
+pro_army
+
+
+Tags:
+
+               
+                 pro_army, strg2020, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

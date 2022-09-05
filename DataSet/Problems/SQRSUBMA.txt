@@ -1,0 +1,102 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given an integer sequence A1,A2,…,ANA1,A2,…,AN and an integer XX. Consider a N×NN×N matrix B, where Bi,j=Ai+Aj for each valid i and j.
+You need to find the number of square submatrices of B such that the sum of their elements is X. Formally, find the number of quartets (x1,y1,x2,y2) such that 1≤x1≤x2≤N, 1≤y1≤y2≤N, x2−x1=y2−y1 and ∑x2i=x1∑y2j=y1Bi,j=X.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and X.
+The second line contains N space-separated integers A1,A2,…,AN.
+
+Output
+For each test case, print a single line containing one integer ― the number of square submatrices with sum X.
+Constraints
+
+1≤T≤100
+1≤X≤106
+1≤N≤105
+1≤Ai≤106 for each valid i
+the sum of N over all test cases does not exceed 106
+
+Subtasks
+Subtask #1 (50 points): the sum of N over all test cases does not exceed 1,000
+Subtask #2 (50 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+5 36
+1 2 3 1 12
+4 54
+3 3 3 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+6
+4
+
+
+
+
+
+Author:
+admin3
+
+
+Editorial:
+https://discuss.codechef.com/problems/SQRSUBMA
+
+
+Tags:
+
+               
+                 Divisors, Prefix Sum
+                 
+                     
+                     Mathematics, Number Theory, Integer Factorisation, Algorithms, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2501
+
+
+Date Added:
+26-06-2020
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

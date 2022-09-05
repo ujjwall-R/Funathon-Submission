@@ -1,0 +1,118 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Vietnamese, and Bengali as well.
+There are KK problems in a contest with NN participants. All the problems don't necessarily have the same points assigned to them - you are given an array AA of integers, where Ai denotes the points assigned to the ith problem. If a participant solves the ith problem, they will get Ai points added to their total score. Note that there are no partial points - they can get only 0 or Ai points on the ith problem. For each participant i, you are also given their final verdict in each problem in the form of a binary string Si - a 1 denotes that they solved that problem, and a 0 denotes that they did not. 
+Your job is to find the total score of each participant.
+Input:
+
+The first line of input contains a single integer T, denoting the number of testcases. Then the testcases follow. 
+First line of each testcase contains 2 space separated integers, N and K, denoting the number of participants and the number of problems in the contest respectively.
+The second line contains K space separated integers - A1,A2,…,AK, where Ai denotes the points assigned to the ith  problem.
+The ith of the next N lines contains a binary string Si of length K, where Sij represents the verdict of the jth problem for ith participant. Sij=1 if they solved that problem, and Sij=0 otherwise.
+
+Output:
+For each testcase, output N lines, with the ith line containing a single integer denoting the total score of the ith participant.
+Constraints
+
+1≤T≤5
+1≤Ai≤105
+0≤Sij≤1
+Sum of N∗K over all tests is atmost 106
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+2 2
+1 2
+01
+10
+2 2
+1 2
+11
+00
+2 1
+100
+0
+1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+1
+3
+0
+0
+100
+
+
+Explanation
+Case 1: The first participant's binary string is "01", which means that they did not solve the first problem, but they solved the second problem. And as the points assigned to the two problems are 1 and 2, the total score of the first participant is 2. Hence the first output is 2.
+Similarly, the second participant's binary string is "10", which means that they solved the first problem, but did not solve the second problem. So their total score is 1. Hence the second output is 1.
+Case 2: The first participant's binary string is "11", which means that they solved both the first and second problems. And as the points assigned to the two problems are 1 and 2, the total score of the first participant is 1+2=3. Hence the third output is 3.
+Similarly, the second participant's binary string is "00", which means that they did not solve any problem. So their total score is 0. And hence the fourth output is 0.
+Case 3: The first participant's binary string is "0", which means that they did not solve the only problem of the contest. Hence the total score of the first participant is 0. Hence the fifth output is 0.
+Similarly, the second participant's binary string is "1", which means that they solved the only problem in the contest. And as the points assigned to that problem is 100, the total score of the second participant is 100. Hence the last output is 100.
+
+
+
+Author:
+daanish_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/TOTSCR
+
+
+Tags:
+
+               
+                 Basic Maths, Brute Force, Implementation
+                 
+                     
+                     Mathematics, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1448
+
+
+Date Added:
+19-02-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

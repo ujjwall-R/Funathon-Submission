@@ -1,0 +1,75 @@
+
+Problem Statement
+Your hunter friend Sova has a crush on Reyna. Reyna has finally decided to go for a date with Sova ( In a hypothetical world of course ). Sova being a highly desperate fellow wants to reach her as soon as possible and keep her from waiting as Reyna is a short tempered person.
+Sova has lost his recon bow that locates people and is unable to find out the path to reach Reyna. Sova needs your help in finding a path to reach his love Reyna.
+Sova’s city (icebox) can be represented as a N * M  grid consisting of N rows and M columns. You are given one starting point  V ( Sova’s current location in icebox), one ending point  S  (Reyna’s location in icebox) and the rest of the points as either P or O.  P denotes an obstacle meaning you cannot pass through it while O denotes a valid cell you can pass through.
+You can move in any of the four directions i.e. if you are at point (i,j) you can move to
+( i , j + 1)
+( i , j - 1 )
+( i + 1 , j)
+( i - 1 ,  j)   
+Input Format
+The first line contains 2 space separated integers N, M denoting dimensions of the grid.
+Next N lines contain M characters each without spaces consisting of P ’s,  O ’s, V and S . The input contains exactly one  V and exactly one S.
+Constraints
+4 ≤ N  *  M ≤ 100000   
+Output Format
+Print a single line containing minimum steps that Sova needs to reach Reyna’s location.
+Sample Input
+3 3
+OVO
+OPO
+SOO   
+Sample Output
+3   
+Explanation
+There exist 2 possible paths from V to S. The path (1,2) -> (1,1) -> (2,1) -> (3,1) is the shortest that requires 3 steps.   
+
+
+
+Author:
+3★flick_23
+
+
+Editorial:
+https://discuss.codechef.com/problems/HUNTER01
+
+
+Tags:
+
+               
+                 c-plus-plus, dynamic-programming, flick_23, nyre2020
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+27-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

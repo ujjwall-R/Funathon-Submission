@@ -1,0 +1,135 @@
+
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+You are given a sequence of distinct non-negative integers A1,A2,…,ANA1,A2,…,AN.
+For every non-negative integer x<2Kx<2K, let's define a function f(x)f(x) as the number of inversions in the sequence A1⊕x,A2⊕x,…,AN⊕x. (An inversion in a sequence X1,X2,…,XN is a pair of indices (i,j) such that i<j and Xi>Xj.)
+Consider the sorted sequence of pairs (f(x),x) for all integers x∈[0,2K−1]; a pair (f(x1),x1) is earlier than (f(x2),x2) in this sequence if f(x1)<f(x2), or if f(x1)=f(x2) and x1<x2. You should find the second element (i.e. the number x) of the P-th pair in this sequence. The sequence is indexed from 1.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, K and P.
+The second line contains N space-separated integers A1,A2,…,AN.
+
+Output
+For each test case, print a single line containing one integer — the number x generating the P-th pair in the sorted sequence.
+Constraints
+
+1≤T≤20
+1≤N≤106
+1≤K≤30
+1≤P≤2K
+0≤Ai<2K for each valid i
+the elements of A are pairwise distinct
+the sum of N for all test cases does not exceed 106
+
+Subtasks
+Subtask #1 (10 points):
+
+1≤T≤10
+1≤K≤10
+1≤N≤100
+
+Subtask #2 (20 points):
+
+1≤T≤10
+1≤K≤18
+the sum of N for all test cases does not exceed 105
+
+Subtask #3 (20 points):
+
+1≤T≤5
+1≤K≤30
+the sum of N for all test cases does not exceed 105
+
+Subtask #4 (50 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+4 3 5
+2 0 3 7
+2 2 1
+2 0
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+2
+
+
+Explanation
+Example case 1: The values of f(x) for all 0≤x≤7 are as follows:
+
+x=0: f(0)= number of inversions in [2,0,3,7]=1
+x=1: f(1)= number of inversions in [3,1,2,6]=2
+x=2: f(2)= number of inversions in [0,2,1,5]=1
+x=3: f(3)= number of inversions in [1,3,0,4]=2
+x=4: f(4)= number of inversions in [6,4,7,3]=4
+x=5: f(5)= number of inversions in [7,5,6,2]=5
+x=6: f(6)= number of inversions in [4,6,5,1]=4
+x=7: f(7)= number of inversions in [5,7,4,0]=5
+
+The sorted sequence of pairs (f(x),x) is [(1,0),(1,2),(2,1),(2,3),(4,4),(4,6),(5,5),(5,7)]. We should find the P=5-th pair, which is (4,4), so the answer is 4.
+
+
+
+Author:
+7★isaf27
+
+
+Editorial:
+https://discuss.codechef.com/problems/XORSORT2
+
+
+Tags:
+
+               
+                 Bitwise Operation, Recursion, Sorting, Meet in the middle, Binary Search
+                 
+                     
+                     Mathematics, Bit Manipulation, Algorithms, Searching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2909
+
+
+Date Added:
+23-06-2018
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,86 @@
+
+There is a marketmarket in ChefLandChefLand with NN shops, marked from integers 0 to 9. Now, some of these shops (0 or more) from the end of the market were cyclic shifted  or in other words moved from the  end to the beginning of the market without  changing the internal arrangement of the shops in the market.  
+For two arrangement of the same length A and B, let's say A is a cyclic shift of B if it is possible to make A equals to B by moving 0 or more last elements to the beginning of the arrangement without changing the internal order.
+You are given initial arrangement of shops in the market and the modified arrangement of shops. You have to tell if the modified arrangement of shops is cyclic shifted or not.
+If modified arrangement is properly cyclic shifted it is good arrangement else it is bad arrangement.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains of three  line of input.  
+First line contains N ,the number of shops present in the market.  
+Second line contains integers A1,A2......AN, representing the initial  arrangement of shops  in the market.
+Third line contains integers B1,B2......BN, representing the modified arrangement of shops in the market.  
+
+Output:
+For each testcase, output GOOD if modified arrangement is good and BAD if modified arrangement is bad.
+Constraints
+
+1≤T≤10
+1≤N≤104
+The sum of  A[i]  and  B[i]  doesn't exceeds 104 over all testcases.
+
+Sample Input:
+2
+10
+0 1 2 3 4 5 6 7 8 9
+8 9 0 1 2 3 4 5 6 7
+6
+0 1 3 4 5 6
+1 5 6 3 4 0   
+Sample Output:
+GOOD
+BAD  
+EXPLANATION:
+Pick 8 and 9  labelled shops from the last of market [0,1,2,3,4,5,6,7,8,9] and  move to   start of the market that give [8,9,0,1,2,3,4,5,6,7] as good modified arrangement. 
+ Hence answer is GOOD.
+In second case the internal order of shops  in the modified arrangement was not maintained
+Hence answer is BAD.
+
+
+
+Author:
+3★maazbinasad3
+
+
+Editorial:
+https://discuss.codechef.com/problems/MRK123
+
+
+Tags:
+
+               
+                 easy-medium, maazbinasad3, search, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+4-03-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

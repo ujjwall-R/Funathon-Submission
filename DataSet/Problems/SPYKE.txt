@@ -1,0 +1,104 @@
+
+Tom and Jerry enjoy watching dogs play. Today, they noticed two dogs who play the following game.
+
+There is a rooted tree of NN nodes, MM of which are leaf nodes, edges of the tree are directed from parent to children.
+In the leaves of the tree integers from 1 to MM are placed in such a way that each number appears exactly in one leaf.
+Initially, the root of the tree contains a bone.
+Two players, Spike and Tyke move this bone in turns, during a move, a dog moves the bone from its current node to one of its children.
+When there is no possible move left the game ends immediately.
+The result of the game is the number placed in the leaf where the bone stopped.
+The dog who takes first chance tries to maximize the result and the second dog tries to minimize the result.
+The game is played optimally.
+Tom and Jerry are omnipotent, so before the game they can arbitrarily rearrange the numbers placed in the leaves.
+Tom wants to rearrange numbers so that the result of the game when both players play optimally well is as large as possible, and Jerry wants the result to be as small as possible.
+What will be the outcome of the game, if the numbers are rearranged by Tom, and what will it be if the numbers are rearranged by Jerry?
+Of course, Tom and Jerry choose the best possible option of arranging numbers.
+Input Format
+
+First line will contain NN, the number of nodes in the tree. 
+Each of the next NN - 1 lines contains two integers uiui and vivi (1≤ui,vi≤N1≤ui,vi≤N) — edges of the tree. The edge leads from node uiui to node vivi . It is guaranteed that the described graph is a rooted tree, and the root is the node 1.
+
+Output Format
+Print two space-separated integers — the maximum possible and the minimum possible result of the game.
+Constraints
+
+1≤N≤2000001≤N≤200000
+1≤ui,vi≤N1≤ui,vi≤N
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5
+1 2
+1 3
+2 4
+2 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3 2
+
+
+Explanation
+The tree contains three leaves: 3, 4 and 5. If we put the maximum number 3 at node 3, then the first dog moves there and the result will be 3. On the other hand, it is easy to see that for any rearrangement the first dog can guarantee the result of at least 2.
+
+
+
+Author:
+4★geek_nero
+
+
+Editorial:
+https://discuss.codechef.com/problems/SPYKE
+
+
+Tags:
+
+               
+                 clashwildcard, geek_nero, med-hard
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+19-02-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

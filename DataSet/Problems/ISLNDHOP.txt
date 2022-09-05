@@ -1,0 +1,213 @@
+
+Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
+The nation of Islandia can be represented as an N×NN×N grid. Let (i,j)(i,j) denote the square at the ii-th row from the top and the j-th column from the left. A cell (i,j) is labelled 1 if it is land and 0 if it is water. Any two cells of the grid which share a side, and are both land are said to belong to the same island. 
+Islandia holds two contests a year, the first at (xa,ya) and the second at (xb,yb). Ashish will need to travel from cell (xa,ya) to (xb,yb). To do so, he can perform a sequence of zero or more moves. In each move if he is at (xi,yi), he can perform one of two actions:
+
+Type 1: Move from (xi,yi) to some land cell (xj,yj) that lies on a different island at a cost of |xi−xj|+|yi−yj|
+Type 2: Move from (xi,yi) to some land cell (xj,yj) that lies on the same island at a cost of 0.
+
+Let the beauty of a sequence of moves be the number of moves of type 1 while traveling from (xa,ya) to (xb,yb). We define the simple cost as the minimum cost of a sequence with beauty≤1.
+Ashish wants to figure out the maximum beauty possible to go from (xa,ya) to (xb,yb) without exceeding the simple cost. However, Ashish only knows (xa,ya). Find the answer for every possible land cell (xb,yb).
+Note that we DO NOT need to minimize the cost of the trip, only maximize the beauty without exceeding the simple cost.
+Input
+
+The first line contains an integer T, the number of test cases. Then T test cases follow.
+The first line of each test case contains an integer N.
+The following N lines each contains a string S=s1s2…sN. The string on the i-th line represents the i-th row of the grid, where sj is 1 if the cell (i,j) is land, and 0 if it is water.
+The last line of each test case contains two integers xa and ya where (xa,ya) represents the cell where the first contest will be held. It is guaranteed that this cell will be a land cell.
+
+Output
+For each test case, print N lines, each containing the N space-separated integers. The j-th value of the i-th line represents the maximum beauty possible on a journey from (xa,ya) to (i,j) satisfying the mentioned conditions, if the cell (i,j) is land. If (i,j) is a water cell or belongs to the same island as (xa,ya), the value to be printed is 0.
+Constraints
+
+1≤T≤20
+1≤N≤200
+1≤xa,ya≤N
+The sum of N2 over all cases does not exceed 4⋅104
+
+Subtasks
+Subtask #1 (15 points):
+
+N≤50
+The sum of N2 over all cases does not exceed 2500
+
+Subtask #2 (35 points):
+
+N≤100
+The sum of N2 over all cases does not exceed 104
+
+Subtask #3 (50 points): Original constraints
+Sample Input 1
+2
+2
+00
+01
+2 2
+5
+00001
+10010
+00001
+00000
+01010
+2 4
+
+Sample Output 1
+0 0 
+0 0 
+0 0 0 0 1 
+1 0 0 0 0 
+0 0 0 0 1 
+0 0 0 0 0 
+0 2 0 1 0 
+
+Sample Input 2
+2
+3
+011
+010
+001
+2 2
+9
+110000011
+001100001
+100100111
+011000010
+000110011
+000010100
+000011111
+111101001
+101110110
+3 1
+
+Sample Output 2
+0 0 0 
+0 0 0 
+0 0 1 
+1 1 0 0 0 0 0 3 3 
+0 0 1 1 0 0 0 0 3 
+0 0 0 1 0 0 3 3 3 
+0 1 1 0 0 0 0 3 0 
+0 0 0 2 2 0 0 3 3 
+0 0 0 0 2 0 2 0 0 
+0 0 0 0 2 2 2 2 2 
+1 1 1 1 0 2 0 0 2 
+1 0 1 1 1 0 6 6 0 
+
+Sample Input 3
+2
+7
+1011101
+0000000
+0000000
+0000000
+0000000
+0000000
+0000000
+1 1
+9
+111111101
+100000000
+100000000
+100000000
+100000000
+100000000
+100000000
+100000000
+111111101
+9 9
+
+Sample Output 3
+0 0 1 1 1 0 2 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 4 
+1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 0 0 
+
+Explanation
+Sample 1, test case 2:
+The simple cost from (2,4) to (5,2) is |2−5|+|4−2|=3+2=5. We can achieve a beauty of 2 without exceeding the simple cost in the following manner:
+
+Perform a move of type 1 from (2,4) to (5,4) at a cost of 3.
+Perform a move of type 1 from (5,4) to (5,2) at a cost of 2.
+
+Sample 3, test case 1:
+The simple cost from (1,1) to (1,7) is |1−1|+|1−7|=0+6=6. However we can achieve a beauty of 2 without exceeding the simple cost in the following manner:
+
+Perform a move of type 1 from (1,1) to (1,3) at a cost of 2.
+Perform a move of type 2 from (1,3) to (1,5) at a cost of 0.
+Perform a move of type 1 from (1,5) to (1,7) at a cost of 2.
+
+Note that the cost of some sequence with beauty >1 might be lower than the simple cost.
+Sample 3, test case 2:
+In the second case of third sample, the simple cost from (9,9) to (1,9) is |9−1|+|9−9|=8+0=8. However we can achieve a beauty of 4 without exceeding the simple cost in the following manner:
+
+Perform a move of type 1 from (9,9) to (9,7) at a cost of 2.
+Perform a move of type 2 from (9,7) to (1,7) at a cost of 0.
+Perform a move of type 1 from (1,7) to (1,9) at a cost of 2.
+Perform a move of type 1 from (1,9) to (1,7) at a cost of 2.
+Perform a move of type 1 from (1,7) to (1,9) at a cost of 2.
+
+Also note that in the same sample the answer for (1,7) will be 1, not 3 as the simple cost from (9,9) to (1,7) is 2. This can be achieved by performing a move of type 1 from (9,9) to (9,7) at cost of 2 and then a move of type 2 from (9,7) to (1,7) at a cost of 0.
+
+
+
+Author:
+6★explodingfrz
+
+
+Editorial:
+https://discuss.codechef.com/problems/ISLNDHOP
+
+
+Tags:
+
+               
+                 Graphs, Connected Components, Dynamic Programming, Multi source BFS
+                 
+                     
+                     Data Structures, Advanced Algorithms, Advanced Graph Algos, Algorithms, Graph Algos, Traversals, BFS
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3266
+
+
+Date Added:
+22-06-2021
+
+
+Time Limit:
+1.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,108 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Flappy Bird is on a screen with height HH pixels (a 2D plane where the yy-axis corresponds to the vertical direction). There are NN vertical obstacles in the room (numbered 11 through N); for each valid i, the coordinates of the endpoint of the i-th obstacle are (xi,ai). There are two types of obstacles: 
+
+Type 0: A line segment between the points (xi,0) and (xi,ai), i.e. upwards from the floor.
+Type 1: A line segment between the points (xi,H) and (xi,ai), i.e. downwards from the ceiling.
+
+For each obstacle, you need to find the number of endpoints of other obstacles (not including itself) that are visible from its endpoint. Two endpoints are visible from each other if the line segment joining them does not intersect or touch any other obstacle. Note that each obstacle has exactly one endpoint.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers H and N.
+The following N lines describe the obstacles. For each valid i, the i-th of these lines contains three space-separated integers ti, xi and ai, where ti is the type of the i-th obstacle.
+
+Output
+For each test case, print a single line containing N space-separated integers. For each valid i, the i-th of these integers should be the number of endpoints visible from the i-th endpoint.
+Constraints
+
+1≤T≤200
+1≤H≤109
+1≤N≤2,000
+ti∈{0,1} for each valid i
+1≤xi≤109 for each valid i
+1≤ai≤H−1 for each valid i
+no two obstacles touch or intersect
+the sum of N over all test cases does not exceed 20,000
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+10 4
+0 2 5
+1 5 6
+1 8 8
+0 11 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2 3 2 3
+
+
+Explanation
+Example case 1: 
+
+
+
+Author:
+6★smartnj
+
+
+Editorial:
+https://discuss.codechef.com/problems/TOWCNT
+
+
+Tags:
+
+               
+                 Geometry
+                 
+                     
+                     Mathematics
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2648
+
+
+Date Added:
+1-04-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

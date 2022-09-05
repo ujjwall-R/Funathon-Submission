@@ -1,0 +1,81 @@
+
+Chef and Chefina are trapped in a magical maze of dimensions N x M x K. Each cell of the maze contains a non-negative integer.                                                                                    
+They are currently at (1,1,1) and need to reach (N,M,K) to escape. In 1 move, they can go 1 cell either to the right, down or to the bottom. More formally, if they are at cell (x, y, z), in one move they can go to : (x+1,y,z) or (x,y+1,z) or (x,y,z+1).     
+But since they are in a magical maze, they cannot escape that easily. They can escape only through walking on a magical path. A magical path is a path such that xor of all numbers on that path is not greater than P.       
+Now they manage to find that magical number P. Instead of escaping, they are interested in finding the number of magical paths from (1,1,1) to (N,M,K). Please help them!
+Input:
+
+The first contains four space separated integers N, M, K, P where N x M x K denotes the dimension of the maze and P is the magical number.                                                                                         
+N x M lines follow, where each block of M lines describes a layer of the maze.
+Each of these lines contain K non-negative integers.
+
+Output:
+Output one integer - the number of magical paths in the maze.
+Constraints
+
+1≤N,M,K<10
+0≤P≤109
+0≤ Ax,y,z ≤109
+1≤x≤N
+1≤y≤M
+1≤z≤K
+
+Sample Input:
+2 2 2 10                                                                                                                                                                                                                                                                                                                                                                    
+9 2                                                                                                                                                                                                                                           
+7 2                                                                                                                                                                                                                                  
+3 7                                                                                                                                                                                                                                                   
+9 7                                                                                                                                                                                                                                                            
+
+Sample Output:
+3                                                                                                                                                                                                                                                                                      
+
+
+
+
+Author:
+6★abhi2402
+
+
+Editorial:
+https://discuss.codechef.com/problems/COCR108
+
+
+Tags:
+
+               
+                 abhi2402, cros2020, medium-hard, meet-in-middle, trie
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-06-2020
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,80 @@
+
+Bob is moving soon, and he wants to choose a truck that can hold a certain amount of weight. He knows the weights of all the items he is putting on the truck. Can you help him determine the maximum number of items that he can put on a truck of any given weight?
+You are given an array a of n integers, the weights of the items. Then, you are given q queries, each of which is a possible weight of a truck. You must print the number of items that can fit on the truck, each item with weight a[i].
+Input:
+
+The first line contains two integers n and q. n is the number of items, and q is the number of weight queries.
+The next line contains an array a of n integers, the weights of each item.
+The next q lines contain one integer each, the weight of the truck.
+
+Output:
+There should be q lines of output, the answer to each query.
+Constraints
+
+1≤n≤105
+1≤a[i]≤109
+1≤q≤105
+0≤q[i]≤1018
+
+Sample Input 1:
+10 2
+1 1 8 2 5 1 6 6 1 2
+3
+8
+
+Sample Output 1:
+3
+6
+
+EXPLANATION:
+In the first query, only 3 items can be taken for a truck with weight 3. These items all have weights 1, 1, and 1.
+In the second query, 6 items can be taken for a truck with weight 8. These items have weights 1, 2, 1, 2, 1, and 1.
+
+
+
+Author:
+2★samhenry97
+
+
+Editorial:
+https://discuss.codechef.com/problems/FLTRCK
+
+
+Tags:
+
+               
+                 array, binary-search, easy, samhenry97
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+25-05-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

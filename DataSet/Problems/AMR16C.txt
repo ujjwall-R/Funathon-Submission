@@ -1,0 +1,83 @@
+
+Recently social media has been flooded by fb posts, tweets, news articles about only thing - demonetization. A great debate is ongoing over it. Most of the people discussing in social media platform usually tend to take sides, i.e. either they support the move, or they not.
+There is such a group of N people, who vehemently discuss about their views about this everywhere possible on any platform. The influence of a person is determined by the number of posts he makes. The more posts you make about your support/opposition, more your influence. Usually it is hard to determine whether a person supports/opposes the moves just by reading their posts, as they will make some oblique references here and there, often followed by a big digression into cat-dog memes, and name calling as the final resort, sometimes as a first resort too in rare cases. But you came to know from FB AI team that the people whose support this move behave slightly oddly. Specifically, FB team told that a person will be a supporter if number of divisors of the number of posts a person makes is an odd prime number.
+You are given information about number of posts each person makes, specifically person i makes Pi posts. A study about user behavior tells that no-one likes to have same number of posts as the other persons as they consider it as a loss of their identity. So, users make posts in such a way that no two persons have the same number of posts, i.e., all the Pi's  are distinct. You want to study the social media strength of users supporting the move. Let K denote the number of supporters of the move. For each i-th most influential supporter, you want to find his/her rank in overall influence in the social media (considering both supporters/opposers).
+
+Input
+The first line contains an integer T denoting the number of test cases. T test cases follow.
+The first line of each test case contains a single integer N denoting the number of people in the group on social media.
+The second line of each test case contains N space separated integers Pi denoting the number of posts made by i-th person.
+Output
+For each test case, output a single line containing K space separated integers, where i-th of them denotes the overall influence rank of i-th most influential supporter. If K is zero, output "No supporter found." (without quotes) instead.
+Constraints
+
+1 ≤ T ≤ 105
+1 ≤ N ≤ 105
+1 ≤ Pi ≤ 1012
+Sum of N over all test case ≤ 105
+
+Example
+Input:
+2
+2
+1 3
+2
+13 9
+
+Output:
+No supporter found.
+2
+
+Explanation
+Example case 1. There are two persons on the social media group. You can see that first person has made 1 post. As, number of divisors of 1 are 1, which is odd but not a prime, so first person is a opposer of demonetization move. Second person is also opposer of the move, as number of divisors of 3 are 2 (1 and 3), which is even.
+As there is no supporter, so the output should be  "No supporter found.".
+Example case 2. Number of divisors of 13 are 2, which are even. So, person 1 is a opposer of the move. Number of divisors of 9 are 1, 3, 9, which is 3. As 3 is an odd and prime number, person 2 is a supporter of the move. Now, we want to find the overall influence ranking of person 2. We see that person 1 has higher number of posts than person 2. So, influence rank of person 2 will be 2.
+
+
+
+Author:
+admin3
+
+
+Editorial:
+https://discuss.codechef.com/problems/AMR16C
+
+
+Tags:
+
+               
+                 admin3, amr16, binary-search, easy, icpc2016, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+20-12-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3
+
+
+
+
+
+Submit
+

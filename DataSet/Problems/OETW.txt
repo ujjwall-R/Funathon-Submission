@@ -1,0 +1,88 @@
+
+Read problems statements Bengali , Mandarin chinese , Russian and Vietnamese as well.
+For her birthday, Rima got an integer sequence A1,A2,…,ANA1,A2,…,AN. Each element of this sequence is either 1 or 2.
+Let's call an integer ss (1≤s≤2N) a summary integer if there is a contiguous subsequence of A such that the sum of its elements is equal to s.
+Rima wants to count all the summary integers. Can you help her?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1,A2,…,AN.
+
+Output
+For each test case, print a single line containing one integer — the number of summary integers.
+Constraints
+
+1≤T≤5
+1≤N≤2⋅106
+1≤Ai≤2 for each valid i
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+3
+2 1 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+
+
+
+
+
+Author:
+5★dolabmoon
+
+
+Tags:
+
+               
+                 cook98, dolabmoon, easy, observation, prefix-sum, taran_1407
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2149
+
+
+Date Added:
+18-09-2018
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

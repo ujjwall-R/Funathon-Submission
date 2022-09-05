@@ -1,0 +1,116 @@
+
+Read problems statements Hindi ,Bengali , Mandarin chinese , Russian and Vietnamese as well.
+Let's define the strength of a matrix as the number of distinct rows in it. Two rows a1,a2,…,ana1,a2,…,an and b1,b2,…,bnb1,b2,…,bn are distinct if there is an index i such that ai≠bi.
+You are given an integer matrix A with N rows (numbered 1 through N) and M columns (numbered 1 through M). A submatrix of A is formed as the intersection of rows r1 through r2 and columns c1 through c2 for any r1≤r2,c1≤c2. Find the sum of the strengths of all submatrices of A.
+Input
+
+The first line of the input contains two space-separated integers N and M.
+N lines follow. For each i (1≤i≤N), the i-th of these lines contains M space-separated integers Ai,1,Ai,2,…,Ai,M.
+
+Output
+Print a single line containing one integer — the sum of strengths of all the submatrices.
+Constraints
+
+1≤N⋅M≤500,000
+1≤Ai,j≤109 for each valid i,j
+
+Subtasks
+Subtask #1 (20 points): 1≤N⋅M≤1,000
+Subtask #2 (80 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2 2
+1 1
+1 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+11
+
+
+Explanation
+The submatrices are
+1
+
+1
+
+1
+
+2
+
+1 1
+
+1 2
+
+1
+1
+
+1
+2
+
+1 1
+1 2
+
+with strengths 1,1,1,1,1,1,1,2,2 respectively. The sum of these strengths is 11.
+
+
+
+Author:
+7★jtnydv25
+
+
+Editorial:
+https://discuss.codechef.com/problems/DISTRING
+
+
+Tags:
+
+               
+                 disjoint-set-union, hard, jtnydv25, longest-common-prefix, oct18, suffix-array
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2607
+
+
+Date Added:
+24-09-2018
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

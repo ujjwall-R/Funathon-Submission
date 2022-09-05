@@ -1,0 +1,107 @@
+
+You are given an array A1,A2,…,ANA1,A2,…,AN consisting of N integers. Your goal is to make the GCD of all the elements in the array an odd integer. To achieve this goal, you can do the following operation any number of times:
+
+Choose an index i(1≤i≤N) such that Ai>1 and set Ai=⌊Ai2 ⌋
+
+You can choose an index multiple times during the operations. Find the minimum number of operations after which GCD of all the elements in the array becomes an odd integer.
+Note: ⌊x⌋ : Returns the largest integer that is less than or equal to x (i.e  rounds down to the nearest integer). For example, ⌊1.5⌋=1,⌊2⌋=2, ⌊72 ⌋ =⌊3.5⌋ =3.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1,A2,…,AN.
+
+Output Format
+For each test case, print a single line containing one integer - the minimum number of operations after which GCD of all the elements in the array becomes an odd integer.
+Constraints
+
+1≤T≤103
+1≤N≤105
+1≤Ai≤109
+Sum of N over all test cases does not exceed  5⋅105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+3
+2 3 5
+2
+4 6
+3 
+4 12 24
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+1 
+2
+
+
+Explanation
+Test case 1: The GCD of all integers in the array is already 1, which is odd.
+Test case 2: You choose the index i=2 and set A2=⌊62 ⌋=⌊3⌋=3. So the array becomes [4,3] and the GCD of 4 and 3 is 1.
+
+
+
+Author:
+5★soumyadeep_21
+
+
+Editorial:
+https://discuss.codechef.com/problems/BININVER
+
+
+Tags:
+
+               
+                 Basic Maths, GCD
+                 
+                     
+                     Mathematics, Number Theory
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1583
+
+
+Date Added:
+20-08-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

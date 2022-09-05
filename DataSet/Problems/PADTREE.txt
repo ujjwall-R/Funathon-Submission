@@ -1,0 +1,72 @@
+
+Chef has a Tree with each Node assign with the lower case character between a to z. Chef has borrowed some palindrome from rishabh_singh0.
+Now, rishabh_singh0 needs palindrome back and chef is happy so chef wants to give the longest palindrome he has. Unfortunately, the chef has messed the tree so he wants you to give the length of the largest palindromic path in the tree so that chef can return the palindrome.
+palindromic path means: Take any two Node in Tree if the shortest path between them forms a palindrome then it's the palindromic path
+Input:
+
+First line will contain TT, number of testcases. Then the testcases follow. 
+Each testcase contains NN, number of Nodes.
+Next N - 1 line contain u v connecting edges.
+Next line contain string with N character in which i th character represents character assign to ith Node.
+
+Output:
+For each testcase, output in a single line answer length of Longest Palindromic Path in Tree.
+Constraints
+
+1≤T≤15
+1≤N≤5000
+
+Sample Input:
+1
+3
+1 2
+2 3
+mom
+Sample Output:
+3
+
+
+
+
+Author:
+4★rishabh_singh0
+
+
+Tags:
+
+               
+                 rishabh_singh0, strg2020, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+16-12-2020
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,86 @@
+
+Mr. Mathews daughter Julie is going to get married on February 1414th 20202020. He has decided for a function of at most 55 days. He has arranged K number of hotel rooms to accommodate his guests. He has strange guests, who are going to attend and depart the marriage party on different days. To save money, Mr. Mathew has thought of an accommodation plan to arrange N number of guests in K rooms in such a way that his savings will be maximum. Help him to save money through your code.(N>=K)
+TERM DEFINING
+Ai, Di denotes the arriving days(≤5) and the leaving/departing days(≤5) for the guests.
+INPUT
+-First line of the input includes total number of test cases T.
+-Next line has input K, the total number of rooms.
+-Next K inputs, denote the price of the room.
+-Next input include N.
+-Next N input, denote the arrival days Ai.
+-Next N input, denote the departure days Di.
+
+OUTPUT
+A single integer denoting the minimum amount P required to accommodate everyone.
+
+CONDITION:-
+-Price is only paid when guests arrive on one day and depart on another day. Same day arrival   and departure costs no money according to hotel booking authorities.
+-The function is arranged only for 5 days hence Ai and Di should be less than 5.
+-Rooms can be interchanged to accommodate guests in a room of minimum rate.
+
+Sample Input
+2
+5
+100 200 150 250 300
+8
+1 5 3 4 2 1 5 3
+2 5 5 5 4 3 5 4
+6
+250 639 245 789 120 368
+8
+1 5 3 2 1 4 5 3
+4 5 5 4 2 5 5 4
+
+Sample Output
+1200
+2078
+
+
+
+
+Author:
+3★thesuraj007
+
+
+Editorial:
+https://discuss.codechef.com/problems/ACMP
+
+
+Tags:
+
+               
+                 coss2020, easy, externalcontest, simple, thesuraj007
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-01-2020
+
+
+Time Limit:
+0.1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

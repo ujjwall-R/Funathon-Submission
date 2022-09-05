@@ -1,0 +1,84 @@
+
+Richie Rich invited his best friend Mark to his mansion. Richie then showed him the room where he keeps his pocket money. There was a whole Mountain Range made of money inside the room. Mark could not believe his eyes. He asked Richie if he could take some of it. Richie said he could only take money from a Perfect Range of the mountain.
+Given the height of the mountain range at n consecutive points i.e. x1,x2,x3.....xn, (Where xi denotes the height of the mountain range at x=i) and m queries consisting of two integers l and r ( l, r define a segment in the array of heights ), find for each query, whether the given segment of the mountain range is a Perfect Range.
+A Perfect Range of mountains contains exactly one peak.
+A range consisting of a peak will look like ai<ai+1<ai+2.....<ax>ax+1>ax+2....>aj . (i≤x≤j)  
+If Mark can take money from the segment given in a query, print YES. Else print NO.   
+Input:
+
+The first line of the input contains an integer n denoting the number of points where the height sample has been taken.
+Second-line contains n integers denoting the heights of the Mountain range.
+The third line of input contains an integer m denoting the total number of queries.
+Next m lines following this, contains m queries, each line containing two integers l and r, denoting the segment.
+
+Output:
+For each query, print Yes or No.  
+Constraints
+
+1≤n,m≤105
+1≤l,r≤n
+l≤r
+0≤xi≤109
+
+Sample Input:
+14
+10 9 8 7 5 6 5 4 3 4 5 6 7 8
+4
+1 4
+4 6
+5 7
+11 14  
+Sample Output:
+YES
+NO
+YES
+YES  
+
+
+
+Author:
+5★rishup_nitdgp
+
+
+Editorial:
+https://discuss.codechef.com/problems/REC09C
+
+
+Tags:
+
+               
+                 dynamic-programming, easy, rec92019, rishup_nitdgp
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+8-11-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

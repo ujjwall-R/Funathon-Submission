@@ -1,0 +1,104 @@
+
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef has 33 bags that she wants to take on a flight. They weigh AA, BB, and CC kgs respectively. She wants to check-in exactly two of these bags and carry the remaining one bag with her.
+The airline restrictions says that the total sum of the weights of the bags that are checked-in cannot exceed DD kgs and the weight of the bag which is carried cannot exceed EE kgs. Find if Chef can take all the three bags on the flight.
+Input Format
+
+The first line of the input contains a single integer TT denoting the number of test cases. The description of TT test cases follows.
+Each testcase contains a single line of input, five space separated integers A,B,C,D,EA,B,C,D,E.
+
+Output Format
+For each testcase, output in a single line answer "YES" if Chef can take all the three bags with her or "NO" if she cannot.
+You may print each character of the string in uppercase or lowercase (for example, the strings "yEs", "yes", "Yes" and "YES" will all be treated as identical).
+Constraints
+
+1≤T≤360001≤T≤36000
+1≤A,B,C≤101≤A,B,C≤10
+15≤D≤2015≤D≤20
+5≤E≤105≤E≤10
+
+Subtasks
+Subtask #1 (100 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+1 1 1 15 5
+8 7 6 15 5
+8 5 7 15 6
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+YES
+NO
+YES
+
+
+Explanation
+Test case 11: Chef can check-in the first and second bag (since 1+1=2≤151+1=2≤15) and carry the third bag with her (since 1≤51≤5).
+Test case 22: None of the three bags can be carried in hand without violating the airport restrictions.
+Test case 33: Chef can check-in the first and the third bag (since 8+7≤158+7≤15) and carry the second bag with her (since 5≤65≤6). 
+
+
+
+Author:
+daanish_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/AIRLINE
+
+
+Tags:
+
+               
+                 Case work, Conditional Statements, Basic Maths, Brute Force, Implementation
+                 
+                     
+                     Special, Basic Programming Concepts, Mathematics, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1042
+
+
+Date Added:
+30-08-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

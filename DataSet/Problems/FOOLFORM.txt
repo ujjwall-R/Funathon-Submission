@@ -1,0 +1,101 @@
+
+Click here for the problem statement.
+Input Format
+
+The first line contains a single number TT, denoting the number of test cases
+The following 2⋅T2⋅T lines describe the TT test cases
+Each test case has 2 lines of input
+The first line contains a single integer N which denotes the number of strings on the second line
+The second line contains N space-separated non-empty strings made up of lower-case English alphabets
+
+Output Format
+
+T lines denoting answer for each test case
+Each of the T lines should have a single string, either "YES" or "NO" (without the quotes)
+
+Constraints
+
+1≤T≤105
+1≤N≤105
+1≤|S|≤105
+Sum of |Si| does not exceed 10^5
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+5
+eve visited every royal yacht
+4
+arjo slept early today
+7
+the outstanding user really is sir tourist
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+YES
+NO
+YES
+
+
+
+
+
+Author:
+5★keyurchd_11
+
+
+Editorial:
+https://discuss.codechef.com/problems/FOOLFORM
+
+
+Tags:
+
+               
+                 keyurchd_11, recursion, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+25-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,81 @@
+
+
+Find the nth term of a series for which if it is given that if n is less than 2 then the nth term is 1 and if n is greater than or equals to 2 and less than 4 nth term is 2 else nth term will be equal to the difference of (n+2)th term and (n-2)th term.
+
+
+ tn = t(n+2) - t(n-2)   Where n ≥ 4 
+The answer could be very large, so compute it modulo with 109 + 7 
+Input
+
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer N 
+
+Output
+
+For each test case, output a single line containing the nth term of the series with modulo 109 + 7 
+
+Constraints
+
+1 ≤ T ≤ 105 
+1 ≤ N ≤ 105 
+
+Example
+Input:
+2
+2
+5
+Output:
+2
+3
+
+Explanation
+Example case 1.for n=2 , t2 = 2
+
+
+
+Author:
+3★prajapat786
+
+
+Editorial:
+https://discuss.codechef.com/problems/NTERM
+
+
+Tags:
+
+               
+                 dynamic-programming, easy, ince2019, prajapat786, prajapat786
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+1-09-2019
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

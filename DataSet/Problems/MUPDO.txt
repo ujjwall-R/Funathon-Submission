@@ -1,0 +1,114 @@
+
+
+Today, we will recreate the popular game, Bomber Man! 
+In Bomber Man, if a bomb is placed at a cell (x, y), cells  (x + 1, y), (x, y + 1), (x - 1, y) and (x, y - 1)  are destroyed. 
+We will try to implement an enhanced version of this game.
+
+
+The game will be played in an  N * N  grid. Initially, all the cells are safe. You have to handle U updates of form (x, y). An update signifies that a bomb has been placed at that cell. The bomb destroys all cells that are within a manhattan distance of K from (x, y). More formally, for each  update, you must mark all cells (p, q)  such that  |p - x| + |q - y| ≤ K as destroyed. |x| denotes absolute value of x.
+After all the updates are over, you need to answer Q queries of the form (x, y).  For each query, print "Safe" or "Not Safe" depending on whether the corresponding cell has been destroyed or not, respectively. You need to consider only those cells which lie in the N * N region.  
+
+Say N = 4, K = 2 and a bomb is dropped at cell (2, 2). Here is what the grid will look like. The red cells denote destroyed cells. 
+
+
+
+
+You will be given the information about the first query. For queries 2 to Q, you have to use the following formula to find (x, y) for the current query:  
+If the answer to (i - 1)th query was "Not Safe", then ith query is denoted by: 
+xi = (xi-1 * A + B) % N + 1
+yi = (yi-1 * A + B) % N + 1 
+If answer was "Safe", then : 
+xi = (xi-1 * B + A) % N + 1 
+yi = (yi-1 * B + A) % N + 1 
+
+
+
+Input
+
+The first line of the input contains four space separated integers N, K, U and Q, as described above.
+
+Each of the next U lines contain two integers  x and y denoting the updates.
+
+The next line contains a pair of integers x and y denoting the first query. 
+The next line contains a pair of integers A and B.
+
+Output
+
+For each query output the required answer in one line.
+
+Constraints
+
+1 ≤ N ≤ 5 * 105
+1 ≤ U , Q ≤ 2 * 105
+1 ≤ K , x , y ≤  N
+1 ≤ A , B  ≤ 5 * 105
+
+Example
+Input:
+5 2 2 3
+3 2
+5 4
+1 4
+12345 54321
+
+Output:
+Safe
+Safe
+Not Safe
+
+
+Explanation:
+
+The query points are (1, 4), (2, 5) and (3, 1).
+
+Note: Large input files. Use scanf/printf in C++.
+
+
+
+
+Author:
+blunderspride
+
+
+Editorial:
+https://discuss.codechef.com/problems/MUPDO
+
+
+Tags:
+
+               
+                 blunderspride, data-structure, ipc151b, medium-hard, segment-tree
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+23-11-2015
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

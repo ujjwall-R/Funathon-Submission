@@ -1,0 +1,73 @@
+
+Irfan and his brother Yusuf were looking at photographs of their vacation to Hawaii. Irfan noticed something interesting. He noticed that if their aunt Mansi had a big beard and a moustache she would resemble their uncle Amit. He tried to modify the people in other photographs in such a way so that they would resemble someone else. Yusuf who was into programming decided to do something similar with strings. He wrote down 2 words and tried to transform one word into another.
+He decided that the operations that maybe performed on the strings could be: Inserting a character at any position, removing an existing character, modifying an existing character and swapping 2 adjacent characters. Each operation is counted as one move. While doing this he noticed that there is more than one way to complete this transformation. He wants your help to write a program that can find out the minimum number of moves required transform a given word into another given word.
+Input
+
+The first line contains a single integer T , the number of test cases. T test cases follow.
+The only line of each test case contains 2 strings (contains only lower case letters), separated by a single space.
+
+Output
+For each test case, output a single line containing an integer which denotes the minimum number of moves required transform a given word into another given word.
+Constraints
+
+1 ≤ T ≤ 1000
+1 ≤ |S| ≤ 100
+
+ 
+Example
+Input:
+1
+smatr smart
+
+Output:
+1
+
+
+
+
+Author:
+4★bhawnamait
+
+
+Editorial:
+https://discuss.codechef.com/problems/MOUSCH01
+
+
+Tags:
+
+               
+                 bhawnamait, dynamic-programming
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-04-2015
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

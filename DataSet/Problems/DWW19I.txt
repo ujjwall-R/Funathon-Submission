@@ -1,0 +1,84 @@
+
+Abhinav loves electric circuits. Currently he is working on a new circuit for which he requires some connecting wires. He needs to make a total of N connections and he has mentioned his wire length requirements for each connection in an integer sequence A. There is an electric store near his house, from where he needs to buy wires. It is a very weird store, because you have to decide most of the things yourself, so it takes a lot of thinking. For instance, for buying wires, you need to decide the length of each wire piece, and you'll get as many wire pieces of the chosen length each at unit cost (cost 1 per piece) but you can't get wires of different lengths. Also, you can't cut wire pieces to make new pieces of different (smaller) length(s). Isn't that weird?
+But you can connect any number of wires together to form a new single wire piece whose length is the sum of lengths of the wires connected. So, Abhinav needs to choose an integer length for buying wires. Abhinav hates to waste anything, and he hates it even more if that thing is money. So help him decide the length of wires so as to minimize the total expenditure.
+Note: You cannot make a connection which requires a wire piece of length X with a wire piece of length Y if X≠Y.
+Input:
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains an integer N.
+The second line contains N space separated integers A1,A2,…,AN.
+
+Output:
+For each test case print a single line containing two space separated integers, length of each wire and the corresponding minimum cost.
+Constraints:
+
+1≤T≤10
+1≤N≤105
+1≤Ai≤109, for each valid i
+
+Subtasks:
+
+10 points:
+1≤N≤100
+1≤Ai≤100, for each valid i
+90 points: original constraints
+
+Sample Input:
+1
+3
+2 4 8
+
+Sample Output:
+2 7
+
+Explanation:
+Example Case 1: He needs to make 3 connections of lenghts 2, 4 and 8 respectively. Now he has only two options (in this case) for the length of each piece, which are 1 and 2. If he chooses 1 as the wire length then he will need 14 pieces of wires and hence spend 14 units of money. But if he chooses 2 as the wire length, then he will require just 7 pieces, and hence pay only 7 units of money, which is the minimum possible in this case.
+
+
+
+Author:
+5★ankushkhanna
+
+
+Editorial:
+https://discuss.codechef.com/problems/DWW19I
+
+
+Tags:
+
+               
+                 ankushkhanna, ankushkhanna, dwwu2019, easy, greatest-common-divisor, math
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+29-12-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

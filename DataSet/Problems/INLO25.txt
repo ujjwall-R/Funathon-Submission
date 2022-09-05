@@ -1,0 +1,79 @@
+
+ 
+DuckDuckGo is an Internet search engine that emphasizes protecting searchers' privacy and avoiding the filter bubble of personalized search results. The engineers at DuckDuckGo are making a new algorithm which will help their search engine to outperform Google in a lot of areas. But recently they hit a roadblock. After a lot of thinking one of the engineers pointed out that if they can find the number of trailing zeroes in 11! * 22! * 33!* .... NN!.where N is natural number, they would be able to overcome the hurdle they have been facing and continue with designing their algorithm.
+Can you help DuckDuckGo overcome this problem and contribute towards the creation of a search engine which may overtake Google at some point
+
+ 
+Input
+The input contains several test cases.The first line of the input contains an integer T denoting the number of test cases
+Each test case comprises of a natural numbers  N.
+
+Output
+You need to output the number of trailing zeroes in the above expression.The answer must be in MOD 100000007 .
+Tips:
+Constraints
+Should contain all the constraints on the input data that you may have. Format it like:
+
+1 ≤ T ≤ 100
+1 ≤ N ≤ 500
+
+ 
+Example
+Input:
+2
+2
+7
+
+Output:
+0
+120
+
+
+
+
+Author:
+5★ravit0001
+
+
+Editorial:
+https://discuss.codechef.com/problems/INLO25
+
+
+Tags:
+
+               
+                 inlo2016, medium-hard, number-theory, ravit0001
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+9-03-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

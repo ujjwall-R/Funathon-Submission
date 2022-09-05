@@ -1,0 +1,69 @@
+
+Chef has challenged you to find the minimum number of operations he needs to use to make n equals to x.
+There are two operations given below:
+1.)  subtract any positive integer from n.
+2.)  Multiple n with any positive integer.
+Input Format:
+First-line contains t the number of test cases.
+For each test case, you are given two space separated integers n and x.
+Output Format:
+Print minimum operations you need to make n equal to x.
+Constraints:
+1 <= t <= 50
+1 <= n,x <= 1000
+Sample Input
+2
+4 8
+3 3
+Sample Output
+1
+0
+
+
+
+Author:
+5★prafull_vrsh
+
+
+Editorial:
+https://discuss.codechef.com/problems/K3001
+
+
+Tags:
+
+               
+                 prafull_vrsh, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+4-01-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

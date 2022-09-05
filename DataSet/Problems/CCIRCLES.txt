@@ -1,0 +1,111 @@
+
+Read problems statements Hindi ,Bengali , Mandarin chinese , Russian and Vietnamese as well.
+There are N circles in a plane. Circle i and circle j form a good pair if it is possible to choose a point P1 on the perimeter of circle i and a point P2 on the perimeter of circle j such that the Euclidean distance between P1 and P2 is exactly K. (Note that P1 and P2 do not need to have integer coordinates.)
+You should answer Q queries. In each query, you are given the required distance K. Chef is interested in finding the number of good pairs of distinct circles for each query. Please help him.
+Note: Circle i and circle j are distinct when i≠j. There may be any number of circles that coincide (have identical centers and radii).
+Input
+
+The first line of the input contains two space-separated integers N and Q denoting the number of circles and the number of queries respectively.
+Each of the following N lines contains three space-separated integers X, Y and R describing a circle with radius R and center (X,Y).
+Each of the next Q lines contains one integer K describing a query.
+
+Output
+For each query, print a single line containing one integer — the number of good pairs of circles.
+Constraints
+
+2≤N≤103
+1≤Q≤5⋅105
+X,Y≤|2⋅105|
+1≤R≤2⋅105
+0≤K≤106
+
+Subtasks
+Subtask #1 (30 points):
+
+2≤N≤102
+1≤Q≤5⋅102
+
+Subtask #2 (70 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2 3
+0 0 5
+8 3 2
+0
+10
+20
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+1
+0
+
+
+Explanation
+The distance between the point (0.00,−5.00) on circle 1 and the point (8.00,1.00) on circle 2 is 10. There is no pair of points on these two circles with distance 0 or 20.
+
+
+
+Author:
+6★l_returns
+
+
+Editorial:
+https://discuss.codechef.com/problems/CCIRCLES
+
+
+Tags:
+
+               
+                 Geometry, Prefix Sum
+                 
+                     
+                     Mathematics, Algorithms, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2046
+
+
+Date Added:
+22-09-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

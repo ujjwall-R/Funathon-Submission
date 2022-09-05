@@ -1,0 +1,65 @@
+
+ 
+Alice is climbing stairs. There are total N stairs. She climbs A stairs upwards in day and she comes downstairs in night by B stairs. Find number of days she will take to reach the top of staircase.
+Input
+First and only line contains three space separated integers denoting A, B, N.
+Output
+Print only one line of output denoting the answer to the question.
+Constraints
+1 ≤ B < A ≤ N ≤ 10^9
+Example
+Input:
+5 1 6
+
+Output:
+2
+
+
+
+
+Author:
+3★karan_arora2
+
+
+Editorial:
+https://discuss.codechef.com/problems/CF221
+
+
+Tags:
+
+               
+                 ad-hoc, codefight, cofi1601, karan_arora2, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+24-03-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

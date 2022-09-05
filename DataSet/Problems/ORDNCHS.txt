@@ -1,0 +1,117 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+This is an interactive problem.
+Order and Chaos is a two-player game. One player plays as Order, the other as Chaos. The game is played on a 6×6 grid of cells (both the rows and the columns are numbered 1 through 6); initially, all cells are blank. The players alternate turns; Order plays first. On each turn, the current player must place either an 'X' or an 'O' into one blank cell (either player may place either letter).
+Let's define a five-in-a-row as 5 contiguous cells in a straight line containing the same letter. A five-in-a-row can be horizontal, vertical or diagonal. Note that there are only six diagonals which may contain a diagonal five-in-a-row: the main diagonal, the minor diagonal or a diagonal immediately above or below either of them. An exact five-in-a-row is a five-in-a-row that is not fully contained within a six-in-a-row.
+The game ends when all cells are filled. At this point, if there is an exact five-in-a-row (of either 'X'-s or 'O'-s), then the player that plays as Order wins; otherwise, the player that plays as Chaos wins.
+Here are some example games:
+OOOOOO
+OXXXXO
+OXOOOO
+OXOXXX
+OXOXXX
+XOOXXX
+
+The above is a win for Order. There is a vertical exact five-in-a-row of 'O'-s in the first column. If the 'X' at the bottom of the first column was an 'O' instead, then this would be a win for Chaos, since the five-in-a-row would not be exact. Note that the third row, which contains five 'O'-s, does not contain a five-in-a-row, because these five 'O'-s are not in contiguous cells.
+OXOOOO
+OOXOOO
+OOOXOO
+OOOOXO
+XOOOOX
+OXOOXO
+
+The above is a win for Order. There is an exact five-in-a-row of 'X'-s just above the main diagonal.
+XXXXXX
+XXOOXX
+XOXXOX
+XOXXOX
+XXOOXX
+XXXXXX
+
+The above is a win for Chaos.
+You are playing this game against the grader. You get to choose whether you want to play as Order or Chaos, but you must win every game.
+Interaction
+
+First, you should read a line containing a single integer T denoting the number of test cases. The description of interaction for T test cases follows.
+For each test case, you should start by printing a line containing the string "ORDER" or "CHAOS" (without quotes) indicating which player you want to play as. Then, the game starts. During each turn, you must do the following:
+If it is your turn, print a line containing two space-separated integers r, c, a space and a character n, where n must be 'X' or 'O'. This denotes that you want to place the character n into the cell in row r and column c.
+If it is the grader's turn, read a line containing two space-separated integers r, c, a space and a character n, denoting that the grader placed the character n into the cell in row r and column c.
+When the game ends, the grader automatically determines the winner.
+Note: If your program attempts to make an invalid move, the grader will immediately exit with a "Wrong Answer" verdict.  You may receive a different verdict if your program subsequently crashes or exceeds the time limit.
+
+Don't forget to flush the output after printing each line! In C/C++, this can be done after printing each line using fflush(stdout); or by setting the proper type of buffering at the beginning of the code using setlinebuf(stdout);. Failure to flush the output buffer may result in getting the verdict Time Limit Exceeded.
+Constraints
+
+1≤T≤1,000
+1≤r,c≤6
+n∈{'X','O'}
+
+Interaction
+You         Grader
+            2
+ORDER
+1 2 X
+            4 6 X
+3 3 O
+            2 5 X
+  ... 30 lines omitted ...
+2 1 O
+            6 1 O
+CHAOS
+            3 4 X
+2 1 O
+            3 5 O
+6 5 X
+  ... 30 lines omitted ...
+            1 3 X
+4 2 O
+
+
+
+
+Author:
+david_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/ORDNCHS
+
+
+Tags:
+
+               
+                 david_adm, game-theory, medium-hard, pairing, snckfl19
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+29-01-2019
+
+
+Time Limit:
+4 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

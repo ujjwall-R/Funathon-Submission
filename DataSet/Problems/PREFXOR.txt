@@ -1,0 +1,125 @@
+
+Chef has an array AA such that Ai=i.
+A transform on the array is performed by replacing each element of the array with the bitwise XOR of the prefix till that element. For example, if B denotes the array after performing transform on array A, then, Bi=A1⊕A2⊕…⊕Ai. Similarly, if C denotes the array after performing two transforms on array A, then, Ci=B1⊕B2⊕…⊕Bi.
+Let fK be the array obtained by performing K transforms on the array A. Thus, fKX denotes the Xth element of the Kth transform of the array A.
+Formally,
+
+f0i=Ai
+f1i=A1⊕A2⊕…⊕Ai
+f2i=f11⊕f12⊕…⊕f1i
+fki=fk−11⊕fk−12⊕…⊕fk−1i. Here, ⊕ denotes the bitwise XOR operation.
+
+Given K and X, determine the value fKX.
+Input Format
+
+First line will contain T, number of test cases. Then the test cases follow.
+Each test case contains of a single line of input, two integers K,X as mentioned in the problem statement.
+
+Output Format
+For each test case, output in a single line, the value fKX
+Constraints
+
+1≤T≤105
+0≤K≤1018
+1≤X≤1018
+
+Subtasks
+Subtask 1 (30 points):
+
+1≤T≤50
+0≤K≤1018
+1≤X≤105
+
+Subtask 2 (70 points):
+
+Original Constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5
+0 10
+1 6
+2 3
+10 15
+53 24
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+10
+7
+2
+0
+16
+
+
+Explanation
+
+f0={1,2,3,4,5,6,…}
+f1={1,1⊕2,1⊕2⊕3,1⊕2⊕3⊕4,…}={1,3,0,4,1,7,…}
+f2={1,1⊕3,1⊕3⊕0,1⊕3⊕0⊕4,…}={1,2,2,6,7,0,…}
+
+Test Case 1: For K=0, f0i=Ai. Thus, f010=A10=10.
+Test Case 2: From the above values, we can see that f16=7.
+Test Case 3: From the above values, we can see that f23=2.
+
+
+
+Author:
+unbelievable02
+
+
+Editorial:
+https://discuss.codechef.com/problems/PREFXOR
+
+
+Tags:
+
+               
+                 bitwise-operation, dynamic-programming, start37, unbelievable02
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3078
+
+
+Date Added:
+3-05-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

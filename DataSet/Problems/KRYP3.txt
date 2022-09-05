@@ -1,0 +1,95 @@
+
+ 
+"The story of my family isn't about how we died. It's about how we lived."
+The tyranny against the family of Seg-El has led to a lot of turmoil. Seg-El needs to defeat the tyrants in order to save Krypton. Lyta Zod has agreed to help him as well despite their differences. 
+The trap created by the tyrants is in the form of a square grid of size N. Each step on this grid has some posionous value associated with it. A step for this grid is defined as follows- 
+ If a person is at point (A,B) in the grid, then in one step he/she can move to (C,D) - an another point if and only if 
+1 ≤ max( | A - C | , | B - D | ) ≤ X
+where X is some positive integer.
+ The step will not inflict any posion only when 1 ≤ X ≤ 2. 
+Lyta Zod surmises that the trap can be neutralised only if they take exactly Y steps. 
+There are Z crucial start points. 
+She can only help Seg-El if she gets to know the number of unique poisonless combinations for each of these Z points with these Y steps such that after each step, the person stays inside the grid only i.e doesn't cross the boundary of the trap grid. 
+ Two combinations are said to be different if they have at least one step which is different. 
+Help Seg-El in finding out the number of such valid combinations for each query. As the answer can be very large, print it modulo 109+7 
+ 
+ 
+Input
+ First line contains the dimension of square matrix - N
+ Second line contains an integer Y denoting the number of steps to be taken.
+ Third line contains an integer Z denoting the number of points for which the answer has to be obtained.
+Z lines follow. 
+Each of the next Z lines has two integers - A and B denoting the starting coordinate. 
+ 
+Output
+For each of the Z queries, print the required number of ways as described. For each query, answer must be on the separate line.
+ 
+Constraints
+
+1 ≤ N ≤ 20
+1 ≤ Y ≤ 1014
+1 ≤ Z ≤ 400
+1 ≤ A,B ≤ N
+
+ 
+Example
+Input:
+3
+2
+1
+1 1
+
+Output:
+64
+ 
+Explanation
+If the start point is (1,1) , the number of distinct ways to make exactly 2 poisonless steps such that the person stays inside the grid only after each step is 64.
+
+
+
+Author:
+5★shivamg_isc
+
+
+Editorial:
+https://discuss.codechef.com/problems/KRYP3
+
+
+Tags:
+
+               
+                 codr2018, matrix-exponentiation, medium-hard, shivamg_isc
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+4-02-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

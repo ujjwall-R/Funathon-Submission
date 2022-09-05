@@ -1,0 +1,102 @@
+
+"I have only one rule, never submit partially correct code" -Barney Stinson
+The religious act which Barney and his friends hold most sacred, XORING the natural numbers in the given range. This time Barney is a bit busy with picking up some girls, so he asked you to help him. He gave you two numbers LL and RR, you have to find if XOR of all the numbers in range L to R (L,R both inclusive) is odd or even.
+Warning!! Large Input-Output. Please use Fast IO.
+Input:
+
+The first line will contain TT, number of testcases. 
+Each testcase contains a single line of input, two integers L,R. 
+
+Output:
+For each testcase, in the new line print "Odd" if the XOR in the range is odd, else print "Even".
+Constraints
+
+1≤T≤106
+1≤L≤R≤1018
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+1 4
+2 6
+3 3
+2 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Even
+Even
+Odd
+Odd
+
+
+Explanation
+Test case -1 -> XOR (1,2,3,4) =4
+Test case -2 -> XOR (2,3,4,5,6) =6
+Test case -3 -> XOR (3) =3
+Test case -4 -> XOR (2,3) =1
+
+
+
+Author:
+4★tds115
+
+
+Editorial:
+https://discuss.codechef.com/problems/XORNEY
+
+
+Tags:
+
+               
+                 Bit Manipulation, Observation
+                 
+                     
+                     Mathematics, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1389
+
+
+Date Added:
+24-12-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

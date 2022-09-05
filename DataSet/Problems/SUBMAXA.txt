@@ -1,0 +1,96 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Chef wants to buy candy for his friend. He went to a store which sells candies from N jars, arranged in a circle and numbered 1 through N in such a way that for each valid i, jars i and i+1 are adjacent, and jars 1 and N are also adjacent. For each valid i, the candies in the i-th jar have a sweetness A_i.
+Obviously, Chef wants to buy the sweetest candies. However, he gets attracted by a limited-time offer in the store and wants to use it. The offer is as follows: Chef has to choose an integer k (1 \le k \le N), then choose k jars which are contiguous in the circle, and finally, he can buy the candies from these jars at a discounted price. For a fixed k, Chef chooses the k contiguous jars uniformly randomly (among all possible sets of k contiguous jars), but once he chooses them, he buys only candies with the largest sweetness among the chosen jars.
+As you may have guessed, Chef is confused about which value of k to choose. For each valid k, let's denote the expected value of the sweetness of the candies he will buy if he chooses this value of k by S_k. Then, let's denote F_k = S_k \cdot N; it can be proved that for each valid k, F_k is an integer. Can you help Chef find the values of F_1, F_2, \ldots, F_N?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A_1, A_2, \ldots, A_N.
+
+Output
+For each test case, print a single line containing N space-separated integers F_1, F_2, \ldots, F_N.
+Constraints
+
+1 \le T \le 10
+1 \le N \le 10^6
+1 \le A_i \le 10^9 for each valid i
+the sum of N over all test cases does not exceed 10^6
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+4
+1 2 3 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+10 13 15 16
+
+
+
+
+
+Author:
+6★teja349
+
+
+Editorial:
+https://discuss.codechef.com/problems/SUBMAXA
+
+
+Tags:
+
+               
+                 Difference Arrays, Expected Value, Prefix Sum, Cyclic Rotation
+                 
+                     
+                     Data Structures, Arrays, Mathematics, Probability, Algorithms, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2668
+
+
+Date Added:
+8-02-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

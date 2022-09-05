@@ -1,0 +1,113 @@
+
+Given an array AA consisting of NN non-negative integers. 
+You need to perform the following operation (N−1)(N−1) times:
+
+Sort the array A in ascending order.
+Let M be the current size of the array A. Replace the array A by [(A2−A1),(A3−A2),…,(AM−AM−1)]. Note that each time the operation is performed, the size of the array reduces by one.
+
+Find the remaining element after (N−1) operations.
+Input Format
+
+The first line contains an integer T denoting number of test cases. The T test cases then follow.
+The first line of each test case contains an integer N - the size of the array.
+The second line of each test case contains N space-separated integers A1,A2,…,AN.
+
+Output Format
+For each test case, output single line: the remaining element after (N−1) operations.
+Constraints
+
+1≤T≤105
+1≤N≤105
+0≤Ai≤1018
+Sum of N over all test cases does not exceed 2⋅105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+4
+29 19 0 3
+1
+777
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+777
+
+
+Explanation
+
+Test case 1: The operations look like:
+Operation 1: Sort the array. Now, A becomes [0,3,19,29]. Replace the array. Thus, A=[(3−0),(19−3),(29−19)]=[3,16,10].
+Operation 2: Sort the array. Now, A becomes [3,10,16]. Replace the array. Thus, A=[(10−3),(16−10)]=[7,6].
+Operation 3: Sort the array. Now, A becomes [6,7]. Replace the array. Thus, A=[(7−6)]=[1].
+
+Thus, the remaining element after 3 operations is 1.
+
+Test case 2: Since N=1, you don't need to perform any operation. The remaining element after 0 operations is 777.
+
+
+
+
+Author:
+4★wwwww
+
+
+Editorial:
+https://discuss.codechef.com/problems/ARRAY_OPS
+
+
+Tags:
+
+               
+                 Arrays, Sorting
+                 
+                     
+                     Data Structures, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2959
+
+
+Date Added:
+1-04-2022
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

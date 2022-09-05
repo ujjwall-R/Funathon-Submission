@@ -1,0 +1,85 @@
+
+Chefland consists of n cities numbered 1, 2, …n. The cities numbered 1, 2, …k are special cities. For each unordered pair i,j, there exists a bidirectional road, destroying which has a cost of wi,j. Find the minimum cost of destroying some subset of roads so that no two special cities have a path between them after the removal of these roads.
+Input
+There are multiple independent testcases.
+
+First line will contain T, number of testcases.
+The first line of each testcase contains n and k, the number of cities and the number of special cities respectively.
+The jth integer in ith of the next n lines is wij.
+
+Output
+For each testcase, output the minimum cost of destroying some subset of roads so that no two special cities have a path between them after the removal of these roads.
+Constraints
+
+1≤T≤5
+3≤n≤20
+3≤k≤n
+The sum of n over all testcases doesn't exceed 20.
+For all i, wii=0
+For all i≠j, wij=wji, 1≤wij≤106
+
+Example Input
+1
+4 3
+0 1 4 2
+1 0 2 2
+4 2 0 3
+2 2 3 0
+
+Example Output
+11
+
+Explanation
+Remove the roads (1,2), (1,3), (1,4), (2,3), (2,4) to get a cost of 1+4+2+2+2=11.
+
+
+
+Author:
+7★jtnydv25
+
+
+Editorial:
+https://discuss.codechef.com/problems/DICITIES
+
+
+Tags:
+
+               
+                 Graphs, DP Bitmask
+                 
+                     
+                     Data Structures, Advanced Algorithms, Advanced DP
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+10-12-2019
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

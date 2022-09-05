@@ -1,0 +1,112 @@
+
+ 
+Rahul has been given a new task.
+He has been given N points on the x-axis, X1,X2,...,XN.
+Now he is being asked Q queries. Each query gives him his position on the x-axis X, and asks him the sum of distances from his position and the N points.
+As the sum can be quite large, he has been told to print the answer modulo 7630367.
+He has written a program to calculate every query, but it seems to be giving him vague answers. 
+Help him... 
+
+ 
+Flawed code
+
+#include  
+#define ll long long
+using namespace std;
+int main(){
+    int n,x,q;
+    cin>>n>>q;
+    int a[n+1],b[n+1],mod=7630367;
+    for(int i=0;i!=n;i++){
+        cin>>x;
+        a[x]++;b[x]++;}
+    ll upd=0;
+    for(int i=0;i!=n+1;i++){
+        upd=a[i]%mod;a[i]=(a[i-1]+upd)%mod;}
+    upd=0;
+    for(int i=n;i>=0;i--){
+        upd=b[i]%mod;b[i]=(b[i+1]+upd)%mod;}
+    while(q--){cin>>x;printf("%lld",(a[x]+b[x])%mod);}}
+
+
+Input
+
+The first line of the input contains two integers N denoting the number of points on x-axis, Q denoting number of queries.
+The second line contains N space-separated integers X1, X2, ..., XN denoting the points on x-axis.
+
+The next Q lines contains a single integer X, denoting the new position of Rahul
+ 
+Output
+
+For each query, output a single line containing the answer.
+
+ 
+Constraints
+
+1 ≤ N ≤ 100000
+1 ≤ Q ≤ 1000000
+1 ≤ Xi, X ≤ 1000000
+
+ 
+Example
+Input:
+3 2
+1 3 5
+3
+4
+
+Output:
+4
+5
+
+
+ 
+
+
+
+Author:
+4★vibhor3gupta
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHKDST
+
+
+Tags:
+
+               
+                 array, flfi2016, implementation, medium, medium-hard, vibhor3gupta
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+16-03-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP14, PYP3
+
+
+
+
+
+Submit
+

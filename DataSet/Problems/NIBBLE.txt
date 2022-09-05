@@ -1,0 +1,106 @@
+
+In computing, the collection of four bits is called a nibble.
+Chef defines a program as:
+
+Good, if it takes exactly XX nibbles of memory, where XX is a positive integer.
+Not Good, otherwise.
+
+Given a program which takes N bits of memory, determine whether it is Good or Not Good.
+Input Format
+
+First line will contain T, number of test cases. Then the test cases follow.
+The first and only line of each test case contains a single integer N, the number of bits taken by the program.
+
+Output Format
+For each test case, output Good or Not Good in a single line.
+You may print each character of Good or Not Good in uppercase or lowercase (for example, GoOd, GOOD, good will be considered identical).
+Constraints
+
+1≤T≤1000
+1≤N≤1000
+
+Subtasks
+Subtask #1 (100 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+8
+17
+52
+3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Good
+Not Good
+Good
+Not Good
+
+
+Explanation
+Test case 1: The program requires 8 bits of memory. This is equivalent to 84=2 nibbles. Since 2 is an integer, this program is good.
+Test case 2: The program requires 17 bits of memory. This is equivalent to 174=4.25 nibbles. Since 4.25 is not an integer, this program is not good.
+Test case 3: The program requires 52 bits of memory. This is equivalent to 524=13 nibbles. Since 13 is an integer, this program is good.
+Test case 4: The program requires 3 bits of memory. This is equivalent to 34=0.75 nibbles. Since 0.75 is not an integer, this program is not good.
+
+
+
+Author:
+5★notsoloud
+
+
+Editorial:
+https://discuss.codechef.com/problems/NIBBLE
+
+
+Tags:
+
+               
+                 cakewalk, ltime105, notsoloud
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+593
+
+
+Date Added:
+24-02-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

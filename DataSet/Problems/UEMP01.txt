@@ -1,0 +1,102 @@
+
+ 
+A cab owner have N number of cars all are running in city. He give a problem to his one employee.
+Cab owner want to check whether a user can book a car or not which is inside or on  circle of radious K meter .
+If User is at origin position (0,0). N cars position are given in (Xi,Yi) formate. Where 1<=i<=N .
+If car can be booked give output as "Available" otherwise "Not Available" .
+At that time employee is busy to solve other problem. Can you help him to solve this problem.
+ 
+Input
+
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows."
+Then for each test case, The first line contains two integers N number of car active in city
+and K radious of circle within wich car are available or not.
+The next N line contains space-separated integers Xi Yi  denoting the position (Xi,Yi) of ith car. 
+
+ 
+Output
+
+For each test case, output a single line "Available" if car can be booked otherwise "Not Available"..
+
+ 
+Constraints
+
+1 <= T <= 100
+1 <= N <= 10^5
+1 <= K <= 5000
+-10^4 <= Xi <= 10^4
+-10^4 <= Yi <= 10^4
+
+ 
+Example
+Input:
+2
+4 5
+4 8
+3 4
+1 13
+-1 -5
+3 3
+1 5
+-3 4
+-4 -2
+
+Output:
+Available
+Not Available
+ 
+Explanation
+
+In the first test case N is 4 and K is 5  since position (3,4) will lie on circle of radious 5 and (-1,-5)
+is not inside the circle.
+In the second test case N is 3 and K is 3 since not any position of lie on or inside the circle having radiou 3.
+
+
+
+
+Author:
+sintuuemisp
+
+
+Editorial:
+https://discuss.codechef.com/problems/UEMP01
+
+
+Tags:
+
+               
+                 math, processing, sintuuemisp
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-06-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, JS, WSPC
+
+
+
+
+
+Submit
+

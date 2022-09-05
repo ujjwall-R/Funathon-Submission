@@ -1,0 +1,92 @@
+
+The first years have arrived at Hogwarts. It's now time for the Sorting Ceremony, where each first year is sorted into one of the four Houses - Gryffindor, Slytherin, Ravenclaw, and Hufflepuff - based upon certain traits possessed by him/her. 
+Each house has its own traits:
+
+Gryffindor: Courage, Bravery, Chivalry, and Daring.
+Slytherin: Resourcefulness, Cunning, Ambition, and Determination.
+Ravenclaw: Intelligence, Wit, Wisdom, and Creativity.
+Hufflepuff: Diligence, Dedication, Fairness, and Patience.
+
+Each student can have at least one trait and at most sixteen traits (among the ones mentioned above). A student is Sorted into a House XX, if the number of traits of House XX, possessed by him/her, is greater than the number of traits of any other Houses, possessed by him/her. If multiple Houses satisfy the condition, then the student is sorted into the House with the lexicographically smallest name.
+The Sorting Hat is busy right now, and so, you have to tell which Houses each student will be sorted into.
+Input:
+
+First line contains a single integer NN, the number of first years. Then follows a list of traits for each student.
+Each list begins with a single integer, K, the number of traits the student has. It is followed by K strings, each string representing a trait.
+
+Output:
+For each student, output in a single line the House he/she is Sorted into.
+Constraints
+
+1≤N≤105
+1≤K≤16
+Traits can only be among the following: Courage,Bravery,Chivalry,Daring,Resourcefulness,Cunning,Ambition,Determination,Intelligence,Wit,Wisdom,Creativity,Diligence,Dedication,Fairness,Patience
+The traits of a particular student are all distinct.
+
+Sample Input:
+2
+4
+Daring
+Patience
+Wit
+Wisdom
+7
+Chivalry
+Dedication
+Determination
+Bravery
+Intelligence
+Daring
+Wisdom  
+Sample Output:
+Ravenclaw
+Gryffindor  
+
+
+
+Author:
+5★sibasish_14
+
+
+Editorial:
+https://discuss.codechef.com/problems/SORTHAT
+
+
+Tags:
+
+               
+                 fcf22020, sibasish_14, sibasish_14, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+23-07-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

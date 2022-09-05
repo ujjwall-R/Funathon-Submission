@@ -1,0 +1,140 @@
+
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef lives in an N×MN×M grid. He is currently participating in a treasure hunt, and has two items left to find. Chef knows that the Manhattan distance between the cells containing these two items is exactly kk. He wants to know, in how many different pairs of cells can the two items be present? 
+Let AkAk be the number of desired pairs when the value of Manhattan distance between the two cells containing these two items is equal to k. Let C=∑N+M−2i=1Ai⋅31i−1. You have to find the value of C.
+The answer may be large, so you need to find it modulo 998244353.
+The Manhattan distance between two points (x,y) and (x′,y′) is defined as |x−x′|+|y−y′|. 
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+Each testcase contains of a single line of input, two integers N and M.
+
+Output Format
+On a new line for each test case, print C modulo 998244353
+Constraints
+
+1≤T≤5
+1≤N,M≤107
+The sum of N over all tests does not exceed 107.
+The sum of M over all tests does not exceed 107.
+
+Subtasks
+Subtask #1 (5 points): 
+
+1≤N,M≤104
+The sum of N over all tests does not exceed 104.
+The sum of M over all tests does not exceed 104.
+
+Subtask #2 (35 points): 
+
+1≤N,M≤106
+The sum of N over all tests does not exceed 106.
+The sum of M over all tests does not exceed 106.
+
+Subtask #3 (60 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+2 3
+2 4
+100 350
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2115
+65668
+895852507
+
+
+Explanation
+Test case 1:
+The pairs of points with distance 1 are:
+
+(1,1) and (1,2)
+(1,1) and (2,1)
+(1,2) and (1,3)
+(1,2) and (2,2)
+(1,3) and (2,3)
+(2,1) and (2,2)
+(2,2) and (2,3)
+
+The pairs of points with distance 2 are:
+
+(1,1) and (1,3)
+(1,1) and (2,2)
+(1,2) and (2,3)
+(1,2) and (2,1)
+(1,3) and (2,2)
+(2,1) and (2,3)
+
+The pairs of points with distance 3 are:
+
+(1,1) and (2,3)
+(2,1) and (1,3)
+
+Therefore, the answer is 7⋅310+6⋅311+2⋅312 = 2115.
+
+
+
+Author:
+2★aryanag_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/TREHUNT
+
+
+Tags:
+
+               
+                 Modular Arithmetic, Arithmetic, Observation
+                 
+                     
+                     Mathematics, Basic Maths, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2824
+
+
+Date Added:
+29-08-2021
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

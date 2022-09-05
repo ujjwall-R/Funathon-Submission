@@ -1,0 +1,148 @@
+
+"Stick with the strongest team, that's the only way."
+Gi-Hun and his mates have survived the deadly night, but now it’s time for the tug of war. The game proceeds as follows:
+Two teams have to face off against each other in a tug of war match. The match proceeds in a series of rounds as follows:
+
+Initially, one player from each team will come forward to play.
+The one who wins the round will stay in, while the loser is eliminated. If the round is a draw, both players are eliminated.
+When a member of a team is eliminated, that team then sends another person to play in the next round.
+This process continues as long as both teams have at least one player left.
+
+Note that if a player wins their round, they must stay in for the next round — they cannot be replaced by another player.
+A team is said to win the match if it has at least 11 player remaining, while all players of the opponent's team are eliminated. If both teams have no players left, the match is said to be a draw.
+Gi-Hun has to come up with a strategy for his team to win the game. He saw the opponent queue of NN players, where their ithith player has strength AiAi. He also knows that the opponent will send the players in the same order as they appear in A. Formally for any two players i and j where i<j, player i will always play before player j. He also knows the strength of his M players — the ith player of his team has strength Bi. 
+Further, Gi-Hun knows that when two players play against each other, the player with higher strength always wins. If both players have equal strength, the round is a draw.
+Now, he wants to know whether they can win a match or not, and if they can, what is the ordering of his team players that will let them win. In case multiple orderings are possible, he would like to know the lexicographically smallest ordering.
+An array X is lexicographically smaller than an array Y if there exists an index i such that Xi < Yi, and Xj=Yj for all 1≤j<i. Less formally, at the first index i in which they differ, Xi < Yi.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M — the sizes of the opponent team and Gi-Hun's team, respectively.
+The second line of each test case contains N space-separated integers, A1,A2,…,AN — the strengths of the opponents, in order.
+The third line of each test case contains M space-separated integers, B1,B2,…,BM — the strengths of Gi-Hun's team.
+
+Output Format
+
+The first line of each test case should contain a single string, either “YES” or “NO”, denoting whether it is possible for Gi-Hun's team to win or not.
+If the first line contains "YES", print a second line containing M space-separated integers — the lexicographically smallest ordering which will allow Gi-Hun's team to win.
+
+Constraints
+
+1≤T≤104
+1≤N,M≤106
+1≤Ai,Bj≤109 (1≤i≤N, 1≤j≤M)
+Sum of N and M across all test cases will not exceed 106
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5
+3 1
+4 3 5
+6
+3 3
+2 4 7
+2 3 7
+3 3
+2 7 4
+2 7 3
+4 4
+2 6 5 1
+4 6 5 2
+2 2
+7 4
+7 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+YES
+6
+YES
+2 7 3
+NO
+YES
+2 6 5 4
+NO
+
+
+Explanation
+Test Case 1: There is only one possible ordering, that being [6]. The match will proceed as follows:
+
+Round 1: B1=6 will defeat A1=4, A1 is eliminated.
+Round 2: B1=6 will defeat A2=3, A2 is eliminated.
+Round 3: B1=6 will defeat A3=5, A3 is eliminated.
+
+B1 still remains and all opponents have been defeated, making this a victory for Gi-Hun's team.
+Test Case 2: The ordering which result in victory are [2,7,3],[3,7,2],[7,2,3], and [7,3,2]. Of these, the lexicographically smallest is [2,7,3].
+Let Q=[2,7,3]. The match proceeds as follows:
+
+Round 1: Q1=2 will draw with A1=2, eliminating both.
+Round 2: Q2=7 will defeat A2=4, eliminating A2.
+Round 3: Q2=7 will draw with A3=7, eliminating both.
+
+Q3=3 still remains, so Gi-Hun's team wins.
+Test Case 3: It is not possible to win the match.
+
+
+
+Author:
+5★aman1108
+
+
+Editorial:
+https://discuss.codechef.com/problems/TOW
+
+
+Tags:
+
+               
+                 1D Arrays, ad-hoc, Binary Search, Two pointers
+                 
+                     
+                     Data Structures, Arrays, Algorithms, Constructive, Searching, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2489
+
+
+Date Added:
+10-12-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

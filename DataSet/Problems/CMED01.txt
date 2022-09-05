@@ -1,0 +1,79 @@
+
+There are n piles of coins, where the ith pile has ai coins. You need to collect the maximum number of coins from these piles, but you must fulfill the following condition: 
+Let's say you pick xi coins from the ith pile, then:
+
+x1+x3+x5… = x2+x4+x6
+0≤xi≤ai
+
+For example, if n=3 and, a=[2,3,2], you can pick the coins as x= [1,2,1] becuase x1+x3=1+1=2 and x2=2
+Find the maximum total number of coins you can pick.
+Input:
+
+The first line of input contains a single integer n denoting the number of piles.
+The second line of input contains n space-separated integers ai, where the ith integer denoted the number of coins in ith pile.
+
+Output:
+Print a single integer denoting the maximum total number of coins you can pick.
+Constraints
+
+2≤n≤105
+1≤ai≤103
+
+Sample Input:
+4
+5 1 1 4
+
+Sample Output:
+10
+
+Explanation:
+Let x=[4,1,1,4] hence x1+x3=x2+x4 and total number of coins picked is 10. It can be checked that it is not possible to pick any greater number of coins.
+
+
+
+Author:
+3★uttam_singhk
+
+
+Editorial:
+https://discuss.codechef.com/problems/CMED01
+
+
+Tags:
+
+               
+                 array, cmed2021, easy, logic-maths, uttam_singhk
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+16-01-2021
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, JS
+
+
+
+
+
+Submit
+

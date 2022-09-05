@@ -1,0 +1,88 @@
+
+
+Monica has many toys and she has a weird obsession of arranging all the toys in a line such that their heights are in non-decreasing order. If the order is messed then she gets angry. You know the number of toys and their current arrangement, can you tell if she is angry or not?
+
+Input
+First line will contain n the number of toys Monica has.
+Next line contains n integers, denoting the heights of the toys in line.
+
+Output
+
+If Monica is angry print "Angry" (without quotes) else print "Happy".
+
+Constraints
+
+1 ≤ n ≤ 105
+1 ≤ Ai ≤ 106
+
+Example
+Input 1:
+5
+1 3 5 5 10
+
+Output 1:
+Happy
+
+Input 2:
+5
+1 5 12 7 10
+
+Output 2:
+Angry
+
+ 
+Explanation
+Example case 1. 
+All the toys are arranged in non-decreasing order hence Monica is "Happy".
+Example case 2. 
+The toys are not arranged in non-decreasing order hence Monica is "Angry".
+
+
+
+
+Author:
+npl_nitw
+
+
+Editorial:
+https://discuss.codechef.com/problems/NPLELA
+
+
+Tags:
+
+               
+                 npl_nitw, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+10-10-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

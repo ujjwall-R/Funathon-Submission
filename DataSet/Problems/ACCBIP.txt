@@ -1,0 +1,141 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+After failing to clear his school mathematics examination, infinitepro decided to prepare very hard for his upcoming re-exam, starting with the topic he is weakest at ― computational geometry.
+Being an artist, infinitepro has CC pencils (numbered 11 through CC); each of them draws with one of CC distinct colours. He draws NN lines (numbered 11 through NN) in a 2D Cartesian coordinate system; for each valid ii, the ii-th line is drawn with the cici-th pencil and it is described by the equation y=ai⋅x+biy=ai⋅x+bi.
+Now, infinitepro calls a triangle truly-geometric if each of its sides is part of some line he drew and all three sides have the same colour. He wants to count these triangles, but there are too many of them! After a lot of consideration, he decided to erase a subset of the NN lines he drew. He wants to do it with his eraser, which has length KK.
+Whenever erasing a line with a colour ii, the length of the eraser decreases by ViVi. In other words, when the eraser has length kk and we use it to erase a line with a colour ii, the length of the eraser decreases to k−Vik−Vi; if k<Vik<Vi, it is impossible to erase such a line.
+Since infinitepro has to study for the re-exam, he wants to minimise the number of truly-geometric triangles. Can you help him find the minimum possible number of truly-geometric triangles which can be obtained by erasing a subset of the NN lines in an optimal way? He promised a grand treat for you if he passes the examination!
+Input
+
+The first line of the input contains a single integer TT denoting the number of test cases. The description of TT test cases follows.
+The first line of the input contains three space-separated integers NN, CC and KK.
+NN lines follow. For each ii (1≤i≤N1≤i≤N), the ii-th of these lines contains three space-separated integers aiai, bibi and cici.
+The last line contains CC space-separated integers V1,V2,…,VCV1,V2,…,VC.
+
+Output
+For each test case, print a single line containing one integer ― the smallest possible number of truly-geometric triangles after erasing lines.
+Constraints
+
+1≤T≤10
+1≤C≤N≤3,000
+0≤K≤3,000
+0≤ai,bi≤109 for each valid i
+1≤ci≤C for each valid i
+0≤Vi≤K for each valid i
+no two lines coincide, regardless of their colours
+no three lines are concurrent
+
+Subtasks
+Subtask #1 (10 points):
+
+N≤10
+K≤100
+
+Subtask 2 (15 points):
+
+V1=V2=…=VC
+no two lines are parallel
+
+Subtask #3 (25 points): no two lines are parallel
+Subtask #4 (50 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+7 2 13
+1 10 1
+1 14 2
+6 4 1
+2 2 1
+0 12 2
+2 11 2
+0 6 1
+8 10
+6 1 20
+1 5 1
+2 11 1
+4 0 1
+6 8 1
+0 11 1
+3 3 1
+9
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+4
+
+
+Explanation
+Example case 1: We can remove exactly one line. Initially, we have 5 truly geometric triangles (see the image below; red is colour 1 and green is colour 2).
+
+Removing any line with colour 2 brings the total number of truly-geometric triangles down to 4+0=4.
+Removing any line with colour 1 brings the total number of truly-geometric triangles down to 1+1=2.
+
+Thus, the smallest number of truly-geometric triangles we can obtain is 2.
+
+Example case 2: We can remove at most 2 lines and removing any 2 lines gives us a total of 4 truly-geometric triangles.
+
+
+
+Author:
+3★infinitepro
+
+
+Editorial:
+https://discuss.codechef.com/problems/ACCBIP
+
+
+Tags:
+
+               
+                 Geometry, Dynamic Programming, Implementation
+                 
+                     
+                     Mathematics, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2423
+
+
+Date Added:
+19-04-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

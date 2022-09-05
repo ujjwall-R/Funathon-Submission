@@ -1,0 +1,100 @@
+
+          
+            There are two cities namely Truthtown and Liarville on the distant isle of Googlia. People living in Truthtown always tell the truth and people living in Liarville always lie. While exploring the isle you can run across a group of N inhabitants, and you want to figure out which city each one came from.
+To make life simpler, you begin by numbering these people 1 through N. You then question each person, and record their M statements in the short-hand described below.
+
+Short-hand         Meaning
+
+i T j         	Person #i says, "Person #j is from Truthtown."
+i L j         	Person #i says, "Person #j is from Liarville."
+i S j k     	Person #i says, "Persons #j and #k are from the same city."
+i D j k     	Person #i says, "Persons #j and #k are from different cities."
+
+Your task is to deduce which city each person came from. It is guaranteed that there will always be at least one solution.
+For example, suppose you were given the following statements:
+  1 D 2 3, 1 D 2 4, 1 D 3 4, and 2 L 1.
+Then, you could reason as follows:
+
+●	There are only two cities, so persons #2, #3, and #4 could not all have come from different cities.
+●	Therefore, at least one of person #1's claims must have been a lie.
+●	Therefore, person #1 is from Liartown, and all of his claims must have been lies.
+●	Therefore, persons #2, #3, and #4 must all be from the same city.
+●	Person #2's claim is true, so he must be from Truthtown.
+●	Therefore, persons #3 and #4 are also from Truthtown.
+
+Input
+The first line of the input gives the number of test cases, T. T test cases follow. Each case begins with a line containing the integers N and M. The following M lines each contain a single statement from one inhabitant, formatted as described above.
+
+Output
+For each test case, output one line containing "y1 y2 ... yN" , yi is a single letter indicating which city person is from:
+●	If the statements you have been given imply person #i must be from Truthtown, then yi should be 'T'.
+●	If the statements you have been given imply person #i must be from Liarville, then yi should be 'L'.
+●	If the statements you have been given are not enough information to determine where person #i is from, then yi should be '-'.
+
+Limits
+1 ≤ T ≤ 100
+1 ≤ i, j, k ≤ N
+j and k are distinct
+
+Sample Input
+2
+4 4
+1 D 2 3
+1 D 2 4
+1 D 3 4
+2 L 1
+3 1
+1 S 1 2
+
+Output
+L T T T
+ - T -
+
+
+
+Author:
+apurvsinghgaut
+
+
+Editorial:
+https://discuss.codechef.com/problems/TRAL
+
+
+Tags:
+
+               
+                 apurvsinghgaut, medium, search, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-09-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

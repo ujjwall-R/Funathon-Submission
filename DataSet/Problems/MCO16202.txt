@@ -1,0 +1,80 @@
+
+ 
+Fluffy the squirrel has just learned about Run Length Encoding! Naturally, he has came up with the following problem, which is now presented to you in the qualifiers. 
+
+You're given a binary string, i.e. a sequence of bits where each bit is either 0 or 1, of length n. Define the number of runs of the binary string as the minimum number of parts you can partition the string into so that all the bits of one part are the same. For example, consider the binary string 10110001. The number of runs of this string is 5. This is because we can split the string into 5 parts : 1, 0, 11, 000, 1, such that the bits of each part is the same. Similarly, verify that the number of runs of 1010101, 11110000, 0010111 is 7, 2 and 4 respectively.
+
+Fluffy has a binary string S of length n, but some of the bits are missing, and are replaced with a question mark. For each integer i that satisfies 1 ≤ i ≤ n, Fluffy wants to know the number of ways to replace the question marks with 1 or 0 so that the number of runs of S is equal to i.
+ 
+Input
+The input contains a binary string S as described in the problem statement.
+Output
+Output n space-seperated integers, where n is the length of the string S. The i-th integer should denote the number of ways to replace the question marks with 0 or 1 so that the resulting string S has exactly i runs. Since the answer might be too large, print each value modulo 1000000007 (109 + 7).
+Constraints
+
+1 ≤ Length of S ≤ 3000
+
+Subtasks
+
+Subtask 1 (37 points) : 1 ≤ Length of S ≤ 20
+Subtask 2 (63 points) : 1 ≤ Length of S ≤ 3000
+
+Example
+Input:
+1??0
+
+Output:
+0 3 0 1
+
+ 
+Explanation
+Example case 1. There are 4 possible strings, 1000, 1010, 1100, 1110. These strings have 2, 4, 2, 2 runs respectively. So, the answer is 0, 3, 0, 1.
+
+
+
+Author:
+6★zscoder
+
+
+Editorial:
+https://discuss.codechef.com/problems/MCO16202
+
+
+Tags:
+
+               
+                 dynamic-programming, easy, zscoder
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+2-11-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, CPP14, PYTH, PYP3
+
+
+
+
+
+Submit
+

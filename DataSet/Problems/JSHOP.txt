@@ -1,0 +1,100 @@
+
+Jon opened his new shop and he sells N number of items.
+Price of each item is represented using an array P where Pi represents the price of item i.
+A customer always buys 3 items of the lowest price from his shop.
+Find out the profit Jon can make from that customer. It is guaranteed that his shop has at least 3 items.
+Input Format
+
+First line will contain T, number of testcases. Each testcase contains of two lines of input.
+First line contains N which represents the number of items in Jon's shop.
+Second line contains N space separated integers P1,P2,P3,....,PN which represents the price of each item.
+
+Output Format
+For each testcase, output in a single line answer the profit Jon makes from those 3 items.
+Constraints
+
+1≤T≤1000
+3≤N≤105
+1≤Ai≤103
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+4
+9 4 10 5 
+6
+6 2 6 4 2 10 
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+18
+8
+
+
+Explanation
+First Test Case
+3 items the customer chose = 9 + 4 + 5 = 18
+Second Test Case
+3 items the customer chose = 2 + 4 + 2 = 8
+
+
+
+Author:
+4★debrc
+
+
+Editorial:
+https://discuss.codechef.com/problems/JSHOP
+
+
+Tags:
+
+               
+                 cakewalk, debrc, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+2-08-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

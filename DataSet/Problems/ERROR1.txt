@@ -1,0 +1,72 @@
+
+Aman a college student is on his vacation and want to visit a place DD but before visiting DD he must have to visit BB and then C and only after visiting C he can visit D.
+There are x routes for visiting B , y route for visiting C from B and z route for visiting D from C.
+so you have to find the maximum possible route for visiting place D from the initial position.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains of a single line of input, three integers x,y,z. 
+
+Output:
+For each testcase, output in a single line the maximum possible routes for visiting D from initial position.
+Constraints
+
+1≤T≤100
+1≤x,y,z≤20
+
+Sample Input:
+1
+2 3 4
+
+Sample Output:
+24
+
+
+
+
+Author:
+3★dharmendra_rvs
+
+
+Editorial:
+https://discuss.codechef.com/problems/ERROR1
+
+
+Tags:
+
+               
+                 cakewalk, dharmendra_rvs, eril2020
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+25-11-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

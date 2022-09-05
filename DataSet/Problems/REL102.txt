@@ -1,0 +1,88 @@
+
+
+You are given N sticks, where the length of each stick is a positive integer. A cut operation is performed on the sticks such that all of them are reduced by the length of the smallest stick.
+Given the length of N sticks, print the number of sticks that are left before each subsequent cut operations.
+Note: For each cut operation, you have to recalculate the length of smallest sticks (excluding zero-length sticks).
+
+Input
+
+The first line contains a single integer N. 
+The next line contains N integers separated by space, where each integer represents the length of the ith stick.
+
+Output
+
+For each operation, print the number of sticks that are cut, on separate lines.
+
+Constraints
+
+1 <= N <= 50000
+1 <= stick length <= 1000000
+
+Example
+Input:
+6
+5 4 4 2 2 8
+
+Output:
+6
+4
+2
+1
+
+Explanation
+sticks-length        length-of-cut   sticks-cut
+5 4 4 2 2 8             2               6
+3 2 2 _ _ 6             2               4
+1 _ _ _ _ 4             1               2
+_ _ _ _ _ 3             3               1
+_ _ _ _ _ _           DONE            DONE
+
+
+
+
+Author:
+5★black_well
+
+
+Editorial:
+https://discuss.codechef.com/problems/REL102
+
+
+Tags:
+
+               
+                 black_well, easy, irly2016, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-10-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

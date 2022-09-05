@@ -1,0 +1,87 @@
+
+You are given an array AA of nn integers as input.
+You have to answer qq queries.
+In each query, you are given two space-seperated integers, ll & rr, as input.
+For each query, you have to output the special value of the sub-array [l,..r].
+SpecialValue(Sub−Array[l,..,r])SpecialValue(Sub−Array[l,..,r]) = f(l)f(l) | f(l+1)f(l+1) | … | f(r−1)f(r−1), where | is the Bitwise−ORBitwise−OR operator.
+f(i)f(i) = (A[i]A[i] x A[i+1]A[i+1]) | (A[i]A[i] v A[i+1]A[i+1]), where x is the Bitwise−XNORBitwise−XNOR operator, v is the Bitwise−XORBitwise−XOR operator and | is the Bitwise−ORBitwise−OR operator.
+Input:
+
+First line will contain nn, the number of elements of array.
+Second line will contain array AA of nn integers.
+Third line will contain an integer qq.
+Next qq lines, will contain two integers, ll & rr.
+
+Output:
+For each query, output the special value of the sub-array [l,..r], in a new line.
+Constraints:
+
+2≤n≤1052≤n≤105
+1≤A[i]≤1091≤A[i]≤109
+1≤q≤1051≤q≤105
+0≤l<r≤n−10≤l<r≤n−1 (0-indexing)
+
+Sample Input:
+4
+0 2 3 0
+1
+1 3
+
+Sample Output:
+3
+
+Explanation:
+
+f(1)f(1) = (22 v 33) | (22 x 33) = (11 | 22) = 33
+f(2)f(2) = (33 v 00) | (33 x 00) = (33 | 00) = 33
+Hence, SpecialValue[1,..,3]SpecialValue[1,..,3] = f(1)f(1) | f(2)f(2) = (33 | 33) = 33 
+
+
+
+
+Author:
+6★vok_8
+
+
+Editorial:
+https://discuss.codechef.com/problems/FUNCLS1
+
+
+Tags:
+
+               
+                 advc2020, algorithm, bitwise-operation, codechef, college-chapter, data-structure, fenwick-tree, logical, math, med-hard, medium-hard, segment-tree, vok_8
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+19-11-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

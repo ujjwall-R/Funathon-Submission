@@ -1,0 +1,100 @@
+
+Sasuke and Itachi are playing a game. Sasuke first creates an array AA containing NN positive integers A1,A2,…,ANA1,A2,…,AN. He then creates a new array B of length N such that Bi=gcd(A1,A2,...,Ai) for each 1≤i≤N. Now, Sasuke gives array B to Itachi and asks him to find any array A (with 1≤Ai≤109) such that the given process applied to A will produce B. Can you help Itachi solve this problem?
+Here, gcd stands for greatest common divisor.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers B1,B2,…,BN
+
+Output Format
+For each test case, print a single line containing N space-separated integers denoting the array A you constructed. If no such array A exists, print −1 instead.
+Constraints
+
+1≤T≤103
+1≤N≤105
+1≤Ai,Bi≤109
+It is guaranteed that sum of N over all test cases doesn't exceed 5×105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+2
+4 2
+2
+1 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4 26
+-1
+
+
+Explanation
+Test Case 1: One possible answer is [4,26] because B can be generated as follows: B=[gcd(4),gcd(4,26)]=[4,2].
+Test Case 2: It can be shown that no array A exists which can produce the given B.
+
+
+
+Author:
+4★deep2905
+
+
+Editorial:
+https://discuss.codechef.com/problems/GCDPRF
+
+
+Tags:
+
+               
+                 Number Theory, Basic Maths
+                 
+                     
+                     Mathematics
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1617
+
+
+Date Added:
+13-11-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

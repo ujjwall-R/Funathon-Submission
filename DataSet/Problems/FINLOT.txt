@@ -1,0 +1,87 @@
+
+Numeros the Artist had two lists that were permutations of one another. He was very proud. Unfortunately, while transporting them from one exhibition to another, some numbers were lost out of the first list. Can you find the missing numbers?
+As an example, the array with some numbers missing, arr=[7,2,5,3,5,3]arr=[7,2,5,3,5,3]. The original array of numbers brr=[7,2,5,4,6,3,5,3]brr=[7,2,5,4,6,3,5,3]. The numbers missing are [4,6][4,6].
+Notes:
+
+If a number occurs multiple times in the lists, you must ensure that the frequency of that number in both lists is the same. If that is not the case, then it is also a missing number.
+You have to print all the missing numbers in ascending order.
+Print each missing number once, even if it is missing multiple times.
+The difference between the maximum and minimum number in the second list is less than or equal to 100.
+arr: the array with missing numbers
+brr: the original array of numbers
+
+Input:
+There will be four lines of input:
+
+n, the size of the first list, arr.
+The next line contains  n space-separated integers arr[i].
+m, the size of the second list, brr.
+The next line contains  m space-separated integers brr[i].
+
+Output:
+Output the missing numbers in ascending order separated by space.
+Constraints
+
+1≤n,m≤2 X 105
+n≤m
+1≤brr[i]≤104
+Xmax - Xmin ≤100
+
+Sample Input:
+10
+203 204 205 206 207 208 203 204 205 206
+13
+203 204 204 205 206 207 205 208 203 206 205 206 204
+Sample Output:
+204 205 206
+EXPLANATION:
+204 is present in both arrays. Its frequency in  arr is 2, while its frequency in brr  is 3. Similarly,  205 and  206 occur twice in arr, but three times in brr. The rest of the numbers have the same frequencies in both lists.
+
+
+
+Author:
+3★ayush163
+
+
+Editorial:
+https://discuss.codechef.com/problems/FINLOT
+
+
+Tags:
+
+               
+                 array, ayush163, easy-medium
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+29-03-2019
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

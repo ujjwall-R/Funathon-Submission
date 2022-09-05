@@ -1,0 +1,96 @@
+
+Ram is trying to fill NN buckets of water numbered from 11 to NN. 
+Each of these buckets i  (1≤i≤N) have capacity Ci and it needs to be filled with Ci liters of water.
+He has a special water hose which has a really useful feature. At each turn, when Ram aims this hose at any bucket and presses the hose trigger, this hose will throw X liters of water at that bucket which it is aimed at and Y liters of water at all other N−1 buckets. (also it is guaranteed that Y<X)
+Now Ram wonders what is the minimum number of turns in which Ram will be able to fill all buckets with water. (Note: It's okay if water is overflowing in some bucket.)
+See test case for explanation.
+
+Input
+
+The first line will have an integer T, the number of test cases.
+The first line of each testcase will have 3 integers N , X and Y.
+Next line will have N space separated integers where the ith integer denotes Ci.
+
+
+Output:
+
+Print on a single line, the minimum number of turns needed to fill all buckets fully with water.
+
+
+Constraints
+
+1≤T≤100
+1≤N≤105
+1≤Ci,X,Y≤109
+Sum of N over all test cases does not exceed 105
+
+
+Sample Input:
+2
+5 4 2
+2 2 2 4 2
+5 3 2
+2 2 4 3 2
+
+Sample Output:
+1
+2
+
+Sample Test Explanation:
+For testcase 1,
+Ram can fill all bucket in a single turn. He will just aim hose at 4th bucket and fill it with 4 liter of water. And simultaneously , the remaining 4 buckets will be filled with 2 liters of water. 
+For testcase 2, 
+A possible approach to fill in two turns is : 
+Aim hose at 4th bucket and after that , only the 3rd bucket will be left to fill with 1 liter of water. It can be done in the next step.
+Or
+Another approach is :
+Aim hose at 3rd bucket and after that , both 3rd bucket and 2nd bucket will be left to fill with 1 liter of water each. It can be done in the next step by aiming at any bucket.
+
+
+
+Author:
+5★pritishn
+
+
+Editorial:
+https://discuss.codechef.com/problems/BGL1215
+
+
+Tags:
+
+               
+                 binary-search, pritishn
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+11-01-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

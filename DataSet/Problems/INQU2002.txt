@@ -1,0 +1,89 @@
+
+There is an organisation having N departments,where ith department has Mi members.
+Vermaji wants to become president of this organisation and for this, he needs to get at least half of the votes in his favour from each department i.e ⌈Mi/2⌉ members, where ith department has Mi members. However, he gets to know that none of the members wants to vote for him. As he wants to become president any how, he decides to bribe the members. He has procured N arrays where ith array contains money demanded by each member of ith department.
+Vermaji has infinite amount of money, but being a smart and rich corrupted person he decides to bribe members in such a way that he can win the election and the maximum absolute difference between demands of any two member from any two departments (person may or may not be from same department ) is minimum.
+You are his friend and also a good programmer. Help him in getting majority of votes i.e atleast ⌈Mi/2⌉ from each department . Tell him the maximum absolute difference between the demands of any two bribed members of any two departments as well as maximum number of votes he can get. Total number of votes in favour of Vermaji should always be greater than 1 in order to become leader.
+Note: Absolute difference between two numbers x,y is |x−y|
+Input Format:
+
+First line contains N denoting number of departments in organisation.
+For next N lines, first integer Mi denotes size of ith department which is followed by Mi space seperated integers denoting money demands of members of ith department.
+
+Output Format:
+
+Only one line containing two space separated integers denoting minimum difference and maximum number of votes for that condition respectively.
+
+Constraints
+
+1≤N≤105
+2≤∑Ni=1Mi≤105
+−109≤Ai,j≤109,Where Ai,jdenotes jthelement of itharray.
+
+Sample Input1:
+3 
+2 1 2
+3 -2 3 4 
+1 8
+
+Sample Output1:
+6 4
+
+Sample Input2:
+1
+2 1 2
+
+Sample Output2:
+1 2
+
+EXPLANATION:
+For sample test case 1-  List of demands fulfilled by Verma ji for above case is 2,3,4,8.
+For sample test case 2- As it is necessary to have greater than 1 vote so Vermaji will buy votes from both the person. Hence max difference = (2-1)=1 and max people voting for him = 2.
+
+
+
+Author:
+4★gaurav_2000
+
+
+Editorial:
+https://discuss.codechef.com/problems/INQU2002
+
+
+Tags:
+
+               
+                 binary-search, easy-medium, gaurav_2000, greedy, inso2020, sorting, two-pointers
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+2-10-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,105 @@
+
+As you are the aware of palindrome of a string. A string SS of length nn is said to be a palindrome if SiSi = Sn−i−1 for every 0≤i<n.
+
+Here the converse of lower case alphabets is defined as: 
+
+converse  of a is z 
+converse of b is y
+and so on… (converse of z is a).
+
+
+A string S of length n is said to be converse palindrome if Si = converse (Sn−i−1) for every 0≤i<n.
+
+Note: The length of string is always even.
+Input Format
+
+First line will contain T, number of testcases. Then the testcases follow.
+First line of each test case, and an integer n denoting the length of string.
+Second line of each testcase contain a string S of length n consist of only lower case alphabets.
+
+Output Format
+For each testcase, output Yes if the string is Converse Palindrome else No.
+Constraints
+
+1≤T≤100
+2≤n≤1000
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+6
+abevyz
+2
+bz
+2
+ve
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Yes
+No
+Yes
+
+
+
+
+
+Author:
+3★pdwivedi294
+
+
+Editorial:
+https://discuss.codechef.com/problems/CONPAL
+
+
+Tags:
+
+               
+                 easy, implementation, pdwivedi294, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

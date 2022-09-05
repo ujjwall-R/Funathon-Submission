@@ -1,0 +1,92 @@
+
+Group Photo
+The students of KJSCE First Year were called in for a group photo. The photographer insisted that the students follow the following arrangement:
+
+Every row except the last row contains exactly P students.
+The last row can fit anywhere between P and P+K students, both inclusive.
+All students must have height strictly lesser than all students standing in all the rows behind them. i.e Every student in the ith row must have a height strictly lesser than all students in (i+1)th row, (i+2)th row and so on.
+
+
+
+
+
+This a very basic illustration of the desired arrangement. The number of circles (representing students) is N
+Aditya felt that the given arrangement may not always be possible. Given N(the number of students), P, K and the heights of all the students Hi, find out whether the photographer's arrangement is possible or not. Print "YES" if it is, "NO" if it not. (Both without the quotes)
+Note: If the arrangement consists of only one row, consider it as the last row and not the front ( i.e it should obey the conditions for last row).
+Constraints:
+1<=T<=100
+1<=N<=105
+1<=P<=105
+1<=K<=P
+100<=Hi<=200
+Input:
+
+The first line contains exactly one interger T, the number of testcases
+The first line of each testcase contains 3 space separated integers N, P and K.
+The second line of each testcase contains N space separated integers, the heights of all students.
+
+Output:
+
+For each tescase, output one word, either "YES" or "NO", based on the possibility of the arrangement.
+
+Example:
+Input:
+2
+4 2 1
+150 140 140 180
+3 4 1
+120 150 145
+
+Output:
+YES
+NO
+
+
+
+
+Author:
+4★shmabulock
+
+
+Editorial:
+https://discuss.codechef.com/problems/PHTGEN
+
+
+Tags:
+
+               
+                 easy, kpr32018, modulo, shmabulock, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+5-09-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, PYPY
+
+
+
+
+
+Submit
+

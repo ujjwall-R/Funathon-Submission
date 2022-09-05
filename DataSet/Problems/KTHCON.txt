@@ -1,0 +1,110 @@
+
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+A 1-concave polygon is a simple polygon (its sides don't intersect or touch) which has at least 1 concave interior angle.
+There are N points on a plane. Let S be the maximum area of a 1-concave polygon with vertices in those points. Compute 2S. Note that if there is no such (1-concave) polygon, you should print -1.
+Input
+
+The first line of the input contains an integer T - the number of test cases.
+The first line of each test case contains N - the number of points.
+Each of the following N lines contains two integers x and y - the coordinates of a point.
+
+Output
+If there's no 1-concave polygon, print -1. Otherwise, print one integer: twice the area of the largest one (it's guaranteed to be an integer under these constraints).
+Constraints
+
+1 ≤ T ≤ 100
+3 ≤ N ≤ 105
+No two points coincide (have identical both x and y coordinates).
+No three points are collinear.
+The sum of N over all test cases won't exceed 5·105.
+|x|,|y| ≤ 109
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+5
+2 2
+-2 -2
+2 -2
+-2 2
+0 1
+3
+0 0
+1 0
+0 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+28
+-1
+
+
+
+
+
+Author:
+7★xellos0
+
+
+Tester:
+6★antoniuk1
+
+
+Editorial:
+https://discuss.codechef.com/problems/KTHCON
+
+
+Tags:
+
+               
+                 Convex Hull, Two pointers
+                 
+                     
+                     Advanced Algorithms, Computational Geometry, Polygons, Algorithms, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2848
+
+
+Date Added:
+1-03-2016
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

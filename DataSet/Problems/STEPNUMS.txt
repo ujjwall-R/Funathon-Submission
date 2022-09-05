@@ -1,0 +1,78 @@
+
+Call a number stepping if adjacent digits, as well as the first and last digits, differ by one. How many n-digit base 11 stepping numbers are there? Give your answer modulo 4294967143.
+
+For example, 8789A9 is a 6-digit base 11 stepping number. 9A0A and 234 are not stepping.
+
+Input
+The first line contains an integer T, the number of test cases (about 20000). Each of the next T lines contains an integer n (2≤ n < 264). 
+
+Output
+Output the answer to each test case on a separate line.
+
+Example
+Input:
+4
+2
+4
+6
+10
+
+Output:
+19
+54
+171
+1958
+
+
+
+
+Author:
+dor_adm
+
+
+Tester:
+5★innocentboy
+
+
+Editorial:
+https://discuss.codechef.com/problems/STEPNUMS
+
+
+Tags:
+
+               
+                 aug10, dor_adm, hard
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2211
+
+
+Date Added:
+4-07-2010
+
+
+Time Limit:
+0.144 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

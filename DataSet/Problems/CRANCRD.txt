@@ -1,0 +1,73 @@
+
+ 
+Little johny was working on the co-ordinate plane.As he is still a novice he calculates the distance between two points P1 and P2 in the wrong way.He calculates the distance between P1(x1,y1) and P2(x2,y2) as :
+D(P1,P2) = |x1 - x2| + |y1 - y2|
+His teacher gave him a homework to calculate the area of a circle of radius R. Johny is aware of the definitions of all the figures just like any smart kid is. He knows that a circle is the locus of the point at a fixed radius from the center of the circle in a plane..
+ 
+Input
+The first line of input will contain T- number of test cases.It will be followed by T lines each containing the radius R
+Output
+For every test case output in a separate line the largest integer less than or equal to the area of the circle as calculated by johny..
+Constraints
+
+1 ≤ T ≤ 10000
+1 ≤ R ≤ 100000000
+
+ 
+Example
+Input:
+1
+1
+
+Output:
+2.
+ 
+
+
+
+Author:
+2★apoorv_j
+
+
+Editorial:
+https://discuss.codechef.com/problems/CRANCRD
+
+
+Tags:
+
+               
+                 apoorv_j, cakewalk, cranium2014
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-02-2014
+
+
+Time Limit:
+0.172185 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

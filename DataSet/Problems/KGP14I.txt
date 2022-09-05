@@ -1,0 +1,74 @@
+
+In the district of Jalshunyapur, the earth board has put restrictions on the usage of water in any farm to C litres per hour. Jalshunyapur has many farmers each having a farm of size K meter × K meter, divided into K2 square plots each having a side of 1 meter. The plots are numbered from 1 to K2 from left-to-right, top-to-bottom (see picture below).
+To irrigate the plots, the farmer has put S sprinklers (numbered from 1 to S ) at the bottom right corners of some of the plots. Each sprinkler, j, has a maximum possible flow, m[j] (positive integer); it can be programmed to work at any current integer flow between 0 and m[j]. If the current flow is set to c[j], then the sprinkler will be able to reach the adjacent plots up to a distance of c[j] on all sides. For example, for c[j] = 1, 4 plots will be watered; for c[j] = 2 and 3, the numbers will be 16 and 36 respectively. You can assume that a sprinkler can irrigate a plot if the flow of water from that sprinkler reaches the plot. Note that a sprinkler can be placed such that some of the plots it reaches fall outside the farm, in which case it irrigates only the plots falling inside the farm. In total, the sum of all c[j] can never be greater than C.
+The picture below shows a 10 × 10 farm, with the plots numbered from 1 to 100 as shown. The sprinkler placed at the bottom right corner of plot 16 has c[j] =1 and irrigates 4 plots, and the sprinkler placed at the bottom right corner of plot 24 has c[j]=2 and irrigates 16 plots. Note that a plot may receive water from more than one sprinkler (plots 16 and 26 here). The sprinkler placed at the bottom of plot 89 has c[j]=2, but only irrigates the plots shaded as some of the plots it can reach are outside the farm.
+
+Input
+The first line contains the number of test cases, N (0 < N ≤ 3).
+For each test case, the first line contains three positive integers for K (0 < K ≤ 10), S (0 < S ≤ 10), and C (0 < C ≤ 20). The second line contains S integers separated by one or more spaces, with each integer representing the maximum flow m[j] of the corresponding sprinkler (0 < m[j] ≤ 4 for all j). The third line contains S integers, with each integer giving a plot number at whose bottom right corner the corresponding sprinkler is put. The fourth line contain K2 integers, with the j-th integer giving the profitability value of plot j.
+Output
+For each test case, print the case number, followed by a colon, followed by a single space, followed by a single integer representing the maximum profit of the farmer.
+Sample Input
+2 
+3 2 2
+2 2 
+3 7 
+1 1 9 1 1 1 8 1 5 
+4 2 2 
+2 2 
+2 12 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 8 1
+
+Sample Output
+Case 1: 19
+Case 2: 13
+
+
+
+
+Author:
+admin3
+
+
+Editorial:
+https://discuss.codechef.com/problems/KGP14I
+
+
+Tags:
+
+               
+                 admin3, complexity, kgp14ros, maths, medium-hard
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+18-12-2014
+
+
+Time Limit:
+5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

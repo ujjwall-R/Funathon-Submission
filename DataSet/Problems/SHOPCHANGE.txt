@@ -1,0 +1,94 @@
+
+Chef went shopping and bought items worth X rupees (1≤X≤100). Unfortunately, Chef only has a single 100 rupees note.
+Since Chef is weak at maths, can you help Chef in calculating what money he should get back after paying 100 rupees for those items?
+Input Format
+
+First line will contain T, the number of test cases. Then the test cases follow.
+Each test case consists of a single line containing an integer X, the total price of items Chef purchased.
+
+Output Format
+For each test case, output in a single line the money Chef has to receive back.
+Constraints
+
+1≤T≤100
+1≤X≤100
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+1
+25
+100
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+99
+75
+0
+
+
+Explanation
+Test case-1: Since chef paid 100 rupees for items worth 1 rupee. He should get back 99 rupees.
+Test case-2: Since chef paid 100 rupees for items worth 25 rupees. He should get back 75 rupees.
+
+
+
+Author:
+tejas_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/SHOPCHANGE
+
+
+Tags:
+
+               
+                 cakewalk, start27, tejas_adm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+526
+
+
+Date Added:
+19-02-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

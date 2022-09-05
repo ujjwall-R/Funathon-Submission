@@ -1,0 +1,119 @@
+
+JJ challenges the Chef to construct an array AA of length NN such that the following conditions hold:
+
+AiAi divides Ai+1 when i is odd and 1≤i≤N−1
+Ai does not divide Ai+1 when i is even and 1≤i≤N−1
+1≤Ai≤2⋅N
+All Ai are pairwise distinct
+
+Can you help Chef complete JJ's challenge?
+If multiple arrays satisfying the above conditions exist print any one of them.
+It is guaranteed that under the given constraints, at least one array satisfying the above conditions exists.
+Input Format
+
+The first line will contain T - the number of test cases. Then the test cases follow.
+The first and only line of each test case contains an integer N - the length of the array A to be constructed.
+
+Output Format
+For each test case, output a single line containing N space-separated integers, denoting the elements of the array A you constructed.
+Constraints
+
+1≤T≤1000
+1≤N≤105
+It is guaranteed that the sum of N over all test cases does not exceed 5⋅105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+4
+1
+6
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1 3 2 4
+2
+1 5 6 12 3 9
+
+
+Explanation
+Test case-1: [1,3,2,4] is a valid array because:
+
+A1=1 divides A2=3. 
+A2=3 does not divide A3=2.
+A3=2 divides A4=4. 
+
+Test case-3: [1,5,6,12,3,9] is a valid array because:
+
+A1=1 divides A2=5. 
+A2=5 does not divide A3=6.
+A3=6 divides A4=12. 
+A4=12 does not divide A5=3.
+A5=3 divides A6=9. 
+
+
+
+
+Author:
+6★jeevanjyot
+
+
+Tester:
+7★tabr
+
+
+Editorial:
+https://discuss.codechef.com/problems/ALTERNATEDIV
+
+
+Tags:
+
+               
+                 ad-hoc, cook139, jeevanjyot, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1483
+
+
+Date Added:
+4-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

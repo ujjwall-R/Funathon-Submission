@@ -1,0 +1,104 @@
+
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+There are NN seats in a row. You are given a string SS with length NN; for each valid i, the i-th character of S is '0' if the i-th seat is empty or '1' if there is someone sitting in that seat.
+Two people are friends if they are sitting next to each other. Two friends are always part of the same group of friends. Can you find the total number of groups? 
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single string S. 
+
+Output
+For each test case, print a single line containing one integer ― the number of groups.
+Constraints
+
+1≤T≤50
+1≤N≤105
+
+Subtasks
+Subtask #1 (100 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+000
+010
+101
+01011011011110
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+1
+2
+4
+
+
+Explanation
+Example case 1: Since all seats are empty, the number of groups is 0.
+Example case 2: Since only one seat is occupied, the number of groups is 1.
+Example case 3: Here, two seats are occupied, but since they are not adjacent, the people sitting on them belong to different groups.
+Example case 4: Here, we have 4 groups of friends with size 1, 2, 2 and 4 respectively. That is, first group is sitting at 2nd seat, second group at 4th and 5th seat, third group at  7th and 8th seat and fourth group at 10th to 13th seat.
+
+
+
+Author:
+smit_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/GROUPS
+
+
+Tags:
+
+               
+                 Conditional Statements, ad-hoc, Brute Force
+                 
+                     
+                     Basic Programming Concepts, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1176
+
+
+Date Added:
+9-01-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

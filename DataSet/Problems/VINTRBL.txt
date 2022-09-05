@@ -1,0 +1,98 @@
+
+They don't call it Vindhya Maze for nothing!
+Vindhya consists of a straight line of buildings, connected by a common path. They are all uniformly spaced as well, and it takes you kk meters to walk from one building to a neighboring building.
+Vindhya is long overdue for a renovation, so the administration decided to make the pathways a bit more interesting.
+Each building has been assigned an ID, but due to poor planning, multiple buildings can have the same ID.
+The administration is constructing more pathways. A path from building ii to building jj is constructed if the lcm of the IDs of buildings (i,i+1,…j−1,j) is equal to the maximum ID in the same range. The path will be lcm(i,i+1,…,j−1,j) meters long. 
+After building all these roads, they realized that they've made walking around Vindhya a bit too long and complex, so they've asked you to help them decide which paths to remove (you can remove the original pathways as well) such that you can still reach all other buildings from every building, while minimizing the sum of the lengths of the paths remaining.
+Input Format
+
+The first line contains two integers, N  and k , the number of buildings and the distance between two neighboring buildings respectively.
+The next line contains N integers x1,x2,x3,…,xn,  the IDs of the buildings (not necessarily unique).
+
+Output Format
+Output a single integer, the minimum sum of the length of paths remaining while ensuring that from every building you can reach every other building.
+Constraints
+
+2≤N≤105
+1≤k≤109
+1≤xi≤109
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4 10
+4 2 6 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+16
+
+
+Explanation
+There will be new paths between indices (1,2), (2,3), (3,4), (2,4), with weights 4, 6, 6, and 6 respectively.
+You can keep the paths (1,2), (2,3), (3,4) to get a minimum cost of 16.
+Hack case note
+Find the buggy solution to this problem on GitHub or Drive.
+This problem is part of the DeCode contest, wherein you are given a problem (as given above) and its buggy solution (link in contest announcement). You have to submit a program that outputs a hack case to the buggy solution or you can submit the hack case directly as a text file (select TEXT as language while submitting). Your program's output or the hack case should satisfy the input constraints of the above problem.
+
+
+
+Author:
+6★awesome_amul
+
+
+Editorial:
+https://discuss.codechef.com/problems/VINTRBL
+
+
+Tags:
+
+               
+                 awesome_amul, disjoint-set-union, math, medium-hard
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+4-03-2022
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

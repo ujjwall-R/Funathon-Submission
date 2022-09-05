@@ -1,0 +1,87 @@
+
+Read problems statements in Hindi, Mandarin chinese, Russian, Vietnamese and Bengali as well.
+Snackdown 2019 is coming! Since Snackdown is a contest of teams with up to two members, everyone is looking for a teammate. There are NN contestants (numbered 11 through N) who want to participate in Snackdown; let's denote the skill level of the i-th contestant by Si. These people want to pair up in N/2 teams; each team should consist of two people.
+Clearly everyone wishes for their teammate to be as skilled as possible, so everyone wants to maximize their teammate's skill level. We call a pairing (an unordered N/2-tuple of teams) valid if there are no two teams consisting of people (A,B) and (C,D) such that SD>SB and SA>SC — in that case, A and D would both prefer to be on the same team rather than with their current teammates.
+Find the number of valid pairings. Since this number can be large, compute it modulo 1,000,000,007.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers S1,S2,…,SN.
+
+Output
+For each test case, print a single line containing one integer — the number of valid pairings modulo 1,000,000,007.
+Constraints
+
+1≤T≤1,000
+2≤N≤105
+N is even
+the sum of N for all test cases does not exceed 106
+1≤Si≤106 for each valid i
+
+Example Input
+2
+4
+1 7 3 8
+4
+2 3 2 2
+
+Example Output
+1
+3
+
+Explanation
+Example case 1: The only valid pairing is for contestant 2 to be paired with contestant 4 (so contestants 1 and 3 form the other team).
+Example case 2: Since person 2 has the highest skill level and all others have the same skill levels, person 2 can choose anyone among the other three as a teammate. The remaining two people also form a team, so the number of pairings is 3.
+
+
+
+Author:
+6★kingofnumbers
+
+
+Editorial:
+https://discuss.codechef.com/problems/TEAMMATE
+
+
+Tags:
+
+               
+                 Frequency Arrays, Maps, Permutations & Combinations, Partitions, Observation
+                 
+                     
+                     Data Structures, Arrays, Mathematics, Combinatorics, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+10-10-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

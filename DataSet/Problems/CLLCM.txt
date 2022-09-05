@@ -1,0 +1,99 @@
+
+Chef got into a fight with the evil Dr Doof. Dr Doof has decided to destroy all even numbers from the universe using his Evil-Destroy-inator. Chef has NN integers with him. To stop Doof, Chef has to find an odd number which is an integer multiple of all NN numbers that he has with him. Find if it is possible for Chef to prevent Dr Doof from destroying the even numbers.
+Formally, given N positive integers, find if there exists an odd number which is an integer multiple of all the given N numbers. If yes, print "YES", otherwise "NO". You can print any letter in any case.
+Input
+
+First line contains T, number of testcases. Each testcase consists of 2 lines.
+The first line of each test case consists of a positive integer N, denoting the number of positive integers Chef has.
+The second line of each test case contains N space separated integers Ai each denoting an integer that Chef has with him.
+
+Output
+For every test case, if there exists such an odd number, print "YES" on a separate line, otherwise "NO". The judge is case insensitive. That means, your code can print any letter in any case ( "Yes", "yes" or "YES" are all accepted).
+Constraints
+
+1≤T≤103
+1≤N≤103
+1≤Ai≤103
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+5
+1 2 5 4 3
+1
+7
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+NO
+YES
+
+
+Explanation
+For test 1: There exists no odd number.
+For test 2: The possible odd numbers can be 7, 21, 49, 315, …
+
+
+
+Author:
+6★sarthakmanna
+
+
+Editorial:
+https://discuss.codechef.com/problems/CLLCM
+
+
+Tags:
+
+               
+                 Basic Maths, LCM, ad-hoc, Observation
+                 
+                     
+                     Mathematics, Number Theory, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1108
+
+
+Date Added:
+18-06-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,93 @@
+
+ 
+Problem description.
+You are given a sequence of N integers, A. You need to partition the sequence, where the cost of making a partition from L to R is AL + AR. Output the minimum and maximum total cost of making exactly K partitions where the total cost is the sum of costs of each partition.
+Input
+Input description.
+The first line of the input contains two integesr N and K denoting the number of elements in the sequence and the number of partitions to be made respectively. N integers follow in the next line denoting the sequence.
+Output
+Output a single line containing two integers denoting minimum and maximum cost.
+Constraints
+
+
+1 ≤ N ≤ 106
+1 ≤ Ai ≤ 109
+
+
+Subtasks
+
+Subtask #1(20 points):
+
+1 ≤ N ≤ 1000
+
+Subtask #2(80 points):
+
+Original Constraints
+
+
+Example
+Input:
+5 2
+1 2 3 4 5
+
+Output:
+9 15
+
+
+
+Explanation
+
+Making the partition like this: 1 | 2 3 4 5
+The above partitioning costs 1 + 1 + 2 + 5 = 9 and you can check its the minimum possible.
+While making the partition like this: 1 2 3 4 | 5
+The above partition costs 1 + 4 + 5 + 5 = 15 and this is the maximum possible.
+
+
+
+
+Author:
+3★ista2000
+
+
+Editorial:
+https://discuss.codechef.com/problems/MINMAX3
+
+
+Tags:
+
+               
+                 cakewalk, heap, icop1806, ioi, ista2000
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+4-01-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,85 @@
+
+Definitions
+
+For a string S consisting of characters S1, S2, ..., SN,S[i, j] denotes the substring of characters Si, Si + 1, ..., Sj.
+
+LCP(S1, S2) is defined as the length of the longest common prefix of strings S1 and S2.
+
+
+Problem
+Given positive integers N, K and M, count how many binary strings S of length N exist such that there exist more than M indices i such that LCP(S[1, i], S[i + 1, N]) ≥ K and 1 ≤ i < N.
+
+Input
+
+The first line of the input contains an integer T denoting the number of test cases.
+The first line of each test case contains three integers denoting N, K and M.
+
+Output
+For each test case, output the required number modulo 109 + 7.
+Constraints
+
+1 ≤ T ≤ 5
+1 ≤ N ≤ 50
+0 ≤ M ≤ N - 1
+0 ≤ K ≤ min(10, N)
+
+Example
+Input:
+1
+3 1 1
+Output:
+2
+
+Explanation
+
+The two strings which satisfy the conditions are "000" and "111".
+
+
+
+
+Author:
+blunderspride
+
+
+Editorial:
+https://discuss.codechef.com/problems/BSTRLCP
+
+
+Tags:
+
+               
+                 blunderspride, ipc151b, medium-hard, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+28-11-2015
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

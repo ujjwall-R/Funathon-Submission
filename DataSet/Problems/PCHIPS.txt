@@ -1,0 +1,88 @@
+
+ 
+Rohit loves to play poker. He has N piles of poker chips in a line. Number of chips in pile i is Ai. He wants to rearrange them such that  Ai+1 = Ai + 1 for 1 ≤ i ≤ N-1 . The final piles can contain 0 chips as well.
+
+To achieve this,he can take one coin from a pile and place it in another pile.Find the minimum number of coins he has to displace to reach the above configuration.
+
+ 
+Input
+
+The first line of input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N denoting the size of array.
+The second line contains N space-separated integers A1, A2, ..., AN denoting the elements of the array.
+Output
+For each test case, output in a single line the required answer. If it is not possible to achieve the configuration output -1.
+ 
+Constraints
+1 ≤ T ≤ 50
+1 ≤ N ≤ 50
+1 ≤ Ai ≤ 50
+ 
+Example
+Input:
+3
+5
+2 3 4 5 1
+3
+10 10 10
+4
+3 3 3 3
+
+Output:
+4
+1
+-1
+
+ 
+Explanation
+Example case 1.He can transfer one chip to the 5th pile from each of the other piles.
+Example case 2.He can transfer one chip from the 1st pile to the 3rd.
+
+
+
+Author:
+skullcrackers
+
+
+Editorial:
+https://discuss.codechef.com/problems/PCHIPS
+
+
+Tags:
+
+               
+                 brute-force, cakewalk, ipc151a, skullcrackers
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+8-10-2015
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

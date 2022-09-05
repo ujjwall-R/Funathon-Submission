@@ -1,0 +1,109 @@
+
+Neil has a perfect binary tree with N nodes, and an integer M. He can assign values to nodes. He calls the tree good if the following conditions are met:
+
+Nodes' values are positive integers no more than M.
+Nodes at even levels have values strictly more than their parents' values.
+Nodes at odd levels have values strictly less than their parents's values.
+
+How many ways can Neil assign values to all nodes to get a good perfect binary tree? Since the answer can be large, please output it under modulo 109+7.
+Note:
+
+The root of the tree is at layer 1.
+Two assignments are different if there is at least one node with different values in both assignments.
+You may need to use 64-bit data types in your programming language to take input.
+
+Input Format
+
+The first line of each input contains T - the number of test cases. The test cases then follow.
+The only line of each test case contains two space-separated integers N and M - the number of nodes on the tree and the maximum value of any node.
+
+Output Format
+For each test case, output on a single line the number of different assignment modulo 109+7.
+Constraints
+
+1≤T≤100
+1≤M≤1000
+1≤N<259
+It is guaranteed you can make a perfect binary tree with exactly N nodes.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+3 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+5
+
+
+Explanation
+
+Test case 1: Here are all the possible assignments.
+
+
+
+
+
+
+
+
+
+Author:
+4★vishesh_s
+
+
+Editorial:
+https://discuss.codechef.com/problems/GOODBINTREE
+
+
+Tags:
+
+               
+                 dynamic-programming, easy, exun2021, prefix-sum, vishesh_s
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2791
+
+
+Date Added:
+4-01-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

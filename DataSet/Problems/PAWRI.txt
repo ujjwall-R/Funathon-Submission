@@ -1,0 +1,99 @@
+
+Read problems statements in Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Lately, Chef has been inspired by the "pawri" meme. Therefore, he decided to take a string SS and change each of its substrings that spells "party" to "pawri". Find the resulting string.
+Input
+
+The first line of the input contains a single integer TT denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single string S.
+
+Output
+For each test case, print a single line containing the string after it is modified by Chef.
+Constraints
+
+1≤T≤10
+1≤|S|≤105
+S contains only lowercase English letters
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+part
+partypartiparty
+yemaihuyemericarhaiauryahapartyhorahihai
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+part
+pawripartipawri
+yemaihuyemericarhaiauryahapawrihorahihai
+
+
+Explanation
+Example case 1: There is no substring "party" in the original string.
+Example case 2: The original string has 2 substrings "party".
+Example case 3: There is only a single substring "party" in the original string.
+
+
+
+Author:
+daanish_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/PAWRI
+
+
+Tags:
+
+               
+                 String, Implementation
+                 
+                     
+                     Data Structures, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1182
+
+
+Date Added:
+15-03-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

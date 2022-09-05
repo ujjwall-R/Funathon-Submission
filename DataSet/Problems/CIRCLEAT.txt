@@ -1,0 +1,104 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+There are NN candies (numbered 11 through N) on a circular table. For each valid i, candies i and i+1 are adjacent; candies 1 and N are also adjacent. You want to eat all these candies.
+Initially, your happiness level is 0. For each valid i, when you eat the i-th candy, the happiness level increases by ai. Note that ai may be negative and your happiness level may also become negative.
+First, you should eat the candy 1. After that, while there is at least one uneaten candy, you may eat any candy that is adjacent to at least one of the candies eaten so far.
+Your goal is to maximise the smallest value of your happiness during this process.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers a1,a2,…,aN.
+
+Output
+For each test case, print a single line containing one integer ― the maximum possible minimum happiness value during the process.
+Constraints
+
+1≤T≤200,000
+1≤N≤200,000
+|ai|≤109 for each valid i
+the sum of N over all test cases does not exceed 200,000
+
+Subtasks
+Subtask #1 (10 points): N≤20
+Subtask #2 (10 points): N≤300
+Subtask #3 (80 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+3
+1 2 3
+3
+-10 -20 30
+3
+-1 0 0
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+-10
+-1
+
+
+
+
+
+Author:
+ildar_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/CIRCLEAT
+
+
+Tags:
+
+               
+                 binary-search, data-structure, hard, ildar_adm, ltime90, range-queries
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2971
+
+
+Date Added:
+27-11-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

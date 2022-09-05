@@ -1,0 +1,78 @@
+
+Ankit attends a party with Simmi, his classmate. Both of them are going to have dinner. On seeing this, Rinku gets jealous of Ankit and decides to trick him. He goes to Ankit and asks him to solve a problem. There are N varieties of soup in the party and N identical bowls are placed on Simmi's plate. Rinku has a favorite number max and Simmi's favorite number is 2. Rinku asks Ankit to tell him the maximum value of N such that the total number of ways of selecting the soups are less than Rinku's favorite number. The variety of different soups on Simmi's plate is at least equal to her favorite number. Note that bowls can also be empty.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow.
+Each test case contains of a single line of input, one integers max denoting Rinku's favorite number. 
+
+Output:
+For each testcase, output in a single line answer given by Ankit to Rinku modulo 1000000007.
+Constraints
+
+1≤T≤1000
+2≤max≤109
+
+Sample Input:
+5
+150
+1000
+420
+100
+50
+
+Sample Output:
+4
+6
+5
+4
+3
+
+
+
+
+Author:
+1★ankitjha97
+
+
+Editorial:
+https://discuss.codechef.com/problems/SOL01
+
+
+Tags:
+
+               
+                 ankitjha97, combinatorics, dynamic-programming
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+23-05-2018
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

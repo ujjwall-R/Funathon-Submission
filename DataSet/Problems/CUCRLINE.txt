@@ -1,0 +1,139 @@
+
+While playing in the plains, Chef found a point AA with coordinates (X,Y)(X,Y). 
+Chef is interested in finding the number of straight lines passing through the point AA such that their intercepts on both axes are positive integers. 
+Input Format
+
+First and only line of input contains two integers XX and YY - the coordinates of the point AA.
+
+Output Format
+
+For each test case, print an integer - the number of lines satisfying the given conditions.
+
+Constraints
+
+1≤X≤10121≤X≤1012
+1≤Y≤10121≤Y≤1012
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+
+
+Explanation
+There are 44 lines satisfying all the conditions. These lines are:
+
+
+                        Sample Input 2
+                        
+
+
+
+
+
+1 2
+
+
+
+                        Sample Output 2
+                        
+
+
+
+
+
+2
+
+
+Explanation
+There are 22 such lines, which are :
+
+
+                        Sample Input 3
+                        
+
+
+
+
+
+28 206
+
+
+
+                        Sample Output 3
+                        
+
+
+
+
+
+16
+
+
+Explanation
+There are 1616 such lines.
+
+
+
+Author:
+4★plagiarism123
+
+
+Editorial:
+https://discuss.codechef.com/problems/CUCRLINE
+
+
+Tags:
+
+               
+                 coordinate, easy, math, plagiarism123, start35
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2535
+
+
+Date Added:
+15-04-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

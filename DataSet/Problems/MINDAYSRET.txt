@@ -1,0 +1,98 @@
+
+Finally, College has started calling students back to campus. There are so many students and thus due to some safety measures the college can’t call back all the students on the same day. It currently has the capacity of screening KK students on a single day. There is a total of NN students. What's the minimum number of days required for all the students to be back on the campus?
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers N,K.
+
+Output Format
+For each test case, print a single line containing one integer - the minimum number of days required for all the students to be back on the campus.
+Constraints
+
+1≤T≤104
+1≤N≤102
+1≤K≤102
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+3 3
+3 2
+4 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+2
+2
+
+
+Explanation
+Test case 1: Since K=3 and N=3, we can call all 3 students back to campus on the first day itself. Hence it requires only 1 day for all students to be back on campus.
+Test case 2: We have K=2 and N=3>K, so we can't call all the students back to campus on a single day. But we can call 1 student on the first day and the remaining 2 students on the second day. Therefore, we require a minimum of 2 days for all students to be back on campus.
+Test case 3: We have K=3 and N=4>K, so we can't call all the students back to campus on a single day. But we can call 2 students on the first day and the remaining 2 students on the second day. Therefore, we require a minimum of 2 days for all students to be back on campus.
+
+
+
+Author:
+utkarsh_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/MINDAYSRET
+
+
+Tags:
+
+               
+                 Integer Division, Brute Force, Implementation
+                 
+                     
+                     Mathematics, Basic Maths, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+933
+
+
+Date Added:
+20-11-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

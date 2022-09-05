@@ -1,0 +1,90 @@
+
+One day Debu, master of 2-dimensional data structures thought of challenging Himans, master of Trees and gave him a problem which is as follows:      
+This question is the easiest to understand, but no guarantee about the solution. Given a nn x mm 2d matrix, you have to perform u modifications of the form k,r1,c1,r2,c2. In each modification, you have to add k to all the cells in the block represented by (r1,c1) as upper left corner and (r2,c2) as the lower right corner. After making all the modifications you have to answer q queries of the form r1,c1,r2,c2. The answer of each query is the sum of values of all the cells in the block represented by (r1,c1) as upper left corner and (r2,c2) as the lower right corner.   
+Help Himans in solving this problem.
+Input:
+
+First line will contain n,m,u,q, the dimensions of the grid,the number of modifications and the number of queries respectively.
+Next n lines: Each line containing m integers representing elements of that row (each element between −1000 and 1000 inclusive).
+Next u lines : k,r1,c1,r2,c2 , as described in the problem statement ith line representing ith modification. 
+Next q lines : r1,c1,r2,c2 , as described in the problem statement,ith line representing ith query.
+
+Output:
+For each query, print its answer on a new line, the ith line is the answer to the ith query.
+Constraints
+
+1≤n≤1000
+1≤m≤1000
+1≤u≤100000
+1≤q≤100000
+0≤r1,r2<n
+0≤c1,c2<m
+−10000≤k≤10000
+
+Sample Input:
+3 3 2 2
+1 2 3
+1 1 0
+4 -2 2
+2 0 0 1 1
+-1 1 0 2 2
+0 0 0 1
+1 1 2 2  
+Sample Output:
+7
+-1  
+EXPLANATION:
+After performing all modifications (here 2) the array is    
+3 4 3
+2 2 -1
+3 -3 1    
+Now in the first query we are asked the sum from (0,0) to (0,1) which is 3+4 = 7 and in the second query the required sum is 2+(-1) +(-3)+1 = -1.
+
+
+
+Author:
+6★kkdrummer
+
+
+Editorial:
+https://discuss.codechef.com/problems/COW3E
+
+
+Tags:
+
+               
+                 2-d-prefixsum, cow42020, difference-array, easy-medium, kkdrummer, matrices
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+20-04-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

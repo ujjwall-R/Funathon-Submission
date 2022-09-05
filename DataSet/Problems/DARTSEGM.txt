@@ -1,0 +1,106 @@
+
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Alice and Bob are playing a game.
+First, Alice throws N darts at a board with dimensions 109×109 at random. Each dart hits the board at a point (some of these points may coincide). Then, Bob should answer Alice's Q questions. In each question, Alice chooses two integers l and r; Bob should only consider all points hit in throws l through r (inclusive) and compute the distance between the farthest pair of these points.
+Help Bob find the answers to all queries.
+Input
+
+The first line of the input contains a single integer N denoting the number of points.
+N lines follow. For each valid i, the i-th of these lines contains two space-separated integers xi and yi denoting the coordinates of the point hit with the i-th dart.
+The next line contains a single integer Q denoting the number of queries.
+Each of the following Q lines contains two space-separated integers l and r describing one query.
+
+Output
+For each query, print a single line containing one integer — the square of the maximum distance. (It is guaranteed that this number is an integer.)
+Constraints
+
+1≤N,Q≤50,000
+1≤xi,yi≤109 for each i
+1≤l≤r≤N
+
+Subtasks
+Subtask #1 (20 points): 1≤N,Q≤200
+Subtask #2 (30 points): 1≤N,Q≤2000
+Subtask #3 (50 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+1 1
+2 2
+1
+1 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+
+
+
+
+
+Author:
+7★gainullinildar
+
+
+Tester:
+6★kingofnumbers
+
+
+Editorial:
+https://discuss.codechef.com/problems/DARTSEGM
+
+
+Tags:
+
+               
+                 Segment Trees, Computational Geometry, Convex Hull
+                 
+                     
+                     Advanced Data Structures, Advanced Tree Structures, Advanced Algorithms, Polygons
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2854
+
+
+Date Added:
+21-04-2018
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,121 @@
+
+Chef started watching a movie that runs for a total of XX minutes.
+Chef has decided to watch the first YY minutes of the movie at twice the usual speed as he was warned by his friends that the movie gets interesting only after the first YY minutes.
+How long will Chef spend watching the movie in total?
+Note: It is guaranteed that Y is even.
+Input Format
+
+The first line contains two space separated integers X,Y - as per the problem statement.
+
+Output Format
+
+Print in a single line, an integer denoting the total number of minutes that Chef spends in watching the movie.
+
+Constraints
+
+1≤X,Y≤1000
+Y is an even integer.
+
+Subtasks
+Subtask #1 (100 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+100 20
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+90
+
+
+Explanation
+For the first Y=20 minutes, Chef watches at twice the usual speed, so the total amount of time spent to watch this portion of the movie is Y2=10 minutes.
+For the remaining X−Y=80 minutes, Chef watches at the usual speed, so it takes him 80 minutes to watch the remaining portion of the movie.
+In total, Chef spends 10+80=90 minutes watching the entire movie.
+
+                        Sample Input 2
+                        
+
+
+
+
+
+50 24
+
+
+
+                        Sample Output 2
+                        
+
+
+
+
+
+38
+
+
+Explanation
+For the first Y=24 minutes, Chef watches at twice the usual speed, so the total amount of time spent to watch this portion of the movie is Y2=12 minutes.
+For the remaining X−Y=26 minutes, Chef watches at the usual speed, so it takes him 26 minutes to watch the remaining portion of the movie.
+In total, Chef spends 12+26=38 minutes watching the entire movie.
+
+
+
+Author:
+srikkanth_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/MOVIE2X
+
+
+Tags:
+
+               
+                 cakewalk, ltime105, srikkanth_adm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+628
+
+
+Date Added:
+25-02-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

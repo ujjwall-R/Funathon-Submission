@@ -1,0 +1,77 @@
+
+It's Morty's birthday today! As his birthday gift, Rick gives him weird gifts every year. This time, he got something really unique from the planet Gazorpazorp.
+The gift is a box on which are written NN numbers, in the form of an array. On the back, there's a 'special number' KK printed. Finally on the top, there's a digital lock attached. 
+Rick tells Morty that the box can be opened, only when he enters the number of subsets of array whose multiplication of elements is divisible by KK, modulo 109+7, as the passcode.
+As Morty is busy with his birthday party, he hands over the box to you. Can you crack the passcode?
+Input:
+
+First line will contain N and K. 
+Next line will contain N integers denoting the elements of the array.
+
+Output:
+Print a single integer, the count of subsets whose multiplication of elements is divisible by K modulo 109+7.
+Constraints
+
+1≤N≤10000
+1≤K≤106
+1≤A[i]≤106
+
+Sample Input:
+4 2
+
+1 2 3 4
+Sample Output:
+12
+
+EXPLANATION:
+  Total subsets are 15. {1}, {3} and {1,3} are not divisible by 2.
+
+
+
+
+Author:
+4★priyam2k
+
+
+Editorial:
+https://discuss.codechef.com/problems/CNTSET
+
+
+Tags:
+
+               
+                 dynamic-programming, medium, plin2020, priyam2k
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-12-2019
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

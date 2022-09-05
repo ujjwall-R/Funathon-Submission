@@ -1,0 +1,80 @@
+
+ 
+There are few words, you need to sum the letter positions in the words. But the letter position counting is not normal, the position for 'a' starts with 0, and after every 5 alphabets the position counter is set to 0.
+Note: The words will contain on lowercase letters and will have no special characters. 
+Input
+Input description.
+The first line of input will consist of a number N, the count of words. Each word will be in a newline.
+
+Output
+Output description.
+ Output the sum of the digits in the said counting way. Print the output in newline for each input. 
+Constraints
+
+1 ≤ N ≤ 5
+1 ≤ Length of words ≤ 10
+Each word will contain only English alphabets in lower case letters.
+
+ 
+Example
+Input:
+2
+aa
+baz
+
+Output:
+
+0
+1
+Explanation
+Example case 1. contains only a's, and so sum is 0
+Example case 2. contains an 'a', a 'b' which adds the value to 1, and a 'z' which is 25th position so here the counter is 0. So sum is 1, from the character 'b'.
+
+
+
+Author:
+3★chandubaba
+
+
+Editorial:
+https://discuss.codechef.com/problems/SUMALPHA
+
+
+Tags:
+
+               
+                 brute-force, cakewalk, chandubaba
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+24-12-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,98 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Let's define a function P(A)P(A) for a sequence AA as the number of ways to divide A into contiguous subsequences such that each element of A belongs to exactly one of these subsequences and the sum of elements of each subsequence is between L and R inclusive.
+For each integer n between 1 and N inclusive, solve the following problem: Consider a random sequence A with length n where each element is an integer between 1 and K chosen uniformly randomly and independently. Find the expected value of P(A).
+For each valid n, it can be proved that the expected value can be expressed as a fraction P/Q, where P and Q are positive integers and Q is coprime with 998,244,353. You should compute P⋅Q−1 modulo 998,244,353, where Q−1 is the multiplicative inverse of Q modulo 998,244,353.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains four space-separated integers N, K, L and R.
+
+Output
+For each test case, print a single line containing N space-separated integers. For each valid i, the i-th of these integers should be P⋅Q−1 modulo 998,244,353 for n=i.
+Constraints
+
+1≤T≤20
+1≤N≤5⋅105
+1≤L≤R≤K≤106
+the sum of N over all test cases does not exceed 5⋅105
+the sum of K over all test cases does not exceed 106
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+2 2 1 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1 748683266
+
+
+Explanation
+Example case 1: For n=1, we have P([1])=P([2])=1 and P(A)=0 for any other sequence. Hence, the expected value is 2/2=1.
+For n=2, there are four valid sequences [1,1], [1,2], [2,1] and [2,2]. Each of them can be split into one-element subsequences. In addition, [1,1] can be left unchanged (split into only one subsequence), so P([1,1])=2. The expected value is (2+1+1+1)/4=5/4=748,683,266.
+
+
+
+Author:
+5★krikti
+
+
+Editorial:
+https://discuss.codechef.com/problems/PART
+
+
+Tags:
+
+               
+                 FFT, NTT, Dynamic Programming
+                 
+                     
+                     Mathematics, Transformations, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2988
+
+
+Date Added:
+18-01-2021
+
+
+Time Limit:
+1.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

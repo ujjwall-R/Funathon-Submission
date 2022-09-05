@@ -1,0 +1,81 @@
+
+There are total NN cars in a sequence with ithith car being assigned with an alphabet equivalent to the ithith alphabet of string S . Chef has been assigned a task to calculate the total number of cars with alphabet having a unique even value in the given range X to Y (both inclusive)
+. The value of an alphabet is simply its position in alphabetical order e.g.: a=1, b=2, c=3…
+The chef will be given Q
+such tasks having varying values of X and Y
+Note: string S contains only lowercase alphabets
+Input
+First line of input contains a string S of length N.
+Second line contains an integer denoting no. of queries Q.
+Next q lines contain two integers denoting values of X and Y.
+Output
+For each query print a single integer denoting total number of cars with alphabet having a unique even value in the given range X to Y.
+Constraints
+
+1≤n≤105
+1≤q≤105
+
+Example Input
+bbccdd
+5
+1 2
+3 4
+5 6
+1 6
+2 5
+
+Example Output
+1
+0
+1
+2
+2
+
+Explanation:
+Example case 1: 
+Query 1: range 1 to 2 contains the substring "bb" where each character has a value of 2. Since we will only be considering unique even values, the output will be 1
+
+
+
+Author:
+pro_army
+
+
+Tags:
+
+               
+                 pro_army, strg2020, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

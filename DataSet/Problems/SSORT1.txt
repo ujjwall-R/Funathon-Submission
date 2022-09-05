@@ -1,0 +1,78 @@
+
+Chef has NN new recruits lined up. HiHi denotes height of ith recruit. Chef tells a positive integer K to you and asks you to arrange the recruits such that first K recruits are in increasing order of height, next K are in decreasing order of height and so on. Tell the new standing order of recruits.
+Note: The last portion of recruits will be less than or equal to K.
+Input:
+
+First line will contain N, number of recruits.
+Second line contains height of N recruits in inital standing order. 
+Third line contains integer K.
+
+Output:
+For each testcase, output in a new order of recruits,
+Constraints
+
+1≤N≤106
+1≤Hi≤109 
+1≤K≤N
+
+Subtasks
+
+Subtask #1(100 points): Original Constraints
+
+Sample Input:
+5
+1 2 3 7 5
+2
+
+Sample Output:
+1 2 7 3 5
+
+
+
+
+Author:
+pec_chapter
+
+
+Editorial:
+https://discuss.codechef.com/problems/SSORT1
+
+
+Tags:
+
+               
+                 pec_chapter, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-06-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

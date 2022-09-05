@@ -1,0 +1,107 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+You are given two binary strings AA and BB with the same length.
+You may perform the following operation any number of times (including zero): pick a substring of AA with odd length and invert all the bits (change '0' to '1' or vice versa) at odd positions in this substring. For example, if we choose a substring "01011", we can convert it to "11110" (bits at odd positions are bold).
+Determine the minimum number of operations required to change the string A to the string B.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single string A.
+The second line contains a single string B.
+
+Output
+For each test case, print a single line containing one integer — the minimum number of operations required.
+Constraints
+
+1≤T≤103
+1≤|A|=|B|≤105
+A and B contain only characters '0' and '1'
+the sum of |A| over all test cases does not exceed 105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+100001
+110111
+1010
+1010
+000
+111
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+0
+2
+
+
+Explanation
+Example case 1: Initially, A is "100001". We choose the substring "000" between the 2-nd and 4-th character and convert it to "101".
+Now A becomes "110101". We choose the string "0" containing only the 5-th character and convert it to "1".
+Finally, A becomes "110111", which is equal to B.
+Example case 2: A and B are initially equal, so there is no need to perform any operation.
+
+
+
+Author:
+5★gauranggupta
+
+
+Editorial:
+https://discuss.codechef.com/problems/FLIP
+
+
+Tags:
+
+               
+                 String, Greedy, Implementation
+                 
+                     
+                     Data Structures, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1538
+
+
+Date Added:
+20-11-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

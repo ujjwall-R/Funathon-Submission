@@ -1,0 +1,112 @@
+
+          
+            The match is set and your team is ready to win!
+
+The team has NN players, each with the ability AiAi.
+
+But you are not happy with the given playing order. You are wondering how to create a new order so that the player with lesser ability go earlier, i.e., in non-decreasing order.
+
+In one move, you can break a suffix of any length of the array and attach it to the front. You can do the move as many times as you like.
+
+For example, the Array A=[1,2,3,4,5,6]A=[1,2,3,4,5,6] can become A=[5,6,1,2,3,4] in one move by breaking and reattaching the suffix of length 2.
+
+For each testcase, if the array can be sorted non-decreasingly, print YES and the minimum number of moves to do so. Otherwise, print NO.
+ Input 
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+Each testcase contains two lines. The first line has a single integer N, denoting the number of players in the team.
+The second list has N space-separated integers of the array A, where Ai represents the ability of the ith player
+ Output 
+Print a single line containing the string "YES" if the string can be sorted or "NO" if it does not (without quotes). If answer is yes, print a second line containing a single integer, the minimum number of moves.
+
+You may print each character of each string in uppercase or lowercase (for example, the strings "yEs", "yes", "Yes" and "YES" will all be treated as identical).
+Constraints
+ 1≤T,N≤3⋅105
+ 0≤Ai≤109
+ The sum of all N over all testcases T, does not exceed 3⋅105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+2
+1 2
+3
+2 1 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+YES
+0
+NO
+
+
+Explanation
+Example Case 1: The array is already sorted non-decreasingly. Hence, 0 moves required.Example Case 2: We cannot satisfy the condition for the given array. Hence, answer is NO.
+                
+            
+        
+
+        
+
+
+Author:
+6★shikhar7s
+
+
+Editorial:
+https://discuss.codechef.com/problems/ICM0001
+
+
+Tags:
+
+               
+                 Observation
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1692
+
+
+Date Added:
+22-03-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

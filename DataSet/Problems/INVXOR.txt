@@ -1,0 +1,104 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+The beauty of a sequence of non-negative integers is computed in the following way: for each of its non-empty (not necessarily contiguous) subsequences, compute the XOR of all elements of this subsequence; then, sum up all the XORs you obtained.
+Let F(N,B)F(N,B) denotes the number of non-negative integer sequences with length NN which have beauty B. You are given three integers N, X and M. Find the smallest non-negative integer B such that F(N,B)modM=X, or determine that there is no such B. Since even the smallest such B might be very large, compute its remainder modulo 998,244,353.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains three space-separated integers N, X and M.
+
+Output
+For each test case, print a single line containing one integer ― the smallest valid B (modulo 998,244,353), or −1 if there is no valid B.
+Constraints
+
+1≤T≤100
+1≤N≤1010,000
+1≤M≤109
+0≤X<M
+
+Subtasks
+Subtask #1 (45 points):
+
+N≤109
+M≤105
+
+Subtask #2 (55 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+2 2 7
+4 3 17
+3 5 13
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+6
+-1
+28
+
+
+
+
+
+Author:
+6★sjshohag
+
+
+Editorial:
+https://discuss.codechef.com/problems/INVXOR
+
+
+Tags:
+
+               
+                 Discrete Logarithm, Combinatorics
+                 
+                     
+                     Mathematics, Number Theory, Logarithm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2502
+
+
+Date Added:
+24-01-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

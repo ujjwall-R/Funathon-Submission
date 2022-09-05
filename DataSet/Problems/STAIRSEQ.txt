@@ -1,0 +1,70 @@
+
+Virat Kohli loves integer sequences very much. He especially likes stairs(he barely uses lifts).
+Sequence a1, a2, …, an is stairs if there is such index i (1 ≤ i ≤ n), that the following condition is met: a1 < a2 < … < ai - 1 < ai > ai + 1 > … > a|a| - 1 > a|a|.
+For example, sequences [1, 2, 3, 2] and [4, 2] are stairs and sequence [3, 1, 2] isn't.
+Kohli spending his quarantine so he not filled bored so he given a task to his best friend ABD to utilize some time, but ABD wants your help so do it guys. Ee sala cup namde.
+You have given a number n and you have to make a stair sequence.  A stair sequence is a sequence in which either numbers (first strictly increase and then decrease) or (numbers should strictly decrease).
+For Example:
+6
+1 1 2 2 3 3
+Ans: 1 2 3 2 1
+First sequence is strictly increasing till '3' and then starts decreasing till '1', this a stair sequence.  
+Input: -
+The first line contains integer n (1 ≤ n ≤ 102) — total number of stairs size. The second line contains n integers bi (1 ≤ bi ≤ 500) — the numbers on the Stairs.
+Output: -
+Print the resulting stairs  
+Example: -
+Input: -
+6
+1 1 2 2 3 3
+Output: -
+1 2 3 2 1
+
+
+
+Author:
+3★avishake_maji
+
+
+Editorial:
+https://discuss.codechef.com/problems/STAIRSEQ
+
+
+Tags:
+
+               
+                 avishake_maji, c-plus-plus, hard, set, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+11-04-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

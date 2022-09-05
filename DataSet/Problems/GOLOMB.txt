@@ -1,0 +1,108 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+The Golomb sequence G1,G2,…G1,G2,… is a non-decreasing integer sequence such that for each positive integer nn, GnGn is the number of occurrences of nn in this sequence. The first few elements of G are [1,2,2,3,3,4,4,4,5,…]. Do you know the recurrence relation for the Golomb sequence? It is G1=1 and Gn+1=1+Gn+1−GGn for each n≥1. A self-describing sequence, isn't it?
+Mr. Strange wants to learn CP, so he asked Chef, who is one of the best competitive programmers in the world, to teach him. Chef decided to test his ability by giving him the following task.
+Find the sum of squares of the L-th through R-th term of the Golomb sequence, i.e. S=∑Ri=LG2i. Since the sum can be quite large, compute it modulo 109+7.
+Can you help Mr. Strange carry out this task given to him by his teacher?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers L and R.
+
+Output
+For each test case, print a single line containing one integer S modulo 109+7.
+Constraints
+
+1≤T≤105
+1≤L≤R≤1010
+
+Subtasks
+Subtask #1 (50 points):
+
+T≤102
+R≤109
+
+Subtask #2 (50 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+1 5
+2 4
+100 100
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+27
+17
+441
+
+
+Explanation
+Example case 1: 12+22+22+32+32=27
+Example case 2: 22+22+32=17
+Example case 3: 212=441
+
+
+
+Author:
+6★codemaster3840
+
+
+Editorial:
+https://discuss.codechef.com/problems/GOLOMB
+
+
+Tags:
+
+               
+                 Arithmetic, Greedy, Binary Search, Prefix Sum
+                 
+                     
+                     Mathematics, Basic Maths, Algorithms, Searching, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2484
+
+
+Date Added:
+26-05-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

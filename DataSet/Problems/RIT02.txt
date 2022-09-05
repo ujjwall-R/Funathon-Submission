@@ -1,0 +1,79 @@
+
+ 
+Poornima College is having N branches, where each branches have positive integral student. A minimize operation is performed on the branch such that all of them are reduced by the minimum number student in a branch.
+
+
+Suppose we have 5 branches and all of them have below students in a branch.
+
+
+5 2 4 2 6
+
+
+Then in one minimize operation we reduce all the branch by 2 students. For next minimize operation 3 branch are left (have non-zero student), whose value are
+
+3 2 4
+
+Above step is repeated till no students are left in all branches.
+
+Given students of N branches, print the number of student that are reduce in subsequent minimize operation.
+ 
+Input
+The first line contains a single integer N.
+
+The next line contains N integers : X(0), X(1), X(2),..... X(N-1) separated by space, where X(i) represents the student of ith branch..
+Output
+
+For each minimize operation, print the number of students that are reduced in branches in separate line.
+
+Constraints
+Should contain all the constraints on the input data that you may have. Format it like:
+
+1 <= N <= 1000
+1 <= X(i) .
+
+ 
+
+
+
+Author:
+1★dvlpr_expert
+
+
+Tags:
+
+               
+                 array, dvlpr_expert, maths, medium
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-03-2015
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

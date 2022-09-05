@@ -1,0 +1,86 @@
+
+There are two teams (Team AA and Team BB) playing a tournament of NN matches of football against each other. Some of the matches are already completed and some are yet to be played. You are given a string SS of length NN representing the results of the NN matches for Team AA. The result of the ithith match can be represented by one of the following:
+
+W−W− Team A won the match. A win adds 3 points to the score of Team A and 0 points to the score of Team B
+D− Team A drew the match with Team B. A draw adds 1 point to the score of both teams.
+L− Team A lost the match. A loss adds 0 points to the score of Team A and 3 points to the score of Team B
+?− The match is yet to be played.
+
+After all the matches are played, the team with the highest score wins the tournament.
+Team A has hired a very experienced coach for the remaining matches. Now, because of the coach's training, the team can get any result they want (win/draw/lose) for the remaining matches. 
+Your task is to tell the minimum number of remaining matches Team A must win to make sure they win the tournament (i.e., the final score of Team A must be strictly greater than the final score of Team B).
+Input:
+
+First line will contain T, the number of test cases. Then T the test cases follow. 
+First line of each test case contains a single integer N.
+Second line of each test case contains a string S of length N.
+
+Output:
+For each test case, output in a single line the minimum number of remaining matches Team A must win. If it is not possible for Team A to win the tournament output "-1".
+Constraints
+
+1≤T≤1000
+1≤N≤1000
+All characters of the string consist of W,D,L and ? 
+
+Sample Input:
+3
+4
+LD?D
+4
+??LD
+3
+WWL  
+Sample Output:
+-1
+2
+0  
+
+
+
+Author:
+5★sibasish_14
+
+
+Editorial:
+https://discuss.codechef.com/problems/THEGME
+
+
+Tags:
+
+               
+                 cakewalk, ftcf2020, math, sibasish_14, sibasish_14
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+5-06-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,86 @@
+
+Sumit has N numbered marble boxes numbered from 1 to N.
+Every day he selects two indices [L,R] and adds 1 marble to each marble box starting from L to R (both inclusive).
+He does this for M number of days.
+After M days, Sumit has a query: How many marble boxes have atleast X number marble.
+He has Q such queries.
+Input:
+First line contains N - number of marble boxes.
+Second line contains M - number of days.
+Each of the next M lines consists of two space separated integers L and R.
+Followed by integer Q - number of queries.
+Each of next Q lines contain a single integer X.
+Output:
+For each query output the result in a new line.
+Constraints:
+1 ≤ N ≤ 1000000
+1 ≤ M ≤ 1000000
+1 ≤ L ≤ R ≤ N
+1 ≤ Q ≤ 1000000
+1 ≤ X ≤ N
+SAMPLE INPUT
+7
+4
+1 3
+2 5
+1 2
+5 6
+4
+1
+7
+4
+2
+SAMPLE OUTPUT
+6
+0
+0
+4
+
+
+
+Author:
+3★manishdear11
+
+
+Editorial:
+https://discuss.codechef.com/problems/CM1907
+
+
+Tags:
+
+               
+                 comy2019, dynamic-programming, easy-medium, manishdear11, manishdear11
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+12-09-2019
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

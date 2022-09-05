@@ -1,0 +1,77 @@
+
+You are given N integers to find the length of the longest subarray whose LCM is equal to the product of elements in the subarray.
+Input:
+In the first line, you are given T number of test cases.
+Each test case follows:
+
+An integer N 
+The next line contains N integers separated by space
+
+Output:
+For each test case print the longest length of a subarray in a new line
+If no subarray exist print "-1"
+Sample Input:
+3
+2
+7 2
+4
+2 2 3 4
+3
+2 2 4
+Sample Output:
+2
+2
+-1
+Explanation:
+Case 1. LCM(2,7)=2*7. Therefore, subarray A1 to A2 satisfies.
+Case 2. The subarrays A2 to A3 and A3 to A4 are the maximum size possible.
+Case 3. No subarray will satisfy.
+
+
+
+Author:
+3★uttam_singhk
+
+
+Editorial:
+https://discuss.codechef.com/problems/CMED03
+
+
+Tags:
+
+               
+                 cmed2021, dynamic-programming, uttam_singhk
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+16-01-2021
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH
+
+
+
+
+
+Submit
+

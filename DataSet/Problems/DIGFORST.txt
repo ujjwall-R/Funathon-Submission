@@ -1,0 +1,84 @@
+
+Given a simple undirected graph containing N vertices numbered 1 to N, each vertex containing a digit from {1,2,..7}. Starting at the vertex 1 with an empty string S, we travel through some vertices (with no limitations) to the vertex N. For every vertex on the way, we add the respective digit to the right of the string S. At last we get S as a decimal integer. You are requested to find such a way satisfying S is divisible by all of its digits, and the sum of digits of S must be as small as possible.
+
+Input
+There are several test cases (fifteen at most), each formed as follows:
+
+The first line contains a positive integer N (N ≤ 100).
+The second line contains N digits (separated by spaces), the i-th digit is the value of the i-th vertex.
+N last lines, each contains N values of {0, 1} (separated by spaces), the j-th value of the i-th line is equal to 1 if there is an edge connecting two vertices (i, j), otherwise 0.
+
+The input is ended with N = 0.
+
+Output
+For each test case, output on a line the minimum sum of digits found, or -1 if there's no solution.
+
+Example
+Input:
+4
+1 2 1 4
+0 1 1 1
+1 0 0 1
+1 0 0 1
+1 1 1 0
+0
+
+Output:
+7
+
+
+
+
+Author:
+anhdq_adm
+
+
+Tester:
+3★subra
+
+
+Editorial:
+https://discuss.codechef.com/problems/DIGFORST
+
+
+Tags:
+
+               
+                 Number Theory, Shortest Paths
+                 
+                     
+                     Mathematics, Algorithms, Graph Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2217
+
+
+Date Added:
+22-08-2011
+
+
+Time Limit:
+0.59 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

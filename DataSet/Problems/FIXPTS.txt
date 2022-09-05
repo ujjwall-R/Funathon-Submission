@@ -1,0 +1,116 @@
+
+Read problem statements in Mandarin, Russian, and Vietnamese as well.
+An index of an array is called a fixed point if the value on the index of the array is equal to the index itself. Formally, an index ii of an array AA of length NN is a fixed point if Ai=iAi=i, where 1≤i≤N.
+For example, in the array A=[1,3,3,4,1], the indices 1,3,4 are fixed points.
+Chef has an array A consisting of N integers. Chef tries to find the number of fixed points over all subarrays of the array A. More formally, for every pair (L,R) such that 1≤L≤R≤N, Chef considers the subarray AL,AL+1,…,AR and calculates the total number of fixed points in all such subarrays. However, Chef finds this task very hard. Can you help him find the number of fixed points over all subarrays?
+Input Format
+
+The first line contains T denoting the number of test cases. Then the test cases follow.
+The first line of each test case contains an integer N, denoting the length of the array.
+The second line contains N space-separated integers A1,A2,…,AN, denoting the given array.
+
+Output Format
+For each test case, print a single line containing one integer - the number of fixed points over all subarrays.
+Constraints
+
+1≤T≤103
+1≤N≤105
+1≤Ai≤N
+Sum of N over all test caes does not exceed 5⋅105.
+
+Subtasks
+
+Subtask 1 (100 points): Original constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+2
+1 2
+3
+2 3 2
+4
+1 3 4 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+1
+5
+
+
+Explanation
+Let, A[L,R] denotes the subarray consisting of integers from index L to index R of the array A(i.e AL,AL+1,…,AR).
+Test case 1: 
+
+In the subarray A[1,1]=[1], the number of fixed points is 1.
+In the subarray A[1,2]=[1,2], the number of fixed points is 2.
+In the subarray A[2,2]=[2], there is no fixed point.
+
+Hence the total fixed points over all subarrays =1+2+0=3.
+Test case 2: In the subarray A[2,3]=[3,2], the second index is a fixed point. There is no fixed point in any other subarrays.
+
+
+
+Author:
+5★soumyadeep_21
+
+
+Editorial:
+https://discuss.codechef.com/problems/FIXPTS
+
+
+Tags:
+
+               
+                 1D Arrays, ad-hoc
+                 
+                     
+                     Data Structures, Arrays, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2080
+
+
+Date Added:
+25-10-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

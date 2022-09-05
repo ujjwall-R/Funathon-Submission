@@ -1,0 +1,118 @@
+
+Read problems statements in Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Chef has a sequence A1,A2,…,ANA1,A2,…,AN. He wants to sort it in non-decreasing order. Unfortunately, he can only modify it using specific operations. In each operation, Chef should do the following:
+
+Choose an integer KK such that 0<K<230.
+Choose an integer P such that 1≤P≤N.
+Perform one of the following actions:
+type t=1: for each i (1≤i≤P), change Ai to Ai+K
+type t=2: for each i (P≤i≤N), change Ai to Ai+K
+type t=3: for each i (1≤i≤P), change Ai to Ai⊕K
+type t=4: for each i (P≤i≤N), change Ai to Ai⊕K
+
+Here, ⊕ denotes bitwise XOR. In different operations, Chef may choose different values of t, K and P.
+Can you help Chef make the sequence non-decreasing using at most ⌊N/2⌋ operations (possibly 0 times)? Find one such sequence of operations.
+Note that you do not need to minimise the number of operations. If there are multiple solutions, you may find any one of them. It is guaranteed that a solution using at most ⌊N/2⌋ operations always exists.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1,A2,…,AN.
+
+Output
+For each test case:
+
+First, print a line containing a single integer X ― the number of operations you want to perform (0≤X≤⌊N/2⌋).
+Then, print X lines. Each of these lines should contain three space-separated integers t, P and K describing an operation (1≤t≤4).
+
+Constraints
+
+1≤T≤105
+3≤N≤103
+0≤Ai<230 for each valid i
+the sum of N2 over all test cases does not exceed 107 
+
+Example Input
+5
+3
+1 10 9
+4
+4 3 5 1
+6
+12 13 15 3 7 5
+3
+1 2 3
+3
+1 2 3
+
+Example Output
+1
+4 2 11
+2
+4 4 4
+2 2 2
+2
+3 3 12
+4 3 2
+1
+1 3 3
+0
+
+Explanation
+Example case 1: After changing A2 to 10⊕11 and A3 to 9⊕11, the sequence becomes [1,1,2], which is non-decreasing.
+Example case 2: In the first operation, we change A4 to 1⊕4 and the sequence becomes [4,3,5,5]. Then, we add 2 to A2, A3 and A4. The sequence becomes [4,5,7,7], which is non-decreasing.
+Example case 3: After the first operation, the sequence A becomes [0,1,3,3,7,5]. After the second operation, the sequence becomes [0,1,1,1,5,7], which is non-decreasing.
+Example case 4: After performing the only operation, the sequence becomes [4,5,6], which is non-decreasing.
+Example case 5: The sequence [1,2,3] is already non-decreasing, so we do not need to perform any operations.
+
+
+
+Author:
+6★l_returns
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHEFSORT
+
+
+Tags:
+
+               
+                 Bitwise Operation, Sorting
+                 
+                     
+                     Mathematics, Bit Manipulation, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2683
+
+
+Date Added:
+15-03-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

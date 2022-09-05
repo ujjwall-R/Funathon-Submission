@@ -1,0 +1,110 @@
+
+A (11-indexed) string SS of length NN is said to be anti-palindrome if, for each 1≤i≤N, Si≠S(N+1−i).
+You are given a string S of length N (consisting of lowercase Latin letters only). Rearrange the string to convert it into an anti-palindrome or determine that there is no rearrangement which is an anti-palindrome.
+If there are multiple rearrangements of the string which are anti-palindromic, print any of them.
+Input Format
+
+The first line of input contains a single integer T — the number of test cases. The description of T test cases follows.
+The first line of each test case contains an integer N — the length of the string S.
+The second line of each test case contains the string S.
+
+Output Format
+For each test case, if it is possible to rearrange S to convert it into an anti-palindrome, print YES in the first line and print the rearranged string in the second line. Otherwise, print NO.
+You may print each character of YES and NO in uppercase or lowercase (for e.g. yes, yEs, Yes will be considered identical).
+If there are multiple rearrangements of the string which are anti-palindromic, print any of them.
+Constraints
+
+1≤T≤104
+1≤N≤105
+S contains only lowercase Latin letters
+It is guaranteed that the sum of N over all test cases does not exceed 2⋅105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+3
+abc
+8
+abccccdd
+4
+xyyx
+6
+ppppqr
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+NO
+YES
+abddcccc
+YES
+xxyy
+NO
+
+
+Explanation
+Test case 1: No matter how the string is rearranged, the condition Si≠S(N+1−i) will not be satisfied for i=2.
+Test case 2: One possible rearrangement of the string which is anti-palindromic is abddcccc. Other answers, such as ccdaccdb, will also be accepted.
+Test case 3: One possible rearrangement of the string which is anti-palindromic is xxyy.
+Test case 4: It can be shown that none of the rearrangements of A is anti-palindromic.
+
+
+
+Author:
+6★jeevanjyot
+
+
+Editorial:
+https://discuss.codechef.com/problems/ANTI_PAL
+
+
+Tags:
+
+               
+                 easy, jeevanjyot, start24, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1759
+
+
+Date Added:
+25-01-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

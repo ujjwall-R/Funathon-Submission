@@ -1,0 +1,64 @@
+
+Batman worried about his imminent battle with Superman tries to find as many shards of kryptonite as possible. He scoured the world and found "S" shards of kryptonite. In the BatCave , there is only one row of lead lined compartments which Superman's X-Ray vision cannot penetrate. Some of these compartments are already occupied leaving only "N" free compartments. Even in this single row, Batman resolves to keep each of the shards as far away from each other as possible. Your task is to help Batman place the shards in such a way that the smallest distance between any two shards is the maximum possible. Find and output the same
+Input : 
+First Line - N - number of free compartments
+Second Line - S - number of shards
+Third Line - N values, the coordinates of each of these free compartments separated by a space
+Output
+The maximum minimum distance between two shards
+Sample Input
+5
+3
+1 4 2 9 8
+Sample Output
+3
+Explanation - He can keep the shards at 1, 4 and (8 or 9) giving the maximum minimum distance as 3.
+
+
+
+Author:
+suthirth
+
+
+Editorial:
+https://discuss.codechef.com/problems/PRPR5
+
+
+Tags:
+
+               
+                 binary-search, simple, suthirth
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-09-2016
+
+
+Time Limit:
+0.1 - 0.2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

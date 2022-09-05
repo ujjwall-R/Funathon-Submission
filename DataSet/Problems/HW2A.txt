@@ -1,0 +1,82 @@
+
+It is snacks time for Ahmed. His friend, Ali, prepared him a nice game for lunch. Ali brought Ahmed nn ordered piles of snacks such that ii-th pile contains aiai snacks. He labeled all these snacks with consecutive integers: snacks in first pile are labeled with numbers 1 to a1, snacks in second pile are labeled with numbers a1 + 1 to a1 + a2 and so on. See the example for a better understanding.
+Ahmed cannot eat all the snacks (Ali brought a lot) and he is blind, so Ali tells him the labels of the best tasty snacks. Ali will only give Ahmed a snack if Ahmed says correctly in which pile this snack is contained.
+Poor Ahmed asks for your help. For all tasty snacks said by Ali, tell Ahmed the correct answers.
+Input
+
+The first line contains a single integer n (1 ≤ n ≤ 105), the number of piles.
+The second line contains n integers a1,a2,...,an (1≤ai≤103,a1+a2+...+an≤106), where ai is the number of snacks in the i-th pile.
+The third line contains single integer m (1 ≤ m ≤ 105), the number of tasty snacks said by Ali.
+The fourth line contains m integers q1, q2, ..., qm (1 ≤ qi ≤ a1 + a2 + ... + an), the labels of the tasty snacks.
+
+Output
+Print m lines to the standard output. The i-th line should contain an integer, representing the number of the pile where the snack labeled with the number qi is.
+Sample Input
+5
+2 7 3 4 9
+3
+1 25 11
+
+Sample Output
+1
+5
+3
+
+Note
+For the sample input:
+
+The snacks with labels from [1, 2] are in the first pile.
+The snacks with labels from [3, 9] are in the second pile.
+The snacks with labels from [10, 12] are in the third pile.
+The snacks with labels from [13, 16] are in the fourth pile.
+The snacks with labels from [17, 25] are in the fifth pile.
+
+
+
+
+Author:
+squ_test
+
+
+Editorial:
+https://discuss.codechef.com/problems/HW2A
+
+
+Tags:
+
+               
+                 chw22020, easy, prefix-sum, squ_test
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+12-04-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14
+
+
+
+
+
+Submit
+

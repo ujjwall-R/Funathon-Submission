@@ -1,0 +1,88 @@
+
+The school of Moordale High has bought a new bus! As the school is very wealthy (and it’s a fictional world!) the bus has infinite seats. Each seat is numbered 1, 2, 3,… and so on. The seats are colored in different colors, and their color and numbering schemes are described below:
+  
+The seats are arranged in such a way that they face each other. For example, the seat right across 2 is 11, and likewise, the seat across 11 is 2.
+As this bus has infinite seats, each student would be coming to the school through this bus from now on. Hence, each student is assigned a seat number to them.
+Otis and Eric are best friends who study at Moordale High. They always spend their time together, school or not. Now, Otis knows the seat number Eric has been assigned to, and wants to sit right across him.
+Your task is, given Eric’s seat number, you must find the number of the seat right across it. While you’re at it, find the color of the seat too.
+Input:
+
+First line will contain TT, number of testcases. Then the testcases follow. 
+Each testcase contains a single integer, NN, on a single line of input. 
+
+Output:
+For each testcase: 
+
+Output the number of the seat right across Eric's seat in the first line.
+Output the seat color ("Blue", "Yellow", or "Red") in the second line.
+
+Constraints
+
+1≤T≤1051≤T≤105
+1≤N≤1018
+
+Sample Input:
+3
+1
+8
+15
+
+Sample Output:
+12
+Blue
+5
+Yellow
+22
+Red
+
+Explanation:
+Refer to the diagram for clarity.
+
+
+
+Author:
+6★stephenvincent
+
+
+Editorial:
+https://discuss.codechef.com/problems/OTSERC
+
+
+Tags:
+
+               
+                 cakewalk, plin2020, plinth, stephenvincent
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+6-01-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

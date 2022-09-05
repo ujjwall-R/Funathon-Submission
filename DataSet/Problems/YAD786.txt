@@ -1,0 +1,77 @@
+
+Rashmi and Mohit are best friends and both topped in their final exams and now their friends want a party from them. Now rashmi decided to play a game with Mohit and the reward for the winner was the winner of the game will not pay a single rupee for the party. Mohit is also a stud boy and agreed to play the game.
+In this game both are are chosing two different string of same size and they have to calculate the sum of ascii value of their strings.( If the difference between the sum of ascii value of rashmi’s string and sum of ascii value to mohit’s string is  >=1 and <=10). Then "Rashmi" will win the game else "Mohit" will win.
+Note: If ascii value of both strings are same then it will give a tie and no one will win. Both will have to pay the half of the money given in the bill.
+But here comes the twist as they both are busy for preperation for their next semester so the work to find the winner is given to you. So you have to write a program to find the winner of this game.
+Input:
+
+First line will contain TT, number of testcases. Then the testcases follow. 
+Each testcase contains two input lines,i.e two strings S1(Mohit′sstring),S2(Rashmi′sstring)S1(Mohit′sstring),S2(Rashmi′sstring). 
+
+Output:
+For each testcase, output a single line i.e winner of the game or if there is no winner in the game print a line "No One" (The Outputs are case sensetive).
+Constraints
+
+1≤T≤100
+1≤S1,S2≤100
+
+Sample Input:
+1
+rashi
+
+mohit
+Sample Output:
+Rashmi
+
+EXPLANATION:
+The sum of ascii value of first string is 535 and sum of ascii value of second string is 545.
+so the winner is Rashmi 
+
+
+
+Author:
+4★abhi_3568
+
+
+Editorial:
+https://discuss.codechef.com/problems/YAD786
+
+
+Tags:
+
+               
+                 abhi_3568, c-plus-plus, easy, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+23-03-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

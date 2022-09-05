@@ -1,0 +1,115 @@
+
+Read problems statements in Hindi,
+Mandarin chinese
+, Russian and Vietnamese as well.
+It's summer — the time for holidays! Chef finally finished all university exams. Now he can rest and play with sequences.
+Today, Chef took a sequence AA with NN elements. He wants to partition this sequence into an arbitrary number of non-empty contiguous subsequences (i.e. each of the subsequences has to consist of one or more consecutive elements of the original sequence). Each element of the original sequence must belong to exactly one subsequence.
+This would be easy for Chef, so he is only interested in safe partitions of A. A safe partition is a partition into subsequences S1,S2,…,SK such that for each valid i, min(Si)≤|Si|≤max(Si) — that is, for each subsequence in this partition, its length is greater or equal to its smallest element and smaller or equal to its largest element.
+Finding one safe partition would still be easy for Chef, so he wants to find the number of safe partitions of A. Since this number could be very big, please compute it modulo 1000000007 (109+7).
+Input
+
+The first line of the input contains a single integer N.
+The second line contains N space-separated integers A1,A2,…,AN.
+
+Output
+Print a single line containing one integer — the number of safe partitions of A modulo 109+7.
+Constraints
+
+1≤N≤5⋅105
+1≤Ai≤N for each valid i
+
+Subtasks
+Subtask #1 (10 points): 1≤N≤1,000
+Subtask #2 (10 points):
+
+1≤N≤105
+1≤Ai≤500 for each valid i
+
+Subtask #3 (15 points): there are exactly two different values of elements of A
+Subtask #4 (25 points): A2i=N for each valid i
+Subtask #5 (40 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+7
+1 6 2 3 4 3 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+6
+
+
+Explanation
+The six safe partitions are:
+
+[1],[6,2,3,4,3,4]
+[1,6,2],[3,4,3,4]
+[1,6,2,3],[4,3,4]
+[1],[6,2],[3,4,3,4]
+[1],[6,2,3],[4,3,4]
+[1,6],[2,3],[4,3,4]
+
+
+
+
+Author:
+6★allllekssssa
+
+
+Editorial:
+https://discuss.codechef.com/problems/SAFPAR
+
+
+Tags:
+
+               
+                 DP Approach, Observation, Prefix Sum
+                 
+                     
+                     Algorithms, Dynamic Programming, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2708
+
+
+Date Added:
+22-07-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

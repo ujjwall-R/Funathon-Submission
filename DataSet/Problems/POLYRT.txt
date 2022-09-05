@@ -1,0 +1,102 @@
+
+Read problems statements in Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Let's define a function P(x,y)=(x−y)2. For given real numbers a and b, let's define a polynomial Qa,b(x)=P(P(P(x,a),a−b),x−b).
+Next, let's define a function F(a,b):
+
+If Qa,b(x) has no real roots, F(a,b)=0.
+Otherwise, let r be the largest real root of Qa,b(x).
+If r is rational, it can be represented by a fraction r=pq, where p and q are coprime integers and q>0. Then, F(a,b)=p+q.
+If r is irrational, it can be proved that in this case, it can be represented in the form r=p+√zq, where p, q and z are integers, q>0 and z>0. Choose the representation with the smallest value of q (it is guaranteed to be unique in this case). Then, F(a,b)=p+z+q.
+
+You are given a sequence of integers c1,c2,…,cN. Find ∑Ni=1∑Nj=1F(ci,cj).
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers c1,c2,…,cN.
+
+Output
+For each test case, print a single line containing one integer ― the sum of F(ci,cj).
+Constraints
+
+1≤T≤20
+1≤N≤2⋅105
+0≤ci≤2⋅105 for each valid i
+the sum of N over all test cases does not exceed 2⋅105
+
+Example Input
+3
+1 
+0
+2
+3 0
+5
+3 2 2 0 6
+
+Example Output
+2
+29
+193
+
+Explanation
+Example case 1: Q0,0(x)=x4−x, so the largest real root is r=11, F(0,0)=1+1=2 and the answer is 2.
+Example case 2:
+
+Q0,0(x) has r=2, so F(0,0)=1+1=2
+Q0,3(x) has no real roots, so F(0,3)=0
+Q3,0(x) has r=7+√132, so F(3,0)=7+13+2=22
+Q3,3(x) has r=4, so F(3,3)=4+1=5
+
+The answer is 2+0+22+5=29.
+
+
+
+Author:
+ausca
+
+
+Editorial:
+https://discuss.codechef.com/problems/POLYRT
+
+
+Tags:
+
+               
+                 Algebra, Arithmetic, Prefix Sum
+                 
+                     
+                     Mathematics, Basic Maths, Algorithms, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2967
+
+
+Date Added:
+19-06-2021
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

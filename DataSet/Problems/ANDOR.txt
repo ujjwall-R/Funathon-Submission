@@ -1,0 +1,100 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Given an integer xx, find two non-negative integers aa and b such that (a∧b)+(a∨b)=x, where ∧ is the bitwise AND operation and ∨ is the bitwise OR operation.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer x.
+
+Output
+If there is no valid pair (a,b), print a single line containing the integer −1. Otherwise, print a single line containing two space-separated integers a and b.
+If there are multiple solutions, you may print any one of them.
+Constraints
+
+1≤T≤105
+1≤x≤1018
+
+Subtasks
+Subtask #1 (30 points):
+
+1≤T≤200
+1≤x≤200
+
+Subtask #2 (70 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+1
+8
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0 1
+5 3
+
+
+
+
+
+Author:
+6★mohammed200218
+
+
+Editorial:
+https://discuss.codechef.com/problems/ANDOR
+
+
+Tags:
+
+               
+                 Basic Maths, Bitwise Operation, Observation
+                 
+                     
+                     Mathematics, Bit Manipulation, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1151
+
+
+Date Added:
+9-10-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

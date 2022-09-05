@@ -1,0 +1,110 @@
+
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+The young but promising paparazzi Gennady wants to finally become famous. To do this, he wants to take a picture of a new super star during her walk in the mountains.
+It is known that the star's path in the mountains consists of NN sections. For each valid ii, the ii-th section is a vertical half-open interval with coordinates x=ix=i and y∈[0,hi).
+For each valid i and j, our hero can take a picture of the star located in the i-th section of the walk when he is in the j-th section only if he can see the star ― that is, i<j and for each k (i<k<j), the half-open interval that makes up the k-th section must not intersect the line segment [(i,hi),(j,hj)].
+Gennady is a paparazzi, not a programmer, so he asks you to determine the maximum distance from which he can take a picture of the star, which is the maximum value of j−i over all pairs (i,j). Help him become famous!
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers h1,h2,…,hN.
+
+Output
+For each test case, print a single line containing one integer ― the maximum distance.
+Constraints
+
+1≤T≤104
+2≤N≤5⋅105
+1≤hi≤109 for each valid i
+the sum of N over all test cases does not exceed 5⋅105
+
+Subtasks
+Subtask #1 (10 points): the sum of N over all test cases does not exceed 500
+Subtask #2 (10 points): the sum of N over all test cases does not exceed 8,000
+Subtask #3 (80 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+2
+1 2
+3
+1 2 3
+7
+3 2 5 3 2 4 3
+8
+1 2 4 3 5 4 2 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+2
+3
+2
+
+
+Explanation
+Example case 3:
+
+
+
+
+Author:
+5★fairy_winx
+
+
+Editorial:
+https://discuss.codechef.com/problems/PAPARAZI
+
+
+Tags:
+
+               
+                 convex-hull, easy-medium, fairy_winx, march21
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1939
+
+
+Date Added:
+12-02-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

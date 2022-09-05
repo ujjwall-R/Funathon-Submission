@@ -1,0 +1,81 @@
+
+First yearites are repeatedly asking for fresher’s party to second yearites. But being responsible enough second yearites know that it is not a safe time for parties and they want to avoid overcrowding.
+So as of now they decided to give every junior a packet of toffees and promised them a party in near future and to which juniors agreed upon.
+So Utkarsh and Jaskaran(both second yearites) went to a shop to buy toffees for nn juniors. The shopkeeper has mm packets of toffees and each packet may contain different number of toffees. To be more specific, first packet contains f1f1 number of toffees, the second packet consists of f2 number of toffees and so on.
+Utkarsh and Jaskaran don’t want to upset juniors. So they decided that difference between the number of toffees in the packets to be as least as possible. Let A1 be the number of toffees in the largest packet that they buy and A2 be the number of toffees in the smallest packet they buy. Now they want to buy n packets in such a way that A1−A2 is minimum possible. 
+
+Input
+The first line contains space-separated integers n and m . 
+The second line contains m space-separated integers f1, f2, ..., fm  — the quantities of toffees in the packets sold in the shop.
+
+Output
+Print a single integer — the least possible difference the teacher can obtain.
+
+Constraints
+2≤n,m≤50
+4≤fi≤103
+
+Subtasks
+Subtask #1(10 points):
+2≤n,m≤6
+Subtask #2 (90 points):
+Original Constraints
+
+Sample Input:
+ 4 6
+ 10 12 10 7 5 22
+
+Sample Output:
+ 5
+
+Explanation:
+ Choose 10, 10, 7, 5 as 4 integers. So A1 will be 10 and A2 will be 5. Therefore difference will be 5.
+
+
+
+Author:
+pec_chapter
+
+
+Editorial:
+https://discuss.codechef.com/problems/FRSHP
+
+
+Tags:
+
+               
+                 cakewalk, greedy, pec_chapter, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+11-03-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

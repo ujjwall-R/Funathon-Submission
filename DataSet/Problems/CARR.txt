@@ -1,0 +1,99 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given two integers NN and MM. Find the number of sequences A1,A2,…,ANA1,A2,…,AN, where each element is an integer between 1 and M (inclusive) and no three consecutive elements are equal. Since this number could be very large, compute it modulo 109+7.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers N and M.
+
+Output
+For each test case, print a single line containing one integer ― the number of valid sequences modulo 109+7.
+Constraints
+
+1≤T≤105
+1≤N,M≤1018
+
+Subtasks
+Subtask #1 (50 points):
+
+T≤20
+N≤105
+
+Subtask #2 (50 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2 
+2 2
+3 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+60
+
+
+
+
+
+Author:
+5★kharyusuf
+
+
+Editorial:
+https://discuss.codechef.com/problems/CARR
+
+
+Tags:
+
+               
+                 Modular Arithmetic, Matrix Exponentiation, Bottom-up
+                 
+                     
+                     Mathematics, Matrices, Matrix Multiplication, Algorithms, Dynamic Programming, DP Approach
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2410
+
+
+Date Added:
+20-01-2020
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

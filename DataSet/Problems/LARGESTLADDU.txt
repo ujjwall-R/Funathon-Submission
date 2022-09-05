@@ -1,0 +1,127 @@
+
+Read problem statements in Mandarin Chinese Vietnamese, and Russian
+This Diwali, Chef has decided to treat himself to a laddu feast. Chef's friends brought him some laddus, which he stored in an array AA. It is guaranteed that the length of AA is a power of 22. The ith element of the array A is a laddu of size Ai. Chef would like to eat every laddu, but sadly he is on a diet and is allowed to eat only one laddu. He came up with a novel way to resolve this problem.
+Chef performs the following steps in order:
+
+First, he pairs up every laddu from A with some other laddu - if there are N laddus in A, exactly N/2 pairs are created, with each laddu being in exactly one of the pairs. Further, every pair (x,y) must satisfy the condition |x−y|≤1; in other words, the sizes of the laddus in each pair cannot differ by more than 1.
+Next, for each pair of laddus (x,y) formed in step 1, mash them together to form a new laddu of size x+y. At the end of this process, Chef is left with exactly N/2 laddus.
+Repeat the process with the N/2 laddus he now has.
+
+At any point in time, if Chef is unable to form N/2 pairs (either because N=1, or because there is no way to pair up laddus satisfying the condition on their sizes) he will immediately stop the process. 
+If there is only one laddu left in A when the process stops, Chef considers his efforts to be a success; else he considers it a failure.
+Print "YES" if there is a way for Chef to achieve success, else print "NO".
+Input Format
+
+The first line contains a single integer T, denoting the number of testcases. The description of T testcases follows.
+Each testcase consists of two lines:
+The first line contains an integer N, denoting that Chef starts with 2N laddus.
+The next line contains 2N space-separated integers, denoting the initial sizes of the laddus.
+
+Output Format
+For each testcase, output in a single line "YES" or "NO"; the answer to the problem.
+You may print each character of the answer in uppercase or lowercase (for example, the strings "yEs", "yes", "Yes" and "YES" will all be treated as identical).
+Constraints
+
+1≤T≤2⋅104
+0≤N≤13
+0≤Ai≤109
+Sum of |A| over all test cases does not exceed 2⋅105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+1
+1 1
+2
+2 1 1 1
+2
+2 3 3 4
+0
+3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+YES
+YES
+NO
+YES
+
+
+Explanation
+
+Test Case 1: Pairing up both laddus, we get a new laddu of size 2. There is only only one laddu left so Chef is successful.
+Test Case 2: One way to get a single laddu is:   
+
+[2,1,1,1]→[(2+1),(1+1)]→[3,2]→[(3+2)]→[5]
+Test Case 3: There are two possible initial pairings, neither of which allow Chef to reach a single laddu at the end:
+
+[2,3,3,4]→[(2+3),(3+4)]→[5,7]
+Now Chef cannot pair up the laddus due to the condition given in Step 1.
+[(2+4),(3+3)], which is already an invalid pairing.
+Test Case 4: Chef already has one laddu, he is satisfied
+
+
+
+
+Author:
+nandeesh_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/LARGESTLADDU
+
+
+Tags:
+
+               
+                 Observation
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+27-10-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,98 @@
+
+          
+            The Chef is given a sequence of N integers A1,  A2, ..., AN. He has to process Q queries on the above sequence. Each query is represented by three integers:
+
+
+L R K => report cardinality of { i : K divides Ai, L ≤ i ≤ R }. In other words, how many integers in the subsequence starting at Lth element and ending at Rth element are divisible by K.
+
+
+
+Input
+The first line of the input contains two space separated integer N  and Q. 
+The following line contains N space separated integers giving the sequence A1,  A2, ..., AN.
+Then there will be Q lines each containing three space separated integers L R K, representing a query.
+ 
+Output
+For each query output the result in one line.
+
+Constraints
+
+1 ≤ N, Q  ≤ 100000 (105)
+1 ≤ Ai  ≤ 100000 (105)
+ 1 ≤ L ≤ R ≤ N
+1 ≤ K  ≤ 100000 (105)
+
+ 
+Example
+Input:
+8 5
+3 5 1 4 6 9 12 6
+3 6 2
+3 6 4
+4 8 3
+2 6 7
+8 8 6
+
+Output:
+2
+1
+4
+0
+1
+
+
+
+
+Author:
+imran_adm
+
+
+Tester:
+5★rubanenko
+
+
+Editorial:
+https://discuss.codechef.com/problems/DIVQUERY
+
+
+Tags:
+
+               
+                 Integer Factorisation, Offline Queries
+                 
+                     
+                     Mathematics, Number Theory, Algorithms, Queries
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2276
+
+
+Date Added:
+10-08-2013
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

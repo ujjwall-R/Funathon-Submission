@@ -1,0 +1,109 @@
+
+Jatin loves Mirror Numbers, because he finds them very interesting and gets excited on seeing them! This is how he defines a Mirror Number:
+
+It doesn't contain the digit 00, because he hates the digit 00.
+The second half of the number can be visualized as a mirror image of the first half in mirror order.
+(If the number of digits is odd, then the middle digit is ignored while considering the first and second halves)
+
+Mirror Order: The first digit of the first half is a mirror image of the last digit of the second half. Similarly, the second digit of the first half is a mirror image of the second last digit of the second half, and so on.
+Jatin considers the following digit pairs as mirror images of each other:
+1↔1
+2↔7
+3↔8
+4↔5
+6↔9
+Now Jatin gives you an integer N, you have to check for him whether this integer is a Mirror Number or not.
+Input:
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+Each test case contains of a single line of input, the integer N.
+
+Output:
+For each test case print a single line containing true if N is a Mirror Number, false otherwise.
+Constraints:
+
+1≤T≤10
+1≤N≤10105
+
+Subtasks:
+
+10 points: 1≤N≤109
+10 points: 1≤N≤1018
+80 points: original constraints
+
+Sample Input:
+7
+69
+6699
+6996
+609
+619
+699
+6
+
+Sample Output:
+true
+true
+false
+false
+true
+true
+true
+
+Explanation:
+
+Example Case 1: 6 is a mirror image of 9.
+Example Case 3: 9 is not a mirror image of 9 and 6 is not a mirror image of 6.
+Example Case 4: N contains a 0 digit.
+Example Case 6: 6 is a mirror image of 9 and number of digits in N are odd. So the middle digit, which is 9, won't be any trouble.
+Example Case 7: N contains a single digit, which is ignored.
+
+
+
+
+Author:
+5★ankushkhanna
+
+
+Editorial:
+https://discuss.codechef.com/problems/DWW19A
+
+
+Tags:
+
+               
+                 ankushkhanna, ankushkhanna, cakewalk, dwwu2019, palindrome, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+27-12-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

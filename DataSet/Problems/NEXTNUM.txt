@@ -1,0 +1,104 @@
+
+ Read problems statements in Russian here
+ The Head Chef has received his id from the Association of Byteland . He wants to know the numerical rank of his number among the numbers that can be formed by the exact same digits ( i.e. among numbers having same number of 0's , 1's ... 9's as his id ) .  Note that id's can start with 0 . Given a number, find the rank of the number .
+
+
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+ Each test case contains a single integer N denoting the id the chef has received .
+Output
+For each test case, output a single line containing the answer to the given test case . 
+Constraints
+1 ≤ T ≤ 10000
+1 ≤ number of digits in N ≤ 18
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+276
+762
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+6
+
+
+Explanation
+Example case 1.The numbers that can be formed with one '2' ; one '7' and one '6' in increasing order are : 
+267 
+276 
+627 
+672 
+726 
+762 
+The  rank  for 276 is 2 and rank for 762 is 6.
+
+
+
+Author:
+vineet_adm
+
+
+Tester:
+5★rubanenko
+
+
+Editorial:
+https://discuss.codechef.com/problems/NEXTNUM
+
+
+Tags:
+
+               
+                 Permutations & Combinations, Factorials, Enumeration, ad-hoc, Brute Force
+                 
+                     
+                     Mathematics, Basic Maths, Combinatorics, Algorithms, Complete Search, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1966
+
+
+Date Added:
+1-11-2013
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

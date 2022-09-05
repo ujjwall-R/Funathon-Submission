@@ -1,0 +1,93 @@
+
+Jon is given a decimal number N.
+Jon likes a decimal number only if it's binary representation ends with 0.
+Help Jon to find out if he likes the given number or not.
+Input Format
+
+First line will contain T, number of testcases. Then the testcases follow.
+Each testcase contains of a single line of input, one integer N.
+
+Output Format
+For each testcase, print a single line containing the integer 1 if Jon likes the given decimal number N or 0 otherwise.
+Constraints
+
+1≤T≤106
+1≤N≤109
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+13
+14
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+1
+
+
+Explanation
+13 : 1101. Last bit of 13 is 1. So, Jon doesn't like the number.
+14 : 1110. Last bit of 14 is 0. So, Jon likes the number.
+
+
+
+Author:
+4★debrc
+
+
+Editorial:
+https://discuss.codechef.com/problems/JBINARY
+
+
+Tags:
+
+               
+                 cakewalk, debrc
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+2-08-2021
+
+
+Time Limit:
+2 - 4 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

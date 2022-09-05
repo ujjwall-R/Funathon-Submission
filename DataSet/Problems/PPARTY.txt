@@ -1,0 +1,78 @@
+
+Raj is having a pizza party and has ordered some pizzas, each pizza is in for of lower case Latin letters.
+We want to find out whether some pizza has the same quantity as the sum of quantities of all other pizzas.
+Since he is busy with other preparations, he needs your help to find it.
+Input:
+
+The first line of the input contains an integer TT denoting the number of test cases. 
+Each of the next T lines contains one string SS consisting of lowercase Latin letters.
+
+Output:
+For each test case, output a single line containing "YES" if the condition given above is valid or "NO" otherwise.
+Constraints
+
+1≤T≤10001≤T≤1000
+1≤len(S)≤1000
+
+Subtasks
+
+Subtask #1 (100 points): Original Constraints
+
+Sample Input:
+1
+
+aabcad
+Sample Output:
+YES
+
+Explantaion:
+Pizza named a has count 3 which is equal to count of remaining pizzas. Therefore answer is YES.
+
+
+
+Author:
+pec_chapter
+
+
+Editorial:
+https://discuss.codechef.com/problems/PPARTY
+
+
+Tags:
+
+               
+                 cakewalk, cbhc2021, frequency-array, pec_chapter, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-04-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,94 @@
+
+A boy is playing a game on his old computer. The game involves a rectangular piece of land which is divided into m x n cells and an adventurer who is trying to get from one corner of the land to the other. The area is full of bottomless pits that will kill the adventurer if he falls into them.
+
+
+The boy would normally be able to control the adventurer by making him move from one cell to any other cell that is immediately north, south, east or west of the adventurur's current location. Sadly the old computer's keyboard is missing some keys. The boy is now only able to go north or east.
+
+
+Assuming the adventurer starts from the cell at the south-western end and must reach the north-eastern end you must decide whether the boy can guide the adventurer safely through the land to his destination (without falling into any of the pits) while only moving one cell north or east at a time.
+
+
+INPUT
+
+The first line will contain T, the number of test cases.
+The second line contains the dimensions m and n, both integers.
+m lines follow each with n numbers. Here, 1 indicates a safe cell while a 0 indicates a pit.
+
+
+OUTPUT
+
+The output must be simply YES or NO.
+Where YES will indicate existence of the route and NO means no such route available.
+
+
+CONSTRAINTS
+
+1 <= T <= 50
+1 <= m <= 100
+1 <= n <= 100
+
+
+EXAMPLE
+Input:
+2
+5 5
+0 1 1 1 1
+1 1 0 1 0
+1 1 0 1 1
+1 0 1 1 1
+1 1 1 0 1
+4 4
+1 1 0 1
+1 1 1 0
+1 1 1 1
+1 1 1 1
+
+Output:
+YES
+NO
+
+
+
+
+Author:
+2★nerdyninja
+
+
+Tags:
+
+               
+                 dynamic-programming, easy, nerdyninja
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-09-2016
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

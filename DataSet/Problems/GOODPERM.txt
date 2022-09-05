@@ -1,0 +1,101 @@
+
+Read problems statements in Mandarin chinese, Russian  and Vietnamese as well.
+You have a sequence aa with length NN created by removing some elements (possibly zero) from a permutation of numbers (1,2,…,N)(1,2,…,N). When an element is removed, the length of the sequence doesn't change, but there is an empty spot left where the removed element was. You also have an integer K.
+Let's call a permutation p1,p2,…,pN good if:
+
+it is possible replace empty spots in a by numbers in such a way that we obtain the permutation p
+the number of positions i (1<i≤N) such that pi>pi−1 is equal to K
+
+Your task is to find the number of good permutations.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+The second line contains N space-separated integers a1,a2,…,aN. Each element of this sequence is either 0 (indicating an empty spot previously occupied by a removed element) or an integer between 1 and N inclusive.
+
+Output
+For each test case, print a single line containing one integer — the number of good permutations.
+Constraints
+
+1≤T≤300
+0≤K<N≤8
+each integer between 1 and N inclusive appears in a at most once
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+3 1
+2 0 0
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+
+
+Explanation
+Example case 1: The two possible good permutations are (2,3,1) and (2,1,3).
+
+
+
+Author:
+6★barenuz
+
+
+Editorial:
+https://discuss.codechef.com/problems/GOODPERM
+
+
+Tags:
+
+               
+                 Brute Force
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1823
+
+
+Date Added:
+16-06-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

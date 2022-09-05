@@ -1,0 +1,104 @@
+
+Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
+Chef aims to be the richest person in Chefland by his new restaurant franchise. Currently, his assets are worth AA billion dollars and have no liabilities. He aims to increase his assets by XX billion dollars per year.
+Also, all the richest people in Chefland are not planning to grow and maintain their current worth.
+To be the richest person in Chefland, he needs to be worth at least B billion dollars. How many years will it take Chef to reach his goal if his value increases by X billion dollars each year?
+Input
+
+The first line contains an integer T, the number of test cases. Then the test cases follow. 
+Each test case contains a single line of input, three integers A, B, X. 
+
+Output
+For each test case, output in a single line the answer to the problem.
+Constraints
+
+1≤T≤21 000
+100≤A<B≤200
+1≤X≤50
+X divides B−A
+
+Subtasks
+Subtask #1 (100 points): Original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+100 200 10
+111 199 11
+190 200 10
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+10
+8
+1
+
+
+Explanation
+Test Case 1: Chef needs to increase his worth by 200−100=100 billion dollars and his increment per year being 10 billion dollars, so it will take him 10010=10 years to do so.
+Test Case 2: Chef needs to increase his worth by 199−111=88 billion dollars and his increment per year being 11 billion dollars, so it will take him 8811=8 years to do so.
+Test Case 3: Chef needs to increase his worth by 200−190=10 billion dollars and his increment per year being 10 billion dollars, so it will take him 1010=1 year to do so.
+
+
+
+Author:
+daanish_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHFRICH
+
+
+Tags:
+
+               
+                 Basic Maths
+                 
+                     
+                     Mathematics
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+878
+
+
+Date Added:
+10-06-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

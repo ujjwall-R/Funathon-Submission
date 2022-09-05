@@ -1,0 +1,133 @@
+
+Read problem statements in Bengali, Russian, Mandarin and Vietnamese as well.
+You are given a binary string SS. You can perform the following operations on SS:
+
+Flip: Pick an index i (1≤i≤|S|) and flip the i-th character (i.e change 1 to 0 or 0 to 1). For e.g. 011_001→010_001
+Compress: Pick any non-empty substring consisting of the same character and replace it with a single occurrence of that character. For e.g. 1001111_10→1001_10
+
+You want to make all the characters of the binary string equal (i.e. either all characters are 0 or all characters are 1). Find the minimum number of operations required to do so.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a binary string S.
+
+Output Format
+For each test case, output a single line containing one integer - the minimum number of operations required to make all the characters of S equal.
+Constraints
+
+1≤T≤105
+1≤|S|≤106
+S is a binary string.
+It is guaranteed that the sum of |S| over all test cases does not exceed 106.
+
+Subtasks
+Subtask #1 (5 points):
+
+1≤T≤103
+1≤|S|≤10
+
+Subtask #2 (20 points):
+
+1≤T≤103
+1≤|S|≤50
+
+Subtask #3 (75 points):
+
+Original constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+100011
+1110011
+000101110
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+2
+3
+
+
+Explanation
+In the first test case,
+
+1000_11compress→10_11
+10_11flip→11_11
+
+In the second test case,
+
+1110_011flip→1111_011
+11110_11flip→11111_11
+
+In the third test case,
+
+00010_1110flip→00011_1110
+00011111_0compress→0001_0
+0001_0flip→0000_0
+
+
+
+
+Author:
+6★jeevanjyot
+
+
+Editorial:
+https://discuss.codechef.com/problems/FLIPCOMP
+
+
+Tags:
+
+               
+                 String, ad-hoc, Observation
+                 
+                     
+                     Data Structures, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2639
+
+
+Date Added:
+25-10-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

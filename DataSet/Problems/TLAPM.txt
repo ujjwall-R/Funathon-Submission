@@ -1,0 +1,97 @@
+
+Read problems statements in Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Deep wants to become a 7-star coder on CodeChef. To achieve this goal, everyday, he has to solve as many problems as he can. But for the first time since he was new to programming, he wasn't able to solve a single problem and lost his confidence. Can you help him solve the problem so that he gets a new boost to go ahead?
+In this problem, you are given a matrix that extends infinitely to the right and down, filled with values as shown below.
+
+Let (x,y)(x,y) denote the cell in the xx-th row and y-th column. The upper-left cell (1,1) contains an integer 1. You begin at the cell (x1,y1) and must walk to the cell (x2,y2) by only moving right and down. Formally, from the cell (x,y), in one step you can move to the cell (x+1,y) or (x,y+1).
+The value of a path is the sum of the values in all visited cells, including (x1,y1) and (x2,y2). You need to calculate the maximum possible value on the path of a path from (x1,y1) to (x2,y2).
+Input
+
+The first line contains an integer T, the number of test cases. Then the test cases follow. 
+Each test case contains of a single line of input, four integers x1, y1, x2, y2.
+
+Output
+For each test case, output in a single line the maximum possible value of a path from (x1,y1) to (x2,y2).
+Constraints
+
+1≤T≤1000
+1≤x1≤x2≤1000
+1≤y1≤y2≤1000
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+1 1 3 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+32
+
+
+Explanation
+The only way to achieve the maximum possible value is by visiting cells with values 1→3→6→9→13.
+
+
+
+Author:
+3★deepraj99
+
+
+Editorial:
+https://discuss.codechef.com/problems/TLAPM
+
+
+Tags:
+
+               
+                 Constructive, Prefix Sum
+                 
+                     
+                     Algorithms, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1788
+
+
+Date Added:
+2-04-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

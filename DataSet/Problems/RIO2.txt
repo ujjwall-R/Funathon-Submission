@@ -1,0 +1,105 @@
+
+ 
+Rio Olympics hosted a series of versatile events at its different venues. One such venue was the Maracana Stadium located at northern Rio de Janerio. So, here is your chance to play the role of Manager and roll back in past to organise some events at the Maracana Stadium. However, make sure that you organise the events in such a way that the stadium remains occupied for the largest amount of time.
+
+You will be provided with some events with their starting date and their duration (in days) that will be required for event to conclude. Make sure that you choose the best alternatives to keep the stadium allocated to the fullest.
+ For example,
+
+Event noStart dateEnd date
+
+114
+295
+364
+462
+5155
+697
+
+
+Input
+
+The first line of input will contain a single integer n denoting the number of events. The next n lines will contain two space separated integers si and di denoting the start date and duration of days, respectively.
+
+
+Output
+The output will contain a single line containing space separated integers which would be the serial numbers of events, starting from 1,2,...n which are supposed to be hosted in the Maracana stadium, such the stadium is used to its fullest. Sort the events in the output with increasing start date.
+
+Constraints
+Should contain all the constraints on the input data that you may have. Format it like:
+
+1 ≤ si ≤ 31
+1 ≤ di ≤ 15
+1 ≤ n ≤ 40
+
+ 
+Example
+Input:
+6
+1 4
+9 5
+6 4
+6 2
+15 5
+9 7
+
+
+
+Output:
+1 4 2 5
+
+ 
+Explanation
+The Gantt chart shown below is self explanatory as to why events 1, 2, 4 and 5 have been selected. They keep the stadium occupied for maximum duration (16 days).
+
+
+
+
+
+
+
+
+Author:
+abhirajphadnis
+
+
+Editorial:
+https://discuss.codechef.com/problems/RIO2
+
+
+Tags:
+
+               
+                 abhirajphadnis, dynamic-programming, programming
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-10-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

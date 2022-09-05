@@ -1,0 +1,124 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+For a sequence of integers A1,A2,…,ANA1,A2,…,AN, let G(A)G(A) denote a graph with N nodes (numbered 1 through N) such that for each pair of distinct nodes i and j, there is an undirected edge between these nodes if and only if Ai⋅Aj is a perfect square.
+You are given a graph with N nodes (numbered 1 through N) and an integer K. Find the number of integer sequences  A1,A2,…,AN such that 1≤Ai≤K for each valid i and the given graph is a subgraph of G(A). Since this number might be very large, compute it modulo 998,244,353.
+Note that the graph is described in an unusual way ― you are given M non-intersecting ranges [L1,R1],[L2,R2],…,[LM,RM] and for each valid i, the graph contains undirected edges between nodes Li and Li+1, between nodes Li+1 and Li+2, and so on up to an edge between nodes Ri−1 and Ri.
+Notes:
+
+An integer X is a perfect square if there is an integer Y such that X = Y2.
+A simple graph B with N nodes is a subgraph of a simple graph A with N identically numbered nodes if for each valid pair of nodes u and v connected by an edge in B, there is also an edge connecting nodes u and v in A. Refer to the following animation for more clarity:
+
+
+Input
+
+The first line of the input contains three space-separated integers N, K and M.
+M lines follow. For each valid i, the i-th of these lines contains two space-separated integers Li and Ri.
+
+Output
+Print a single line containing one integer ― the number of valid sequences modulo 998,244,353.
+Constraints
+
+1≤N≤1010
+1≤K≤1014
+0≤M≤105
+1≤Li<Ri≤N for each valid i
+Ri−Li+1≤105 for each valid i
+Ri−1<Li for each valid i
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3 2 1
+2 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+
+
+Explanation
+The 4 valid sequences are [1,1,1], [1,2,2], [2,1,1] and [2,2,2]. 
+Example Input
+10 23 2
+2 3 
+5 9
+
+Example Output
+735312645
+
+Example Input
+998244 244353 6
+69 6969
+45666 51253
+60010 100000
+101010 200999
+555555 606060
+969699 998244
+
+Example Output
+898332469
+
+
+
+
+Author:
+6★sjshohag
+
+
+Editorial:
+https://discuss.codechef.com/problems/PERFSQRS
+
+
+Tags:
+
+               
+                 Generating Functions, Polynomial, Mobius Inversion
+                 
+                     
+                     Mathematics, Number Theory, Sequences and Progression, Algebra
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+9999
+
+
+Date Added:
+7-10-2020
+
+
+Time Limit:
+5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

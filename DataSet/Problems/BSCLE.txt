@@ -1,0 +1,74 @@
+
+Chef loves playing with stones so he discovered a very interesting game. Chef has three weighing scales and XX identical stones weighing 11 gram each. Chef starts placing stones on the weighing scales in random order. 
+After some time, he observes that the scales read a,b and c grams respectively and he has N more stones left with him. 
+Help the Chef find out if he can make the weights on all the three scales equal by placing all the remaining N stones on the scales without picking up any stone that is already placed.
+Input:
+First line of input consists of number of test cases T, then test cases follow 
+Each line of the test case contains 4 integers N,a,b and c.
+Output:
+For each test case, print “Possible” (without quotes), if all the scales read the same after placing N stones, or “Impossible” (without quotes) otherwise.
+Constraints
+
+1≤T≤1000
+0≤N,a,b,c≤109
+
+Sample Input -
+3 
+18 10 2 3
+17 10 2 3
+4 2 2 2
+
+Sample output -
+Possible
+Impossible
+Impossible
+
+
+
+
+Author:
+4★bhavya_dhingra
+
+
+Editorial:
+https://discuss.codechef.com/problems/BSCLE
+
+
+Tags:
+
+               
+                 bhavya_dhingra, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+9-05-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

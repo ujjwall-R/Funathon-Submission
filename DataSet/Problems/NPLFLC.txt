@@ -1,0 +1,95 @@
+
+ 
+Harsh loves numbers and has a huge ordered collection of numbers of size  n . One day Aniket saw his collection and came up with a challenge. Aniket does 2 kinds of operations on Harsh's collection.
+
+
+Update: He changes the value of xth number to  y .
+Query: He asks if there exist any suffix in his ordered collection such that its sum is exactly  z .
+
+
+Can you help Harsh to do these operations and answer the queries.
+
+
+Input
+First line contains an integer n denoting the size of Harsh's collection. 
+Next line contains n integers denoting a1, a2 ... an the numbers in Harsh's collection. Next line contains an integer q denoting the number of operations Aniket does.  Next q lines follow in following format: 
+
+1 x y:  Change the value of xth number to y.
+2 z: Find out if there exist any suffix with sum exactly equal to z. 
+
+Output
+For every query operation(i.e. of kind 2), print the answer of the query. Print "YES" (without quotes) if there exists a suffix having sum equal to z, otherwise print "NO".
+Constraints
+
+1 ≤ n ≤ 105
+1 ≤ ai ,y≤ 109
+1 ≤ q ≤ 105
+1 ≤ x ≤ n
+1≤ z ≤ 1014
+
+Example
+Input 1:
+5
+10 1 9 8 11
+6
+2 19
+1 3 13
+2 28
+2 32
+1 1 100
+2 133
+
+Output 1:
+YES
+NO
+YES
+YES
+
+
+
+
+
+
+
+Author:
+npl_nitw
+
+
+Tags:
+
+               
+                 binary-search, fenwick-tree, npl_nitw, nplq1602, prefix-suffix, segment-tree
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+19-10-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

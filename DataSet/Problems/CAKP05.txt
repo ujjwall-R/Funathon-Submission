@@ -1,0 +1,91 @@
+
+Lucky numbers are numbers that only consists of lucky digits, i.e. 4 or 7.
+For example: 4, 7, 447, 47474 are lucky and 437, 147 are not.
+Halry likes Lucky number whereas Harry doesn't. Harry likes nearly lucky numbers. 
+Suppose you have an integer MM. 
+If the number of lucky digits in MM is a lucky number and sum of the digits of the number MM is also lucky then, the number is said to be nearly lucky. 
+Halry decides to give some numbers and asks harry to find how many numbers are lucky, nearly lucky or none.
+Note: If a number is both lucky and nearly lucky, consider it as only lucky.
+
+Input:
+
+First line will contain N - total numbers.
+Second line consists of an array of N integers (a1, a2, ….. , an).
+
+
+Output:
+3 spaced integers on a single line.
+1st integer is count of lucky numbers in array.
+2nd integer is count of nearly lucky numbers in array.
+3rd integer is count of numbers that are neither lucky nor nearly lucky.
+
+Constraints
+
+1≤N≤106
+1≤Ai≤1018
+
+
+Sample Input:
+5
+147 77 787877 400474 4457717174 
+
+
+Sample Output:
+1 2 2
+
+
+EXPLANATION:
+Lucky Number - 77  
+Nearly Lucky Numbers - 
+787877 (Total lucky digits here are 4 and sum of digits is 44)
+4457717174 (Total lucky digits here are 7 and sum of digits is 47)
+147 and 400474 are neither lucky nor nearly lucky.
+
+
+
+Author:
+4★rishabhrathi22
+
+
+Editorial:
+https://discuss.codechef.com/problems/CAKP05
+
+
+Tags:
+
+               
+                 cakewalk, implementation, lucky, rishabhrathi22
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+23-01-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

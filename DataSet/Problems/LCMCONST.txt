@@ -1,0 +1,115 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given MM triplets (X1,Y1,B1),(X2,Y2,B2),…,(XM,YM,BM)(X1,Y1,B1),(X2,Y2,B2),…,(XM,YM,BM). Find the number of sequences of positive integers A1,A2,…,AN such that for each valid i, lcm(AXi,AYi)=Bi, or determine that there is an infinite number of such sequences.
+Since the answer can be very large, compute it modulo 1,000,000,007 (109+7). Note that the values B1,B2,…,BM can also be very large ― you are given their prime decompositions.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+M lines follow. For each i (1≤i≤M), the i-th of these lines contains three space-separated integers Xi, Yi and Ri, followed by a space and 2Ri space-separated integers p1,e1,p2,e2,…,pRi,eRi, denoting that Bi=∏Rir=1perr.
+
+Output
+For each test case, print a single line containing one integer ― the number of valid sequences modulo 1,000,000,007, or −1 if there are infinitely many valid sequences.
+Constraints
+
+1≤T≤3
+0≤M≤104
+1≤N≤38
+1≤Xi,Yi≤N for each valid i
+0≤Ri≤200 for each valid i
+pr is a prime for each valid r
+pr≤106 for each valid r
+the total number of different primes pr in each test case does not exceed 5
+1≤er≤106 for each valid r
+
+Subtasks
+Subtask #1 (20 points, time limit 2 seconds): N≤20
+Subtask #2 (35 points, time limit 4 seconds): N≤30
+Subtask #3 (45 points, time limit 4.5 seconds): T=1
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+2 0
+2 2
+1 2 0
+2 1 0
+2 2
+1 2 0
+2 1 1 2 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+-1
+1
+0
+
+
+Explanation
+Example case 1: Both elements of A can be any positive integers, so there is an infinite number of valid sequences.
+Example case 2: There are two constraints, but they are actually identical: lcm(A1,A2)=1. The only sequence that satisfies this is A=[1,1].
+Example case 3: The two constraints contradict each other, so there is no valid sequence.
+
+
+
+Author:
+6★noureldin
+
+
+Editorial:
+https://discuss.codechef.com/problems/LCMCONST
+
+
+Tags:
+
+               
+                 SOS DP, LCM, Meet in the middle, Primes
+                 
+                     
+                     Advanced Algorithms, Advanced DP, Mathematics, Number Theory, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2800
+
+
+Date Added:
+25-12-2019
+
+
+Time Limit:
+2 - 4.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

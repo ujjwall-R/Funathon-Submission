@@ -1,0 +1,104 @@
+
+Read problems statements in Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Chef is playing a game where he has an array AA of NN integers, and an integer K. He looks at every subarray of length K, and writes its sum on a piece of paper. If a number appears as the sum of multiple subarrays of length K, then he only writes down that number once.
+Chef is lazy and doesn't like to write numbers. You, being a friend of Chef, want to modify the array such that Chef will only write one number on his paper. In one modification you can choose any index i and replace Ai with any integer.
+You need to find the minimum number of modifications required.
+Input
+
+The first line contains an integer T, the number of test cases. Then the test cases follow.
+Each test case contains two lines of input.
+The first line contains two space-separated integers N, K.
+The second line contains N space-separated integers A1,A2,…,AN.
+
+Output
+For each test case, output the answer in a single line.
+Constraints
+
+1≤T≤1000
+1≤N≤105
+1≤K≤N
+1≤Ai≤105
+The sum of N over all test cases does not exceed 5⋅105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+3 3 
+1 2 3
+2 1
+4 6
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+1
+
+
+Explanation
+Test Case 1: K=3 and there is only one subarray of length 3, so no changes are required.
+Test Case 2: K=1 and the subarrays of length 1 are [4] and [6]. So, at least one modification is required. One possible solution with only one modification is to change A2 to 4.
+
+
+
+Author:
+5★mohan18
+
+
+Editorial:
+https://discuss.codechef.com/problems/CSUBS
+
+
+Tags:
+
+               
+                 Greedy, Subarray
+                 
+                     
+                     Data Structures, Arrays, Algorithms, Groupings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2074
+
+
+Date Added:
+19-05-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

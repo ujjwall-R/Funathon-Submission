@@ -1,0 +1,110 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Guddu was participating in a programming contest. He only had one problem left when his mother called him for dinner. Guddu is well aware how angry his mother could get if he was late for dinner and he did not want to sleep on an empty stomach, so he had to leave that last problem to you. Can you solve it on his behalf?
+For a given sequence of positive integers A1,A2,…,ANA1,A2,…,AN, you are supposed to find the number of triples (i,j,k)(i,j,k) such that 1≤i<j≤k≤N1≤i<j≤k≤N and
+Ai⊕Ai+1⊕…⊕Aj−1=Aj⊕Aj+1⊕…⊕Ak,
+where ⊕ denotes bitwise XOR.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1,A2,…,AN.
+
+Output
+For each test case, print a single line containing one integer ― the number of triples.
+Constraints
+
+1≤T≤10
+2≤N≤105
+1≤Ai≤106 for each valid i
+
+Subtasks
+Subtask #1 (20 points):
+
+1≤T≤5
+1≤N≤100
+
+Subtask #2 (30 points):
+
+1≤T≤5
+1≤N≤1,000
+
+Subtask #3 (50 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+3
+5 2 7
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+
+
+Explanation
+Example case 1: The triples are (1,3,3), since 5⊕2=7, and (1,2,3), since 5=2⊕7.
+
+
+
+Author:
+5★kartik_354
+
+
+Editorial:
+https://discuss.codechef.com/problems/KS1
+
+
+Tags:
+
+               
+                 Bit Manipulation
+                 
+                     
+                     Mathematics
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1913
+
+
+Date Added:
+24-04-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

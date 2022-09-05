@@ -1,0 +1,105 @@
+
+
+It's ICPC season! Rishi and Himanshu are preparing for ACM ICPC. Now Subbareddy sir being ICPC coach wants to check their progress, so he wants them to solve the following problem.
+Subba Reddy gives them a directory of words which contains N words. Later he asks them Q queries containing two integers L and R, where L and R are indices (1-indexed).
+Rishi and Himanshu need  to find the number of distinct anagrams in the range L to R (L and R included).
+
+
+Input
+
+First line constains an integer N, number of words.
+For Next N lines, each line contains a string S, a word in the directory.
+Next line contains an integer Q, number of queries. 
+Now for next Q lines, each line contains two integers L and R seperated by space.
+
+Output
+
+For each query print the number of distinct anagrams in given range L to R (L and R both inclusive).
+
+Constraints
+
+1 <= N <= 100000
+1 <= |S| <= 15 (length of string)
+All the characters of strings are lowercase and between 'a' to 'e'.
+1 <= Q <= 100000
+1 <= L <= R <=  N 
+
+Example
+Input:
+5
+abc 
+ac 
+cab 
+de 
+ca
+4
+1 3
+2 4
+1 5
+2 5
+
+Output:
+2
+3
+3
+3
+
+Explanation:-
+
+For first query(1 to 3) strings "abc" and "cab" are anagrams so number of total distinct elements will be 2.
+For third query(1 to 5) strings "abc" and "cab" are anagrams and "ac" and "ca" are anagrams so total disticnt anagrams will be 3.
+
+
+
+
+
+ 
+
+
+
+Author:
+6★himkha_100
+
+
+Editorial:
+https://discuss.codechef.com/problems/NPLQ19F
+
+
+Tags:
+
+               
+                 himkha_100, merge-sort-tree, nplq2019, segment-tree, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+19-10-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

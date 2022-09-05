@@ -1,0 +1,113 @@
+
+Read problems statements in Russian and Bengali.
+There's a zebra crossing appearing in the middle of nowhere with NN blocks in it. The colors of the zebra crossing is represented by a binary string SS, where SiSi is 1 if the ii-th block from the left is white, and 0 if the block is black.
+Chef really wants to play with the zebra crossing. Although the given zebra crossing might not have alternate black and white blocks, Chef wants to follow the alternating white-black color pattern while crossing it.
+Initially, Chef stands at block 11. Chef has to jump exactly KK times, and in each jump he has to move forward and jump to a different color than that previously occupied by Chef. More formally, suppose that Chef is currently at block ii and wants to jump to block jj then following conditions should hold:
+
+i<ji<j
+Si≠SjSi≠Sj
+
+Output the farthest block Chef can reach with exactly KK jumps. If Chef cannot jump exactly KK times, output -1.
+Input Format
+
+The first line contains an integer TT denoting the number of test cases. The TT test cases then follow.
+The first line of each test case contains two integers NN and KK.
+The second line of each test case consists of a binary string of length NN denoting the color of blocks of the zebra crossing.
+
+Output Format
+For each test case, output the farthest block Chef can reach with exactly KK jumps, or -1 in case Chef cannot jump exactly KK times.
+Constraints
+
+1≤T≤1051≤T≤105
+2≤N≤103
+1≤K≤N
+Sum of N over all test cases does not exceed 5⋅105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+6 2
+100101
+5 1
+10111
+6 1
+000000
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+6
+2
+-1
+
+
+Explanation
+
+For the first test case, Chef can jump in the following order: 1→5→6.
+For the second test case, Chef can jump in the following order: 1→2.
+For the third test case, Chef cannot make any jumps.
+
+
+
+
+Author:
+6★ashishgup
+
+
+Editorial:
+https://discuss.codechef.com/problems/ZEBRA
+
+
+Tags:
+
+               
+                 ad-hoc
+                 
+                     
+                     Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1626
+
+
+Date Added:
+17-09-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

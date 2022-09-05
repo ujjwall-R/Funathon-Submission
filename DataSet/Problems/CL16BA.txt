@@ -1,0 +1,92 @@
+
+Chef has recently acquired a job as a professor, but is rather disappointed in his students after evaluating their scores on a test. Chef has N students, and he has a list of marks of all the students, where the ith student has scored Ai marks. The minimum marks required to pass the test is M. If the topper scores less than M, Chef has decided to quit his job. Can you help Chef find out the score of the topper of the test?
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+
+The first line of each test case contains the number of Chef's students N and the minimum pass marks M.
+
+The second line of each test case contains N space-separated integers A1, A2, ..., AN denoting the scores of the students.
+
+
+Output
+For each test case, output a single line containing an integer which is the maximum score in the test if that score is not less than M. If it is less then M, print "RESIGN" (without quotes).
+
+
+Constraints
+
+1 ≤ T ≤ 100
+1 ≤ N ≤ 100
+0 ≤ Ai ≤ 100
+1 ≤ M ≤ 50
+
+Example
+Input:
+2
+5 3
+1 2 3 4 5
+5 3
+0 1 0 1 0
+
+Output:
+5
+RESIGN
+
+Explanation
+In test case 1, the fifth student scored 5, which is above pass mark.
+In test case 2, the highest score is 1, which is below pass mark and Chef resigns.
+            
+            
+            
+            
+            
+        
+
+        
+
+
+Author:
+5★subham_75
+
+
+Editorial:
+https://discuss.codechef.com/problems/CL16BA
+
+
+Tags:
+
+               
+                 array, cakewalk, colg2016, subham_75
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+28-09-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

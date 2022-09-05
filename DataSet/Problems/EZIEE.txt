@@ -1,0 +1,119 @@
+
+Lets define a beauty of subarray , as the sum of all the elements in it.
+Given an array A and Q different queries of the form ind K, such that you have to divide the array (aind aind+1 …. an−1) into K contiguous subarrays such that the bitwise XOR of all the beauty of K subarrays is maximum considering each subarray is consisting of no more than L elements in it. 
+Input Format
+
+First line will contain T, number of testcases. Then the testcases follow. 
+The first line of each testcase consists of three space separated integers N Q and L.
+The second line consists of N space separated not necessarily distinct integers a0 a1…..an−1.
+Then Q lines follow for each testcase, consisting of query of type ind k.
+
+Output Format
+For each query, output in a single line answer i.e., maximum value of bitwise XOR of all the beauty of subarrays consisting of no more than L elements in each of them or print −1 if it is not possible.
+Constraints
+
+1≤T≤10
+1≤N≤102
+1≤Q≤105
+1≤L≤min(N,20)
+1≤summation(Ai)≤103
+0≤ind≤N−1
+1≤K≤10
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+7 10 4
+17 21 20 35 42 47 59
+0 5
+0 3
+3 2
+6 1
+6 2
+5 1
+4 2
+1 2
+1 1
+6 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+167
+201
+183
+59
+-1
+106
+98
+216
+-1
+59
+
+
+Explanation
+Self Explanatory :)
+
+
+
+Author:
+5★valiant_vidit
+
+
+Editorial:
+https://discuss.codechef.com/problems/EZIEE
+
+
+Tags:
+
+               
+                 Data Structures, Arrays, Dynamic Programming
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-03-2022
+
+
+Time Limit:
+4 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

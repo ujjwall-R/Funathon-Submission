@@ -1,0 +1,98 @@
+
+Read problems statements in Mandarin Chinese and Russian as well.
+You are given a sequence a1,a2,…,aNa1,a2,…,aN of non-negative integers. Your task is to process QQ queries of the following format: each query is described by two integers L≤RL≤R and asks to calculate the number of triples (i,j,k), such that L<i<j<k<R and aL>ai<aj>ak<aR.
+Input
+
+The first line of the input contains two integers N and Q denoting the size of the sequence and the number of the queries to process.
+The second line contains N non-negative integers a1,a2,…,aN.
+Each of the next Q lines contains two integers L and R describing the corresponding query.
+
+Output
+For each query, output a single line containing one integers: the number of triples as described above.
+Constraints
+
+1≤N≤2000
+1≤Q≤100000
+0≤ai≤109
+1≤L≤R≤N for each query in the input
+
+Example Input
+10 3
+5 5 1 1 5 5 1 1 5 5
+1 10
+2 9
+1 1
+
+Example Output
+8
+8
+0
+
+Explanation
+The following triples (i,j,k) are valid for the first and the second queries: 
+
+(3,5,7)
+(3,5,8)
+(3,6,7)
+(3,6,8)
+(4,5,7)
+(4,5,8)
+(4,6,7)
+(4,6,8)
+
+
+
+
+Author:
+6★kostya_by
+
+
+Tester:
+6★stzgd
+
+
+Editorial:
+https://discuss.codechef.com/problems/LFIVES
+
+
+Tags:
+
+               
+                 Segment Trees, Fenwick Trees, Coordinate Compression, Dynamic Programming
+                 
+                     
+                     Advanced Data Structures, Advanced Tree Structures, Advanced Algorithms, Pre processing, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2476
+
+
+Date Added:
+10-05-2014
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

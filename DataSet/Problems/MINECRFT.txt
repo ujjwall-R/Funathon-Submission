@@ -1,0 +1,115 @@
+
+Jashan had been playing Minecraft for a while. It is a game where everything is in the form of cubic blocks (no curves). He thought of making a new mountainous terrain having his own rules in which the blocks are placed. The rules are-
+
+The mountain is in the form of an array of N×MN×M dimensions.
+Each element of the array represents the height of the mountain at that point.
+The height of the mountain increases or remains the same along the row i.e. non-decreasing.
+The first element of every row will have a greater or equal height than the previous row's greatest element.
+
+He went to make the terrain with his dog and started coming back down after completing it. Unfortunately, he slipped from the slope and fell down to the point where he started (0,0)(0,0). His dog got detached from its collar and remained on the block he fell from.
+Now, he has to teleport to the block his dog is on to bring it back. The only way to reach his dog is to know the coordinates of that block. After the fall, Jashan vaguely remembers the QQ heights he possibly fell down from but not the coordinates. Help him find the coordinates of each of the Q heights. It is guaranteed that a block of the given height always exists. If there are multiple coordinates with the same height, report the first coordinate that comes in the row-major order.
+
+Input:
+
+The first line has an integer T denoting the number of test cases.
+The first line of each test case has three integers N, M, Q.
+The next N lines have M space-separated integers representing the height H of each point on the mountain.
+Then Q lines follow which list out the possible heights.
+
+
+Output:
+For each test case, output Q lines of space-separated integers which are the possible coordinates of the point on the mountain where the dog is present.
+If there are multiple coordinates with the same height, report the first coordinate that comes in the row-major order.
+
+Constraints
+
+1≤T≤10
+1≤N,M≤102
+1≤Q≤105
+1≤H≤108
+
+
+Subtasks
+
+Subtask #1 (40 points): 1≤Q≤103
+Subtask #3 (60 points): Original Constraints
+
+
+Sample Input:
+2
+3 3 3
+1 2 3
+4 5 6
+7 8 9
+5
+8
+1
+2 2 3
+1 2
+2 2
+2
+1
+2
+
+
+Sample Output:
+1 1
+2 1
+0 0
+0 1
+0 0
+0 1
+
+
+EXPLANATION:
+For the first matrix, block with height 5 is present at (1,1) on the mountain. Similarly, blocks with heights 8 and 1 are present at (2,1) and (0,0) respectively.
+For the second matrix, block with height 2 is present at (0,1) on the mountain. Similarly, block with height 1 is present at (0,0). Note that even though there are 3 occurrences of height 2 in second matrix, only first occurring coordinate in row-major order as output will be considered valid.
+
+
+
+Author:
+pec_chapter
+
+
+Editorial:
+https://discuss.codechef.com/problems/MINECRFT
+
+
+Tags:
+
+               
+                 binary-search, easy, pec_chapter
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+10-03-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,88 @@
+
+Once Chef was going through the stuff he has in his basement and to his surprise he found N metal balls, each with different weight. Our Chef who is always searching for a way to earn money has decided to sell these balls to gain free money. To his luck, he has found a dealer who is ready to buy these balls but the dealer has agreed to buy only M number of balls. The dealer has also told Chef that lesser the difference between minimum and maximum weigth of metal balls, more money he gets.
+Help Chef find M metal balls that he has to give to the dealer to gain Maximum money.
+Input:
+
+The first line of the input contains a single integer T denoting the number of test cases. 
+The first line of each test case contains a single integer N which denotes number of metal balls.
+Second line of each test case contains N space-seperated numbers that denote weight of each ball.
+Third line of each test case contains a single integer N which denotes number of metal balls that the dealer want to buy 
+
+Constraints:
+
+1 <= T <= 100
+1 <=N<= 107
+1 <= A[i]<= 1018
+1 <= M <= N
+
+Output:
+For each test case, print a single integer denoting minimum difference that can be achieved.
+Sample Input:
+ 2
+ 9
+ 12 8 4 15 7 1 16 14 11
+ 5
+ 7
+ 1 1 2 19 13 1 4
+ 4
+
+Sample Output:
+ 5
+ 1
+
+Explanation:
+  Test Case 1:  If we consider 5 metal balls of weights [12, 15, 16, 14, 11] , the minimum 
+  difference between minimum and maximum weights is 16-11 = 5. So the final answer is 5.
+
+  Test Case 2: If we consider 4 metal balls of weights [1, 1, 2, 1] , the minimum 
+  difference between minimum and maximum weights is 2-1 = 1. So the final answer is 1.
+
+
+
+
+Author:
+3★furious_127
+
+
+Editorial:
+https://discuss.codechef.com/problems/MAXMON
+
+
+Tags:
+
+               
+                 array, easy-medium, furious_127
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-01-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

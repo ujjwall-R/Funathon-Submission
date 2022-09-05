@@ -1,0 +1,102 @@
+
+Read problem statements in Russian and Mandarin Chinese.
+You are given two integers A,BA,B. You have to choose an integer XX in the range [minimum(A,BA,B), maximum(A,BA,B)] such that: 
+⌈B−X2⌉+⌈X−A2⌉ is maximum. 
+What is the maximum sum you can obtain if you choose X optimally?
+Note: ⌈x⌉ : Returns the smallest integer that is greater than or equal to x (i.e  rounds up to the nearest integer). For example, ⌈1.4⌉=2, ⌈5⌉=5, ⌈−1.5⌉=−1, ⌈−3⌉=−3 , ⌈0⌉=0.
+Input Format
+
+First line will contain T, number of testcases. Then the testcases follow.
+Each testcase contains of a single line of input, two integers A,B.
+
+Output Format
+For each testcase, output the maximum sum of ⌈B−X2⌉+⌈X−A2⌉.
+Constraints
+
+1≤T≤105
+1≤A,B≤109
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+2 2
+1 11
+13 6
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+6
+-3
+
+
+Explanation
+
+In the first test case, there is only one possible value of X which is equal to 2. So the sum is equal to ⌈2−22⌉+⌈2−22⌉ = ⌈ 0⌉+⌈ 0⌉  = 0+0=0.
+In the second test case, we can choose X to be 2. So sum is equal to ⌈11−22⌉+⌈2−12⌉ = ⌈ 4.5⌉+⌈ 0.5⌉ = 5+1=6. There is no possible way to choose an integer X in the range [1,11] such that sum is greater than 6.
+
+
+
+
+Author:
+5★soumyadeep_21
+
+
+Editorial:
+https://discuss.codechef.com/problems/CEILSUM
+
+
+Tags:
+
+               
+                 ad-hoc
+                 
+                     
+                     Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1712
+
+
+Date Added:
+13-07-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

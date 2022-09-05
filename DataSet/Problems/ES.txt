@@ -1,0 +1,100 @@
+
+Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Compute:
+ floor[1*e] + floor[2*e] + floor[3*e] + ... + floor[n*e],
+where floor[x] is the largest integer that is not greater than x, and e is Euler's number: 2.7182818284...
+Input
+A single line which contains a single integer: n.
+Output
+A single line which contains a single integer which should be the answer.
+Constraints
+1 ≤ n ≤ 104000
+Subtasks
+
+Subtask #1 (50 points): 1 ≤ n ≤ 10100
+Subtask #2 (50 points): Original constraints.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+15
+
+
+Explanation
+
+floor[1*e] = floor[2.71828..] = 2.
+floor[2*e] = floor[5.43656..] = 5.
+floor[3*e] = floor[8.15484..] = 8.
+So the answer is 2+5+8=15.
+
+
+Note
+Source code limit is 1000 bytes.
+
+
+
+Author:
+chen_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/ES
+
+
+Tags:
+
+               
+                 Euler Theorem, Fractions, Beatty sequence
+                 
+                     
+                     Mathematics, Number Theory, Basic Maths
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2721
+
+
+Date Added:
+9-05-2017
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+1000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

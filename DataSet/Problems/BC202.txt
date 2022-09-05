@@ -1,0 +1,82 @@
+
+Given a sorted array arr, remove the duplicates from arr such that each element appears only once and display the new array.
+Input:
+
+The first line contains T, the number of test cases. Then the T test cases follow. 
+Each test case contains 2 lines of input:
+
+
+The first line contains n, the size of array arr.
+The second line contains n space separated elements of array arr.
+
+Output:
+For each test case, output in a single line, the new array. The elements of the array should be separated by space. Your output format should match with that given in the sample output.
+Constraints
+
+1≤T≤1000
+1≤n≤104
+−105≤arr[i]≤105
+
+Sample Input:
+2
+3
+1 1 2
+10
+0 0 1 1 1 2 2 3 3 4   
+Sample Output:
+1 2
+0 1 2 3 4   
+EXPLANATION:
+
+Given arr = [1,1,2]. Here 1 is repeated, so after deleting 1 the modified array will be [1,2].
+Given arr = [0,0,1,1,1,2,2,3,3,4]. After deleting the repeated integers, the modified array will be [0,1,2,3,4].
+
+
+
+
+Author:
+3★ayush163
+
+
+Editorial:
+https://discuss.codechef.com/problems/BC202
+
+
+Tags:
+
+               
+                 array, ayush163, easy
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-04-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

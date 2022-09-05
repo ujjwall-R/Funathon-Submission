@@ -1,0 +1,111 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+The Professor is going on a trip with his family this weekend. The country where they live is a federation of NN states (numbered 11 through NN) with R bidirectional interstate roads connecting them. For each road, we know the amount of fuel the Professor needs to traverse it; travelling within a state consumes no fuel. For each i, the price of fuel in state i is fixed at Fi units of money per litre.
+Despite Professor's outstanding talent and his great scientific prowess, he has some bad habits as well: he is too penny-wise, so he carries huge barrels in his car in order to store extra petrol and avoid buying petrol in expensive states. Therefore, he is able to carry any amount of fuel he wants at any moment during the trip, and he is also fine with visiting the same state more than once on the trip if it saves him money. The Professor starts the trip without any fuel.
+Help the Professor find the minimum possible amount of money he should spend on fuel in order to travel from state P to state Q.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and R.
+Each of the next R lines contains three space-separated integers u, v and w denoting that states u and v are connected by a road and it takes w litres of fuel to traverse that road.
+The next line contains N space-separated integers F1,F2,…,FN.
+The next line contains two space-separated integers P and Q.
+
+Output
+For each test case, print a single line containing one integer ― the minimum amount of money the Professor has to spend.
+Constraints
+
+1≤T≤5
+1≤N≤300
+1≤R≤N⋅(N−1)/2
+1≤u,v,P,Q≤N
+each road connects two different states
+no two roads connect the same pair of states
+1≤w≤106
+1≤Fi≤109 for each valid i
+
+Subtasks
+Subtask #1 (40 points): N≤50
+Subtask #2 (60 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+4 3
+1 2 3
+2 3 1
+2 4 7
+3 6 2 2
+1 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+28
+
+
+Explanation
+Example case 1: The Professor can buy 10 litres of petrol in state 1, travel to state 2 and then to state 4. This way, he spends 30 units of money. However, the optimal solution is to buy 4 litres of petrol in state 1, travel to state 2, then to state 3, buy 8 litres of petrol in state 3 and then travel to state 4, since this costs only 28 units of money.
+
+
+
+Author:
+4★erfaniaa
+
+
+Editorial:
+https://discuss.codechef.com/problems/PROFTRIP
+
+
+Tags:
+
+               
+                 Dynamic Programming, Floyd Warshall's Algorithm, Dijkstra's Algorithm
+                 
+                     
+                     Algorithms, Graph Algos, Shortest Paths
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+24-07-2019
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

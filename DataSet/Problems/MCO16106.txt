@@ -1,0 +1,90 @@
+
+ 
+Fluffy the Squirrel has a bracket sequence. A bracket sequence is just a string of characters where each character is either '(', ')', '[' or ']'. Now, Fluffy the Squirrel thinks that a bracket sequence is called correct if :
+
+1. It is equal to the string []
+
+2. It is equal to the string ()
+
+3. It can be seperated into 2 parts, S and T, such that S and T are both correct bracket sequences. For example, []()() is correct because we can seperate it into 2 parts, [] and ()(), which are correct ("()()" is correct since it can also be split into 2 parts, () and (), which are both correct)
+
+4. It can be written as (S) or [S], where S is a correct bracket sequence.
+
+Informally, a correct bracket sequence is a sequence of brackets where each opening bracket can be matched with a corresponding closing bracket. Some examples of correct bracket sequences are [()]([]), ()[[]], (([])) and some examples of incorrect bracket sequences are [(]), (], ())(.
+
+Fluffy has a bracket sequence, but some of its brackets are missing! He wants you to help him determine the number of ways to assign brackets to the missing brackets such that the resulting bracket sequence is correct. Can you help him?
+ 
+Input
+The first and only line contains a string s, denoting the bracket sequence. It is guaranteed that only the characters '(', ')', '[', ']', '?' appear in the string. A character '?' means that the corresponding bracket is missing.
+Output
+Output a single integer, the number of correct bracket sequences that can be obtained by replacing all question marks with some bracket. Since the answer might be too large, output the answer modulo 1000000007 (109 + 7).
+Constraints
+
+1 ≤ length of s ≤ 500
+
+Subtasks
+
+Subtask 1 (16 points) : The given string has no missing brackets, i.e. no '?'.
+Subtask 2 (31 points) : 1 ≤ length of s ≤ 10
+Subtask 3 (53 points) : Original Constraints
+
+ 
+Example
+Input:
+?(??
+
+Output:
+2
+
+ 
+Explanation
+Example case 1. There are two possibilities, (()) and [()]. Note that [(]) is an invalid answer by the definition above.
+
+
+
+Author:
+6★zscoder
+
+
+Editorial:
+https://discuss.codechef.com/problems/MCO16106
+
+
+Tags:
+
+               
+                 dynamic-programming, easy-medium, zscoder
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+19-10-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, CPP14, PYTH, PYP3
+
+
+
+
+
+Submit
+

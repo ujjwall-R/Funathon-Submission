@@ -1,0 +1,96 @@
+
+There are N bikes and M cars on the road.
+
+Each bike has 2 tyres.
+Each car has 4 tyres.
+
+Find the total number of tyres on the road.
+Input Format
+
+The first line will contain T - the number of test cases. Then the test cases follow.
+The first and only line of each test case contains two integers N,M.
+
+Output Format
+For each test case, output in a single line,  the total number of tyres on the road.
+Constraints
+
+1≤T≤1000
+0≤N,M≤100
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+2 1
+3 0
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+8
+6
+
+
+Explanation
+Test Case 1: There are 2 bikes and 1 car. Each bike has 2 tyres, so there are 2⋅2=4 bike tyres. Similarly, each car has 4 tyres, so there are 1⋅4=4 car tyres. Adding the tyres of all vehicles, we get 4+4=8 tyres in total.
+Test Case 2: There are 3 bikes and 0 cars. Each bike has 2 tyres, so there are 3⋅2=6 bike tyres. There are no cars, so there are 0⋅4=0 car tyres. Adding the tyres of all vehicles, we get 6+0=6 tyres in total.
+
+
+
+Author:
+7★anript
+
+
+Editorial:
+https://discuss.codechef.com/problems/TYRE
+
+
+Tags:
+
+               
+                 anript, cakewalk, implementation, start29
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+452
+
+
+Date Added:
+25-02-2022
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

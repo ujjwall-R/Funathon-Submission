@@ -1,0 +1,126 @@
+
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a convex polygon with NN sides. You have to answer QQ queries. The ith query is described by two integers vi,ti. In this query, all sides of the polygon start moving parallel to their respective perpendicular vector away from the centroid with a constant velocity of viunitssec. Output the final area covered by N sides of the polygon after time ti seconds. 
+For each query,  consider the initial coordinates of vertices of the given polygon.
+Note: 
+
+Since the input-output is large, prefer using fast input-output methods.
+The problem requires high precision, so prefer using data types with a precision equivalent to long double in C++.
+
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+Each testcase contains N+Q+1 lines of input.
+The first line of each test case contains two space-separated integers N,Q.
+N  lines follow. For each valid i, the ith of these lines contains two space-separated integers xi,yi, coordinates of the ith vertex of the polygon.
+Next Q lines follow. For each valid i, the ith of these lines contains two space-separated integers  vi,ti, description of the ith query.
+
+Output Format
+For each query, output in a single line the final area covered by N sides of the polygon. 
+Your answer will be considered correct if its relative or absolute error does not exceed 10−2.
+Constraints
+
+1≤T≤250
+3≤N≤104
+1≤Q≤104
+0≤xi,yi≤2⋅106
+1≤vi,ti≤105
+1≤vi⋅ti≤105
+The sum N over all testcases does not exceed 5⋅105.
+The sum Q over all testcases does not exceed 5⋅105.
+The vertices of polygon are given in counter-clockwise order.
+The internal angles of the given polygon are greater than 1∘. 
+
+Subtasks
+Subtask #1 (100 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+4 1
+1 1
+2 1
+2 2
+1 2
+1 1
+3 2
+1 1
+2 1
+1 2
+1 1
+2 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+9.0000000
+9.7426406
+230.8086578
+
+
+Explanation
+Below are the images for the respective test cases. Inner polygons are the ones at the start and the rays represent the distance traveled by the sides at the given speed in a given time. Outer polygons denote the final ones after the movements of the sides.
+Test case 1:
+
+Test case 2: 1st query
+
+
+
+
+Author:
+daanish_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/GEO1
+
+
+Tags:
+
+               
+                 aug21, daanish_adm, easy-medium, geometry
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2675
+
+
+Date Added:
+14-07-2021
+
+
+Time Limit:
+1.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

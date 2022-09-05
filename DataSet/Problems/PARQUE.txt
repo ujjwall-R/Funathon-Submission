@@ -1,0 +1,72 @@
+
+
+Parhi's Girlfriend loves words which contains vowels only. They play a game where Parhi would get a string from her and he needs to find out the length of the longest sub-string containing vowels only. If he fails, then his girlfriend would friend-zone him. Help Parhi to impress his girlfriend and not get friend-zoned!
+.
+
+Input:
+First line contains an integer T denoting the number of test cases.
+Next T lines contain a string S. 
+Output:
+Print an integer denoting the length of the longest substring, that is substring consists of only vowels.
+Constraints:
+
+1 ≤ T ≤ 103
+1 ≤ |S| ≤ 104
+
+Example:
+Input:
+1
+abcaac
+Output: 
+2
+Explanation:
+Longest Substring of S is aa so the answer is 2.
+
+
+
+Author:
+1★bigo_admin
+
+
+Editorial:
+https://discuss.codechef.com/problems/PARQUE
+
+
+Tags:
+
+               
+                 bigo_admin, simple-easy, strings, tejaram15
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+11-01-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

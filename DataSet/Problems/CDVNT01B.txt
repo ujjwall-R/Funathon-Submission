@@ -1,0 +1,86 @@
+
+Today is a very special day for Phoenix as there is a large fair in his city and so he goes in. He finds a game quite amusing and enters it, only to find that he isn’t able to exit it without completing the game.
+The game has the following rules : 
+There are NN number of stones and each stone has 2626 different possibilities of being painted with any letter from aa to z. Now, Phoenix can start from any stone and can jump to any stone but he has to take the maximum number of stones that he can traverse given that they all contain the same character each and the distance between the first and the last stone is minimum. Phoenix can only exit the room if he can foretell the exact distance between the first and the last character that occurs the maximum number of times. If all the parameters are equal for some set of characters, then print lexicographically minimum character. 
+And of course, as every coding problem ends, he needs your help. So, help him dear coder.
+Input:
+
+First line will contain T, number of test cases. Then the test cases follow. 
+Each test case contains of two line of input.
+First line will contain a single integer N denoting the length of string.
+Second line will contain the given string.
+
+Output:
+For each test case, print a character which occurs the maximum number of times and a integer, the minimum length of substring that contains all occurrence of that character.
+Constraints
+
+1≤T≤1000
+1≤|S|≤105
+The overall sum of string lengths will not exceed 106
+
+Sample Input:
+    3
+    3
+    abc
+    6
+    aabcbb
+    6
+    xbxybz
+
+Sample Output:
+    a 1
+    b 4
+    x 3
+
+EXPLANATION:
+In the first test case, frequency of all the characters is same and size of each substring is also same(i.e. 1). Hence the answer will be a, which is the lexicographically minimum.
+In the third test case, frequency of x and b is maximum. But size of substring containing all the occurrence of x is smaller than that of b. Hence the answer is x and it's corresponding substring size.
+
+
+
+Author:
+3★nisu29
+
+
+Editorial:
+https://discuss.codechef.com/problems/CDVNT01B
+
+
+Tags:
+
+               
+                 cove2020, nisu29, strings, substring
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+16-07-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, PYPY, kotlin
+
+
+
+
+
+Submit
+

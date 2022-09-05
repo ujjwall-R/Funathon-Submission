@@ -1,0 +1,83 @@
+
+
+Timings of KIET coding contest has been changed, now the contestants are required to submit their code as soon as their clock's minute and hour hand face opposite direction w.r.t each other.
+
+
+There are t test cases and in each test case:
+Given an integer X  where the hour hand of the clock points, print the integer where the minute hand has to point.
+
+Input:
+
+First line will contain t, number of test cases. Then the testcases follow. 
+Each testcase contains an integer X where hour hand of the clock points.
+
+
+For each testcase, print the integer where minute hand has to point .
+Constraints: 
+
+1<=t<=10
+1<=X<=12
+
+Sample Input:
+	 
+3
+1
+2
+3
+
+Sample Output:
+
+7
+8
+9
+
+
+
+
+
+Author:
+3★huntsatyam
+
+
+Editorial:
+https://discuss.codechef.com/problems/CLKK3
+
+
+Tags:
+
+               
+                 cakewalk, huntsatyam
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-01-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

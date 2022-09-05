@@ -1,0 +1,111 @@
+
+Ram was bored because he couldn't play basketball in quarantine!
+So he asked his aniki Pritish to suggest him something to get rid of the boredom.
+Pritish suggested him to play YAJRPG(Yet Another Japanese Role Playing Game)!  
+So Ram started playing the game and assembled a party of NN members (numbered from 1 to NN)!
+Ram reached the end-game and had to face the Final Boss and his MM minions!
+Along the way Ram had found the Inochi-crystals which gave his party infinite health and no monster could kill them! 
+The ith member of Ram's party has Ai attack value , where i∈[1,N].
+The jth member of Final Boss' party has Hj health value , where j∈[1,M].  
+The rules of the last battle were simple:   
+
+Ram's party cannot be defeated because they have the Inochi-crystals.
+Final Boss' party won't waste time attacking because they saw the Inochi-crystals.
+During each turn, any member with the highest attacking value in Ram's party will attack any member with the highest health value in Final Boss' party.
+If the attack value of the attacker is more than the health value of the defender then the attack value of the attacker gets subtracted by health value of the defender and the defender dies.
+If the health value of the defender is more than the attack value of the attacker,the health value of the defender gets subtracted by the attack value of the attacker and the attacker's attack value becomes 0 (i.e the attacker can't attack in upcoming turns anymore).
+If the attack value of the attacker is equal to the health value of the defender then the defender dies and the attacker's attack value becomes 0 (i.e the attacker can't attack in upcoming turns anymore).
+The game ends when all M members of the Final Boss' party die or when there is no attacker left to attack.
+
+If all M members of the Final Boss' party die , then it's a win for Ram otherwise it's a loss for Ram.    
+You are given the list of Ram's N members and their attack values and Final Boss' M members and their health values.
+Simulate the process and determine if Ram will win or lose.
+
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+The first line of each testcase contains two integers N and M denoting the number of members in Ram's party and number of members in Final Boss' party respectively.
+The next line will have N integers denoting the attack values of Ram-kun's party.
+The next line will have M integers denoting the health values of Final Boss' party.
+
+
+Output:
+For each testcase, print in a single line 'win' if Ram will win otherwise print 'lose'.
+
+Constraints
+
+1≤T≤103
+1≤N,M≤105
+1≤Ai,Hj≤109
+Sum of N over all test cases doesn't exceed 105
+Sum of M over all test cases doesn't exceed 105
+
+
+Sample Input:
+1
+3 3
+7 8 3
+9 3 4
+
+Sample Output:
+win
+
+EXPLANATION:
+In the first turn Ram's member with attack value 8 will attack Final Boss' member with health value 9.
+Now, Ram's party has values [7,0,3] and Final Boss' party has values [1,3,4].
+In the next turn Ram's member with attack value 7 will attack Final Boss' member with health value 4.
+Now, Ram's party has values [3,0,3] and Final Boss' party has values [1,3,0].
+In the next turn Ram's member with attack value 3 will attack Final Boss' member with health value 3.
+Now, Ram's party has values [3,0,0] and Final Boss' party has values [1,0,0].
+In the next turn Ram's member with attack value 3 will attack Final Boss' member with health value 1.
+Now, Ram's party has values [2,0,0] and Final Boss' party has values [0,0,0].
+Now the game ends because all party members of Final Boss have died.
+
+
+
+Author:
+5★pritishn
+
+
+Editorial:
+https://discuss.codechef.com/problems/RAMJRPG
+
+
+Tags:
+
+               
+                 ftcf2020, pritishn, pritishn, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+8-06-2020
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

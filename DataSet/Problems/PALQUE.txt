@@ -1,0 +1,123 @@
+
+You are given a string SS. Let the set of strings STST be the set of all distinct contiguous palindromic substrings of S. Each element of ST has a value associated with it which is initially 0. You need to process Q queries which are of the following two types:
+
+1 L R P X: Add X to the values of all palindromes that are substrings of S[1...P] and are of the form T+S[L...R]+rev(T) where rev(T) denotes the reverse of T. Here T can be any string (possibly empty). It is guaranteed that S[L...R] is a palindrome.
+2 L R: Print the value of S[L..R]. It is guaranteed that S[L...R] is a palindrome.
+
+Input Format
+
+The first line of input contains the string S.
+The second line contains an integer Q - number of queries.
+Next Q lines contain description of queries. Each line starts from integer type (1≤type≤2) - the type of the query. 
+If type=1, then rest of the line contains integers L,R,P,X.
+If type=2, then rest of the line contains integers L,R.
+
+Output Format
+For each query of the second type, output the answer to it.
+Constraints
+
+1≤len(S)≤105
+S consists of lowercase english letters
+2≤Q≤105
+1≤L≤R≤len(S)
+1≤P≤len(S)
+1≤X≤109
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+abbaccc
+9
+1 1 4 3 228
+2 1 4
+1 1 4 4 228
+2 1 4
+1 2 3 3 322
+2 2 3
+2 1 4
+1 5 5 6 1337
+2 5 6
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+228
+322
+228
+0
+
+
+Explanation
+Initially, the set ST={a,b,c,bb,cc,ccc,abba}. Initially, the value associated with all of them is 0.
+
+Query 1: S[1...4]=abba. There does not exist any substring in S[1...3] of the form T+abba+rev(T). So no value is changed.
+Query 2: Value of S[1...4]=abba is 0.
+Query 3: S[1...4]=abba. The substrings in S[1...4] of the form T+abba+rev(T) are: abba. So value of abba increases from 0 to 228.
+Query 4: Value of S[1...4]=abba is 228.
+Query 5: S[2...3]=bb. The substrings in S[1...3] of the form T+bb+rev(T) are: bb. So value of bb increases from 0 to 322.
+Query 6: Value of S[2...3]=bb is 322.
+Query 7: Value of S[1...4]=abba is 228.
+Query 8: S[5...5]=c. The substrings in S[1...6] of the form T+c+rev(T) are: c. So value of c increases from 0 to 1337.
+Query 9: Value of S[5...6]=cc is 0.
+
+
+
+
+Author:
+yahor_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/PALQUE
+
+
+Tags:
+
+               
+                 2drange-queries, cook139, eulerian-tour, manachers-algorithm, medium-hard, palindrome, yahor_adm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3355
+
+
+Date Added:
+4-03-2022
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

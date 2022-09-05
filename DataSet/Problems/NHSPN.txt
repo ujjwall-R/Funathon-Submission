@@ -1,0 +1,72 @@
+
+NehaNeha  is given a number NN. She always looks for special thing , this time she is looking for SpecialSpecial Number and Partial Special Number. A Special Number is a number whose product of its digits is equal to number itself i.e. N, and in this number there is no digit 1. Partial Special is a number having all the condition same as Special except that it must have digit 1 in it .Neha have to count the number of Special and Partial Special Numbersfor a given  N . She is not so good in programming , so go and help her.
+Input:
+
+Integers N is taken as input from input stream. 
+
+Output:
+
+Print the number of  Special and Partial Special Numbersfor a given  N.
+
+Constraints
+
+1≤N≤100 numbers to be count will be less then 10^6
+
+Sample Input:
+3
+
+Sample Output:
+1 20
+
+EXPLANATION:
+There are only one natural numbers, the product of the digits of which is 3  :- {3}.
+There are 20 natural numbers with digit 1 , whose  product of the digits  is 3 :-{13, 31, 113 ,131 311 ,1113 ,1131 ,1311, 3111 ,11113, 11131, 11311 ,13111, 31111, 111113, 111131, 111311,113111, 131111 ,311111}
+
+
+
+Author:
+3★dcpandey
+
+
+Editorial:
+https://discuss.codechef.com/problems/NHSPN
+
+
+Tags:
+
+               
+                 czen2020, dcpandey, easy, implementation, maths
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-09-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,88 @@
+
+
+One day Chef and his friend Alice decide to build a device which will transfer the data between them. The data is transferred in binary form i.e. 1 & 0. 
+When the device was built they tried to test it. While testing the device they found out that due to noise in the data transferring channel they didn’t receive the 
+data in exactly the same form, some of the digits of the data were misplaced or missing. So Chef and Alice decided that chef will fine tune the device and send the 
+same data to Alice for N number of times and the data with lowest error will be accepted.
+
+Your task is to help Alice find the ith sent data for which the minimum error is received.
+
+Given that %error = (total no of wrong digits / total number of digits) × 100
+
+Input
+
+The first line of input contains two integer N denoting the numbers of times the data was sent and L denoting the length of the data sent. 
+The second line contains the correct data which is to be transferred.
+Each of the following  N  lines contain the data sent by the device in the ith attempt.
+
+
+Output
+Output a single line containing the string which has the lowest error.
+Note:If there are more than one possible output with the same minimum error then output the first string which has the minimum error.
+
+
+Constraints
+
+1 ≤ N ≤ 103
+1 ≤ L ≤ 103
+
+
+Example Input:
+2 5
+11111
+10101
+11110
+
+
+Example Output:
+11110
+
+
+
+
+Author:
+1★rahul_ojha_07
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHFDT
+
+
+Tags:
+
+               
+                 array, ense2018, rahul_ojha_07
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+5-09-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

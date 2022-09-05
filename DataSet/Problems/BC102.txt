@@ -1,0 +1,66 @@
+
+Given a long sentence, reverse the firstfirst wordword of the sentence individually in the sentence itself. For example, if the sentence is- "College of Engineering Roorkee""College of Engineering Roorkee", the output should be-"egelloC of Engineering Roorkee".
+Input:
+The only line of input contains the sentence s, upon which the above-mentioned operation is to be performed.
+Output:
+Output the modified sentence.
+Constraints
+
+1≤Length of s≤1000
+Modify the first word only, leaving rest of the sentence unchanged.
+
+Sample Input:
+College of Engineering Roorkee
+Sample Output:
+egelloC of Engineering Roorkee
+EXPLANATION:
+The first word of the given sentence is- "College". So we simply reverse it leaving rest of the sentence unchanged, i.e. "egelloC of Engineering Roorkee".
+
+
+
+Author:
+3★ayush163
+
+
+Editorial:
+https://discuss.codechef.com/problems/BC102
+
+
+Tags:
+
+               
+                 ayush163, easy, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+10-04-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

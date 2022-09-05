@@ -1,0 +1,71 @@
+
+Problem Statement:
+Dipen loves the questions which are short, challenging and on point, so he makes one for Crackathon.
+Given a number N, you have to find the number of numbers less than or equal to N such that each number has atleast one prime digit in it .
+Input:
+First line will consist of value of T i.e testcases. Next T lines will have a number N.
+Output:
+Output the required value as answer.
+Constraints:
+0 <= T <= 106
+0 <= N <= 1018
+Example:
+Input:
+2
+100
+120
+Output:
+64
+73
+Explanation:
+Test Case 1 : There are 64 numbers less than equal to 100 which have atleast one digit as prime.
+ 
+
+
+
+Author:
+4★vedipen
+
+
+Editorial:
+https://discuss.codechef.com/problems/DIGPRIME
+
+
+Tags:
+
+               
+                 combinatorics, dynamic-programming, kjcs1601, medium-hard, vedipen
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+29-09-2016
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

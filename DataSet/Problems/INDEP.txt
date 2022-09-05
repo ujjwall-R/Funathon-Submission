@@ -1,0 +1,120 @@
+
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a graph GG with NN vertices (numbered 11 through N) and M edges. You should partition the vertices of G into two sets A and B such that:
+
+each vertex of G belongs to exactly one of these sets
+A is non-empty
+A is an independent set in G, i.e. for each pair of vertices u,v∈A, G does not contain an edge (u,v)
+for each vertex a∈A and each vertex b∈B, there is an edge (a,b) in G
+
+Find the number of such partitions (A,B). Also, give an example of one of these partitions or determine that no such partition exists.
+Two partitions are considered different if there is a vertex that is in the set A in one partition and in the set B in the other partition.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+Each of the next M lines contains two space-separated integers u and v denoting that vertices u and v are connected by an edge.
+
+Output
+For each test case, print two lines.
+
+The first of these lines should contain a single integer — the number of partitions satisfying the given conditions.
+The second line should contain a single string with length N. If there are no partitions satisfying the given conditions, each character of this string should be '0'. Otherwise, this string should describe one such partition — for each valid i, the i-th character should be '1' if vertex i belongs to A or '0' if it belongs to B.
+
+Constraints
+
+1≤T≤5⋅105
+1≤N,M≤5⋅105
+1≤u,v≤N
+there are no self-loops or duplicate edges in the graph
+the sum of N over all test cases does not exceed 5⋅105
+the sum of M over all test cases does not exceed 5⋅105
+
+Subtasks
+Subtask #1 (30 points): N,M,T≤100
+Subtask #2 (70 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+5 7
+1 3
+1 4
+1 5
+2 3
+2 4
+2 5
+3 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+11000
+
+
+Explanation
+Example case 1: The only possible partition satisfying the given conditions is A={1,2},B={3,4,5}.
+
+
+
+Author:
+4★pshishod2645
+
+
+Editorial:
+https://discuss.codechef.com/problems/INDEP
+
+
+Tags:
+
+               
+                 Graph Algos, Constructive
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2697
+
+
+Date Added:
+25-02-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

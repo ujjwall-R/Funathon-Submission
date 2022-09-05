@@ -1,0 +1,130 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef has two sequences of integers (A1,A2,…,AN)(A1,A2,…,AN) and (B1,B2,…,BN)(B1,B2,…,BN).
+A sequence of integers is beautiful if it contains only distinct integers. For each valid ii:
+
+Chef wants to create a beautiful sequence SiSi. Let's denote the length of this sequence by Li and the sequence by Si,1,Si,2,…,Si,Li.
+The sequence Si is good if for each valid j, Si,j is either equal to Ai+j−1 or Bi+j−1. Note that this means Li must be at most N−i+1.
+Let's denote the maximum possible value of Li (the maximum value such that some good sequence Si with this length exists) by Mi.
+Help Chef find the number of good sequences Si that have the maximum possible length Mi. Since this number may be enormous, compute it modulo 109+7.
+
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1,A2,…,AN.
+The third line contains N space-separated integers B1,B2,…,BN.
+
+Output
+For each test case, print a single line containing N space-separated integers. For each valid i, the i-th of these integers should be the number of possible sequences Si modulo 109+7.
+Constraints
+
+1≤T≤1,000
+1≤N≤105
+|Ai|,|Bi|≤109 for each valid i
+the sum of N over all test cases does not exceed 5⋅105
+
+Subtasks
+Subtask #1 (20 points): 
+
+N≤1,000
+the sum of N over all test cases does not exceed 5⋅103
+
+Subtask #2 (80 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+4
+2 2 3 2
+2 3 4 4
+5
+1 2 2 3 3
+2 1 2 3 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1 2 3 2
+2 1 1 1 2
+
+
+Explanation
+Example case 1:
+
+S1 can only be (2,3,4).
+S2 can be (2,3,4) or (3,4,2).
+S3 can be (3,2), (3,4) or (4,2).
+S4 can be (2) or (4).
+
+Example case 2:
+
+S1 can be (1,2) or (2,1).
+S2 can only be (1,2,3).
+S3 can only be (2,3,1).
+S4 can only be (3,1).
+S5 can be (3) or (1).
+
+
+
+
+Author:
+6★theabd1234
+
+
+Editorial:
+https://discuss.codechef.com/problems/ARCRT
+
+
+Tags:
+
+               
+                 Dynamic DSU, Link Cut Tree
+                 
+                     
+                     Advanced Data Structures, Disjoint Set Union, Advanced Algorithms, Advanced Graph Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2627
+
+
+Date Added:
+21-12-2020
+
+
+Time Limit:
+2.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

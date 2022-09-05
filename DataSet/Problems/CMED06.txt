@@ -1,0 +1,63 @@
+
+You are given three integers LL,MM,NN. Where L and M are randomly picked consecutive integers in an unknown AP(Arithmetic Progression) you need to find the N'th number after M in AP. 
+Input:
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+For each T you are given L,M,N.
+Output:
+Print result in a single line for each test case 
+Sample Input:
+1
+27 33 4
+Sample Output:
+57
+Explanation:
+In this AP 4'th term, after 33 is 57
+
+
+
+Author:
+3★uttam_singhk
+
+
+Editorial:
+https://discuss.codechef.com/problems/CMED06
+
+
+Tags:
+
+               
+                 basic-math, cakewalk, cmed2021, uttam_singhk
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+16-01-2021
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH
+
+
+
+
+
+Submit
+

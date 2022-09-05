@@ -1,0 +1,111 @@
+
+Read problems statements Hindi , Vietnamese , Mandarin Chinese , Russian and Bengali as well.
+In ShareChat, there is a sequence of binary integers A1,A2,…,ANA1,A2,…,AN. You should answer QQ queries on this sequence. In each query, you are given two indices LL and R and a binary integer X.
+The answer to a query is the smallest index i (L≤i≤R) such that the value Ai⊕X is maximum possible, i.e. equal to max(AL⊕X,AL+1⊕X,…,AR⊕X). Here, ⊕ denotes the bitwise XOR operation.
+Input
+
+The first line of the input contains two space-separated integers N and Q.
+N lines follow. For each i (1≤i≤N), the i-th of these lines contains a single binary string denoting the number Ai (in binary representation).
+The following Q lines describe queries. Each of these lines contains two space-separated integers L and R, followed by a space and a binary string denoting the number X (in binary representation).
+
+Output
+For each query, print a single line containing one integer — the answer to that query.
+Constraints
+
+1≤N≤105
+1≤Q≤105
+1≤Ai for each valid i
+1≤L≤R≤N
+1≤X
+the sum of lengths of strings denoting A1,A2,…,AN does not exceed 106
+the sum of lengths of strings denoting X over all queries does not exceed 106
+
+Subtasks
+Subtask #1 (33 points): all binary strings on the input have equal lengths
+Subtask #2 (67 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5 4
+100
+101
+1
+1011
+11
+2 3 10
+1 5 1100
+3 5 1010
+1 5 11100
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+5
+3
+5
+
+
+
+
+
+Author:
+7★smelskiy
+
+
+Editorial:
+https://discuss.codechef.com/problems/BINSTR
+
+
+Tags:
+
+               
+                 Tries with XOR, Persistent Segment Trees, Bitwise Operation, Binary Search
+                 
+                     
+                     Advanced Data Structures, Tries, Persistent Structures, Mathematics, Bit Manipulation, Algorithms, Searching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2573
+
+
+Date Added:
+30-10-2018
+
+
+Time Limit:
+1.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

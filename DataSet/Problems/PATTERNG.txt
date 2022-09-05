@@ -1,0 +1,93 @@
+
+Omy and Ish were learning the pattern printing. In order to learn they give themselves a task. In this task they are given a string and they have to form a pyramid with the pattern as follows:
+RowNumber are one based indexed.
+
+If (RowNumber % 3 == 0) then string is written in left to right while in other cases it is written in right to left order.
+if the string end it will be started again and end of the pyramid need not to be the end of string.
+
+For eg: string is “CODINGCODING” and height of pyramid is “55”
+          C
+         D O
+        I N G
+       I D O C
+      D O C G N
+
+Omi will be asked Q queries and he has to tell the frequency of a character  C in that particular row R of pyramid.
+Input:
+
+First line will contain N, height of pyramid.
+Next line contain a string consists only of Uppercase English Alphabets, length not exceed 106
+Third line contain a single integer Q, the number of queries to be asked.
+Each query contain two space separated integers, R and C, where R is the row number and C is the character.
+
+Output:
+
+For each query, output in a single line the frequency of the alphabet in the given row.
+
+Constraints:
+
+1 ≤ N ≤ 10^18
+1 ≤ Q ≤ 50000
+1≤R≤N
+A≤C≤Z
+
+Sample Input:
+ 5
+ CODING
+ 2
+ 1 C
+ 2 D
+
+Sample Output:
+ 1
+ 1
+
+
+
+
+Author:
+3★nitika_789
+
+
+Editorial:
+https://discuss.codechef.com/problems/PATTERNG
+
+
+Tags:
+
+               
+                 dynamic-programming, lico2020, mathematics, medium, nitika_789
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+19-06-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

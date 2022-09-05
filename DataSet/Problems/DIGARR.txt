@@ -1,0 +1,105 @@
+
+Given a positive integer N, MoEngage wants you to determine if it is possible to rearrange the digits of N (in decimal representation) and obtain a multiple of 5. 
+For example, when N=108, we can rearrange its digits to construct 180=36⋅5 which is a multiple of 5.
+Input Format
+
+The first line contains an integer T, the number of test cases. The description of the T test cases follow.
+Each test case consists of two lines
+The first line contains a single integer D, the number of digits in N.
+The second line consists of a string of length D, the number N (in decimal representation). It is guaranteed that the string does not contain leading zeroes and consists only of the characters 0,1,…9.
+
+Output Format
+
+For each test case, print Yes if it is possible to rearrange the digits of N so that it becomes a multiple 5. Otherwise, print No.
+
+You may print each character of the string in uppercase or lowercase (for example, the strings YeS, yEs, yes and YES will all be treated as identical).
+Constraints
+
+1≤T≤1000
+1≤D≤1000
+1≤N<101000
+Sum of D over all test cases ≤1000.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+3
+115
+3
+103
+3
+119
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Yes
+Yes
+No
+
+
+Explanation
+Test Case 1: The given number is already divisible by 5, therefore the answer is Yes.
+Test Case 2: We can obtain 310=62⋅5 by rearranging the digits of 103, so the answer is Yes.
+Test Case 3: The only numbers that can be obtained by rearranging the digits of 119 are {119,191,911}. None of these numbers are multiples of 5, so the answer is No.
+
+
+
+Author:
+srikkanth_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/DIGARR
+
+
+Tags:
+
+               
+                 cakewalk, cook140, math, srikkanth_adm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+949
+
+
+Date Added:
+28-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,125 @@
+
+Read problems statements Bengali , Mandarin chinese , Russian and Vietnamese as well.
+Chef is a cook and he has recently opened a restaurant.
+The restaurant is open during NN time intervals [L1,R1),[L2,R2),…,[LN,RN)[L1,R1),[L2,R2),…,[LN,RN). No two of these intervals overlap — formally, for each valid ii, j such that i≠j, either Ri<Lj or Rj<Li.
+M people (numbered 1 through M) are planning to eat at the restaurant; let's denote the time when the i-th person arrives by Pi. If the restaurant is open at that time, this person does not have to wait, but if it is closed, this person will wait until it is open. Note that if this person arrives at an exact time when the restaurant is closing, they have to wait for the next opening time.
+For each person, calculate how long they have to wait (possibly 0 time), or determine that they will wait forever for the restaurant to open.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of the input contains two space-separated integers N and M.
+N lines follow. For each valid i, the i-th of these lines contains two space-separated integers Li and Ri.
+M lines follow. For each valid i, the i-th of these lines contains a single integer Pi.
+
+Output
+For each test case, print M lines. For each valid i, the i-th of these lines should contain a single integer — the time person i has to wait, or −1 if person i has to wait forever.
+Constraints
+
+1≤T≤100
+1≤N,M≤105
+1≤Li<Ri≤109 for each valid i
+1≤Pi≤109 for each valid i
+the intervals are pairwise disjoint
+the sum of N for all test cases does not exceed 3⋅105
+the sum of M for all test cases does not exceed 3⋅105
+
+Subtasks
+Subtask #1 (30 points):
+
+the sum of N for all test cases does not exceed 1,000
+the sum of M for all test cases does not exceed 1,000
+
+Subtask #2 (70 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+4 5
+5 7
+9 10
+2 3
+20 30
+5
+6
+7
+35
+1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+0
+2
+-1
+1
+
+
+Explanation
+Query 1: The person coming at time 5 does not have to wait as the restaurant is open in [5,7) slot.
+Query 2: The person coming at time 6 does not have to wait as the restaurant is open in [5,7) slot.
+Query 3: The person coming at time 7 has to wait since the restaurant is closed at time 7. The next slot in which the restaurant opens is [9,10). Thus, the person waits for 2 units of time.
+Query 4: The person coming at time 35 has to wait forever as the restaurant does not open after time 30.
+
+
+
+Author:
+6★kingofnumbers
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHEFRES
+
+
+Tags:
+
+               
+                 Sorting, Binary Search
+                 
+                     
+                     Algorithms, Searching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1776
+
+
+Date Added:
+29-09-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

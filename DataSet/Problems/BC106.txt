@@ -1,0 +1,70 @@
+
+Calculate and print the sum of the elements in an array, keeping in mind that some of those integers may be quite large.   
+Input:
+
+The first line of the input consists of an integer n. 
+The next line contains n space-separated integers contained in the array arr.
+
+Output:
+Print the integer sum of the elements in the array arr.
+Constraints
+
+1≤n≤10
+0≤arr[i]≤10 x 109
+
+Sample Input:
+5
+1000000001 1000000002 1000000003 1000000004 1000000005
+Sample Output:
+5000000015
+EXPLANATION:
+When we add several integer values, the resulting sum might exceed the range of int datatype. You might need to use long long int in C/C++ or long data type in Java to store such sums.
+
+
+
+Author:
+3★ayush163
+
+
+Editorial:
+https://discuss.codechef.com/problems/BC106
+
+
+Tags:
+
+               
+                 array, ayush163, easy, sum
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+12-04-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

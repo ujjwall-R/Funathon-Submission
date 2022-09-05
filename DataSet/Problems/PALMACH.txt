@@ -1,0 +1,116 @@
+
+Dr. Hasan is one of the most famous inventors in the world. One day, he invented a wonderful machine in order to examine the possibility of generating new palindrome strings by merging other strings.
+Hasan's machine takes a sequence of strings (A1,A2,…,AK) as the input; K may be any positive integer. The length of each of these strings must be exactly N; for each valid j, let's denote the j-th character of the i-th string by Ai,j. The machine magically generates a string B by merging these strings and it determines if B is a palindrome. The string B is generated as follows:
+
+B1=A1,1,B2=A2,1,…,BK=AK,1
+BK+1=A1,2,BK+2=A2,2,…,B2⋅K=AK,2
+…
+B(N−1)⋅K+1=A1,N,B(N−1)⋅K+2=A2,N,…,BN⋅K=AK,N
+
+Hasan wants to test his new machine, so he prepared N strings S1,S2,…,SN. Each of these strings has length N. Now, he wants to choose a sequence of K pairwise distinct indices i1,i2,…,iK, where 1≤K≤M, and run the machine with strings (Si1,Si2,…,SiK). His goal is to make the machine report that the string it generated is a palindrome.
+Can you help Hasan with testing his machine and tell him the number of sequences of indices he can choose? Since the answer could be very large, compute it modulo 109+7.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and  M.
+N lines follow. For each i (1≤i≤N), the i-th of these lines contains a single string Si.
+
+Output
+For each test case, print a single line containing one integer — the number of sequences Hasan can choose, modulo 109+7.
+Constraints
+
+1≤T≤100
+1≤N≤103
+1≤M≤N
+|Si|=N for each valid i
+S1,S2,…,SN contain only lowercase English letters
+the sum of N over all test cases does not exceed 5⋅103
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+4 2
+aaaa
+abcb
+abcb
+bcba
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+5
+
+
+Explanation
+Example case 1: Hasan can choose the following sequences of indices:
+
+(1): the input of the machine is ("aaaa") and the generated string B is "aaaa"
+(2,4): the input is ("abcb", "bcba") and B is "abbccbba"
+(3,4): the input is ("abcb", "bcba") and B is "abbccbba"
+(4,2): the input is ("bcba", "abcb") and B is "bacbbcab"
+(4,3): the input is ("bcba", "abcb") and B is "bacbbcab"
+
+
+
+
+Author:
+5★i_love_islam
+
+
+Editorial:
+https://discuss.codechef.com/problems/PALMACH
+
+
+Tags:
+
+               
+                 String, Combinatorics, FFT, NTT, Dynamic Programming
+                 
+                     
+                     Data Structures, Mathematics, Transformations, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2876
+
+
+Date Added:
+18-09-2019
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

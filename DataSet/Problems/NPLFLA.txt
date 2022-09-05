@@ -1,0 +1,82 @@
+
+ 
+The task is simple! You have to form a given number n using following two operations.
+
+
+ Append a digit d to current number. The cost of this operation is d (0<=d<=9)
+Append any "substring of current number" to the current number. The cost of this operation is zero
+
+You start the process with an empty number and repeat one of the above 2 operations until you get the desired number. Print the minimum cost to form the given number.
+
+ 
+Input
+First line will contain T (the number of test cases).
+For each test case input is the number to be formed by the given operations.(The number can be very large).
+
+Output
+Print the minimum cost needed to form the given number using the given two operations.
+Constraints
+
+1 ≤ T ≤ 10
+1 ≤ n ≤ 1010000
+
+Example
+Input:
+2
+123
+1212
+
+Output:
+6
+3
+
+
+
+
+
+Author:
+npl_nitw
+
+
+Editorial:
+https://discuss.codechef.com/problems/NPLFLA
+
+
+Tags:
+
+               
+                 basic-programming, npl_nitw, nplq1602, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+5-09-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

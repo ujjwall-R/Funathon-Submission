@@ -1,0 +1,84 @@
+
+ 
+There is a fight between a boss and his 3 employees. But instead of firing, the boss invites them to a judo fight. As if that was not enough, he says that 2 employees can come together to fight him. If we define the power of the 3 employees as P1,P2 and P3, and W is the power of the boss. Now, the fight is won by the team which has higher total combined power. In case of same power, the employees win. You need to check if the employees can win or not.
+ 
+Input
+The input contains 4 lines: P1, P2, P3 and W, in this order only.
+ 
+Output
+Output a single word: "YES" if the employees can win, "NO" otherwise. Don't print the quotes in the output.
+ 
+Constraints
+
+1 ≤ P1,P2,P3 ≤ 5
+1 ≤ W ≤ 20
+
+ 
+Example
+Input:
+1
+2
+3
+7
+Output:
+NO
+
+ 
+Explanation
+We take 1 + 2 , 2 + 3 or 1 + 3, but all are less than 7. So the boss is invincible.
+            
+            
+            
+            
+            
+        
+
+        
+
+
+Author:
+2★rounaqwl66
+
+
+Editorial:
+https://discuss.codechef.com/problems/PRCS16A
+
+
+Tags:
+
+               
+                 ad-hoc, cakewalk, proc2016, rounaqwl66
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+2-08-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+JAVA, C, CPP14, PYP3
+
+
+
+
+
+Submit
+

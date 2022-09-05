@@ -1,0 +1,113 @@
+
+Read problems statements in mandarin chinese, russian and vietnamese as well.
+You are given N integers. In each step you can choose some K of the remaining numbers and delete them, if the following condition holds: Let the K numbers you've chosen be a1, a2, a3, ..., aK in sorted order. Then, for each i ≤ K - 1, ai+1 must be greater than or equal to ai * C.
+You are asked to calculate the maximum number of steps you can possibly make.
+Input
+
+The first line of the input contains an integer T, denoting the number of test cases. The description of each testcase follows.
+The first line of each testcase contains three integers: N, K, and C
+The second line of each testcase contains the N initial numbers
+
+Output
+For each test case output the answer in a new line.
+Subtasks
+Subtask #1 (40 points):
+
+1 ≤ N ≤ 103 
+1 ≤ Sum of N over all test cases ≤  103 
+
+Subtask #2 (60 points):
+
+Original constraints
+
+Constraints
+
+1 ≤ T ≤ 100
+1 ≤ N ≤ 3 * 105
+1 ≤ K ≤ 64
+2 ≤ C ≤ 50
+1 ≤ ai ≤ 1018
+1 ≤ Sum of N over all test cases ≤  3 * 105 
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+6 3 2
+4 1 2 2 3 1
+6 3 2
+1 2 2 1 4 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+2
+
+
+Explanation
+Testcase 1: You can make one step by choosing {1, 2, 4}.
+Testcase 2: You can make one step by choosing {1, 2, 4} and another by choosing {1, 2, 4}.
+
+
+
+Author:
+6★arpa
+
+
+Editorial:
+https://discuss.codechef.com/problems/DIVSET
+
+
+Tags:
+
+               
+                 Greedy, Sorting, Binary Search
+                 
+                     
+                     Algorithms, Searching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2696
+
+
+Date Added:
+28-07-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

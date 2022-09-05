@@ -1,0 +1,95 @@
+
+Eikooc loves bread. She has NN loaves of bread, all of which expire after exactly MM days. She can eat upto KK loaves of bread in a day. Can she eat all the loaves of bread before they expire?
+Input Format
+
+The first line contains a single integer T - the number of test cases. Then the test cases follow.
+Each test case consists of a single line containing three integers N, M and K - the number of loaves of bread Eikooc has, the number of days after which all the breads will expire and the number of loaves of bread Eikooc can eat in a day.
+
+Output Format
+For each test case, output Yes if it will be possible for Eikooc to eat all the loaves of bread before they expire. Otherwise output No.
+You may print each character of Yes and No in uppercase or lowercase (for example, yes, yEs, YES will be considered identical).
+Constraints
+
+1≤T≤1000
+1≤N,M,K≤100
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+100 100 1
+9 2 5
+19 6 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Yes
+Yes
+No
+
+
+Explanation
+Test case 1: Eikooc can eat one loaf of bread per day for 100 days. Thus none of the bread expires.
+Test case 2: Eikooc can eat 5 loaves of the first day and 4 loaves on the second day. Thus none of the bread expires.
+Test case 3: There is no way Eikooc can consume all the loaves of bread before it expires.
+
+
+
+Author:
+4★the_hyp0cr1t3
+
+
+Editorial:
+https://discuss.codechef.com/problems/EXPIRY
+
+
+Tags:
+
+               
+                 cakewalk, math, start34, the_hyp0cr1t3
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+440
+
+
+Date Added:
+10-04-2022
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

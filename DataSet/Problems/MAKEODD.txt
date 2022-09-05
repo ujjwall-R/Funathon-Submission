@@ -1,0 +1,119 @@
+
+Vishesh just found an array A having N positive integers. He hates even numbers and would like to make the array full of only odd numbers. To do so, he is allowed to do the following operation.
+
+Pick a positive integer X such that X=2Y for some non-negative integer Y. Then, for all elements Ai in A, if Ai is divisible by X, then we divide Ai by X (in other words, we assign Ai←AiX).
+
+Let's define f(B) as the minimum operations required to make an array B have only odd numbers using the operation described above. Find the sum of f(a) over all subarrays a of A.
+Note: A subarray of A is acquired by removing some (possibly none) elements from the beginning and some (possible none) elements from the end of A.
+Input Format
+
+The first line of each input contains T - the number of test cases. The test cases then follow.
+The first line of each test case contains an integer N - the size of A.
+The second line of each test case contains N space-separated integers A1,A2,…,AN - the array A.
+
+Output Format
+For each test case, output on a single line the answer to the problem.
+Constraints
+
+1≤T≤1000
+1≤N≤105
+1≤Ai≤106
+Sum of N over all test cases is not more than 5⋅105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+3
+1 2 4
+3
+1 2 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+7
+4
+
+
+Explanation
+
+Test case 1:
+[1] requires 0 operations.
+[1,2] requires 1 operation.
+[1,2,4] requires 2 operations.
+[2] requires 1 operation.
+[2,4] requires 2 operations.
+[4] requires 1 operation.
+
+Therefore, sum of f(a) over all subarrays a of A is 7.
+
+Test case 2:
+[1] requires 0 operations.
+[1,2] requires 1 operation.
+[1,2,1] requires 1 operation.
+[2] requires 1 operation.
+[2,1] requires 1 operation.
+[1] requires 0 operations.
+
+Therefore, sum of f(a) over all subarrays a of A is 4.
+
+
+
+Author:
+4★vishesh_s
+
+
+Editorial:
+https://discuss.codechef.com/problems/MAKEODD
+
+
+Tags:
+
+               
+                 bitmasking, bitwise-operation, dynamic-programming, easy-medium, exun2021, math, vishesh_s
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3002
+
+
+Date Added:
+6-01-2022
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

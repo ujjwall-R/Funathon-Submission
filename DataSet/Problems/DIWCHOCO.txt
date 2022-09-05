@@ -1,0 +1,129 @@
+
+          
+            It's Diwali season and you and your brother have received N chocolate bars from your relatives. Now you and your brother want to divide the chocolate amongst yourselves. Being elder it's your responsibility to cut the bars into multiple pieces (K at most). Your brother will take the largest amongst all the pieces, now you need to divide the bars such that he receives the smallest possible bar.
+
+You have N chocolate bars of lengths C1,C2,...Cn. 
+
+When you cut a chocolate bar of length L whose distance from an end is t (0<t<L), it becomes two chocolate bars of lengths t and L − t.
+
+
+            
+                
+                    Input Format
+
+First-line will contain N and K, the number of chocolate bars, and the maximum number of cuts possible.
+Next line will contain N integers C1,C2,....Cn denoting length of each chocolate bar.
+
+Output Format
+
+Print a single value after rounding it up to an integer denoting the shortest possible length of the longest chocolate bar.
+
+Constraints
+
+1≤N≤2∗105
+0≤K≤109
+0≤Ci≤109
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2 3
+5 7
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+
+
+Explanation
+First, we cut 7 into 3 parts with help of 2 cuts making 3 bars of size 2.33 each. Next, we cut 5 into 2 parts using 1 cut making 2 bars of size 2.5 each. Rounding the largest bar that is 2.5 gives 3.
+
+                        Sample Input 2
+                        
+
+
+
+
+
+3 1
+3 4 5
+
+
+
+                        Sample Output 2
+                        
+
+
+
+
+
+4
+
+
+Explanation
+We cut the chocolate bar of size 5 into 2 parts making 2 bars of size 2.5 each. The largest bar we get is size 4.
+
+
+
+Author:
+4★mrslowmo
+
+
+Tester:
+5★code_zer0
+
+
+Editorial:
+https://discuss.codechef.com/problems/DIWCHOCO
+
+
+Tags:
+
+               
+                 binary-search, medium, mrslowmo
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+26-10-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

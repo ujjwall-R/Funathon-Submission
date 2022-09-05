@@ -1,0 +1,71 @@
+
+Innovature Club has organised a small after party quiz competition for all the participants of Innovatron. But it ain’t easy to get in. You must prove that you’re worthy of participating in the quiz.
+To check your worthiness the security guide gives you a number N and you must tell him the smallest number possible which holds the following properties.
+
+Sum of all the digits of the number should be equal to N.
+Number must be divisible by 10^N.
+
+Give the correct pass-code to the security guard and prove your worthiness.
+Input
+The first line contains an integer T,  number of test cases. For each test case, there is an integer N.
+Output
+For each test case, the output is the smallest number following properties.
+Constraints
+1 <= T <= 100
+1 <= N <= 1000
+Input
+2
+3
+11  
+Output
+3000
+2900000000000  
+
+
+
+Author:
+2★rnkjoshi
+
+
+Editorial:
+https://discuss.codechef.com/problems/INNOV101
+
+
+Tags:
+
+               
+                 easy, inno2020, rnkjoshi, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+14-09-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

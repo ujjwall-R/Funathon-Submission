@@ -1,0 +1,72 @@
+
+You are given a string ss, of length nn. You have to output all the sub-sequences of ss, with length exactly equal to n, in increasing order, each in a new line.
+A subsequence is a sequence that can be derived from another sequence by deleting some or no elements without changing the order of the remaining elements.
+For ex.: abc is a sub-sequence of abdc, while acb is not.
+Input:
+
+First line will contain n, the length of the string.
+Second line will contain the string s.
+
+Output:
+For the given string s, print all the sub-sequences of s, with length exactly equal to n.
+Constraints:
+
+1≤n≤106
+s only contains Lower-Case English Alphabets.
+
+Sample Input:
+3
+hey
+
+Sample Output:
+hey
+
+
+
+
+Author:
+6★vok_8
+
+
+Editorial:
+https://discuss.codechef.com/problems/STRLS1
+
+
+Tags:
+
+               
+                 algorithm, array, beginner, bgnr2020, cakewalk, codechef, college-chapter, easy, simple, simple-easy, strings, vok_8
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+18-11-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

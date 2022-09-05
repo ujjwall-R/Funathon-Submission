@@ -1,0 +1,91 @@
+
+Cooper is dangling above Mann’s planet in his lander. Dr Mann has in vain tried to dock with the Endurance, resulting in a huge blast. Cooper is trying to save the Endurance by docking with it, but Dr Mann stops him. So Cooper has to attack Dr Mann’s lander to stop him from getting to the Endurance and save the planet.
+Cooper has nn missiles arranged in a line each labeled with an impact number (positive, negative, or zero). You can throw as many missiles at Dr Mann as you like, and if a missile hits his spacecraft, it will cause damage to him. Each missile will hit it’s target exactly once. He can launch either one or two consecutive missiles at a time. He can launch only consecutive missiles together. If he launches two missiles, he causes damage equal to the product of the impact numbers on the missiles. Otherwise, if only one missile is launched, he causes damage equal to the impact number on the missile. For example, if the line of missiles is (5;−3;−5;1;2;9;−4)(5;−3;−5;1;2;9;−4), the maximum possible damage is 3535, by launching missile pairs (−3;−5) and (2;9), and each other missile separately. Note that a higher damage of 39 is possible if the missile (−4) is not launched, but Cooper has to launch all the missiles to make sure that he also decreases the weight of his lander.
+Given the line of missile numbers, Cooper wants you to find the maximum possible damage and the set of pairs of missiles required to achieve this score and also the number of missiles.
+Input format
+
+The first line consists of T, the number of test cases.
+For each test case, the first line has an integer n, denoting the number of bottles.
+The second line has n integers, each of them being the integer on the label.
+
+Constraints
+
+1≤T≤10
+1≤N≤10000
+−107≤Ai≤107
+
+Output Format
+
+Print multiple lines for each test case.
+The first line contains the maximum possible damage and the total number of launches.
+The second line has the number of missile pairs to be launched.
+The next set of lines has a pair of integers each, containing the index of the missiles to be hit simultaneously. Indexing starts from 1.
+If there are multiple optimal solutions, you may print any.
+
+Sample Input
+2
+7
+5 -1 -5 -3 2 9 -4
+7
+5 -3 -5 2 3 9 4
+
+Sample Output
+33 5
+2
+3 4
+5 6
+62 4
+3
+2 3
+4 5
+6 7
+
+
+
+
+Author:
+5★shriram_c253
+
+
+Editorial:
+https://discuss.codechef.com/problems/SOPC011
+
+
+Tags:
+
+               
+                 depth-first-search, dynamic-programming, shpc2019, shriram_c253
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-12-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

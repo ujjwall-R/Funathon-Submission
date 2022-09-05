@@ -1,0 +1,117 @@
+
+Read problems statements in Russian.
+Chef has an array AA of size NN. Chef wants to choose any subsequence of size exactly ⌈N2⌉ from the array such that GCD of all the elements in that sequence must be 2. Chef names such a kind of sequence as a half-sequence.   
+Help Chef to find whether he would be able to select any half-sequence in the given array.
+As a reminder,
+
+A subsequence of an array is a sequence that can be derived from the given array by deleting zero or more elements without changing the order of the remaining elements.   
+GCD stands for Greatest Common Divisor. The greatest common divisor of a subsequence is the largest integer d such that all the numbers in sequence are divisible by d. For more information, refer to here.
+⌈x⌉ is the ceiling (round up) operation: ⌈3.5⌉=4,⌈2⌉=2.   
+
+Input Format
+
+The first line contains an integer T denoting the number of test cases. The T test cases then follow.
+The first line of each test case contains a single integer N denoting the size of the array.
+The second line of each test case contains N space-separated integers A1,A2....AN denoting the given array.
+
+Output Format
+For each test case, output on one line YES if Chef can find a half-sequence, else print NO. Output is case insensitive.
+Constraints
+
+1≤T≤20
+2≤N≤105
+1≤Ai≤109
+Sum of N over all test cases does not exceed 105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+5
+1 2 3 4 5
+4
+1 2 3 4
+3
+30 42 70
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+NO
+YES
+NO
+
+
+Explanation
+
+For the first test case, Chef wants to select ⌈52⌉=3 numbers. But for any 3 numbers, GCD would not be 2. Therefore the answer is NO.
+For the second test case, Chef wants to select ⌈42⌉=2 numbers. Chef can select the subsequence [2,4] with GCD of 2. Therefore the answer is YES.
+For the third test case, Chef wants to select ⌈32⌉=2 numbers. But for any 2 numbers, GCD would be bigger than 2. Therefore the answer is NO.
+
+
+
+
+Author:
+4★amruth_kumar
+
+
+Tester:
+7★anshugarg12
+
+
+Editorial:
+https://discuss.codechef.com/problems/HFSEQ
+
+
+Tags:
+
+               
+                 GCD, Observation, Subsequence
+                 
+                     
+                     Data Structures, Arrays, Mathematics, Number Theory, Algorithms, Groupings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2543
+
+
+Date Added:
+17-09-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

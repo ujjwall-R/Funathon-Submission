@@ -1,0 +1,92 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+For positive integers aa and bb, we say that a fraction abab is good if it is equal to mm+1 for some positive integer m.
+You are given an integer N. Find the number of pairs of integers i,j such that 1≤i,j≤N and the fraction ii+1⋅j+1j is good.
+Input
+The first and only line of the input contains a single integer N.
+Output
+Print a single line containing one integer ― the number of pairs of integers i,j (1≤i,j≤N) such that ii+1⋅j+1j is good.
+Constraints
+
+1≤N≤1,000,000
+
+Subtasks
+Subtask #1 (5 points): 1≤N≤2,000
+Subtask #2 (10 points): 1≤N≤100,000
+Subtask #3 (85 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+8
+
+
+Explanation
+The following eight pairs (i,j) give good fractions: (1,2), (1,3), (2,3), (2,4), (2,5), (3,4), (3,5) and (4,5).
+
+
+
+Author:
+ildar_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/FRCTNS
+
+
+Tags:
+
+               
+                 GCD, Sieve of Eratosthenes, Divisors
+                 
+                     
+                     Mathematics, Number Theory, Integer Factorisation
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2817
+
+
+Date Added:
+27-11-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

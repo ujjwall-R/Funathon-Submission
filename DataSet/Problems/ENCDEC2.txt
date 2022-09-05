@@ -1,0 +1,71 @@
+
+You are the principal of the Cake school in chefland and today is your birthday. You want to treat each of the children with a small cupcake which is made by you. But there is a problem, You don't know how many students are present today.
+The students have gathered of the morning assembly in RR rows and CC columns. Now you have to calculate how many cakes you have to make such that each child gets a cupcake. 
+Input:
+
+First-line will contain TT, the number of test cases. Then the test cases follow. 
+Each test case contains a single line of input, two integers R and C. 
+
+Output:
+For each test case, output number of cupcakes you have to make.
+Constraints
+
+1≤T≤1000
+2≤R,C≤106
+
+Sample Input:
+1
+5 10
+
+Sample Output:
+50
+
+
+
+
+Author:
+4★akay_99
+
+
+Editorial:
+https://discuss.codechef.com/problems/ENCDEC2
+
+
+Tags:
+
+               
+                 akay_99, cakewalk, easy, ende2020
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+20-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,112 @@
+
+You are given an integer NN. Construct an array PP of size NN such that:
+
+P is a permutation of the first N natural numbers, i.e, each integer 1,2,3,…N occurs exactly once in P. For example, [1,3,2] is a permutation of size 3, but [1,3,4] and [2,1,2] are not.
+P is indivisible. P is said to be indivisible if i does not divide Pi for every index 2≤i≤N.
+
+It can be proven that under the given constraints, there always exists an indivisible permutation. If there are multiple, you may print any of them.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer N, denoting the size of the indivisible permutation you must construct.
+
+Output Format
+
+For every test case, print a single line containing N space-separated integers. These integers must form an indivisible  permutation.
+
+Constraints
+
+1≤T≤600
+2≤N≤105
+Sum of N over all test cases does not exceed 2⋅105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+2
+3
+4
+5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2 1 
+1 3 2 
+1 3 4 2 
+4 5 2 3 1 
+
+
+Explanation
+
+For the last test case:
+P2=5 is not divisible by 2
+P3=2 is not divisible by 3
+P4=3 is not divisible by 4
+P5=1 is not divisible by 5
+Since i does not divide Pi for every index 2≤i≤N, the permutation is indivisible.
+
+
+
+
+Author:
+utkarsh_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/INDIPERM
+
+
+Tags:
+
+               
+                 ad-hoc
+                 
+                     
+                     Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+9-12-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

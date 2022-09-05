@@ -1,0 +1,80 @@
+
+You are given a family tree with NN members numbered 1...N1...N. Every person ii, except for the founder of the family (root) has a parent denoted by P[i]. P[root] = -1 by definition. Person i is a descendant of person j if i belongs to the subtree rooted at j.
+The net worth (adjusted for inflation) is given for all the members of the family. Your task is to find the maximum difference in net worth's of two members where one member is a descendant of the other.    
+You can assume that no two members of this family married each other. So it remains a "family tree". 
+Input:
+
+First line will contain  an integer N, denoting the number of members. 
+Second line contains N space seperated integers W[1], W[2] … W[N] denoting the net_worth of the N members. 
+Third line contains  N space seperated integers P[1], P[2] … P[N] denoting the parents of the N members.
+
+Output:
+Output in a single line the maximum difference in net worth's of any two members where one member is a descendant of the other.
+Constraints
+
+2≤N≤105
+−108≤W[i]≤108
+1≤P[i]≤N
+
+Sample Input:
+4 
+5 10 6 12 
+2 -1 4 2 
+
+Sample Output:
+6
+
+EXPLANATION:
+This structure of the tree is:
+        2            
+       / \            
+      1   4
+         /
+        3
+
+The maximum difference occurs between the 3rd and 4th members. W[3]−W[4]=6. 
+
+
+
+Author:
+3★bluishgreen
+
+
+Tags:
+
+               
+                 bluishgreen, depth-first-search, dynamic-programming, easy-medium, graphs, jp2018, trees
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+29-05-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, PYPY, PHP, JS
+
+
+
+
+
+Submit
+

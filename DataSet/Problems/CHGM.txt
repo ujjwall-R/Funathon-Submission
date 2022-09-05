@@ -1,0 +1,83 @@
+
+Like everyone Chef is also interested in the rivalry between T-Series and PewDiePie about who will be the biggest youtuber (depending on no. of subscribers). Now chef has organized an event to answer this question where both the two youtubers have to face each other in a game, the winner will be the biggest youtuber of 20th century. The game is simple, there is a stack contains N numbers of disks initially. In each move, a player can remove X (>0) numbers of disks such that X divides K where K in the number of disks present at that time. The player who removes the last disk loses the game. Chef decides how many disks will be there initially and who will make the first move. Both the players are very good in this game and they play optimally.
+
+Input Format:
+
+First line will contain TT, number of testcases. Then the testcases follow.
+Each testcase contains of a single line of input containing NN and P, where N denotes no. of disks initially present on stack and P is a character “T”(For T-Series) or “P”(For PewDiePie) denoting who will make the first move.
+
+
+Output Format:
+For each testcase, output a single line as “T-Series” or “PewDiePie” (without double quotes) denoting the winner of the game.
+
+Constraints
+
+1≤T≤105
+1≤N≤109
+
+
+Sample Input
+
+4
+2 T
+30 P
+19 P
+9 T
+
+
+Sample Output
+
+T-Series
+PewDiePie
+T-Series
+PewDiePie
+
+
+
+
+Author:
+2★tomy_495
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHGM
+
+
+Tags:
+
+               
+                 easy-medium, encoding, enma2019, game-theory, tomy_495
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+25-03-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

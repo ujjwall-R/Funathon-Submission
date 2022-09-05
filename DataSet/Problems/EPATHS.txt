@@ -1,0 +1,102 @@
+
+There are NN hill stations numbered from 0 to N−1, all the stations have some fixed elevations and are connected with every other station directly or indirectly via roads. The roads are bidirectional and there is some cost associated with each of these roads.
+Roads are given in the format [u, v, w] which denotes that there is a road between station u and station v with cost w.
+A path is a sequence of stations [S0, S1, S2, ………… SK] such that S0 is the starting station and SK is the destination station and there is a road between every Si & Si+1, where 0≤i≤K−1.
+Your task is to find the number of easy paths from station 0 to station N−1. Easy path is a path that satisfies: elevation(Si) > elevation(Si+1) for 0≤i≤K−1. 
+Elevation of a station is defined as the minimum cost of this station from station no. N−1.
+Since that number may be too large, print it modulo 109 + 7.
+
+Input:
+
+First-line will contain T the number of test cases.
+The first line of each test case line will contain two integers, N the number of hill stations, and E the number of roads.
+Next E lines will contain three integers u, v & w, representing a road between u and v with cost w.
+
+
+Output:
+For each test case, output in a single integer representing the number of easy paths from station 0 to station N−1 modulo 109 + 7.
+
+Constraints
+
+1≤T≤10
+2≤N≤104
+N−1≤E≤min(4∗104,N∗(N−1)/2)
+0≤u,v≤N−1
+1≤w≤105
+
+
+Subtasks
+
+ Subtask #1 (30 points) : N≤20
+ Subtask #2 (70 points) : N≤104
+
+
+Sample Input:
+    1
+    6 7
+    0 1 7 
+    1 4 6 
+    1 2 4 
+    2 3 3 
+    2 5 10
+    3 5 1
+    3 4 2
+
+
+Sample Output:
+    3
+
+
+EXPLANATION:
+
+Easy Paths:
+[0, 1, 2, 5], [0, 1, 2, 3, 5], [0, 1, 4, 3, 5] 
+
+
+
+Author:
+pec_chapter
+
+
+Editorial:
+https://discuss.codechef.com/problems/EPATHS
+
+
+Tags:
+
+               
+                 depth-first-search, dijkstra-algorithm, dynamic-programming, pec_chapter, ucsp2021
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+31-03-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,69 @@
+
+You are given a string containing N lower case letters. So you will be thinking what to do with that? Huh, well here’s what you need to do, you need to count occurrences of each character and then print characters having higher frequency all the way to the letter having lower frequency. For more simplicity as we are friends, print the characters alphabetically if they are having same frequencies in the string.
+Input:
+
+First and only line a string with lower case N letters.
+
+Output:
+Output a single line of letters ranked according to their frequency in descending order !
+Constraints
+
+2≤N≤10002≤N≤1000
+
+Sample Input:
+aabaabba
+
+Sample Output:
+ab
+
+EXPLANATION:
+Here letter 'a' occurs 5 times and letter 'b' occurs 3 times so answer will be 'ab'
+
+
+
+Author:
+1★yashrs
+
+
+Editorial:
+https://discuss.codechef.com/problems/LETCNT
+
+
+Tags:
+
+               
+                 algorithm, strings, yashrs
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+9-10-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

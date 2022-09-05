@@ -1,0 +1,99 @@
+
+Chef has total 2 dice with him.
+one dice he gives to a robot.
+another dice he gives you to play.
+And starts the game……
+1st  dice will be thrown by a robot automatically.
+2nd  dice will be thrown by you if "necessary".
+your competitor chef will give you a challenge between the two cases.
+case (N=1): Bring total sum of both dice below and equal to six.
+case (N=2): Bring total sum of both dice above 6  and (below and equal to twelve).
+so you accept his challenge.
+If there is a chance that you can win then print WIN and also find the minimum number you should get on the second dice to win and print it on 2nd line. If there is no need of number on second dice print "0 "on next line followed by WIN as there is no need to throw the second dice in this case.
+if it is not possible to win, print a single line LOOSE.
+Note: 
+The robot has a unique dice which can give any number between 1 to 12.
+dice you have got is standard dice on which any number between 1 to 6 can appear.
+Input:
+
+First-line will contain TT, the number of test cases. Then the test cases follow. 
+Each test case contains a single line of input, two integers, first, it is the decision of your competitor is either N=1 or N=2.The second integer is number appeared on dice thrown by Robot.
+
+Output:
+For each test case, the output is a double line answer if you win, printing WIN  on the first line and print minimum number required to win that should appear on the second dice on next line. If there is no need of number on second dice print 0 as you will not throw it.
+OR
+It is a single line answer printing LOOSE if you lose.
+Constraints
+
+1≤T≤101≤T≤10
+1≤N≤21≤N≤2
+
+Sample Input:
+    2
+    1 8
+    2 3
+
+Sample Output:
+ LOOSE
+ WIN
+ 4
+
+EXPLANATION:
+This list is :
+For 1st test case:  competitor says N=1 means you should get number less than or equal to 6 to win. The number appeared on 1 st dice thrown by the robot is 8.
+in this case, you can't win as you cant get number less than or equal to 6 because count from the first dice is greater than 6 that is 8.
+Hence the answer is LOOSE.
+For 2nd test case: competitor says N=2, means you should get number greater 6 and l(ess than or equal to 12 ) to win. The number appeared on 1 st dice thrown by the robot is 3.
+in this case, you can win the minimum number you need to win is 4. As 3+4=7 which is greater than 6.
+Hence the answer is :
+WIN
+4
+
+
+
+Author:
+2★dhussa_09
+
+
+Editorial:
+https://discuss.codechef.com/problems/DICE
+
+
+Tags:
+
+               
+                 cakewalk, clag2020, dhussa_09, may20
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+8-05-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,133 @@
+
+Chef gives you a matrix AA of size N⋅MN⋅M containing only zeros and ones. In one operation, you can swap any 22 columns. You can apply this operation any number of times.
+What is the area (total number of cells) of the largest submatrix of the given matrix  containing all ones you can achieve if you apply the operations optimally?
+
+Input Format
+
+The first line of the input contains a single integer TT denoting the number of test cases. The description of TT test cases follows
+The first line of each test case contains two space-separated integers NN and MM.
+NN lines follow. For each valid ii, the i−thi−th of these lines contains MM space-separated integers Ai,1,Ai,2,Ai,3,…,Ai,M.Ai,1,Ai,2,Ai,3,…,Ai,M.
+
+Output Format
+For each test case, print a single line containing one integer ― the area (total number of cells) of the largest submatrix containing all ones you can achieve.
+Constraints
+
+1≤T≤101≤T≤10
+1≤N⋅M≤1061≤N⋅M≤106
+the sum of N⋅MN⋅M over all test cases does not exceed 106106
+Ai,j∈{0,1}Ai,j∈{0,1}
+
+Subtasks
+Subtask #1 (15 points): N=1N=1
+Subtask #2 (15 points): N=2N=2
+Subtask #3 (25 points): 1≤N,M≤301≤N,M≤30
+Subtask #3 (45 points): Original Constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+1 7
+1 0 0 1 0 1 1
+2 6
+1 0 1 1 0 1
+1 1 1 0 1 1
+3 3
+1 0 0
+1 1 1
+1 0 1
+6 6
+1 0 1 1 0 1
+0 0 1 1 1 0
+1 0 1 0 1 0
+0 0 1 1 0 0
+1 1 1 0 1 1
+1 1 0 0 0 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+6
+4
+6
+
+
+Explanation
+Example case 1: You can achieve the following matrix after applying the operations optimally-
+0 0 0 1 1 1 1 
+
+Example case 2: You can achieve the following matrix after applying the operations optimally-
+0 0 1 1 1 1
+1 1 1 1 1 0
+
+The submatrix with largest area containing all ones starts from A1,3A1,3 (top-left corner) and ends at A2,5A2,5 (bottom-right corner) and has 6 cells.
+Example case 3: You can achieve the following matrix after applying the operations optimally-
+0 1 0
+1 1 1
+1 1 0
+
+The submatrix with largest area containing all ones starts from A2,1A2,1 (top-left corner) and ends at A3,2A3,2 (bottom-right corner) and has 4 cells.
+
+
+
+Author:
+5★akshitm16
+
+
+Tester:
+5★akshitm16
+
+
+Editorial:
+https://discuss.codechef.com/problems/BINMAT
+
+
+Tags:
+
+               
+                 akshitm16, dynamic-programming, incb2021, matrices, medium, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-09-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

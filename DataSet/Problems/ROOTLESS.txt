@@ -1,0 +1,117 @@
+
+You are given a tree with N nodes, with each node numbered uniquely with 1..N.
+Movement from a particular node to its parent(if exists) is the only allowed move and it costs 1 rupee. That is from any node U we can go to parent(U) in 1 rupee, parent(parent(U)) in 2 rupees, parent(parent(parent(U))) in 3 rupees etc.
+We have Q queries of the form r, u, v and each query is interpreted as follows:
+
+The tree is rooted at r
+One person is standing at u and another one is standing at v.
+Both of them want to meet at a common location with each one spending as minimum as possible.
+The answer to the query is x y, where x is the minimum cost for the person standing initially at u and y is the minimum cost for the person standing initially at v to meet in a common location.
+
+Input:
+
+First line will contain two integers N and Q, the size of the tree and number of queries.
+It is followed by N-1 lines with each line containing two space separated integers indicating an edge between the two nodes in the tree.
+It is followed by Q lines, where each line has three space separated integers r u v, root of the tree, initial location of person 1 and initial location of person 2 respectively. 
+
+Output:
+For each query output two integers x and y in a new line, where x is the cost for person 1 and y is the cost for person 2 to reach the common point.
+Constraints
+
+1≤N,Q≤105
+1≤Nodenumber≤N
+1≤r,u,v≤N
+
+Sample Input:
+5 3
+1 2
+1 3
+2 4
+2 5
+1 5 3
+2 5 3
+4 5 3
+
+Sample Output:
+2 1
+1 2
+1 2
+
+EXPLANATION:
+When tree is rooted at 1, it looks like
+             1
+
+            / \
+
+          2   3
+
+        /  \
+
+      4     5
+
+So the common point with minimum cost for node 5 and node 3 is node 1, so cost for person at node 5 is 2 and cost for person at node 3 is 1.
+When tree is rooted at 4, it looks like
+                     4
+
+                    |
+
+                    2
+
+               /         \
+
+        5                   1
+
+                                  \
+
+                                       3
+
+So the common point with minimum cost for node 5 and node 3 is node 2, so cost for person at node 5 is 1 and cost for person at node 3 is 2.                                    
+
+
+
+Author:
+5★murugappan_s
+
+
+Editorial:
+https://discuss.codechef.com/problems/ROOTLESS
+
+
+Tags:
+
+               
+                 ccpc2019, depth-first-search, lowest-common-ancestor, medium-hard, murugappan_s, trees
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+18-06-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,74 @@
+
+Jim is playing the game Zombie Hunter 2.0. It is a fun game, you have a machine gun with infinite ammo and an infinite number of zombies running towards you. All you have to do is kill as many zombies as possible (not much fun after all!). At a particular instant, Jim can see N zombies on his map (a 2D Plane). He considers a zombie as dangerous if it is at most D distance away from him. Jim always stands at the center (0,0) of the map (he is lazy to move around even in a game!). Can you help him find the number of dangerous zombies on the map, given the positions of the zombies on the map at a particular instant?
+Input:
+
+First line contains two space-separated integers denoting N,D.
+N lines follow. Each line contains two space-separated integers Xi,Yi denoting the x and y coordinates of the ith zombie. 
+
+Output:
+Output a single line containing a single integer denoting the number of dangerous zombies at that instant.
+Constraints:
+
+1≤N≤2×105
+0≤D≤2×105
+0≤|Xi|,|Yi|≤2×105
+
+Sample Input:
+4 2
+0 2
+-2 0
+2 2
+1 1
+
+Sample Output:
+3
+
+
+
+
+Author:
+5★kishen1912000
+
+
+Editorial:
+https://discuss.codechef.com/problems/ZHUNT
+
+
+Tags:
+
+               
+                 cakewalk, cnvx2020, kishen1912000
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+24-09-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

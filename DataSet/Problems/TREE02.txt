@@ -1,0 +1,83 @@
+
+A tree is an undirected connected graph without any cycles. You are given a tree with N nodes and a parameter K. Each node in the node has a positive weight W[]. The tree needs to be partitioned into at most K subtrees by removing at most K-1 edges such that the maximum weight of the resulting subtrees is as small as possible. Find that smallest value of the maximum subtree weight that can be obtained by removing at most K-1 edges.
+Input
+First Line contains N, the number of nodes in the tree and K, the number of subtrees.
+Next line contains N integers, denoting weights of the nodes. The ith integer denotes W[i] 
+Next, there are N-1 lines with 2 integers each, denoting the edges in the tree. 
+
+Output
+Output a single integer, the answer. 
+Constraints
+
+1 ≤ N ≤ 20000
+1 ≤ K ≤ N
+1 ≤ W[i] ≤ 10^9
+
+ 
+Example
+Input1:
+3 2
+5 10 2
+1 2 
+2 3
+Input2:
+3 3
+5 10 2
+1 2
+1 3
+Output1:
+12
+
+Output2:
+10
+
+
+ 
+Explanation
+Example case 1. We can break the edge between 1 and 2
+Example case 2. We can break both the edges
+
+
+
+Author:
+6★harrypotter192
+
+
+Tags:
+
+               
+                 binary-search, depth-first-search, harrypotter192, trees
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-09-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

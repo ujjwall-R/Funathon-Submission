@@ -1,0 +1,83 @@
+
+Gru has a string S of length N, consisting of only characters a and b for banana and P points to spend.
+Now Gru wants to replace and/or re-arrange characters of this given string to get the lexicographically smallest string possible. For this, he can perform the following two operations any number of times.
+1) Swap any two characters in the string. This operation costs 1 point. (any two, need not be adjacent)
+2) Replace a character in the string with any other lower case english letter. This operation costs 2 points.
+Help Gru in obtaining the lexicographically smallest string possible, by using at most P points.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains two lines of input, first-line containing two integers N , P.
+The second line contains a string S consisting of N characters.
+
+Output:
+For each testcase, output in a single containing the lexicographically smallest string obtained.
+Constraints
+
+1≤T≤10
+1≤N≤105
+0≤P≤2N
+S only consists of ′a′ and ′b′
+
+Sample Input:
+1
+3 3
+bba
+
+Sample Output:
+aab
+
+Explanation:
+We swap S[0] and S[2], to get abb. With the 2 remaining points, we replace S[1] to obtain aab which is the lexicographically smallest string possible for this case.
+
+
+
+Author:
+5★kabeer27
+
+
+Editorial:
+https://discuss.codechef.com/problems/BANSTR
+
+
+Tags:
+
+               
+                 String, Greedy, Binary Search, Prefix Sum
+                 
+                     
+                     Data Structures, Algorithms, Searching, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2558
+
+
+Date Added:
+21-12-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

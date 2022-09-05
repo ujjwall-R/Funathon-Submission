@@ -1,0 +1,76 @@
+
+Chef has provided with a sequence of integers of length NN arranged in an unsorted fashion.
+The elements of the sequence are ordered as A1,A2,A3.....A′NA1,A2,A3.....A′N
+The task of the chef is to identify the highest and lowest value among the given sequence. It is assured that the sequence given contains the highest and the lowest value always
+Please help chef in finding the desired value.
+Input:
+
+First line will contain N, number of elements in the sequence.  
+Next line contains  N integers of the sequence  . 
+
+Output:
+Print the HIGHEST and  LOWEST value of the sequence respectively.
+Constraints
+
+1≤N≤100
+2≤A1,A2,A3.....A′N≤104
+
+Sample Input:
+5
+3 2 7 9 4
+
+Sample Output:
+9 2
+
+EXPLANATION:
+This list is :
+[3,2,7,9,4]  so the highest value is 9 and lowest is 2 respectively.
+
+
+
+Author:
+3★manish_motwani
+
+
+Editorial:
+https://discuss.codechef.com/problems/CPCEJC2
+
+
+Tags:
+
+               
+                 cakewalk, easy, manish_motwani, sptc2020
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+30-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

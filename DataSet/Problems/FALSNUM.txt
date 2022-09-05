@@ -1,0 +1,99 @@
+
+Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
+One day, Chef's friend gave him a wrong number WW containing N+1N+1 digits and said that the actual number AA is the largest possible number that can be obtained from deleting exactly one digit of W. Chef was able to find A but forgot W. 
+Given A, find the smallest possible number W of length N+1 without leading 0's that is consistent with the story above. We can show that there is always at least one such W consistent with the story.
+Input
+
+The first line contains an integer T, the number of test cases. Then the test cases follow. 
+Each test case contains a single line of input, an integer A. 
+
+Output
+For each testcase, output in a single line string representing the answer to the problem.
+Constraints
+
+1≤T≤100
+0≤Ai≤9 for all valid i, where Ai denotes the i-th digit of A
+A1≠0 (no leading zero)
+10≤|A|≤5000, where |A| denotes the number of digits of A
+
+Subtasks
+Subtask #1 (100 points): Original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+9876543211
+12345678999
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+19876543211
+102345678999
+
+
+Explanation
+It can be proven that the above output strings are the smallest possible numbers from which you can arrive at the correct number in the input.
+
+
+
+Author:
+daanish_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/FALSNUM
+
+
+Tags:
+
+               
+                 Greedy, Observation
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1286
+
+
+Date Added:
+18-05-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

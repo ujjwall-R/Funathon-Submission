@@ -1,0 +1,84 @@
+
+Chef likes to play with array elements. His teacher has given him an array problem. But now he is busy as Christmas is coming. So, he needs your help. Can you help him to solve this problem.
+You are given an array (A1,A2,A3……AN)(A1,A2,A3……AN) of length NN. You have to create an another array using the given array in the following ways:
+For each valid i, the ith element of the output array will be the sum of the ith element and (A[i])th element if A[i]A[i] is less equal N.
+Other wise for each valid i following the step below
+i) Divide the value of A[i] by 2 untill it will be less thanN.
+ii) then find the difference (D) between N and A[i].
+iii) the ith element of the output array will be Dth element.  
+Input:
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.  
+The first line of each test case contains a single integer N.  
+The second line contains N space-separated integers A1,A2,…,AN.   
+
+Output:
+
+For each testcase, print new array in each line.
+
+Constraints
+
+1≤T≤1000
+1≤N≤105
+1≤A1,A2.....AN≤107
+
+Sample Input:
+2
+5
+2 4 5 7 9
+4
+5 4 2 3
+Sample Output:
+6 11 14 4 2
+4 7 6 5
+EXPLANATION:
+For 1st test case: A1 = 2+4 =6, A2 = 4+7 =11 , A3 = 5+9 =14 , A4 > N (5) ,So A4/2 = 3 then A4 = A[5 -3] , A4=A[2]=4, And A5 =A[1]=2. Then array becomes 6,11,14,4,2.
+
+
+
+Author:
+4★sourav472
+
+
+Editorial:
+https://discuss.codechef.com/problems/NBC006
+
+
+Tags:
+
+               
+                 array, noob2020, sourav472
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+11-11-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

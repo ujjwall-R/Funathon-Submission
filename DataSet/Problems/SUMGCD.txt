@@ -1,0 +1,117 @@
+
+Read problems statements in Mandarin Chinese, Russian, and Bengali as well.
+Chef has an array a1,…,an of n elements. He wants you to answer queries of the following type: 
+Compute f(L,R), where f(L,R)=R∑i=LR∑j=igcd(ai,ai+1,…aj). In other words, we want to compute the sum of the greatest common divisors over all subarrays of some range [L,R]. 
+Help Chef answer q queries of the described type. 
+Input:
+The first line contains two integers n and q - the size of the array and the number of queries.
+The second line contains n integers a1,…,an.
+Each of the following q lines contains two integers l, r.
+The queries are encrypted. Let the answer to the previous query be x (or 0 if there is none). The query is decrypted as follows: L=((l+x)modn)+1 and R=((r+x)modn)+1.
+Output:
+Print q integers - the answer to each query modulo 109+7.
+Constraints
+1≤n≤2⋅105
+1≤q≤106
+1≤ai≤109
+0≤l,r≤n
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5 6
+
+18 12 30 35 63
+
+0 4
+
+4 5
+
+1 4
+
+1 3
+
+4 1
+
+3 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+193
+
+70
+
+161
+
+141
+
+78
+
+89
+
+
+Explanation
+The decoded queries are respectively f(1,5); f(3,4); f(2,5); f(3,5); f(1,3); f(2,4)
+
+
+
+Author:
+martin53
+
+
+Editorial:
+https://discuss.codechef.com/problems/SUMGCD
+
+
+Tags:
+
+               
+                 Sparse Table, GCD, Divide and Conquer, Queries
+                 
+                     
+                     Advanced Data Structures, Mathematics, Number Theory, Algorithms, Recursion
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3376
+
+
+Date Added:
+14-04-2021
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

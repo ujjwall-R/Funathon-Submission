@@ -1,0 +1,123 @@
+
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+
+You are given a sequence A with N elements and Q queries on this sequence. In each query, you are given two indices L and R; you should compute the maximum value of the greatest common divisor (GCD) of two elements Ax, Ay satisfying L ≤ x < y ≤ R.
+
+Input
+
+The first line of the input contains two space-separated integers N and Q.
+The second line contains N space-separated integers A1, A2, ..., AN.
+Each of the following Q lines contains two space-separated integers L and R describing one query.
+
+Output
+For each query, print a single line containing the maximum GCD.
+Constraints
+
+1 ≤ N ≤ 104
+1 ≤ Q ≤ 5 · 105
+1 ≤ Ai ≤ 108 for each valid i
+1 ≤ L < R ≤ N
+
+Subtasks
+
+Subtask #1 (25 points): N ≤ 200
+
+
+Subtask #2 (25 points): Ai ≤ 1,000 for each valid i
+
+
+Subtask #3 (50 points): original constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4 6
+4 2 1 8
+1 2
+1 3
+1 4
+2 3
+2 4
+3 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+2
+4
+1
+2
+1
+
+
+Explanation
+The answers to the queries are GCDs of the following pairs:
+
+query 1: GCD(A1, A2) = 2
+query 2: GCD(A1, A2) = 2
+query 3: GCD(A1, A4) = 4
+query 4: GCD(A2, A3) = 1
+query 5: GCD(A2, A4) = 2
+query 6: GCD(A3, A4) = 1
+
+
+
+
+
+Author:
+6★mgch
+
+
+Tags:
+
+               
+                 GCD, Divisors, Dynamic Programming
+                 
+                     
+                     Mathematics, Number Theory, Integer Factorisation, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+11-12-2017
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

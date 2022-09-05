@@ -1,0 +1,87 @@
+
+Codie is a super intelligent bird stuck inside a flappy bird simulation. The game is simple: if the position of the bird is denoted by (x,y)(x,y), then the bird can move in the following directions in one step:
+
+right — to (x+1,y)(x+1,y),
+up-right — to (x+1,y+1)(x+1,y+1),
+down-right — to (x+1,y−1)(x+1,y−1).
+
+The screen has width KK and you are not allowed to move outside of the screen, i.e. the position of the bird must satisfy 1≤y≤K1≤y≤K at each moment.
+
+Codie is moving from (1,K2)(1,K2) to (N,K2)(N,K2). However, there is exactly one obstacle in the simulation. This obstacle occurs at a random xx-coordinate between 22 and N−1N−1 (both inclusive), where each xx has equal probability. The obstacle is composed of two vertical pipes. One of them is at the top and covers all yy-coordinates between bb and KK (both inclusive). The other one is at the bottom and covers all yy-coordinates between 11 and aa (both inclusive). The pipes only allow Codie to move through yy-coordinates that are ≥a+1≥a+1 and ≤b−1≤b−1 at this particular xx-coordinate.
+Codie, being a super smart and geeky bird, is interested in finding the expected number of paths from (1,K2)(1,K2) to (N,K2)(N,K2). Help Codie find the answer!
+Specifically, let's assume that the expected number of paths is a fraction of the form PQPQ, where PP and QQ are coprime. Let Q−1Q−1 be the multiplicative inverse of QQ modulo 109+7109+7. Compute P⋅Q−1P⋅Q−1 modulo 109+7109+7.
+Input
+
+The only line of the input contains four space-separated integers NN, KK, aa and bb denoting the final xx-coordinate, the width of the screen, the highest coordinate blocked by the bottom pipe and the lowest coordinate blocked by the top pipe.
+
+Output
+Print a single line containing one integer — the expected number of paths from (1,K2)(1,K2) to (N,K2)(N,K2) modulo 109+7109+7.
+Constraints
+
+3≤N≤1093≤N≤109
+2≤K≤502≤K≤50
+K is even
+1≤a<b≤K1≤a<b≤K
+
+Example Input
+5 4 1 3
+
+Output:
+666666679
+
+Explanation
+Let XX denote the starting and ending coordinate, and BB denote the cells blocked by pipes.
+
+The expected value is (7⋅13)+(9⋅13)+(7⋅13)=233=666666679(7⋅13)+(9⋅13)+(7⋅13)=233=666666679 (modulo 109+7109+7).
+
+
+
+Author:
+6★sidhant007
+
+
+Editorial:
+https://discuss.codechef.com/problems/CODIE
+
+
+Tags:
+
+               
+                 Expected Value, Matrix Exponentiation
+                 
+                     
+                     Mathematics, Probability, Matrices, Matrix Multiplication
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+1-12-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+JAVA, C, CPP14, PYP3, kotlin
+
+
+
+
+
+Submit
+

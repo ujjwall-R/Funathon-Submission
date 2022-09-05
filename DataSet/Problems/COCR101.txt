@@ -1,0 +1,105 @@
+
+In the Parallel World of Competitive Programming, formally known as PWCP, every coder has a   unique positive integer Rating i.e. Rating > 0.
+There are two types of coders :
+Type 1 : One who code in groups during a contest.
+Type 2 : One who code alone during a contest.                
+Iron Man being a genius tries to find out all the coders who code in groups during contests. Let us consider a list of N integers where ith integer denotes rating of ith coder of type 1 as [A1,A2,A3,....AN].
+If a coder has rating X, he belongs to type 1 if and only if there exists atleast one element in A for which GCD(X,Ai)=Ai holds true . ( Because it shows that this coder helped the ith coder in some problem. )
+Coders who do not belong to type 1, belong to type 2.
+Your task is to find Kth highest Rated Coder of type 1 and type 2. As it is a very simple task, Iron Man gave you another task. 
+Consider the function given below :            
+int F(int x, int y) {     if (y == 0)         return x;     else        return F( x ^ y, (x & y) << 1); } 
+Let ,
+X1=Kth highest Rated Coder of Type 1 and X2=Kth highest Rated Coder of Type 2 , Also  L=min(X1,X2) , R=max(X1,X2) 
+Let us define G(L,R) as ,
+G(L,R)=F(L,F(L+1,F(L+2,F(L+3,F(L+4,.......F(R−1,R)))))) 
+You have to report G(L,R) as well. Since this number can be huge compute it modulo 109+7. 
+Also if there does not exist any Kth highest rated coder of type 1 or type 2 then you have to print  −1.            
+Input:
+
+First line contains T, number of testcases. Then the testcases follow. 
+Each testcase contains two lines
+First line contains two integers N,K. 
+Second line contains N space separated integers A1,A2,A3,.....AN
+
+Output:
+For each testcase,
+if there doesn't exist any Kth highest rated coder of type 1 or type 2 : print −1.
+Else print Two lines .
+First Line containing two space separated integers  :- Kth highest rated coder of type 1 and Kth highest rated coder of type 2.
+Second line contains a single integer : G(L,R)
+Constraints
+
+1≤T≤10
+1≤N≤105
+1≤K≤1016 
+1≤Ai≤109 
+Product  of all elements of array in a single testcase A does not exceed 1018.
+Sum of N over all test cases does not exceed 106 
+Kth highest rated coder of both type 1 and type 2 doesnot exceeds 1018 if it exist. 
+
+Sample Input:
+1
+2 5         
+2 3          
+
+Sample Output:
+8 13          
+63        
+
+EXPLANATION:
+Type 1 coders :  [2,3,4,6,8,9,...]
+As K=5 X1 = 8
+Type 2 coders :  [1,5,7,11,13,...]
+As K=5 X2 = 13
+L = 8 , R = 13
+G(8,13)=F(8,F(9,F(10,F(11,F(12,13)))))=63
+
+
+
+Author:
+4★avenger786
+
+
+Editorial:
+https://discuss.codechef.com/problems/COCR101
+
+
+Tags:
+
+               
+                 avenger786, binary-search, cros2020, inclusion-exclusion, medium-hard
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-06-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

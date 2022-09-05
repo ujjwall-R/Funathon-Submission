@@ -1,0 +1,123 @@
+
+Read problems statements in Hindi,
+Mandarin chinese
+, Russian and Vietnamese as well.
+The structure of the company ShareChat can be described by a simple graph (without multiedges and self-loops) with NN vertices numbered 11 through NN and M edges numbered 1 through M. Each vertex of this graph is part of at most one simple cycle.
+For each edge, you should find the number of simple paths that contain this edge and only contain at most one edge which belongs to a cycle.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+M lines follow. For each valid i, the i-th of these lines contains two space-separated integers u and v, denoting the vertices connected by edge i.
+
+Output
+For each test case, print M lines. For each i (1≤i≤M), the i-th of these lines should contain a single integer — the number of paths for edge i.
+Constraints
+
+1≤T≤1,000
+1≤N≤2⋅105
+1≤u,v≤N
+the sum of N+M for all test cases does not exceed 5⋅106
+
+Subtasks
+Subtask #1 (20 points):
+
+the sum of answers for all edges in all test cases is smaller than 150⋅106
+the sum of N+M for all test cases does not exceed 5⋅105
+
+Subtask #2 (80 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+7 7
+1 2
+2 3
+3 4
+2 5
+3 5
+5 6
+6 7
+3 3
+1 2
+2 3
+3 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+6
+4
+6
+6
+6
+10
+6
+1
+1
+1
+
+
+
+
+
+Author:
+5★sanroylozan
+
+
+Editorial:
+https://discuss.codechef.com/problems/LONCYC
+
+
+Tags:
+
+               
+                 Trees, Biconnected Components, Cycles, DFS, BFS
+                 
+                     
+                     Data Structures, Graphs, Advanced Algorithms, Advanced Graph Algos, Connected Components, Algorithms, Graph Algos, Traversals
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2564
+
+
+Date Added:
+27-07-2018
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

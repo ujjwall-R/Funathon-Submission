@@ -1,0 +1,76 @@
+
+Given a string ss consisting of only lowercase characters. You can perform following operation exactly once:  
+
+Choose any character from the English alphabets and remove some (or all) occurrences of this alphabet from the given string. 
+
+What is the smallest length of the string that you can obtain.
+Input:
+
+First line will contain TT, number of testcases. Then the testcases follow. 
+Each testcase contains a string. 
+
+Output:
+For each testcase, output minimum length of the string that you can obtain after applying the above operation exactly once.
+Constraints
+
+1≤T≤101≤T≤10
+1≤|s|≤501≤|s|≤50
+
+Sample Input:
+3
+abcc
+abc
+oiuyt  
+Sample Output:
+2
+2
+4  
+
+
+
+Author:
+3★maazbinasad3
+
+
+Editorial:
+https://discuss.codechef.com/problems/STR1234
+
+
+Tags:
+
+               
+                 cakewalk, maazbinasad3, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-03-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

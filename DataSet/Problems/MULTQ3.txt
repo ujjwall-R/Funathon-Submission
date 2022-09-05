@@ -1,0 +1,115 @@
+
+
+There are N numbers a[0],a[1]..a[N - 1]. Initally all are 0. You have to perform two types of operations :
+
+
+1) Increase the numbers between indices A and B by 1. This is represented by the command "0 A B"
+
+
+2) Answer how many numbers between indices A and B are divisible by 3. This is represented by the command "1 A B".
+
+
+Input :
+
+
+The first line contains two integers, N and Q. Each of the next Q lines are either of the form "0 A B" or "1 A B" as mentioned above.
+
+
+Output :
+
+
+Output 1 line for each of the queries of the form "1 A B" containing the required answer for the corresponding query.
+
+Constraints :
+1 <= N <= 100000
+1 <= Q <= 100000
+0 <= A <= B <= N - 1
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4 7
+1 0 3
+0 1 2
+0 1 3
+1 0 0
+0 0 3
+1 3 3
+1 0 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+1
+0
+2
+
+
+
+
+
+Author:
+syco_adm
+
+
+Tester:
+4★anshuman_singh
+
+
+Editorial:
+https://discuss.codechef.com/problems/MULTQ3
+
+
+Tags:
+
+               
+                 Lazy Propagation, Divisibility
+                 
+                     
+                     Advanced Data Structures, Advanced Tree Structures, Segment Trees, Mathematics, Modular Arithmetic
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1983
+
+
+Date Added:
+11-04-2010
+
+
+Time Limit:
+0.137226 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

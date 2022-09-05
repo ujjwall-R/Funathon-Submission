@@ -1,0 +1,52 @@
+
+ 
+Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”. Print a new line after each string or number.
+
+
+
+Author:
+3★karan_arora2
+
+
+Editorial:
+https://discuss.codechef.com/problems/CF220
+
+
+Tags:
+
+               
+                 ad-hoc, codefight, cofi1601, karan_arora2, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+1-01-2002
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+JAVA, C, CPP14, PYP3, CS2, ADA, PAS fpc, NODEJS, GO, HASK, PERL, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, LISP clisp, ERL, CLPS, ICK, NICE, ICON, NEM
+
+
+
+
+
+Submit
+

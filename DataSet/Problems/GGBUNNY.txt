@@ -1,0 +1,122 @@
+
+ 
+The city of Bilaspur is famous for it's lovers point Bilasa Taal.
+  Love Birds sneak in there to spent some quality time.
+ Bilasa Taal is also famous for it's cute Rabbits.
+  The rabbits are pretty choosy when it comes to their taste and
+  only eat some special carrots.
+  Each rabbit has a taste ID K associated with it.
+  The carrots of Bilasa Taal
+  also show some uniqueness as they have a taste number Ar
+  associated with them.
+  A rabbit will only like a carrot whose taste number is a positive
+  power of K.
+  Each rabbit will dug N carrots from the Bilasa Taal
+  farm, as the rabbits are not very good at maths they ask you
+  to tell them how many of the carrots can they eat provided
+  their taste ID K.
+Note:  Carrot with taste number 1 is liked by
+    all the rabbits.
+
+
+
+ 
+Input
+Input description.
+
+First line of the input contains a single integer T denoting
+the number of test cases.
+For each test case there are two lines of input. The first
+line contain two space separated integer N and K.
+The next line of the input will contain N space seprated
+integers, which are the taste number of the r th carrot Ar
+ dug by the i th
+rabbit.
+
+ 
+Output
+
+For each test case output a single integer denoting the number
+of carrots which can be eaten by the ith rabbit on a
+new line.
+
+
+ 
+Constraints
+
+1 ≤ T ≤ 100
+1 ≤ N ≤ 100000
+1 ≤ K ≤ 1000
+1 ≤ Ar ≤ 1018
+
+ 
+Example
+Input:
+3
+5 2
+14 17 4 16 64
+3 9
+9 5 81
+4 7
+343 14 25 5764801
+
+Output:
+3
+2
+2
+
+ 
+Explanation
+Example case 1.
+There are three carrots whose taste number is a power of 2
+Example case 2.
+There are two carrots whose taste number is a power of 9.
+
+
+
+Author:
+3★surajumang08
+
+
+Editorial:
+https://discuss.codechef.com/problems/GGBUNNY
+
+
+Tags:
+
+               
+                 binary-search, easy, maths, surajumang08
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+8-01-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

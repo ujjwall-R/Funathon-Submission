@@ -1,0 +1,89 @@
+
+As we all know the formula of dearrangement in the form of the recursive equation but Chef forgot the main equation and wrote down the following:
+
+A(n)={2A(n−1)+3A(n−2),if n≥22,if n=11,if n=0A(n)=⎧⎩⎨2A(n−1)+3A(n−2),2,1,if n≥2if n=1if n=0
+
+One of his friend pointed out that there is some error in the formula written by Chef so he added something in Chef's equation an another dependent equation. Then the final expression is as follows :
+
+A(n)={2A(n−1)+3A(n−2)+B(n),if n≥22,if n=11,if n=0
+
+
+Where, B(n)={2B(n−1)+3B(n−2),if n≥21,if 0≤n≤1
+
+
+Now Chef asked his another friend Chefa to calculate the value of Nth term of A(n). Value of Nth term of A(n) can be very large so compute it modulo 1000000007.
+
+Input:
+
+First line will contain T, number of test cases. Then the test case follows. 
+Each test case contains a single line of input, one integers N.
+
+Output:
+For each test case, output in a single line answer given by Chefa to Chef modulo 1000000007.
+Constraints 
+
+1≤T≤1000
+0≤N≤260
+
+Sample Input:
+2
+1
+2
+
+Sample Output:
+2
+12
+
+ Explanations: 
+Case 1:A(1)=2 is clearly written in the question.
+ Case 2: A(2)=2A(1)+3A(0)+2B(1)+3B(0).
+ A(2)=2∗2+3∗1+2∗1+3∗1=12.
+
+
+
+Author:
+4★dshahid380_
+
+
+Editorial:
+https://discuss.codechef.com/problems/DEARRERR
+
+
+Tags:
+
+               
+                 dshahid380_, dynamic-programming, encoding, enoc2019, matrix-exponentiation, recursion
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-10-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,84 @@
+
+ 
+Problem description.
+Sachin always loves to play with very large number. He spends most of his time in dealing with very large numbers. One day, he 
+and his friend Harry went to hill station. Even at the hill station, Sachin counts different staffs and power them with some
+fixed number. Harry got irritated with his behavior. So he gave him a set of two numbers (a and b) and told him to find 
+out the number a^b where ^ represents exponentiation operator but since they are at hill station so they don't have any paper
+so he just asked him to write the number in his palm after ignoring the first n-1 digits where n is number of digits in a^b 
+where a and b are very large number.
+
+Input
+First line contains an integer T (the number of testcases).
+Then the only line of each test case contains two space separated a and b.
+
+Output
+For each case print in a new line the required number.
+Constraints
+T<=1000
+0<=a<=10^501
+0<=b<=10^16
+
+ 
+Example
+Input:
+2
+2 2
+3 2
+Output:
+4
+9
+
+ 
+Explanation
+1st test case, 2^2 is 4 since it is single digit so output is 4.
+
+
+
+
+Author:
+1★saquib_here
+
+
+Editorial:
+https://discuss.codechef.com/problems/COINLNUM
+
+
+Tags:
+
+               
+                 array, saquib_here
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-02-2018
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

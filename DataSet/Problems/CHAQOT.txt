@@ -1,0 +1,131 @@
+
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Chef has a tree with NN nodes numbered 11 through N. Each node of the tree has a weight; let's denote the weight of node v by av.
+Chef should answer Q queries. Each query is described by an integer r and a list of k nodes u1,u2,…,uk. In each query, let S be the connected subgraph of the tree (i.e. a subtree) which contains the nodes u1,u2,…,uk and has the minimum possible size (it can be proven that these conditions uniquely define S). The answer to a query is minu∈S(|au−r|).
+Help Chef and answer all the queries. Note the special format of the input, which is intended to ensure you can only know each query (except the first) after answering the previous query.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and Q.
+The second line contains N space-separated integers a1,a2,…,aN.
+Each of the following N−1 lines contains two space-separated integers x and y denoting an edge between nodes x and y.
+The following Q lines describe queries. Each of these lines contains two space-separated integers r′ and k, followed by a space and k space-separated integers u′1,u′2,…,u′k. Let's denote the answer to the previous query by ans (ans=0 if this is the first query). The values of r and u1,u2,…,uk for this query can be computed as follows:
+r=r′⊕ans
+ui=u′i⊕ans for each valid i
+
+Output
+For each query, print a single line containing one integer — the answer to this query.
+Constraints
+
+1≤T≤5
+2≤N,Q≤105
+1≤ai≤109 for each valid i
+1≤r≤109
+1≤x,y≤N
+the graph described on the input is a tree
+in each query, u1,u2,…,uk are pairwise distinct
+the sum of k for each test case does not exceed 3⋅105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+5 7
+1 2 3 4 5
+1 2
+2 3
+2 4
+1 5
+1 2 4 5
+2 2 4 5
+3 2 4 5
+5 2 5 4
+5 2 4 5
+5 1 2
+103 3 2 1 6
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+0
+1
+0
+0
+3
+95
+
+
+Explanation
+Example case 1: The decoded queries are
+1 2 4 5
+2 2 4 5
+3 2 4 5
+4 2 4 5
+5 2 4 5
+5 1 2
+100 3 1 2 5
+
+
+
+
+Author:
+6★kefaa
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHAQOT
+
+
+Tags:
+
+               
+                 Trees, Persistent Segment Trees, Euler Tour, Sorting
+                 
+                     
+                     Data Structures, Graphs, Advanced Data Structures, Persistent Structures, Algorithms, Graph Algos, Traversals
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2862
+
+
+Date Added:
+20-07-2018
+
+
+Time Limit:
+5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

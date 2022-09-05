@@ -1,0 +1,104 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Consider a sequence A1,A2,…,ANA1,A2,…,AN, where initially, Ai=iAi=i for each valid ii. You may perform any number of operations on this sequence (including zero). In one operation, you should choose two valid indices i and j, compute the greatest common divisor of Ai and Aj (let's denote it by g), and change both Ai and Aj to g.
+You are given a sequence B1,B2,…,BN. Is it possible to obtain this sequence, i.e. change A to B, using the given operations?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers B1,B2,…,BN.
+
+Output
+For each test case, print a single line containing the string "YES" if it is possible to obtain A=B or "NO" if it is impossible.
+Constraints
+
+1≤N≤104
+1≤Bi≤i for each valid i
+the sum of N over all test cases does not exceed 105
+
+Subtasks
+Subtask #1 (10 points): N≤4
+Subtask #2 (20 points): there is at most one valid index p such that Bp≠p
+Subtask #3 (70 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+3
+1 2 2
+4
+1 2 3 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+NO
+YES
+
+
+Explanation
+Example case 1: We cannot make the third element of the sequence (1,2,3) become 2.
+Example case 2: We can perform one operation with (i,j)=(2,4), which changes the sequence (1,2,3,4) to (1,2,3,2).
+
+
+
+Author:
+7★anton_trygub
+
+
+Editorial:
+https://discuss.codechef.com/problems/GCDOPS
+
+
+Tags:
+
+               
+                 Basic Maths, GCD, ad-hoc
+                 
+                     
+                     Mathematics, Number Theory, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1462
+
+
+Date Added:
+12-09-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

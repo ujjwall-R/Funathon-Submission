@@ -1,0 +1,72 @@
+
+The war between CCG and ghouls is raising in Tokyo, Kaneki being king of ghouls is working hard to win this war. Touka has given a very important chest to Kaneki which will increase his ghoul army’s power significantly and might win them the war. But to open the chest Kaneki must solve a puzzle that is engraved on the lock of the chest.
+Kaneki has NN rectangles of width WW and height H. Kaneki wants to fit all these rectangles in a square, (Rectangle cannot be rotated) also he doesn’t want this square to be big so that his all resources will be wasted in the square instead of war. Kaneki doesn’t have time to solve this puzzle as he is too busy fighting CCG operatives so he has asked for your help, you being a brilliant programmer Kaneki is sure you will be able to solve this puzzle and might treat you to world-famous anteiku’s coffee.
+The first line of input will contain one integer T containing the number of test cases in the input,
+For the next T lines, each line contains three integers N, H, and W respectively.
+You need to find the minimum size of the square that will be able to fill all n rectangles in it.
+Note - Use large Data types to store variables (unsigned long long for c++ and long long for java).
+Input:
+The input Contains only one line containing three integers N,H, and W.
+Output:
+Output must contain only one line containing only one line having only one integer - the minimum side of the square.
+Constraints
+
+1≤T≤109
+1≤N,H,W≤109
+
+Sample Input:
+  1
+  10 2 3
+
+Sample Output:
+  9
+
+
+
+
+Author:
+5★kaneki99
+
+
+Editorial:
+https://discuss.codechef.com/problems/MYSITM
+
+
+Tags:
+
+               
+                 binary-search, cnst2020, kaneki99
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-10-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,104 @@
+
+Read problems statements in Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Chef has an integer sequence A1,A2,…,ANA1,A2,…,AN. For each index ii (1≤i≤N1≤i≤N), Chef needs to divide Ai into two positive integers x and y (ie. x,y>0) such that x+y=Ai, then place this as a point (x,y) in the infinite 2-dimensional coordinate plane. Help Chef to find the maximum number of distinct points that can be put in the plane, if he optimally splits the values Ai. Note that Chef can only perform one split for each index.
+Note: Please use fast input/output methods for this problem.
+Input Format
+
+The first line contains a single integer T - the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N integers A1,A2,…,AN.
+
+Output Format
+For each test case, print a single line containing one integer — the maximum number of distinct points there can be in the infinite plane.
+Constraints
+
+1≤T≤10
+1≤N≤2⋅105
+2≤Ai≤105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+6
+2 2 4 4 2 6 
+2
+16 8
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+2
+
+
+Explanation
+Test Case 1: Chef can divide A1 as (1,1), A2 as (1,1), A3 as (1,3), A4 as (2,2), A5 as (1,1), A6 as (2,4). Ignoring duplicates, there are 4 distinct points, which is the maximum possible.
+Test Case 2: Chef can divide A1 as (8,8), A2 as (4,4).
+
+
+
+Author:
+souradeep_adm
+
+
+Tester:
+7★aryanc403
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHFPLN
+
+
+Tags:
+
+               
+                 Frequency Arrays, Maps
+                 
+                     
+                     Data Structures, Arrays
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1582
+
+
+Date Added:
+9-07-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,126 @@
+
+Russell for his next IPL match invited his relatives. Now Russell is interested to play a game with his Nephew taking a problem of tree resembling IPL match hierarchy . So he describes the problem like,
+In the tree with  N leaves and N−1 edges , where the leaves denoting match points gained previously varies from 0 to any natural number of some particular i-th team and there are N-1 pairs of leaves {ai , bi} between which there is an edge. Edge I connects leaves ai and bi . Each team in the tree has a previous point written on its leaf . Let ci be the value written on leaf i (basically team i) . Nephew will be given Q queries . The i-th query, consisting of integers qi, ei, and xi, is as follows :  
+
+If qi=1: for each leaf v reachable from leaf aei without visiting leaf bei by traversing edges, replace cv with cv+xi.  
+If qi=2: for each leaf v reachable from leaf bei without visiting leaf aei by traversing edges , replace cv with cv+xi.
+After processing all queries , print total new points of each team written on each leaf . 
+
+Constraints:
+
+All values in input are integers.  
+2 ≤ N ≤ 2×10^5  
+1 ≤ ai,bi ≤ N  
+1 ≤ Q ≤ 2×10^5  
+ti ∈ {1,2}  
+1 ≤ ei ≤ N−1  
+1 ≤ xi ≤ 10^9  
+0 ≤ ci ≤ 10^9  
+
+Input Format:
+Input is given from Standard Input in the following format:
+N
+c1 c2 … cN
+a1  b1
+.
+.
+.
+aN−1  bN−1
+Q
+t1  e1  x1
+⋮
+tQ  eQ  xQ  
+Ouput Format:
+Print the values c1 , c2 , … , cN after processing all queries, each in its own line.
+Sample Input1:
+5
+0 0 0 0 0
+1 2
+2 3
+2 4
+4 5
+4
+1 1 1
+1 4 10
+2 1 100
+2 2 1000  
+Sample Output1:
+11
+110
+1110
+110
+100  
+Sample Input2:
+7
+1 2 3 4 5 6 7
+2 1
+2 3
+4 2
+4 5
+6 1
+3 7
+7
+2 2 1
+1 3 2
+2 2 4
+1 6 8
+1 3 16
+2 4 32
+2 1 64  
+Sample Output2:
+73
+10
+16
+30
+63
+78
+12  
+
+
+
+Author:
+3★avishake_maji
+
+
+Editorial:
+https://discuss.codechef.com/problems/IPLTREE
+
+
+Tags:
+
+               
+                 avishake_maji, breadth-first-search, c-plus-plus, hard
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+12-04-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

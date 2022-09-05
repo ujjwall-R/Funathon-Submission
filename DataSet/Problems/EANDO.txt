@@ -1,0 +1,130 @@
+
+Dazzler has an interesting task for you.
+You will be given an array A of N positive integers such that:
+
+N is always even.
+Exactly N2 elements in the array are even and N2 elements are odd.
+
+In one operation, you should do the following steps:
+
+Choose two different indices i and j (1≤i,j≤N).
+Set Ai:=Ai+1.
+Set Aj:=Aj−1.
+
+You need to apply some finite (possibly zero) number of operations on the array such that:
+
+The parity of the final element at each index is same as the parity of the initial element at that index. For example, if the ith element in the initial array is even, then, the ith element in the final array must be even as well.
+All the N2 odd elements in the final array are equal.
+All the N2 even elements in the final array are equal.
+
+Print YES if it is possible to meet all the above conditions after doing some finite (possibly zero) number of operations. Otherwise, print NO.
+Input Format
+
+First line will contain T, number of test cases. Then the test cases follow.
+First line of each test case contains N, number of elements in the array A. Note that, N is even.
+Second line of each test case contains N space-separated positive integers, the elements of the array.
+
+Output Format
+For each test case, output in a single line, YES if it is possible to meet all the given conditions after doing some finite (possibly zero) number of operations. Otherwise, print NO.
+You may print each character of the string in uppercase or lowercase (for example, the strings YeS, yEs, yes and YES will all be treated as identical).
+Constraints
+
+1≤T≤104
+2≤N≤2⋅105
+1≤A[i]≤109
+N%2=0 
+Sum of N over all test cases does not exceed 2⋅105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+4
+1 1 2 4
+4
+1 2 5 6
+2
+1 2
+4
+1 2 3 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+NO
+YES
+YES
+YES
+
+
+Explanation
+Test case 1: It is not possible to satisfy all the given conditions using any number of operations.
+Test case 2: One of the possible sequence of operations is listed below:
+
+In the first operation, choose i=2 and j=4. Thus, A2=2+1=3 and A4=6−1=5. The array will become [1,3,5,5].
+In the second operation, choose i=2 and j=4. Thus, A2=3+1=4 and A4=5−1=4. The array will become [1,4,5,4].
+In the third operation, choose i=1 and j=3. Thus, A1=1+1=2 and A3=5−1=4. The array will become [2,4,4,4].
+In the fourth operation, choose i=1 and j=3. Thus, A1=2+1=3 and A3=4−1=3. The array will become [3,4,3,4].
+
+Here, all the odd elements are equal and all the even elements are equal. Also, the parity at each index is preserved.
+Test case 3: The array [1,2] satisfies all the conditions. Thus, 0 operations are needed.
+
+
+
+Author:
+5★dazlersan1
+
+
+Editorial:
+https://discuss.codechef.com/problems/EANDO
+
+
+Tags:
+
+               
+                 dazlersan1, math, start37
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1817
+
+
+Date Added:
+17-04-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

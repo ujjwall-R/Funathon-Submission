@@ -1,0 +1,120 @@
+
+Chef and Chefina are competing against each other in a programming contest. They were both able to solve all the problems in the contest, so the winner between them must be decided by time penalty. Chef solved all the problems in XX minutes and made PP wrong submissions, while Chefina solved all the problems in YY minutes and made QQ wrong submissions. Who won the competition (or was it a draw)?
+Note: The time penalty is calculated as follows:
+
+The base time penalty is the time at which the final problem was solved (so, XX for Chef and YY for Chefina)
+Each wrong submission adds a penalty of 1010 minutes
+The winner is the person with less penalty time. If they both have the same penalty, it is considered a draw.
+
+Input Format
+
+The first line of input contains a single integer TT, denoting the number of test cases. The description of TT test cases follows.
+The first and only line of each test case contains four space-separated integers — X,Y,PX,Y,P, and QQ respectively.
+
+Output Format
+For each test case, output a single line containing one string — the name of the winner ("Chef" or "Chefina"), or "Draw" if the match was a draw. Print each string without the quotes.
+Each character of the answer can be printed in either uppercase or lowercase, i.e, the strings "Chef", "chEf", "cHeF", etc. are treated as equivalent.
+Constraints
+
+1≤T≤10001≤T≤1000
+1≤X,Y≤1001≤X,Y≤100
+0≤P,Q≤1000≤P,Q≤100
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+10 8 2 3
+10 10 10 10
+40 21 2 0
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Chef
+Draw
+Chefina
+
+
+Explanation
+Test Case 1: 
+
+Chef solved the problems in 10 minutes and made 2 wrong submissions, thus his total penalty is 10+2⋅10=30 minutes.
+Chefina solved the problems in 8 minutes and made 3 wrong submissions, thus her total penalty is 8+3⋅10=38 minutes.
+
+Chef took less time, so he is the winner.
+Test Case 2:
+
+Chef solved the problems in 10 minutes and made 10 wrong submissions, thus his total penalty is 10+10⋅10=110 minutes.
+Chefina solved the problems in 10 minutes and made 3 wrong submissions, thus her total penalty is 10+10⋅10=110 minutes.
+
+Chef and Chefina took the same time, so the match is a draw.
+Test Case 3:
+
+Chef solved the problems in 40 minutes and made 2 wrong submissions, thus his total penalty is 40+2⋅10=60 minutes.
+Chefina solved the problems in 21 minutes and made 0 wrong submissions, thus her total penalty is 21+0⋅10=21 minutes.
+
+Chefina took less time, so she is the winner.
+
+
+
+Author:
+utkarsh_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHEFCONTEST
+
+
+Tags:
+
+               
+                 Conditional Statements, Basic Maths
+                 
+                     
+                     Basic Programming Concepts, Mathematics
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-12-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

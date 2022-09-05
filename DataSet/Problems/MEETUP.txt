@@ -1,0 +1,170 @@
+
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+ 
+This is an interactive problem.
+It means that every time you output something, you must finish with a newline character and flush the output.
+For example, in C++ use the fflush(stdout) function, in Java — call System.out.flush(), in Python — sys.stdout.flush(), and in Pascal — flush(output).
+Only after flushing the output will you be able to read from the input again.
+
+
+Alice and Bob are taking a trip to Byteland.
+The country can be modeled as an undirected graph with n cities and m bidirectional roads.
+There are at most 1,000 cities, and between 0 and n * (n-1) / 2 roads.
+The graph is not necessarily connected.
+
+
+Alice likes visiting cities that are directly connected.
+She chose ka nodes that form a clique (i.e. every pair of cities has a direct road between them).
+Bob on the other hand likes to visit cities that are not directly connected.
+He chose kb nodes that form an independent set of the graph (i.e. no pair of cities has a direct road between them).
+
+
+Alice and Bob would like to know if their itineraries have any common cities.
+This seemingly simple task is complicated by the fact that Alice and Bob have maps in different languages.
+
+
+Alice’s map has the cities with names a1, a2, …, an.
+Bob’s map has cities with names b1, b2, …, bn.
+These names are all distinct.
+
+
+Luckily for you, the judge knows how to translate strings between the languages.
+Formally, there is a hidden function f that the judge keeps such that for every i there exists a unique j such that f(ai) = bj, and ap, aq have a direct edge if and only if f(ap),f(aq) have a direct edge.
+We will denote f-1(x) to denote the inverse of the function f.
+Intuitively, f translates strings from language A to language B, and f-1 translates them from language B to language A.
+
+
+Translating words takes a lot of effort.
+You would like to help Alice and Bob by translating as few as words as possible.
+You can ask the judge what the value of f(ai) is, or what the value of f-1(bj) is.
+You may only ask the judge at most 10 questions.
+After asking questions, you must be able to determine if Alice and Bob will visit any common cities.
+Formally, this means checking whether there exists a city ai that Alice visits and a city bj that Bob visits such that f(ai) = bj.
+
+Input
+
+The first line will contain four integers, n, m, ka, kb.
+Next will follow a description of a map in Alice's language, then a description of a map in Bob's language.
+
+
+A map can be described as follows:
+The first line contains n strings.
+The first ka (resp kb) strings denote the cities that Alice (resp Bob) will visit.
+The next m lines describe an undirected edge between two cities.
+
+Interaction
+
+To ask a question, print “A s” to denote you would like to know what f(s) is (s must be one of a1, a2, …, an).
+Print “B s” to denote you would like to know what f-1(s) is (s must be one of b1, b2, …, bn).
+Don't forget to flush the question after printing it.
+The judge will respond to the question by printing a string denoting the answer to your question.
+You may ask at most 10 questions.
+
+
+Once you are finished asking questions, and are ready to answer the main question of whether or not Alice and Bob will visit any common cities, print “C s”, where s is either “Yes” or “No” (note, this is case sensitive).
+
+Constraints
+
+1 ≤ n ≤ 1000
+0 ≤ m ≤ n * (n-1) / 2
+1 ≤ ka ≤ n
+1 ≤ kb ≤ n
+
+ 
+The city names are all distinct and have between 1 and 10 characters, inclusive.
+All city names consist of only lowercase letters.
+It is guaranteed that the first ka cities in Alice's map are a clique, and the first kb cities in Bob's map are an independent set.
+It is guaranteed that the maps described are isomorphic according to the hidden function f that the judge has.
+
+Example
+
+
+your program     the system
+
+
+4 3 1 1
+ab bc cd de
+ab bc
+bc cd
+cd de
+w y x z
+x w
+y x
+y z
+
+A cd
+
+x
+A bc
+
+y
+B x
+
+cd
+A ab
+
+z
+B w
+
+de
+C No
+
+
+Explanation
+Here, we have 4 cities and 3 roads. Alice's map has cities with labels "ab", "bc", "cd", "de". Bob's map has cities with labels "w", "y", "x", "z". Alice visits cities {"ab"}. Bob visits cities {"w"}. Here, we show an example of the interaction. The translation function in this case is "ab" = "z", "bc" = "y", "cd" = "x", "de" = "w". In this case, we can see that Alice and Bob don't visit any cities in common, so the final answer is No. 
+
+
+
+Author:
+7★lg5293
+
+
+Tester:
+7★errichto
+
+
+Editorial:
+https://discuss.codechef.com/problems/MEETUP
+
+
+Tags:
+
+               
+                 Graphs, Interactive Problems, Divide and Conquer
+                 
+                     
+                     Data Structures, Special, Algorithms, Recursion
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-03-2017
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

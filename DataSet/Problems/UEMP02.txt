@@ -1,0 +1,92 @@
+
+ 
+In a school there are N student .On the occation of annual function for each Si
+where 1<=i<=N student givent Ti tasks and difference between tasks of two consecutive students are same and (i+1)the student must get more task than ith student.
+School have M number of task. Your task is find out whether task distribution is possible or impossible.
+ 
+Input
+
+ The first line contains two integers N number sudent in school
+and M Total Number of task
+
+ 
+Output
+
+For each test case, output a single line "possible" distribution is possible otherwise "impossible".
+
+ 
+Constraints
+
+1 <= N <= 100
+1 <= M <= 10000
+1 <= Difference Between tasks of two consecutive student  <= 100
+1 <= Max Number of Task Given to First student <= 100
+
+ 
+Example
+Input:#1
+5 15
+Output:
+possible
+ 
+Input:#2
+4 8
+Output:
+impossible
+ 
+Explanation
+
+In the first test case N is 5 and M is 5. The possible distribution is 1 2 3 4 5.
+here the different between task of two consecutive student is 1;
+In the second test case N is 4 and M is 8.The minimum task reqired to disribute between students 10 i.e.
+ is 1,2,3,4. So distribution of task is impossible.
+
+
+
+
+Author:
+sintuuemisp
+
+
+Editorial:
+https://discuss.codechef.com/problems/UEMP02
+
+
+Tags:
+
+               
+                 math, processing, sintuuemisp
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+3-07-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+JAVA, C, CPP14, PYTH, PYP3, CS2, TEXT, JS
+
+
+
+
+
+Submit
+

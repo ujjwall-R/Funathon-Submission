@@ -1,0 +1,97 @@
+
+Alice (uniformly and independently) randomly picks two integers a,ba,b from the range [1,104][1,104], and writes down the values of a+ba+b, a−b, a⋅b and ⌊ab⌋ (integer division) in some random order. Unfortunately, she forgot the values of a and b. You need to help her to find out if there exists two integers a,b such that 1≤a,b≤104 and a+b, a−b, a⋅b, ⌊ab⌋ are the numbers she has written down.
+If a solution exists, it is guaranteed to be unique.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of testcases. The description of T testcases follows.
+Each testcase consists of a single line of input, containing four space-separated integers A,B,C,D — the values written down by Alice. It is guaranteed that at most one of the four numbers A,B,C,D will be negative.
+
+Output Format
+
+For each testcase, output in a single line, separated by a space, the two numbers Alice has chosen in order (i.e, if the solution is a=1 and b=2, print 1 2 and not 2 1). If there does not exist any such choice of integers, print −1 twice, separated by a space, instead.
+
+Constraints
+
+1≤T≤105
+−109≤A,B,C,D≤109
+At most one of A,B,C,D is negative.
+
+Subtasks
+Subtask #1 (100 points): Original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+-1 72 0 17
+1 4 5 6
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+8 9
+-1 -1
+
+
+Explanation
+Test case 1: With a=8,b=9 we obtain 8+9=17,8−9=−1,8⋅9=72,⌊89⌋=0 which are exactly the 4 numbers written down by Alice.
+Test case 2: It can be shown that no choice of integers a,b can produce the given 4 numbers.
+
+
+
+Author:
+4★ravi_krst
+
+
+Editorial:
+https://discuss.codechef.com/problems/MISS_NUM
+
+
+Tags:
+
+               
+                 arithmatic, march222, ravi_krst, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1594
+
+
+Date Added:
+22-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

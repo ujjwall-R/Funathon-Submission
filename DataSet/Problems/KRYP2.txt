@@ -1,0 +1,94 @@
+
+ 
+ "Someone from the future is coming to destroy Krypton. Because where I am from, your grandson becomes the greatest hero of the universe" 
+Adam Strange has arrived to warn Seg-El regarding the imminent danger of Brainiac. Brainiac has planned to degrade the very core of Krypton.
+Seg-El must develop a power source to prevent immediate destruction. The core of the planet is in an unusual form of a tree. 
+ The tree has N nodes. Each node has a value Ai associated with it. Seg-El needs to monitor Q paths. For each of those paths, he needs to find -
+ 
+ where i and j are two distinct nodes along the path. 
+ Since the task is tough, help Seg-El in this task. 
+ 
+Input
+First line of each input file comprises two space separated integers, N- denoting the number of nodes of the tree and Q- denoting the number of queries. 
+Second lines comprises N space separated integers denoting the value of the nodes Ai
+ The next N-1 lines contains two separated integers X and Y, denoting a bi-directional edge between these nodes. 
+The next Q lines contains two separated integers U and V , indicating the path from node U to node V to be monitored. 
+ 
+Output
+For each of the Q queries, print the minimum value Seg-El can obtain as per the mentioned criteria on a separate line. 
+
+Constraints
+
+2 ≤ N ≤  50000 
+1 ≤ Q ≤  50000 
+1 ≤ X,Y ≤  N
+1 ≤ U,V ≤  N , U!=V 
+1 ≤  Ai ≤  109 
+
+ 
+Example
+Input
+
+5 1
+1 2 3 4 5
+1 4
+1 3
+4 2
+1 5 
+2 5
+
+Output:
+3
+ 
+Explanation
+The answer is 3 as it is the least possible difference on the path from node 2 to node 5. It is because of value at node 2 and at node 1 i.e |22-12|=3
+
+
+
+
+Author:
+5★shivamg_isc
+
+
+Editorial:
+https://discuss.codechef.com/problems/KRYP2
+
+
+Tags:
+
+               
+                 codr2018, medium-hard, mos-algorithm, multiset, segment-tree, shivamg_isc, trees
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+26-01-2018
+
+
+Time Limit:
+10 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

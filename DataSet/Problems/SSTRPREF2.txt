@@ -1,0 +1,132 @@
+
+Read problem statements in Mandarin Chinese, Russian, and Vietnamese as well.
+Given 33 strings S1S1, S2S2 and X, find the number of distinct ordered pairs of strings (P,Q) 
+such that :
+
+String P+Q is a substring of X.
+String P is some prefix of S1 (possibly empty).
+String Q is some prefix of S2 (possibly empty).
+
+A substring of a string is a contiguous subsequence of that string. For example, "chef" is a substring of "codechef", but "def" is not. Also, an empty string is a substring of any string.
+A prefix of a string S is a substring of S that occurs at the beginning of S. For example, "code" is a prefix of "codechef", but "chef" is not. Also, an empty string is a prefix of any string.
+Note: Since the input is large, prefer using fast input-output methods.
+Input Format
+
+First line of the input contains T, the number of test cases. Then the test cases follow.
+Each test case contains three lines, string S1 in the first line, string S2 in the second line and string X in the third line. All strings consist of only lowercase Latin letters.
+
+Output Format
+For each test case, print a single line containing one integer denoting the number of distinct ordered pairs (P,Q) that satisfy the above conditions.
+Constraints
+
+1≤T≤105
+1≤|X|,|S1|,|S2|≤106
+Sum of |X| over all test cases doesn't exceed 106.
+Sum of |S1| over all test cases doesn't exceed 106.
+Sum of |S2| over all test cases doesn't exceed 106.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+ab
+bc
+abc
+aa
+bb
+ab
+aab
+acb
+bcaabacbc
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+7
+4
+11
+
+
+Explanation
+Test case 1:
+There are 7 distinct ordered pairs (P,Q) as follows : 
+
+P = "" , Q = "" (empty string)
+P = "" , Q = b
+P = "" , Q = bc
+P = a , Q = ""
+P = a , Q = b
+P = a , Q = bc
+P = ab , Q = ""
+
+Test case 2:
+There are 4 distinct ordered pairs as follows : 
+
+P = "" , Q = ""
+P = "" , Q = b
+P = a , Q = ""
+P = a , Q = b
+
+
+
+
+Author:
+nishant_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/SSTRPREF2
+
+
+Tags:
+
+               
+                 String, KMP Algorithm, Z Algorithm
+                 
+                     
+                     Data Structures, Advanced Algorithms, String Matching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+10-10-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

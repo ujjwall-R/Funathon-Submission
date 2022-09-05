@@ -1,0 +1,101 @@
+
+Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
+Chef and Divyam are playing a game. They start with a rational number XX, such that 0<X<10<X<1.
+In each turn, Chef chooses a positive real number YY. Then Divyam either adds or subtracts YY to XX. So XX is replaced with either X+YX+Y or X−YX−Y. If this number becomes 00 or 11, then Chef wins. Otherwise, the game continues.
+You are given XX, and you have to determine whether Chef can win in a finite number of moves. More formally, does there exist a finite number NN so that Chef has a strategy that is guaranteed to win in at most NN moves?
+Here, XX will be given in the form ABAB, where AA and BB are positive integers, A<BA<B and gcd(A,B)=1gcd(A,B)=1.
+Input
+
+The first line of the input contains a single integer TT denoting the number of test cases. The description of TT test cases follows.
+The first and only line of each test case contains two space-separated integers AA and BB.
+
+Output
+For each test case, print a single line containing the string "Yes" if Chef can win the game in a finite number of moves and "No" otherwise (without quotes). You can print "Yes" or "No" in any case.
+Constraints
+
+1≤T≤1061≤T≤106
+1≤A<B≤10181≤A<B≤1018
+gcd(A,B)=1gcd(A,B)=1
+
+Subtasks
+Subtask #1 (100 points): Original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+1 2
+2 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Yes
+No
+
+
+Explanation
+Test case 1: Chef will choose Y=12Y=12, so whatever Divyam does, the number will become 00 or 11. Hence Chef will win in a finite number of moves. 
+Test case 2: No matter what Chef chooses, it can be shown that Divyam can make sure Chef never wins.
+
+
+
+Author:
+5★div5252
+
+
+Editorial:
+https://discuss.codechef.com/problems/REALBIN
+
+
+Tags:
+
+               
+                 ad-hoc
+                 
+                     
+                     Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1845
+
+
+Date Added:
+8-05-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

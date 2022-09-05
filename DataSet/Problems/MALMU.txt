@@ -1,0 +1,94 @@
+
+
+Malicious Music
+Problem Definition :
+Dhruvi is a musician who writes her music as a sequence of numbers and lowercase letters, where the letters represent the frequencies of the tones, and each letter is preceded by a positive integer Ai which is the amplitude of that tone. For example a song could be 9 s 5 a 7 q 6 e 5 b 1 a. She recently found out that her friend Shivanee has added a few malicious sequences, which produce an unpleasant noise when played together, in between Dhruvi's sequence to sabotage her work. Luckily Dhruvi was able to deduce the base sequence of Shivanee's tones and plans to remove them from her music. All integral multiples of the base sequence must also be removed.
+
+
+For example if 1 a 3 b is the base sequence to be removed then 4 a 12 b must also be removed. If N is the length of the entire music sequence and M is the length of Shivanee's malicious sequence, find the number of such sequences to be removed.
+
+Note: Overlapping solutions to be considered
+
+Constraints :
+
+0 < T <= 100
+0 < N <= 103
+0 < M <= N
+1 <= Ai <= 200
+
+Input :
+
+First line contains T, the number of testcases.
+The first line of each testcase line contains two  integers, N and M
+The second line contains N space seperated tones, which is the entire musical sequence
+The third line contains  M space seperated tones, which is the base sequence to be removed
+
+Output :
+
+For each testcase output a single integer, the number of removals necessary
+
+Example :
+Input:
+2
+7 3
+3 a 8 b 2 c 6 m 2 d 11 e 6 f
+4 b 1 c 3 m
+9 2
+1 f 2 a 9 c 10 q 6 m 12 d 3 f 6 a 3 m
+1 f 2 a
+
+Output:
+1
+2
+Explanation
+For the first test case, we only have to remove the sequence 8 b 2 c 6 m, which is 2 times 4 b 1 c 3 m.
+In the second testcase we must remove 1 f 2 a and 3 f 6 a ( 1 f 2 a multiplied by 3 ). So the number of removals necessary is 2.
+
+
+
+Author:
+4★shmabulock
+
+
+Editorial:
+https://discuss.codechef.com/problems/MALMU
+
+
+Tags:
+
+               
+                 easy-medium, kpr32018, shmabulock, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+5-09-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, PYPY
+
+
+
+
+
+Submit
+

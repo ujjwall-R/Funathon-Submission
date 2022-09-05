@@ -1,0 +1,104 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Roger recently built a circular race track with length KK. After hosting a few races, he realised that people do not come there to see the race itself, they come to see racers crash into each other (what's wrong with our generation…). After this realisation, Roger decided to hold a different kind of "races": he hired NN racers (numbered 11 through N) whose task is to crash into each other.
+At the beginning, for each valid i, the i-th racer is Xi metres away from the starting point of the track (measured in the clockwise direction) and driving in the direction Di (clockwise or counterclockwise). All racers move with the constant speed 1 metre per second. The lengths of cars are negligible, but the track is only wide enough for one car, so whenever two cars have the same position along the track, they crash into each other and the direction of movement of each of these cars changes (from clockwise to counterclockwise and vice versa). The cars do not change the directions of their movement otherwise.
+Since crashes reduce the lifetime of the racing cars, Roger sometimes wonders how many crashes happen. You should answer Q queries. In each query, you are given an integer T and you should find the number of crashes that happen until T seconds have passed (inclusive).
+Input
+
+The first line of the input contains three space-separated integers N, Q and K.
+N lines follow. For each i (1≤i≤N), the i-th of these lines contains two space-separated integers Di and Xi, where Di=1 and Di=2 denote the clockwise and counterclockwise directions respectively.
+Each of the next Q lines contain a single integer T describing a query.
+
+Output
+For each query, print a single line containing one integer — the number of crashes.
+Constraints
+
+1≤N≤105
+1≤Q≤1,000
+1≤K≤1012
+1≤Di≤2 for each valid i
+0≤Xi≤K−1 for each valid i
+X1,X2,…,XN are pairwise distinct
+0≤T≤1012
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5 3 11
+1 3
+1 10
+2 4
+2 7
+2 0
+3
+8
+100
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+10
+110
+
+
+
+
+
+Author:
+7★kmaaszraa
+
+
+Editorial:
+https://discuss.codechef.com/problems/CRSHIT
+
+
+Tags:
+
+               
+                 cook113, easy-medium, kmaaszraa, kmaaszraa, sorting, two-pointers
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2784
+
+
+Date Added:
+17-12-2019
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

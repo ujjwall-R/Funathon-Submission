@@ -1,0 +1,95 @@
+
+You have a rooted tree consisting of nn vertices. There are some weights on each edge of the tree denoted by WiWi. The tree root is a vertex with number 11. 
+In this problem, you need to answer QQ queries. Each query is described by three values uu, vv, and xx. It is guaranteed that subtrees of node uu and node vv are disjoint. You are allowed to add at most one edge of weight xx between any node in the subtree of uu and any node in the subtree of vv. Find the maximummaximum weighted path between uu and vv given that each node can occur only once in a path.
+A subtree of some vertex is a subgraph containing that vertex and all its descendants.
+Input:
+
+First line will contain TT, number of testcases. Then the testcases follow. 
+First line of each testcase will contain NN and QQ, number of nodes and queries respectively.
+Next NN −− 1 lines contain three integers u, v and Wi representing an edge between nodes u and v of weight Wi.
+The next Q lines contain three integers u, v and x as explained in the problem statement.
+
+Output:
+For each query, output in a single line the maximum weighted path.
+Constraints:
+
+1≤T≤5
+1≤n,q≤2∗105
+1≤u,v≤n
+1≤abs(Wi),x≤109
+
+Subtasks
+
+20 points : 1≤n,q≤1000
+80 points : 1≤n,q≤2∗105
+
+Sample Input:
+1
+7 3
+1 2 1
+1 3 -2
+2 4 3
+2 5 -4
+5 7 5
+3 6 6
+2 3 1
+5 4 2
+5 6 0
+
+Sample Output:
+10
+7
+5
+
+Explanation:
+
+Query 1 : Its  optimal to add a edge between nodes 4 and 6 making a path 2 -> 4 -> 6 -> 3  with a weight of 3 + 1 + 6 = 10.
+
+
+
+Author:
+5★aman_robotics
+
+
+Editorial:
+https://discuss.codechef.com/problems/TREEDGE
+
+
+Tags:
+
+               
+                 akashbhalotia, aman_robotics, binary-lifting, dynamic-programming, ico, icop1904, lowest-common-ancestor, medium
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-01-2019
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH
+
+
+
+
+
+Submit
+

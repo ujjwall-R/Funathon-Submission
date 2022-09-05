@@ -1,0 +1,80 @@
+
+There are nm men living in a town. They have  nh horses, each capable of carrying only one man at a time. All the men are supposed to attend a dinner party d km away from their house. They should start their journey together and reach destination in minimum time. Speed of each man is vm km/hour whereas speed of each horse (with or without somebody on back) is vh km/hour. You need to find the minimum time required to complete the journey? For simplicity you can assume the following things:
+ 
+No time is needed in riding a horse or getting down from a horse.
+The horses are very well trained to execute any instruction given to it.
+No time is needed for changing the direction of horse or man.
+The town and the dinner party location can be considered as two different points and all people and horses travel along the straight line connecting these two points.
+
+Constraints
+
+d (0 < d ≤ 10000)
+nm (1 < nm ≤ 1000)
+nh (0 < nh ≤ 1000)
+vm (0 < vm ≤ 20)
+vh (0 < vh ≤ 50)
+
+Input
+Each input set consists of  five integers d, nm, nh, vm,  vh in a new line. Input ends with five 0s in a line. There will be at max 105+1 lines in the input
+Output
+For each line of input except the last one produce one line of output. This line should print a fraction p by q, in p/q form. This denotes the minimum possible reaching time of all men. Here p and q must be relative prime.
+Sample
+Input   
+70 2 1 5 10
+0 0 0 0 0 
+
+Output
+49/5
+
+
+
+
+Author:
+kol_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/KOL16D
+
+
+Tags:
+
+               
+                 Physics, Mathematics, ad-hoc
+                 
+                     
+                     Special, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-12-2016
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+40000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3
+
+
+
+
+
+Submit
+

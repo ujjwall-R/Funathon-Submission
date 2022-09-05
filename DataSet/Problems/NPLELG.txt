@@ -1,0 +1,76 @@
+
+
+Aniket has just won a contest and will recieve a prize worth  w  rupees. He wishes to buy three items he loves having cost  x , y and z . If he can buy the three items he becomes Happy else he is Sad. Given w, x, y and z. Can you tell if he is Happy or Sad. Okay.
+
+
+Input
+First line contains 4 integers denoting w,x,y and z respectively.
+
+Output
+
+Print "Happy" if Aniket can buy the three items else print "Sad".
+
+Constraints
+
+0 ≤ w,x,y,z ≤ 108
+
+Example
+Input 1:
+10 2 3 4
+
+Output 1:
+Happy
+
+
+Input 2:
+10 3 4 5
+
+Output 2:
+Sad
+
+
+
+
+
+Author:
+npl_nitw
+
+
+Tags:
+
+               
+                 cakewalk, npl_nitw, nplelg, nplq1601
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-10-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

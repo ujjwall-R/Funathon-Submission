@@ -1,0 +1,102 @@
+
+There is going to be an election in Chefland between Alice and Bob. In an election, all voters stand in a queue and vote one by one. Voter at position ii in the queue votes at the beginning of ii-th minute. After the results were declared, Alice got AA votes and Bob got B votes. Thus, the voting happens for A+B minutes. Chef, being an statistician, decided to play with election results. He wants to calculate the duration for which Alice was ahead of Bob at the time of voting, but he does not remember the initial arrangement of voters in queue. Help him to calculate the expected value of the duration, in minutes, if the voters are arranged randomly, that is, every arrangement is equally likely. If the answer is P/Q where P,Q are co-prime integers and Q≠0, output R such that 0≤R≤109+6 and R×Q≡Pmod(109+7).
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains of a single line of input, two integers A,B. 
+
+Output:
+For each testcase, output answer in a single line.
+Constraints
+
+1≤T≤1000
+0≤A,B≤106
+1≤A+B
+Sum of A×B over all test cases does not exceed 107
+
+Subtasks
+
+7 points : 0≤A,B≤8
+10 points : 0≤A,B≤14
+28 points : Sum of A×B over all test cases does not exceed 105
+55 points : Original constraints
+
+Sample Input:
+2
+2 1
+1 2
+
+Sample Output:
+2
+333333336
+
+Explanantion:
+Case 1: Say voter A1,A2 vote for Alice and voter B1 votes for Bob. There are 6 possible permutations:
+
+(A1,A2,B1) Alice leads during minute 1,2,3
+(A1,B1,A2) Alice leads during minute 1,3
+(A2,A1,B1) Alice leads during minute 1,2,3
+(A2,B1,A1) Alice leads during minute 1,3
+(B1,A1,A2) Alice leads during minute 3
+(B1,A2,A1) Alice leads during minute 3
+
+Thus, expected value is (3+2+3+2+1+1)/6=2 or P=2,Q=1.
+Case 2: Say voter A1 votes for Alice and voter B1,B2 vote for Bob. There are 6 possible permutations:
+
+(B1,B2,A1) Alice never leads
+(B1,A1,B2) Alice never leads
+(B2,B1,A1) Alice never leads
+(B2,A1,B1) Alice never leads
+(A1,B1,B2) Alice leads during minute 1
+(A1,B2,B1) Alice leads during minute 1
+
+Thus, expected value is (0+0+0+0+1+1)/6=1/3 or P=1,Q=3.
+
+
+
+Author:
+6★praran26
+
+
+Editorial:
+https://discuss.codechef.com/problems/ELECTION
+
+
+Tags:
+
+               
+                 dynamic-programming, locmay18, praran26
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-05-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

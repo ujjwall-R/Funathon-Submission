@@ -1,0 +1,66 @@
+
+Carthikeya, Parkas and Baccha have reached the final round of Sarma Templeton internship procedure. The final round is a live coding round. The interviewer on the advise of respect Director Mr. Sarma decides to ask a simple question first to test his coding speed. The question is to print a checkerboard of dimensions mm rows and nn columns using ‘.’ which denotes white and ‘*’ which denotes black squares. The top-left corner has to be black in color. To make things difficult, the input will be in a weird format. Help them so that they don’t have to go to E. D. Saw for internship.
+Input:
+Input is given as ‘[ nn,m ]’ or ‘( n , m )’ (without the quotes)  but with any number of whitespaces between any two of these units which form the input. Examples of valid inputs are ‘[         17,    12]’ and  ‘(152,22)’. Examples of invalid inputs are ‘[1,5)’ and ‘(1 3, 132)’. 
+Output:
+Print the checkerboard pattern using ‘.’ and ‘*’ using given dimensions.
+Constraints
+
+1≤n≤1000
+1≤m≤20000
+1≤|input|≤200
+
+Sample Input:
+[          5,    4]
+
+Sample Output:
+*.*.*
+.*.*.
+*.*.*
+.*.*.  
+
+
+
+
+Author:
+5★kishen1912000
+
+
+Tags:
+
+               
+                 cakewalk, cogf2019, implementation, kishen1912000, kishen1912000
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-09-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

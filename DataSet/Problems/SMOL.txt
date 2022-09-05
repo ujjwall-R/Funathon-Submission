@@ -1,0 +1,106 @@
+
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given two integers NN and KK. You may perform the following operation any number of times (including zero): change NN to N−K, i.e. subtract K from N. Find the smallest non-negative integer value of N you can obtain this way.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers N and K.
+
+Output
+For each test case, print a single line containing one integer — the smallest value you can get.
+Constraints
+
+1≤T≤105
+1≤N≤109
+0≤K≤109
+
+Subtasks
+Subtask #1 (100 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+5 2
+4 4
+2 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+0
+2
+
+
+Explanation
+Example case 1:
+
+First, we change N=5 to N−K=5−2=3.
+Then, we have N=3 and we change it to N−K=3−2=1.
+
+Since 1<K, the process stops here and the smallest value is 1.
+Example case 2: We change N=4 to N−K=4−4=0. Since 0<K, the process stops here and the smallest value is 0.
+Example case 3: Since 2<K initially, we should not perform any operations and the smallest value is 2.
+
+
+
+Author:
+6★ashishgup
+
+
+Editorial:
+https://discuss.codechef.com/problems/SMOL
+
+
+Tags:
+
+               
+                 Basic Maths
+                 
+                     
+                     Mathematics
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1306
+
+
+Date Added:
+17-02-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

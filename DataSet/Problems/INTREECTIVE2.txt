@@ -1,0 +1,105 @@
+
+This problem is similar to the problem "INTREECTIVE". The only difference between them is the number of queries allowed — in this problem, up to 11 queries can be made. In Div. 1 and Div. 2 this problem is worth 60 points and "INTREECTIVE" is worth 40. In Div. 3 this problem is non-scorable.
+This is an interactive task 
+You are given a tree consisting of NN nodes, numbered from 11 to N. Chef selected an arbitrary node and marked it.
+Chef gave you a judge to play with, using which you can ask queries about the given tree.
+In each query, you give the judge a non-empty set S of nodes. The judge returns 1 if there exists u and v(not necessarily distinct) such that u,v∈S and the marked node lies on the shortest path from u to v, or 0 otherwise.
+You have to find the marked node.
+For each test case, you can use at most 11 queries.
+Interaction
+
+Begin the interaction by reading a single integer T denoting the number of test cases. The description of interaction for T test cases follows.
+For each test case, first read a single integer N, denoting the number of nodes in the tree.
+N−1 lines follow. The ith of these lines contains two space-separated integers ui and vi, denoting an edge between the nodes ui and vi.
+It is guaranteed that the given graph is a tree.
+Now you may begin asking queries. To ask a query about a set S of k nodes v1,v2,…,vk (1≤k≤N,1≤vi≤N, all vi are distinct), output:
+? k v1 v2 … vk
+You will then receive an integer x. x is 1 if there exists u and v(not necessarily distinct) such that  u,v∈S and the marked node lies on the path from u to v, or 0 otherwise.
+When you have found the marked node(say v), print the answer in the following format:
+! v
+Outputting the answer doesn't count towards the limit of 11 queries.
+If at any time you make an invalid query or exceed the query limit, the interaction is terminated and you will receive a Wrong Answer verdict.
+If you receive a Judge Error verdict, that means your program actually has one of many possible errors: an Idleness Limit Exceeded error (it is waiting for input that does not exist), a Runtime error, you asked an invalid query, or possibly some other error.
+Don't forget to flush the output after printing each line!
+
+Constraints
+
+1≤T≤1000
+1≤N≤1000
+The input graph is a tree
+Sum of N does not exceed 5⋅104 over all test cases
+At most 11 queries can be made.
+
+Sample Interaction
+Grader                You
+2
+2
+1 2
+                      ? 1 1
+0
+                      ! 2
+4
+1 2
+1 4
+1 3
+                      ? 3 1 2 3
+1
+                      ? 1 3
+1
+                      ! 3
+
+Explanation
+
+Test case 1: After the 1st query, we know that node 1 hasn't been marked. So, we are left with only one possibility — node 2.
+Test case 2: Chef marked the node 3.
+
+Note: The above queries are just to demonstrate the interaction. They may or may not be sufficient to deduce the final answer. 
+
+
+
+Author:
+6★satyam_343
+
+
+Editorial:
+https://discuss.codechef.com/problems/INTREECTIVE2
+
+
+Tags:
+
+               
+                 binary-search, easy-medium, interactive, satyam_343, start28, trees
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2935
+
+
+Date Added:
+1-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

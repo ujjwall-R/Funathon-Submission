@@ -1,0 +1,84 @@
+
+Chef’s girlfriend is not talking to him because Chef has forgotten her birthday. Their relationship is on the verge of breakup and Chef has got one last chance to save his relationship. So Chef is making  a poem for his girlfriend so that she becomes happy and starts talking with him again. But, this is not easy and only random words are coming to the Chef’s mind. Chef is not able to rhyme these words properly. You have to help Chef so that his relationship is saved and he is not “single” again.Chef has N number of strings, your task is to tell whether these strings can be rhymed or not. The criteria for rhyming is that the last character of the previous string should be same as the first character of the next string. If such a pattern exists then the output should be YES else NO. 
+ 
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.The next line contains an integer N, where N is the number of strings.N lines follow each containing a string S.
+
+Output
+If it is possible to obtain such a pattern then print YES else print NO.
+Constraints
+
+1 ≤ T ≤ 100
+1 ≤ N ≤ 1000
+1 ≤ S ≤ 100
+
+Example
+Input:
+2
+3
+chef
+soccer
+forgets
+4
+drawing
+vertex
+geoboard
+directed
+
+Output:
+YES
+NO
+
+
+Explanation
+Example For test case 1, there exists pattern arrangement “chef forgets soccer”.
+
+
+
+
+Author:
+akashdeep_uiet
+
+
+Editorial:
+https://discuss.codechef.com/problems/COEX04
+
+
+Tags:
+
+               
+                 akashdeep_uiet, medium, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+16-02-2016
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

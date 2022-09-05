@@ -1,0 +1,77 @@
+
+ 
+ You have a list of N numbers. You are deleting D numbers from the list. Print the minimum sum that can be obtained by adding the remaining numbers after deleting exactly D numbers from the list. 
+Input
+ The first line will contain an integer T representing the number of test cases. Each test case will begin with two space separated numbers, N and D, on a new line.  Next line of each test case of each test case will have N space separated integers, representing the list of numbers.
+Output
+ Print T lines of numbers representing the minimum sum in each case. 
+Constraints
+
+1 ≤ T ≤ 10
+1 ≤ N ≤ 20
+1 ≤ D ≤ N
+
+ 
+Example
+Input:
+2
+5 3
+1 1 1 1 1
+2 1
+3 4
+Output:
+2
+3
+ 
+Explanation
+Example case 1. After removing 3 numbers we will be left with sum of 2.
+Example case 2. After removing 1 numbers we will be left with sum of 3, the only number left
+
+
+
+Author:
+3★chandubaba
+
+
+Editorial:
+https://discuss.codechef.com/problems/DELSUM
+
+
+Tags:
+
+               
+                 cakewalk, chandubaba, keteki, ktbc2015, maths
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+4-10-2015
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

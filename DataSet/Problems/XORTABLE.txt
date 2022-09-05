@@ -1,0 +1,106 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+There are two integer sequences A1,A2,…,ANA1,A2,…,AN and B1,B2,…,BMB1,B2,…,BM. You do not know the exact values of their elements, but you know that Li≤Ai≤RiLi≤Ai≤Ri for each valid i and Pi≤Bi≤Qi for each valid i.
+You also have a matrix C with N rows and M columns. Some elements of C are missing. For each element Ci,j (1≤i≤N, 1≤j≤M) that is not missing, you know that Ci,j=Ai⊕Bj (⊕ denotes bitwise XOR).
+Your task is to find two sequences A and B satisfying all given conditions. If multiple solutions exist, you may find any one.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M. 
+N lines follow. For each i (1≤i≤N), the i-th of these lines contains two space-separated integers Li and Ri.
+M lines follow. For each i (1≤i≤M), the i-th of these lines contains two space-separated integers Pi and Qi.
+N more lines follow. For each i (1≤i≤N), the i-th of these lines contains M space-separated integers Ci,1,Ci,2,…,Ci,M. Missing elements are denoted by −1.
+
+Output
+For each test case:
+
+If no solution exists, print a single line containing the string "NO".
+Otherwise, print three lines. The first line should contain the string "YES". The second line should contain N space-separated integers A1,A2,…,AN. The third line should contain M space-separated integers B1,B2,…,BM.
+
+Constraints
+
+1≤T≤100
+1≤N,M≤103
+the sum of N⋅M over all test cases does not exceed 106
+0≤Li≤Ri<230 for each valid i
+0≤Pi≤Qi<230 for each valid i
+−1≤Ci,j<230 for each valid i,j
+
+Example Input
+2
+3 3
+2 4
+3 4
+4 6
+1 3
+4 7
+6 8
+2 7 4
+5 0 3
+4 1 2
+2 2
+4 6
+5 7
+3 9
+2 4
+3 6
+6 5
+
+Example Output
+YES
+3 4 5
+1 4 7
+NO
+
+
+
+
+Author:
+6★kingofnumbers
+
+
+Editorial:
+https://discuss.codechef.com/problems/XORTABLE
+
+
+Tags:
+
+               
+                 Bitwise Operation, Cycles, Constructive
+                 
+                     
+                     Mathematics, Bit Manipulation, Algorithms, Graph Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+24-05-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,115 @@
+
+You are given an undirected tree having NN nodes. The color of each node is either Black or White.
+In one step, you can choose a node uu, toggle the color of the chosen node uu, as well as toggle the colors of all the nodes v, such that {u,v} is an edge in the tree.
+Can you find out the minimum number of steps required to make the color of all the nodes black?
+Note: Since the input is large, prefer using fast input methods.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of the T test cases follows.
+The first line of each test case contains a single integer N.
+The second line of each test case contains N space separated integers A1,A2,...,AN. Ai = 0 represents that the initial color of the ith node is black. Ai = 1 represents that the initial color of the ith node is white.
+The following N−1 lines contain two space-separated integers x and y, which denotes that there is an edge between nodes x and y. 
+
+Output Format
+For each test case, output in a single line the minimum number of steps required to make the color of all the nodes black.
+Output −1 if it is impossible to make the color of all the nodes black.
+Constraints
+
+1≤T≤5⋅104
+1≤N≤105
+0≤Ai≤1
+1≤x,y≤N
+The sum of N over all test cases does not exceed 5⋅105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+3
+0 0 0
+1 2
+1 3
+3
+1 1 1
+1 2
+1 3
+3
+0 1 0
+1 2
+1 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+1
+2
+
+
+Explanation
+Test Case 1: All the nodes are already black, so we do not need to do anything.
+Test Case 2: All the nodes are white. If we choose node 1 in the first step, all the nodes will become black. Hence, only 1 step is required to make all the nodes black. 
+Test Case 3: Choose node 3 in the first step. This will make all the nodes white. Choose node 1 in the second step. This will make all the nodes black. 
+
+
+
+Author:
+6★lavish315
+
+
+Editorial:
+https://discuss.codechef.com/problems/BAWTREE
+
+
+Tags:
+
+               
+                 Trees, Dynamic Programming, DFS
+                 
+                     
+                     Data Structures, Graphs, Algorithms, Graph Algos, Traversals
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3008
+
+
+Date Added:
+9-10-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

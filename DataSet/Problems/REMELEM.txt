@@ -1,0 +1,114 @@
+
+You are given an array A=[A1,A2,…,AN]A=[A1,A2,…,AN] consisting of N positive integers.
+You are also given a constant K, using which you can perform the following operation on A:
+
+Choose two distinct indices i and j such that Ai+Aj≤K, and remove either Ai or Aj from A.
+
+Is it possible to obtain an array consisting of only one element using several (possibly, zero) such operations?
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K. 
+The second line contains N space-separated integers A1,A2,…,AN.
+
+Output Format
+For each test case, print "YES" if it is possible to obtain an array consisting of only one element using the given operation, otherwise print "NO".
+You may print each character of the string in uppercase or lowercase (for example, the strings "yEs", "yes", "Yes" and "YES" will all be treated as identical).
+Constraints
+
+1≤T≤103
+1≤N≤105
+1≤Ai,K≤109
+Sum of N over all test cases does not exceed 2⋅105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+1 3
+1
+3 3
+2 2 2
+4 7
+1 4 3 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+YES
+NO
+YES
+
+
+Explanation
+Test case 1: The length of the array is already 1.
+Test case 2: There is no way to delete an element from the given array.
+Test case 3: One possible sequence of operations is:
+
+Choose i=1,j=4 and remove Aj=5. Hence the array becomes [1,4,3].
+Choose i=2,j=3 and remove Ai=4. Hence the array becomes [1,3].
+Choose i=1,j=2 and remove Ai=1. Hence the array becomes [3], which is of length 1.
+
+
+
+
+Author:
+5★soumyadeep_21
+
+
+Editorial:
+https://discuss.codechef.com/problems/REMELEM
+
+
+Tags:
+
+               
+                 1D Arrays, ad-hoc
+                 
+                     
+                     Data Structures, Arrays, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1415
+
+
+Date Added:
+3-12-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

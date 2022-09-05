@@ -1,0 +1,108 @@
+
+Read problems statements in Hindi,
+Mandarin chinese
+, Russian and Vietnamese as well.
+Sheokand is good at mathematics. One day, to test his math skills, Kaali gave him an integer NN. To impress Kaali, Sheokand has to convert NN into an integer MM that can be represented in the form 2x+2y (where x and y are non-negative integers such that x≠y). In order to do that, he can perform two types of operations:
+
+add 1 to N
+subtract 1 from N
+
+However, Sheokand is preparing for his exams. Can you help him find the minimum number of operations required to convert N into a valid integer M?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each testcase contains a single integer N.
+
+Output
+For each test case, print a single line containing one integer — the minimum required number of operations.
+Constraints
+
+1≤T≤100,000
+1≤N≤109
+
+Subtasks
+Subtask #1 (30 points): 1≤T≤1,000
+Subtask #2 (70 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+10
+22
+4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+2
+1
+
+
+Explanation
+Example case 1: N=10 is already in the form 2x+2y, with x=3 and y=1.
+Example case 2: N=22 can be converted into M=20=22+24 or M=24=23+24 in two operations.
+Example case 3: N=4 can be converted into M=3=20+21 or M=5=20+22 in one operation.
+
+
+
+Author:
+4★jitendersheora
+
+
+Editorial:
+https://discuss.codechef.com/problems/SHKNUM
+
+
+Tags:
+
+               
+                 Binary Exponentiation, Binary Search
+                 
+                     
+                     Mathematics, Number Theory, Exponentiation, Algorithms, Searching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1534
+
+
+Date Added:
+28-07-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

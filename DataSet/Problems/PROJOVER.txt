@@ -1,0 +1,75 @@
+
+Mister J is a very distinguished professor, but he also has a dark side to him. He feels being free is a waste of time and therefore he wants his students to be permanently busy.
+The students have NN vacation days, which are v1,v2,…,vnv1,v2,…,vn (all distinct). Administration ensures that students get a minimum of 4 such vacation days.
+Mister J has a set of projects, each of which occupies the students from D to D+T−1 days (inclusive) from the announcement date D. (Different projects' timelines may or may not overlap) 
+He can deploy at most M projects, each of which occupies the students for the same number of days T. He can choose any announcement date D for each project (it can be different for different projects). 
+But he does not want to get into trouble with the administration for issuing very lengthy projects. So he needs your help in finding the minimum integer value of T such that he is still able to use his set of M projects to occupy the students for every single vacation-day that they get.
+Mister J doesn't want the projects to be too short, so he ensures that the number of projects M is less than the number of days N.
+Input
+The first line of input contains 2 integers N (4≤N≤105) and M (1≤M≤25,M<N).
+The next line contains N space-separated integers v1,…,vN (1≤vi≤108) (all vi are distinct)
+Output
+Output only one integer, the minimum possible value of T.
+Sample Input 1
+6 4
+2 1 5 6 12 11
+
+Sample Output 1
+2
+
+Explanation
+Mister J can deploy three projects.
+The first project will cover the vacation days 1 and 2, the second project will cover the vacation days 5 and 6, and the last project will cover the vacation days 11 and 12.
+Therefore, we can minimize the project length to 2 days, cover all the vacation days, and give ≤4 projects.
+Hack case note
+Find the buggy solution to this problem on GitHub or Drive.
+This problem is part of DeCode contest, wherein you are given a problem (as given above) and its buggy solution (link in contest announcement). You have to submit a program that outputs a hack case to the buggy solution. Your program's output should satisfy the input constraints of the above problem.
+
+
+
+Author:
+4★akcube
+
+
+Editorial:
+https://discuss.codechef.com/problems/PROJOVER
+
+
+Tags:
+
+               
+                 akcube, binary-search
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+8-02-2021
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

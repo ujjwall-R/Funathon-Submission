@@ -1,0 +1,100 @@
+
+Their are N Students in the class of a Pizza School of Margarita district. Where Every i−th Student have i Friends, Except the Nth student.
+NOTE:−   Friendship is only possible in between N students of class.
+Your task is to predict the number of friends that N−th student have. So that the Friendship Network formed by the N students of class form a valid Network. 
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains of a single line of input an Integer N. 
+
+Output:
+For each testcase, output in a single line answer given by Number of Friends that N−th student have. 
+Constraints
+
+1≤T≤105
+1≤N≤109
+
+Subtasks
+
+100 points : Original−Constraints
+
+Sample Input:
+    4
+    1
+    2
+    3
+    4
+
+Sample Output:
+    0
+    1
+    1
+    2
+
+EXPLANATION:
+Example−Test−Case−1:−
+Here their is only 1-Student in the class hence he does-not have any other student to make friends.
+Example−Test−Case−2:−
+Here their are 2-Students in the class, we know that 1st student have 1-friend hence, their is only one possibility of friendship is the friendship among them hence 2nd student have only     1-friend, and that one friend is 1st student.
+Example−Test−Case−3:−
+Here their are 3-Students in the class.
+
+1st Student have 1-friend.
+2nd Student have 2-friends.
+hence 3rd-student have only 1-friend so that the friendship become valid. 
+Example−Test−Case−4:−
+Here their are 4-Students in the class.
+
+1st Student have 1-friend.
+2nd Student have 2-friends.
+3rd Student have 3-friends.
+hence 4th-student have only 2-friend so that the friendship become valid.
+
+
+
+Author:
+4★mann2108
+
+
+Editorial:
+https://discuss.codechef.com/problems/WEFRNDS
+
+
+Tags:
+
+               
+                 cakewalk, mann2108, observation
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-02-2019
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

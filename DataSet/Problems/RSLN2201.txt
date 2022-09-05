@@ -1,0 +1,106 @@
+
+After Quentin Beck frames Peter Parker for murder and reveals his true identity as Spider-Man, Parker goes to the Sanctum Sanctorum to ask Stephen Strange for help. Strange suggests a spell that would make people forget Parker is Spider-Man. Parker repeatedly requests alterations to let his loved ones retain their memories, which corrupts the spell, but Strange contains it and makes Parker leave. 
+Strange explains that the corrupted spell summoned people from other universes who know Spider-Man's identity, and orders Parker, MJ, Ned to track them down and capture them and tell him their total combined power. They'll need your help counting their combined powers and keeping them contained in the cell because they're all lousy at math.
+Given the number of visitors NN and the magical number MM, 
+Output the sum of their powers modulo MM, and also display their powers in the reverse order in which they arrived.
+Input Format
+
+First line will contain T, number of testcases. Then the testcases follow.
+Each testcase contains of a two lines of input, first line has N the total number of visitors and the magical number M.
+Second line has N space separated visitors each with their power ai
+It is guaranteed that the sum of N over all the testcases does not exceed 10^5.
+
+Output Format
+For each testcase, output the sum of their powers modulo M i.e. Σai%M  and on the next line display their powers in the reverse order in which they arrived.
+Constraints
+
+1≤T≤1000
+2≤N≤105
+1≤M≤1017
+1≤ai≤1011
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+5 173
+41 882 3940 1000 434
+3 9999
+9 99 999
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+69
+434 1000 3940 882 41
+1107
+999 99 9
+
+
+Explanation
+In test case 1 the sum of all the powers of villains modulo 173 are (6297%173)=69
+and they are then displayed in the required order in the next line
+
+
+
+Author:
+1★akk312000
+
+
+Tester:
+4★dark_38
+
+
+Editorial:
+https://discuss.codechef.com/problems/RSLN2201
+
+
+Tags:
+
+               
+                 akk312000, basic-arithmatic, cakewalk, rsln2022
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+23-12-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

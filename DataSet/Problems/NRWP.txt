@@ -1,0 +1,117 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Consider a grid with HH rows (numbered 11 through HH) and W columns (numbered 1 through W). Let's denote the value in a cell in row i and column j by hi,j. N particles (numbered 1 through N) are distributed in the cells in such a way that there is at most one particle in each cell. For each valid i, the i-th particle has a value pi and it is placed in the cell in row yi and column xi.
+Let's denote the set of all particles by P and the set of all unordered pairs of particles that are located in side-adjacent cells by E. We define the value of the grid as
+V=∑i∈Ppi⋅hyi,xi+∑(i,j)∈Epi⋅pj.
+You are given the grid and the locations of all particles, but not their exact values ― only |p1|,|p2|,…,|pN|. Your task is to choose the sign of each value pi in such a way that the value V is maximum possible. Each sign may be chosen independently from all other signs.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers H, W and N.
+H lines follow. For each valid i, the i-th of these lines contains W space-separated integers hi,1,hi,2,…,hi,W.
+N more lines follow. For each valid i, the i-th of these lines contains three space-separated integers yi, xi and |pi|.
+
+Output
+For each test case, print two lines.
+
+The first of these lines should contain a single integer ― the maximum value of V.
+The second line should contain N space-separated integers. For each valid i, the i-th of these integers should be 1 if you choose a positive sign for the value of the i-th particle (i.e. its value should be |pi|) or −1 if you choose a negative sign (i.e. its value should be −|pi|).
+
+If there are multiple solutions, you may find any one.
+Constraints
+
+1≤T≤10
+1≤H,W≤1,000
+1≤N≤200
+|hi,j|≤1,000 for each valid i,j
+1≤yi≤H for each valid i
+1≤xi≤W for each valid i
+|pi|≤100 for each valid i
+no two particles are located in the same cell
+the sum of H⋅W over all test cases does not exceed 106
+
+Subtasks
+Subtask #1 (10 points): N≤15
+Subtask #2 (20 points): H≤2
+Subtask #3 (70 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+2 2 3
+1 4
+-1 -2
+1 1 3
+1 2 1
+2 2 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+12
+1 1 -1
+
+
+
+
+
+Author:
+6★carre
+
+
+Editorial:
+https://discuss.codechef.com/problems/NRWP
+
+
+Tags:
+
+               
+                 Graphs, Physics, Connected Components, Min Cut Max flow, DFS
+                 
+                     
+                     Data Structures, Special, Advanced Algorithms, Advanced Graph Algos, Flow Networks, Algorithms, Graph Algos, Traversals
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2871
+
+
+Date Added:
+18-03-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

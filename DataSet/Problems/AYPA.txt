@@ -1,0 +1,89 @@
+
+As we all know that there is a chance of war between India and Pakistan. Suppose in the future war begins and army chief has to distribute packets of explosives and each packet has a different number of explosives and every soldier must allocate at least one packet. Chief makes many groups. In each group, there are different numbers of soldiers. Chief has NN number of packets, Chief has to allocate packets in a group who have MM number of soldiers. There are many ways to do so. But in each way one of the soldiers will get the maximum number of explosives. Out of all these ways chief want to find the particular way in which the maximum number of explosives allocated to a soldier is minimum of those in all other permutations or ways and chief want to find that minimum number. Please help the chief to do so. 
+Note: Return −1 if a valid assignment is not possible, and allotment should be in contiguous order (see the explanation for better understanding).
+Input:
+-The first line contains 'T' denoting the number of test cases. Then follows the description of T test cases:
+-Each case begins with a single positive integer N denoting the number of packets.
+-The second line contains N space-separated positive integers denoting the number of explosives in each packet.
+-The third line contains another integer M, denoting the number of the soldier in each group.
+
+Output:
+For each test case, output a single line containing the minimum number of explosives each soldier has to read for the corresponding test case.
+
+Constraints:
+
+1≤T≤100
+1≤N≤200
+1≤A[i]≤2600000
+1≤M≤35
+
+Sample Input:
+2
+4
+10 20 30 40
+3
+3
+15 17 20
+2
+
+Sample Output:
+40
+32
+
+Explaination:
+Allocation can be done in following ways:
+{10},{20},{30,40}      Maximum explosives = 70
+{10},{20,30},{40}       Maximum explosives = 50 
+{10,20},{30},{40}       Maximum explosives = 40
+
+Therefore, the minimum of these cases is 40, which is selected as the output.
+
+
+
+
+Author:
+3★thesuraj007
+
+
+Editorial:
+https://discuss.codechef.com/problems/AYPA
+
+
+Tags:
+
+               
+                 binary-search, codechef, coss2020, externalcontest, medium-hard, thesuraj007
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-01-2020
+
+
+Time Limit:
+0.1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, PYPY, NODEJS, RUBY, PHP, GO, kotlin, SCALA, JS, rust, R, swift, SQL
+
+
+
+
+
+Submit
+

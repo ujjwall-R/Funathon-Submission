@@ -1,0 +1,73 @@
+
+RK was playing with Strings. One day he came across the following problem. He wanted to find the number of ways to split  a string S to substrings such that if there are k substrings (p1, p2, p3, ..., pk) in partition, then pi = pk-i+1  for all i (1 ≤ i ≤ k) and k is even.
+
+Since the number of ways can be very large, print it modulo 109 + 7.
+Input
+
+The only line of the input consist of a string S.
+
+Output
+
+Print the number of ways modulo 109 + 7.
+
+Constraints
+
+2 ≤ |S| ≤ 106
+
+Example
+Input:
+abbababababbab
+Output:
+3
+
+Explanation
+The string can be partitioned as ab|b|ab|ab|ab|ab|b|ab or ab|b|abab|abab|b|ab or abbab|ab|ab|abbab. Thus total number of ways = 3.
+
+
+
+Author:
+4★ravikiran0606
+
+
+Editorial:
+https://discuss.codechef.com/problems/RKABOL08
+
+
+Tags:
+
+               
+                 abacus18, aonl18, dynamic-programming, medium-hard, ravikiran0606, ravikiran0606, strings, suffix-trees
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+24-02-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, PYPY, kotlin
+
+
+
+
+
+Submit
+

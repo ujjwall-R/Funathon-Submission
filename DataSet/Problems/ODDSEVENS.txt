@@ -1,0 +1,96 @@
+
+Read problem statements in Mandarin, Vietnamese, and Russian as well.
+Alice and Bob play the classic game of odds and evens. In this game, each of the two players choose a number between 11 and 55 without revealing to their opponent. Both of the players then simultaneously reveal their number by holding up that many fingers of their hand. Then the winner is decided based upon whether the sum of numbers played by both the players is odd or even. In this game we assume that if the sum is odd then Alice wins, otherwise Bob wins.
+If Alice held up aa fingers and Bob held up b fingers, determine who won the game.
+Input Format
+
+First line will contain T, number of testcases. Then the T testcases follow.
+Each testcase contains of a single line of input, two integers a,b which denote the number played by Alice and Bob respectively.
+
+Output Format
+For each testcase, output which player won the game.
+Constraints
+
+1≤T≤1000
+1≤a,b≤5
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+1 1
+1 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Bob
+Alice
+
+
+Explanation
+In the first test case, Alice and Bob both played 1. The sum of the numbers played by them is 2 which is even. Therefore Bob wins.
+In the second test case, Alice played 1 while Bob played 2. The sum of the numbers played by them is 3 which is odd. Therefore Alice wins.
+
+
+
+Author:
+6★jeevanjyot
+
+
+Editorial:
+https://discuss.codechef.com/problems/ODDSEVENS
+
+
+Tags:
+
+               
+                 Conditional Statements, Basic Maths, Divisibility, Implementation
+                 
+                     
+                     Basic Programming Concepts, Mathematics, Modular Arithmetic, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+19-11-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

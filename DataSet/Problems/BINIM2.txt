@@ -1,0 +1,98 @@
+
+Read problems statements in Hindi, Spanish, Mandarin chinese, Russian, Vietnamese and Bengali as well.
+Tweedle-Dee and Tweedle-Dum are playing a fierce match of binary Nim. This novel game is played with NN stacks, each of them containing only 11-s and 00-s.
+Just like in normal Nim, Tweedle-Dee and Tweedle-Dum alternate turns; in their turn, a player must choose one non-empty stack and remove a positive number of elements from the top of this stack. However, Tweedle-Dee may only choose a stack with 0 at the top (and remove elements from it afterwards), and similarly, Tweedle-Dum may only choose a stack with 1 at the top. The player that cannot make a move for the first time wins.
+Ada does not want to wait for the end of the game, so she asked you to determine the winner of the game if you are given the starting player. Remember that Tweedle-Dee and Tweedle-Dum are legendary grandmasters of combinatorial games, so they both always play optimally.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains an integer N, followed by a space and a string S denoting the player that starts the game.
+Each of the following N lines contains a single binary string B representing a stack; the first character of B corresponds to the top element of the stack and the last character to the bottom element.
+
+Output
+For each test case, print a single line containing the string "Dee" if Tweedle-Dee wins the match or "Dum" if Tweedle-Dum wins.
+Constraints
+
+1≤T≤500
+1≤N≤50
+1≤|B|≤50
+each character in B is either '1' or '0'
+S is either "Dee" or "Dum"
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+2 Dee
+010
+101
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Dee
+
+
+
+
+
+Author:
+7★alei
+
+
+Editorial:
+https://discuss.codechef.com/problems/BINIM2
+
+
+Tags:
+
+               
+                 Game Theory, ad-hoc
+                 
+                     
+                     Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1929
+
+
+Date Added:
+31-08-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

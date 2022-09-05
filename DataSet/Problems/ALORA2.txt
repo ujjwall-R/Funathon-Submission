@@ -1,0 +1,86 @@
+
+“It is our choices that show what we truly are, far more than our abilities.”
+Harry Potter was sitting in library staring at newly found Tom Riddle's secret diary. Out of curiosity, he started asking questions about the past of Chambers Of Secrets. Tom took him to the year of 1942. There Harry saw, Dumbledore and McGonagall arranging the students to stop Hagrid from opening Chamber Of Secrets. To stop Hagrid, the students need to be arranged in particular order of their heights.
+Suppose there are NN students each with height hihi standing in line. The order of the students must be as follows:  
+
+If the number of students is less than 3, it is always possible to
+     arrange students.  
+hi  =  hi−1  +  GCD( hi−2 , hi−1) for all i>2, where GCD(x ,y) is greatest common factor of x and y.  
+
+Dumbledore asks the then prefect Tom Riddle to arrange the students in the following order. Furthermore, Hagrid being a half-giant, the arrangement of the height of students must be lexicographically
+ greatest.
+Though we know it wasn't Hagrid who opened the Chamber Of Secrets but still you need to help Tom and Dumbledore to arrange the students.
+NOTE: Consider GCD(0,x) = x where x is a non-negative integer.
+Input:
+
+The first line will contain T, number of test cases. Then the test cases follow. 
+The first line of each test case contains a single integer N
+In the next line, N numbers  follow, denoting the height of the students whom you have to arrange  
+
+Output:
+For each test case, print a single line containing N numbers separated by space, which denotes the height of the students and follows the conditions given or "−1" if the students cannot be arranged following the given condition.  
+Constraints
+
+1≤T≤100
+1≤N≤2∗105
+0≤ai≤109 
+sum of N over all test cases is less than 4∗106.
+
+Sample Input :
+2
+5
+4 6 2 5 3
+3
+3 8 5 
+Sample Output:
+2 3 4 5 6
+-1
+
+
+
+Author:
+5★vikas_nitd
+
+
+Editorial:
+https://discuss.codechef.com/problems/ALORA2
+
+
+Tags:
+
+               
+                 recursion, sorting, vikas_nitd
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-01-2019
+
+
+Time Limit:
+1.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

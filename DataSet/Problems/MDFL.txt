@@ -1,0 +1,85 @@
+
+You are given a very hard mathematical problem that challenges the human imagination. We can imagine 1D, 2D, and 3D easily, but things get more interesting when we encounter dimensions greater than three. You need to solve this M dimensional challenge mathematically where you will be given N points.
+Each point is denoted by a tuple (A1, A2, ... , AM) denoting the coordinates of the point in the M dimensional space. All the points are connected together to create a Hamiltonian cycle. 
+Hamiltonian Path in an un-directed graph is a path that visits each vertex exactly once. A Hamiltonian cycle (or Hamiltonian circuit) is a Hamiltonian Path such that there is an edge (in the graph) from the last vertex to the first vertex of the Hamiltonian Path.
+Your task is to determine if number of edges of this graph formed and the number of edges of an octagon are co-prime.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M denoting number of points and the dimensions of the plane the point lies in respectively.
+The following N lines contain space-separated integers A1, A2, A3, ... , AM denoting the coordinates of the point in the M dimensional space 
+
+Output
+
+For each test case, output a single line containing "YES" if the number of edges of this graph formed and the number of edges of an octagon are co-prime, otherwise output "NO" (without qoutes).
+
+Constraints
+
+1 ≤ T ≤ 10
+3 ≤ N ≤ 100
+1 ≤ M ≤ 10
+-1000 ≤ Ai ≤ 1000
+
+Example
+Input:
+1
+4 2
+0 0
+1 0
+1 1
+0 1
+
+Output:
+NO
+
+Explanation
+One of the Hamiltonian cycle that can be formed by connecting the (0,0) -> (1,0) -> (1,1) -> (0,1) is a square, so number of edges are 4,and hence it is not co-prime with the number of edges of octagon
+
+
+
+Author:
+3★kushan02
+
+
+Editorial:
+https://discuss.codechef.com/problems/MDFL
+
+
+Tags:
+
+               
+                 cakewalk, greatest-common-divisor, imti2020, kushan02, prime-factorization
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+24-04-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

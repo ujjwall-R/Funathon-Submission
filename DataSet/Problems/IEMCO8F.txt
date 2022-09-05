@@ -1,0 +1,77 @@
+
+Mr. Y has created a new series similar to fibonacci series. 
+f(N)=a⋅f(N−1)+b⋅f(N−2)+c⋅f(N−3)+d⋅f(N−4)+ef(N)=a⋅f(N−1)+b⋅f(N−2)+c⋅f(N−3)+d⋅f(N−4)+e 
+The first 44 term of this series are 00, 1, 2, 3 respectively.
+You have to find the Nth term of the given series. Since the answer may be very large, output it modulo 109+7.
+Input:
+
+First line will contain T, the number of test cases. T lines follow.
+The only line of each test case contains 6 integers a, b, c, d, e, N.
+
+Output:
+For each test case, output the Nth term of the series modulo 109+7.
+Constraints
+
+1≤T≤104
+1≤N≤1018
+0≤a,b,c,d,e≤1018
+
+Example Input
+1
+2 4 5 6 6 5
+
+Example Output
+25
+
+Explanation
+f(5)=a⋅f(4)+b⋅f(3)+c⋅f(2)+d⋅f(1)+e=2⋅3+4⋅2+5⋅1+6⋅0+6=25
+ Hence answer is 25.
+
+
+
+Author:
+tkh_iem
+
+
+Editorial:
+https://discuss.codechef.com/problems/IEMCO8F
+
+
+Tags:
+
+               
+                 easy, iemco8, math, matrix-exponentiation, tkh_iem
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+8-11-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

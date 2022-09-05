@@ -1,0 +1,103 @@
+
+Ved is a salesman. He needs to earn at least WW rupees in NN days for his livelihood. However, on a given day i (1≤i≤N), he can only earn Ai rupees by working on that day. 
+Ved, being a lazy salesman, wants to take as many holidays as possible. It is known that on a holiday, Ved does not work and thus does not earn anything. Help maximize the number of days on which Ved can take a holiday. 
+It is guaranteed that Ved can always earn at least W rupees by working on all days.
+Input Format
+
+The first line contains a single integer T - the number of test cases. Then the test cases follow.
+The first line of each test case contains two integers N and W - the size of the array A and the money Ved has to earn in those N days.
+The second line of each test case contains N space-separated integers A1,A2,…,AN denoting the money which Ved can earn on each day.
+
+Output Format
+For each test case, output the maximum number of holidays Ved can take.
+Constraints
+
+1≤T≤100
+1≤W≤10000
+1≤N≤100
+1≤Ai≤100
+It is guaranteed that Ved can always earn at least W rupees by working on all days.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+5 10
+3 2 6 1 3
+4 15
+3 2 4 6
+6 8
+9 12 6 5 2 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+0
+5
+
+
+Explanation
+Test case-1: Ved can work on 2-nd, 3-rd and 5-th day earning 2+6+3=11 rupees ≥W rupees. Thus he can take 2 holidays on the 1-st and the 4-th day.
+Test case-2: Ved has to work on all days to earn ≥W rupees. Thus he can not take any holidays.
+Test case-3: Ved can work on 2-nd day earning 12 rupees ≥W rupees. Thus he can take holiday on the remaining days.
+
+
+
+Author:
+3★ved_ansh
+
+
+Editorial:
+https://discuss.codechef.com/problems/HOLIDAYS
+
+
+Tags:
+
+               
+                 cakewalk, cook138, greedy, ved_ansh
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1161
+
+
+Date Added:
+19-02-2022
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,94 @@
+
+Link's Brother Chain has set out for an adventure. He has come across a mysterious dungeon filled with various threats and only one way to go through: using the platforms. The dungeon contains a number of platforms numbered from 00 to NN. 
+Out of these, some platforms are fake and will collapse into the underlying lava, if stepped on without making the platform safe. Chain has to go through every one of these platforms in order as there is no other way.
+To make these platforms safe, Chain has 44 different types of spells (and an unlimited amount of each spell). The details of the spells are as follows:
+Spell 1: Cost: cost[0] Effect: Makes platform numbered x safe
+Spell 2: Cost: cost[1] Effect: Makes the platforms numbered from x to x+6 safe
+Spell 3: Cost: cost[2] Effect: Makes the platforms numbered from x to x+13 safe
+Spell 4: Cost: cost[3] Effect: Makes the platforms numbered from x to x+29 safe
+(Here the ranges are inclusive and platform x is the current platform. If a platform is already safe, it remains safe)
+Chain can successfully cross the dungeon only when the last of these unsafe platforms is made safe to cross. Chain starts on platform 0 which is safe beforehand. He now wants to minimize the costs of spells that will help him cross the dungeon. He wants your help in minimizing the cost because the threats of the dungeons have got to him!
+Input:
+
+The first line of the input will contain T, the number of test cases. Then T test cases follow.
+The first line of each test case will contain two space-separated integers, M and N: the number of platforms which are unsafe and the total number of platforms respectively.
+The second line will contain M space-separated integers, denoting the number of unsafe platforms in increasing order.
+The third line contains the 4 space-separated values of the costs of the spells.
+
+Output:
+
+For every test case, print on a separate line, an integer denoting the minimum cost for the given configuration.
+
+Constraints:
+
+1≤T≤10
+1≤N≤6∗105
+1≤M≤2∗105
+M≤N
+1≤cost[i]≤500,0≤i≤3
+
+Sample Input:
+2
+12 25
+1 2 4 5 7 9 12 14 18 21 23 24
+4 13 22 38
+14 35
+1 2 4 6 9 11 14 16 17 19 24 26 29 34
+4 13 22 38
+
+Sample Output:
+35
+42
+
+Explanation:
+In the 1st case: Chase can use the 3rd spell on platform 1 to make platforms 1-14 safe, and then use the 2nd spell on platform 18 to make platforms 18-24 safe. Total cost 22+13 = 35
+In the 2nd case: Chase can use the 4th spell on platform 1 to make platforms 1-30 safe, and then use the 1st spell on platform 34 to make platform 34 safe. Total cost 38+4 = 42
+
+
+
+Author:
+5★kishen1912000
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHAND
+
+
+Tags:
+
+               
+                 cnvx2020, dynamic-programming, kishen1912000
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+1-10-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

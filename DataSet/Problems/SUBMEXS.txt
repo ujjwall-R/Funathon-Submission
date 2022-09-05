@@ -1,0 +1,100 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+The MEX of a set of integers is defined as the smallest non-negative integer that does not belong to this set. For example, MEX({0,2,3})=1MEX({0,2,3})=1 and MEX({1,3})=0MEX({1,3})=0.
+Chef has a tree with NN nodes (numbered 1 through N). The tree is rooted at node 1. Chef wants to assign a non-negative integer to each node in such a way that each integer between 0 and N−1 (inclusive) is assigned to exactly one node.
+For each node u, consider the integers assigned to the nodes in the subtree of u (including u); let au denote the MEX of these integers. Chef wants a1+a2+…+aN to be as large as possible. Find the maximum possible value of this sum.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N−1 space-separated integers p1,p2,…,pN−1. For each valid i, the node pi is the parent of the node i+1.
+
+Output
+For each test case, print a single line containing one integer ― the maximum sum of subtree MEX-s which can be obtained if you assign the weights optimally.
+Constraints
+
+1≤T≤5
+2≤N≤105
+1≤pi<i for each valid i
+
+Subtasks
+Subtask #1 (100 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+3
+1 1
+5
+1 1 2 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+9
+
+
+
+
+
+Author:
+6★mohammed200218
+
+
+Editorial:
+https://discuss.codechef.com/problems/SUBMEXS
+
+
+Tags:
+
+               
+                 Trees, Greedy, DFS, BFS
+                 
+                     
+                     Data Structures, Graphs, Algorithms, Graph Algos, Traversals
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2158
+
+
+Date Added:
+13-10-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

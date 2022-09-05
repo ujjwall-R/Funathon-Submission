@@ -1,0 +1,100 @@
+
+Read problems statements Hindi ,Bengali , Mandarin chinese , Russian and Vietnamese as well.
+.
+Chef offers delicious food in his restaurant, but he wants to make it a more attractive place too.
+The guests in the restaurant usually walk along a path consisting of two adjacent, parallel rows of square bricks leading to the entrance. Each row is NN bricks long, all bricks have the same size and there are no holes.
+Unfortunately, the path looks pretty boring because all bricks have the same color. In order to make it more interesting, Chef wants to replace exactly KK bricks by more beautiful ones in such a way that no two replaced bricks share a side.
+Chef asks you to answer a question that is too complicated for him: in how many ways can Chef select the bricks to replace? Since the answer can be very large, compute it modulo 109+7.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers N and K.
+
+Output
+For each test case, print a single line containing one integer — the number of ways to replace bricks, modulo 109+7.
+Constraints
+
+1≤T≤5
+1≤N≤109
+1≤K≤1,000
+
+Subtasks:
+Subtask #1 (25 points): 1≤N≤1,000 
+Subtask #2 (75 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+3 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+8
+
+
+Explanation
+Example case 1: There are exactly 8 valid ways to choose the positions of K=2 beautiful bricks.
+
+
+
+Author:
+5★neutron_byte
+
+
+Editorial:
+https://discuss.codechef.com/problems/BBRICKS
+
+
+Tags:
+
+               
+                 Pre processing, Permutations & Combinations, Recurrence Relation
+                 
+                     
+                     Advanced Algorithms, Mathematics, Combinatorics, Algorithms, Recursion
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2179
+
+
+Date Added:
+14-09-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,109 @@
+
+You have a binary string SS of length NN.
+You must perform the following operation on the binary string SS exactly once:
+
+Choose two integers L and R (1≤L≤R≤N) and invert the substring SL…R (i.e change 1 to 0 and change 0 to 1).
+
+Determine whether you can make the number of zeroes in S equal to number of ones in S by performing the above operation exactly once. If there exists a way, also output the bounds of the chosen substring.
+Input Format
+
+The first line contains a single integer T — the number of test cases.
+The first line of each test case contains a single integer N — the length of string S.
+The second line of each test case contains a binary string S of length N.
+
+Output Format
+For each test case, output NO if there is no way to make the number of zeroes equal to number of ones.
+Otherwise, output YES. In the next line, output two integers L and R (1≤L≤R≤N) — bounds of the chosen substring. If there are multiple answers, print any.
+You may print each character of YES and NO in uppercase or lowercase (for example, yes, yEs, Yes will be considered identical).
+Constraints
+
+1≤T≤10000
+1≤N≤105
+S is a binary string, i.e, contains only characters 0 and 1
+Sum of N over all test cases does not exceed 2⋅105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+2
+01
+3
+010
+4
+1000
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+YES
+1 2
+NO
+YES
+4 4
+
+
+Explanation
+Test case 1: We can pick L=1 and R=2 to obtain: 01_→10, which contains equal number of zeroes and ones.
+Test case 2: It can be proven that there is no way to make the number of zeroes equal to number of ones.
+Test case 3: We can pick L=4 and R=4 to obtain: 1000_→1001, which contains equal number of zeroes and ones.
+
+
+
+Author:
+5★dash2199
+
+
+Editorial:
+https://discuss.codechef.com/problems/BINMIS
+
+
+Tags:
+
+               
+                 ad-hoc, dash2199, easy, math, start34, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1836
+
+
+Date Added:
+8-04-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

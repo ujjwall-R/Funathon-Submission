@@ -1,0 +1,82 @@
+
+You are given a M×N grid and on each cell there is a coin. A coin may have integral value denoted by  C[i][j]. If you're at a cell (i,j), then you have to pick up the coin present at that cell(whose value is C[i][j]) and you can visit a cell only once .
+You are initially at (1,1) and you have to reach (M,N). Note that you can only move right, up or bottom from a given cell. Formally, if you are at position  (i,j) ,then you can move to (i+1,j), (i−1,j) or (i,j+1). 
+Following the conditions given above, what is the total maximum value of coins you can have after reaching (M,N)? 
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains of a single line of input, two integers M,N. 
+Each of the next M lines consist of N integers, the values of coins denoted by C[i][j] .
+
+Output:
+For each testcase, output in a single line the total maximum value of coins you can have after reaching (M,N).
+Constraints
+
+1≤T≤20
+1≤M,N≤1000
+−109≤C[i][j]≤109
+
+Subtasks
+
+20 points : All coins have equal and  positive  value.
+80 points : Original Constraints.
+
+Sample Input:
+1
+3 3
+1   -2    3
+2    4    3
+-10   2    7
+Sample Output:
+18
+EXPLANATION:
+Best Possible path is [1]−>[2]−>[4]−>[−2]−>[3]−>[3]−>[7] ,giving a total value of 18.
+
+
+
+Author:
+2★ratik_21
+
+
+Editorial:
+https://discuss.codechef.com/problems/SPAR3
+
+
+Tags:
+
+               
+                 dynamic-programming, easy-medium, ratik_21
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+11-03-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

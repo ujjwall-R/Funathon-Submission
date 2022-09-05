@@ -1,0 +1,87 @@
+
+There are NN hills, each having the elevation associated with it. You need to find out the hill range of length KK having the maximum beauty.
+A range can be formed by deleting some of the hills from the array of elevations.
+A hill range XX is more beautiful than another hill range Y (of the same length) if in the first hill where X and Y differ, X has a lower elevation than the Y.
+The length of a range is the number of hills present in it.
+Input:
+
+First-line will contain T, the number of test cases. Then the test cases follow. 
+First Line of each test case will have two integers N,K. 
+Second-line will have N integers representing the elevation of hills.
+
+Output:
+
+For each test case, output K integers representing the elevation of hills in the most beautiful range.
+
+Constraints
+
+1≤T≤10
+1≤N≤104
+1≤K≤N
+
+Subtasks
+
+20 points : 1≤N≤10
+80 points : 1≤N≤104
+
+Sample Input:
+    1
+    4 2
+    3 5 2 6 
+
+Sample Output:
+    2 6
+
+EXPLANATION:
+Possible ranges are {[3,5], [3,2], [3,6], [5,2], [5,6], [2,6]}. 
+Among these [2, 6] is the most beautiful and hence is the answer.
+
+
+
+
+Author:
+pec_chapter
+
+
+Editorial:
+https://discuss.codechef.com/problems/RANGES
+
+
+Tags:
+
+               
+                 array, easy, pec_chapter, stack
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+10-05-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

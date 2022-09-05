@@ -1,0 +1,103 @@
+
+You are given NN integers A1,A2,…,ANA1,A2,…,AN. Find any permutation B1,B2,…,BN of these integers, for which the value of min(|B1−B2|,|B2−B3|,…,|BN−B1|) is maximized.
+Input Format
+
+The first line of the input contains a single integer T, the number of test cases. The description of the test cases follows.
+The first line of each test case contains a single integer N — the number of integers.
+The second line of each test case contains N space-separated integers A1,A2,…,AN.
+
+Output Format
+For each test case, output N integers B1,B2,…,BN — the permutation of A1,A2,…,AN for which the value of min(|B1−B2|,|B2−B3|,…,|BN−B1|) is maximized.
+If there are multiple such permutations, you can output any of them.
+Constraints
+
+1≤T≤104
+3≤N≤105 
+0≤Ai≤109
+The sum of N over all test cases doesn't exceed 2⋅105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+5
+0 10 0 10 0
+4
+1 5 10 14
+4
+1 6 10 15
+5
+1 2 3 4 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0 0 10 0 10 
+1 10 5 14 
+6 15 10 1 
+1 3 5 2 4 
+
+
+Explanation
+Test case 1: For B=[0,0,10,0,10], the value of min(|B1−B2|,|B2−B3|,…,|BN−B1|) is 0. It can be shown that this is the maximum possible value. Other permutations also achieve this value, for example [0,10,0,10,0], and any such permutation is a valid output.
+Test case 2: For B=[1,10,5,14], the value of min(|B1−B2|,|B2−B3|,…,|BN−B1|) is 5. It can be shown that this is the maximum possible.
+
+
+
+Author:
+trygub_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/MAXMINCRCDIF
+
+
+Tags:
+
+               
+                 constructive, cook141, greedy, sorting, trygub_adm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3304
+
+
+Date Added:
+26-04-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

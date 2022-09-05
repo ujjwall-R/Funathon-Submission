@@ -1,0 +1,86 @@
+
+You are given n strings s1, s2, ..., sn. Each of these strings consists only of letters 'a' and 'b', and the length of each string can be at most 2. In other words, the only allowed strings are "a", "b", "aa", "ab", "ba" and "bb".
+Consider a permutation p = {p1, p2, ..., pn} of the integers {1, 2, ..., n}. Using this permutation, you can obtain a new string S = sp1 + sp2 + ... + spn, where the operator + denotes concatenation of strings.
+You can shorten the string S by performing the following operation any number of times: choose two consecutive equal characters and remove one of these characters from the string. For example, the string "aabb" can be shortened to "abb" or "aab" in one operation, and then optionally it could still be shortened to "ab".
+You are allowed to choose any permutation p. Take the string S obtained using this permutation, and using any sequence of operations, minimize the string length. Find the minimum possible length of the string  obtainable.
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains an integer n.
+The second line of each test case contains n space-separated strings s1, s2, ..., sn.
+Output
+For each test case, output a single line containing one integer corresponding to the minimum possible length of the shortened string.
+Constraints
+
+1 ≤ T ≤ 105
+1 ≤ n ≤ 105
+sum of n over all test cases won't exceed 106
+
+Example
+Input
+2
+2
+ba ab
+4
+a b a b
+
+Output
+3
+2
+
+Explanation
+Testcase 1:
+You can consider the permutation (2, 1). Using this, you get the string S = sp1 + sp2 = ab + ba = abba. You can then take the two adjacent b's and remove one of them to get aba, whose length is 3. You cannot do any better, and hence the answer is 3.
+Testcase 2:
+You can consider the permutation (1, 3, 2, 4). Using this, you get the string S = sp1 + sp3 + sp2 + sp4 = a + a + b + b = aabb. You can then take the two adjacent b's and remove one of them to get aab. Then you can take the two adjacent a's and remove one of them to get ab. We end up with a length of 2, and you cannot do any better. Hence the answer is 2.
+
+
+
+Author:
+admin2
+
+
+Editorial:
+https://discuss.codechef.com/problems/MINSTR
+
+
+Tags:
+
+               
+                 String, Greedy
+                 
+                     
+                     Data Structures, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-12-2017
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

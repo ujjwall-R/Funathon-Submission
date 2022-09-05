@@ -1,0 +1,95 @@
+
+Chef recently realized that he needs a haircut, and went to his favorite hair salon. At the salon, he found NN customers waiting for their haircuts. From his past experience, Chef knows that the salon takes MM minutes per customer. Only one person can get their haircut at a time.
+For how many minutes will Chef have to wait before he can get his haircut?
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers N and M, as described in the problem. 
+
+Output Format
+For each test case, print a single line containing one integer — the number of minutes that Chef will have to wait before he can get his haircut.
+Constraints
+
+1≤T≤1000
+0≤N≤1000
+1≤M≤1000
+
+Subtasks
+Subtask #1 (100 points): Original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+2 15
+0 15
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+30
+0
+
+
+Explanation
+Test case 1: There are 2 customers waiting for the haircut and the salon will take 15 minutes for each customer, hence Chef will have to wait for 30 minutes before he can get his haircut.
+Test case 2: There are 0 customers waiting for the haircut, therefore the Chef will not have wait to get the haircut.
+
+
+
+Author:
+6★lavish315
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHEFBARBER
+
+
+Tags:
+
+               
+                 cakewalk, feb221, lavish315
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+895
+
+
+Date Added:
+3-02-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

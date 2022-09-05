@@ -1,0 +1,89 @@
+
+There are NN items in the bakery. Each item's cost is cost[i]cost[i] and the delivery charge is delivery_cost[i]delivery_cost[i] for i = 0 to N respectively. The chef wants to select exactly M items to sell in a way that the total cost is maximised.
+The total cost for any set of items is the sum of costs of those items + (minimum delivery cost among those items * total no. of items). Help the chef find the maximum cost for M items.
+Input:
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases is as follows.
+The first line of each test case contains two space-separated integers N and M.
+The second line of each test case contains N space-separated integers where the ith integer denotes the cost[i].
+The third line of each test case contains N space-separated integers where the ith integer denotes the delivery_cost[i].
+
+Output:
+
+For each testcase, print a single number denoting the maximum possible cost for M items.
+
+Constraints:
+
+1≤T≤10000
+1≤M≤N≤100
+1≤cost[i],delivery_cost[i]≤105
+
+Subtasks:
+Subtask #1 (40 Points):
+
+T∗N≤104
+
+Subtask #2 (60 Points):
+
+T∗N≤105
+
+Sample Input:
+1
+5 3
+8 7 2 6 10
+1 5 8 4 8
+
+Sample Output:
+35
+
+Explanation:
+Items 1, 4, and 5 could be sold. The total cost = (7 + 6 + 10) + (min(4, 5, 8) * 3)) = 35
+
+
+
+Author:
+rushabh24
+
+
+Editorial:
+https://discuss.codechef.com/problems/BAKCOST
+
+
+Tags:
+
+               
+                 dynamic-programming, heap, rushabh24
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+27-01-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

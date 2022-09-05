@@ -1,0 +1,107 @@
+
+You are given two strings SS and AA of lengths NN and M respectively.
+
+String S contains characters from the set {?, a, b, c, d, e}. 
+String A contains characters from the set {a, b, c, d, e}. 
+
+Let S′ denote the string formed by replacing all the ? in S using the characters from the set {a, b, c, d, e}.
+Construct S′ such that A is not a subsequence of S′.
+If multiple such S′ exist, output any. If no such S′ exists, print −1.
+Input Format
+
+The first line will contain T - the number of test cases. Then the test cases follow.
+The first line of each test case contains two integers N and M - the lengths of strings S and A respectively.
+The second line of each test case contains string S.
+The third line of each test case contains string A.
+
+Output Format
+For each test case, output any valid string S′. If no such string exists, print −1.
+Constraints
+
+1≤T≤1000
+1≤N,M≤105
+Sum of N over all test cases does not exceed 3⋅105.
+Sum of M over all test cases does not exceed 3⋅105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+4 2
+?ab?
+ba
+4 2
+a??b
+ab
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+aabe
+-1
+
+
+Explanation
+Test case 1: Replace the ? at indices 1 and 4 using characters a and e respectively. Both the characters belong to the set {a, b, c, d, e}.
+The string S′=aabe. Note that no subsequence of S′ is equal to ba.
+Test case 2: There is no possible value of S′ such that ab is not a subsequence of S′.
+
+
+
+Author:
+6★munch_01
+
+
+Editorial:
+https://discuss.codechef.com/problems/BRKNLIFE
+
+
+Tags:
+
+               
+                 easy, munch_01, start33, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1772
+
+
+Date Added:
+3-04-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

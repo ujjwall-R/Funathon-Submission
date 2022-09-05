@@ -1,0 +1,123 @@
+
+Mr. X has given the Chef an undirected tree T with n nodes numbered from 1 to n. Each edge ei of the tree has a non-negative integer wi written on it. But the edge weights are hidden from you. You have access only to the structure of the tree. ie. you know all the edges ei.
+Mr. X. has taught Chef how to compute the function f(u, v) = Bitwise XOR of all the numbers present on the edges in the unique path from u to v.
+He now wants to test his disciple's understanding of this function. He tells the Chef various values of this function one by one. Since Mr. X. wants to test Chef's skills, this information could be wrong sometimes. You being good friends with the Chef have been asked to help him out to pass the test.
+Total Q events occur each of which can be in one of the following forms:
+
+1 u v r:  Mr. X says that f(u, v) = r. For this type of event you must print:
+
+AC if the given information is consistent with all the previous information that you have accepted as AC  and there is no way you can argue that this information is wrong. Accept this new information as correct.
+WA when you can prove that the given information is wrong and does not fit in with the previously AC events.
+
+
+2 u v: Print the value of f(u, v) using only the information provided in the previously AC events.  
+	If it is not possible to correctly determine this value based on only previously AC events print -1.
+
+Input
+
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+First line of each test case contains two space separated integers n and Q denoting the number of nodes and number of events respectively.
+Each of the next n - 1 lines contains two space separated integers u v denoting that there is an edge between u and v in the tree.
+Description of Q events follow. Each line follows one of these two formats:
+
+1 u v r, denoting first type of event.
+2 u v, denoting second type of event.
+
+
+Output
+For each event print the answer to the event as described.
+Constraints
+
+1 ≤ T ≤ 2000
+1 ≤ n ≤ 105
+1 ≤ Q ≤ 2 * 105
+1 ≤ u, v ≤ n 
+1 ≤ sum of n over all the testcases ≤ 105
+1 ≤ sum of Q over all the testcases ≤ 2 * 105
+0 ≤ r ≤ 2 * 109
+0 ≤ wi
+The graph represented by ei is a tree
+
+Example
+Input
+1
+4 6
+1 2
+2 3
+3 4
+1 1 1 10
+1 1 2 2
+1 2 3 4
+1 1 3 7
+2 1 3
+2 3 4 
+
+Output
+WA
+AC
+AC
+WA
+6
+-1 
+
+Explanation
+
+Event 1: f(1, 1) cannot be 10. Since there is no edge between 1 and 1, it must be 0 ⇒ WA
+Event 2: You cannot argue that f(1, 2) cannot be 2. Therefore you accept it ⇒ AC. Thus now we know that the weight of the edge between 1 and 2 is 2.
+Event 3: You cannot argue that f(2, 3) cannot be 4. Therefore you accept it  ⇒ AC. Thus now we know that the weight of the edge between 2 and 3 is 4.
+Event 4: f(1, 3) is xor of weights of edges 1-2 and 2-3 = 2 xor 4 = 6. Given information is wrong ⇒ WA
+Event 5: f(1, 3) is 6 as calculated above ⇒ 6
+Event 6: f(3, 4) cannot be answered using only the above information ⇒ -1
+
+
+
+
+Author:
+7★usaxena95
+
+
+Editorial:
+https://discuss.codechef.com/problems/XORQUERY
+
+
+Tags:
+
+               
+                 Trees, Disjoint Set Union, Bitwise Operation, Binary lifting
+                 
+                     
+                     Data Structures, Graphs, Advanced Data Structures, Mathematics, Bit Manipulation, Algorithms, Graph Algos, Lowest Common Ancestor
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+18-11-2017
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

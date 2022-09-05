@@ -1,0 +1,115 @@
+
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Flatland is a 1D country — all points in Flatland lie on one line. Everybody in Flatland loves pizza (because it's flat enough).
+There are nn pizzerias numbered 11 through nn, which serve m consumers numbered 1 through m. Let's denote the position of the i-th pizzeria by si and the position of the i-th consumer's home by ci. No two pizzerias are located at the same position, but the position of any consumer can coincide with the position of any pizzeria or consumer.
+Every consumer wants to order one pizza, spending as little money as possible. The i-th pizzeria sells each pizza at a certain baseline price pi; delivering pizza from point x1 to point x2 costs an additional (x1−x2)2. These prices are independent — even if multiple pizzas can be delivered at once, each consumer needs to pay the full price for their delivery.
+Unfortunately, some consumers don't like some pizzerias, so they won't order pizza from them. Specifically, for each consumer, you are given a list of pizzerias this consumer won't order from no matter what.
+For each consumer, find the amount of money they will spend for the pizza with delivery.
+Input
+
+The first line of the input contains two space-separated integers n and m denoting the number of pizzerias and the number of consumers.
+For each i (1≤i≤n), the i-th of the following n lines contains two space-separated integers si and pi.
+For each i (1≤i≤m), the i-th of the following m lines contains two space-separated integers ci and ki, followed by a space (if ki>0) and ki space-separated integers di,1,di,2,…,di,ki denoting the list of pizzerias the i-th consumer won't order from.
+
+Output
+Print m lines. For each i (1≤i≤m), the i-th of these lines should contain a single integer — the amount of money the i-th consumer will spend.
+Constraints
+
+1≤n,m≤200,000
+0≤si,ci≤109 for each valid i
+1≤pi≤109 for each valid i
+0≤ki≤n−1 for each valid i
+0≤∑mi=1ki≤400,000
+1≤di,j≤n for each valid i,j
+s1,s2,…,sn are pairwise distinct
+
+Subtasks
+Subtask #1 (15 points): n,m≤1,000
+Subtask #2 (35 points): ki=0 for each valid i
+Subtask #3 (50 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3 3
+1 7
+10 5
+8 9
+3 0
+3 1 1
+6 2 1 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+11
+34
+13
+
+
+Explanation
+The first consumer likes all the pizzerias, so they order a pizza from the first pizzeria, since it will cost the least, 7+(3−1)2=11.
+The second consumer doesn't like the first pizzeria, so they won't order from there, even though it's the cheapest option. Therefore, they order a pizza from the third pizzeria. It costs 9+(8−3)2=34.
+The third consumer likes only the third pizzeria, so they order from there. It costs 9+(8−6)2=13.
+
+
+
+Author:
+3★qoo2p5
+
+
+Editorial:
+https://discuss.codechef.com/problems/PDELIV
+
+
+Tags:
+
+               
+                 Merge Sort Tree, Segment Trees, Convex Hull
+                 
+                     
+                     Advanced Data Structures, Advanced Tree Structures, Advanced Algorithms, Computational Geometry, Polygons
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2438
+
+
+Date Added:
+8-06-2018
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

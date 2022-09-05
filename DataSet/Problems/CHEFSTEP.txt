@@ -1,0 +1,104 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+In order to establish dominance amongst his friends, Chef has decided that he will only walk in large steps of length exactly KK feet. However, this has presented many problems in Chef’s life because there are certain distances that he cannot traverse. Eg. If his step length is 55 feet, he cannot travel a distance of 1212 feet. Chef has a strict travel plan that he follows on most days, but now he is worried that some of those distances may become impossible to travel. Given N distances, tell Chef which ones he cannot travel.
+Input:
+
+The first line will contain a single integer T, the number of test cases.
+The first line of each test case will contain two space separated integers - N, the number of distances, and K, Chef’s step length.
+The second line of each test case will contain N space separated integers, the ith of which represents Di, the distance of the ith path.
+
+Output:
+For each testcase, output a string consisting of N characters. The ith character should be 1 if the distance is traversable, and 0 if not. 
+Constraints
+
+1≤T≤1000
+1≤N≤1000
+1≤K≤109
+1≤Di≤109
+
+Subtasks
+
+100 points : No additional constraints.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+5 3
+12 13 18 20 27216
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+10101
+
+
+Explanation
+The first distance can be traversed in 4 steps.
+The second distance cannot be traversed.
+The third distance can be traversed in 6 steps.
+The fourth distance cannot be traversed.
+The fifth distance can be traversed in 9072 steps.
+
+
+
+Author:
+2★aryanag_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHEFSTEP
+
+
+Tags:
+
+               
+                 Basic Maths
+                 
+                     
+                     Mathematics
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1110
+
+
+Date Added:
+20-07-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

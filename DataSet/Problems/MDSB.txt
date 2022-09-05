@@ -1,0 +1,91 @@
+
+Chef is playing with balls of two colours one red and another green.There is a machine named "Chef Game Machine" in which all the balls are kept. Chef Game Machine is having a button which when press, it shuffles and puts all the balls in a row(numbered from 1 to N).One row will contain only one ball.Let's denote red ball with '1' and green ball with '0'.
+Game is that one need to find the maximum contiguous length of red balls by replacing at most one green ball in the row after shuffling. Chef can win the game if he finds the correct length of contiguous red balls by replacing at most one green ball
+For example after shuffling the arrangement of ball is like this 1, 1, 0, 0, 1, 1, 0, 1, 1, 0  if you replace green ball at 7th place by red ball then you will get  1, 1, 0, 0, 1, 1, 1, 1, 1, 0 here maximun contiguous red ball length is 5(from index 5 to index 9 ). 
+
+  Now Chef wants to win every time so he ask you to find the longest contiguous  red balls length after replacing one green ball the row.
+
+ Note : You may or may not replace green ball. 
+
+Input  
+
+ First line of test case will contains T, number of test cases. T lines follows. 
+ First line of every test case will contain the length N of the row. 
+ Second line will contains N space separated 1s and 0s.
+ 
+
+ Output  
+
+ Output will print a single integer denoting the maximum contiguous length possible after replacing on green ball. 
+
+
+Constraints  
+
+1≤T≤1001≤T≤100
+ 2≤N≤1052≤N≤105 
+ 0≤Ai≤10≤Ai≤1 
+
+
+Sample Input: 
+1
+8
+1 0 0 1 1 0 1 1 
+Sample Output: 
+	5
+	
+            
+            
+            
+            
+            
+        
+
+        
+
+
+Author:
+4★dshahid380_
+
+
+Editorial:
+https://discuss.codechef.com/problems/MDSB
+
+
+Tags:
+
+               
+                 array, dshahid380_, easy, enja2019
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+23-01-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,117 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Today, Chef decided to cook some delicious meals from the ingredients in his kitchen. There are NN ingredients, represented by strings S1,S2,…,SNS1,S2,…,SN. Chef took all the ingredients, put them into a cauldron and mixed them up.
+In the cauldron, the letters of the strings representing the ingredients completely mixed, so each letter appears in the cauldron as many times as it appeared in all the strings in total; now, any number of times, Chef can take one letter out of the cauldron (if this letter appears in the cauldron multiple times, it can be taken out that many times) and use it in a meal. A complete meal is the string "codechef". Help Chef find the maximum number of complete meals he can make!
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+N lines follow. For each i (1≤i≤N), the i-th of these lines contains a single string Si.
+
+Output
+For each test case, print a single line containing one integer — the maximum number of complete meals Chef can create.
+Constraints
+
+1≤T≤100
+1≤N≤100
+|S1|+|S2|+…+|SN|≤1,000
+each string contains only lowercase English letters
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+6
+cplusplus
+oscar
+deck
+fee
+hat
+near
+5
+code
+hacker
+chef
+chaby
+dumbofe
+5
+codechef
+chefcode
+fehcedoc
+cceeohfd
+codechef
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+2
+5
+
+
+Explanation
+Example case 1: After mixing, the cauldron contains the letter 'c' 3 times, the letter 'e' 4 times, and each of the letters 'o', 'd', 'h' and 'f' once. Clearly, this is only enough for one "codechef" meal.
+Example case 2: After mixing, the cauldron contains the letter 'c' 4 times, 'o' 2 times, 'd' 2 times, 'e' 4 times, 'h' 3 times and 'f' 2 times, which is enough to make 2 meals.
+
+
+
+Author:
+6★mrkerim
+
+
+Editorial:
+https://discuss.codechef.com/problems/CFMM
+
+
+Tags:
+
+               
+                 Frequency Arrays, Basic Maths, ad-hoc
+                 
+                     
+                     Data Structures, Arrays, Mathematics, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1214
+
+
+Date Added:
+18-04-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

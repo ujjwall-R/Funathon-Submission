@@ -1,0 +1,84 @@
+
+Read problems statements in Hindi, Mandarin chinese, Russian, Vietnamese and Bengali as well.
+Chef likes to solve difficult tasks. This time, he tried to solve the Big Famous Unsolvable A+B=CA+B=C. One of his friends played a prank on Chef and randomly shuffled the bits in AA and BB (independently in each number). However, the funny thing is that the sum of the resulting numbers remained C even after shuffling.
+Chef is now wondering: in how many ways is it possible to shuffle the bits of A and the bits of B such that their sum after shuffling is equal to C? Let's denote the integers obtained by shuffling the bits of A and B by As and Bs respectively; two ways (As1,Bs1) and (As2,Bs2) are considered distinct if As1≠As2 or Bs1≠Bs2.
+It is allowed to add any number (possibly zero) of leading zeroes, i.e. bits 0, to A and any number of leading zeroes to B before shuffling the bits.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains three space-separated integers A, B and C. 
+
+Output
+For each test case, print a single line containing one integer — the number of ways to shuffle the bits.
+Constraints
+
+1≤T≤1,000
+1≤A,B,C≤109
+A+B=C
+
+Subtasks
+Subtask #1 (50 points): 1≤A,B,C≤105
+Subtask #2 (50 points): original constraints
+Example Input
+2
+1 2 3
+369 428 797
+
+Example Output
+2
+56
+
+Explanation
+Example case 1: We can consider A=01 and B=10 in binary. Then, there are two possible ways: swapping the two bits of A and the two bits of B (As=10, Bs=01 in binary, 2 and 1 in decimal representation) or not shuffling any bits.
+
+
+
+Author:
+6★mgch
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHEFADD
+
+
+Tags:
+
+               
+                 DP Bitmask, Bitmasking, Bitwise Operation, Dynamic Programming
+                 
+                     
+                     Advanced Algorithms, Advanced DP, Mathematics, Bit Manipulation, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+16-10-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

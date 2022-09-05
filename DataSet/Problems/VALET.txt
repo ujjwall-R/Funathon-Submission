@@ -1,0 +1,102 @@
+
+Read problems statements in Mandarin Chinese, Russian, and Bengali as well.
+Your friend works as a valet where NN cars show up in a shift. The ii-th car will arrive Ti seconds after the current moment, and the car can wait for at most Yi seconds. That is, your friend can only start parking the car from time Ti to Ti+Yi (inclusive).
+Additionally, it takes Xi time to park the i-th car, which means he cannot park any other cars for Xi seconds starting from the time he starts parking the i-th car. It is known that no driver would like to wait for more time than it takes to park his car, so that Yi<Xi for all i. The driver of the i-th car will pay Ai coins as a tip to your friend if his car is parked. Note that he can start parking the next car immediately after he finishes parking the previous car.
+Your friend has asked you what will be the maximize possible earnings if he optimally chooses which cars to park and at what times.
+Input:
+
+The first line contains one single integer N (1≤N≤3⋅105) − the number of cars.
+The second line contains N integers T1,T2,…,Tn − the time (in seconds) at which i-th car arrives.
+The third line contains N integers X1,X2,…,Xn − the time (in seconds) required to park the i-th car.
+The fourth line contains N integers Y1,Y2,…,Yn − the maximum time (in seconds) for which the i-th car can wait.
+The fifth line contains N integers A1,A2,…,An − the tip which the i-th car driver gives after the car is parked.
+
+Output:
+Print a single integer − the answer to the problem.
+Constraints
+
+1≤N≤3⋅105
+1≤Ti≤4⋅103
+0≤Yi<Xi≤4⋅103
+1≤Ai≤109
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+5 8 11
+3 10 4
+1 0 1
+11 13 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+24
+
+
+Explanation
+It is optimal to start parking the first car at 5 seconds. We finish parking at 8 seconds, and immediately start parking the second car.
+
+
+
+Author:
+6★yash_daga
+
+
+Editorial:
+https://discuss.codechef.com/problems/VALET
+
+
+Tags:
+
+               
+                 Priority Queue, Multiset, Dynamic Programming, Sorting
+                 
+                     
+                     Data Structures, Queues, Sets, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2397
+
+
+Date Added:
+13-04-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

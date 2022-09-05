@@ -1,0 +1,89 @@
+
+RiggiRiggi   is a spy of KBIKBI and he is on a secret mission, he is spying an Underworld Don  AnitAnit.
+Riggi  is spying him since 5 years and he is not able to find  any evidence against Anit. 
+KBI told Riggi they will send him a code string in a special format that will inform him whether he  has continue or return back from mission.
+According to KBI  firstly  he  has to find what is the original string and then he has to check string is palindrome or not .
+If its a palindrome then he has to leave the mission and return back else continue spying Anit. 
+Rules to find original string :
+1:-If in Code string any integer(N) followed by a string of alphabets that starts with '+' and  ends with '-' then he has to repeat that string N times  , like 3+acg- = acgacgacg.
+2:-If there is no integer present before string then print the string is repeated 1 time.
+    like bc=bc.
+Example of conversion from  Code string  to original string  : 2+ac-3+kb-j=acackbkbkbj  
+Input:
+
+Code string S is taken as input  .
+
+Output:
+
+Print  string Continue if code string S is not a palindrome else print Return .
+
+Constraints
+
+1≤S≤1000
+1≤N≤1000
+
+Sample Input 1:
+3+xy-bb3+yx-
+
+Sample Output 1:
+Return
+
+Sample Input 2:
+3+xy-bb3+xy-
+
+Sample Output 2:
+Continue
+
+EXPLANATION:
+Sample 1:- original string will be xyxyxybbyxyxyx which is  a palindrome hence print Return.
+ Sample 2:- original string will be xyxyxybbxyxyxy which is not a palindrome hence print 
+                     Continue.
+
+
+
+Author:
+3★aliencoder_07
+
+
+Editorial:
+https://discuss.codechef.com/problems/RGSPY
+
+
+Tags:
+
+               
+                 aliencoder_07, array, czen2020, easy, implementation, set
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-09-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

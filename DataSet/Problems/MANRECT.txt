@@ -1,0 +1,98 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+This is an interactive problem.
+Chef has a secret rectangle. The sides of this rectangle are aligned with Cartesian axes xx and yy. Let's denote the coordinates of the lower left corner of the rectangle by (xl,yl) and the coordinates of the upper right corner by (xu,yu); it is guaranteed that xl,yl,xu,yu are non-negative integers. Your task is to find these coordinates.
+You may ask Chef at most Q queries (providing your answer does not count as a query). In each query, you give Chef a point with integer coordinates (x0,y0). Chef responds with the Manhattan distance of this point to the closest point in the secret rectangle, i.e. if we denote the set of points in the rectangle by
+S={(p,q)∣p,q∈Zandxl≤p≤xuandyl≤q≤yu},
+then Chef answers with
+min(p,q)∈S|p−x0|+|q−y0|.
+Interaction
+
+First, your program should read a line containing a single integer ― the number of test cases T. The description of interaction for T test cases follows.
+For each test case, you may ask queries. To ask a query, print a line containing the character 'Q', a space and two space-separated integers x0 and y0 (0≤x0,y0≤109). Then, you should read a line containing a single integer. If this integer is non-negative, it denotes the answer to your query. Otherwise, it means that you exceeded the limit on the number of queries, the coordinates you printed are invalid or some other error occured.
+When you have found the secret rectangle, you should print a line containing the character 'A', a space and four space-separated integers xl, yl, xu and yu. Then, you should read a single line containing one integer, which is 1 if your answer was correct or negative if it was wrong.
+
+Note that when you read a negative integer, you should immediately terminate your program to receive a Wrong Answer verdict; otherwise, you may receive any verdict. Don't forget to flush the output after printing each line!
+Constraints
+
+1≤T≤500
+0≤xl≤xu≤109
+0≤yl≤yu≤109
+
+Subtasks
+Subtask #1 (10 points):
+
+T≤10
+xu,yu≤100
+Q=12345
+
+Subtask #2 (40 points): Q=70
+Subtask #3 (50 points): Q=7
+Example
+You                 Grader
+                    1
+Q 1 2
+                    0
+Q 3 4
+                    0
+Q 0 1
+                    2
+Q 4 5
+                    2
+A 1 2 3 4
+                    1
+
+Explanation
+Example case 1: From answers to the first two queries, it is clear that the lower left and upper right corner of the rectangle lie at points (1,2) and (3,4) respectively.
+
+
+
+Author:
+5★sanroylozan
+
+
+Editorial:
+https://discuss.codechef.com/problems/MANRECT
+
+
+Tags:
+
+               
+                 Geometry
+                 
+                     
+                     Mathematics
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1895
+
+
+Date Added:
+19-01-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

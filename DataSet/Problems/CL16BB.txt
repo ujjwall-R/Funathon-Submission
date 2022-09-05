@@ -1,0 +1,92 @@
+
+It is Chef's birthday and he has received N coins from various well-wishers. All the coins are identical. To count the number of coins, Chef starts making stacks of coins. The first stack he makes has one coin, and all other stacks have one coin more than the previous stack. He continues this until he runs out of coins. As a result, only the last stack may have number of coins less than or equal to the number of coins in the previous stack. If N is known to you, can you predict how many stacks Chef will make?
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+
+Each test case consists of one line containing an integer N denoting the number of coins.
+
+
+Output
+For each test case, output a single line containing the number of stacks Chef will make.
+
+
+Constraints
+
+1 ≤ T ≤ 1000
+1 ≤ N ≤ 106
+
+Example
+Input:
+4
+1
+6
+11
+18
+
+Output:
+1
+3
+5
+6
+
+Explanation
+In test case 1, there is only 1 coin.
+In test case 2, the 3 stacks are [1, 2, 3].
+In test case 3, the 5 stacks are [1, 2, 3, 4, 1].
+In test case 4, the 6 stacks are [1, 2, 3, 4, 5, 3].
+            
+            
+            
+            
+            
+        
+
+        
+
+
+Author:
+5★subham_75
+
+
+Editorial:
+https://discuss.codechef.com/problems/CL16BB
+
+
+Tags:
+
+               
+                 cakewalk, colg2016, maths, subham_75
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+29-09-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,101 @@
+
+Read problems statements Mandarin , Bengali , Hindi , Russian and Vietnamese as well.
+You are given a sequence of NN powers of an integer kk; let's denote the ii-th of these powers by kAi. You should partition this sequence into two non-empty contiguous subsequences; each element of the original sequence should appear in exactly one of these subsequences. In addition, the product of (the sum of elements of the left subsequence) and (the sum of elements of the right subsequence) should be maximum possible.
+Find the smallest position at which you should split this sequence in such a way that this product is maximized.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and k.
+The second line contains N space-separated integers A1,A2,…,AN.
+
+Output
+For each test case, print a single line containing one integer — the size of the left subsequence. If there is more than one possible answer, print the smallest possible one.
+Constraints
+
+1≤T≤10
+2≤N≤105
+2≤k≤109
+0≤Ai≤105 for each valid i
+
+Subtasks
+Subtask #1 (30 points):
+
+2≤N≤1,000
+0≤Ai≤1,000 for each valid i
+
+Subtask #2 (70 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+5 2
+1 1 3 3 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+
+
+Explanation
+Example case 1: The actual sequence of powers is [21,21,23,23,25]=[2,2,8,8,32]. The maximum product is 20⋅32=640. In the optimal solution, the sequence is partitioned into [2,2,8,8] and [32].
+
+
+
+Author:
+7★nots0fast
+
+
+Editorial:
+https://discuss.codechef.com/problems/MXM
+
+
+Tags:
+
+               
+                 binary-search, easy, ltime66, nots0fast
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2576
+
+
+Date Added:
+21-11-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

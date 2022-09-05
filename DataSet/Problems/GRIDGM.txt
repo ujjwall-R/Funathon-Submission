@@ -1,0 +1,97 @@
+
+
+
+Bhima and Arjun are playing a game. In the game, Bhima gave Arjun a grid A of size N × M, i.e. containing N rows and M columns.
+Then Bhima asks Q queries to Arjun which Arjun has to answer correctly to win the game.
+In each query Bhima gives two coordinates (a, b) and (x, y) to Arjun. Arjun has to tell the sum of all the elements of the grid which lies within the bounds of the given coordinates, i.e. the sum 
+of the elements within the coordinates (a, b) , (x, b), (a, y) and (x, y) inclusive.
+Can you help Arjun to win the game.
+See example for clarification.
+
+Input
+
+The first line contains an integer T denoting the number of test cases.
+The first line of each test case contains two space separated integers N and M denoting the number of rows and columns in the grid respectively.
+N lines follow. The ith(1 <= i <= N) of these lines contain M space-separated integers the jth(1 <= j <= M) of which is the 
+element A[i][j].
+The next line contains a single integer Q.
+Q lines follow. Each line contains 4 space separated integers a, b, x and y.
+
+Output
+For each test case for every query output the required sum S in a new line.
+Constraints
+
+1 ≤ T ≤ 100
+1 ≤ N, M ≤ 1000
+0 ≤ A[i][j] ≤ 108
+1 ≤ Q ≤ 105
+1 ≤ a ≤ x ≤ N
+1 ≤ b ≤ y ≤ M
+
+Note: Large IO files.
+Example Input
+1
+4 4
+9 13 5 2
+1 11 7 6
+3 7 4 1
+6 0 7 10
+2
+2 1 4 2
+2 2 4 4
+
+Example Output
+28
+53
+
+Explanation
+Example case 1:For the first query the required sum is that of 1, 11, 3, 7, 6, 0 which is 28.
+
+
+
+Author:
+5★horsbug98
+
+
+Editorial:
+https://discuss.codechef.com/problems/GRIDGM
+
+
+Tags:
+
+               
+                 2-d-array, encoding, horsbug98, horsbug98, prefix-sum, range-queries, static-range-queries
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+6-10-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

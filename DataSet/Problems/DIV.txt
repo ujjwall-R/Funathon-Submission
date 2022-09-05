@@ -1,0 +1,80 @@
+
+ 
+Given a natural number, calculate sum of all its proper divisors. A proper divisor of a natural number is the divisor that is strictly less than the number.
+For example, number 20 has 5 proper divisors: 1, 2, 4, 5, 10, and the divisor summation is: 1 + 2 + 4 + 5 + 10 = 22.
+ 
+Input
+The first line contains number of test cases T.
+Each line of test case contain a number N
+Output
+For each test case, output is sum of divisors.
+ 
+Constraints
+
+1 ≤ T ≤ 100
+1 ≤ A≤  106 
+
+ 
+Constraints
+Subtask 1: (40 points) 1 ≤ N ≤ 100
+Subtask 2: (60 points) Original Constrains
+Example
+Input:
+2
+20
+5
+
+Output:
+22
+1
+
+ 
+
+
+
+Author:
+3★dark_archer
+
+
+Editorial:
+https://discuss.codechef.com/problems/DIV
+
+
+Tags:
+
+               
+                 algo1601, cakewalk, dark_archer, divisors, maths
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-11-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

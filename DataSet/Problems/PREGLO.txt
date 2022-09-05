@@ -1,0 +1,75 @@
+
+Mr. Joy is a famous teacher in ZDC. He is a professor of Mathematics. As a very funny and good teacher, He is respected and loved by all the students. He is very famous for some dialogues he gives in the class. Students get a lot of fun with that and used to repeat these dialogues. Such as whenever he enters the classroom, all students stand up then he says “Bose porii”. When he wants to remove a root from the equation while doing math, he used to say “root dekhle amader voy lage”. All the students repeat his words funnily.
+One day the microphone fell from his hand while giving lecture . He then very funnily said “poreee gelooo”. Students got a lot of fun at this. They started repeating sir’s words but with a little change. They removed the first character from the first word and put another one or more character into it. And as you know the students of ZDC are very ruled. So they chose characters in a serial. More clearly, they chose the word according to their roll number. Such as the student whose roll number is 1 used “a” instead of “p” in the sentence “poreee gelooo” and said “aoreee gelooo”. similarly the student whose roll is 11, will say “koreee gelooo”. And the students also like uniqueness. So none of the words will be repeated by anybody. Father Proshanto sir, was passing by the class, heard student’s making noise. He seized some student and he heard what they are saying. But they are not telling their roll number when they were asked. Can you help father Proshanto sir to get their roll number?
+N. B. May one of the student repeat sir’s dialogue bt none of them will repeat any other student’s dialogue.
+N.B. the student with the roll 53 will say “baoreee gelooo” .
+Input:
+There are several test cases. The first line of the input starts with an integer TT. The next TT line contains a sentence consisting of lowercase latin letters (‘a′−‘z′) only.
+Output:
+Print a single integer N which denotes the roll no. of the following student. It is assured that the roll of the last boy of the class is 10^9.
+Constraints
+
+1≤T≤100
+
+Sample Input:
+4
+koreee gelooo
+doreee gelooo
+moreee gelooo
+adoreee gelooo
+
+Sample Output:
+11
+4
+13
+30
+
+
+
+
+Author:
+3★aref111n
+
+
+Editorial:
+https://discuss.codechef.com/problems/PREGLO
+
+
+Tags:
+
+               
+                 aref111n, easy, math, newb2020, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+28-09-2020
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,119 @@
+
+Read problem statements in Russian, Mandarin and Vietnamese as well.
+You are given a permutation (P1,P2,…,PN)(P1,P2,…,PN). In one operation, you can do the following:
+
+Choose any integers L,RL,R with 1≤L≤R≤N. Then, swap the maximum and minimum elements in subarray P[L:R].
+
+Sort the permutation. You can spend at most 4⋅106 operations in total for all test cases from a single input.
+Input Format
+
+The first line of the input contains a single integer T − the number of test cases. The description of test cases follows.
+The first line of each test case contains a single integer N.
+The second line of each test case contains N integers P1,P2,…,PN − the elements of the permutation.
+
+Output Format
+For each test case, in the first line output K − the number of operations.
+In each of the next K lines, output two integers L,R (1≤L≤R≤N), denoting that you are swapping maximum and minimum in segment P[L:R].
+Sum of K over all test cases can't exceed 4⋅106.
+Constraints
+
+1≤T≤30000
+1≤N≤30000
+1≤Pi≤N, all Pi are distinct
+The sum of N over all test cases doesn't exceed 30000.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+4
+1 2 3 4
+4
+4 1 2 3
+5
+5 2 3 4 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+3
+1 4
+2 4
+3 4
+1
+1 5
+
+
+Explanation
+In the first test case, the permutation is already sorted.
+In the second test case:
+
+In the first operation we are swapping maximum and minimum on segment P[1:4] − those are 4 and 1 correspondently. So, now the permutation becomes (1,4,2,3).
+In the second operation we are swapping maximum and minimum on segment P[2:4] − those are 4 and 2 correspondently. So, now the permutation becomes (1,2,4,3).
+In the third operation we are swapping maximum and minimum on segment P[3:4] − those are 4 and 3 correspondently. So, now the permutation becomes (1,2,3,4).
+
+In the third test case, it's enough to apply the operation once for the entire segment P[1:5], swapping 5 and 1.
+
+
+
+Author:
+7★anton_trygub
+
+
+Editorial:
+https://discuss.codechef.com/problems/MINMAXSWAP
+
+
+Tags:
+
+               
+                 Recursion, Sorting, Observation
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+9999
+
+
+Date Added:
+5-12-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

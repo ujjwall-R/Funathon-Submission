@@ -1,0 +1,86 @@
+
+Read problems statements in Hindi, Mandarin chinese, Russian, Vietnamese and Bengali as well.
+Snackdown 2019 is coming! People have started to spread the word and tell other people about the contest.
+There are NN people numbered 11 through NN. Initially, only person 11 knows about Snackdown. On each day, everyone who already knows about Snackdown tells other people about it. For each valid ii, person ii can tell up to AiAi people per day. People spread the information among the people who don't know about Snackdown in the ascending order of their indices; you may assume that no two people try to tell someone about Snackdown at the same moment. Each person is only allowed to start telling other people about Snackdown since the day after he/she gets to know about it (person 11 can start telling other people already on day 11). How many days does it take for all people to know about Snackdown?
+Input
+
+The first line of the input contains a single integer TT denoting the number of test cases. The description of TT test cases follows.
+The first line of each test case contains a single integer NN.
+The second line contains NN space-separated integers A1,A2,…,ANA1,A2,…,AN.
+
+Output
+For each test case, print a single line containing one integer — the number of days.
+Constraints
+
+1≤T≤1,0001≤T≤1,000
+2≤N≤1052≤N≤105
+the sum of NN for all test cases does not exceed 106106
+0≤Ai≤N0≤Ai≤N for each valid ii
+1≤A11≤A1
+
+Example Input
+2
+7
+2 1 1 5 5 5 5
+5
+5 1 3 2 1
+
+Example Output
+2
+1
+
+Explanation
+Example case 1: On day 11, person 11 tells people 22 and 33 about Snackdown. On day 22, the first three people know about Snackdown, so they can tell 2+1+1=42+1+1=4 people about it in a single day. That means the last four people get to know about Snackdown on day 22, so the total number of days is 22.
+Example case 2: On each day, person 11 can tell up to 55 people about Snackdown, so on the first day, he simply tells all people about it and the total number of days is 11.
+
+
+
+Author:
+6★kingofnumbers
+
+
+Editorial:
+https://discuss.codechef.com/problems/SPREAD2
+
+
+Tags:
+
+               
+                 ad-hoc, Prefix Sum
+                 
+                     
+                     Algorithms, Constructive, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+10-10-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

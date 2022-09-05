@@ -1,0 +1,138 @@
+
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+You are given N sequences P1,P2,…,PN. Each of them is a permutation of numbers 1 through M.
+Let's define a product of two permutations X and Y of numbers 1 through M as a permutation Z=X⋅Y such that Zi=YXi for each valid i.
+You should answer Q queries. Each query is described by two numbers L and R. Let's define a permutation B=PL⋅PL+1⋅…⋅PR; the multiplication of permutations is evaluated left to right, i.e. as ((PL⋅PL+1)⋅…)⋅PR. The answer to a query is ∑Mi=1i⋅Bi.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+N lines follow. For each valid i, the i-th of these lines contains M space-separated integers Pi,1,Pi,2,…,Pi,M denoting the permutation Pi.
+The next line contains a single integer Q.
+Each of the following Q lines contains two space-separated integers L and R describing one query.
+
+Output
+For each test case, print Q lines. For each valid i, the i-th of these lines should contain a single integer — the answer to the i-th query.
+Constraints
+
+1≤T≤1,000
+1≤N,M≤105
+1≤N⋅M≤2⋅105
+1≤Pi,j≤M for each valid i and j
+1≤Q≤2⋅105
+1≤L≤R≤N
+for each valid i, Pi is permutation of numbers 1 through M
+the sum of N⋅M for all test cases does not exceed 2⋅105
+the sum of Q for all test cases does not exceed 2⋅105
+
+Subtasks
+Subtask #1 (15 points):
+
+1≤T≤100
+1≤Q≤50
+1≤N⋅M≤200
+
+Subtask #2 (25 points):
+
+1≤T≤100
+1≤M≤10
+
+Subtask #3 (60 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+4 3
+3 2 1
+1 3 2
+1 2 3
+2 3 1
+5
+1 1
+1 4
+3 4
+3 3
+1 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+10
+11
+11
+14
+11
+
+
+Explanation
+Example case 1: 
+
+query 1: B=[3,2,1], so the answer is 1⋅3+2⋅2+3⋅1=10
+query 2: B=[3,1,2], the answer is 11
+query 3: B=[2,3,1], the answer is 11
+query 4: B=[1,2,3], the answer is 14
+query 5: B=[2,3,1], the answer is 11
+
+
+
+
+Author:
+7★isaf27
+
+
+Editorial:
+https://discuss.codechef.com/problems/DOCSDEL
+
+
+Tags:
+
+               
+                 Square Root Decomposition, Observation, Prefix Sum
+                 
+                     
+                     Advanced Algorithms, Algorithms, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2629
+
+
+Date Added:
+23-06-2018
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

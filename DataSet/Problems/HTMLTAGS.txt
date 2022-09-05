@@ -1,0 +1,114 @@
+
+Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
+In addition to CP, Chef recently developed an interest in Web Development and started learning HTML. Now he wants to create his own HTML Code Editor. As a subproblem, he wants to check if a typed HTML closing tag has correct syntax or not.
+A closing HTML tag must:
+
+Start with ""
+End with "&gt;"
+Have only lower-case alpha-numeric characters as its body (between "" and "&gt;"). That is, each character of the body should either be a digit or a lower-case English letter.
+Have a non-empty body.
+
+Help Chef by printing "Success" if the tag is fine. If not, print "Error".
+Input
+
+The first line contains an integer TT, the number of test cases. Then TT test cases follow. 
+Each test case is a single line of input, a string describing the tag we need to check.
+
+Output
+For each test case, output in a single line, "Success" if it is a valid closing tag and "Error" otherwise (without quotes).
+You may print each character of the string in uppercase or lowercase (for example, the strings "SuccEss", "success", "Success", "SUCCESS" et cetera will all be treated as identical).
+Constraints
+
+1≤T≤10001≤T≤1000
+1≤ length(Tag) ≤1000
+The characters of the string belong to the ASCII range [33,126] (note that this excludes space.)
+
+Subtasks
+Subtask #1 (100 points): Original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5 
+</h1>  
+Clearly_Invalid  
+</singlabharat>  
+</5>  
+<//aA>
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Success  
+Error  
+Success
+Success
+Error
+
+
+Explanation
+Test Cases 1,3,4: The tags follow all mentioned constraints.
+Test Case 2: The tag doesn't contain opening and closing symbols and also includes characters other than lower-case alpha-numeric characters in its body.
+Test Case 5: The tag also includes an upper-case alpha-numeric character "A" and a non alpha-numeric character "/" in its body.
+
+
+
+Author:
+4★singlabharat
+
+
+Editorial:
+https://discuss.codechef.com/problems/HTMLTAGS
+
+
+Tags:
+
+               
+                 Case work, Conditional Statements, Brute Force, Implementation
+                 
+                     
+                     Special, Basic Programming Concepts, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1441
+
+
+Date Added:
+6-06-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

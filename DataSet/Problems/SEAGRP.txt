@@ -1,0 +1,113 @@
+
+Read problems statements in Mandarin Chinese  and Russian.
+Sereja has an undirected graph consisting of NN vertices and MM edges. Sereja is interested in one question: is it possible to delete edges from the graph in a way such that the degree of each vertex in the final graph is exactly 11?
+The degree of any vertex in the graph is defined as the number of edges connected to that vertex. 
+Please help Sereja.
+Input
+
+The first line contains a single integer -  T, the number of test cases. T test cases follow.
+The first line of each test case contains two space separated integers - N and M. The description of the edges follows.
+The next M lines contain two space separated integers — U and V - representing an edge connecting vertex U and vertex V.
+
+Output
+For each test case print YES if it is possible, otherwise print NO.
+Constraints
+
+1≤T≤10
+1≤N,M≤100
+1≤U,V≤N
+There can be multiple edges but no self loops in the graph.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+2 2
+1 2
+1 2
+3 2
+1 2
+2 3
+4 6
+1 2
+1 3
+1 4
+2 3
+2 4
+3 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+YES
+NO
+YES
+
+
+
+
+
+Author:
+sereja_adm
+
+
+Tester:
+6★gerald
+
+
+Editorial:
+https://discuss.codechef.com/problems/SEAGRP
+
+
+Tags:
+
+               
+                 Graphs, Maximum Bipartite Matching
+                 
+                     
+                     Data Structures, Advanced Algorithms, Advanced Graph Algos, Flow Networks
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1986
+
+
+Date Added:
+9-06-2013
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

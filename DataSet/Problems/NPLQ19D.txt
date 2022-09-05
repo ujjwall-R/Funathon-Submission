@@ -1,0 +1,84 @@
+
+
+Bharath loves to roam in the campus of NITW and also he is good at problem solving. Pratyush decided  to give a problem to Bharath.
+Pratyush gives Bharath a list of places inside NITW (each place is represented by some character from 'a' to 'z'). Starting from the beginning, Bharath has to visit all the places in the same order as given in the list.
+While roaming Bharath writes the name of a place when he visits it for the first time. At the end of the day Bharat will tell all the distinct places travelled by him during entire day in the order he visited them.
+
+
+Input
+
+First line will contain T, number of test cases.The description of T test cases follows. 
+
+The first and only line of each test case contains a string S (containing only lowercase alphabets).
+
+Output
+
+For each test case print the order of visit of Bharath.
+
+Constraints
+
+1 <= T <= 10
+1 <= |S| <=  100000 
+
+Example
+Input:
+3
+abbcccppf
+abaabccba
+ccbaacfddhll
+
+Output:
+abcpf
+abc
+cbafdhl
+
+
+
+
+
+Author:
+6★himkha_100
+
+
+Editorial:
+https://discuss.codechef.com/problems/NPLQ19D
+
+
+Tags:
+
+               
+                 cakewalk, himkha_100, nplq2019, string-hashing
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+18-10-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

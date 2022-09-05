@@ -1,0 +1,86 @@
+
+Bheem is playing a game with Jaggu. Jaggu gives Bheem NN strings and asked him to find the length of the shortest consecutive subarray, such that the characters of the string in the given subarray can be used to form the word given by Jaggu. He ask Q such questions, each question consist of a word. Bheem is not able to solve these queries as he gives his laddus to NIT topper. So he want you to calculate the minimum length of the subarray. If not possible print −1.
+Input:
+
+First line will contain N, number of strings Jaggu gives to Bheem. 
+Next N lines contains a string S.
+The next line contains Q, number of questions Jaggu asks.
+Next Q lines contains a string.  
+
+Output:
+For each testcase, output in a single line, the minimum length of the subarray , such that the characters of the string in that range can be use to produce that word (ask by Jaggu).
+If not any subarray possible , print −1.
+Constraints
+
+1≤N≤10000
+2≤Q≤100
+Sum of lenght of all the strings in input ≤ 100000
+Sum of the lenth of all the strings in queries ≤ 100000 
+
+Sample Input:
+ 3
+ adew
+ rdwq
+ cgr
+ 2
+ aw
+ rrc
+
+Sample Output:
+ 1
+ 2
+
+EXPLANATION:
+For first query:
+String 1(adew) can be use to form the word(aw) , So min length = 1
+For second query:
+String 2-3 ( rdwg, cgr ) can be use to form the word ( rrc ) , So min length  = 2
+
+
+
+Author:
+2★piyushbhutani
+
+
+Editorial:
+https://discuss.codechef.com/problems/BJAGGU
+
+
+Tags:
+
+               
+                 binary-search, easy-medium, piyushbhutani, smtc2020
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-04-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

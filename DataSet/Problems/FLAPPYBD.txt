@@ -1,0 +1,111 @@
+
+Read problem statements in Mandarin Chinese, Russian, and Vietnamese as well.
+Chef is playing a noob version of the game Flappy Bird with the following rules:
+
+The bird starts at a height HH at x=0x=0.
+There are NN obstacles (numbered 11 through NN). For each valid i, the i-th obstacle is at a position xi and it has a height hi.
+For each integer i (0≤i<xN), Chef has the option to click once when the bird is at x=i. Let's denote the bird's height (y-coordinate) at that point by j. If he clicks, the bird moves to x=i+1 and y=j+1. Otherwise, the bird moves to x=i+1 and y=j−1.
+There is no ceiling and all the obstacles extend upwards from the bottom and not the other way around.
+For each valid i, the bird crosses the i-th obstacle successfully if the bird's height at x=xi is strictly greater than hi.
+At any point before x=xN, the bird's height should remain non-negative, otherwise it will drown.
+If the bird crosses the N-th obstacle successfully, Chef wins the game.
+
+Can you tell Chef if he can win the game (get the bird to cross all the obstacles) and the minimum number of clicks required to win in such a case?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and H.
+The second line contains N space-separated integers x1,x2,…,xN.
+The third line contains N space-separated integers h1,h2,…,hN.
+
+Output
+For each test case, print a single line containing one integer — the minimum number of clicks required to cross all the obstacles successfully, or −1 if it is impossible to cross all the obstacles.
+Constraints
+
+1≤T≤3⋅104
+1≤N≤105
+0≤H≤109
+1≤x1<x2<…<xN≤109
+1≤hi≤109 for each valid i
+the sum of N over all test cases does not exceed 5⋅105
+
+Example Input
+3
+1 0
+2
+1
+2 1
+1 3
+1 1
+5 10
+1 2 3 4 5
+10 11 12 13 15
+
+Example Output
+2
+2
+-1
+
+
+
+Explanation
+Example case 2: The figure below shows one possible way to successfully cross all the obstacles using the minimum number of clicks.
+
+Example case 3: It is clear that even by clicking all the time, it is impossible to cross the last obstacle.
+
+
+
+
+Author:
+daanish_adm
+
+
+Tester:
+6★iscsi
+
+
+Editorial:
+https://discuss.codechef.com/problems/FLAPPYBD
+
+
+Tags:
+
+               
+                 Greedy, Observation, Binary Search
+                 
+                     
+                     Algorithms, Searching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2649
+
+
+Date Added:
+17-06-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

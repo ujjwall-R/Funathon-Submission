@@ -1,0 +1,95 @@
+
+
+John likes fighting games a lot. He owns a game called "Fight Club". In this game there are n players playing all the times. Every player has an energy level (Ai). Every day one of the following 2 things happen:
+
+Either one of these players get an energy boost of X, now his energy level increases by X.
+Or two players X and Y (with energy levels Ax and Ay) fight against each other and if some player is having energy level strictly greater than the other then he gets all the energy (Ax+Ay) and the energy level of the other player becomes 0. If they have equal energies then it's a draw and nothing happens.
+
+
+The above game continues for d days. Now you have the information of what happened on each day.
+
+1 i X : ith player gets an energy of X.
+2 U V : means the player U and V fight against each other.
+
+After every day you need to print the maximum energy level that any player has (Note that you just need to print energy level, player number does not matter here).
+Input
+
+First line will contain 2 integers n and d denoting the number of players in the game and number of days for which the game is played respectively.
+Next line contains n integers denoting the initial energy levels of all the players.
+Next d lines contain one of the 2 operations mentioned above.
+
+Output
+Print d lines with each integer(ith) denoting the Maximum energy level after the ith day.
+Constraints
+
+1 <= n,d <= 105
+1 <= Ai <= 109
+1 <= i, U, V <= n
+1 <= X <= 109
+
+Example
+Input:
+5 5
+10 6 1 10 3
+1 2 5
+2 1 3
+1 3 2
+2 1 5
+2 4 5
+
+Output:
+11
+11
+11
+14
+14
+
+
+
+
+Author:
+npl_nitw
+
+
+Editorial:
+https://discuss.codechef.com/problems/NPLFLB
+
+
+Tags:
+
+               
+                 array, basic-programming, npl_nitw, nplq1602
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+19-10-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

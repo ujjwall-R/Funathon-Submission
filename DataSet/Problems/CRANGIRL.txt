@@ -1,0 +1,64 @@
+
+A string X is a multiple of string Y if X consists of one or more copies of Y concatenated together. For e.g. 'abab' and 'ab' are multiples of 'ab'. Crazy Girl is interested in some specific properties of strings and needs to find multiples of a smaller string in a bigger string, but it is getting too cumbersome to do for large texts. Given two strings B and A, she wants to find all the substrings of string A which are multiples of string B and cannot be extended further to the left or right and are of maximal length. Help her by writing a program to automate the task. Output the location of the multiples of string B in the form of pairs (a, b) where a denotes the starting position of the multiple in string A (1 - based) and b denotes the number of times string B is repeated in the multiple.
+Input
+The first line contains the string A and the second line contains the string B.
+Output
+Output the required pairs (a, b) in decreasing order of a and output -1 if string B is not a substring of string A.
+Constraints
+1 <= |A| <= 10^6
+1 <= |B| <= |A|
+ The strings A and B consist only of lowercase letters 'a' - 'z'
+Example
+Input:
+aabaabaaabaaaba
+Output:
+4 21 1Explanation:The pairs (8, 1) and (4, 1) are not reported because they can be extended further to the left and right respectively to form a multiple with two copies of string B.
+
+
+
+Author:
+2★apoorv_j
+
+
+Editorial:
+https://discuss.codechef.com/problems/CRANGIRL
+
+
+Tags:
+
+               
+                 apoorv_j, cranium2014, medium-hard
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-02-2014
+
+
+Time Limit:
+0.1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,133 @@
+
+Read problem statements in Mandarin Chinese, and Russian as well.
+As you know, there is a big problem in the educational system of Chefland - impudent students who cuts in line in the cafeteria. Chef wants to assess the problem. He was able to understand how the queue works:
+
+Each student has value of discontent, which is initially equal to 00;
+Initially the queue is empty;
+Students arrive at the queue one by one. Each student can either enter the queue in the end, or \textit{cut in line}, by which we mean stand in front of one or more students already in the queue;
+When someone cuts in line, the value of discontent of every student who ended up behind the new one is increased by 11.
+
+For example, if the students will enter the queue in the following order:
+[]→[1]→[1,2]→[1,3,2]→[1,3,2,4]→[1,3,5,2,4][]→[1]→[1,2]→[1,3,2]→[1,3,2,4]→[1,3,5,2,4]
+The discontent of the students in the queue will change as follows:
+[]→[0]→[0,0]→[0,0,1]→[0,0,1,0]→[0,0,0,2,1]
+Note that the values of discontent are given in the same order as students are in the queue in the end of the process, not in order they were entering the queue.
+Let's call the array of discontent values in the same order as students are in the queue in the end of the process \textit{the array of discontent}. Chef notices that if one knows the array of discontent then it is possible to find out how many students cut in line. And then Chef decides to make a competitive programming problem out of it!
+You are given array a1,a2,…,an. You have to process queries of two types:
+
+Find the number of students who cut in line if the array of discontent is [al,al+1,…,ar] - that is, the subsegment of the array a;
+Add a number w to al,al+1,…,ar - that is, the subsegment of the array a.
+
+You also have to find the number of students who cut in line using the initial a as array of discontent.
+Input:
+
+The first line of input contains one integer n (3≤n≤5⋅105) - the size of the array a.
+The second line of input contains n integers a1,a2,…,an separated by spaces - the array a itself.
+The third line on input contains one integer q (0≤q≤5⋅105) - the number of queries.
+Then q lines describing the queries follow.
+Each line starts with integer t - the type of the query.
+If t=1, then two more integers l,r follow (1≤l≤r≤n). For this query you have to print the number of students who cut in line if the array of discontent is [al,al+1,…,ar].
+If t=2, then three more numbers l,r,w follow (1≤l≤r≤n, |w|<n). For this query you have to add w to numbers al,al+1,…,ar.
+
+It is guaranteed that at any given time |ai|≤109, and also that every time you have to find the number of students who cut in line the corresponding array of discontent will be consistent, that is, there exists at least one process which results in the given array of discontent.
+Output:
+In the first line of output you should print the answer for the initial array a. Then print answers for each query of type 1 in the order they are given in input.
+Constraints
+
+3≤N≤5⋅105
+0≤Q≤5⋅105
+0≤ai<n
+0≤|wi|<n
+
+Subtasks
+
+10 points : 3≤N≤105, q=0
+10 points : 3≤N≤105, q≤1000
+40 points : 3≤N≤105, q≤105
+40 points : 3≤N≤5⋅105, q≤5⋅105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5
+    0 0 0 2 1
+    6
+    2 4 4 -1
+    2 3 4 1
+    1 2 4
+    1 2 5
+    2 4 5 1
+    1 1 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+    2
+    2
+    3
+
+
+
+
+
+Author:
+5★fairy_winx
+
+
+Editorial:
+https://discuss.codechef.com/problems/HOTMEALS
+
+
+Tags:
+
+               
+                 Lazy Propagation, Square Root Decomposition, Binary Search
+                 
+                     
+                     Advanced Data Structures, Advanced Tree Structures, Segment Trees, Advanced Algorithms, Algorithms, Searching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3364
+
+
+Date Added:
+23-02-2021
+
+
+Time Limit:
+1 - 3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

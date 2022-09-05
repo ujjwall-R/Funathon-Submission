@@ -1,0 +1,118 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given NN points (x1,y1),(x2,y2),…,(xN,yN)(x1,y1),(x2,y2),…,(xN,yN).
+You should answer Q queries. In each query, you are given a range [f,t]. Consider the points (xf,yf),(xf+1,yf+1),…,(xt,yt); the answer to a query is the square of the maximum Euclidean distance between any two of these points.
+Input
+
+The first line of the input contains a single integer N.
+N lines follow. For each i (1≤i≤N), the i-th of these lines contains two space-separated integers xi and yi.
+The next line contains a single integer Q.
+Each of the next Q lines contains two space-separated integers f and t describing a query.
+
+Output
+For each query, print a single line containing one integer — the squared maximum distance.
+Constraints
+
+1≤N,Q≤2⋅105
+1≤f≤t≤N
+0≤xi,yi≤2⋅105 for each valid i
+
+Subtasks
+Subtask #1 (15 points): 1≤N,Q≤3,000, TL=1.5s
+Subtask #2 (35 points): the coordinates of all points are chosen uniformly randomly, TL=5s
+Subtask #3 (50 points): original constraints, TL=5s
+
+                        Sample Input 1
+                        
+
+
+
+
+
+11
+1 2
+2 2
+3 0
+3 1
+3 3
+3 4
+3 1
+3 0
+3 3
+4 2
+5 2
+5
+5 11
+9 11
+3 8
+4 7
+9 10
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+16
+5
+16
+9
+2
+
+
+
+
+
+Author:
+7★bciobanu
+
+
+Editorial:
+https://discuss.codechef.com/problems/MXDIST
+
+
+Tags:
+
+               
+                 Square Root Decomposition, Convex Hull, Rotating Caliper, Range Minimum Queries
+                 
+                     
+                     Advanced Algorithms, Computational Geometry, Polygons, Algorithms, Queries
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2835
+
+
+Date Added:
+31-12-2018
+
+
+Time Limit:
+1.5 - 5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

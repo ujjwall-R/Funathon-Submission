@@ -1,0 +1,117 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a tree with N vertices numbered 1 through N as a sequence of N−1 edges — pairs (a1,b1),(a2,b2),…,(aN−1,bN−1). Let's define the value of a sequence A with length N−1 as
+F(A)=N−1∑i=1Ai⋅Wi,
+where W1,W2,…,WN−1 are given weights.
+You may change the order of the pairs and the order of elements within any pairs. Formally, consider a reordering (P,R) — any permutation P=(P1,P2,…,PN−1) of the integers 1 through N−1 and any subset R of these integers (possibly containing all of them). Let's define two sequences C=(cP1,cP2,…,cPN−1) and D=(dP1,dP2,…,dPN−1), where for each valid i, ci=ai and di=bi if i∉R, or ci=bi and di=ai if i∈R. If D is strictly increasing, the reordering is valid and its value is F(C).
+Find the maximum value of a valid reordering, i.e. the maximum F(C), and the number of valid reorderings that have this maximum value.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N−1 space-separated integers W1,W2,…,WN−1.
+N−1 lines follow. For each i (1≤i≤N−1), the i-th of these lines contains two space-separated integers ai and bi.
+
+Output
+For each test case, print a single line containing two space-separated integers — the maximum value of a reordering and the number of reorderings with the maximum value.
+Constraints
+
+1≤T≤100
+2≤N≤2⋅105
+|Wi|≤104 for each valid i
+1≤ai,bi≤N for each valid i
+pairs (ai,bi) are edges of a tree
+the sum of N over all test cases does not exceed 106
+
+Subtasks
+Subtask #1 (50 points):
+
+N≤1,000
+the sum of N over all test cases does not exceed 5,000
+
+Subtask #2 (50 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+4
+1 1 0
+1 2
+1 3
+3 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4 2
+
+
+Explanation
+Example case 1: There are two valid orderings with value 4:
+
+P=(2,1,3), R={2,3}; C=(3,1,4) and D=(1,2,3), so F(C)=3⋅1+1⋅1+4⋅0=4
+P=(2,1,3), R={2}; C=(3,1,3) and D=(1,2,4), so F(C)=3⋅1+1⋅1+3⋅0=4
+
+
+
+
+Author:
+7★farhod_farmon
+
+
+Editorial:
+https://discuss.codechef.com/problems/BOFP
+
+
+Tags:
+
+               
+                 Trees, Segment Trees, Fenwick Trees, DFS
+                 
+                     
+                     Data Structures, Graphs, Advanced Data Structures, Advanced Tree Structures, Algorithms, Graph Algos, Traversals
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2834
+
+
+Date Added:
+20-06-2019
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

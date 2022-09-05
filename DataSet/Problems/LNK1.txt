@@ -1,0 +1,83 @@
+
+Problem description.
+Link is the hero of the game Legend of Zelda. In this game, if Link kills a monster, his level becomes the same as the monster's level. Additionally, if Link kills a monster, he gains experience points(XP) equal to the level of the monster that is killed. Link wants to challenge himself. So he only kills monsters that are of equal or higher level than him. At the start of the game, Link has a level of 0. Find the Highest XP that Link can obtain. 
+Input
+
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+First line of each test case has N, the number of monsters.
+Second lines has N integers, each denoting the leveli of each monster.
+
+Output
+Print one line for each test case, having one integer, which denotes the maximum XP gained by Link
+Constraints
+
+1 ≤ T ≤ 10
+0 ≤ N ≤ 100
+0 ≤ leveli ≤ 109
+
+Example
+Input:
+2
+5
+2 1 2 3 2
+6
+3 5 7 8 2 6
+
+Output:
+7
+23
+
+Explanation
+
+Case 1: 2 + 2 + 3 = 7
+Case 2: 3 + 5 + 7 + 8 =23
+
+
+
+
+Author:
+4★accelmage
+
+
+Editorial:
+https://discuss.codechef.com/problems/LNK1
+
+
+Tags:
+
+               
+                 accelmage, array, easy, etbr2017
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-04-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

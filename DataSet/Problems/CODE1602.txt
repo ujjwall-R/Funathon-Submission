@@ -1,0 +1,96 @@
+
+ 
+Problem description
+ We know that if the set has N elements then its set of Subset has 2^N (2 to power N) elements.
+For example: If set has 3 elements then its set of subsets has total 2^3 (i.e. 2x2x2) elements, i.e. 8 elements.
+Let Consider our set is A={a,b},
+Then set of Subset S = {phi, {a},{b},{a,b}} i.e. total 4 elements.
+Your job is to solve this problem by using an integer variable.
+We will check bits of that integer variable if that bit is O (i.e. OFF) then we will display the associated element of the set with that bit number, else we will continue.
+Input
+First input is T the number of test cases, second input is the no. of elements for each test case and then the elements of the sets.
+Output
+Print the subsets for the input elements as shown below.
+Constraints
+
+1 ≤ Test Cases ≤ 10
+1 ≤ N ≤ 10
+1 ≤ 2^N ≤ mod(2^10)
+
+ 
+Example
+Input:
+1
+4
+1
+5
+7
+9
+
+Output:
+1: 1 5 7 9
+2: 5 7 9
+3: 1 7 9
+4: 7 9
+5: 1 5 9
+6: 5 9
+7: 1 9
+8: 9
+9: 1 5 7
+10: 5 7
+11: 1 7
+12: 7
+13: 1 5
+14: 5
+15: 1
+16: Phi
+
+
+
+
+Author:
+devender123_
+
+
+Editorial:
+https://discuss.codechef.com/problems/CODE1602
+
+
+Tags:
+
+               
+                 cakewalk, coit2016, devender123_, easy, set, subset
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+23-01-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

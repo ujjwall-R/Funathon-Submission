@@ -1,0 +1,118 @@
+
+
+
+Luther likes solving mathematical expressions. However, he hates dealing with parenthesis in his expressions. Hence, when he comes accross a problem involving bracket sequence, he asks for your help:
+
+Given a string containing only '(' and ')', you have to handle 2 types of operations on it:
+
+1. update x,y: flip all parenthesis in the string lying between x to y (both inclusive) (all occurrences of '(' are replaced with ')' and all occurences of ')' are replaced with '(' ).
+
+2. query x: find the longest contiguous correct bracket sequence starting from position x.
+
+The length of the string is N , and you have to handle Q operations.
+
+Help Luther in performing the operations efficiently.
+Note:
+A Correct Bracket Sequence (CBS) is a sequence that can be obtained through following rules:
+1) An empty string is a CBS. 
+2) If A is a CBS, then B = (A) is also a CBS. 
+3) If A and B are CBS, then C = AB is also a CBS.
+
+
+Input
+
+
+The first line contains 2 space seperated integers: N and Q.
+The next line contains a string of length N, consisting of only '(' and ')'.
+Q lines follow, each line containing the description of an operation in the following format:
+
+for Update operation:
+1 x y
+
+for Query operation:
+2 x
+
+Output
+
+Output the answer for each query operation on a seperate line.
+
+Constraints
+
+1 ≤ N ≤ 200000
+1 ≤ Q ≤ 200000
+1 ≤ x ≤ y ≤ N
+
+Example
+Input:
+7 5
+(()()))
+2 1
+2 2
+1 4 6
+2 2
+2 5
+
+Output:
+6
+4
+2
+0
+
+Explanation:
+
+Initially, string is: (()())) 
+
+1. The longest CBS starting at position 1 is (()())
+2. The longest CBS starting at position 2 is ()()
+3. After the update, the string becomes: (())(()
+4. The longest CBS starting at position 2 is ()
+5. The longest CBS starting at position 5 is the empty string.
+
+
+
+Author:
+7★gvaibhav21
+
+
+Editorial:
+https://discuss.codechef.com/problems/LBRACKET
+
+
+Tags:
+
+               
+                 data-structure, gvaibhav21, medium-hard, segment-tree
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+29-09-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

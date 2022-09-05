@@ -1,0 +1,106 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You have an array consisting of NN integers a1,a2...aNa1,a2...aN. You may perform the following operation zero or more times.
+
+Choose any index ii (1≤i≤N)(1≤i≤N) and set ai:=ai+1
+
+Determine the minimum number of operations you have to perform so that all pairwise differences in the resulting array are even. More formally, in the resulting array it should hold that, for every i and j (1≤i,j≤N), ai−aj is even.
+Input:
+
+The first line contains a single integer T — the number of test cases. The description of each test case is as follows.
+The first line of each test case contains a single integer N — the length of the array.
+The second line of each test case contains N integers, a1,a2...aN — the integers in the array.
+
+Output:
+For each test case output a new line containing a single integer — the minimum operations you must perform to make all the pairwise differences even.
+Constraints
+
+1≤T≤1000
+1≤N≤500
+1≤ai≤105
+
+Subtasks
+Subtask #1 (100 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+2
+2 4
+3
+4 1 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+1
+
+
+Explanation
+Note that an integer which is divisible by 2 is considered even. For example, 0, 4 and −6 are even, but 5 and −3 are not.
+In the first test case, 2−2=0, 2−4=−2, 4−2=2, 4−4=0, all of which are even. Thus we do not need to perform any operations.
+In the second test case we may increment 1. The pairwise differences then all become even. Thus one operation is required.
+
+
+
+Author:
+4★the_hyp0cr1t3
+
+
+Editorial:
+https://discuss.codechef.com/problems/EVENDIFF
+
+
+Tags:
+
+               
+                 ad-hoc, Observation
+                 
+                     
+                     Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+30-01-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

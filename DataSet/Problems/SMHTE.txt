@@ -1,0 +1,72 @@
+
+Problem Statement
+ Given a number , find whether it is a power of 2 or not 
+ NOTE  There is a limit in Source code.
+Input
+The first Line contains T , the no of test cases followed by T lines.
+  Each line has a integer X
+
+Output
+ Output has T lines , with each line indicating whethet the number is a power of 2 or not(print 1 if it a power of two else print 0)
+Example
+Input
+4
+4
+0
+6
+8
+Output
+1
+0
+0
+1
+
+
+
+
+Author:
+2★arun08
+
+
+Editorial:
+https://discuss.codechef.com/problems/SMHTE
+
+
+Tags:
+
+               
+                 arun08, cakewalk, smht2014
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+31-01-2014
+
+
+Time Limit:
+0.127576 secs
+
+
+Source Limit:
+100 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

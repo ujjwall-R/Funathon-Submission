@@ -1,0 +1,118 @@
+
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Sereja has an array A of N integers: A[1], A[2], …, A[N]. Sereja also has an integer D.
+
+Sereja calls a permutation P[1], P[2], …, P[N] as good if the following conditions hold.
+A[P[1]] + D > A[P[2]],
+A[P[2]] + D > A[P[3]],
+⋮
+A[P[N-1]] + D > A[P[N]].
+
+
+Sereja wants to sequentially perform M single-element replacement operations on the array. Each of these operations consists of choosing an index p of the array, and replacing A[p] with a new value v. Your task is to keep track of the number of good permutations P[1], P[2], …, P[N] after each operation.
+
+Input
+The first line of input contains the integers N and D described above. The next line contains N integers A[1], A[2], …, A[N]. The line after this contains a single integer, M. Each of the next M lines contain two numbers p and v, implying that the new value of A[p] is v.
+
+Output
+Output M lines. The ith line should contain the number of good permutations modulo 109 + 7 after we perform the ith replacement operation.
+
+Constraints
+
+1 ≤ N, M ≤ 105
+1 ≤ A[i], v ≤ 109
+1 ≤ D  ≤ 1000
+1 ≤ p ≤ N
+
+Constraints
+
+Subtask #1 :N, M  ≤ 10 (10 points) 
+Subtask #2 :N, M  ≤ 20 (10 points) 
+Subtask #3: N, M  ≤ 1000 (20 points) 
+Subtask #4:  original constrains (60 points) 
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3 3
+1 2 3
+2
+1 2
+3 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+6
+2
+
+
+Explanation
+Example case 1. After the first replacement operation, all permutations will be good. However, after the second operation, P[1] must be 3.
+
+
+
+Author:
+sereja_adm
+
+
+Tester:
+6★iscsi
+
+
+Editorial:
+https://discuss.codechef.com/problems/SEAPERMS
+
+
+Tags:
+
+               
+                 Pre processing, Modulo Multiplicative Inverse, Combinatorics
+                 
+                     
+                     Advanced Algorithms, Mathematics, Modular Arithmetic
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2805
+
+
+Date Added:
+22-11-2015
+
+
+Time Limit:
+2 - 8 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

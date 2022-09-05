@@ -1,0 +1,75 @@
+
+ 
+Chef is very interested in image processing. In image processing colours are generally written in hexadecimal.In his project chef is given a decimal number and he has to convert it in hexadecimal.As chef is very lazy he has given this task to you. 
+ 
+Input
+The first line contains number of test cases T.
+Each line of test case contain a number N
+Output
+For each test case, output is the hexadecimal equivalent of that number in small letters
+ 
+Constraints
+
+1 ≤ T ≤ 10
+1 ≤ N≤  103 
+
+ 
+Example
+Input:
+2
+255
+100
+Output:
+ff
+64
+
+ 
+
+
+
+Author:
+3★dark_archer
+
+
+Editorial:
+https://discuss.codechef.com/problems/HEX
+
+
+Tags:
+
+               
+                 algo1601, cakewalk, dark_archer, maths
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-11-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

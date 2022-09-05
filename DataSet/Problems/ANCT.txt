@@ -1,0 +1,115 @@
+
+Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
+There is a game played on a one-dimensional axis. NN stones will appear on this axis. Each of these stones is described by three numbers xixi, titi, ci, meaning the stone will appear at a point xi, at time ti, and has a value ci.
+There are p players initially (at time 0) all at the point 0. If a player is at a point x at time t, then at time t+1, he/she can be either at x or at x+1. A player is able to pick up a stone with value ci if he/she is at the point xi at the time ti. Picking up a stone does not take any time. Each stone can be picked up at most once.
+The score of a player is defined as the sum of values of stones he/she has picked up. The score of a number of players is simply the sum of their individual scores. Devise a strategy for the players to gain the maximum total score.
+You should find the maximum possible total score for each number of players p between 1 and K inclusive.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+N lines follow. For each valid i, the i-th of these lines contains three space-separated integers xi, ti and ci.
+
+Output Format
+For each test case, print K lines. For each valid i, the i-th of these lines should contain a single integer - the maximum total score for i players.
+Constraints
+
+1≤T≤100
+1≤K≤N≤5⋅104
+1≤xi,ti,ci≤109 for each valid i
+the sum of N over all test cases does not exceed 5⋅104
+the sum of N⋅K over all test cases does not exceed 5⋅105
+
+Subtasks
+Subtask #1 (10 points):
+
+T≤15
+N≤15
+
+Subtask #2 (10 points): K=1
+Subtask #3 (25 points):
+
+the sum of N over all test cases does not exceed 200
+the sum of N⋅K over all test cases does not exceed 4⋅103
+
+Subtask #4 (55 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+3 1
+1 10 10
+2 4 5
+3 7 6
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+11
+
+
+Explanation
+Example case 1: There is only one player. The best choice is to pick up stone 2 and stone 3.
+
+
+
+Author:
+7★nots0fast
+
+
+Editorial:
+https://discuss.codechef.com/problems/ANCT
+
+
+Tags:
+
+               
+                 Merge Sort Tree, DP Bitmask, Min Cost Max flow, Divide and Conquer
+                 
+                     
+                     Advanced Data Structures, Advanced Tree Structures, Advanced Algorithms, Advanced DP, Advanced Graph Algos, Flow Networks, Maximum Flow, Algorithms, Recursion
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3439
+
+
+Date Added:
+30-07-2021
+
+
+Time Limit:
+5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

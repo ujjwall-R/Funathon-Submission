@@ -1,0 +1,99 @@
+
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef likes problems which using some math. Now he asks you to solve next one. You have 4 integers, Chef wondering is there non-empty subset which has sum equals 0.
+Input
+The first line of input contains T - number of test cases. 
+Each of the next T lines containing four pairwise distinct integer numbers - a, b, c, d.
+Output
+For each test case output "Yes", if possible to get 0 by choosing non-empty subset of {a, b, c, d} with sum equal 0, or "No" in another case.
+Constraints
+
+1 ≤ T ≤ 103
+-106 ≤ a, b, c, d ≤ 106 
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+1 2 0 3
+1 2 4 -1
+1 2 3 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Yes
+Yes
+No
+
+
+Explanation
+Example case 1. We can choose subset {0} 
+Example case 2. We can choose subset {-1, 1} 
+
+
+
+Author:
+6★mgch
+
+
+Tester:
+5★tuananh93
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHEFSETC
+
+
+Tags:
+
+               
+                 Bitmasking, Brute Force
+                 
+                     
+                     Mathematics, Bit Manipulation, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1243
+
+
+Date Added:
+9-12-2016
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

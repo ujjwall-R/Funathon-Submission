@@ -1,0 +1,116 @@
+
+          
+            Once upon a time in a Fairy land , there lived two lovers AMAN and LC .
+Due to some circumstances LC can go on a date with AMAN only on EvenEven DatesDates egeg 2,30,14,...
+
+You are given an array of distinct positive integers Dates.
+
+Each integer in the array denoted by Dates[i]
+represents a Date on which AMAN is free to take her on a date.
+
+You being AMAN's best friend your task is to help him to find Total number of Dates they can go.
+
+
+            
+                
+                    Input Format
+
+First line of input will contain T, number of testcases. Then the testcases follow.
+Each testcase contains 2 lines of input
+1st line of each testcase contain N, size of Dates array
+2nd line of each testcase contains space separated distinct date 
+
+Output Format
+
+For each testcase, output a single integer i.e. total number of successful dates possible
+
+Constraints
+
+1≤T≤1000
+2≤N≤31
+1≤Dates[i]≤31
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+4
+2 3 4 5
+8
+1 2 3 4 5 6 7 8
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+4
+
+
+Explanation
+For inputs 
+
+N = 4
+Dates = [2,3,4,5]
+LC can go on a date with AMAN on Dates - [2,4]
+so total number of dates is 2
+
+
+
+
+Author:
+4★jbn_6972
+
+
+Editorial:
+https://discuss.codechef.com/problems/AMANLC
+
+
+Tags:
+
+               
+                 cakewalk, easy, jbn_6972
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+20-10-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

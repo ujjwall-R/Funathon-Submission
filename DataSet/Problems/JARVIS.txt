@@ -1,0 +1,91 @@
+
+ 
+
+In an unusual incident, DC & Marvel Universes become aware of each other's existence, and challenge one another to a series of duels involving each universe's respective superheroes, where the losing universe would cease to exist. One of the duel is scheduled between Catwoman (DC) and Iron Man (Marvel). Afraid of being defeated, Catwoman has planned to infect JARVIS which will cause IronMan's suit to malfunction. To gain root access, Catwoman must type a PIN made up of digits from 0-9 on a glass-styled touch screen PDA which has the following layout:
+
+
+She tries to trick Happy Hogan into giving the PIN but he tells her that he only remembers the pattern, not the PIN. A pattern can be considered as a series of vectors which connect the digits of the PIN in the correct order. Catwoman tries to gain root access but is now worried that there can be several PIN's with the same pattern and inserting wrong PIN will activate the alarms.
+ For example, if the PIN is "153", the pattern for it is same as the pattern for "486" or "709".
+
+
+
+Catwoman needs your help to determine if there is any other PIN that has the same pattern ?
+
+ 
+Input
+The first line of the input contains an integer t - denoting the number of test cases.
+The first line of each test case contains an integer n denoting the number of digits in the PIN.
+The second line of each test case contains a string of length n (comprising of character from '0' to '9') denoting the pattern.
+Output
+Output description.
+For each test case, print "No" (without quotes) in the only line, if there can be another PIN that has the same pattern.
+Otheriwse, print "Yes" (without quotes). 
+Constraints
+
+1 ≤ t ≤ 106
+1 ≤ n ≤ 9
+The string s comprises of character from '0' to '9'
+
+ 
+Example
+Input:
+2
+3
+153
+4
+2580
+
+
+Output:
+No
+Yes
+
+
+
+
+Author:
+4★varuns_2729
+
+
+Editorial:
+https://discuss.codechef.com/problems/JARVIS
+
+
+Tags:
+
+               
+                 ad-hoc, finding-pattern, pattern, simple, varuns_2729
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-04-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, GO, HASK, TCL, PERL, SCALA, LUA, JS, LISP sbcl, PAS gpc, CLOJ, D, CAML, FORT, FS, WSPC, LISP clisp, SCM guile, PERL6, SCM chicken, SCM qobi, ST
+
+
+
+
+
+Submit
+

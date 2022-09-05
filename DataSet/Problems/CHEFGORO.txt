@@ -1,0 +1,121 @@
+
+Read problem statement in Mandarin chinese and Vietnamese.
+Suzumo is the apprentice of Chef Goro. Today, there is a big contest in CodeChef. The contest has JJ judges, so they have to prepare JJ dishes, one for each judge.
+Before preparing the dishes, Suzumo collects all the ingredients; for simplicity, the ingredients are labeled 11 through MM.
+Chef Goro has many hands. Each of his hands can only take all ingredients from a specific subset; also, if one of his hands can take all ingredients from a set AA and another hand can take all ingredients from a set BB, then he has a hand which can take all ingredients from their intersection A∩BA∩B. Moreover, it is known that Goro has a hand which can take all the ingredients (it exists, even if it's not listed in input).
+Goro has so many hands that it is inconvenient to describe all of them in the input. Therefore, you are only given information on NN of his hands. Goro said that using that information, it is possible to generate all of his remaining hands. For each ii (1≤i≤N1≤i≤N), let's denote the set of ingredients taken by the ii-th hand by SiSi.
+To prepare the ii-th dish (for each 1≤i≤J1≤i≤J), Goro uses a recipe that consists of a set of ingredients RiRi. Suzumo is in charge of preparing the base of the recipe, which is the set of all ingredients xx (not necessarily present in the recipe) such that no matter which hand Goro uses to take xx, he will end up also taking another ingredient (different from xx) that belongs to RiRi.
+Write a program to help Suzumo find the size of the base of each recipe.
+Input
+
+The first line of the input contains a single integer TT denoting the number of test cases. The description of TT test cases follows. 
+The first line of each test case contains three space-separated integers MM, NN and JJ.
+For each valid ii, the ii-th of the following NN lines contains a single hexadecimal string encoding the set SiSi taken by the ii-th of Goro's hands.
+For each valid ii, the ii-th of the following JJ lines contains a single hexadecimal string encoding the recipe RiRi.
+
+A set described by a hexadecimal string ss can be decoded in the following way:
+
+each character of ss represents a number (00 through 1515); digits correspond to numbers 00 through 99 and letters 'a' through 'f' correspond to numbers 1010 through 1515
+compute the number corresponding to each character, convert it to binary representation as a binary string (little-endian, i.e. starting with the least significant bit) with length 44 and concatenate these strings to form one binary string bb with length 4|s|4|s|
+for each ii (1≤i≤4|s|1≤i≤4|s|), the resulting set contains ii if and only if bibi is '1'
+
+For example, for the string "bc", 'b' is converted to "1101", 'c' to "0011", the corresponding binary string is "11010011" and the decoded set is {1,2,4,7,8}{1,2,4,7,8}.
+Output
+For each recipe, print a single line containing one integer — the number of ingredients in the base of the recipe.
+Constraints
+
+1≤T≤50,0001≤T≤50,000
+1≤N,J≤105
+1≤M≤100
+each hexadecimal string contains only the following characters: digits '0' through '9' and lowercase letters 'a' through 'f'
+each decoded set Si contains only numbers ≤M
+each decoded set Ri contains only numbers ≤M
+the sum of N over all test cases is at most 105
+the sum of J over all test cases is at most 105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+5 4 2
+1
+d
+f
+31
+21
+7
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+4
+
+
+Explanation
+Example case 1: Goro has the following hands: {1},{1,3,4},{1,2,3,4},{1,2,5},{1,2},{1,2,3,4,5}. Note that the hand {1,2} is not provided, but it can be generated as the intersection of {1,2,3,4} and {1,2,5}.
+In the first recipe, the base of {2,5} is {5}. The hands that can take ingredient 5 are the 4-th and 6-th hand, and both of them also take ingredient 2, which belongs to the recipe.
+In the second recipe {1,2,3}, the base is {2,3,4,5}. Ingredient 1 is not in the base, because the first hand can take only ingredient 1 without taking another ingredient from the recipe.
+
+
+
+Author:
+7★alei
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHEFGORO
+
+
+Tags:
+
+               
+                 Bitmasking, Bitwise Operation
+                 
+                     
+                     Mathematics, Bit Manipulation
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2788
+
+
+Date Added:
+15-04-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

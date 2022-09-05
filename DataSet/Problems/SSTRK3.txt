@@ -1,0 +1,86 @@
+
+
+Abhishek was given a task by his teacher to find whether the two strings are
+companion strings or not.
+
+
+Two strings s1 and s2 are said to be companion strings if the number of distinct substrings of s1 and number of distinct substrings of s2 are equal. Also s1 and s2 need not to be of equal length.
+
+Given two strings s1 and s2, print “Companion” if s1 and s2 are companion strings, else print “Non Companion”.
+Input:
+
+1st line contain string s1
+2nd line contain string s2
+
+Output:
+
+Companion OR Non Companion
+
+Constraints: 
+
+1<=Length of string s1<=100
+1<=Length of string s2<=100
+
+Sample Input:
+	 
+abca
+pqpqp
+
+Sample Output:
+
+Companion
+
+Explanation:
+
+abca has 9 distinct substrings a, b, c, ab, bc, ca, abc, bca, abca.
+pqpqp also has 9 distinct substrings p, q, pq, qp, pqp, qpq, pqpq, qpqp, pqpqp. So they are companion strings.
+
+
+
+
+Author:
+3★huntsatyam
+
+
+Editorial:
+https://discuss.codechef.com/problems/SSTRK3
+
+
+Tags:
+
+               
+                 easy-medium, huntsatyam, strings, substring
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-01-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

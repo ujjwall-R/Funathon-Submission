@@ -1,0 +1,98 @@
+
+Lapindrome is defined as a string which when split in the middle, gives two halves having the same characters and same frequency of each character. If there are odd number of characters in the string, we ignore the middle character and check for lapindrome. For example gaga is a lapindrome, since the two halves ga and ga have the same characters with same frequency. Also, abccab, rotor and xyzxy are a few examples of lapindromes. Note that abbaab is NOT a lapindrome. The two halves contain the same characters but their frequencies do not match.  Your task is simple. Given a string, you need to tell if it is a lapindrome.
+Input:
+First line of input contains a single integer T, the number of test cases.
+Each test is a single line containing a string S composed of only lowercase English alphabet.Output:
+For each test case, output on a separate line: "YES" if the string is a lapindrome and "NO" if it is not.Constraints:
+1 ≤ T ≤ 100
+2 ≤ |S| ≤ 1000, where |S| denotes the length of S
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+6
+gaga
+abcde
+rotor
+xyzxy
+abbaab
+ababc
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+YES
+NO
+YES
+YES
+NO
+NO
+
+
+
+
+
+Author:
+vamsi_adm
+
+
+Tester:
+5★tuananh93
+
+
+Editorial:
+https://discuss.codechef.com/problems/LAPIN
+
+
+Tags:
+
+               
+                 Frequency Arrays, Maps, Hashmaps
+                 
+                     
+                     Data Structures, Arrays
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1159
+
+
+Date Added:
+1-05-2013
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

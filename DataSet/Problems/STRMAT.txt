@@ -1,0 +1,72 @@
+
+Chef's friend Rahul gave him a piece of paper. On this paper there are few strings(string A) and beside each string another string(String B) is given. Chef needs to find whether he can convert string A to string B after zero or more deletions. But there is  a condition chef can delete either the first or the last character. Chef is busy and so he needs your help.  
+Input:
+t: Number of test cases
+sa: String A
+sb: String B  
+Output:
+Print 'YES' if  String A can be converted to String B otherwise print 'NO'  
+Constraints:
+1<=t<=1000
+1<=length(sa),length(sb)<=20  
+Sample Input:
+2
+abcdefgh
+cde
+hello
+hey  
+Sample Output:
+YES
+NO  
+Explanation:
+In the first test case we can convert "abcdefgh" into "cde" by deleting a,b,f,g and h.
+In the second test case we cannot convert "hello" to "hey"
+
+
+
+Author:
+3★avishake_maji
+
+
+Editorial:
+https://discuss.codechef.com/problems/STRMAT
+
+
+Tags:
+
+               
+                 avishake_maji, easy, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-02-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

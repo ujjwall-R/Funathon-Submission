@@ -1,0 +1,73 @@
+
+Kabir likes Tara's smile and wants to look at her smile. They are sitting in the class and you are friends with Kabir. You have to place a mirror (point size)  in the front wall of the class so that Kabir can have a glimpse of Tara's smile.
+Consider the front wall as x-axis . You are given the  coordinates of position of Kabir (x1,y1)(x1,y1) and Tara  (x2,y2)(x2,y2). Find the position where the mirror should be placed. 
+Input:
+
+First line will contain TT, number of testcases. Then the testcases follow. 
+First line of each testcase contains two integers x1,y1.
+Second line of each testcase contains two integers x2,y2. 
+
+Output:
+For each testcase, print the x-coordinate of the mirror. Absolute error of 10−2 is allowed.
+Constraints:
+
+1≤T≤1000
+1≤x1,y1,x2,y2≤105
+
+Sample Input:
+1
+1 1
+
+4 4
+Sample Output:
+1.60
+
+
+
+
+Author:
+3★muzare_ali
+
+
+Editorial:
+https://discuss.codechef.com/problems/CC000
+
+
+Tags:
+
+               
+                 cakewalk, hecs2020, muzare_ali
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+23-02-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,124 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+A perfect tree is a rooted tree such that all its leaves are at the same distance from the root. The value of a perfect tree with nn vertices at a time xx is
+W(x)=maxp(n∑i=1dist(pi)⋅xi−1),
+where the vertices of the tree are (arbitrarily) numbered 1 through n, the maximum is taken over all permutations p of integers 1 through n, and dist(u) denotes the distance of vertex u from the root.
+Our Chef has a perfect tree with N vertices (numbered 1 through N), which is rooted at vertex 1. For any vertex v of this tree, the value of the subtree rooted at v (note that it is also a perfect tree) is defined in the same way as above, where the sum and permutations are only taken over vertices of this subtree and dist() denotes the distance from vertex v.
+You should answer Q queries. In each query, Chef has two parametres v and y and he wants to know the value of the subtree rooted at vertex v, at time y. The queries are encoded in such a way that they have to be answered online. Since the values may be large, compute them modulo 1000000007 (109+7).
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and Q.
+Each of the following N−1 lines contains two space-separated integers u and v denoting an edge between vertices u and v.
+The following Q lines describe queries. Each of these lines contains two space-separated integers a and b. The parametres v and y are computed in the following way: let's denote the answer to the previous query by ans (ans=0 for the first query); then, v=a⊕ans and y=b⊕ans.
+
+Output
+For each query, print a single line containing one integer - the value of the given subtree modulo 109+7.
+Constraints
+
+1≤T≤5
+1≤N≤200,000
+1≤Q≤100,000
+1≤u,v≤N
+1≤y<109+7
+the graph described on the input is a perfect tree
+the sum of N over all test cases does not exceed 200,000
+the sum of Q over all test cases does not exceed 100,000
+
+Subtasks
+
+Subtask 1 (20 points) : 
+1≤ Sum of N over all test cases ≤10000
+1≤ Sum of Q over all test cases ≤8000
+Subtask 2 (80 points) : 
+Original Constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+6 3
+1 2
+1 3
+2 4
+2 5
+3 6
+1 1
+10 10
+5 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+8
+6
+3
+
+
+Explanation
+Example case 1: For the first query, the choice of the permutation p is irrelevant, the inner sum (and therefore the value of the tree) is always just the sum of distances of all vertices from vertex 1. Hence, the answer is 0+1+1+2+2+2=8.
+In the second query, v=2 and y=2.
+In the third query, v=3 and y=3.
+
+
+
+Author:
+7★yash_chandnani
+
+
+Editorial:
+https://discuss.codechef.com/problems/PTREE
+
+
+Tags:
+
+               
+                 Trees, Modulo Multiplicative Inverse, GP, DFS, Observation
+                 
+                     
+                     Data Structures, Graphs, Mathematics, Modular Arithmetic, Sequences and Progression, Algorithms, Graph Algos, Traversals
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2900
+
+
+Date Added:
+14-02-2019
+
+
+Time Limit:
+2.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

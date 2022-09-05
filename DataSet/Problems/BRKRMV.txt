@@ -1,0 +1,147 @@
+
+A bracket sequence is made up of brackets '(' and ')'. We define a balanced bracket sequence as following:
+
+Empty sequence is balanced
+If PP is balanced, (P)(P) is also balanced
+If P and Q are balanced, PQ is also balanced
+
+For example, empty sequence and sequences (())(), (), (()(())) are balanced. While (, )(, (() and (()))( are not balanced. 
+You are given a bracket sequence A of length N and Q queries of the following form:
+L R : You are given two integers L and R (1≤L≤R≤N). Find the number of pairs (X,Y), where L≤X≤Y≤R, such that after removing the substring A[X,Y] from A[L,R],  the substring A[L,R] becomes a balanced bracket sequence. 
+In other words, for a given (L,R), find the number of pairs (X,Y), such that the sequence AL…AX−1AY+1…AR is a balanced bracket sequence.
+Note that, A[L,R] denotes the substring ALAL+1AL+2…AR−1AR.
+Input Format
+
+The first line of the input contains 2 integers N and Q - the size of the bracket sequence and the number of queries.
+The second line contains a string A of length N - the bracket sequence.
+The next Q lines, each contain two integers Li and Ri - the queries to be answered.
+
+Output Format
+Print Q lines, representing the answer for each query.
+Constraints
+
+1≤N≤3000
+1≤Q≤2⋅106
+
+Subtasks
+Subtask #1 (100 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+10 3
+(()()((())
+1 4
+3 9
+7 9
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+2
+3
+
+
+Explanation
+
+The first query is (()(. The only valid removal is (()(. Thus, answer for this query is 1.
+The second query is )()(((). The valid removals are )()((() and )()((().
+The third query is ((). The valid removals are ((), (() and (().
+
+
+                        Sample Input 2
+                        
+
+
+
+
+
+10 3
+(())()()()
+1 10
+3 5
+5 10
+
+
+
+                        Sample Output 2
+                        
+
+
+
+
+
+20
+1
+9
+
+
+Explanation
+
+The first query is the whole string. 
+
+Some examples of valid removals in the first query are (())()()() and (())()()(). Total number of valid removals in this case is 20.
+
+
+
+Author:
+6★maomao90
+
+
+Tester:
+gamegame
+
+
+Editorial:
+https://discuss.codechef.com/problems/BRKRMV
+
+
+Tags:
+
+               
+                 dynamic-programming, ltime105, maomao90, medium
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3029
+
+
+Date Added:
+26-02-2022
+
+
+Time Limit:
+4 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

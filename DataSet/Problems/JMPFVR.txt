@@ -1,0 +1,96 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef has a tree with NN nodes (numbered 11 through NN). Each node has a value; let's denote the value of node i by vi. Chef likes to travel in this tree. For each pair of nodes (u,v), he defines the score of the path from u to v in the following way:
+
+Suppose that the simple path from node u to node v is a sequence of nodes u=a0,a1,…,aL=v, where L is the length of this path.
+Let's denote the values of the nodes on this path by a sequence A0,A1,…,AL, where for each valid i, Ai=vai.
+Next, let's denote the suffix sums of the sequence A by S0,S1,…,SL, i.e. for each valid i, Si=∑Lj=iAj.
+The score f(u,v) of the path from node u to node v is the sum of all these suffix sums, i.e. f(u,v)=∑Li=0Si.
+
+Chef wants to choose some nodes u and v (u≠v) and travel along the simple path from u to v. However, he can treat it as several consecutive paths, which affects the score of the resulting trip. Specifically, if the simple path from node u to node v is a sequence of nodes u=a0,a1,…,aL=v, then Chef may choose any non-negative integer m and any sequence k1,k2,…,km such that 1≤k1<k2<…km<L; then, the score of the trip from u to v is f(u,ak1)+f(ak1,ak2)+…+f(akm,v). Specifically, if m=0, the score of the trip is simply f(u,v).
+Find the maximum possible score of Chef's trip if the nodes u and v (such that u≠v) and the sequence k are chosen optimally.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers v1,v2,…,vN.
+N−1 lines follow. Each of these lines contains two space-separated integers a and b denoting that nodes a and b are connected by an edge.
+
+Output
+For each test case, print a single line containing one integer ― the maximum possible score.
+Constraints
+
+1≤T≤100
+2≤N≤3⋅105
+|vali|≤105 for each valid i
+1≤a,b≤N
+the graph described on the input is a tree
+the sum of N over all test cases does not exceed 3⋅105
+
+Subtasks
+Subtask #1 (50 points): the sum of N over all test cases does not exceed 103
+Subtask #2 (50 points): original constraints
+Example Input
+1
+3
+-10 2 4
+1 2
+1 3
+
+Example Ouput
+-2
+
+Explanation
+Example case 1: We have f(1,2)=−6, f(2,1)=−18, f(1,3)=−2, f(3,1)=−16, f(2,3)=−6 and f(3,2)=−10. A trip from node 2 to node 3 can be split into the paths 2→1→3 with score −20, and a trip from node 3 to node 2 can be split into the paths 3→1→2 with score −22. Each trip can also be treated as one path. The maximum score is −2 for the trip from node 1 to node 3.
+
+
+
+Author:
+5★sajib_readd
+
+
+Editorial:
+https://discuss.codechef.com/problems/JMPFVR
+
+
+Tags:
+
+               
+                 Trees, DSU on Trees, Convex Hull, DFS
+                 
+                     
+                     Data Structures, Graphs, Advanced Algorithms, Advanced Graph Algos, Computational Geometry, Polygons, Algorithms, Graph Algos, Traversals
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3080
+
+
+Date Added:
+20-04-2020
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,78 @@
+
+Theatre Square in the capital city of Berland has a rectangular shape with the size  N x M
+meters. On the occasion of the city's anniversary, a decision was taken to pave the Square
+with square granite flagstones. Each flagstone is of the size  A x A .
+What is the least number of flagstones needed to pave the Square? It's allowed to cover the
+surface larger than the Theatre Square, but the Square has to be covered. It's not allowed to
+break the flagstones. The sides of flagstones should be parallel to the sides of the Square.
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+
+The first line of each test case contains 3 space separated integers N, M, A - dimensions of rectangular shape ( N x M ) and dimension of each flagstone (A x A).
+
+Output
+For each test case, output a single line containing the needed number of flagstones.
+Constraints
+
+1 ≤ T ≤105
+1 ≤ N ≤109
+1 ≤ M ≤109
+1 ≤ A ≤109
+
+Example
+Input:
+1
+6 6 4
+
+Output:
+4
+
+
+
+
+Author:
+2★puneetguptaa
+
+
+Editorial:
+https://discuss.codechef.com/problems/CDX1603
+
+
+Tags:
+
+               
+                 cakewalk, maths, puneetguptaa
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+12-07-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

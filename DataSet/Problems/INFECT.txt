@@ -1,0 +1,72 @@
+
+Yogesh has built a new hospital, with N(2<= N <= 100,000) beds. The beds are located along a straight line at positions x1,…,xN (0 <= xi <= 1,000,000,000).  
+Their are C(2<= C <=N) number of COVID infected persons. To prevent the further infections, you have to assign the beds to infected persons in such a way that the minimum distance between any two of them is as large as possible.
+What is the largest minimum distance?  
+Constraints
+(2 <= N <= 100,000)   
+(0 <= xi <= 1,000,000,000)  
+(2 <= C <= N)   
+Input
+t – the number of test cases, then t test cases follows.  
+
+Line 1: Two space-separated integers: N and C  
+Line 2: N space seperated integers representing the bed locations i.e xi  
+
+Output
+For each test case output one integer: the largest minimum distance.
+Sample Testcase 1:
+Input
+1
+5 3
+1 2 8 4 9  
+Output:
+3  
+
+
+
+Author:
+3★avishake_maji
+
+
+Editorial:
+https://discuss.codechef.com/problems/INFECT
+
+
+Tags:
+
+               
+                 avishake_maji, binary-search, medium
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-02-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

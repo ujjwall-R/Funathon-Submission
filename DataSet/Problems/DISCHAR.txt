@@ -1,0 +1,95 @@
+
+ Read problems statements in Mandarin Chinese  and Russian.
+You have initially a string of N characters, denoted by A1,A2...AN. You have to print the size of the largest subsequence of string A such that all the characters in that subsequence are distinct ie. no two characters in that subsequence should be same.
+A subsequence of string A is a sequence that can be derived from A by deleting some elements  and without changing the order of the remaining elements.
+
+Input
+First line contains T, number of testcases. Each testcase consists of a single string in one line. Each character of the string will be a small alphabet(ie. 'a' to 'z').
+Output
+For each testcase, print the required answer in one line.
+Constraints
+1 ≤ T ≤ 10
+Subtask 1 (20 points):1 ≤ N ≤ 10
+Subtask 2 (80 points):1 ≤ N ≤ 105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+abc
+aba
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+2
+
+
+Explanation
+For first testcase, the whole string is a subsequence which has all distinct characters.
+In second testcase, the we can delete last or first 'a' to get the required subsequence.
+
+
+
+
+Author:
+4★darkshadows
+
+
+Editorial:
+https://discuss.codechef.com/problems/DISCHAR
+
+
+Tags:
+
+               
+                 Frequency Arrays, String, Sets
+                 
+                     
+                     Data Structures, Arrays
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1314
+
+
+Date Added:
+26-09-2014
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

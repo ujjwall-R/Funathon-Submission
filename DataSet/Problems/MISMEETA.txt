@@ -1,0 +1,78 @@
+
+Meeta wants to give a gift to his friend Manoj on his 19th birthday. She collected NN number of gift-cards. The cost of each card Ci is written on it. Now Meeta decided to play a trick with him. She asked Manoj to pick two subsequent cards LL and RR whose prices have odd number of divisors. If he finds those such cards then Meeta will give him all the cards from range L to R (including both).
+Now Manoj wants your help to identity those two such cards so that he can get the maximum number of cards.
+If there is no such two cards then Meeta will not give him any card.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains of a single line of input, total number of cards N. 
+Next line contains of N space-seperated numbers which represents the cost of cards, $Ci$.
+
+Output:
+For each testcase, output in a single line the number of maximum cards which Manoj can get from Meeta if there is no such possibility the output should be 0.
+Constraints
+
+1≤T≤1000
+1≤N≤105
+1 ≤ Ci ≤ 10^7 
+
+Sample Input:
+2
+5
+1 9 15 17 1
+3
+5 10 12
+
+Sample Output:
+4
+0
+
+
+
+
+Author:
+2★bk1w2w
+
+
+Editorial:
+https://discuss.codechef.com/problems/MISMEETA
+
+
+Tags:
+
+               
+                 array, bk1w2w
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+26-01-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

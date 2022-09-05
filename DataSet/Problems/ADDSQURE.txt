@@ -1,0 +1,107 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+There are N different vertical lines on the plane, i-th of which is defined by the equation x=ai (0≤ai≤W) and M different horizontal lines, i-th of which is defined by the equation y=bi (0≤bi≤H). You must add one line of the form y=k (0≤k≤H, k≠bi for every 1≤i≤M) to the plane. What is the maximum possible number of squares with different areas you can obtain on the plane? (Squares can have other lines passing through them)
+Input:
+
+First line will contain 4 integers W, H, N, M
+Second line will contain N different integers a1,a2,...,aN
+Third line will contain M different integers b1,b2,...,bM
+
+Output:
+Output the maximal possible number of squares with different area on the plane after adding a  new line.
+Constraints
+
+1≤W,H,N,M≤105
+N≤W+1
+M≤H
+0≤ai≤W for every 1≤i≤N
+0≤bi≤H for every 1≤i≤M
+
+Subtasks
+
+50 points : 1≤H,W≤1000
+50 points : Original constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+10 10 3 3
+3 6 8
+1 6 10
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+
+
+Explanation
+You can get 3 different squares if you add a line y=4. The three squares are:
+
+Square with top-left corner at (6, 6) and bottom-right corner at (8, 4) with an area of 4.
+Square with top-left corner at (3, 4) and bottom-right corner at (6, 1) with an area of 9.
+Square with top-left corner at (3, 6) and bottom-right corner at (8, 1) with an area of 25.
+
+
+
+
+Author:
+3★abelyan
+
+
+Editorial:
+https://discuss.codechef.com/problems/ADDSQURE
+
+
+Tags:
+
+               
+                 Bitwise Operation, FFT
+                 
+                     
+                     Mathematics, Bit Manipulation, Transformations
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+29-09-2020
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

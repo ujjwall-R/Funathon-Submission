@@ -1,0 +1,103 @@
+
+Karthik got a task. He should find the status of the student in a placement exam.
+A student is said to be qualifiedqualified only if his total score is strictly greater than or equal to 65%.
+There are 2 sections in the test as follows:
+
+Multiple choice questions: total 100 marks.  
+Coding round: total 150 marks.
+There is no sectional  cut off.
+Find his status based on mentioned condition and print as described in Output format. 
+
+Input Format
+
+First line will contain TT, number of testcases. Then the testcases follow.
+Each testcase contains of a single line of input, two integers M,R denoting scores in first and second sections of the test respectively.
+
+Output Format
+For each testcase, output in a single line 
+ qualified if the student is qualified else print not qualified. 
+Constraints
+
+1≤T≤100
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+50 100
+50 130
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+not qualified
+qualified
+
+
+Explanation
+For the first test case the student got (50+100)/(100+150) => 60% < 65% so you need to print not qualified. 
+For the second test case the student got (50+130)/(100+150) => 72% >= 65% so you need to print qualified.
+
+
+
+Author:
+2★charann
+
+
+Tester:
+1★abhim4
+
+
+Editorial:
+https://discuss.codechef.com/problems/TESTCUTOFF
+
+
+Tags:
+
+               
+                 cakewalk, charann, math
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+26-02-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

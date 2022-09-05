@@ -1,0 +1,121 @@
+
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Chef is playing a game named "Killing monsters". In this game, at the beginning, there are n monsters arranged in a row (numbered 0 through n-1 from left to right). The i-th monster initially has hi health points. A monster dies if its health points become ≤ 0.
+Chef is going to perform q actions. For each action, Chef chooses two numbers x, y and shoots all living monsters whose index k satisfies k & x = k (& denotes the bitwise AND operator). Each monster he shoots loses y health points.
+After each action, please help Chef determine the number of living monsters.
+Input
+
+The first line of the input contains a single integer n denoting the number of monsters.
+The second line contains n space-separated integers h0, h1, ..., hn-1 denoting the initial health of monsters.
+The third line contains a single integer q denoting the number of actions.
+q lines follow. Each of these lines contains two space-separated integers x and y describing one action.
+
+Output
+For each action, print a single line containing one integer — the number of living monsters afterwards.
+Constraints
+
+1 ≤ n ≤ 217
+1 ≤ hi ≤ 109 for each valid i
+1 ≤ q ≤ 218
+0 ≤ x ≤ 109
+1 ≤ y ≤ 109
+
+Subtasks
+Subtask #1 (10 points):
+
+1 ≤ n ≤ 210
+1 ≤ q ≤ 211
+
+
+Subtask #2 (20 points):
+
+hi = 1 for each valid i
+y = 1 for each action
+
+
+Subtask #3 (70 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5
+1 2 3 4 5
+5
+1 1
+2 2
+3 3
+4 4
+5 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+4
+2
+2
+1
+
+
+
+
+
+Author:
+6★chemthan
+
+
+Editorial:
+https://discuss.codechef.com/problems/MONSTER
+
+
+Tags:
+
+               
+                 Square Root Decomposition, Bitwise Operation
+                 
+                     
+                     Advanced Algorithms, Mathematics, Bit Manipulation
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2687
+
+
+Date Added:
+4-11-2017
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

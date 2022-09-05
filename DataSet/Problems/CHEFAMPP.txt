@@ -1,0 +1,78 @@
+
+The range of an array is defined as the difference between the maximum and minimum value in it.
+Chef comes up with a crazy idea to minimize the range by changing atmost 3 elements in the array. He wants to check whether the minimum range he gets is right or not.
+Please help him in verifying his answer.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+First line of each test case contains an integer N, the no. of integers in the array.
+Second line contains N space separated integers, A0,A1,...,An−1. 
+
+Output:
+For each testcase, output in a single line, the minimum range.
+Constraints
+
+1≤T≤10
+3≤N≤105
+−109≤Ai≤109
+
+Sample Input:
+1
+6
+3 5 0 2 10 0
+
+Sample Output:
+2
+
+EXPLANATION:
+Chef changes the elements 3, 5 and 10 to 0, 1 and 2, resulting in the array: [0, 1, 0, 2, 2, 0].
+The minimum range is 2−0=2. There can be multiple ways to change atmost 3 elements to get the answer.
+
+
+
+Author:
+5★sahil_bansal
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHEFAMPP
+
+
+Tags:
+
+               
+                 array, easy, mpcc2020, sahil_bansal, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+29-03-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

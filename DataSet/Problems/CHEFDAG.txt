@@ -1,0 +1,123 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given KK permutations of integers 11 through N. For each i (1≤i≤K), the i-th permutation is denoted by Ai,1,Ai,2,…,Ai,N.
+Construct a directed acyclic graph with N nodes (numbered 1 through N) such that:
+
+Each of the given permutations is a valid topological sort of the graph. Formally, for each valid k and each i,j (1≤i<j≤N), there is no edge from the node Ak,j to the node Ak,i.
+The outdegree of each node is at most 1.
+The number of nodes with indegree 0 is the smallest possible.
+
+If there are multiple solutions, you may find any one.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+K lines follow. For each i (1≤i≤K), the i-th of these lines contains N space-separated integers Ai,1,Ai,2,…,Ai,N.
+
+Output
+For each test case, print two lines.
+
+The first of these lines should contain one integer ― the minimum number of nodes with indegree 0.
+The second line should contain N space-separated integers v1,v2,…,vN describing your graph in the following way: for each valid i, if vi=0, there is no outgoing edge from the i-th node; otherwise, there is an edge from the i-th node to the vi-th node.
+
+Constraints
+
+1≤T≤100
+1≤N≤500
+1≤K≤100
+1≤Ai,j≤N for each valid i,j
+the sum of N over all test cases does not exceed 2,000
+
+Subtasks
+Subtask #1 (20 points):
+
+N≤20
+K≤10
+
+Subtask #2 (80 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+2 2
+1 2
+2 1
+2 2
+1 2
+1 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+0 0
+1
+2 0
+
+
+Explanation
+Example case 1: The graph must consist of just two disconnected nodes, since no edges are allowed. Hence, there are two nodes with indegree 0.
+Example case 2: The graph may contain an edge from node 1 to node 2. Then, there is only one node with indegree 0.
+
+
+
+Author:
+7★rahuldugar
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHEFDAG
+
+
+Tags:
+
+               
+                 Graphs, Maximum Bipartite Matching
+                 
+                     
+                     Data Structures, Advanced Algorithms, Advanced Graph Algos, Flow Networks
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2522
+
+
+Date Added:
+30-05-2019
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

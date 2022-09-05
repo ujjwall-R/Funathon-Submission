@@ -1,0 +1,99 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Consider an undirected graph GG with NN vertices and M edges. A line graph L(G) of this graph is a graph with M vertices; each of these vertices corresponds to an edge in G and two vertices in L(G) are connected by an edge if the corresponding edges in G have a common vertex.
+Let Lk(G) denote the result of performing the operation "replace G by L(G)" k times, i.e. L1(G)=L(G), L2(G)=L(L(G)), L3(G)=L(L(L(G))) and so on.
+You are given an undirected simple graph G with N vertices (numbered 1 through N) and M edges, and a positive integer K. Find the size of the largest independent set in LK(G). Since this value may be very large, compute it modulo 998,244,353.
+Input
+
+The first line of the input contains three space-separated integers N, M and K.
+Each of the next M lines contains two space-separated integers u and v denoting that vertices u and v are connected by an edge.
+
+Output
+Print a single line containing one integer ― the number of vertices in the largest independent set in LK(G), modulo 998,244,353.
+Constraints
+
+2≤N,M≤2,000
+1≤K≤7
+1≤u,v≤N
+G does not contain any self-loops or parallel edges
+
+Subtasks
+Subtask #1 (30 points): K=1
+Subtask #2 (70 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4 6 2
+1 2
+1 3
+1 4
+2 3
+2 4
+3 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+
+
+
+
+
+Author:
+7★gainullinildar
+
+
+Editorial:
+https://discuss.codechef.com/problems/LLLGRAPH
+
+
+Tags:
+
+               
+                 april20, gainullinildar, hard, matching, observation, taran_1407
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2961
+
+
+Date Added:
+8-03-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

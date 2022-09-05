@@ -1,0 +1,72 @@
+
+Ankur and Prateek are friends. Ankur has completed the Computer Network course and Prateek is improving his problem-solving skill. Prateek gives a String S to Ankur and asked him to decode it and find an IP address (IPv4) of Class B (128 - 191) in binary. Prateek gives a hint that after sorting the given string, the first element of each octet will help to find the solution. Ankur is new in programming and he wants your help to solve the problem.
+See the explanation for more details.
+Input:
+
+The first and only line consist of string S made of upper case English alphabets [A - Z].
+
+Output:
+
+Print IP address (IPv4) of class B in binary in a single line.
+
+Constraints
+
+Length of String S is  35
+
+Sample Input:
+ABCDABCD.ABCDABCD.ABCDABCD.ABCDABCD   
+
+Sample Output:
+10000000.10000001.10000010.10000011   
+
+EXPLANATION:
+After sorting the given string we find AAAAAAAA.BBBBBBBB.CCCCCCCC.DDDDDDDD and converting in binary A,B,C, and D will be 10000000,10000001,10000010, and 10000011 respectively.
+
+
+
+Author:
+3★vicasindia
+
+
+Editorial:
+https://discuss.codechef.com/problems/DCODIP
+
+
+Tags:
+
+               
+                 easy-medium, sorting, ttoe2020, vicasindia
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+29-07-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+5000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, kotlin, PERL, SCALA, LUA, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, FS, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

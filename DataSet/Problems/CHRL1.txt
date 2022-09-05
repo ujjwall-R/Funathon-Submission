@@ -1,0 +1,102 @@
+
+ Read problems statements in Russian also.
+Chef likes shopping, and especially he likes to buy oranges. But right now he is short of money. He has only k rubles. There are n oranges. The i-th one costs costi rubles and has weight equal to weighti. Chef wants to buy a set of oranges with the maximal possible weight. Please help him, and tell him this weight.
+Input
+The first line of the input contains an integer T  denoting the number of test cases. The first line of each test case contains two numbers n and k. The following n lines contain two numbers costi and weighti respectively. 
+Output
+For each test case, output a single line containing maximal weight among all the affordable sets of oranges. 
+Constraints
+1 ≤ T ≤  250 
+1 ≤ n ≤  10 
+1 ≤ k ≤  100000000 
+1 ≤ weighti ≤  100000000 
+1 ≤ costi ≤  100000000 
+Scoring
+Subtask 1 (30 points): All the oranges' weights equals to 1.
+Subtask 2 (30 points):   N = 5  
+Subtask 2 (40 points):  See the constraints 
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+1 3
+2 2
+3 4
+2 1
+2 2
+3 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+5
+
+
+
+
+
+Author:
+furko_adm
+
+
+Tester:
+6★xcwgf666
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHRL1
+
+
+Tags:
+
+               
+                 Bitmasking, Recursion, Brute Force
+                 
+                     
+                     Mathematics, Bit Manipulation, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1771
+
+
+Date Added:
+12-01-2014
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

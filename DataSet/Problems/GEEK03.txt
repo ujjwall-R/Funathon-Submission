@@ -1,0 +1,87 @@
+
+Problem Statement
+Hemu, the teacher knew that most of the students of his class were naughty and often went out of the class while he was writing on the board. Not all the students were bad. Sometimes, students went out of the class for a valid reason (you can figure out some yourself :P). Since, hemu wanted to concentrate on teaching he wanted to reward the students who were found sitting at the end of the lecture, even if someone joined the lecture midway. To do this, he had kept a CCTV camera outside his class which notes down the name of the person whenever he enters or leaves the room. Hemu, wanted to calculate the number of students who would be rewarded. Can you help Hemu solve this task?
+It is guaranteed that all the students have different names. Also, assume that CCTV camera starts recording from the time when the class is empty and students start entering the class.
+Input section
+The first line contains, T, denoting the number of test cases.
+The first line of each test case consists an integer N, denoting the number of enteries recorded by the CCTV camera. Next N lines contains the name of the student whose entry was recorded.
+Output section
+For each test case, print the required answer.
+Input constraints
+1 ≤ T ≤ 10
+1 ≤ N ≤ 100
+1 ≤ length of name ≤ 10
+
+Subtasks
+
+Subtask #1 (40 points) : 1 ≤ N ≤ 5
+Subtask #2 (60 points) : Original Constraints
+
+Sample Input
+2
+3
+Hasil
+Bhuvnesh
+Shubham
+5
+Bhuvnesh
+Hasil
+Bhuvnesh
+Rohan
+Naveen
+
+Sample Output
+3
+3
+
+
+The students rewarded in first case were {Hasil, Bhuvnesh, Shubham} and in second case were {Hasil, Rohan, Naveen}.
+
+
+
+Author:
+6★likecs
+
+
+Editorial:
+https://discuss.codechef.com/problems/GEEK03
+
+
+Tags:
+
+               
+                 cakewalk, likecs, likecs, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+9-11-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

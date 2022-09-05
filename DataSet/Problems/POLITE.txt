@@ -1,0 +1,75 @@
+
+A polite number is a positive integer that can be written as the sum of two or more consecutive positive integers. Suppose for 77 and 1515:
+
+7=3+47=3+4
+15=4+5+615=4+5+6
+
+So, 7 and 15 are polite number. While 1 can not be written as the sum of two or more consecutive positive integers. So it is not polite. You will be given a positive integer N. Now you have to tell how many positive integers from 1 to N are not polite.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains of a single integers N. 
+
+Output:
+For each testcase, output a single integer answering how many numbers from 1 to N are not polite.
+Constraints
+
+1≤T≤105
+1≤N≤1018
+
+Sample Input:
+1
+100
+
+Sample Output:
+7
+
+
+
+
+Author:
+3★aref111n
+
+
+Editorial:
+https://discuss.codechef.com/problems/POLITE
+
+
+Tags:
+
+               
+                 aref111n, number-theory, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+28-11-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

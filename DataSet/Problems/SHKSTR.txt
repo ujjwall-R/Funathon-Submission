@@ -1,0 +1,113 @@
+
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Sheokand loves strings. Chef has N strings S1,S2,…,SN which he wants to give to Sheokand; however, he doesn't want to give them away for free, so Sheokand must first correctly answer Q queries Chef asks him.
+In each query, Chef tells Sheokand an integer R and a string P. Consider Chef's strings S1 through SR. Out of these strings, consider all strings such that their longest common prefix with P is maximum possible. Sheokand should find the lexicographically smallest of these strings.
+Sheokand is busy with his exams. Can you solve the queries for him?
+Input
+
+The first line of the input contains a single integer N.
+N lines follow. For each valid i, the i-th of these lines contains Chef's string Si.
+The next line contains a single integer Q.
+The following Q lines describe queries. Each of these lines contains an interger R, followed by a space and a string P.
+
+Output
+For each query, print a single line containing the string that satisfies the required conditions — the answer to that query.
+Constraints
+
+1≤N≤100,000 
+1≤|Si|≤10 for each valid i
+1≤Q≤100,000
+1≤R≤N
+1≤|P|≤10
+
+Subtasks
+Subtask #1 (30 points): 1≤N,R≤1,000
+Subtask #2 (70 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+abcd
+abce
+abcdex
+abcde
+3
+3 abcy
+3 abcde
+4 abcde
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+abcd
+abcdex
+abcde
+
+
+Explanation
+Query 1: For strings S1 through S3, the longest common prefix is always "abc", but "abcd" is the lexicographically smallest of these three strings.
+Query 2: For strings S1 through S3, the longest common prefix with maximum length is "abcde" and the only string for which it is the LCP is "abcdex", so this is the answer.
+Query 3: For strings S1 through S4, the longest common prefix with maximum length is "abcde"; it is the LCP for strings "abcdex" and "abcde", but "abcde" is the lexicographically smaller string, so it is the answer.
+
+
+
+Author:
+4★jitendersheora
+
+
+Tester:
+6★mgch
+
+
+Tags:
+
+               
+                 String, Tries, Offline Queries, Online Queries
+                 
+                     
+                     Data Structures, Advanced Data Structures, Algorithms, Queries
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1983
+
+
+Date Added:
+19-05-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

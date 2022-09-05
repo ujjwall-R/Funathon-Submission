@@ -1,0 +1,115 @@
+
+Read problems statements in Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Chef recently finished a birthday cake, which can be represented by a grid with NN rows (numbered 11 through NN) and M columns (numbered 1 through M). For each valid i, Chef placed a candle with height ai,j in the cell in row i and column j.
+A rectangle with the top left corner in row r1 and column c1 and the bottom right corner in row r2 and column c2 (1≤r1<r2≤N; 1≤c1<c2≤M) is called sweet if the minimum of heights of candles on some two opposite corners is greater than the maximum of heights of candles on the other two opposite corners. Formally, one of the following conditions should hold:
+
+min(ar1,c1,ar2,c2)>max(ar1,c2,ar2,c1)
+min(ar2,c1,ar1,c2)>max(ar1,c1,ar2,c2)
+
+The quality of the candle placement is defined as the number of sweet rectangles.
+Find the quality of the initial cake and then process Q queries. In each query, we replace the candle currently placed in a row x and a column y by a new candle with height h. The queries are not independent, i.e. each such change affects all subsequent queries. After each query, find the quality of the current candle placement.
+It is guaranteed that initially and after each query, the heights of the candles are pairwise distinct.
+Input
+
+The first line of the input contains two space-separated integers N and M.
+N lines follow. For each valid i, the i-th of these lines contains M space-separated integers ai,1,ai,2,…,ai,M.
+The next line contains a single integer Q.
+Each of the next Q lines contains three space-separated integers x, y and h describing a query.
+
+Output
+First, print a line containing a single integer ― the quality of the initial placement. Then, for each query, print a line containing a single integer ― the quality of the placement after this query.
+Constraints
+
+2≤N,M≤1,000
+0≤Q≤10,000
+0≤ai,j≤109 for each valid i and j
+1≤x≤N
+1≤y≤M
+0≤h≤109
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3 3
+3 5 1
+2 9 6
+8 7 4
+4
+2 2 0
+2 1 10
+3 2 11
+1 3 9
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+4
+3
+4
+6
+
+
+
+
+
+Author:
+6★demidenko
+
+
+Editorial:
+https://discuss.codechef.com/problems/SWEETRQ
+
+
+Tags:
+
+               
+                 Observation, Implementation
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3388
+
+
+Date Added:
+14-12-2020
+
+
+Time Limit:
+1.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

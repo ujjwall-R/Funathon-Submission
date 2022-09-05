@@ -1,0 +1,86 @@
+
+While his trip to an ancient palace Harry found a box, while wandering in the palace. The box is rectangular and consists of a lock on it's each vertical face. He has also found two keys attached to the top of box. The box displays an arbitrary number N on it's top.You have to find out whether this box can be opened by this number or not.The box can be opened by a number, iff it is a multiple of number of keys and number of locks and number of corners in the rectangular box(all 3 conditions satisfying simultaneously).If the box can be opened by the dispalyed number print YES otherwise NO. 
+ 
+Input
+
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases is as follows.
+The first line of each test case contains a single integer N, which is displayed on the top of the box.
+
+ 
+Output
+For each test case, Output YES if box can be opened otherwise NO.
+ 
+Constraints
+
+1 ≤ T ≤ 108
+1 ≤ N ≤ 1030
+
+ 
+Subtasks
+Subtask #1 (10 points):
+1 ≤ N ≤ 108
+Subtask #2 (40 points):
+1 ≤ N ≤ 1018
+Subtask #3 (50 points): original constraints
+Example
+Input:
+3
+72
+32
+20
+
+Output:
+YES
+YES
+NO
+
+ 
+
+
+
+Author:
+1★chhekur
+
+
+Editorial:
+https://discuss.codechef.com/problems/THC1
+
+
+Tags:
+
+               
+                 cakewalk, chhekur, codh2018, divisibility, rules
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+24-01-2018
+
+
+Time Limit:
+0.2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,123 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+The kingdom of Treeland consists of N cities (numbered 1 through N) connected by N−1 bidirectional roads in such a way that there is a path between each pair of cities.
+In order to increase security in Treeland, the government decided to set up police offices in K of its cities. For each valid i, the i-th office is in city Vi and it has a radius of efficiency Ri.
+Let's define the security level Si of each city i as follows:
+
+Initially, the security level of each city is equal to zero.
+Then, for each police office j that was built (1≤j≤K), the security levels change in the following manner:
+The security level of the city Vj increases by Rj.
+The security levels of all cities at the distance 1 from Vj increase by Rj−1.
+…
+The security levels of all cities at the distance Rj−1 from Vj increase by 1.
+Formally, for each city i, the j-th office increases the security level of this city by max(0,Rj−distance(i,Vj)).
+
+Alice was in charge of calculating the new security levels of all cities after the offices were built. She already finished her job and noticed an interesting coincidence: for each valid i, SVi=Ri holds. Now she has challenged you to find the security levels of all cities.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+Then, N−1 lines follow. Each of these lines contains two space-separated integers u and v denoting that cities u and v are connected by a road.
+K more lines follow. For each valid i, the i-th of these lines contains two space-separated integers Vi and Ri.
+
+Output
+For each test case, print a single line containing N space-separated integers S1,S2,…,SN.
+Constraints
+
+1≤T≤2,000
+2≤N,K≤8⋅105
+1≤u,v≤N
+1≤Vi≤N for each valid i
+V1,V2,…,VK are pairwise distinct
+1≤Ri for each valid i
+the sum of N over all test cases does not exceed 8⋅105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+5 2
+5 2
+5 4
+5 3
+3 1
+2 1
+5 1
+5 2
+5 2
+1 2
+2 4
+3 1
+4 2
+5 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0 1 0 0 1
+0 2 0 2 2
+
+
+
+
+
+Author:
+arthurfn
+
+
+Editorial:
+https://discuss.codechef.com/problems/SAFETR
+
+
+Tags:
+
+               
+                 Trees, Segment Trees, Fenwick Trees, DFS
+                 
+                     
+                     Data Structures, Graphs, Advanced Data Structures, Advanced Tree Structures, Algorithms, Graph Algos, Traversals
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+9999
+
+
+Date Added:
+2-05-2020
+
+
+Time Limit:
+3.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

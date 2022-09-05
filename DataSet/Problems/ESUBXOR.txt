@@ -1,0 +1,127 @@
+
+Given a positive integer NN, construct two arrays AA and BB, each of size NN such that:
+
+Ai≠AjAi≠Aj for all (1≤i<j≤N);
+Bi≠Bj for all (1≤i<j≤N);
+Ai≠Bj for all (1≤i,j≤N);
+1≤Ai,Bi≤3⋅105 for all (1≤i≤N);
+⊕A[1,i]=⊕B[1,i] for all (1≤i≤N) such that i is even.  
+
+Here ⊕A[L,R] corresponds to the bitwise XOR of all elements of the subarray [L,R] of array A. Similarly, ⊕B[L,R] corresponds to the bitwise XOR of all elements of the subarray [L,R] of array B.
+If multiple answers are possible, ouput any.
+Input Format
+
+First line will contain T, the number of test cases. Then the test cases follow.
+Each test case contains of a single line of input, a single integer N - as mentioned in statement.
+
+Output Format
+For each test case, output two lines.
+
+The first line contains N space-separated integers denoting the elements of the array A.
+The second line contains N space-separated integers denoting the elements of the array B.
+
+If multiple answers are possible, ouput any.
+Constraints
+
+1≤T≤1000
+1≤N≤217
+1≤Ai,Bi≤3⋅105
+Sum of N over all test cases does not exceed 218.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+2
+3
+4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+6 3 
+11 14
+100000 98630 300000 
+200000 199334 299999
+4 1 9 5 
+7 2 10 6
+
+
+Explanation
+Test case 1: A possible pair of arrays is A=[6,3] and B=[11,14].
+
+The only even value of i≤2 is 2. Thus, ⊕A[1,i]=⊕A[1,2]=A1⊕A2=6⊕3=5. Also, ⊕B[1,i]=⊕B[1,2]=B1⊕B2=11⊕14=5.
+
+Test case 2: A possible pair of arrays is A=[100000,98630,300000] and B=[200000,199334,299999].
+
+The only even value of i≤3 is 2. Thus, ⊕A[1,i]=⊕A[1,2]=A1⊕A2=100000⊕98630=2022. Also, ⊕B[1,i]=⊕B[1,2]=B1⊕B2=200000⊕199334=2022.
+
+Test case 3: A possible pair of arrays is A=[4,1,9,5] and B=[7,2,10,6].
+
+The even values of i≤4 are 2 and 4.
+i=2: ⊕A[1,i]=⊕A[1,2]=A1⊕A2=4⊕1=5. Also, ⊕B[1,i]=⊕B[1,2]=B1⊕B2=7⊕2=5.
+i=4: ⊕A[1,i]=⊕A[1,4]=A1⊕A2⊕A3⊕A4=4⊕1⊕9⊕5=9. Also, ⊕B[1,i]=⊕B[1,4]=B1⊕B2⊕B3⊕B4=7⊕2⊕10⊕6=9.
+
+
+
+
+Author:
+5★notsoloud
+
+
+Editorial:
+https://discuss.codechef.com/problems/ESUBXOR
+
+
+Tags:
+
+               
+                 Bitwise Operation
+                 
+                     
+                     Mathematics, Bit Manipulation
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-05-2022
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

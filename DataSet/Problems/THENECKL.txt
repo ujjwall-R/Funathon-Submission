@@ -1,0 +1,73 @@
+
+Chef wants to buy a necklace for Chefina. The necklace will consist of N beads joined together in a circular manner, i.e., the 1st bead will lie between Nth and 2nd beads. The 2nd bead will lie between 3rd and 1st beads and so on. Each bead has a certain colour (some beads can have the same colour). Chef considers the necklace good if no two neighbouring beads have the same colour. The cost of the necklace is equal to the number of distinct colours present in the necklace. 
+You have to tell Chef what's the minimum he needs to spend to buy a good necklace. 
+Input:
+
+First line will contain T, the number of test cases. Then T the test cases follow. 
+Each test case contains a single integer N.
+
+Output:
+For each test case, output in a single line the required answer.
+Constraints
+
+1≤T≤106
+1≤N≤1018
+
+Sample Input:
+3
+2
+3
+4  
+Sample Output:
+2
+3
+2  
+
+
+
+Author:
+5★sibasish_14
+
+
+Editorial:
+https://discuss.codechef.com/problems/THENECKL
+
+
+Tags:
+
+               
+                 cakewalk, ftcf2020, sibasish_14, sibasish_14
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+6-06-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,78 @@
+
+Chefina is Chef's 8-year-old daughter. She studies in the 3rd standard. Recently her class teacher introduced her to a new shape
+i.e. a Triangle. Chefina being a curious student wants to know whether the angles she says can form a triangle or not. Since today is Republic day the school declared a holiday, so it is up to Chef to feed Chefina's curious brain. But Chef is busy in
+the preparation for the Republic Day Cake, hence he wants you to help Chefina with her curiosity.
+Input:
+
+First-line will contain TT, the number of test cases. Then the test cases follow. 
+Each test case contains three inputs, integer A,B,CA,B,C 
+
+Output:
+Print "YES" or "NO" without inverted commas. The answer to each test case should be in a new line. Print the answer in CAPITALCAPITAL only else solution will not be accepted.
+Constraints
+
+1≤T≤1051≤T≤105
+1≤A,B,C<180
+
+Sample Input:
+3
+60 60 60
+90 90 90
+45 45 90
+
+Sample Output:
+YES
+NO
+YES
+
+Explaination
+In the first and third cases, a triangle is possible but in the second case, there cannot be 3 right angles.
+
+
+
+Author:
+3★shrivas7
+
+
+Editorial:
+https://discuss.codechef.com/problems/ECJAN20A
+
+
+Tags:
+
+               
+                 cakewalk, enja2020, shrivas7
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+14-01-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

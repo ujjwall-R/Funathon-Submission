@@ -1,0 +1,83 @@
+
+ 
+While other heroes from Marvel and DC Universe have resorted to competing in duels to establish their supremacy, Batman and Dr. Strange decided to find the winner by playing a stratergy board game. The game consists of a N x M board that has either white or black stones in each cell. The game is simple, each player is allowed to select a single white stone anywhere on the board, and he owns that stone. However, he is also granted the ownership of every white stone present in the immediate adjacent cell of the current cell, in all directions. Repeat this for all white stones that a player owns. Cells having black stones cannot be owned. A player cannot change the configuration of the board. The rules are elementary, whosoever owns maximum white stones using the rules stated above, is declared the winner. Your task is to help Batman (Yeah right !! Batman needs your help !) in calculating the maximum number of stones he can own, if he starts first.
+ 
+Input
+The first line contains a positive integer t, denoting the number of test cases.
+The first line of each test case contains two positive integers N and M, denoting the number of rows and coloumns on the board respectively.
+Each line i of the n subsequent lines contain m space separate integers denoting ith row of the board where each cell has a value of either 0 or 1, where 0 denotes a black stone and 1 denotes a white stone.
+ 
+Output
+For each test case, print a single positive integer denoting the maximum number of stones Batman can own if he starts first.
+ 
+Constraints
+
+1 ≤ t ≤ 250
+1 ≤ N,M ≤ 200
+
+ 
+Example
+Input:
+1
+5 5
+0 0 1 1 0
+0 1 0 0 0
+1 1 1 0 0
+0 0 0 0 1
+1 0 0 0 0
+
+Output:
+6
+
+ 
+Explanation
+Example case 1.The board configuration above has 3 regions with maximum white stones as 6,1 and 1 respectively. Hence if the batman starts from the cell (1,3) he can own a maximum of 6 stones
+
+
+
+Author:
+4★varuns_2729
+
+
+Editorial:
+https://discuss.codechef.com/problems/BATMAN
+
+
+Tags:
+
+               
+                 depth-first-search, easy, graphs, simple, traversal, varuns_2729
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+26-04-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

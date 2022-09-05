@@ -1,0 +1,100 @@
+
+The Chessboard Distance for any two points (X1,Y1)(X1,Y1) and (X2,Y2)(X2,Y2) on a Cartesian plane is defined as max(|X1−X2|,|Y1−Y2|). 
+You are given two points (X1,Y1) and (X2,Y2). Output their Chessboard Distance. 
+Note that, |P| denotes the absolute value of integer P. For example, |−4|=4 and |7|=7.
+Input Format
+
+First line will contain T, the number of test cases. Then the test cases follow.
+Each test case consists of a single line of input containing 4 space separated integers - X1,Y1,X2,Y2 - as defined in the problem statement.
+
+Output Format
+For each test case, output in a single line the chessboard distance between (X1,Y1) and (X2,Y2)
+Constraints
+
+1≤T≤1000
+1≤X1,Y1,X2,Y2≤105
+
+Subtasks
+Subtask #1 (100 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+2 4 5 1
+5 5 5 3
+1 4 3 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+2
+2
+
+
+Explanation
+
+In the first case, the distance between (2,4) and (5,1) is max(|2−5|,|4−1|)=max(|−3|,|3|)=3.
+In the second case, the distance between (5,5) and (5,3) is max(|5−5|,|5−3|)=max(|0|,|2|)=2.
+In the third case, the distance between (1,4) and (3,3) is max(|1−3|,|4−3|)=max(|−2|,|1|)=2.
+
+
+
+
+Author:
+2★aryanag_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHESSDIST
+
+
+Tags:
+
+               
+                 aryanag_adm, cakewalk, ltime105
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+690
+
+
+Date Added:
+26-02-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

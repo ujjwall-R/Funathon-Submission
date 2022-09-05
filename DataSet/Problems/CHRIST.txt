@@ -1,0 +1,73 @@
+
+On the day of Christmas, when everyone is busy celebrating, but suddenly NN aliens come on Earth and each alien demands a unique positive number (number>0)(number>0) from Santa.
+Everyone is afraid to see the aliens on earth. So, Santa wants the aliens to go back from earth, and the only way for the aliens to go back is that the GCD of the numbers (given by Santa to aliens) of every possible pair of aliens must be equal to the number of aliens.
+Santa wants to distribute the numbers among the aliens in such a way that the sum of numbers given to the aliens is minimum.
+Input:
+
+First-line will contain NN, the number of aliens that come on earth.
+
+Output:
+
+Print the required NN numbers in a line separated by spaces in increasing order.
+
+Constraints
+
+2≤N≤5∗105
+
+Sample Input:
+3
+
+Sample Output:
+3 6 9
+
+EXPLANATION:
+For N=3, the required 3 Numbers are {3,6,9}. and the sum is 18 which is minimum, and the gcd(3,6), gcd(6,9), gcd(3,9) are equal to 3.
+
+
+
+Author:
+5★adikr_singh
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHRIST
+
+
+Tags:
+
+               
+                 adikr_singh, easy, inro2021, math, number-theory
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+12-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,106 @@
+
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Not everyone probably knows that Chef has younder brother Jeff. Currently Jeff learns to read.
+He knows some subset of the letter of Latin alphabet. In order to help Jeff to study, Chef gave him a book with the text consisting of N words. Jeff can read a word iff it consists only of the letters he knows.
+Now Chef is curious about which words his brother will be able to read, and which are not. Please help him!
+Input
+The first line of the input contains a lowercase Latin letter string S, consisting of the letters Jeff can read. Every letter will appear in S no more than once.
+The second line of the input contains an integer N denoting the number of words in the book.
+Each of the following N lines contains a single lowecase Latin letter string Wi, denoting the ith word in the book.
+Output
+For each of the words, output "Yes" (without quotes) in case Jeff can read it, and "No" (without quotes) otherwise.
+Constraints
+1 ≤ |S| ≤ 26
+1 ≤ N ≤ 1000
+1 ≤ |Wi| ≤ 12
+Each letter will appear in S no more than once.
+S, Wi consist only of lowercase Latin letters.
+Subtasks
+Subtask #1 (31 point): |S| = 1, i.e. Jeff knows only one letter.
+Subtask #2 (69 point)	: no additional constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+act
+2
+cat
+dog
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Yes
+No
+
+
+Explanation
+The first word can be read.
+The second word contains the letters d, o and g that aren't known by Jeff.
+
+
+
+Author:
+sergey_adm
+
+
+Tester:
+4★harshil7924
+
+
+Editorial:
+https://discuss.codechef.com/problems/ALPHABET
+
+
+Tags:
+
+               
+                 String, Brute Force, Implementation
+                 
+                     
+                     Data Structures, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1123
+
+
+Date Added:
+6-08-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

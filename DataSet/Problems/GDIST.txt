@@ -1,0 +1,94 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+You are given a context free grammar GG and a string SS. Find the minimum Levenshtein distance between SS and any string W accepted by G.
+Input
+
+The first line of the input contains two space-separated integers V and R denoting the number of non-terminals and the number of productions of G respectively.
+The following R lines describe productions.
+Each line starts with an integer T denoting the production type.
+If T=0, a space and three space-separated integers X, Y and Z denoting a production X→YZ follow.
+If T=1, a space, an integer X, another space and a character c denoting a production X→c follow.
+If T=2, a space and a single integer X denoting a production X→ε follows.
+The next line contains a single integer ST denoting the starting symbol of G.
+Last line contains the string S as explained in statement.
+
+Output
+Print a single line containing one integer — the minimum distance. It is guaranteed that the minimum distance fits in a 64-bit signed integer.
+Constraints
+
+1≤V≤60
+1≤|S|≤60
+1≤R≤256 
+0≤X,Y,Z≤V−1
+c is an English letter or a decimal digit
+S consist of english letters or decimal digit or both.
+
+Example Input
+5 7
+0 0 1 2
+0 0 3 4
+2 0
+1 1 a
+1 3 b
+0 4 0 3
+0 2 0 1
+0 
+ababb
+
+Example Output
+2
+
+Explanation
+The grammar recognizes all even-length palindromes over the alphabet {a,b}. We can transform the given string into "abaaba" with one insertion and one substitution. 
+
+
+
+Author:
+7★bciobanu
+
+
+Editorial:
+https://discuss.codechef.com/problems/GDIST
+
+
+Tags:
+
+               
+                 Cyk Algorithm, Levenshtein Distance
+                 
+                     
+                     Mathematics, Formal Language, Context Free Grammar, Algorithms, Dynamic Programming, DP on sequences
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+16-09-2018
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

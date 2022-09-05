@@ -1,0 +1,141 @@
+
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+There are two types of vaccines available: Covaxin and Covishield.
+A black marketeer has XX coins and wants to buy as many vaccines as possible. Due to the black marketing concerns, government has enforced the following policy:
+
+ithith dose of Covaxin costs a+(i−1)⋅ba+(i−1)⋅b coins for every i≥1. 
+ith dose of Covishield costs c+(i−1)⋅d coins for every i≥1.
+
+The values of the four parameters a,b,c and d, however isn't constant and might vary from query to query. In general the value of these four parameters for ith query will be Ai,Bi,Ci and Di respectively. 
+Let ansi be the maximum total quantity of vaccines the black marketeer can buy corresponding to the ith query. For each query, you have to find the value of ansi. 
+You will be given integers A1,B1,C1,D1,P,Q,R,S,T and M which will define the queries to be followed. 
+For i≥1 and i≤I−1:
+
+Ai+1=(Ai+ansi⋅T)modM+P
+Bi+1=(Bi+ansi⋅T)modM+Q 
+Ci+1=(Ci+ansi⋅T)modM+R 
+Di+1=(Di+ansi⋅T)modM+S .
+
+Note: Since the output is large, prefer using fast input-output methods.
+Input Format
+
+First line contains of input contains an integer I denoting the number of queries.
+Second line of input contains five integers X,A1,B1,C1,D1.
+Third line of input contains six integers P,Q,R,S,T,M.
+
+Output Format
+For each query output the maximum quantity of vaccines the black marketeer can buy.
+Constraints
+
+1≤I≤5⋅105
+1≤X,A1,B1,C1,D1≤1018
+1≤P,Q,R,S,M≤1018
+1≤T≤109
+
+Subtasks
+Subtask #1 (10 points): 
+
+1≤I≤103
+1≤X≤109
+Time limit: 1 sec 
+
+Subtask #2 (30 points): 
+
+1≤I≤103
+1≤X≤1015
+109≤A1≤1018
+109≤B1≤1018
+109≤P≤1018
+109≤Q≤1018
+Time limit: 1 sec 
+
+Subtask #3 (60 points): 
+
+Original constraints
+Time limit: 3 sec 
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+20 2 3 4 1
+3 7 8 4 11 20
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+1
+2
+
+
+Explanation
+Test case 1: 
+
+For the first query, [a,b,c,d]=[A1,B1,C1,D1]=[2,3,4,1]. It is optimal to buy 2 doses of Covaxin (2+5=7) and 2 doses of Covishield (4+5=9). So the total money spent is 7+9=16 and now the black marketeer cannot buy any more doses. So the answer is 4.
+For the second query, [a,b,c,d]=[A2,B2,C2,D2]=[(2+11⋅4)mod20+3,(3+11⋅4)mod20+7,(4+11⋅4)mod20+8,(1+11⋅4)mod20+4]=[9,14,16,9]. 
+For the third and the last query, [a,b,c,d]=[A3,B3,C3,D3]=[3,12,15,4].
+
+
+
+
+Author:
+utkarsh_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/COVAXIN
+
+
+Tags:
+
+               
+                 AP, Binary Search
+                 
+                     
+                     Mathematics, Sequences and Progression, Algorithms, Searching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2899
+
+
+Date Added:
+31-08-2021
+
+
+Time Limit:
+1 - 3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

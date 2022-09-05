@@ -1,0 +1,121 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Having already mastered cooking, Chef has now decided to learn how to play the guitar. Often while trying to play a song, Chef has to skip several strings to reach the string he has to pluck. Eg. he may have to pluck the 1st1st string and then the 6th6th string. This is easy in guitars with only 66 strings; However, Chef is playing a guitar with 106106 strings. In order to simplify his task, Chef wants you to write a program that will tell him the total number of strings he has to skip while playing his favourite song.
+
+This is how guitar strings are numbered (In ascending order from right to left). Eg. to switch from string 11 to 66, Chef would have to skip 44 strings (2,3,4,5)(2,3,4,5). 
+Input:
+
+First line will contain TT, number of testcases. Then the testcases follow. 
+The first line of each test case contains NN, the number of times Chef has to pluck a string
+The second line of each test case contains NN space separated integers - S1S1, S2S2, …, SNSN, where SiSi is the number of the ithith string Chef has to pluck.
+
+Output:
+For each testcase, output the total number of strings Chef has to skip over while playing his favourite song. 
+Constraints
+
+1≤T≤101≤T≤10
+2≤N≤105
+1≤Si≤106
+For each valid i, Si≠Si+1
+
+Subtasks
+
+30 points : for each valid i, Si<Si+1
+70 points : No additional constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+6
+1 6 11 6 10 11
+4
+1 3 5 7
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+15
+3
+
+
+Explanation
+Test Case 1 
+
+Chef skips 4 strings (2,3,4,5) to move from 1 to 6 
+Chef skips 4 strings (7,8,9,10) to move from 6 to 11 
+Chef skips 4 strings (10,9,8,7) to move from 11 to 6 
+Chef skips 3 strings (7,8,9) to move from 6 to 10 
+Chef skips 0 strings to move from 10 to 11 
+
+Therefore, the answer is 4+4+4+3+0=15 
+Test Case 2 
+
+Chef skips 1 string to move from 1 to 3 
+Chef skips 1 string to move from 3 to 5 
+Chef skips 1 string to move from 5 to 7 
+
+Therefore, the answer is 1+1+1=3
+
+
+
+Author:
+2★aryanag_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHEFSTR1
+
+
+Tags:
+
+               
+                 Implementation
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1094
+
+
+Date Added:
+3-07-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,113 @@
+
+Read problems statements Mandarin , Bengali , Hindi , Russian and Vietnamese as well.
+You are given a sequence of positive integers a1,a2,…,aN. You may change up to two elements of this sequence, each of them to any positive integer (not necessarily the same for two elements). Let's denote the resulting sequence by b1,b2,…,bN.
+Consider all 2N subsequences of b1,b2,…,bN. For each subsequence, compute the sum of its elements (0 for the empty subsequence). Let's denote the set of these sums by S; note that a set contains each integer at most once. Finally, NOSS is the size of set S. For example, if [b1,b2,b3]=[17,23,40], then S={0,17,23,40,57,63,80} and NOSS is 7.
+Find the maximum possible NOSS.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers a1,a2,…,aN.
+
+Output
+For each test case, print a single line containing one integer — the maximum possible NOSS.
+Constraints
+
+1≤T≤3
+2≤N≤10,000
+1≤ai≤10,000 for each valid i
+1≤∑Ni=1ai≤10,000
+
+Subtasks
+Subtask #1 (20 points):
+
+1≤∑Ni=1ai≤100
+
+Subtask #2 (20 points):
+
+1≤∑Ni=1ai≤1000
+
+Subtask #3 (60 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+5 
+1 2 3 4 5
+6
+1 1 1 1 1 1
+3
+1 5 7
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+32
+20
+8
+
+
+Explanation
+Example case 1: One possible way is to change 3 to 10 and 5 to 20. Then S={0…7,10…17,20…27,30…37} (a…b denotes all integer from a to b inclusive) and NOSS is 32.
+Example case 2: One possible way is to change one element of the initial sequence from 1 to 10 and another from 1 to 20.
+Example case 3: The optimal NOSS is achieved even if nothing is changed.
+
+
+
+Author:
+6★arpa
+
+
+Editorial:
+https://discuss.codechef.com/problems/NOSS
+
+
+Tags:
+
+               
+                 arpa, dynamic-programming, knapsack, ltime67
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2677
+
+
+Date Added:
+25-12-2018
+
+
+Time Limit:
+4 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

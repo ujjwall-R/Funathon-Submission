@@ -1,0 +1,106 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+There were N students (numbered 1 through N) participating in the Indian Programming Camp (IPC) and they watched a total of K lectures (numbered 1 through K). For each student i and each lecture j, the i-th student watched the j-th lecture for Ti,j minutes.
+Additionally, for each student i, we know that this student asked the question, "What is the criteria for getting a certificate?" Qi times.
+The criteria for getting a certificate is that a student must have watched at least M minutes of lectures in total and they must have asked the question no more than 10 times.
+Find out how many participants are eligible for a certificate.
+Input
+
+The first line of the input contains three space-separated integers N, M and K.
+N lines follow. For each valid i, the i-th of these lines contains K+1 space-separated integers Ti,1,Ti,2,…,Ti,K,Qi.
+
+Output
+Print a single line containing one integer — the number of participants eligible for a certificate. 
+Constraints
+
+1≤N,K≤1,000
+1≤M≤106
+1≤Qi≤106 for each valid i
+1≤Ti,j≤1,000 for each valid i and j
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4 8 4
+1 2 1 2 5
+3 5 1 3 4
+1 2 4 5 11
+1 1 1 3 12
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+
+
+Explanation
+
+Participant 1 watched 1+2+1+2=6 minutes of lectures and asked the question 5 times. Since 6<M, this participant does not receive a certificate.
+Participant 2 watched 3+5+1+3=12 minutes of lectures and asked the question 4 times. Since 12≥M and 4≤10, this participant receives a certificate.
+Participant 3 watched 1+2+4+5=12 minutes of lectures and asked the question 11 times. Since 12≥M but 11>10, this participant does not receive a certificate.
+Participant 4 watched 1+1+1+3=6 minutes of lectures and asked the question 12 times. Since 6<M and 12>10, this participant does not receive a certificate.
+
+Only participant 2 receives a certificate.
+
+
+
+Author:
+2★aryanag_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/IPCCERT
+
+
+Tags:
+
+               
+                 Conditional Statements, Implementation
+                 
+                     
+                     Basic Programming Concepts, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+922
+
+
+Date Added:
+21-11-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

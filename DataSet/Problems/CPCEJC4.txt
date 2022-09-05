@@ -1,0 +1,70 @@
+
+Chef and Chefina are best friends. Chefina wants to test the Problem Solving skills of chef so she provides Chef 2 integer number  X and Y
+The task of chef is to take the  two numbers X and Y and return their SUM.
+Identify whether Chef can solve the problem or not? 
+Input:
+
+First line will contain the two integers X and Y.
+
+Output:
+For each testcase, output in a single line the SUM of these two numbers X and Y.
+Constraints
+
+1≤X≤100
+1≤Y≤100
+
+Sample Input:
+6 70
+
+Sample Output:
+76
+
+
+
+
+Author:
+3★manish_motwani
+
+
+Editorial:
+https://discuss.codechef.com/problems/CPCEJC4
+
+
+Tags:
+
+               
+                 basic-arithmatic, cakewalk, manish_motwani, sptc2020
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+30-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

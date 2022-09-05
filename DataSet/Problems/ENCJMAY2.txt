@@ -1,0 +1,81 @@
+
+Chef loves programming and he likes to face challenges.So his friend assigned him with a problem.
+Chef is provided with an array of integers of size N.He needs to perform a certain set of  operations,and in each operation chef can remove one element from array until all the elements in the array are equal.And he needs to solve the above problem in minimum number of operations.
+For example if array is[5,6,6],he can remove 5 and make the array elements equal.He can also remove both 6 ,but that would take 2 operations. So minimum number of operations required here is 1.
+Since Chef is busy,he wants you to solve on his behalf.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+The first line of each testcase contain a single integer N.
+The next line contain N space-seperated integer.
+
+Output:
+For each testcase,output the minimum  number of operation required.
+Constraints
+
+1≤T≤100
+1≤N≤1000
+0≤array[i]≤1000
+
+Sample Input:
+2
+5
+1 2 2 3 3
+3
+7 3 4
+
+Sample Output:
+3
+
+2
+Explanation
+-In case 2: He can remove any of the two elements from array to reach his goal.So minimum operation required here is 2.
+
+
+
+Author:
+4★abhi_jeet007
+
+
+Editorial:
+https://discuss.codechef.com/problems/ENCJMAY2
+
+
+Tags:
+
+               
+                 abhi_jeet007, cakewalk, enjm2020
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+4-05-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,88 @@
+
+ 
+Problem description.
+ Dexter has made a robot named Hexabot. Hexabot moves in a series of one-sixth circular arcs (60°).
+
+
+(This image is for Pentabot, arcs of 72 degrees. See explanation for more details)
+
+
+At any point it can either move in a clockwise or an anticlockwise direction, but it cannot turn on the spot. It is allowed to cross its path and it is allowed to traverse an arc more than once (i.e. retrace a part of its walk). In how many ways can the robot return to its starting point in exactly n moves?
+Input
+
+The first line of the input contains an integer T denoting the number of test cases. Then T test cases follows
+Each line of a test case has an integer n.
+
+ 
+Output
+
+For each test case, output a single line containing the number of ways in which Hexabot can return to its starting point in exactly n moves".
+
+ 
+Constraints
+
+1 ≤ T ≤ 100
+1 ≤ n ≤ 70
+
+ 
+Example
+Input:
+1
+7
+Output:
+2
+
+ 
+Explanation
+
+
+
+
+
+
+Author:
+2★f2012086
+
+
+Editorial:
+https://discuss.codechef.com/problems/ICLFIN06
+
+
+Tags:
+
+               
+                 dynamic-programming, f2012086, graphs, hard, icl2015
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+26-03-2015
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+JAVA, C, CPP14, PYP3
+
+
+
+
+
+Submit
+

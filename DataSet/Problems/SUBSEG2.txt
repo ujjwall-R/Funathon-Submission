@@ -1,0 +1,93 @@
+
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chefland has a very famous university. The university offers N courses. Each course runs for some consecutive range of days. You are given starting and ending days of the ith course by starti and endi, respectively. 
+Our Chef wanted to enroll himself in the university. But he is not sure about the exact time period for which he wants to study. Though he has Q such tentative plans in his mind. Each plan consists of a start date plan_startj and an end date plan_endj. 
+Chef wants your help in finding out the maximum number of courses he can complete during each of his plans. Note that at a time, Chef can not handle multiple courses, i.e. he can attend at most one course during a day. Also, a course will be considered completed only if Chef attends all the classes of the course.
+Input
+There is a single test case.
+The first line of the input contains two space separated integers N and Q denoting the number of courses university offers and the number of plans Chef has in mind, respectively. 
+The ith of the next N lines  contains two space separated integers starti and endi denoting the starting and the ending day of the ith course.
+The jth of the next Q lines  contains two space separated integers plan_startj and plan_endj, denoting the start and the end day of Chef's plan.
+Output
+Output Q lines - each containing an integer corresponding to the maximum number of the courses Chef can complete in the corresponding planned visit.
+Constraints
+
+1 ≤ N, Q ≤ 105
+1 ≤ starti ≤ endi ≤ 106
+1 ≤ plan_startj ≤ plan_endj ≤ 106
+
+Example
+Input:
+3 3
+1 3
+5 6
+2 4
+1 6
+1 3
+2 3
+
+Output:
+2
+1
+0
+
+Explanation
+Plan #1. Chef stays on the campus from the first day till the sixth day. During this time, he can complete maximum two courses. He can complete either the 1st and the 2nd or the 2nd and the 3rd courses..
+Plan #2. Chef can complete no more than one course and this course can be only the first one.
+Plan #3. Chef stays for quite a small duration in this plan. He can't complete any course during this visit.
+
+
+
+Author:
+sergey_adm
+
+
+Tester:
+
+
+
+Editorial:
+https://discuss.codechef.com/problems/SUBSEG2
+
+
+Tags:
+
+               
+                 Jump Pointers, Activity Selection, Sorting, Binary Search
+                 
+                     
+                     Advanced Algorithms, Pre processing, Algorithms, Greedy, Searching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+3-06-2016
+
+
+Time Limit:
+0.75 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,78 @@
+
+Its Neha's best friends birthday. Her best friend is very fond of collecting stones. She wants to give her N stones of different types. So she asked her another friend to go and ask the rates of each stone in M different shops. Now, Neha wants to spend the minimum amount to purchase all the stones. 
+ So, She asked for your help to find the minimum cost that she need to spend to purchase all the stones.
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space seperated integers N and M denoting the number of stones Neha wants to purchase and the number of shops.
+Next N lines contain M space-separated integers A1, A2, ..., AM denoting the price of stones. Where Aj in the ith line denotes the price of ith stone in jth shop.  
+Output
+For each test case, output a single line containing the minimum cost she need to spend to purchase all the stones.
+ 
+Constraints
+
+1 ≤ T ≤ 10
+1 ≤ N,M ≤ 50
+1 ≤ Aj ≤ 100
+
+ 
+Example
+Input:
+1
+4 3
+1 2 3
+2 4 7
+8 5 1
+2 8 6 
+Output:
+6
+
+ 
+
+
+
+Author:
+2★hsagarthegr8
+
+
+Editorial:
+https://discuss.codechef.com/problems/BITMASK1
+
+
+Tags:
+
+               
+                 bitm2017, cakewalk, hsagarthegr8
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+28-04-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,95 @@
+
+Vamshi would like to code to get the longest common text from the initial position of every classmate's first name.
+Help Vamshi to code it.
+Input Format
+
+First line will contain T, number of students. 
+Each newline contains  of a single line of, input the first name the student.
+
+Output Format
+output in a single line the longest common text as described.
+ print null if there is no such text.
+Constraints
+
+1≤T≤100
+2≤stringlength≤102
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+Arunvesh
+Arunneesh
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Arun
+
+
+Explanation
+Arun is the longest text as per problem statement.
+
+
+
+Author:
+2★charann
+
+
+Tester:
+1★abhim4
+
+
+Editorial:
+https://discuss.codechef.com/problems/CLASSMATES
+
+
+Tags:
+
+               
+                 charann, simple, string-matching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+26-02-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

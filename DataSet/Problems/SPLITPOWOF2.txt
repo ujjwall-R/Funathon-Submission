@@ -1,0 +1,113 @@
+
+Suppose that you have several powers of two, specifically, you have Ai numbers equal to 2i for each 1≤i≤N. You want to divide all of these numbers into two groups with equal sum. However, it's not always possible.
+To make it possible, in one operation you are allowed to choose any 1≤i≤N and receive an extra number 2i (in other words, you can increase any Ai by 1). Let's define f(A1,A2,…,AN) as the smallest number of operations that you need to make to be able to split the numbers into two groups with equal sums.
+You are given N integers B1,B2,…,BN. Find the sum of f(A1,A2,…,AN) over all tuples (A1,A2,…,AN) with 0≤Ai≤Bi (there are (B1+1)(B2+1)…(BN+1) of them). As this number may be very large, output it modulo 998244353.
+Input Format
+
+The first line of the input contains a single integer T, the number of test cases. The description of the test cases follows.
+The first line of each test case contains a single integer N − the number of integers.
+The second line of each test case contains N space-separated integers B1,B2,…,BN.
+
+Output Format
+For each test case, output the answer modulo 998244353 on a new line.
+Constraints
+
+1≤T≤1000
+1≤N≤5000
+0≤Bi≤5000
+The sum of N over all test cases doesn't exceed 5000.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+3
+0 1 0
+3
+2 0 1
+2
+2 2
+6
+5000 5000 5000 5000 5000 5000
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+5
+4
+810915502
+
+
+Explanation
+Test case 1: There are 2 tuples: (0,0,0) and (0,1,0). We have f(0,0,0)=0 (there are no numbers, so divide them into two empty sets), and f(0,1,0)=1 (we have one number, namely 21=2. Use one operation to receive a second copy of 21 and then place these copies in different sets). The answer is thus 0+1=1
+Test case 2: There are 6 tuples, with their function values as follows:
+
+f(0,0,0)=0
+f(0,0,1)=1 (receive 22)
+f(1,0,0)=1 (receive 20)
+f(1,0,1)=2 (receive 20 and 21, then split as {20,20,21} and {22}, both with sum 4)
+f(2,0,0)=0
+f(2,0,1)=1 (receive 22)
+
+Add all these up to get 5, which is the output.
+
+
+
+Author:
+trygub_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/SPLITPOWOF2
+
+
+Tags:
+
+               
+                 cook141, dynamic-programming, greedy, trygub_adm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2709
+
+
+Date Added:
+26-04-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,96 @@
+
+Kaneki and Touka love to play a game. The rules of the game are very simple. The players have 
+​n​n cards in a row. Each card contains a number that is not necessarily distinct. The players take turns, Kaneki moves first. During his turn, a player can take a single card: either the leftmost card in a row or the rightmost one. The game ends when there are no more cards. The player who has the maximum sum of numbers on his cards by the end of the game wins. If both are having the same score by the end tie will be there, but Kaneki loves Touka so Touka will be declared as the winner.
+Both players will play the game optimally.
+Saitama is a friend of Kaneki and Touka. He knows which strategy the guys are using, so he wants to determine the final score, given the initial state of the game. Help him.
+Input:
+
+First-line will contain T, the number of test cases. Then the test cases follow. 
+First line of the test case contains integer​ n, no of cards on the table
+The second line of each test case contains n space-separated  integers ai, denoting the number on the cards from left to right 
+
+Output:
+For each test case, output the name of the winner “Kaneki” if Kaneki is winner “Touka” if Touka is the winner without quotes on newline.
+Constraints
+
+1≤T≤100
+1≤n≤103
+1≤ai≤106
+
+Sample Input:
+3
+7
+1 2 3 4 5 6 7
+5
+1 40 3 100 1
+4
+4 1 2 10
+
+Sample Output:
+Kaneki
+Touka
+Kaneki
+
+EXPLANATION:
+Here in test case  1  
+Kaneki will choose rightmost element 7 then remaining elements  are [1,2,3,4,5,6]
+Touka will choose  rightmost element 6 and so on this process will take place and the final score of kaneki will be 16 and Touka’s score will be 12.
+Hence Kaneki is the winner.
+In test case 2            
+In this if case Kaneki chooses the leftmost element 1, now remaining elements are 
+[40,3,100,1] . 
+Now Touka will choose the leftmost element i.e. 40 
+remaining will be [3,100,1].
+Now Kaneki will choose leftmost then i.e. 3 remaining elements are [100,1] 
+Now Touka will choose 100 
+Finally, Kaneki’s score is 5 and Touka’s score is 140 there is a clear win for Touka.
+Hence Touka is the winner.
+
+
+
+Author:
+5★kaneki99
+
+
+Editorial:
+https://discuss.codechef.com/problems/PTEST
+
+
+Tags:
+
+               
+                 c-plus-plus, cnst2020, dynamic-programming, kaneki99
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-10-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

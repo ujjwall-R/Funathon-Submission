@@ -1,0 +1,109 @@
+
+Chef has two strings AA and BB consisting of lowercase alphabets, each of length NN. Help Chef in finding the number of indices i (1≤i≤N) such that A[i…N]<B[i…N].
+
+S[i…N] denotes the suffix of string S starting at index i, i.e. SiSi+1 … SN. 
+String S< String T denotes that S is lexicographically smaller than T. If two strings S and T have the same length N, we say that S is lexicographically smaller than T if there exists an index i(1≤i≤N) such that S1=T1, S2=T2,…,Si−1=Ti−1 and Si<Ti. For example, "abc" is lexicographically smaller than "acd", "abe", but not smaller than "abc", "aac".
+
+Input Format
+
+The first line contains T denoting the number of test cases. Then the test cases follow.
+The first line of each test case contains N, denoting the length of the strings A and B.
+The second line of each test case contains the string A.
+The third line of each test case contains the string B.
+
+Output Format
+For each test case, print a single line containing one integer -  the number of indices i such that A[i…N]<B[i…N].
+Constraints
+
+1≤T≤105
+1≤N≤106
+The sum of N over all test cases does not exceed 106
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+2
+ab
+bb
+3
+aaa
+aab
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+3
+
+
+Explanation
+Test Case 1: 
+
+For i=1, A[1…2]= "ab", B[1…2]= "bb" and lexicographically, "ab" < "bb".
+For i=2, A[2…2]= "b", B[2…2]= "b" and lexicographically, "b" = "b".
+
+Test Case 2: For each i∈{1,2,3}, A[i…3]<B[i…3].
+
+
+
+Author:
+5★mananbordia
+
+
+Editorial:
+https://discuss.codechef.com/problems/STRCOMPARE
+
+
+Tags:
+
+               
+                 String, ad-hoc
+                 
+                     
+                     Data Structures, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1756
+
+
+Date Added:
+20-11-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

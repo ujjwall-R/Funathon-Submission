@@ -1,0 +1,80 @@
+
+As the name of our college "Government College of Engineering & Textile Technology Berhampore" is too long, many students usually misspell the name.
+Hence our college has decided to reject any application, if more than 50% characters of any word is wrong.
+You need to calculate if a application will be accepted or rejected.
+Note : It is guaranteed that each word in input consists of equal no. of characters as college name. Also, They are not case sensitive.
+Input:
+
+First line contains TT no. of test cases
+for every test case, a line containing the name written in the application.  
+
+Output:
+For every test case print acceptaccept  or rejectreject in new line
+Constraints
+
+1≤T≤50
+
+Sample Input:
+3
+government college of engineering & textile technology berhampore
+Government collage of Enjineering & taxtile tachnology berhampure
+government college of engineering & textile technology Baharampor
+
+Sample Output:
+accept
+accept
+reject
+
+EXPLANATION:
+First case, every word are same so accepted.
+Second case, in 2nd word 1 out of 7 characters mismatch. Hence passed. Again, in 4th, 6th and 7th, 8th word 1,1,1,2 out of 11, 8, 10,10 mismatched ( < 50% ). Hence accepted
+In third case, 9 character mismatch from berhampore ( total 10 chars ). So, more than 50% mismatch ( 9 >5 ) hence reject
+
+
+
+Author:
+4★babangain
+
+
+Editorial:
+https://discuss.codechef.com/problems/GCTNM
+
+
+Tags:
+
+               
+                 babangain, biba2018, easy, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+25-08-2018
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

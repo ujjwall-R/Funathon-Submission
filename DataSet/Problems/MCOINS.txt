@@ -1,0 +1,98 @@
+
+Motu has K boxes and every box is empty at time t = 0. Now Patlu gave him coins at some T instants of time (1,2,3...T) and asked him to put one coin in each box from box L to R. Patlu make a record of the data and also asked Motu to do the same. Now he asked Motu some queries and asked him to tell the number of coins present in a box X from time t1 to time t2 i.e. number of additional coins that are added to the box X from [t1,t2) .
+Input:
+
+First line of the input contains two integer, T and Q 
+Next T lines contains two integers L , R, where coins are put from box L to box R.
+Next Q lines contains three integers t1 , t2 , X 
+
+Output:
+For each query , output in a single line answer, the number of coins present in a box X from time instant t1 to t2. i.e [t1,t2).
+Constraints
+
+1≤T≤105
+2≤Q≤105
+1≤K≤109
+1≤t1<t2≤T
+1≤X≤K
+1≤L≤R≤K 
+
+Sample Input:
+ 4 3
+ 1 3
+ 3 5
+ 1 5
+ 1 2
+ 2 4 4
+ 1 2 3
+ 1 4 1
+
+Sample Output:
+ 2
+ 1
+ 2
+
+EXPLANATION:
+
+Query 1: In time 2 to 4, additional  2 coins are added to box 4.
+At instant 2 : 1 coin is added in box 4.
+At instant 3 : 1 coin is added in box 4.
+So answer is 2.
+Query 2: In time 1 to 2, additional  1 coin is added to box 3
+ At instant 1:  1 coin is added in box 3.
+ So answer is 1.
+Query 3: In time 1 to 4, additional 2 coins are added to box 1
+ At instant 1: 1 coin is added in box 1. 
+ At instant 2: no coin is added in box 1. 
+ At instant 3: 1 coin is added in box 1. 
+ So answer is 2.
+
+
+
+
+Author:
+3★nitika_789
+
+
+Editorial:
+https://discuss.codechef.com/problems/MCOINS
+
+
+Tags:
+
+               
+                 medium-hard, nitika_789, segment-tree, smtc2020, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-04-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

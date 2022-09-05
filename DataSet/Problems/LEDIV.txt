@@ -1,0 +1,116 @@
+
+
+The Little Elephant from the Zoo of Lviv has an array A that consists of N positive integers. Let A[i] be the i-th number in this array (i = 1, 2, ..., N).
+
+
+Find the minimal number x > 1 such that x is a divisor of all integers from array A. More formally, this x should satisfy the following relations:
+
+
+A[1] mod x = 0, A[2] mod x = 0, ..., A[N] mod x = 0,
+
+
+where mod stands for the modulo operation. For example,  8 mod 3 = 2,  2 mod 2 = 0, 100 mod 5 = 0 and so on. If such number does not exist, output -1.
+
+Input
+
+The first line of the input contains a single integer T, the number of test cases. T test cases follow. The first line of each test case contains a single integer N, the size of the array A for the corresponding test case. The second line contains N space separated integers A[1], A[2], ..., A[N].
+
+Output
+
+For each test case output a single line containing the answer for the corresponding test case.
+
+Constraints
+
+1 ≤ T ≤ 1000001 ≤ N ≤ 100000
+The sum of values of N in each test file does not exceed 1000001 ≤ A[i] ≤ 100000
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+3
+2 4 8
+3
+4 7 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+-1
+
+
+Explanation
+
+Case 1. Clearly 2 is a divisor of each of the numbers 2, 4 and 8. Since 2 is the least number greater than 1 then it is the answer.
+
+
+Case 2. Let's perform check for several first values of x.
+
+
+x 4 mod x 7 mod x 5 mod x 2 0 1 1 3 1 1 2 4 0 3 1 5 4 2 0 6 4 1 5 7 4 0 5 8 4 7 5 9 4 7 5 
+As we see each number up to 9 does not divide all of the numbers in the array. Clearly all larger numbers also will fail to do this. So there is no such number x > 1 and the answer is -1.
+
+
+
+
+Author:
+2★witaliy_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/LEDIV
+
+
+Tags:
+
+               
+                 GCD, Prime Divisors
+                 
+                     
+                     Mathematics, Number Theory, Integer Factorisation, Divisors
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1716
+
+
+Date Added:
+20-10-2012
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

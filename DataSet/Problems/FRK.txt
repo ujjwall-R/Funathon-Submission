@@ -1,0 +1,112 @@
+
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+
+Chef decided to find the connections with all of his friends in an unnamed social network. He calls a user of the social network his friend if there is a common substring of the string "chef" and the nickname of that user with length ≥ 2.
+
+
+Given a list of users of the social network, compute the number of Chef's friends.
+
+Input
+
+The first line of the input contains a single integer N denoting the number of users in the social network.
+N lines follow. Each of these lines contains a single string u denoting the nickname of one user.
+
+Output
+Print a single line containing one integer — the number of Chef's friends.
+Constraints
+
+1 ≤ N ≤ 5,000
+3 ≤ |u| ≤ 20
+each character of each user's nickname is either a lowercase English letter ('a'-'z') or '.'
+the first character of each user's nickname is a lowercase English letter
+
+Subtasks
+
+Subtask #1 (100 points): original constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+gennady.korotkevich
+kefaa
+fhlasek
+chemthan
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+
+
+Explanation
+
+gennady.korotkevich is a friend to Chef because he has "ch" at the end of his nickname, which is also a substring of "chef" with length 2
+the common substring with kefaa is "ef" and the common substring with chemthan is "che"
+
+
+
+Author:
+6★mgch
+
+
+Tester:
+7★lg5293
+
+
+Editorial:
+https://discuss.codechef.com/problems/FRK
+
+
+Tags:
+
+               
+                 String, Brute Force
+                 
+                     
+                     Data Structures, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+27-03-2018
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,118 @@
+
+Alice recently converted all the positive integers from 1 to 2N−1 (both inclusive) into binary strings and stored them in an array S.  Note that the binary strings do not have leading zeroes.
+While she was out, Bob sorted all the elements of S in lexicographical increasing order.
+Let Si denotes the ith string in the sorted array.
+Alice defined a function F such that F(Si) is equal to the count of 1 in the string Si.
+For example, F(101)=2 and F(1000)=1.
+Given a positive integer K, find the value of ∑Ki=1F(Si). 
+String P is lexicographically smaller than string Q if one of the following satisfies:
+
+P is a prefix of Q and P≠Q.
+There exists an index i such that Pi<Qi and for all j<i,  Pj=Qj.
+
+Input Format
+
+The first line will contain an integer T - number of test cases. Then the test cases follow.
+The first and only line of each test case contains two integers N and K.
+
+Output Format
+For each test case, output the value ∑Ki=1F(Si). 
+Constraints
+
+1≤T≤3000
+1≤N≤50
+1≤K≤2N−1
+Sum of N over all test cases does not exceed 105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+3 2
+3 4
+3 7
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+5
+12
+
+
+Explanation
+Converting positive integers to Binary Strings:
+
+1=1
+2=10
+3=11
+4=100
+5=101
+6=110
+7=111
+
+Sorting Binary Strings in lexicographical order:
+After sorting, the strings will appear in the following order:
+[1,10,100,101,11,110,111].
+Test case 1: F(S1)+F(S2)=F(1)+F(10)=1+1=2.
+Test case 2: F(S1)+F(S2)+F(S3)+F(S4)=F(1)+F(10)+F(100)+F(101)=1+1+1+2=5.
+
+
+
+Author:
+lavish_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/COUNTONES
+
+
+Tags:
+
+               
+                 lavish_adm, march221, medium, recursion
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2529
+
+
+Date Added:
+9-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

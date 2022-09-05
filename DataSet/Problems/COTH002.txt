@@ -1,0 +1,75 @@
+
+ A child needs help to learn counting. As a professional software engineer, it should be your responsibility to help others through your software. You need to take input in digits and print the equivalent word representation for the number in American name.
+
+ 
+Input
+ First line denotes 'T' number of test cases
+It will be followed by 'T' lines containing a whole number
+Output
+ Print 'T' lines containing equivalent word representation of the specified number in American word with all in lowercase with delimiters as space
+Constraints
+
+1 ≤ T ≤  100 
+1 ≤ n ≤  10^18 
+
+ 
+Example
+Input:
+1
+555
+
+Output:
+five hundred fifty five
+
+ 
+Explanation
+Testcase 1The output is representation of 555 in American name.
+
+
+
+Author:
+3★shubham_003
+
+
+Editorial:
+https://discuss.codechef.com/problems/COTH002
+
+
+Tags:
+
+               
+                 coth2017, maths, medium, shubham_003, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+5-04-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

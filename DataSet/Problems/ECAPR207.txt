@@ -1,0 +1,80 @@
+
+Cobb wants to assess if Ariadne is good enough to be recruited into team Inception. He asks her to design a maze of tunnels so that any person that enters the maze from any of the entry points will take a minimum of k units of time to exit from any of the exit points. 
+Ariadne has created some mazes in the form of a connected undirected graph where each node of the graph represents a  point where two or more tunnels are connected to one another and the edges between the nodes represent the units of time taken to travel between those nodes. 
+However, Ariadne cannot figure out a way to find what will be the minimum time taken by a person to enter and come out of the maze given that he can only enter and exit the maze from specific entry and exit nodes. 
+Help Ariadne evaluate if her maze passes Cobb's criteria.
+Input:
+
+The first line of input contains 4 integers - NN which represents the number of nodes in the graph, KK which represents the minimum time a person will have to spend in the maze, E, the number of edges in the graph, A the number of entry and exit points in the graph.
+The second line of the input contains A space-separated integers that represent the nodes of the graph that can be used as an entry and exit points.
+next E lines contain 3 space-separated integers U, V and T representing that a tunnel runs from U to V and one takes T time to cross it. Conversely, it should take the same time to go from V to U.
+
+Note: Each of the A points can behave as both entry and exit. However, if a person chooses Ai as his entry point he cannot exit the maze from Ai.
+Output:
+if the minimum time taken by a person to go in and come out of the maze is more than or equal to K then print in a single line "PASS" else print "FAIL".
+Constraints
+
+2≤N,U,V≤1000
+1≤A≤102
+1≤E≤104
+1≤W≤100
+
+Sample Input:
+    4 6 3 3
+    1 3 4
+    1 2 4
+    2 3 3
+    2 4 4
+
+Sample Output:
+    PASS
+
+
+
+
+Author:
+4★arnie8991
+
+
+Editorial:
+https://discuss.codechef.com/problems/ECAPR207
+
+
+Tags:
+
+               
+                 arnie8991, dijkstra-algorithm, encd2020, graphs, medium
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+18-04-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

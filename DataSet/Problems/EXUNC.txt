@@ -1,0 +1,104 @@
+
+Given an array AA with NN positive integers - (A1,A2,…,AN).
+A partition of the array into subarrays refers to dividing the entire array into subarrays (ie. some continuous elements) such that each of the N elements is in exactly one subarray.
+We call a partition of the array into subarrays as Valid, if this condition holds true: For all i, if i and i+1 are in the same subarray then Ai+1 must be divisible by Ai.
+Now, among all such Valid partitions, we are interested in the partition with the minimum number of subarrays. It can be proved that there is a unique such partition. We will be interested only with this partition in the problem.
+We call Si the index of the subarray in which element i lies. 
+We now want to support some operations on the array. In particular, there are Q operations of the form - 
+
+1 i X - Change Ai to X 
+2 i - Given i , output the smallest j such that Si=Sj. That is, the leftmost index which belongs to the same subarray as the i-th element.
+
+Input:
+
+First line will contain N and Q denoting the size of A and number of operations respectively.
+The second line contains N values, the initial values of A.
+The next Q lines contain the operations as stated above.
+
+Output:
+
+The answer for each query of type 2 on a new line.
+
+Constraints
+
+1≤N≤106
+1≤Q≤2∗105
+1≤i≤N
+1≤Ai,X≤106
+
+Subtasks
+
+30 points :  Ai≠Ai+1 for 1≤i≤N−1. This holds throughout, even after updates.
+70 points : Original constraints
+
+Sample Input:
+5 5
+2 2 7 14 14
+1 1 3
+1 2 6
+2 2
+2 4
+2 5
+
+Sample Output:
+1
+3
+3
+
+Explanation:
+Initially, A=[2,2,7,14,14] and S=[1,1,2,2,2] ( A2 is divisible by A1, A3 is not divisible by A2, A4 is divisible by A3, A5 is divisible by A4 )
+After the first operation A=[3,2,7,14,14]  and S=[1,2,3,3,3]  (A1 is 3 now and A2modA1≠0 now)
+After the second operation A=[3,6,7,14,14] and S=[1,1,2,2,2]  (A2 is 6 now and A2 is divisible by A1 once again)
+For the queries, we can look at the Si value for the given index and find the smallest index with the same value. Note here that the exact value of Si is irrelevant. We just want the first element of the same chain. 
+
+
+
+Author:
+4★bharat2002
+
+
+Editorial:
+https://discuss.codechef.com/problems/EXUNC
+
+
+Tags:
+
+               
+                 Sets, Observation
+                 
+                     
+                     Data Structures, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2350
+
+
+Date Added:
+27-09-2019
+
+
+Time Limit:
+1.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

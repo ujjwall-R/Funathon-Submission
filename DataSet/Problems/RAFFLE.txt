@@ -1,0 +1,87 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Every year, chefs from around the world travel to the Chef Equipment Show to see all the new cooking gizmos and gadgets that will become available for purchase in the upcoming year. The event includes a giveaway called Chef Raffle where chefs can win some of this equipment as prizes.
+There are K chefs at the event and each of them is given a single raffle ticket. In the Chef Raffle, there are N available prizes (numbered 1 through N) and N corresponding prize boxes. During the event, each chef should choose one of the boxes and place the raffle ticket into it. These choices must be done independently, i.e. the chefs have no information about each other's exact choices. At the end of the event, from each prize box, one ticket is drawn uniformly randomly and the owner of that ticket wins the corresponding prize (if there are no tickets in that prize box, no one wins the corresponding prize).
+Head Chef is one of the chefs participating in the Raffle. He knows the exact values of all the prizes, so he wants to maximise the potential value of his raffle ticket. After some thinking, he realised that he needs a probabilistic strategy. Specifically, he wants to decide on some probabilities p1,p2,…,pN (such that pi≥0 for each valid i and p1+p2+…+pN=1); during the event, he will use this probability distribution to choose the box to place his raffle ticket into, i.e. for each valid i, the i-th prize box is chosen with probability pi. Knowing that great chefs think alike, Head Chef assumes that all other chefs will follow the exact same strategy, with the same probabilities (however, the boxes they choose may be different).
+At the end of the Raffle, let's define Head Chef's winnings as the value of the prize he won, or 0 if he did not win any prize (note that it is impossible to win more than one prize). The value of Head Chef's raffle ticket is the expected value of Head Chef's winnings. Determine the maximum possible value of Head Chef's raffle ticket, i.e. the value of the ticket when he decides the probabilities p1,p2,…,pN optimally.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+The second line contains N space-separated integers V1,V2,…,VN denoting the values of the prizes.
+
+Output
+For each test case, print a single line containing one real number — the maximum value of Head Chef's raffle ticket. Your answer will be considered correct if its absolute or relative error does not exceed 10−6.
+Constraints
+
+1≤T≤1,000
+1≤N≤105
+1≤K≤106
+1≤Vi≤109 for each valid i
+the sum of N over all test cases does not exceed 2⋅105
+
+Example Input
+2
+3 2
+10 15 18
+5 35
+21 18 24 26 21
+
+Example Output
+12.5
+3.1415926
+
+Explanation
+Example case 1: Head Chef should choose p1=0.1, p2=0.4 and p3=0.5. The probability that he wins the first prize is 0.095 (9.5%); for the second prize, it is 0.32 and for the third prize, 0.375. The resulting value of the ticket is 0.095⋅10+0.32⋅15+0.375⋅18=12.5.
+
+
+
+Author:
+david_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/RAFFLE
+
+
+Tags:
+
+               
+                 Probability, Lagrange Interpolation
+                 
+                     
+                     Mathematics, Calculus, Interpolation
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+28-01-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

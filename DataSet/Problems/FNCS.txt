@@ -1,0 +1,131 @@
+
+Read problems statements in Mandarin Chinese  and Russian.
+Chef has an array AA of NN numbers. He also has NN functions. The ith function will return the sum of all Aj where (Li≤j≤Ri).  You have to answer Q queries of two types:
+1 x y - Change the xth element of the array to y. 
+2 l r - Print the sum of all functions from l to r.
+Can you solve this problem?
+Input
+
+First line contains a single integer - N, the length of the array and the number of functions
+Next line contains N space separated integers, the ith of which is Ai
+The next N lines each contain two space separated integers, the ith line contains Li and Ri. 
+The next line contains a single integer Q
+The next Q lines contain queries in the format described aboce.
+
+Output
+For each query of type 2, output the answer on a separate line.
+Constraints
+
+1≤N,Q≤105
+1≤Ai≤109
+1≤Li≤R(i)≤N
+1≤x≤N
+1≤y≤109
+1≤l≤r≤N
+
+Subtasks
+Subtask 1: (10 points) 
+
+N≤1000
+Q≤1000
+
+Subtask 2: (10 points)
+
+Ri−Li≤10
+All x are distinct
+
+Subtask 3: (80 points)
+
+No additional constraints
+
+Example Input
+5
+1 2 3 4 5
+1 3
+2 5
+4 5
+3 5
+1 2
+4
+2 1 4
+1 3 7
+2 1 4
+2 3 5
+
+Example Output
+41
+53
+28
+
+Explanation
+Functions values initially :  
+
+F[1]=1+2+3=6
+F[2]=2+3+4+5=14
+F[3]=4+5=9
+F[4]=3+4+5=12
+F[5]=1+2=3
+
+Query 1:F[1]+F[2]+F[3]+F[4]=41
+After the update , the functions are :
+
+F[1] = 10
+F[2] = 18 
+F[3] = 9
+F[4] = 16
+F[5] = 3
+
+Query 3:F[1]+F[2]+F[3]+F[4]=53
+Query 4:F[3]+F[4]+F[5]=28
+
+
+
+Author:
+4★devuy11
+
+
+Editorial:
+https://discuss.codechef.com/problems/FNCS
+
+
+Tags:
+
+               
+                 Segment Trees, Fenwick Trees, Square Root Decomposition, Queries
+                 
+                     
+                     Advanced Data Structures, Advanced Tree Structures, Advanced Algorithms, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2549
+
+
+Date Added:
+6-10-2014
+
+
+Time Limit:
+2.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,84 @@
+
+ 
+Raman and Himanshu are good friends. One day, Himanshu gave him a problem.
+There are infinite number of buckets and N litres of water. These buckets have a unique property. The capacity of ith bucket is i litres i.e. the capacity of first bucket is 1 litre, the capacity of second bucket is 2 litres and so on. Also, the ith bucket can only be filled when all the buckets which have lesser capacity are totally filled i.e. second bucket cannot be filled before first bucket. 
+ Now Himanshu wants him to find the number of buckets which can be filled with n litres of water. 
+So, Raman is asking for your help. He wants you to write a program to find the solution of the given problem.
+The bucket will be considered filled if it has atleast 1 litre in it.
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+ Each test case contain a integer N denoting the amount of water in litres.
+ 
+Output
+For each test case, output a single integer which denotes the number of buckets which can be filled.
+Constraints
+Should contain all the constraints on the input data that you may have. Format it like:
+
+1 ≤ T ≤ 10000
+1 ≤ N ≤ 1016
+
+ 
+Example
+Input:
+3
+3
+6
+4
+
+Output:
+2
+3
+3
+ 
+Explanation
+Example case 1. In this case we can fill the first bucket in 1 litre and second bucket in 2 litres. Now we are not left with any amount of water. So the ans is 2.
+
+
+
+
+Author:
+2★hsagarthegr8
+
+
+Editorial:
+https://discuss.codechef.com/problems/BITMASK3
+
+
+Tags:
+
+               
+                 binary-search, hsagarthegr8, search
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+25-04-2017
+
+
+Time Limit:
+0.025 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

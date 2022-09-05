@@ -1,0 +1,82 @@
+
+Given two integers N and σ, find any array a with length N such that the standard deviation of the elements of the array is equal to σ. The standard deviation is given by the following formula:
+
+
+
+For each 1 ≤ i ≤ N, ai may be any real number with |ai| ≤ 108.
+If there is more than one possible answer, you may output any one of them. If there is no such array, output -1 instead.
+Please note that the denominator only contains N. (In the usual formula for standard deviation, N-1 is used. That's not the definition we're using here.)
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of the test cases follows.
+The first and only line of each test case contains two space separated integers N, σ.
+Output
+For each test case, output a single line containing N space-separated real numbers denoting the elements of the array a.
+If it is not possible to construct such an array, output -1 instead. If there is more than one possible solution, you may output any one.
+Your answer will be considered correct if the standard deviation of the printed array doesn't differ from σ by more than 10-2 in absolute value.
+Constraints
+
+1 ≤ T ≤ 105
+1 ≤ N ≤ 105
+0 ≤ σ ≤ 105
+Sum of N over all test cases won't exceed 106
+
+Example
+Input
+3
+2 2
+3 3
+4 0
+
+Output
+2 6
+3.5 2 8.979967
+3 3 3 3
+
+
+
+
+Author:
+admin2
+
+
+Tags:
+
+               
+                 Basic Maths, ad-hoc
+                 
+                     
+                     Mathematics, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+30-10-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, PYPY
+
+
+
+
+
+Submit
+

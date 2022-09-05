@@ -1,0 +1,122 @@
+
+There are NN bags and NN magic cards which manufactured by DSU Company 
+daily. Each bag and card has assigned a number between 1 to N. Initially ith card
+is in the ith bag. Now manager wants to club some card together.
+Manager is really busy right now he needs your help to perform this task.
+You have Q queries to perform.
+Each query can be among 3 Types :
+
+Type-1. Query - 1 A B
+
+Magic card with number A and B are merge into single bag if they belong to two 
+different bags. Its independent which bag to choose, our goal is to add both the cards with number A and B in the same bag. 
+NOTE - If you merging two magic cards A and B together then all other card which are already merge with card A and B will all be in a single bag after this query.
+
+Type-2. Query - 2 A B
+
+You need to check if two magic cards with number A and B belongs to same bag 
+or not.
+
+Type-3. Query - 3
+
+This query use to check how many distinct bags remained till now.
+Input:
+
+The first line contains two space separated integer N and Q.
+Next Q line contains 3 space separated integer for Type-1 and Type-2 query 
+and single integer for Type-3 query as shown in problem description.
+
+Output:
+
+For Type-2 query print "YES" if both magic cards belong to same bag else print "NO" without quotes.
+For Type-3 query print a single integer that denotes number of bags remained till now.
+
+Constraints
+
+1≤N,Q≤105
+1≤A,B≤N (A≠B)
+
+Subtasks
+
+30 points : 1≤N,Q≤103
+70 points : Original Constraints
+
+Sample Input:
+3 8
+2 1 2
+3
+1 1 2
+3
+2 1 2
+1 2 3
+3
+2 1 3
+
+Sample Output:
+NO
+3
+2
+YES
+1
+YES
+
+EXPLANATION:
+
+1st query will give ans NO as card with number 1 and 2 belong to different bags.
+2nd query will check no of distinct bags which are 3 as we did not perform any merge yet.
+3rd query will perform merge of two cards with number 1 and 2 into one bag.
+4th query will check no of distinct bags which are 2 now.
+5th query will give ans YES as card with number 1 and 2 belong to same bags.
+6th query will perform merge of two cards with number 2 and 3 into one bag.
+7th query will check no of distinct bags which is 1. (All magic cards is in the same bag).
+8th query will give ans YES as card with number 1 and 3 belong to same bag.
+
+
+
+
+Author:
+4★mann2108
+
+
+Editorial:
+https://discuss.codechef.com/problems/DSUBAGS
+
+
+Tags:
+
+               
+                 data-structure, disjoint-set-union, easy, implementation, imti2020, mann2108, mann2108
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-04-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

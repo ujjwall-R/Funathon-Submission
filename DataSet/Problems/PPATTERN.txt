@@ -1,0 +1,101 @@
+
+Read problems statements Mandarin , Bengali , Hindi , Russian and Vietnamese as well.
+Consider the following 4×44×4 pattern:
+ 1  2  4  7
+ 3  5  8 11
+ 6  9 12 14
+10 13 15 16
+
+You are given an integer NN. Print the N×NN×N pattern of the same kind (containing integers 1 through N2).
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer N.
+
+Output
+For each test case, print N lines; each of them should contain N space-separated integers.
+Constraints
+
+1≤T≤10
+1≤N≤100
+
+Subtasks
+Subtask #1 (100 points): Original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1 2 4 7
+3 5 8 11
+6 9 12 14
+10 13 15 16
+
+
+
+
+
+Author:
+6★arpa
+
+
+Editorial:
+https://discuss.codechef.com/problems/PPATTERN
+
+
+Tags:
+
+               
+                 Printing Patterns, Brute Force, Implementation
+                 
+                     
+                     Basic Programming Concepts, Loops, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1283
+
+
+Date Added:
+25-12-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

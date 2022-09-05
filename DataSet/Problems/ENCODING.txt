@@ -1,0 +1,119 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef is trying to open the oven in his kitchen to cook some cookies. However, the oven is special ― you need a password to open it.
+Let's define a function f(x) for a positive integer x as follows:
+
+Consider the decimal representation of x (without leading zeros). Split it into the minimum number of contiguous subsequences of digits such that in each subsequence, all digits are identical.
+For each subsequence, look at its position in the original decimal representation of x. Let's say that the most significant digit it contained was the e-th digit, where e=0 corresponds to the least significant digit of x. For example, 388,822,442 can be split into subsequences "3", "888", "22", "44", "2", where e=7 for the sequence "888" and e=4 for the sequence "22".
+The value of a subsequence which contains a digit d repeated one or more times is d⋅10e.
+f(x) is the sum of values of these subsequences. For example, f(388,822,442)=3⋅108+8⋅107+2⋅104+4⋅102+2⋅100.
+
+The oven has a screen which displays two long integers L and R (with NL and NR digits respectively, without leading zeros). The password is the sum of f(x) for each x between L and R inclusive.
+Chef does not have a lot of time, so he asks for your help. Please find the password for the oven so that he can start cooking as fast as possible. Since this number could be very large, compute it modulo 109+7.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers NL and L.
+The second line contains two space-separated integers NR and R.
+
+Output
+For each test case, print a single line containing one integer ― the password.
+Constraints
+
+1≤T≤10
+1≤NL,NR≤105
+1≤L≤R<10100,000
+L and R do not contain leading zeros
+
+Subtasks
+Subtask #1 (10 points):
+
+R−L≤105
+R<1018
+
+Subtask #2 (20 points): R<1018
+Subtask #3 (70 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+1 9
+2 97
+1 8
+2 12
+1 1
+1 8
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4681
+49
+36
+
+
+Explanation
+Example case 2: f(8)=8,f(9)=9,f(10)=10,f(11)=10,f(12)=12
+
+
+
+Author:
+2★claudy
+
+
+Editorial:
+https://discuss.codechef.com/problems/ENCODING
+
+
+Tags:
+
+               
+                 Digit DP, Dynamic Programming
+                 
+                     
+                     Advanced Algorithms, Advanced DP, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2351
+
+
+Date Added:
+28-04-2019
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

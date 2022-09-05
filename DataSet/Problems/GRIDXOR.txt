@@ -1,0 +1,91 @@
+
+Sarthak got an empty magic grid of size N×NN×N on his birthday. The grid can only be filled with positive integers such that the bitwise XOR of all numbers from any row, any column, or any of the two main diagonals must all be the same! Can you help Sarthak fill this grid using only positive integers no more than 109109?
+Input Format
+
+The first line of each input contains T - the number of test cases. The test cases then follow.
+The only line of each test case contains an integer N - the size of the grid.
+
+Output Format
+For each test case, output N lines, each containing N space-separated integers, such that the grid satisfies the condition given in the statement.
+Each integer should be positive and ≤109.
+Constraints
+
+1≤T≤100
+1≤N≤100
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1 1 1
+1 1 1
+1 1 1
+
+
+Explanation
+The bitwise XOR of all rows, columns and main diagonals in the grid is 1. Therefore, this satisfies the condition.
+
+
+
+Author:
+4★vishesh_s
+
+
+Editorial:
+https://discuss.codechef.com/problems/GRIDXOR
+
+
+Tags:
+
+               
+                 bitwise-operation, bitwise-xor, cakewalk, exun2021, vishesh_s
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1227
+
+
+Date Added:
+3-01-2022
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

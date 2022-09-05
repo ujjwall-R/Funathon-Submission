@@ -1,0 +1,85 @@
+
+The King of Neverland plans to host a Christmas dinner for all the K landlords (numbered from 1 to K) in the kingdom. The landlords are feudal and the king feels it might be good to get them all together under one roof. However, he knows many of them really hate each other and seating them in the same dinner table may cause immediate problems. Luckily, he has two dinner tables in his banquet hall, and he sets out to see if he can sit all of them while making sure that two landlords who hate each other are not seated at the same table. He will hold the dinner only if this is possible. You need to help him decide whether he can invite the landlords or not given the above constraint. Also, if he can invite them, you need to help him find the number of people to be seated at each table. Note that the number of people to be seated at each table may not be unique, in which case, you need to find any one possible way. It is known that every landlord hates at least one other landlord, and if landlord u hates landlord v, then landlord v also hates landlord u.
+Input
+The first line contains the number of test cases N (0 < N ≤ 3).
+For each test case, the first line contains the number of landlords K (0 < K ≤ 500). This is followed by K lines, where the j-th line contains the information about all the landlords that landlord j hates in the following format: the first integer P ( > 0) in the line contains the number of landlords that landlord j hates, followed by P integers in the same line giving the id of the landlords that landlord j hates. Note that since landlord u hates landlord v implies that landlord v also hates landlord u, therefore if landlord v appears in landlord u’s list in the input, then landlord u appears in landlord v’s list in the input.
+Output
+For each test case, print the case number, followed by a colon, followed by a single space, followed by 3 integers, separated by single space. The first integer is 0 if the landlords cannot be invited, and 1 if they can be invited. If the first integer is 0, the second and the third integers must both be 0. If the first integer is 1, then the second and the third integer show the number of landlords to be seated in the two tables, with the smaller number as the second integer and the larger as the third integer.
+Sample Input
+3 
+4 
+2 2 4 
+2 1 3 
+2 2 4 
+2 1 3 
+9 
+1 2 
+3 1 3 4 
+2 2 5 
+1 2 
+1 3 
+3 7 8 9 
+1 6 
+1 6 
+1 6 
+5 
+3 2 3 5 
+3 1 3 4 
+4 1 2 4 5 
+2 2 3 
+2 1 3
+
+Sample Output
+Case 1: 1 2 2 
+Case 2: 1 4 5 
+Case 3: 0 0 0
+
+
+
+
+Author:
+admin3
+
+
+Editorial:
+https://discuss.codechef.com/problems/KGP14C
+
+
+Tags:
+
+               
+                 admin3, breadth-first-search, graphs, kgp14ros, medium
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+12-12-2014
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

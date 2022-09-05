@@ -1,0 +1,122 @@
+
+Read problem statements in Mandarin, Vietnamese, and Russian as well.
+Given a positive integer NN, construct an array AA containing NN distinct elements such that the sum of any two elements in the array (not necessarily different) is not present in the array. 
+That is, there have to be no such i,j,k such that
+
+1≤i,j,k≤N 
+Ai+Aj=Ak. 
+
+The elements of the array A should be in the range [1,105]. It is guaranteed that such an array always exists under given constraints.
+Input Format
+
+First line of the input contains T, the number of test cases. Then the test cases follow.
+Each test case contains a single positive integer N, the size of the array A.
+
+Output Format
+For each test case, print N space-separated integers in a single line, describing the contents of the array A.
+Constraints
+
+1≤T≤50
+1≤N≤1000
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+1
+2
+3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+1 5
+1 4 9
+
+
+Explanation
+Test case 1:
+The only possible sum of pair of integers from A is 1+1=2 and it is not present in the array A.
+Test case 2:
+The only possible sums of pair of integers from A are
+
+1+1=2
+1+5=6
+5+5=10
+
+And none of these is present in the array A.
+Test case 3:
+The only possible sums of pair of integers from A are
+
+1+1=2
+1+4=5
+1+9=10
+4+4=8
+4+9=13
+9+9=18
+
+And none of these is present in the array A.
+
+
+
+Author:
+utkarsh_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/MISSSUMS
+
+
+Tags:
+
+               
+                 Basic Maths, Constructive
+                 
+                     
+                     Mathematics, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+20-11-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

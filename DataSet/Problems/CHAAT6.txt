@@ -1,0 +1,102 @@
+
+A Pani Puri shop is conducting a contest: Given a few chaat items’ names and a set of queries where each query is of the form (l,r).Take the substring of the chaat item’s name say s (s[l],s[l+1],...,s[r]) ]) and
+if s[i]<s[i−1] then one Pani Puri will be added into your account.At the end, you’ll be awarded with the number of Pani Puris you have acquired. By default, if the substring includes the first character of the name of the chaat item you are rewarded with one Pani Puri.
+Input Format
+
+First-line contains a String S chaat item's name
+Second-line contains Q the number of Queries
+Next Q line contains two space-separated integers l and r
+
+Output Format
+
+For each query print a single integer denoting the number of pani puris you have acquired
+
+Constraints
+
+S consists of only lower case alphabets
+1≤len(S)≤105
+1≤Q≤106
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+bjmpcdyipeq
+3
+0 5
+4 7
+7 10
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+2
+2
+
+
+Explanation
+
+Case 1: S[0..5] = bjmpcd. you get one  pani puri each for s[i] = b and s[i] = c So answer is 2
+Case 2: S[4..7] = cdyi. you get one  pani puri each for s[i] = c and s[i] = i  So answer is 2
+Case 3: S[7..10] = ipeq. you get one  pani puri each for s[i] = i and s[i] = e  So answer is 2
+
+
+
+
+Author:
+4★hareesh29
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHAAT6
+
+
+Tags:
+
+               
+                 hareesh29, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+9-10-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

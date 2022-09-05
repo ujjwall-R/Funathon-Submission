@@ -1,0 +1,83 @@
+
+
+Ashish is an ECE student at NIT Warangal. He had Analog devices lab today. In today's experiment he had to study about the gain of the amplifiers. As usual he finished his experiment in half an hour. But as we all know how strict the rules are in ECE department, he is not allowed to leave the lab before 3 hours. He along with his lab partner Bonnie was getting bored by just sitting there. But as Ashish is a very curious student, he started wondering what is the maximum output voltage he can attain by connecting all the amplifiers in series on giving some input signal. He asks Bonnie to find out the same. Bonnie is very busy talking with his other lab partners Aditi and Ankita, so he wants your help.
+ There are N amplifiers. Each amplifier has a parameter pair (a,b) which gives the relation between input and output signal for that amplifier. When a signal with magnitude x passes through ith amplifier its magnitude becomes (ai*x+bi). The amplifiers can be connected in any order. Find the maximum output voltage that can be attained by connecting all amplifiers in series on giving input voltage of magnitude x. As the result can be very large, find it modulo (10^9+7).
+Assume amplifiers are powerful and can sustain very high voltages.
+
+Input
+First line will contain T, the number of test cases. Then T test cases follow.
+First line of each test case contains an integer N, the number of amplifiers.
+Second line of each test case will contain an integer X, the magnitude of input signal.
+Each of next N lines contains two space-separated integers (a,b), the parameter pair for each amplifier.
+
+Output
+For each test case print the maximum output voltage that can be attained by connecting all the amplifiers in series modulo (10^9+7).
+Constraints
+
+1 <= T <= 10
+1 <= N <=  100000 
+1 <= X <= 1000000
+1 <= a,b <= 1000000
+
+Example
+Input:
+1
+3
+1
+2 2
+3 1
+4 3
+
+Output:
+58
+
+
+
+
+
+Author:
+6★himkha_100
+
+
+Editorial:
+https://discuss.codechef.com/problems/NPLQ19C
+
+
+Tags:
+
+               
+                 himkha_100, maths, nplq2019, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-10-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

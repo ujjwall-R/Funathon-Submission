@@ -1,0 +1,88 @@
+
+It’s Harry Potter’s first day at Hogwarts school of Witchcraft and Wizardry.
+Harry is very anxious about the house sorting ceremony which is about to take place.The headmaster of the school, Albus Dumbledore has introduced a new way of sorting the students .For every student, Dumbledore will create a special string SS out of his magic and each student has to create his/her own special string PP with the help of the magic wand.The sorting hat will sort the students into their favourite house if their string PP is charming with Dumbledore’s string S, otherwise the students will be sorted into the house which they hate the most.
+A string P is charming with string S if the string S has an even number of substrings which are twin strings of P. String T is a Twin of string P if the magic power of both the strings are  equal.The magic power of a string is defined as the sum of powers of each alphabet in a string.The power of a alphabet is its respective position in the first 26 alphabets i.e; power  of ‘a’,’b’,’c’,’k’,’z’ are 1,2,3,11,26 respectively.
+Now Harry’s wish is to be sorted into GRYFFINDOR and also he can’t imagine being sorted to SLYTHERIN.Given the special string of Harry and Dumbledore, help Harry determine the house he will be sorted into.
+Input:
+
+First line will contain T , number of testcases. Then the testcases follow.
+First line each testcase will contain N, the length of string S
+Second line of each testcase will contain the string S
+Third line of each testcase will contain the string P
+
+Output:
+For each test case, print a single line containing the string "GRYFFINDOR" if Harry is sorted to gryffindor or "SLYTHERIN" otherwise (without quotes)
+Constraints:
+
+T<=100
+N<=10000
+|P|<=|S|
+S and P contains only lowercase alphabets
+
+Sample Input:
+2
+5
+abcde
+eah
+3
+abc
+if
+
+Sample Output:
+SLYTHERIN
+GRYFFINDOR
+Explanation:
+For test case 1, the magical power of string "eah" is 5+1+8=14,
+"bcde" is the only substring in "abcde" with magical power 14.
+Since the string "abcde" has odd number of twin strings of "eah", Harry will be sorted to Slytherin
+For test case 2 ,the magical power of string "if" is 9+6=15 ,
+Since there are no substrings of "abc" with magical power 15, Harry will be sorted to Gryffindor. 
+
+
+
+Author:
+4★hareesh29
+
+
+Editorial:
+https://discuss.codechef.com/problems/AOC05
+
+
+Tags:
+
+               
+                 aoc2020, dynamic-programming, hareesh29
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+26-10-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,128 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Ashishgup wants to conduct interviews to hire people to work for him. He decided to automate the interview process to save time. The server asks NN problems to the interviewee and stores the amount of time a candidate takes to solve each problem. More formally, the data is stored as an array AA, where the ii-th integer AiAi denotes the time (in seconds) the candidate took to solve the i-th problem.
+Note that Ai = −1 denotes that the candidate was not able to solve the i-th problem at all. Can you help Ashish automate the process by writing a code to find the verdict of the interview?
+The verdict can be one of the following: 
+
+Rejected: If the number of problems that the candidate solved is strictly less than ceil(N/2).      
+Too Slow: If candidate is not Rejected and candidate took more than K seconds to solve at least one problem among the problems solved by the candidate.        
+Bot:  If candidate is neither Rejected nor Too Slow, but has solved all of the N problems in at most one second each.          
+Accepted: If the candidate is neither Rejected, Too Slow, nor Bot, she is Accepted.
+
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space separated integers - N and K respectively.    
+The second line of each test case contains N space separated integers - A1,A2,…,AN. 
+
+Output
+
+For each testcase, output a single line containing the verdict of the interview.    
+The judge is case-insensitive so if the answer is Accepted then any one of accepted, aCCepted, ACCEPTED, etc will be considered as a correct answer.
+
+Constraints
+
+1≤T≤104
+6≤N≤100
+30≤K≤60
+−1≤Ai≤120
+
+Subtasks
+
+100% points - Original constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5
+7 30
+-1 0 4 -1 -1 40 -1
+6 30
+1 0 1 1 1 0
+6 44
+1 1 1 1 -1 0
+7 31
+2 3 42 -1 -1 -1 4
+6 60
+1 -1 0 60 -1 -1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+Rejected
+Bot
+Accepted
+Too Slow
+Accepted
+
+
+Explanation
+
+Example case 1: There are N=7 problems but candidate was able to solve only 3 of them which is less than ceil(N/2) and hence the verdict is Rejected.
+Example case 2: The candidate solved all the problems and took at most 1 second to answer each one of them. Hence the verdict is Bot.
+Example case 3: The candidate solved 5 out of N=6 problems. The verdict is not Too Slow as K=44. The verdict is also not Bot because candidate couldn't solve all of the N=6 problems. Hence the verdict is Accepted.
+Example case 4: The candidate solved 4 out of N=7 problems but took 42 seconds to answer the 3-rd problem which is more more than K=31. Hence the verdict is Too Slow.
+
+
+
+
+Author:
+smit_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/INTRVS
+
+
+Tags:
+
+               
+                 Case work, Conditional Statements, Brute Force, Implementation
+                 
+                     
+                     Special, Basic Programming Concepts, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+9-01-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

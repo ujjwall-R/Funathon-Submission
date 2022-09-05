@@ -1,0 +1,134 @@
+
+This is an interactive problem.
+NOTE: Don't forget to flush your output after each print statement
+In C++:   fflush(stdout);
+In Python:   print("your output", flush=True)
+In Java:  System.out.flush();
+A pixel is usually represented in the RGB form representing the hexadecimal values of the amount of the color red, green, and blue respectively.
+You have been placed in a multi-national company and are working on an image processing project. Your boss has assigned you a task to determine the area of a black shape inside a rectangular image of dimensions N x M. The black shape may be either square, or a rectangle and of any valid dimension aligned along the axes. It is guaranteed that there is only one such shape present inside the image. The image is a vivid colorful scenery with the black shape pasted on it.
+You are given the coordinates of the center point of the black shape inside the image.
+Asking many doubts may get you fired from the job, so to be on the safe-side you may ask your boss at most Q queries. In each query, you provide your boss with i and j - the coordinates of the pixel present at ith column and jth row. The boss responds with the RGB values of the queried pixel. Here they follow a different system of inverted black-white schema where the RGB value of Black is assumed to be 255 255 255.
+We are following the Cartesian coordinate system here where our coordinates are in the form (x,y) in the Quadrant-1 of Cartesian plane, i.e. x = y = non-negative integers  
+Your job is to determine the coordinates of the top-left corner, coordinates of bottom-right corner and what kind of shape it is.
+Note: If the shape is a square, you can't use the logic that every square is a rectangle and output rectangle for every case, if the shape is a square -  you must output the shape name as square only.
+Interaction
+
+First, your program should read a line containing a single integer ― the number of test cases T. The description of interaction for T test cases follows.
+Read the first line of each test case that contains two space-separated integers N and M denoting number of rows and columns respectively
+Read the second line containing two space-separated integers x and y denoting the coordinates of the center of the black shape inside the image
+For each test case, you may ask at most Q queries. 
+To ask a query, print a line containing the character 'Q' and two space-separated integers 
+i and j denoting the coordinates of the pixel you want RBG values for.
+You would get three space separated values represent red, green, and blue (RBG) value of the color or a negative integer if you have exceeded the limit on the number of queries, the coordinates you printed are invalid or some other error occurred.
+When you determine the area and the type of shape, you should print a line containing the character 'A' followed by the xtop-left ytop-left xbottom-right ybottom-right - the coordinates of the top-left corner and bottom-right corner of the black shape respectively and the type of shape (Output "rectangle" if the shape found is rectangle or "square" if it is a square)
+
+
+Note that when you read a negative integer, you should immediately terminate your program to receive a Wrong Answer verdict; otherwise, you may receive any verdict. Don't forget to flush the output after printing each line!
+
+Constraints
+
+The dimensions of the black shape are odd integers only
+
+Subtasks
+Subtask #1 (30 points)
+
+1 ≤ T ≤ 200
+1 ≤ N, M ≤ 500
+Q = 250000
+
+Subtask #2 (70 points)
+
+1 ≤ T ≤ 100
+1 ≤ N, M ≤ 1018
+Q = 125
+
+Example
+You             Grader  
+                    1
+                    4 4  
+                    1 1
+Q 0 0
+                    255 255 255                
+Q 0 1
+                    255 255 255
+Q 0 2
+                    255 255 255
+Q 0 3
+                    255 255 0
+Q 1 0
+                    255 255 255
+Q 1 1
+                    255 255 255
+Q 1 2
+                    255 255 255
+Q 1 3
+                    255 0 0
+Q 2 0
+                    255 255 255
+Q 2 1
+                    255 255 255
+Q 2 2
+                    255 255 255
+Q 2 3
+                    0 0 0
+Q 3 0
+                    255 255 0
+Q 3 1
+                    255 255 0
+Q 3 2
+                    0 0 0
+Q 3 3
+                    255 0 0
+
+A 0 2 2 0 square
+
+
+
+
+
+Author:
+3★kushan02
+
+
+Editorial:
+https://discuss.codechef.com/problems/VDPT
+
+
+Tags:
+
+               
+                 binary-search, easy, imti2020, kushan02
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+24-04-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,98 @@
+
+You are given a tree. If we select 2 distinct nodes uniformly at random, what's the probability that the distance between these 2 nodes is a prime number?
+Input Format
+The first line contains a number N: the number of nodes in this tree.
+The following N-1 lines contain pairs a[i] and b[i], which means there is an edge with length 1 between a[i] and b[i].
+Output Format
+Output a real number denote the probability we want.
+You'll get accept if the difference between your answer and standard answer is no more than 10^-6.
+Constraints
+2 ≤ N ≤ 50,000 
+The input must be a tree.
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5
+1 2
+2 3
+3 4
+4 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0.5
+
+
+Explanation
+We have C(5, 2) = 10 choices, and these 5 of them have a prime distance:
+1-3, 2-4, 3-5: 2
+1-4, 2-5: 3
+Note that 1 is not a prime number.
+
+
+
+Author:
+chen_adm
+
+
+Tester:
+6★white_king
+
+
+Editorial:
+https://discuss.codechef.com/problems/PRIMEDST
+
+
+Tags:
+
+               
+                 Trees, FFT
+                 
+                     
+                     Data Structures, Graphs, Mathematics, Transformations
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2508
+
+
+Date Added:
+12-06-2013
+
+
+Time Limit:
+5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

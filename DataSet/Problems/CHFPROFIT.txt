@@ -1,0 +1,102 @@
+
+Some time ago, Chef bought XX stocks at the cost of Rs. YY each. Today, Chef is going to sell all these XX stocks at Rs. ZZ each. What is Chef's total profit after he sells them?
+Chef's profit equals the total amount he received by selling the stocks, minus the total amount he spent buying them.
+Input Format
+
+The first line of input contains an integer TT, denoting the number of test cases. The description of TT test cases follows.
+The first and only line of each test case contains three space-separated integers X,YX,Y and Z — the number of stocks, the price they were bought at, and the price they can be sold at, respectively.
+
+Output Format
+For each test case print on a new line a single integer — Chef's profit after selling all the stocks he has.
+Constraints
+
+1≤T≤100
+1≤X,Y≤104
+Y≤Z≤104
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+2 5 20
+3 1 2
+4 5 6
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+30
+3
+4
+
+
+Explanation
+Test Case 1: Chef bought X=2 stocks for Y=5 each, making the total amount spent by Chef =2⋅5=10.
+Chef can sell this stock today for Z=20, making the total amount received by Chef =2⋅20=40.
+The total profit is then the amount received minus the amount spent, which equals 40−10=30.
+Test Case 2: Chef bought X=3 stocks for Y=1 each, making the total amount spent by Chef =3⋅1=3.
+Chef can sell this stock today for Z=2, making the total amount received by Chef =3⋅2=6.
+The total profit is then the amount received minus the amount spent, which equals 6−3=3.
+Test Case 3: Chef bought X=4 stocks for Y=5 each, making the total amount spent by Chef =4⋅5=20.
+Chef can sell this stock today for Z=6, making the total amount received by Chef =4⋅6=24.
+The total profit is then the amount received minus the amount spent, which equals 24−20=4
+
+
+
+Author:
+utkarsh_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHFPROFIT
+
+
+Tags:
+
+               
+                 cakewalk, start23, utkarsh_adm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+889
+
+
+Date Added:
+22-01-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

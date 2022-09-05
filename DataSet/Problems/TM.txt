@@ -1,0 +1,99 @@
+
+Teacher Sungjae wanted to hold a programming competition for his students where every participant need to be included into  team. The participants submitted their team names before the deadline. After the competition ran for half an hour, (It is assured that each registered team will submit absolutely once within half an hour) Sungjae mistakenly pressed a button that changed the order of the registered team names. Now in the submission list, order of the characters in the team's name doesn't matter. That means abcabc, acbacb, bacbac, bca, cab, cba refers to the same team. The competition ran for two hours and then ended. Sungjae now counting each of the team's score and wants to print the registered team names and score. The scoreboard should be ordered based on scores in decreasing order and if two teams have same score, Sangjae would follow lexicographical order.
+N.B. frequency of each character's in a registered team's name will not match with another team. 
+That means two teams named xoxo and oxox is not possible. Because both of them have the same frequency of each of the characters (two 'o' and two 'x'). Similarly abb and bab is not possible (because both of them have one 'a' and two 'b').
+It is ensured that only possible test cases will be given.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+The first line of each test case contains two integers , N and R - total number of submissions and the number of submissions within first half an hour. 
+Then R  lines follow: the i'th line contains a string ti, registered names of the teams and an integer pi, points they got on that submission.
+Then N−R  lines follow: the i-th line contains a string ti- the i-th team's name (in any order) in lowercase letter only and pi -points they got on that submission.
+
+Output:
+For each testcase,print the scoreboard.
+That means print the teams name and their point according to their score in decreasing order and if some of them have same score,print the teams name in lexicographical order
+Constraints
+
+1≤T≤10
+1≤R≤N≤1000
+1≤ti≤1000
+1≤pi≤106
+
+Sum of points (pi) of a team will not cross 109.
+Sample Input:
+1
+10 5
+amigoes  1
+bannermen 1
+monarchy 4
+outliers 5
+iniciador 10
+aegimos 2
+iiiacdnor 1
+eilorstu 1
+gimosae 3
+mnachroy 7
+
+Sample Output:
+iniciador 11
+monarchy 11
+amigoes 6
+outliers 6
+bannermen 1
+
+Explanation:
+
+It is assured that each team will submit once within first half an hour.That means -                                          
+
+that kind of submissions isn't possible within first half an hour.
+Dataset can be huge. Use faster I/O method.
+
+
+
+Author:
+3★samia2001
+
+
+Editorial:
+https://discuss.codechef.com/problems/TM
+
+
+Tags:
+
+               
+                 blas2020, data-structure, samia2001, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-10-2020
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

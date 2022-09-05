@@ -1,0 +1,111 @@
+
+For a table in a restaurant which divided by n x m cells, the waiter has randomly placed Ice-cream and gulab jamun on each cell of the table. Find out the largest rectangle which can be formed by Ice-creams only such that there is no gulab jamun within the rectangle. 
+Note: Ice-cream is represented by char values as '1' and gulab jamun by '0'. The input is given in the form of n x m Matrix containing zeros and ones.
+Input Format
+
+First line has two space separated integers n,mn,m which form the nxm matrix.
+Next nn lines represents the space separated mm elements as char values ′1′ or ′0′.
+
+Output Format
+output is the resulting area in integer.
+Constraints
+1 <= n, m  <= 200
+matrix[i][j] is 0 or 1.
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4 5
+1 0 1 0 0
+1 1 1 1 0
+1 1 1 1 1
+1 0 0 1 0
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+8
+
+
+
+                        Sample Input 2
+                        
+
+
+
+
+
+1 0
+0
+
+
+
+                        Sample Output 2
+                        
+
+
+
+
+
+0
+
+
+
+
+
+Author:
+3★aniket_111
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHEFRECT
+
+
+Tags:
+
+               
+                 aniket_111, dynamic-programming, help, matrices
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+11-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

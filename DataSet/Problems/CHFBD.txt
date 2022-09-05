@@ -1,0 +1,102 @@
+
+
+Chef is very happy as tomorrow is his best friend's birthday. Chef wants to gift him a delicious cake. But Chef has spent most of his money in buying chocolate 
+for himself and so he wants to get the best out of his remaining money. Now he has only M rupees remaining. He decides to make a delicious cake for his best friend with as much ingredients as possible. So Chef went to the super-market and found out that I ingredients are sold in each bag for a price of P rupees. There were N types of bags in the 
+super-market and Chef can buy any number of bags of each type. He has to buy at least K number of ingredients to make his cake delicious, otherwise he will not be able to make a 
+delicious cake. Your task is to help Chef make the most delicious cake for his friend.
+
+Input
+
+The first line of input contains three space-separated integers N, M and K denoting the no types of bags, the amount of money Chef has and minimum number of 
+ingredients Chef needs to buy to make a delicious cake respectively.
+N lines follow. The ith line contains two space-separated integers Ii and Pi denoting the number of ingredients in the 
+ith bag and price of the ith bag. (1 ≤ i ≤ N)
+
+
+Output
+For each test case print "YES" without quotes along with the maximum number of ingredients Chef can buy if he can make a delicious cake else print "NO" without quotes.
+
+Constraints
+
+1 ≤ N ≤ 500
+1 ≤ M ≤ 2 × 106
+1 ≤ K ≤ 4 × 108
+1 ≤ Ii, Pi ≤ 105
+
+
+Example Input 1
+3 6 1
+6 4
+5 3
+1 1
+
+Example Output 1
+YES 10
+
+
+Explanation 1
+Chef can buy 2 bags costing 3 rupees each to get 10 ingredients. There is no other way Chef can get more ingredients.
+
+Example Input 2
+3 10 12
+8 10
+7 11
+11 12
+
+
+Example Output 2
+NO
+
+
+Explanation 2
+There is no possible way that Chef can make a delicious cake with his money.
+
+
+
+
+Author:
+5★horsbug98
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHFBD
+
+
+Tags:
+
+               
+                 dynamic-programming, encoding, horsbug98, horsbug98, knapsack, unbounded-knapsack
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+10-09-2018
+
+
+Time Limit:
+1 - 3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

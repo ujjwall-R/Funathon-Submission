@@ -1,0 +1,100 @@
+
+Given two equally sized arrays A and B of size N. A is empty and B has some values. You need to fill A with an element X such that X belongs to B.
+The only operations allowed are :
+
+
+Copy B[i] to A[i].
+Cyclic shift B by 1 to the the right.
+
+You need to minimize the number of operations.
+
+Input
+The first line contains a integer N, the number of elements.The next line contains N space separated integers, where the ith integer denotes B[i].
+ 
+Output
+Output a single integer, the minimum number of operations.
+ 
+Constraints
+
+1 ≤ N ≤ 106
+1 ≤ B[i] ≤ 105
+
+ 
+Example
+Case 1:
+Input:
+3
+1 2 3
+Output:
+5
+
+
+Case 2:
+Input:
+6
+1 1 2 2 3 3
+Output:
+10
+
+ 
+Explanation
+Example case 1. We can have 5 steps as : { fill first element, shift, fill second element, shift, fill third element}
+
+A = [ _ _ _ ] , B = [1,2,3]
+After step 1, A = [1 _ _ ] , B = [1,2,3]
+After step 2, A = [1 _ _ ] , B = [3,1,2]
+After step 3, A = [1 1 _ ] , B = [3,1,2]
+After step 4, A = [1 1 _ ] , B = [2,3,1]
+After step 5, A = [1 1 1 ] , B = [2,3,1]
+
+
+ Input/Output data is large, Use Fast I/O 
+
+
+
+Author:
+2★rounaqwl66
+
+
+Editorial:
+https://discuss.codechef.com/problems/PRCS16B
+
+
+Tags:
+
+               
+                 array, easy, proc2016, rounaqwl66
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+2-08-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+JAVA, C, CPP14, PYP3
+
+
+
+
+
+Submit
+

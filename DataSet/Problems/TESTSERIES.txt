@@ -1,0 +1,101 @@
+
+Read problem statements in Mandarin Chinese, Russian, and Vietnamese as well.
+A 55 match test series between India and England has just concluded. 
+Every match could have ended either as a win for India, a win for England, or a draw. You know the result of all the matches. Determine who won the series or if it ended in a draw.
+A team is said to have won the series if it wins strictly more test matches than the other team.
+Input Format
+
+First-line will contain TT, the number of test cases. Then the test cases follow.
+Each test case contains a single line of input, five space-separated integers R1,R2,R3,R4,R5R1,R2,R3,R4,R5 denoting the results of all the five matches. Ri=0 denotes that the test match ends in a draw. Ri=1 denotes that the test match is won by India. Ri=2 denotes that the test match is won by England. 
+
+Output Format
+For each test output "DRAW" if the series ends in a draw, "INDIA" if the series is won by India, and "ENGLAND" if the series is won by England.
+You may print each character of the string in uppercase or lowercase (for example, the strings "dRaw", "draw", "Draw" and "DRAW" will all be treated as identical).
+Constraints
+
+1≤T≤1000
+0≤Ri≤2
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+0 1 2 1 0
+0 1 2 1 2
+2 2 2 2 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+INDIA
+DRAW
+ENGLAND
+
+
+Explanation
+Test Case 1: India wins 2 matches while England won 1 match so India wins the series.
+Test Case 2: Both teams win 2 matches so the series ends in a draw.
+Test Case 3: England won 4 matches while India won 1 match so England wins the series.
+
+
+
+Author:
+utkarsh_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/TESTSERIES
+
+
+Tags:
+
+               
+                 Conditional Statements, Basic Maths, Brute Force, Implementation
+                 
+                     
+                     Basic Programming Concepts, Mathematics, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+11-10-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

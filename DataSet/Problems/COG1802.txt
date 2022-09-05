@@ -1,0 +1,115 @@
+
+Sheldon has invented a driving game which he wants to play with Leonard.
+Assume Sheldon has a very large cylinder that is open from the top. He fills this cylinder with NN type of liquids. Each liquid has some Density PiPi and covers Hi height. All the liquids are immiscible and they will remain at the position where they are filled.
+The first liquid goes on the bottom and next liquid goes over it and so on.
+Now Sheldon will ask Leonard Q rapid-fire questions.
+In each question, Sheldon will give Leonard two values L and R and Leonard will have to calculate the total pressure considering only the liquids between height L and R. That means if we remove all the liquid starting from height L to R and put it in some other Cylinder in the same order as they are in the present cylinder then what will be the pressure at the bottom of this new Cylinder.
+The total height of liquids will be the sum of the individual height of every liquid.
+You know Leonard is not very good intelligent so he asked you for help.
+You have to answer the Q questions and output the total pressure in a new line.
+The Formula for calculating Pressure is P∗g∗H
+P = density
+g = 10 (gravity)
+H = height
+
+NOTE: The total pressure exerted at the bottom by all liquids is the sum of pressure exerted by every liquid individually.
+INPUT:
+
+The first line contains integer N, the number of liquids.
+Then next N lines contain Pi and Hi. the density and the height covered by the liquid respectively.
+Then the next line contains Q, the number of questions.
+Next Q lines contain the two Values L and R denoting the bottom and the top height. 
+
+
+OUTPUT:
+
+For each query, Output an integer in a new line denoting the pressure at the bottom in the new cylinder.
+
+
+Constraints:
+
+1≤N≤1000000
+1≤Pi≤1000000
+1≤Hi≤100
+1≤Q≤100000
+0 ≤ L ≤ R ≤ Total Height
+The sum of heights of all liquids ≤ 1000000
+
+
+SAMPLE INPUT:
+3
+6 2
+5 6
+4 3
+5
+1 11
+2 6
+4 9
+0 11
+1 1
+
+
+SAMPLE OUTPUT:
+480
+200
+240
+540
+0
+
+
+Explanation:
+Query 1:
+6∗10∗1 (From height 1 to height 2) + 5∗10∗6 (From height 2 to height 8) + 4∗10∗3(From height 8 to height 11).
+Query 2:
+5∗10∗4 (From height 2 to height 6)
+Query 3:
+5∗10∗4 (From height 4 to height 8) + 4∗10∗1 (From height 8 to height 9)
+
+
+
+Author:
+5★p_unit
+
+
+Editorial:
+https://discuss.codechef.com/problems/COG1802
+
+
+Tags:
+
+               
+                 codigo2k18, p_unit, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+20-11-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,111 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Dream abstracts the fabric of spacetime as a directed rooted tree (arborescence) with NN nodes (numbered 11 through NN). Node 1 is the root and for each i (1≤i≤N−1), the parent of node i+1 is fi. All edges of this tree are directed away from the root.
+Then, Dream employs a magical superpower and adds M directed edges to this tree in such a way that the resulting directed graph remains acyclic (a DAG).
+Let's call a node of this DAG an event and further call a simple path on this DAG an era. Dream considers a pair of events (i,j) to be plausible if there is an era whose first event is i and last event is j. Note that i<j does not have to hold for a plausible pair.
+Dream now wants you to answer Q queries. In each query, he gives you two positive integers l and r, where l≤r, and he wishes to know the number of plausible pairs of events (i,j) such that l≤i<j≤r.
+Input
+
+The first line of the input contains two space-separated integers N and M.
+The second line contains N−1 space-separated integers f1,f2,…,fN−1.
+M lines follow. Each of these lines contains two space-separated integers u and v describing an additional edge from node u to node v.
+The following line contains a single integer Q.
+Q lines follow. Each of these lines contains two space-separated integers l and r describing a query.
+
+Output
+For each query, print a single line containing one integer ― the number of plausible pairs (i,j) such that l≤i<j≤r.
+Constraints
+
+2≤N≤3⋅105
+1≤Q≤3⋅105
+0≤M≤20
+1≤fi≤N for each valid i
+1≤u,v≤N
+the graph described on the input is acyclic
+1≤l≤r≤N
+
+Subtasks
+Subtask #1 (10 points): the graph is a line ― that is, M=0 and there is a permutation p1,p2,…,pN such that p1=1 and nodes p1,p2,…,pN form a directed path in the tree
+Subtask #2 (20 points): M=0
+Subtask #3 (30 points): N,Q≤2⋅105
+Subtask #4 (40 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+8 2
+1 2 5 1 4 3 3
+2 4
+4 7
+3
+4 6
+5 7
+1 8
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+2
+18
+
+
+
+
+
+Author:
+2★piggydan
+
+
+Editorial:
+https://discuss.codechef.com/problems/DRE3HGF
+
+
+Tags:
+
+               
+                 feb21, piggydan, super-hard
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2934
+
+
+Date Added:
+25-01-2021
+
+
+Time Limit:
+2.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

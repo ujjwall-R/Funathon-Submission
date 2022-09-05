@@ -1,0 +1,93 @@
+
+Today, you finally have a chance to compete with a famous coder like Chef and prove your mettle.
+Chef has n distinct points in 2-D plane, i.e. there are never two points with both x and y coordinate equal and there are no two points with same x coordinate. Consider a subset of above n points which can be arranged as a sequence p1,..pk, such that xp1< xp2 < ...< xpk and each point pi, where i is in range between 3 and k (both inclusive) lies below or on the line passing between points pi-1 and pi-2. Chef likes these kind of subsets. So he wants to find the size of largest of such subsets. 
+Input
+First line of the input contains one integer T - number of tests. T tests follows.
+First line of each test contains one integer N - number of points.
+The next N lines of each test case contain integer point coordinates xi, yi.
+Output
+For a each test case, output a single integer in separate line corresponding to the largest subset size.
+Constraints
+
+1 ≤ T, N, sum over all N over all test cases ≤ 2000
+1 ≤ xi, yi ≤ 109
+
+Example
+ Input:
+ 3
+ 3
+ 1 1
+ 4 2
+ 9 3
+ 4
+ 1 1
+ 4 2
+ 5 2
+ 9 3
+ 4
+ 2 3
+ 4 1
+ 1 2
+ 3 2
+
+ Output:
+ 3
+ 3
+ 4
+
+Explanation
+Explanation case 1. We can get sequence (1, 1) - (4, 2) - (9, 3), point (9, 3) lies below line between point (1, 1) and (4, 2).
+Explanation case 2. We can get (1, 1) -(4, 2) - (9, 3)
+Explanation case 3. We can get (1, 2) -(2, 3) - (3, 2) - (4, 1)
+
+
+
+Author:
+6★mgch
+
+
+Editorial:
+https://discuss.codechef.com/problems/KOL16K
+
+
+Tags:
+
+               
+                 Pre processing, Geometry, Dynamic Programming, Sorting, Binary Search
+                 
+                     
+                     Advanced Algorithms, Mathematics, Algorithms, Searching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+26-12-2016
+
+
+Time Limit:
+1.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3
+
+
+
+
+
+Submit
+

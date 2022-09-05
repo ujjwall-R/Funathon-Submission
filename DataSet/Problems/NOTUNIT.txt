@@ -1,0 +1,99 @@
+
+Dazzler has a task for you.
+Given two positive integers A and B, find two positive integers i and j such that:
+
+gcd(i,j)>1;
+A≤i<j≤B;
+The value (i+j) is minimum possible.
+
+If there are multiple solutions, you may print any of them. If no such pair exists, print −1.
+Input Format
+
+First line will contain T, number of test cases. Then the test cases follow.
+Each test case contains of a single line of input, two integers A and B.
+
+Output Format
+For each test case, output in a single line two space-separated integers i and j satisfying all the conditions. If no such pair exists, print −1.
+Constraints
+
+1≤T≤105
+1≤A<B≤109
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+2 3
+2 10
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+-1
+2 4
+
+
+Explanation
+Test case 1: There exists no pair satisfying all the conditions.
+Test case 2: A valid pair satisfying all the conditions is (i,j)=(2,4). The value gcd(2,4)=2>1. The value (i+j)=6.
+It can be proven that no such pair exists that satisfies all the conditions and has sum less than 6.
+
+
+
+Author:
+5★dazlersan1
+
+
+Editorial:
+https://discuss.codechef.com/problems/NOTUNIT
+
+
+Tags:
+
+               
+                 april221, april221, basic-arithmatic, basic-arithmatic, dazlersan1, number-theory, number-theory, simple, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1177
+
+
+Date Added:
+2-04-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

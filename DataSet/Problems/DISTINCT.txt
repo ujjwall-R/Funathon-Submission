@@ -1,0 +1,89 @@
+
+ 
+As its new year, Deepak and his classmates are very excited to receive gifts from the school . Deepak being class monitor is assigned a task to write down the names of all the student (every gift will have the name on it). As Deepak is busy in doing homework he tells everyone to write there names on the list. Some of his classmates are greedy and hence have written there names more than once on the list .
+
+Can you help Deepak create a new list by removing duplicates. Print, the number of distinct names followed by the names on the list without duplicates sorted lexicographically in ascending order.
+ 
+Input
+First line consists of T , denoting the number of test cases.
+Each test case consists of N , number of names written on the list.
+Each of these N lines consists of string S denoting the names of students (including duplicates).
+
+Output
+For each test case output the number of distinct names followed by names of these distinct student names, lexicographically in ascending order.
+
+Constraints
+
+1 ≤ T ≤ 10
+1 ≤ N ≤ 100
+1 ≤ |S| ≤ 50
+
+ 
+Example
+1
+5
+chunu
+vasya
+ketya
+chunu
+vasya
+
+Output:
+3
+chunu
+ketya
+vasya
+Explanation
+Example case 1. chunu, ketya and vasya are unique names in ascending order lexicographically.
+
+Note: a word is lexicographically smaller than another if the first position in which it differs, the character in it comes before the other in English alphabets. 
+Example a is smaller than b, thus abd is smaller than bb.
+
+
+
+Author:
+3★chandubaba
+
+
+Editorial:
+https://discuss.codechef.com/problems/DISTINCT
+
+
+Tags:
+
+               
+                 brute-force, cakewalk, chandubaba
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+24-12-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

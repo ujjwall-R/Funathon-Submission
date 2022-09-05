@@ -1,0 +1,93 @@
+
+The F.R.I.E.N.D.S are very bored and sad as they cannot visit ‘Central Perk’  anymore and are stuck in their apartments. So, Joey and Chandler come up with a new game called “Maze Escape”.
+
+This is how it works:
+The Maze is in the form of a rectangular grid. where there are M+1 levels numbered from 0−M and each level has N+1  doors numbered from 0−N, all the doors lead to the same upper level.
+
+Chandler is confident that he doesn’t need to add any traps to the maze and Joey is still going to fail to cross it(cause we all know how smart joey is).
+Each door of level  ‘i’ leads to the next level 'i+1' and it is possible to travel vertically at the current level without restrictions. 
+But this time Joey suspects some of the doors must be trapped. So he has formulated a plan to cross the Maze, his plan is an array of Integers C, which tells him which possible doors he can choose at each level. At each level i where 1 <=i<=M C[i] denotes the absolute difference between his previous choice of the door (the door through which he entered the current level) and the current door that he can take. 
+
+Eg, if he took door 5 at level i-1, and C[i] is 4, then he must take either door number 5+4 = 9  or  5-4= 1, at this level. He can never go outside the grid.
+Joey always chooses his lucky number Jth Door when he enters the Maze at level 0.
+Count and print the number of doors from which Joey can possibly exit the Maze at the Mth level, or print -1 if it is impossible for Joey to exit given his current plan.
+
+Input:
+
+The first line of input contains N and M. 
+The second line of input contains a single integer J, Joey's lucky number.
+The third line of input contains M integers of array C[] where  1<=i<=M, C[i] indicated the 
+the absolute difference of the door number Joey can take at level i and the door he took at level i-1.  
+
+Output:
+A single integer indicating the number of possible doors Joey can exit level M or print -1 if it is impossible for Joey to exit the Maze following his plan.
+Constraints
+
+1≤N≤1000
+1≤M≤1000
+0≤J≤M
+
+Sample Input:
+    4 4
+    0
+    2 1 2 1
+
+Sample Output:
+    3
+
+EXPLANATION:
+Joey enters the Maze at level  0 through door 0. 
+At level 1 C[1]= 2, So he can choose only door 2 to move to the next level.
+At level 2 C[2]= 1, So he can choose door 3 or 1
+At level 3 C[3]=2, He can choose door 1 or 3
+At level 4 C[4]= 1, Similarly at level 4 he can pass through door 0,2 or 4 at level 4. 
+So the answer is 3.
+
+
+
+Author:
+3★neha190301
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHAJOE
+
+
+Tags:
+
+               
+                 cote2020, dynamic-programming, easy, neha190301
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+4-04-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

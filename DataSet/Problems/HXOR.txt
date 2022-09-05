@@ -1,0 +1,112 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a sequence A1,A2,…,ANA1,A2,…,AN and you have to perform the following operation exactly XX times:
+
+Choose two integers i and j such that 1≤i<j≤N.
+Choose a non-negative integer p.
+Change Ai to Ai⊕2p, and change Aj to Aj⊕2p, where ⊕ denotes bitwise XOR.
+
+Find the lexicographically smallest sequence which can be obtained by performing this operation exactly X times.
+A sequence B1,B2,…,BN is said to be lexicographically smaller than a sequence C1,C2,…,CN if there is an index i such that Bi<Ci and for each valid j<i, Bj=Cj.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and X. 
+The second line contains N space-separated integers A1,A2,…,AN.
+
+Output
+For each test case, print a single line containing N space-separated integers ― the lexicographically smallest obtainable sequence.
+Constraints
+
+1≤T≤10
+2≤N≤105
+1≤X≤109
+1≤Ai≤109 for each valid i
+
+Subtasks
+Subtask #1 (30 points): N≤100
+Subtask #2 (70 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+3 3
+2 2 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0 0 3
+
+
+Explanation
+Example case 1: The original sequence is (2,2,3). Consider the following three operations:
+
+Choose i=1, j=2 and p=1. Then, A1 changes from 2 to 2⊕21=0 and similarly, A2 changes from 2 to 2⊕21=0. Now the sequence is (0,0,3).
+Next, choose i=1, j=2 and p=1. Then, A1 changes to 0⊕21=2 and A2 changes to 0⊕21=2. The sequence is (2,2,3).
+Next, again choose i=1, j=2 and p=1. Then, A1 changes to 2⊕21=0 and A2 changes to 2⊕21=0. The sequence is (0,0,3) again.
+
+We can check that after exactly 3 operations, this is the lexicographically smallest sequence we can obtain.
+
+
+
+Author:
+5★fiction1729
+
+
+Editorial:
+https://discuss.codechef.com/problems/HXOR
+
+
+Tags:
+
+               
+                 Bit Manipulation
+                 
+                     
+                     Mathematics
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1786
+
+
+Date Added:
+1-10-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

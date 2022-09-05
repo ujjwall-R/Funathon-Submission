@@ -1,0 +1,89 @@
+
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Watson gives an array of colored balls to Sherlock. All balls are identical in shape and size and hence, two balls with same color are indistinguishable. He gives to Sherlock an integer K and wants Sherlock to choose a bundle of K balls from the array. Sherlock is intrigued by the problem and starts wondering in how many different ways he can choose K such balls. Two ways are different if for any color c, there are different count of balls with color c in two chosen bundles.
+Input
+First line contains N and K followed by N integers in next line denoting A1, A2, ..., AN - colors of the balls.
+Output
+Output the required answer modulo 13313 in one line.
+
+Constraints
+
+1 ≤ K ≤ N ≤ 2*105
+1 ≤ Ai ≤  2*105
+
+Example
+Input 1:
+4 2
+3 2 2 3 
+
+Output 1:
+3
+
+Input 2:
+5 1
+2 2 2 2 2
+
+Output 2:
+1
+
+Explanation
+
+Input 1:
+Three possible ways are:
+
+[2, 2]
+[3, 3]
+[2, 3]
+
+
+Input 2:
+Only possible way is [2].
+
+
+
+
+Author:
+4★darkshadows
+
+
+Tags:
+
+               
+                 Combinatorics, FFT
+                 
+                     
+                     Mathematics, Transformations
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2919
+
+
+Date Added:
+27-09-2016
+
+
+Time Limit:
+8 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

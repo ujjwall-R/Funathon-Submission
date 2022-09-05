@@ -1,0 +1,89 @@
+
+Shubham loves palindromes. And he loves them so much so that he is willing to transform the strings he has to turn them to palindromes.
+Formally, given a string s, he takes subset of the characters of s and arranges them to form a palindrome. He wants to do it in such a way that length of palindrome is as big as it can get.
+To save the strings from transformations, the government has decided to encrypt all the strings before he gets access to them to confuse him.
+Encryption pseudocode is as follows:   
+string encrypt(string s, int x,int d)   
+    string encs="";   
+    for i = 0 to length(s)   
+        encs += charof( (val(s[i]) + x + i*d)%26 );   
+        //val gives 0 for 'a', 1 for 'b' and so on   
+        //charof gives 'a' for 0, 'b' for 1 and so on   
+return
+
+Being shubham's friend, you do not want to disappoint him.
+Help him to find out the length of biggest palindrome he can make after decrypting the given string.
+Input:
+First line contains the parameters x and d
+Second line contains the encrypted string s
+Output:
+Output the length of biggest palindrome Shubham can make after decrypting the given string.
+Constraints
+
+0<=x,d<=25
+1<=length(s)<=10^6
+
+Sample Input:
+1 1   
+
+hash
+Sample Output:
+1
+
+EXPLANATION:
+"hash" decrypts to "gypd".
+For "gypd", possible palindromes are "g", "y", "p" and "d".
+Max length is 1.
+
+
+
+Author:
+5★jatin_cpp
+
+
+Tester:
+5★ishu_05
+
+
+Editorial:
+https://discuss.codechef.com/problems/ENP
+
+
+Tags:
+
+               
+                 corp2018, easy, jatin_cpp, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-04-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

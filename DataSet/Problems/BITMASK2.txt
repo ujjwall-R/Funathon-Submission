@@ -1,0 +1,83 @@
+
+Abhishek is very good in mathematics. Now he came to know about dot product of vectors. So He asked his friend Suyash a problem. He gave him two vectors A and B of length N . He asked him to minimize the dot product of these two vectors. Suyash has a choice to change the order of the elements of these two vectors i.e. for any two elements i
+ and j in any vector he can interchange the position of these elements.
+Since Suyash is new to programming, He asked you to solve this problem for him. 
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N denoting the length of the vectors.
+ The second  and third lines contain N space-separated integers A1, A2, ..., AN and B1, B2, ..., BN denoting the elements of the vectors respectively.
+ 
+Output
+For each test case, output a single line containing the minimum dot product.
+
+Constraints
+Should contain all the constraints on the input data that you may have. Format it like:
+
+1 ≤ T ≤ 1000
+1 ≤ N ≤ 8
+-1000 ≤ Ai,Bi ≤ 1000
+
+ 
+Example
+Input:
+2
+3
+1 3 -5
+-2 4 1
+5
+1 2 3 4 5
+1 0 1 0 1
+
+Output:
+-25
+6
+
+
+
+
+Author:
+2★hsagarthegr8
+
+
+Editorial:
+https://discuss.codechef.com/problems/BITMASK2
+
+
+Tags:
+
+               
+                 bitm2017, easy, hsagarthegr8, sorting, vector
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+28-04-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

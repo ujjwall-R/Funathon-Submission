@@ -1,0 +1,79 @@
+
+Read problems statements Hindi , Vietnamese , Mandarin Chinese , Russian and Bengali as well.
+"An ideal problem has no test data." - aryanc403
+This is an interactive problem.
+Chef likes probability puzzles a lot, almost as much as interactive problems. Today, he learned about the Monty Hall Paradox.
+Suppose that Chef is participating in a game show, where he has to choose between three doors numbered 11 through 33. There is a car behind one of the doors and goats behind the other two. Chef does not know what is behind which door, but there is a game host who knows where the car is.
+First, you need to help Chef pick a door (let's denote it by X). Then, the host opens a different door (let's denote it by Y) such that there is a goat behind this door, and asks Chef to pick an arbitrary door again (let's denote it by Z). You need to help Chef pick door Z too. You should do it in such a way that the probability of a car being behind door Z is maximised. If there are multiple optimal possible ways to pick doors for Chef, you may choose any one.
+Interaction
+
+First, you should print a line containing a single integer X (1≤X≤3).
+Then, you should read a line containing a single integer Y.
+Finally, you should print a line containing a single integer Z (1≤Z≤3).
+
+Don't forget to flush the output after printing each line!
+Constraints
+
+1≤Y≤3
+X≠Y
+
+Subtasks
+Subtask #1 (100 points): original constraints
+Example
+You                     Grader
+3
+                        1
+2
+
+
+
+
+Author:
+6★mgch
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHFIDEAL
+
+
+Tags:
+
+               
+                 Interactive Problems, Conditional Statements, Probability
+                 
+                     
+                     Special, Basic Programming Concepts, Mathematics
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1294
+
+
+Date Added:
+23-11-2018
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

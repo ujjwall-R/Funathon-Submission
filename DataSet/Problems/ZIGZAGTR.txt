@@ -1,0 +1,92 @@
+
+ 
+Alice has recently taken a fascination for zigzag shaped trees. A zigzag tree is a binary tree where each node has at most one child and the child type alternates(i.e., a node which is a left child of its parent can have only a right child and a node which is a right child of its parent can only have a left child). The root can have either the left or the right child. You can see this from figure below :
+
+Now Bob being an attention seeker wants to do something to get her 
+
+attention. He decides to give her a zigzag tree with N nodes where each node 
+
+has a distinct 
+
+value. Now the nodes can swap values with each other from time to time, so ultimately all permutations 
+
+of this tree will appear. Now he asks her, how many of the ZigZag trees formed are 
+
+also binary 
+
+search trees . Alice is in awe. Can you help her solve this problem?
+You need to tell the number of ways the tree formed over any of the 
+
+permutations will be a BST. For convenience, you only need to print last 5 
+
+digits of the 
+
+result.(without the leading zeros of course)
+Input:
+First line contains T which is the number of test cases.
+First line of each test case contains an integer N indicating the number of nodes in the tree.
+Second line of each test case contains N distinct integers indicating the values of the nodes.
+Output
+Output will have T lines. For each test case, output a single line 
+
+containing the answer.
+Constraints:
+
+1 ≤ T ≤ 10
+1 ≤ N ≤ 105
+1 ≤ NodeValues ≤ 109
+
+Example
+Input:
+1
+2
+1 6
+
+Output:
+2
+
+
+
+
+Author:
+blunderspride
+
+
+Tags:
+
+               
+                 blunderspride, cakewalk, ipc151b
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+20-11-2015
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

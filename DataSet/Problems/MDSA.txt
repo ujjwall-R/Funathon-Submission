@@ -1,0 +1,86 @@
+
+Chef is an algorithmist so his friend has given him a problem.
+ Problem is that you have been given an array A(indexed 1 through N). There is a thresold value ThTh. You need to find a maximum integer value M so that SS is greater or equal to ThTh.  
+ Where,     S = ∑Ni=1max(Ai−M,0)     
+ For example -  If A is 1,2,3,4,5,6,7 and Th=9, then M will be 3 and 
+ S=max(1−3,0)+max(2−3,0)+max(3−3,0)+max(4−3,0)+max(5−3,0)+max(6−3,0)+max(7−3,0)     i.e, S=10 which greater than Th. Chef is very busy with his internship so he ask you to do this for him. You need to print maximum value M as well as S. 
+
+Input : 
+
+ First line will contain T, number of testcases. Then the testcases follow. 
+ Each testcase contains of a single line of input, two integers N,Th. 
+Third line will contains A1,A2,A3,..........AN .
+
+
+ Output: 
+For each testcase, output two space separated integers M and S.
+
+ Constraints 
+
+ 1≤T≤100 
+2≤N≤100000 
+1≤Th≤109 
+ 1≤Ai≤109
+
+
+ Sample Input: 
+	2 
+	8 8 
+        10 11 12 13 14 15 16 17 
+        6 6 
+        3 4 5 6 7 8 
+ Sample Output: 
+ 
+        13 10
+       
+         5 6
+      
+
+
+
+Author:
+4★dshahid380_
+
+
+Editorial:
+https://discuss.codechef.com/problems/MDSA
+
+
+Tags:
+
+               
+                 binary-search, dshahid380_, easy, enja2019
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+23-01-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

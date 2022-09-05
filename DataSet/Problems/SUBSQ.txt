@@ -1,0 +1,137 @@
+
+Given a sequence A of length N and an integer M, such that the elements of A are pairwise distinct.
+For each k (1≤k≤M), find the number of subsequences Ai1,Ai2,…,Aip of A satisfying the following conditions:
+
+Condition 1: ∑pj=1Aij=k.
+Condition 2: Let f(l,r)=maxri=lAi. Then, for each j (1≤j≤p−1), f(ij,ij+1)>max(Aij,Aij+1) holds.
+If p=1 (subsequence is of length 1), this condition is considered to be true.
+
+Find the number of subsequences satisfying both the conditions for each k (1≤k≤M). Since the answer can be huge, print it modulo 998244353.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first line contains two integers N and M.
+The second line contains N integers A1,A2,…,AN.
+
+Output Format
+For each test case, print M numbers in a new line. The ith number is the answer when k=i, modulo 998244353.
+Constraints
+
+1≤T≤103
+1≤N≤2⋅103
+1≤Ai≤M≤8⋅103
+N≤M
+All elements in A are pairwise distinct.
+Sum of N across all test cases does not exceed 2⋅103.
+Sum of M across all test cases does not exceed 8⋅103.
+
+Subtasks
+
+Subtask 1 (10 points): T≤10, N≤18, M≤80
+Subtask 2 (30 points): T≤10, N≤100, M≤400
+Subtask 3 (60 points): Original constraints.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+5 6
+2 4 3 5 1
+7 15
+6 3 12 4 5 1 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1 1 2 2 3 1 
+1 1 1 2 3 2 2 3 1 1 2 2 0 0 0 
+
+
+Explanation
+Test Case 1: 
+
+k=1: The only subsequence satisfying both the conditions is {1}.  
+
+The sum of all elements of this subsequence is 1.  
+Since there is only one element in the subsequence, we consider the second condition to be true.
+k=2: The only subsequence satisfying both the conditions is \{2\}.  
+
+The sum of all elements of this subsequence is 2.  
+Since there is only one element in the subsequence, we consider the second condition to be true.
+k=3: The subsequences satisfying both the conditions are \{3\} and \{2,1\}. For the subsequence \{2,1\}:
+
+The sum of all elements of this subsequence is 2+1=3.  
+There are 2 elements in the subsequence. The indices of these elements in the sequence are 1 and 5 respectively. Here, f(1,5) = \max_{i=1}^{5}A_i = 5 and \max(2, 1) = 2. Thus, f(1, 5) > \max(A_1, A_5).
+k=4: The subsequences satisfying both the conditions are \{4\} and \{3,1\}. For the subsequence \{3,1\}:
+
+The sum of all elements of this subsequence is 3+1 = 4.  
+There are 2 elements in the subsequence. The indices of these elements in the sequence are 3 and 5 respectively. Here, f(3,5) = \max_{i=3}^{5}A_i = 5 and \max(3, 1) = 3. Thus, f(3, 5) > \max(A_3, A_5).
+k=5: The subsequences satisfying both the conditions are \{3\}, \{4,1\} and \{2,3\}. For the subsequence \{2,3\}:
+
+The sum of all elements of this subsequence is 2+3=5.  
+There are 2 elements in the subsequence. The indices of these elements in the sequence are 1 and 3 respectively. Here, f(1,3) = \max_{i=1}^{3}A_i = 4 and \max(2, 3) = 3. Thus, f(1, 3) > \max(A_1, A_3).
+k=6: The only subsequence satisfying both the conditions is \{2,3,1\}.  
+
+The sum of all elements of this subsequence is 2+3+1=6.  
+There are 3 elements in the subsequence. The indices of these elements in the sequence are 1,3 and 5 respectively. Here, f(1,3) = \max_{i=1}^{3}A_i = 4 and \max(2, 3) = 3. Thus, f(1, 3) > \max(A_1, A_3). Similarly, f(3,5) = \max_{i=3}^{5}A_i = 5 and \max(3, 1) = 3. Thus, f(3, 5) > \max(A_3, A_5).
+
+
+
+
+Author:
+mazihang2022
+
+
+Editorial:
+https://discuss.codechef.com/problems/SUBSQ
+
+
+Tags:
+
+               
+                 dynamic-programming, ltime106, mazihang2022, medium, stack
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2774
+
+
+Date Added:
+19-01-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

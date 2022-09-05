@@ -1,0 +1,99 @@
+
+It's the year 2050!, and the war has begun between aliens and humans. The aliens have 
+placed mines in the battlefield, where the battlefield can be described as grid of
+size n∗m, where n denotes the number of rows numbered from 1 to n from top to bottom and m denotes the number of columns numbered from 1 to m from left to right.
+However, the human army knows the positions of the mines denoted by (x,y) in the field
+and you being the commander have been assigned a task.
+The task is described as follows:
+Given the number of mines x (1≤x≤n∗m) and their respective positions in the grid consisting
+of binary values 0 or 1, where a value of 1 in cell ( i , j ) ( 1≤i≤n,1≤j≤m ) denotes the presence of mine at 
+position (i,j) and a value of 0 in cell (i,j) denotes that the cell is free.
+Since the mines are quite heavy, the operation of relocating a mine is described as moving a 
+mine to either of its neighbouring side cells or leaving the mine in its current position only, 
+but you can only perform this operation once for every ith mine 1≤i≤x, in other words you 
+can move a mine from it's current position denoted by ( xi,yi ) to either of the 5 positions - ( xi−1,yi ), 
+( xi+1,yi ) , ( xi,yi−1 ), ( xi,yi+1 ), ( xi,yi ), such that the new position of the mine 
+remains inside the field. A cell can contain multiple mines after relocation.
+So, you need to relocate the mines in such a way that maximum number of cells 
+get free in the battlefield, incurring minimum damage.
+NOTE: 
+The operation of relocating a mine from it's current position to either of the 5 positions such 
+ that the new position of the mine remains inside the field can only be performed once for every 
+ mine.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains of a single line of input, two integers n,m. 
+Then next n lines contain m integers, either 0 or 1. 
+
+Output:
+For each testcase, output in a single line, maximum number of cells 
+get free in the battlefield.
+Constraints
+
+1≤T≤20
+1≤n,m≤40
+n∗m≤40
+
+Sample Input:
+2
+2 2 
+0 1 
+1 1 
+2 3 
+0 1 0 
+1 1 1 
+
+Sample Output:
+3 
+5 
+
+
+
+
+Author:
+5★hellb0y_suru
+
+
+Editorial:
+https://discuss.codechef.com/problems/CAC3
+
+
+Tags:
+
+               
+                 bitmasking, dynamic-programming, hellb0y_suru
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-03-2021
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

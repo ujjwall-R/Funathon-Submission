@@ -1,0 +1,109 @@
+
+Chef has a large integer and for storing it he has used an integer array named digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.
+Chef wants to increment the large integer by one and return the resulting array of digits.
+Input Format
+
+First line will contain T, number of testcases. Then the testcases follow.
+The first line of each test case contains an integer N, denoting the length of the array.
+The next line contains N space-separated integers D1,D2,…,DN, denoting the given array.
+
+Output Format
+For each test case, print a single line containing N space-separated integers of the resulting array.
+Constraints
+
+1 <= digits.length <= 100
+0 <= digits[i] <= 9
+digits does not contain any leading 0's.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+3
+1 2 3
+4
+4 3 2 1
+1
+9
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1 2 4
+4 3 2 2
+1 0
+
+
+Explanation
+first array represents the integer 123.
+Incrementing by one gives 123 + 1 = 124.
+Thus, the result should be [1,2,4].
+second array represents the integer 4321.
+Incrementing by one gives 4321 + 1 = 4322.
+Thus, the result should be [4,3,2,2].
+third array represents the integer 9.
+Incrementing by one gives 9 + 1 = 10.
+Thus, the result should be [1,0].
+
+
+
+Author:
+3★aniket_111
+
+
+Editorial:
+https://discuss.codechef.com/problems/ARRCHEF1
+
+
+Tags:
+
+               
+                 Arrays
+                 
+                     
+                     Data Structures
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+10-03-2022
+
+
+Time Limit:
+1 - 2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

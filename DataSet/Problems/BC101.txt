@@ -1,0 +1,66 @@
+
+Rahul is new to mathematics and doesn't know how to add two integers. Will you help him?
+Given two positivepositive integers, aa and bb, write a program to find the addition of a and b.   
+Input:
+2 positive integers, a and b, are given separated by space.
+Output:
+Output in a single line, the sum of a and b.
+Constraints
+
+1≤a,b≤104
+
+Sample Input:
+7 8
+Sample Output:
+15
+EXPLANATION:
+Given, 7 and 8, their sum is 15.
+
+
+
+Author:
+3★ayush163
+
+
+Editorial:
+https://discuss.codechef.com/problems/BC101
+
+
+Tags:
+
+               
+                 ayush163, cakewalk, math
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+9-04-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

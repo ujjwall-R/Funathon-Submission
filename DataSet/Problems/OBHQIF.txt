@@ -1,0 +1,102 @@
+
+Covid cases on campus are rising steadily and CTF has run out of space in Bakul and Parijaat! 
+There is no choice left but to convert the OBH hostel into a quarantine site as well. But there is a problem! Due to the interesting design choices of its architects, rooms are connected to each other through corridors and every room in the hostel is reachable from every other room. 
+Formally, we represent the area as a grid where all the OBH rooms are marked with '#' and the empty area is marked with '.'
+It is guaranteed that the set of all OBH rooms is connected. Two rooms are adjacent to each other if the rooms share at least one common side in the grid. We call a set of rooms connected iff for every pair of rooms in the set, there exists a sequence of squares beginning at the first room in the sequence and ending in the last room in the sequence such that every square in this sequence, shares a common side with the square that follows next in the sequence.
+Now, to make OBH a quarantine site, CTF (Covid Task Force) wants to split OBH into at least two sets of connected rooms such that it is impossible to reach a room in one set from a room in another set. To do this, they can remove (block off) any rooms in OBH from the grid. Help CTF find the minimum number of rooms they need to block off to divide OBH into at least two disconnected sets of connected rooms or report that it is impossible.
+Note: The problem statement was updated at 22:15 IST. There was an error in the problem statement. OBH must be split into at least two sets. Not exactly two. We are extremely sorry for any inconvenience caused. 
+Input Format
+The first line of input contains two integers nn and mm, the dimensions of the grid. The next nn lines contains m characters each, where each character ci,j∈{.,#} represents one cell of the area. OBH is guaranteed to be a connected set of rooms.
+Output Format
+Output a single integer k, the minimum number of rooms required to be removed to make OBH disconnected or print −1 to report that it is impossible.
+Constraints
+
+1≤n≤1000
+1≤m≤1000
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+10 32
+................................
+................................
+....#########......#########....
+...##.......##...##........##...
+..##.........##.##..........##..
+.##...........###............##.
+..##.........##.##..........##..
+...##.......##...##........##...
+....#########......#########....
+................................
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+
+
+Explanation
+Notice that if we remove the room at the center of the 2 hexagons, we separate OBH into two sets of connected rooms. This is clearly the minimum number of rooms we need to remove to achieve our goal. 
+Hack case note
+Find the buggy solution to this problem on GitHub or Drive.
+This problem is part of the DeCode contest, wherein you are given a problem (as given above) and its buggy solution (link in contest announcement). You have to submit a program that outputs a hack case to the buggy solution or you can submit the hack case directly as a text file (select TEXT as language while submitting). Your program's output or the hack case should satisfy the input constraints of the above problem.
+
+
+
+Author:
+4★akcube
+
+
+Editorial:
+https://discuss.codechef.com/problems/OBHQIF
+
+
+Tags:
+
+               
+                 akcube, graphs, super-hard, tarjan
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+4-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

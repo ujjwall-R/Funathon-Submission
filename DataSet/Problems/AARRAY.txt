@@ -1,0 +1,74 @@
+
+Alice has a non-negative integer array of size N. She asks Bob to find the start and end index(1-based) of smallest continuous subarray such that if she sorts that subarray then the complete array will be sorted. Print -1 if no such subarray exist.
+Input:
+
+First line will contain N, number of testcases. 
+Second line contains N space separated non-negative integers. 
+
+Output:
+For each testcase, output space separated start and end of continuous subarray
+Constraints
+
+1≤N≤106
+0≤arr[i]≤109
+
+Subtasks
+Subtask #1(100 points): Original Constraints
+Sample Input:
+5
+1 2 5 3 7
+
+Sample Output:
+3 4
+
+EXPLANATION
+If the subarray [5,3] is sorted then complete array is sorted.
+
+
+
+Author:
+pec_chapter
+
+
+Editorial:
+https://discuss.codechef.com/problems/AARRAY
+
+
+Tags:
+
+               
+                 looping, pec_chapter, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-06-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

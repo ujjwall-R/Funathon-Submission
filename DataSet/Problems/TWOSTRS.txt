@@ -1,0 +1,119 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+In Chefland, each citizen has their own personal string. Chef is no exception. Recently, his string broke and he went to a shop to get a new one.
+There are two strings in the shop: AA and BB. Chef may choose any substring AsAs of A (possibly empty) and any substring Bs of B (also possibly empty). Then, the shop assistant cuts these substrings out and sells a single string C=As+Bs (here, + denotes string concatenation) to Chef. For example, if A is "aba" and B is "cde", then some of the strings Chef can buy are "ba", "bac", "bacd", "ae", "d", "acde", "aba", "cde" or "abacde".
+Chef has seen a lot of strings in his life and he liked exactly N of them (numbered 1 through N). For each valid i, the i-th of these strings is denoted by Si and according to Chef, it has a beauty bi. Let's denote the number of substrings of C that are equal to Si by cnti(C). If Chef buys a string C, he says that the pleasure he gets from this string is ∑Ni=1cnti(C)⋅bi.
+What is the maximum possible pleasure Chef can get from a string he buys in the shop?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single string A.
+The second line contains a single string B.
+The third line contains a single integer N.
+The following N lines describe Chef's favourite strings. For each valid i, the i-th of these lines contains a string Si, followed by a space and an integer bi.
+
+Output
+For each test case, print a single line containing one integer ― the maximum pleasure.
+Constraints
+
+1≤T≤10
+1≤|A|,|B|≤103
+1≤N≤104
+1≤|Si|≤26 for each valid i
+1≤bi≤105 for each valid i
+A,B,S1,S2,…,SN contain only lowercase English letters
+S1,S2,…,SN are pairwise distinct
+the sum of |A| over all test cases does not exceed 2⋅103
+the sum of |B| over all test cases does not exceed 2⋅103
+the sum of N over all test cases does not exceed 2⋅104
+
+Subtasks
+Subtask #1 (20 points, time limit 2 seconds): |A|,|B|,N≤100
+Subtask #2 (30 points, time limit 1 second):
+
+the sum of |A| over all test cases does not exceed 500
+the sum of |B| over all test cases does not exceed 500
+
+Subtask #3 (50 points, time limit 1 second): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+hitech
+codechef
+3
+chef 3
+code 1
+eche 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+13
+
+
+Explanation
+Example case 1: Chef can buy the string C = "tech" + "echef" = "techechef". In this string C, one substring is "chef", there are no substrings "code" and two substrings are "eche". Chef's pleasure in this case is 1⋅3+0⋅1+2⋅5=13, which is the maximum possible pleasure.
+
+
+
+Author:
+4★sharepo
+
+
+Editorial:
+https://discuss.codechef.com/problems/TWOSTRS
+
+
+Tags:
+
+               
+                 Tries, Aho Corasick, Prefix Sum
+                 
+                     
+                     Advanced Data Structures, Advanced Algorithms, String Matching, Algorithms, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2702
+
+
+Date Added:
+15-01-2020
+
+
+Time Limit:
+1 - 2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

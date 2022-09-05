@@ -1,0 +1,104 @@
+
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+ 
+Trans bought a calculator at creatnx's store. Unfortunately, it is fake. It has many bugs. One of them is adding two numbers without carrying. Example expression: 12 + 9 will have result 11 in his calculator. Given an expression in the form a + b, please output result from that calculator.
+ 
+Input
+The first line contains an integer T denote the number of test cases. Each test case contains two integers a, b in a single line.
+ 
+Output
+Each test case, print answer in a single line.
+ 
+Constraints
+
+1 ≤ T ≤ 100
+1 ≤ a, b ≤ 109
+
+
+Subtasks:
+
+Subtask #1 (30 points): 1 ≤ a, b ≤ 9
+Subtask #2 (70 points): original constrains
+
+ 
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+12 9
+25 25
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+11
+40
+
+
+
+
+
+Author:
+6★chemthan
+
+
+Tester:
+6★melfice
+
+
+Editorial:
+https://discuss.codechef.com/problems/BUGCAL
+
+
+Tags:
+
+               
+                 Implementation
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1363
+
+
+Date Added:
+22-10-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

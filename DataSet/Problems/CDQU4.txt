@@ -1,0 +1,79 @@
+
+ 
+As we all know, a substring is a contiguous subsequence of characters of a word. For example, the substrings of the word cat would be c,a,t,ca,at,cat.  
+Given a String  S composed of only lower case characters, and a substring  X  also of lower case characters, your job is to remove all occurrences of X from S .    For example, if the String is “banana” and the substring is an, the resulting String would be “ba”.                                                                                                       If the resulting String has zero length, print “0” (without quotes).
+
+ 
+Input
+The first Line of Input will contain an Integer T, Denoting the number of Test Cases. The next 2T  Lines will contain two Strings  S and X, alternatively.
+Output
+For each test case, print the resulting String on a new line.
+Constraints
+Should contain all the constraints on the input data that you may have. Format it like:
+
+1 ≤ |S| ≤ 15 (30 Points)
+1 ≤ |S| ≤ 1000 (70 Points)
+1 ≤ |X| ≤ |S| 
+
+ 
+Example
+Input:
+2bananaanlolwutlolwutlolwutlol
+Output:
+bawutwutwut
+
+ 
+Explanation
+Removing all occurrences of ‘an’ from ‘banana’ results in ‘ba’.     Similarly, removing all occurrences of ‘lol’ from ‘lolwutlolwutlolwut’ results in ‘wutwutwut’.
+ 
+The Input and Output Format are to be followed STRICTLY. It is advised to use BufferedReader for this problem.
+
+
+
+
+Author:
+6★animesh_f
+
+
+Editorial:
+https://discuss.codechef.com/problems/CDQU4
+
+
+Tags:
+
+               
+                 animesh_f, cakewalk, cdqu2014, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+27-11-2014
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,81 @@
+
+Debanjan got a dinner date today and he would go to any extent to be at his best. He thinks that he can impress the girl by paying the bill all by himself. 
+Given the price of all the dishes that they order, determine if Debanjan can pay the bill if he has a balance of K.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Second line contains N and K, the number of dishes that they order and Debanjan's bank balance..
+Third Line contains N space separated integers A1,A2,...,AN, where each Ai denotes the price of the ith dish. 
+
+Output:
+For each testcase, output in a new line, if Debanjan can pay the bill alone or not. Print "YES"(without quotes) if he can, else print "NO"(without quotes).
+Constraints :
+
+1≤T≤10
+1≤N≤100
+1≤Ai≤100
+1≤K≤104
+
+Sample Input:
+2
+3 200
+60 30 70
+4 100
+
+50 50 30 90    
+Sample Output:
+YES
+NO
+
+EXPLANATION:
+Case 1: Total bill is 160. Debanjan has 200. So he can pay.
+Case 2: Total bill is 220. Debanjan has 100. So he cannot pay.
+
+
+
+Author:
+5★sandeep1103
+
+
+Editorial:
+https://discuss.codechef.com/problems/EN123
+
+
+Tags:
+
+               
+                 cakewalk, enoc2019, sandeep1103
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-10-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,88 @@
+
+Once the chef kept a meeting for knowing the views of his employees on the new dish introduced in his restaurant.
+The employees in the meeting are sitting around the round table.
+Chef has a list containing the order in which the employees will express their views about the new dish.
+The list has the initials of the name of the employees.
+Chef wants to find if the order of the initials in his list and the order in which the employees are sitting can be matched by rotating the table or not. The table can only be rotated in a clockwise direction.
+Help the chef to find whether the list is correct or not.
+All the initials are in uppercase.
+Input:
+
+The first line of the input contains the number of meetings m.
+The first line of each meeting consists of the order 'O' of the initials of employees in which they sat.
+The second line of each meeting consists of the list 'L' of initials of employees sitting in round table.
+
+Output:
+
+Print 'YES' if the order can be matched after rotation, else print 'NO' if it is incorrect.
+
+Constraints:
+
+1 ≤ m ≤ 100
+1 ≤ O,L ≤ 50   
+
+Sample Input:
+2
+ABCXHY
+CXHYAB
+ABCD
+CDBA
+
+Sample Output:
+YES
+NO
+
+Explanation:
+In the first case, the order of the initials can be matched by rotating the round table two times.
+1st rotation: BCXHYA ----->
+2nd rotation: ABCXHY
+In the second case, there is no possible way to turn the table in a clockwise direction to achieve the given order.
+
+
+
+Author:
+3★furious_127
+
+
+Editorial:
+https://discuss.codechef.com/problems/NEWD
+
+
+Tags:
+
+               
+                 easy-medium, furious_127, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-01-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

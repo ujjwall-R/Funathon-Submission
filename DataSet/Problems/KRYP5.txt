@@ -1,0 +1,116 @@
+
+ 
+"This cape belongs to your son. He will become the greatest hero of the universe."
+ The rebellion group on Krypton have decided to destroy the House of El. There are two rebellion groups on Krypton, and person of each rebellion group has a unique String ID associated with him/her .
+ The first group is of size N, and the second group is of size M. 
+ Let the array of String IDs of first group be denoted by A [ ], and that of second group be denoted by  B [ ] . 
+ Seg-El has decoded the pattern of these rebellion groups, and has decided to stop the chaos. 
+ He will choose an equal size subarray from both the arrays.
+Let the chosen size be X.
+So, let the subarray from the first group array A [ ] be Ai, Ai+1, …. Ai+X-1. 
+And, let the subarray from the second array B [ ] be Bj, Bj+1, ….Bj+X-1. 
+for 1 ≤ i ≤ N-X+1 and 1 ≤ j ≤ M-X+1 , where i is an index of A[ ] and j is an index of array B[ ] 
+ He decided to carry out the following operations - 
+
+Find Longest Common substring (LCS) of Ai+u and Bj+X-1-u , where 0<=u<=X-1. 
+Find LCS of Ai with all of these- Bj, Bj+1,…..Bj+X-1 
+Find LCS of Ai+X-1 with all of these- Bj, Bj+1,…..Bj+X-1
+Find LCS of Bj with all of these- Ai, Ai+1,…..Ai+X-1.
+Find LCS of Bj+X-1 with all of these- Ai, Ai+1, ……Ai+X-1.
+
+
+Seg-El has got to know a magical integer K
+All of the above mentioned LCS values must be greater than or equal to K.
+You need to help Seg-El in finding all possible number of combinations of equal sized subarrays in A [ ] and B[ ] which are satisfying the above mentioned condition.
+Two combinations are different if they are of different size, or in case atleast one constituent index is different.
+ 
+Input
+First line contains 2 space separated integers N and M, denoting the size of two arrays A[ ] and B [ ] respectively. 
+Second line contains an integer K denoting the magical integer. 
+ N lines follow. 
+Each of the N lines comprises a String ID of group A [ ].
+ M lines follow. 
+Each of the M lines comprises a String ID of group B[ ] 
+ 
+Output
+ Print the number of possible combinations as explained above.
+ 
+Constraints
+
+1 ≤ N,M ≤ 2000
+1 ≤ | Ai | ≤ 5000
+1 ≤ | Bi | ≤ 5000
+Summation of length of all strings in A [ ] ≤ 5000
+Summation of length of all strings in B [ ] ≤ 5000
+All strings contain lowercase alphabets.
+1 ≤ K ≤ 5000
+
+ 
+Example
+Input:
+3 3
+1
+aab
+aba
+jgh
+bad
+dea
+cef
+Output:
+5
+ 
+Explanation
+First way is to choose aab and bad.
+Second way is to choose aab and dea.
+Third way is to choose aba and bad.
+Fourth way is to choose aba and dea.
+Fifth way is to choose subarray aab,aba and bad,dea.
+
+
+
+Author:
+5★shivamg_isc
+
+
+Editorial:
+https://discuss.codechef.com/problems/KRYP5
+
+
+Tags:
+
+               
+                 codr2018, dynamic-programming, medium-hard, merge-sort-tree, shivamg_isc
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-02-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

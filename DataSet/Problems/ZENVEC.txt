@@ -1,0 +1,86 @@
+
+Zeno’s is a traveller, Zeno’s travel everyday but Zeno’s have a unique vehicle which travels  half distance and then takes rest for 22 minutes , then again travels half of the remaining distance and take rest again for 22 minutes and again goes for another half………..until he reaches his destination. 
+So help Zeno’s to find the total time taken by his vehicle to reach the final destination from current position.
+Input:
+
+First line will contain TT, number of testcases. Then the testcases follow. 
+The first line of each test case contains two space separated integers SS, denoting travelled distance till now in KMs, and DD destination distance in KMs both are from the initial condition. 
+(Taken Initial condition as 0KM0KM). 
+
+Output:
+
+For each test case print a single line containing a single integer denoting time to reach to his  destination. 
+Sometimes it’s difficult to predict the exact time taken by Zeno's vehicle, at that time simply print  −1−1.
+
+Constraints
+
+1≤T≤1051≤T≤105
+0≤S≤D≤1090≤S≤D≤109
+
+Subtasks
+
+100 points : Original Constraints
+
+Sample Input:
+   3
+   4500 4500
+   10 10000
+   0 1000000000
+
+Sample Output:
+    0
+   -1
+   -1
+
+EXPLANATION:
+Example−Case−1:−Example−Case−1:− Zeno’s already reach to his destination.
+Example−Case−2:− It's difficult to predict the exact time taken by zeno's vehicle.                                                                                                                                                                                             
+
+
+
+Author:
+4★mann2108
+
+
+Editorial:
+https://discuss.codechef.com/problems/ZENVEC
+
+
+Tags:
+
+               
+                 cakewalk, mann2108
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-02-2019
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

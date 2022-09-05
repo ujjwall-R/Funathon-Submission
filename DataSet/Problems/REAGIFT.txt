@@ -1,0 +1,79 @@
+
+It's Christmas time, Santa's friends are helping him to arrange the gifts. Franklin is a new member of Santa's group and he too help the others in arranging the gifts. Let n be the number of gifts. Santa has a unique technique of ordering ,he put a number on each gift and then he  write the order of the gifts on a piece of paper and give it to his friends .But Franklin being a new member does not know about this technique so he arrange the gifts haphazardly without maintaining the order. But then one of the other member told him about this technique. Franklin finds himself in deep trouble and asks for your help.
+You are given the order of the gifts that Santa has given on the paper and also the order by which Franklin arranges the gifts. You have to find the minimum number of swaps required to convert Franklin's order to Santa's. 
+Input:
+t:  No of test cases
+n:  No of gifts
+arr: elements written by Santa on the paper
+brr: order by which Franklin arranges the gifts  
+Output:
+t lines containing the minimum no of swaps required to convert brr to arr.  
+Constraints:
+1<=t<=100
+1<=n<=10^5
+1<=arr[],brr[]<=10^4  
+Sample Input:
+2
+4
+1 2 3 4
+2 3 1 4
+3
+1 3 2
+1 3 2   
+Sample Output:
+2
+0  
+Explanation:
+1st test case-
+If we swap 2 and 1 the array brr becomes [1,3,2,4] .Now  we have to swap 3 and 2 hence the array becomes [1,2,3,4].This the number of swaps is 2.
+2nd test case:
+Both the arrays are equal. So number of swaps is 0.  
+
+
+
+Author:
+3★avishake_maji
+
+
+Editorial:
+https://discuss.codechef.com/problems/REAGIFT
+
+
+Tags:
+
+               
+                 array, avishake_maji, c-plus-plus, jc22020, map, medium, swap
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+24-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

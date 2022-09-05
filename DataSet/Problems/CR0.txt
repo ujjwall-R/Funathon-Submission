@@ -1,0 +1,82 @@
+
+Hey congratulate you all for qualified upto final Round, but this is not the end, final round it still remaining for that you need to crack some more problems. So here we go.
+Our team is in confusion that how to work efficiect in given period of time. There are total N paper's out of which X are already checked and there are total K crew members to check the paper's.
+But now we want to divide the paper's among our crew member, how sholud we divide the paper among us such that all get same no. of paper with minimum possibility.
+Please help from this confusion as we running out of time.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+The first line of each test case contains three space separated integers N, K and X.
+where N and X are multiple of K.
+
+Output:
+
+For each test case print a single line containing a single integer denoting no. of paper with minimum possibility that each crew member get.
+
+Constraints
+
+1≤T≤1000 
+1≤K≤X≤N≤107
+
+Subtasks
+
+100 points : Original Constraints
+
+Sample Input:
+   2
+   20 4 8
+   15 3 9
+
+Sample Output:
+    3
+    2
+
+
+
+
+Author:
+4★mann2108
+
+
+Editorial:
+https://discuss.codechef.com/problems/CR0
+
+
+Tags:
+
+               
+                 beginner, cakewalk, ils42019, mann2108, mann2108
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-09-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

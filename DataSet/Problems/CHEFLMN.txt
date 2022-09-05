@@ -1,0 +1,93 @@
+
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Chef decided to order N lemons for a future Lemon Festival. The company "LemEx" that delivers lemons provides 3,000 yellow trucks and one red truck, and Chef wants to fully use them all. The trucks have identical capacities, so Chef wants each truck to transfer the same number of lemons.
+You are given a string M and an integer K. The decimal representation of the number N can be obtained by concatenating M with itself K times, e.g. if M=903 and K=3, it means that N=903903903. You are not allowed to add any leading zeroes to this decimal representation, however, it may initially contain leading zeroes.
+It could be possible that N lemons cannot be delivered while satisfying the given rule. Therefore, Chef may change an arbitrary number of digits (possibly zero) in the decimal representation of N, i.e. choose a number of positions in this string and change each of the digits at these positions to a different digit. However, it is not allowed to change two or more digits with identical original values (at different positions). There are no restrictions on the resulting values of any digits; specifically, the resulting number is also allowed to contain leading zeroes.
+Find the number of ways to change the number N so that all lemons can be delivered by LemEx. Since this number can be very large, we ask you to compute it modulo 109+7.
+Input
+The first and only line of the input contains a string M, followed by a space and an integer K. 
+Output
+Print a single line containing one integer — the number of ways to change the number of lemons modulo 109+7.
+Constraints
+
+1≤|M|≤1,000,000
+1≤K≤109
+each character of M is a digit between '0' and '9' inclusive
+M may contain leading zeroes
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3012 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+
+
+Explanation
+We have M equal to "3012" and K=1, so N=3012 (once repeated M). The decimal representation of N can be changed to "0000" (the number 0), "3001", "6002" or "9003".
+
+
+
+Author:
+4★hloya_ygrt
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHEFLMN
+
+
+Tags:
+
+               
+                 Modular Arithmetic, Dynamic Programming
+                 
+                     
+                     Mathematics, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3218
+
+
+Date Added:
+15-05-2018
+
+
+Time Limit:
+1.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

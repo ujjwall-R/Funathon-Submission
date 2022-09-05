@@ -1,0 +1,76 @@
+
+Teacher brought a fruit basket for three students. The basket contains only Apples, Mangoes and Oranges. Student A knows a value aa, the total number of Apples and Mangoes in the Basket, B knows a value bb, the total number of Mangoes and Oranges in the basket and Student C knows a value cc, the total number of Oranges and Apples in the Basket. Since the teacher brought it he knows a value d , the total number of fruits in the basket. You have to determine the exact number of Apples , Mangoes and Oranges in the basket separately.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains of a single line of input, four integers a,b,c,d. 
+
+Output:
+For each testcase, output in a single line the number of Apples , Mangoes and Oranges in this order.
+Constraints
+
+1≤T≤100
+0≤a≤1000
+0≤b≤1000
+0≤c≤1000
+0≤d≤1000 
+
+-The Solution always exisits
+Sample Input:
+2
+
+7 9 8 12
+3 8 7 9
+Sample Output:
+3 4 5
+
+1 2 6
+
+
+
+Author:
+6★kkdrummer
+
+
+Editorial:
+https://discuss.codechef.com/problems/COW3A
+
+
+Tags:
+
+               
+                 cakewalk, cow42020, kkdrummer
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+20-04-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

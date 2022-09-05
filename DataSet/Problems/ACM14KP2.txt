@@ -1,0 +1,84 @@
+
+Given an array aa of nn integers. You need to swap adjacent numbers exactly kk times. The goal is to minimise the number of inversions after exactly k swaps.
+An inversion is a pair (i,j) such that i<j and ai>aj
+Input
+
+The first line contains an integer T indicating the number of test cases. For each test case, there are two lines in total. 
+The first line contains two space separated integers - n and k.
+The second line contains n space separated integers, the ith of which is ai.
+
+Output
+Output T lines in total. Each line should start with "Case #: " and followed by the minimum inversions after swaps. Here "#" is the number of the test case starting from 1.
+Constraints
+
+1≤T≤10
+2≤n≤100000
+0≤k≤1000000
+1≤ai≤n
+
+Example Input
+3
+3 3
+3 2 1
+3 1
+1 2 3
+3 2
+1 2 3
+
+Example Output:
+Case 1: 0
+Case 2: 1
+Case 3: 0
+
+Explanation
+Test Case 1: (32)1 --> 231 --> 2(31) --> 213 --> (21)3 --> 123
+Test Case 2: (12)3 --> 213.
+
+
+
+Author:
+admin
+
+
+Editorial:
+https://discuss.codechef.com/problems/ACM14KP2
+
+
+Tags:
+
+               
+                 acmkgp14, admin, easy-medium, fenwick-tree, segment-tree, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+18-09-2014
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3
+
+
+
+
+
+Submit
+

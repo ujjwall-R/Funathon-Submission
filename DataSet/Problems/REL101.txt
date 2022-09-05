@@ -1,0 +1,82 @@
+
+
+This is the time of i.Fest'16. So, Mr. P decided to call his "Very Good Friend". His friend has a lot of attitude as she is very beautiful. She gave him a question and told him that she will accept his invitation if and only if he will give correct answer of her question. As Mr. P desperately wants to see her and being super busy for i.Relay event, he asks for your help. Now your task is to help Mr. P. The question asked by his "Very Good Friend" is: Given an array of N elements. You have to count the minimum number of replacement require to make all the numbers in array similar. The range of every element of array is from 1 to 9 inclusive.
+
+Input
+
+First line contains T, the number of test cases.
+Each test case consists of one integer N, size of the array.
+Next line contains contains N single digit integers.
+
+Output
+
+Print minimum number of replacement as stated in the problem.
+
+Constraints
+
+1 <= T <= 100
+1 <= N <= 100000
+Each integer in the array are between 1 to 9 inclusively.
+
+Example
+Input:
+1
+9
+1 3 2 2 2 1 1 2 3
+
+Output:
+5
+
+Explanation
+
+Self Explanatory :-)
+
+
+
+
+Author:
+5★black_well
+
+
+Editorial:
+https://discuss.codechef.com/problems/REL101
+
+
+Tags:
+
+               
+                 black_well, cakewalk, hashing, irly2016
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-10-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,93 @@
+
+ 
+Fluffy the squirrel is reading a book. The page numbers of the current pages that Fluffy is reading are two consecutive numbers, for example pages 8 and 9, pages 2015 and 2016 are both possible pages that Fluffy is reading.
+
+The naughty bird Flippy has erased some of the digits from the page numbers, which made Fluffy mad because he can't know which page he's currently on. Thus, he wonders what the possible page numbers of the two pages are. You're given the two numbers (note that they are consecutive, since they are two neighbouring pages), with some of its digits replaced with a question mark ('?'). Your task is to figure out all possibilities that the page numbers could've been.
+Note : The page numbers are positive, i.e. they are strictly larger than 0.
+ 
+Input
+The input consists of two lines. Both lines contain a string of digits, where some of its digits are replaced with '?'. The first line contains the smaller page number while the second one contains the larger page number. It is guaranteed that there are no leading zeroes (there can be leading question marks though), and both strings have equal length.
+Output
+First, output a single integer, n, denoting the number of possible page numbers. Next, print n lines. On each line, print two space-seperated integers, denoting a pair of integers that might have been the page numbers. The first integer must be smaller than the second integer. Both integers must not have leading zeroes and must match the string of digits. (the '?' can be any digit from 0 to 9) 
+
+Moreover, you should print the possible answers in increasing order, i.e. the first number of an earlier pair must be smaller than the first number of a later pair.
+
+See the sample for more details.
+Constraints
+
+ The number has at most 5 digits. 
+
+Subtasks
+
+Subtask 1 (15 points) : The number has at most 1 digit.
+Subtask 2 (85 points) : Original Constraints
+
+Example
+Input:
+??3
+?24
+
+Output:
+9
+123 124
+223 224
+323 324
+423 424
+523 524
+623 624
+723 724
+823 824
+923 924
+
+ 
+Explanation
+Example case 1. Indeed, there are only 9 possible pairs of numbers that match the given strings. Note that (023, 024) is invalid since leading zeroes are not allowed. Also note that the answers are printed in increasing order.
+
+
+
+Author:
+6★zscoder
+
+
+Editorial:
+https://discuss.codechef.com/problems/MCO16101
+
+
+Tags:
+
+               
+                 brute-force, cakewalk, zscoder
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+18-10-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, CPP14, PYTH, PYP3
+
+
+
+
+
+Submit
+

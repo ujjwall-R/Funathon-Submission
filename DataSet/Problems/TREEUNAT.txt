@@ -1,0 +1,112 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+You are given a tree with NN vertices (numbered 11 through NN) and a bag with N markers. There is an integer written on each marker; each of these integers is 0, 1 or 2. You must assign exactly one marker to each vertex.
+Let's define the unattractiveness of the resulting tree as the maximum absolute difference of integers written on the markers in any two vertices which are connected by an edge.
+Find the minimum possible unattractiveness of the resulting tree.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers denoting the numbers on markers in the bag.
+Each of the next N−1 lines contains two space-separated integers u and v denoting an edge between vertices u and v.
+
+Output
+For each test case, print a single line containing one integer — the minimum unattractiveness.
+Constraints
+
+1≤T≤30
+1≤N≤100
+1≤u,v≤N
+the graph described on the input is a tree
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+3
+0 1 1
+1 2
+1 3
+3
+0 1 2
+1 2
+1 3
+4
+2 2 2 2
+1 2
+1 3
+3 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+1
+0
+
+
+Explanation
+Example case 1:
+
+
+
+Author:
+admin2
+
+
+Editorial:
+https://discuss.codechef.com/problems/TREEUNAT
+
+
+Tags:
+
+               
+                 DP on Trees, Dynamic Programming, DFS, Implementation
+                 
+                     
+                     Advanced Algorithms, Advanced DP, Algorithms, Graph Algos, Traversals
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2920
+
+
+Date Added:
+13-11-2018
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

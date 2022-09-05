@@ -1,0 +1,116 @@
+
+Dragonado rarely gets stuck on a problem, unless of course, if it's a XOR Problem. 
+Dragonado while coming back from the Fruit Market, finds an array AA of NN elements. He wants to find 4 integers, say i1,i2,i3 and i4, such that:
+
+popcount(Ai1⊕Ai2)=popcount(Ai3⊕Ai4)
+1≤i1,i2,i3,i4≤N and  i1,i2,i3,i4 are pairwise distinct. 
+
+Here, popcount(x) denotes the number of set bits in the binary representation of x. Secondly, ⊕ denotes the bitwise XOR operation.
+Can you help Dragonado find four integers i1,i2,i3 and i4 which satisfy the given conditions?
+Output −1 if no answer exists.
+If multiple answers exist, output any.
+Note: The input of this problem is large, so use fast input/output methods.
+Input Format
+
+The first line contains a single integer T - the number of test cases. Then the test cases follow.
+The first line of each test case contains an integer N - the size of the array A.
+The second line of each test case contains N space-separated integers A1,A2,…,AN denoting the array A.
+
+Output Format
+For each test case, output i1,i2,i3,i4 which satisfy the given conditions. 
+Output −1 if no numbers satisfying the conditions exist.
+Constraints
+
+1≤T≤104
+4≤N≤105
+1≤Ai≤109
+It is guaranteed that sum of N over all test cases does not exceed 2⋅106
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+4
+1 2 5 6
+4
+1 2 3 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1 4 2 3
+-1
+
+
+Explanation
+Test case-1: 1,4,2,3 is a valid answer because:
+
+popcount(A1⊕A4)=popcount(7)=3
+popcount(A2⊕A3)=popcount(7)=3
+
+Therefore, popcount(Ai1⊕Ai2)=popcount(Ai3⊕Ai4)
+Test case-2: We can prove that no i1,i2,i3,i4 exist that satisfy the given conditions. 
+
+
+
+Author:
+6★very_slow
+
+
+Tester:
+7★tabr
+
+
+Editorial:
+https://discuss.codechef.com/problems/NANDXOR
+
+
+Tags:
+
+               
+                 brute-force, cook139, easy-medium, pigeonhole, very_slow
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2480
+
+
+Date Added:
+1-03-2022
+
+
+Time Limit:
+1.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,145 @@
+
+You are given an array A=[A1,A2,…,AN]A=[A1,A2,…,AN] containing NN elements. You are also given QQ ordered pairs of integers, where the i-th pair is denoted (xi,yi).
+A subsequence of A, say [Ai1,Ai2,…,Aik], is said to be magical if the following condition is satisfied:
+
+For each 1≤j<k, (Aij,Aij+1) must be among the given Q pairs. That is, each consecutive pair of elements in this subsequence must be among the given Q pairs.
+
+Find the length of the longest magical subsequence of A, and print the indices of one such longest subsequence. 
+If there are multiple longest magical subsequences, you may print the indices of any of them.
+Note: Array contains at least one valid subsequence of length greater than or equal to 2.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases.
+The first line of each test case contains an integer N, denoting the length of the array.
+The second line of each test case contains N space-separated integers representing the elements of the array.
+The third line of each test case contains an integer Q, denoting the number of pairs.
+The i-th of the next Q lines contains two space-separated integers xi and yi — the i-th ordered pair.
+
+Output Format
+For each test case, print two lines.
+
+The first line should contain a single integer K — the length of the longest magical subsequence of A. 
+The second line should contain K space-separated integers in ascending order, denoting the indices of the magical subsequence you found.
+
+In case there are multiple answers, print any of them.
+Constraints
+
+1≤T≤50
+1≤N≤105
+1≤Ai≤106
+1≤Q≤105
+1≤xi,yi≤106
+The sum of N over all test cases does not exceed 2⋅105.
+The sum of Q over all test cases does not exceed 2⋅105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+7
+1 3 2 8 3 7 6
+5
+3 7
+3 3
+3 8
+8 7
+8 6
+5
+1 2 1 2 1
+5
+2 1
+3 1
+1 1
+3 2
+1 2
+4
+1 2 1 4
+5
+1 3
+1 1
+1 4
+2 4
+4 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+2 4 7 
+5
+1 2 3 4 5 
+3
+1 3 4 
+
+
+Explanation
+Test case 1:  The length of the longest magical subsequence is 3. One such subsequence is [3,8,6], given by indices [2,4,7]. The adjacent pairs are (3,8) and (8,6), both of which are among the given pairs.
+Test case 2: The length of the longest magical subsequence is 5 — take the entire array. Adjacent elements are (1,2) and (2,1), both of which are in the given pairs.
+Test case 3: The length of the longest magical subsequence is 3. One such subsequence of length 3 is [1,1,4], with indices [1,3,4]. Adjacent elements are (1,1) and (1,4), which are among the given pairs.
+
+
+
+Author:
+5★mystic_ankush
+
+
+Tester:
+5★tejas10p
+
+
+Editorial:
+https://discuss.codechef.com/problems/MSUB121
+
+
+Tags:
+
+               
+                 Frequency Arrays, Dynamic Programming, Subsequence
+                 
+                     
+                     Data Structures, Arrays, Algorithms, Groupings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3072
+
+
+Date Added:
+28-12-2021
+
+
+Time Limit:
+1.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,88 @@
+
+ 
+There are N cards. Each card has a number from 1 to N. Chef is playing a card game with his friend where N cards are shuffled and distributed alternatively among the two. The players can see the card after serving. 
+Both players throw in the highest card they have. The player with the higher card value wins that round. The game goes on till both players have no card left. The player who wins more number of rounds wins the game.
+ 
+Input
+First line of input contains T - the number of test cases. First line of each test case consists of N. Second line of each test case consists of N numbers denoting the cards distributed in order mentioned above.
+ 
+Output
+For each test case, output a single line containing the answer required as follows:
+If Chef 1 wins more number of rounds print "1" without quotes.
+If Chef 2 wins more number of rounds print "2" without quotes.
+If Chef 1 and Chef 2 win equal number of rounds print "draw" without quotes.
+ 
+Constraints
+
+1 ≤ T ≤ 100
+1 ≤ N ≤ 100000. N is always even.
+
+ 
+Example
+Input:
+3
+6
+6 3 1 4 2 5
+8
+6 3 1 2 5 4 7 8
+10
+10 9 7 8 5 6 4 3 2 1
+
+
+Output:
+2
+draw
+1
+
+ 
+Explanation
+Example case 1:Cards chef 1 has 6, 1, 2. Cards chef 2 has 3, 4, 5. Assuming they always play their highest card so plays are as follows:
+6 5 So, chef 1 won
+2 4 So, chef 2 won
+1 3 So, chef 2 won
+Since chef 2 won 2 games out of 3, answer is 2.
+
+
+
+Author:
+2★nerdyninja
+
+
+Tags:
+
+               
+                 codechef, nerdyninja, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+28-01-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

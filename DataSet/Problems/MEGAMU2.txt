@@ -1,0 +1,185 @@
+
+Read problem statements in Mandarin, Vietnamese, and Russian as well.
+A positive integer N≥1 is given.
+An N-uple (x1,x2,…,xN) of nonnegative integers is special if, after we remove all entries which are zero, its entries are nondecreasing. For example (0,2,0,0,4,0,4,5,0,0) is special, but (3,2,0) and (0,1,3,0,0,1,0) are not.
+One can show that there is a unique function μ defined on the N-uples of nonnegative integers such that, for any N-uple x=(x1,x2,…,xN)
+∑y≤xμ(y)={1if x is special0otherwise,
+where the sum ranges over all N-uples y=(y1,y2,…,yN) of nonnegative integers such that yi≤xi for all 1≤i≤N.
+You are given N,M≥1. Compute the remainder modulo 998244353 of the number of N-uples x=(x1,x2,…,xN) such that 0≤xi≤M for all 1≤i≤N and μ(x)=0.
+Input Format
+
+The only line contains two positive integers N, M, the size of the tuples and the maximum possible value of the entries of the tuples.
+
+Output Format
+Print the the number of N-uples x=(x1,x2,…,xN) such that 0≤xi≤M for all 1≤i≤N and μ(x)=0. As it can be large, print it modulo 998244353.
+Constraints
+
+1≤N≤100
+1≤M≤100
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+
+
+Explanation
+For N=1, one can prove that μ((0))=1 and μ((k))=0 for all k≥1. Hence, since M=3, the 1-uples x such that μ(x)=0 are (1), (2) and (3). Therefore the answer to the first sample is 3.
+
+                        Sample Input 2
+                        
+
+
+
+
+
+2 100
+
+
+
+                        Sample Output 2
+                        
+
+
+
+
+
+10002
+
+
+Explanation
+For N=2, one can prove that μ((0,0))=1, μ((k,k))=1 and μ((k,k−1))=−1 for all k≥2, and all other values of μ are 0. Hence, since M=100, the 2-uples with nonzero μ are 1+99+99=199: (0,0), (2,2), (3,3), …, (99,99), (100,100), (2,1), (3,2), …, (100,99). Therefore the answer to the second sample is 1012−199=10002.
+
+                        Sample Input 3
+                        
+
+
+
+
+
+3 4
+
+
+
+                        Sample Output 3
+                        
+
+
+
+
+
+92
+
+
+
+                        Sample Input 4
+                        
+
+
+
+
+
+4 5
+
+
+
+                        Sample Output 4
+                        
+
+
+
+
+
+1083
+
+
+
+                        Sample Input 5
+                        
+
+
+
+
+
+100 100
+
+
+
+                        Sample Output 5
+                        
+
+
+
+
+
+401393924
+
+
+
+
+
+Author:
+7★dario2994
+
+
+Editorial:
+https://discuss.codechef.com/problems/MEGAMU2
+
+
+Tags:
+
+               
+                 Mathematics, Dynamic Programming
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+9999
+
+
+Date Added:
+19-11-2021
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

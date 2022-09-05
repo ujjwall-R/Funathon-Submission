@@ -1,0 +1,72 @@
+
+Snow Leopard has been given an integer ‘n’. Now he has to tell whether 2n can be written as a sum of two prime numbers or not.
+Please help him calculate this efficiently.
+Input - 
+The first line has a number T, indicating the number of test cases.
+Next T lines contain a number 'n' each.
+Output - 
+T lines printing “YES” or “NO” if it can be written as a sum of two prime numbers or not(w/o “”)
+Constraints - 
+1<= T <= 10^6
+0<= n <= 10^6
+Example
+Input:
+1
+2
+
+Output:
+YES
+
+Explanation
+Case 1: 
+Since 4 can be written as a sum of two prime numbers(2+2) 
+
+
+
+
+Author:
+prog_iitmandi
+
+
+Editorial:
+https://discuss.codechef.com/problems/SNOWPRIM
+
+
+Tags:
+
+               
+                 cakewalk, maths, prime, prog_iitmandi
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+23-03-2015
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,109 @@
+
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef has met up with his old friend Jack recently. Jack told Chef that he found a recipe for an ancient dish, but unfortunately, it is locked in a safe and to open the safe, it is necessary to enter the solution to the following problem.
+There is a sequence of non-negative integers A1,A2,…,ANA1,A2,…,AN on the safe. Find the number of pairs (l,r)(l,r) (1≤l≤r≤N1≤l≤r≤N) which satisfy the condition (Al∨Al+1∨…∨Ar)⊕(Al∧Al+1∧…∧Ar)≥max(Al,Al+1,…,Ar).
+Here, ⊕ denotes bitwise XOR, ∨ denotes bitwise OR and ∧ denotes bitwise AND.
+Jack and Chef cannot think of anything except the recipe, so you are asked to open the safe.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1,A2,…,AN.
+
+Output
+For each test case, print a single line containing one integer ― the number of pairs (l,r) that satisfy the given condition.
+Constraints
+
+1≤N≤106
+0≤Ai<260 for each valid i
+the sum of N over all test cases does not exceed 106
+
+Subtasks
+Subtask #1 (10 points): for each valid i, Ai is a power of 2
+Subtask #2 (30 points):
+
+Ai≤3⋅105 for each valid i
+the sum of N over all test cases does not exceed 3⋅105
+
+Subtask #3 (60 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+4
+0 1 2 3
+6
+1 3 5 6 4 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+6
+11
+
+
+Explanation
+Example case 1: The pairs (l,r) satisfying the condition are (1,1), (1,2), (1,3), (1,4), (2,3) and (2,4).
+
+
+
+Author:
+6★karpovich
+
+
+Editorial:
+https://discuss.codechef.com/problems/LCKDSAFE
+
+
+Tags:
+
+               
+                 Advanced Divide and Conquer, Two pointers
+                 
+                     
+                     Advanced Algorithms, Algorithms, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2738
+
+
+Date Added:
+24-02-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

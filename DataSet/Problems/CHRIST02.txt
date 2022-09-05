@@ -1,0 +1,90 @@
+
+Raju is a generous man. So, he decided to give people the gifts of there choice to make them happy. He goes to the people, shows them his "decision tree" and asks a simple question. If the person is able to answer correctly then he/she gets the desired gift. Now, Raju has knocked your door and now it's your turn to grab the gift.                                                  
+Raju's "decision tree" is a special tree having NN nodes and N−1 edges and each node is having a specific value attached to it. Each node is connected to every other node through a simple path. No two nodes have the same value attached to them. He gives 2 nodes from the tree U,V and 2 numbers L,R and asks to tell the number of nodes on the path between U and V (including U,V) that have the value attached to them lying between L to R inclusive. 
+Input:
+
+First-line contains 2 integers N,Q, where N is the number of nodes in the tree and Q is the number of queries.                            
+Next line contains N integers denoting the value at each node of the tree                      
+Next N−1 lines contain 2 integers each U,V denoting that there is an edge between U and V 
+Next Q lines contain Q queries of the form A B L R
+let us define last as the answer to the previous query (if it is the first query then last=0), the parameters can be calculated by :
+U = ( A Xor last ) % n + 1
+V = ( B Xor last ) % n + 1 
+
+Output:
+Print the answer of each query in a new line.                                  
+Constraints
+
+1≤N,Q≤105 
+1≤Values attached to nodes≤109 
+1≤U,V,A,B≤N 
+1≤L≤R≤109 
+
+Subtasks
+
+10 points : 1≤N,Q≤1000 
+20 points : 1≤Values attached to nodes≤106 
+70 points : Original constraints 
+
+Sample Input:
+5 1
+1 2 3 4 5
+1 2
+2 3
+2 4
+1 5
+3 5 2 5          
+Sample Output:
+2                    
+Explanation:
+U = ( 3 Xor 0 ) % 5 + 1 = 4
+V = ( 5 Xor 0 ) % 5 + 1 = 1 
+
+
+
+Author:
+5★eunoia_1729
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHRIST02
+
+
+Tags:
+
+               
+                 algorithm, eunoia_1729, ghc32020, heavy-light-decomposition, lowest-common-ancestor, medium-hard, merge-sort-tree
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+2-12-2019
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

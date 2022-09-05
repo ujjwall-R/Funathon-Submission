@@ -1,0 +1,89 @@
+
+ 
+Chef met his best friend Alan Turing today for watching the Football finals. Chef tells Alan that "The team who has scored most number of goals throughout the season is going to win today's finals".
+Alan wants to prove that Chef is wrong. He knows about the goals scored by all the N teams through out the season except the finals. If the top two scoring teams are in the finals Chef is right and and if not then Chef is wrong. Help Alan to prove if Chef is right or wrong.
+ 
+Input
+First line of input contains T - the number of test cases. First line of each test case consists of N.Next line will have two strings F1 and F2 the teams in the finals.Next N lines will have team name and score in format X Y. Here X stands for team name (without spaces) and Y stands for number of goals scored by the team X throughout the season.
+
+ 
+Output
+For each test case, output a single line consisting the answer right or wrong as mentioned above.
+ 
+Constraints
+
+1 ≤ T ≤ 100
+3 ≤ N ≤ 10
+1 ≤ |X|, |F1|, |F2| ≤ 10
+Y is distinct in each test case for all teams
+1 ≤ sum of all Y ≤ 108
+
+ 
+Example
+Input:
+2
+3
+ManUtd Chelsea
+ManUtd 10
+Chelsea 9
+ManCity 7
+3
+ManUtd ManCity
+ManUtd 9
+Chelsea 8
+ManCity 7
+
+Output:
+right
+wrong
+
+
+ 
+Explanation
+In first test case, both Chelsea and ManUtd are top scorers of the season so its right. 
+In second test case, ManCity is not one of the top two scorers of the season.
+
+
+
+Author:
+2★nerdyninja
+
+
+Tags:
+
+               
+                 codechef, nerdyninja, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+31-01-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

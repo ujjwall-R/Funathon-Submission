@@ -1,0 +1,92 @@
+
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are the owner of a big company. You are so rich, that the government has allowed you to print as many notes as you want of any single value that you like. You also have peculiar behavioral traits and you often do things that look weird to a third person. 
+You have N employees, where the i-th employee has salary Ai. You want to pay them using a denomination that you create. You are also eco-friendly and wish to save paper. So, you wish to pay them using as few notes as possible. Find out the minimum number of notes required if you can alter the salary of at most one employee to any positive integer that you like, and choose the positive integer value that each note is worth (called its denomination).
+Each employee must receive the exact value of his/her salary and no more.
+Input
+
+The first line contains an integer T, the number of test cases. Then the test cases follow.
+The first line of each test case contains a single integer N.
+The second line contains N integers A1,A2,…,AN, where Ai is the salary of the i-th employee.
+
+Output
+For each test case, output in a single line the answer to the problem.
+Constraints
+
+1≤T≤12⋅104
+1≤N≤105
+1≤Ai≤109
+The sum of N over all test cases is at most 106.
+
+Subtasks
+Subtask #1 (100 points): Original constraints
+Sample Input
+3
+3
+1 2 3
+3
+8 4 2
+2
+2 2 
+
+Sample Output
+4
+4
+2
+
+Explanation
+Test Case 1: We can change the salary of the third person to 1 and use 1 as the denomination. So in total we need 11+21+11 = 1+2+1 = 4 notes.
+Test Case 2: We can change the salary of the first person to 2 and use 2 as the denomination. So in total we need 1+2+1 = 4 notes.
+Test Case 3: We can use 2 as the denomination and we need not change the salary of any person. So in total we need 1+1 = 2 notes.
+
+
+
+Author:
+5★akashbhalotia
+
+
+Editorial:
+https://discuss.codechef.com/problems/MINNOTES
+
+
+Tags:
+
+               
+                 GCD, Prefix Sum, Suffix Sum
+                 
+                     
+                     Mathematics, Number Theory, Algorithms, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-06-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

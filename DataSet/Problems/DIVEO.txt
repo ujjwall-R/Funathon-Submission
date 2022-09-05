@@ -1,0 +1,103 @@
+
+Chef has an integer NN. He repeats the following operation until NN becomes 11.
+
+Chef chooses an integer X such that X>1 and X is a divisor of N and then divides N by X (the new value of N becomes N/X). If X is even, Chef gets A points otherwise he gets B points
+
+Can you find the maximum points Chef can get if he performs the operations optimally?
+Input Format
+
+First line will contain T, number of testcases. Then the testcases follow.
+Each testcase contains of a single line of input containing three integers N,A,B.
+
+Output Format
+For each testcase, output in a single line the maximum points Chef can get.
+Constraints
+
+1≤T≤2⋅103
+2≤N≤109
+−103≤A,B≤103
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4
+10 2 3
+15 5 -2
+12 2 3
+8 -1 0
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+5
+-2
+7
+-1
+
+
+Explanation
+Test case 1: First Chef divides N=10 by 2 and gets 2 points and then divides by 5 and thus gets 3 points. Hence Chef gets a total of 2+3=5 points.
+Test case 2: Chef divides N by 15. Hence he gets −2 points.
+
+
+
+Author:
+5★soumyadeep_21
+
+
+Editorial:
+https://discuss.codechef.com/problems/DIVEO
+
+
+Tags:
+
+               
+                 Case work, Integer Factorisation, ad-hoc
+                 
+                     
+                     Special, Mathematics, Number Theory, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1923
+
+
+Date Added:
+5-10-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

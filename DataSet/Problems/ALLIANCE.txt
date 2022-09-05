@@ -1,0 +1,125 @@
+
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+
+Treeland is a country consisting of N cities numbered from 1 to N. The road network connecting these cities has tree structure, i.e. there is exactly one way of going from a city to another city via a path of roads.
+
+There are K gangs living in the city, numbered from 1 to K. Gangs operate  over various cities, engaging in illicit trades. There might be more than one gangs operating in some cities. Sometimes they form alliances by grouping up with other gangs, thus making the city even more unsafe. They significantly increase their reach of the cities they control. Specially, the region controlled by the alliance will be the all the cities where some gang in the alliance operates, and also all the cities which lie in a path between some two cities controlled by the alliance.
+
+
+Chef being a mayor of Treeland wants to choose one city as the capital, in which he will establish headquarter of police department. But first, he wants to make some investigations, by finding the answers of following queries. Can you please help him in this?
+
+
+In each query, you will be given the city Chef wants to be the capital. Also, you will be given some set of gangs out of the above K gangs. For this query, assume that only the given set of gangs are operating in the city, others are inactive or perhaps caught up and put in the jail. Chef wants to catch some member of the alliance formed by the operating gangs, so that he can get the information about the members of entire alliance. For that, he wants to find out the nearest distance of some city controlled by the alliance from the capital city. It might be the case that the capital itself is controlled by the alliance, in that case nearest distance will be zero, obviously. 
+
+
+Please note that all the queries are independent of each other.
+
+Input
+The first line of the input contain an integer N, denoting the number of cities in Treeland.
+Each of the next N-1 lines contains two space separated integers, u, v, denoting that city u and v are connected by a road.
+The next line contains an integer K, denoting the number of gangs operating in Treeland.
+Each of the next K lines provides a description of cities controlled by a gang. In particular, in the i-th line, you will be provided some space separated integers - first integer ci will denote the number of cities controlled by the i-th gang, which will be followed by ci integers denoting the list of cities controlled by the gang.
+Next line contains an integer Q, denoting the number of queries Chef wants you to answer.
+Next Q lines contain description of the queries, one query per line. The first integer will denote the capital city V, followed by an integer ti denoting the number of gangs active for the purpose of this query, followed by  ti integers denoting the list of the gangs.
+Output
+For each query, output a single integer corresponding to the answer of the query.
+Constraints
+
+1 ≤ N ≤ 500,000
+1 ≤ K ≤ 500,000
+1 ≤ Q ≤ 500,000
+1 ≤ sum of ci over all the K gangs ≤ 500,000
+1 ≤ sum of ti over all the Q queries ≤ 500,000
+1 ≤ ci ≤ N
+1 ≤ ti ≤ K
+For each gang i in the input, the list of cities controlled by the gang won't contain repeated elements
+For each query, the list of gangs active won't contain repeated elements.
+
+Example
+Input:
+7
+1 2
+1 3
+2 4
+2 5
+3 6
+3 7
+2
+2 6 7
+1 4
+3
+5 1 2
+1 1 1
+5 2 1 2
+Output:
+2
+1
+1
+
+Explanation
+In query 1,  There is only one active gang for this query, i.e. gang 2. Gang 2 operates in city 4. Their alliance will control city 4 itself. Chef wants city 5 to be the capital city. Distance between city 4 and 5 is 2.
+In query 2,  There is only active gang for this query, i.e. gang 1. Gang 1 operates in cities 6, 7. The alliance will control the cities 6, 7 and 3. Chef wants city 1 to be the capital city. The minimum distance city controlled by alliance from the city 1 is 3, which is at a distance of 1.
+In query 3,  There are two active gang for this query, i.e. gang 1 and 2. Gang 1 operates in cities 6, 7 whereas gang 2 operates in city 4. 
+Their alliance will control the cities 1, 2, 3, 4, 6, 7 (i.e. all the cities except city 5). Chef wants to be city 5 capital. The minimum distance city controlled by the alliance from the city 5 is 2, which is at a distance of 1.
+Note
+Please note that default stack size is 8MB for C++ and 128MB for Java. 
+            
+            
+            
+            
+            
+        
+
+        
+
+
+Author:
+6★kingofnumbers
+
+
+Tester:
+
+
+
+Editorial:
+https://discuss.codechef.com/problems/ALLIANCE
+
+
+Tags:
+
+               
+                 binary-search, kingofnumbers, lowest-common-ancestor, snckel16
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-06-2016
+
+
+Time Limit:
+3.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

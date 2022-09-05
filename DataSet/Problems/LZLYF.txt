@@ -1,0 +1,132 @@
+
+Sagar came to a gym. Sagar is a lazy kind of person, So his trainer gave him a task to run on a new type of treadmill from the beginning to the end.
+The treadmill is a looped belt with a total length of 2l2l meters, of which ll meters are located on the surface and are arranged in a straight line. The part of the belt which turns at any moment (the part which emerges from under the floor to the surface and returns from the surface under the floor) is assumed to be negligibly short.
+The belt is moving uniformly at speed v1v1 meters per second. Sagar will be moving on it in the same direction at the constant speed of v2 meters per second, so his speed relatively to the floor will be v1 + v2 meters per second. Sagar will neither stop nor change the speed or the direction of movement.
+There are blocks of very small height stuck to the belt (n blocks). They move together with the belt, and do not come off it. Sagar has to kickout the blocks, but he is more keen to move forward. So he will kick out all the blocks he will pass by, but nothing more. If a block is at the beginning of the belt at the moment when Sagar starts running, he will kick it out, and if a block is at the end of the belt at the moment when Sagar comes off the belt, he will leave it.
+You are given the positions of the blocks relative to the initial start position of the belt 0 ≤ a1 < a2 < … < an < 2l. The positions on the belt from 0 to l correspond to the top, and from l to 2l — to the the bottom half of the belt (see example). All coordinates are given in meters.
+
+The figure shows an example with two blocks. One is located in the position 
+  a1 = l − d, and is now on the top half of the belt, the second one is in the position 
+  a2 = 2l − d, and is now on the bottom half of the belt.
+Sagar begins to run along the belt at a random moment of time. This means that all possible positions of the belt at the moment he starts running are kickable. For each  i  from 0 to n calculate the probability that Sagar will kick out exactly i blocks, also print the minimum of blocks with the lowest probability of kick-out and maximum blocks with highest probability of kick-out. 
+Input Format
+
+The first line contains space-separated integers n, l, v1 and v2 — the number of the blocks, the length of the treadmill's visible part, the treadmill's speed and Sagar's speed, respectively.
+The second line contains a sequence of space-separated integers a1, a2, …, an (0 ≤ a1 < a2 < … < an < 2l) — the coordinates of the blocks.
+
+Output Format
+
+Print n + 1 numbers (one per line): the probabilities that Sagar kicks out exactly i blocks, for each i from 0 (the first line) to n (the last line). The answer must be of exactly 9 decimal places.
+In next line, print the minimum blocks with the lowest probability of kick-out and the maximum blocks with highest probability of kick-out. 
+
+Constraints
+
+1≤n≤105
+1≤l,v1,v2≤109
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1 1 1 1
+0
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0.750000000
+0.250000000
+1 0
+
+
+Explanation
+Sagar can kick-out a block if by the moment he starts running its coordinate is less than 0.5; but if by 
+the moment the he starts running the block's coordinate is greater than or equal to 0.5, then he won't be 
+able to kick it out. As all positions of the belt are kickable, the probability of kicking out the block 
+equals 0.52=0.25, and the probability of not picking it up equals 1.52=0.75
+As the highest probability is of 1 block & the lowest probability is of 0 blocks.
+
+                        Sample Input 2
+                        
+
+
+
+
+
+2 3 1 2
+2 5
+
+
+
+                        Sample Output 2
+                        
+
+
+
+
+
+0.333333333
+0.666666667
+0.000000000
+2 1
+
+
+
+
+
+Author:
+4★abs_07
+
+
+Editorial:
+https://discuss.codechef.com/problems/LZLYF
+
+
+Tags:
+
+               
+                 abs_07, math, medium, probability, sorting, tcpc2021
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+12-11-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

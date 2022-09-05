@@ -1,0 +1,96 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Abdullah has invented a machine for converting money. When XX units of money are inserted into this machine, it produces Reverse(X)Reverse(X) units of money. where Reverse(X)Reverse(X) denotes the decimal number obtained by reversing the decimal representation of X (without leading zeroes). For example:
+
+Reverse(123)=321, since the reverse of "123" is "321"
+Reverse(460)=64, since the reverse of "460" is "064", which is 64 in decimal representation
+
+The machine is highly unstable and it can be used only once. Abdullah has N units of money, so he is wondering: how much money should he insert into the machine such that the amount of money produced by the machine is maximum possible? The amount of money inserted into the machine must be an integer between 1 and N inclusive.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer N.
+
+Output
+For each test case, print a single line containing one integer ― the amount of money Abdullah should insert into the machine.
+Constraints
+
+1≤T≤100
+1≤N≤1010,000
+
+Subtasks
+Subtask #1 (30 points): 1≤N≤104
+Subtask #2 (70 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+23
+7
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+19
+7
+
+
+Explanation
+Example case 1: Inserting X=19 units of money gives Abdullah 91 units of money.
+Example case 2: Inserting X=7 units of money gives Abdullah 7 units of money.
+
+
+
+Author:
+7★abdullah768
+
+
+Tags:
+
+               
+                 abdullah768, easy, implementation, ltime72, taran_1407
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-05-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

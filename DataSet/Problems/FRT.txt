@@ -1,0 +1,81 @@
+
+
+Even Odd
+Problem Definition :
+CodeCell was known to set difficult problems last year due to which this year we start with an easy problem. Given an integer n, print the result after finding the sum of all even numbers until n and then subtracting all odd numbers(the sum of odd numbers) until n from the sum
+Constraints :
+
+1 <= t <= 100
+0 <= n <= 109
+
+Input :
+
+First line contains t, the number of testcases.
+The only line of each testcase contains a single integer n.
+
+Output :
+
+For each testcase output a single integer as mentioned in the problem statement.
+
+Example :
+Input:
+2
+6
+10
+
+Output:
+3
+5
+
+Explanation
+For the first test case, sum of all odd numbers till 6, i.e 1+3+5 = 9 and sum of all even numbers till 6, i.e 0+2+4+6 = 12,
+hence the answer is 12 - 9 = 3.
+
+
+
+Author:
+4★shmabulock
+
+
+Editorial:
+https://discuss.codechef.com/problems/FRT
+
+
+Tags:
+
+               
+                 cakewalk, kpr32018, math-formulas, shmabulock
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+3-09-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, PYPY
+
+
+
+
+
+Submit
+

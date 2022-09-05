@@ -1,0 +1,82 @@
+
+
+
+For a given prime number p find the number of all pairs (m, n) of positive integers such that 1 <= m, n <= p*(p-1) and p divides nm - mn. Output the result modulo 1000000007.
+
+Input
+ The first line contains a single positive integer T <= 100, the number of test cases. T test cases follow. The only line of each test case contains a prime number p , where 2 <= p <= 1012.
+
+Output
+ For each test case, output a single line containing the answer for the corresponding test case.
+
+Example
+Input:
+2
+2
+3
+
+Output:
+2
+14
+
+
+Explanation
+In the first test required pairs are (1, 1) and (2, 2).
+
+In the second test case required pairs are (1, 1), (1, 4), (2, 2), (2, 4), (3, 3), (3, 6), (4, 1), (4, 2), (4, 4), (4, 5), (5, 4), (5, 5), (6, 3) and (6, 6).
+
+
+
+Author:
+2★anton_adm
+
+
+Tester:
+friggstad
+
+
+Editorial:
+https://discuss.codechef.com/problems/EXPCOMM
+
+
+Tags:
+
+               
+                 Sieve of Eratosthenes, Chinese Remainder Theorem, Fermat's Little Theorem, Primes
+                 
+                     
+                     Mathematics, Number Theory, Modular Arithmetic
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2813
+
+
+Date Added:
+3-03-2011
+
+
+Time Limit:
+0.222849 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

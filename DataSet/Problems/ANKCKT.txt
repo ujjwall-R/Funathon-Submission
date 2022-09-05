@@ -1,0 +1,106 @@
+
+Ankit has to submit his assignment given by his master. But Ankit's friends are calling him again and again to play cricket, and Ankit couldn't resist himself from playing cricket. So could you help him solving the problem?
+Formally, you are given a sequence of N positive integers: B=(B1,B2,B3,B4,...,Bn) and Q Queries.
+In the ith query, (1≤i≤Q), given a positive integer Ai find the Aith smallest integer among the positive integers that differ from all of the B1,B2,...,Bn.
+Input Format
+Input is given in following format.
+N Q
+B1 B2 ... Bn
+A1
+A2
+.
+.
+.
+AQ
+Output Format
+Print Q lines. The ith line should contain the response to the ith query.
+Constraints
+
+1≤N,Q≤105
+1≤B1,B2,...,Bn≤105
+1≤Ai≤1018
+All values in input are integers.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+4 3
+3 5 6 7
+2
+5
+3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+9
+4
+
+
+Explanation
+The positive integers that differ from all of B1,B2,...,Bn are 1,2,4,8,9,10,11,... in ascending order. The second, fifth, and third smallest of them are 2,9 and 4, respectively. 
+
+
+
+Author:
+4★dexter_2397
+
+
+Tester:
+4★dexter_2397
+
+
+Editorial:
+https://discuss.codechef.com/problems/ANKCKT
+
+
+Tags:
+
+               
+                 binary-search, dexter_2397, incb2021, math
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-09-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

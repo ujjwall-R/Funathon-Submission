@@ -1,0 +1,75 @@
+
+ 
+Seg-El has last chance to make the final changes in order to prevent the destruction of Krypton.
+He is provided an array Arr[ ] of N elements.
+For each element  Arr [ i ], he needs to find the largest element Arr [ j ] where j < i and Arr [ j ] < Arr [ i ] 
+Help him to achieve this task.
+ 
+Input
+First line comprises N- the number of elements in the array.
+Second line contains N space separated integers denoting the elements of the array. 
+ 
+Output
+Print N lines denoting the required answer as specified above. In case no such value exists for someArr [ i ], print "-1" (without quotes).
+ 
+Constraints
+
+1 ≤ N ≤ 200000
+1 ≤ Arr [ i ] ≤ 1015
+
+ 
+Example
+5
+1 2 3 5 4
+Output:
+-1 1 2 3 3
+ 
+
+
+
+Author:
+5★shivamg_isc
+
+
+Editorial:
+https://discuss.codechef.com/problems/KRYP6
+
+
+Tags:
+
+               
+                 binary-search, codr2018, easy, set, shivamg_isc, standard-template-library
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+12-02-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

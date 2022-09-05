@@ -1,0 +1,119 @@
+
+ Read problems statements in Mandarin Chinese  and Russian.
+Andy and Bob are the only two delivery men of Pizza-chef store. Today, the store received N orders. 
+It's known that the amount of tips may be different when handled by different delivery man. 
+More specifically, if Andy takes the ith order, he would be tipped Ai dollars and if Bob takes this order, 
+the tip would be Bi dollars. 
+
+
+They decided that they would distribute the orders among themselves to maximize the total tip money. One order will be handled by only
+one person. Also, due to time constraints Andy cannot take more than X orders and Bob cannot take more than 
+Y orders. It is guaranteed that X + Y is greater than or equal to N, which means that all the orders can be handled 
+by either Andy or Bob.
+
+
+Please find out the maximum possible amount of total tip money after processing all the orders.
+
+Input
+The first line contains three integers N, X, Y.
+The second line contains N integers. The ith integer represents Ai.
+The third line contains N integers. The ith integer represents Bi.
+Output
+Print a single integer representing the maximum tip money they would receive.
+Constraints
+All test:
+
+1 ≤ N ≤ 105
+1 ≤ X, Y ≤ N; X + Y ≥ N 
+1 ≤ Ai, Bi ≤ 104
+
+10 points:
+1 ≤ N ≤ 20
+
+30 points:
+1 ≤ N ≤ 5000
+60 points:
+1 ≤ N ≤ 105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5 3 3
+1 2 3 4 5
+5 4 3 2 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+21
+
+
+Explanation
+Bob will take the first three orders (or the first two) and Andy will take the rest (of course).
+
+
+
+Author:
+tuan_adm
+
+
+Tester:
+6★stzgd
+
+
+Editorial:
+https://discuss.codechef.com/problems/TADELIVE
+
+
+Tags:
+
+               
+                 Greedy, Sorting
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1980
+
+
+Date Added:
+6-12-2014
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,96 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+A tuple (a,b,c) is considered good if it consists of three prime numbers a, b and c such that a<b<c≤N and a+b=c.
+Two tuples are considered different if they differ in at least one position. Given N, find the number of good tuples that can be formed by integers from 1 to N.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The following T lines contain a single integer N.
+
+Output
+For each test case, print a single line containing one integer — the number of good tuples which can be formed using integers from 1 to N.
+Constraints
+
+1≤T≤105
+1≤N≤106
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+3
+6
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+1
+
+
+Explanation
+Example case 1: There are no good tuples. (1,2,3) is not a good tuple since 1 is not prime.
+Example case 2: (2,3,5) is a good tuple since 2, 3 and 5 are prime and 2+3=5.
+
+
+
+Author:
+daanish_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/PTUPLES
+
+
+Tags:
+
+               
+                 Sieve of Eratosthenes, Dynamic Programming
+                 
+                     
+                     Mathematics, Number Theory, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1809
+
+
+Date Added:
+14-01-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

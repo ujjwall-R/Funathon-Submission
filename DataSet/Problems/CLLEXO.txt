@@ -1,0 +1,103 @@
+
+Meanwhile, Candace and Stacy are busy planning to attend the concert of the famous Love Händel. Jeremy will also be attending the event. Therefore, Candace plans to offer the best possible gift to Jeremy.
+Candace has NN strings, each of length MM. Each character of each string can either be a lowercase English letter or the character '#'. She denotes the substring of ii-th string starting from the l-th character and ending with the r-th character as Si[l,r]. She has to choose a list a of N−1 numbers such that  
+
+1≤a1≤a2≤a3≤...≤aN−1≤M.
+The final gift string is obtained by appending the substrings S1[1,a1], S2[a1,a2], S3[a2,a3], .., SN−1[aN−2,aN−1], SN[aN−1,M].
+Candace considers the gift to be the most beautiful one if the final gift string is the lexicographically smallest possible string and it doesn't contain the '#' character.
+
+Let P = S1[1,a1] + S2[a1,a2] + S3[a2,a3] + .., + SN−1[aN−2,aN−1] + SN[aN−1,M], then P should be the lexicographically smallest string  possible and it should not contain '#' character, where '+' denotes concatenation of two substrings.
+Help Candace find the best possible gift string quickly as she does not want Jeremy to wait for her. Also, it is guaranteed that at least one such valid string exists.
+Input
+
+The first line contains a single integer T denoting the number of testcases.
+The first line of each test case contains 2 space separated integers denoting the values of N and M respectively.
+N lines follow. Each line contains a string Si of length M as described above.
+
+Output
+For every test case, print a line containing lexicographically lowest possible gift string.
+Constraints
+
+1≤T≤104
+1≤N,M≤106
+|Si|=M
+All Si will contain either a lower English letter ('a' to 'z' ) or the character '#' (ASCII 35).
+Sum of N∗M over all test cases for a particular test file does not exceed 107.
+It is guaranteed that a valid solution will always exist.
+
+Sample Input
+2
+3 3
+xab
+a#z
+caa
+5 4
+pyqs
+vcot
+qbiu
+lihj
+uvmz
+
+Sample Output
+xabza
+pvcbihjz
+
+Explanation
+For test 1:
+The array a chosen is: [3,3]
+The resulting string P is formed by = S1[1,3] + S2[3,3] + S3[3,3] = xabza
+For test 2:
+The array a chosen is: [1,2,3,4]
+The resulting string P is formed by = S1[1,1] + S2[1,2] + S3[2,3] + S4[3,4] + S5[4,4] = pvcbihjz
+
+
+
+Author:
+6★sarthakmanna
+
+
+Editorial:
+https://discuss.codechef.com/problems/CLLEXO
+
+
+Tags:
+
+               
+                 String, Bottom-up, BFS
+                 
+                     
+                     Data Structures, Algorithms, Dynamic Programming, DP Approach, Graph Algos, Traversals
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2486
+
+
+Date Added:
+20-06-2020
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

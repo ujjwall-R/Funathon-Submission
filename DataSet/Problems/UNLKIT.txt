@@ -1,0 +1,115 @@
+
+You have found a locked safe which is full of Magical Laddu's.
+You want to eat them as soon as possible so you start to break the password of the safe.
+This safe has a digital display which display's a integer on the screen and according to it you have to find the password of the safe.
+Some examples are given Below.
+Dispaly & password
+
+
+1
+ 2
+
+
+2
+11
+
+
+3
+24
+
+
+4
+ 44
+
+
+5
+68
+
+
+6
+99
+
+
+7
+ 134
+
+
+8
+176
+
+
+9
+222
+
+
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains of a single line of input, an integers N,  i.e (integer on display of safe). 
+
+Output:
+For each testcase, output in a single line i.e Password of Safe
+(According to above series).
+Constraints
+
+1≤T≤100
+1≤N≤109
+
+Sample Input:
+2
+10
+
+11
+Sample Output:
+275
+
+332
+
+
+
+Author:
+4★abhi_3568
+
+
+Editorial:
+https://discuss.codechef.com/problems/UNLKIT
+
+
+Tags:
+
+               
+                 abhi_3568, medium
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+5-05-2021
+
+
+Time Limit:
+0.1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

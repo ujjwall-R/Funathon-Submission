@@ -1,0 +1,98 @@
+
+Given a positive integer nn and an integer kk such that 0≤k≤n0≤k≤n, find any permutation A of 1,2…n such that the number of indices for which Ai=i is exactly k. If there exists no such permutation, print −1. If there exist multiple such permutations, print any one of them.
+Input Format
+
+First line of the input contains T, the number of test cases. Then the test cases follow.
+Each test case contains a single line of input, two integers n,k.
+
+Output Format
+For each test case, print a permutation in a single line, if a permutation with the given constraints exists. Print −1 otherwise.
+Constraints
+
+1≤T≤105
+1≤n≤105
+0≤k≤n
+Sum of n over all test cases doesn't exceed 2⋅106
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+2 1
+3 1
+4 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+-1
+1 3 2
+3 2 1 4
+
+
+Explanation
+Test case 1: There are total 2 permutations of [1,2]  which are [1,2] and [2,1]. There are 2 indices in [1,2] and 0 indices in [2,1] for which Ai=i holds true. Thus, there doesn't exist any permutation of [1,2] with exactly 1 index i for which Ai=i holds true.
+Test case 2: Consider the permutation A=[1,3,2]. We have A1=1, A2=3 and A3=2. So, this permutation has exactly 1 index such that Ai=i.
+
+
+
+Author:
+utkarsh_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/FIXFIX
+
+
+Tags:
+
+               
+                 ad-hoc
+                 
+                     
+                     Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1536
+
+
+Date Added:
+25-09-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

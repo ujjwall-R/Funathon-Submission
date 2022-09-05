@@ -1,0 +1,105 @@
+
+You have two arrays A and B, each containing N integers.
+Elements of array B cannot be modified.
+You may perform an arbitrary number of operations (including zero number of operations). In one operation, you can choose one index i (1 ≤ i ≤ N) and increment Ai by 1. Each index can be chosen any number of times.
+
+Find the minimum number of operations required to modify the array A such that for every pair i, j (1 ≤ i, j ≤ N), 
+(Ai % Bi) equals (Aj % Bj). Here, % denotes the modulo operator (the remainder after dividing by Bi). Note that 0 ≤ (Ai % Bi) < Bi.
+
+Input
+First line of the input contains an integer T denoting the number of testcases. The description of T testcases is as follows:
+First line of each testcase contains a positive integer N, denoting the number of elements in arrays A and B.
+Second line contains N space-separated whole numbers A1, A2, ..., AN.
+Third line contains N space-separated natural numbers B1, B2, ..., BN.
+Output
+For each testcase, output a single line containing the minimum number of operations required to modify the array A in order to satisfy the required conditions. 
+Constraints
+
+1 ≤ T ≤ 1000
+1 ≤ N ≤ 5 * 105
+0 ≤ Ai ≤ 109
+1 ≤ Bi ≤ 109
+Sum of N across all testcases in a single file will be ≤ 5 * 105
+
+Example
+Input:
+2
+3
+4 2 2
+5 3 4
+4
+2 1 1 2
+3 3 3 3
+
+Output:
+3
+2
+
+Explanation
+
+Example case 1.
+A1 can be increased from 4 to 7 in 3 operations so that:
+	
+A1 % B1 = 2
+A2 % B2 = 2
+A3 % B3 = 2
+
+
+
+Example case 2.
+A2, A3 can both be increased from 1 to 2 in 2 operations total so that:
+	
+A1 % B1 = 2
+A2 % B2 = 2
+A3 % B3 = 2
+A4 % B4 = 2
+
+
+
+
+
+Author:
+2★wittyceaser
+
+
+Tags:
+
+               
+                 Hashmaps, Modular Arithmetic, Sorting, Prefix Sum
+                 
+                     
+                     Data Structures, Mathematics, Algorithms, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+29-10-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, PYPY
+
+
+
+
+
+Submit
+

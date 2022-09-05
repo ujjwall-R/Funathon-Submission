@@ -1,0 +1,101 @@
+
+Salmon received an array AA of size NN and an array BB of size MM for Christmas. He would like to move all the elements in B to A using a special method described below.
+While B is not empty, Salmon does the following operations in order:
+
+Remove and store the leftmost element off of B (let's call this element X).
+Place X at the start of A.
+Keep swapping X and the element to the right of it repeatedly until X is at the rightmost position of A or X is greater or equal to the element to the right of it.
+
+Before performing the operations, Salmon can rearrange both A and B in any order once. He would like to do as little work as possible -- determine the minimum possible amount of swaps.
+Input:
+The first line of input will consist of a two space-separated integers, N and M (1≤N,M≤2∗105).
+The next line will consist of N space-separated integers, with the i-th input representing A[i] (−109≤A[i]≤109).
+The next line will consist of M space-separated integers, with the i-th input representing B[i] (−109≤B[i]≤109).
+Output:
+Output a single integer, the minimum number of swaps required.
+Subtasks:
+
+Subtask 1 [15 points]: A[i]=1,B[i]=1 for all i.
+Subtask 2 [30 points]: N,M≤103.
+Subtask 3 [55 points]: No additional constraints.
+
+Note:
+The answer may be greater than the limit for a 32-bit integer. Use long long instead of int for C++ and long for Java. Please check your language documentation for other languages on how to use 64-bit integers. Note that Python solutions won't encounter a problem as it uses BigIntegers by default.
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5 3
+10 5 2 5 4
+3 1 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+5
+
+
+Explanation
+Salmon can reorder A to be [2,10,5,4,5] and B to be [1,2,3]. 
+
+
+
+Author:
+2★smjleo
+
+
+Editorial:
+https://discuss.codechef.com/problems/UWCOI21B
+
+
+Tags:
+
+               
+                 ad-hoc
+                 
+                     
+                     Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1619
+
+
+Date Added:
+13-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

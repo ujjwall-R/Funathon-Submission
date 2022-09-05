@@ -1,0 +1,86 @@
+
+Mayank is very fond of geometry. He already knows about the general equation of line i.e. ax+by+c=0, where a,b and c are coefficients and x and y are variables. Today, He learned about the parallel lines. The parallel lines are the lines that will never meet at any point. Read more on Wikipedia.
+Now he has a set of N lines. There can be many subsets of this set in which all the lines are parallel to each other.
+Help him to find the length of maximum such subset.
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N denoting the number of lines. 
+Next N lines contains three space-separated integers a, b and c denoting the coefficients of the ith lines.
+ 
+Output
+For each test case, output a single line containing the length of maximum subset of parallel lines.
+ 
+Constraints
+
+1 ≤ T ≤ 20
+1 ≤ N ≤ 105
+|a|,|b|,|c| ≤ 109
+For a line with coefficients a, b and c either a or b is not zero.
+
+ 
+Example
+Input:
+1
+5
+1 0 0
+1 2 3
+3 4 5
+30 40 0
+30 40 50
+
+Output:
+2
+
+
+ 
+Explanation
+Lines 3*x + 4*y + 5 = 0 and 30*x + 40*y + 0 = 0 form a biggest parallel subset.
+
+
+
+Author:
+2★hsagarthegr8
+
+
+Editorial:
+https://discuss.codechef.com/problems/BITMASK4
+
+
+Tags:
+
+               
+                 geometry, hsagarthegr8, map, medium, set
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+28-04-2017
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

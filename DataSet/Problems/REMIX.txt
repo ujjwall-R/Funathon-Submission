@@ -1,0 +1,69 @@
+
+Chef Loves to listen to remix songs, but currently he had already finished the entire playlist of remix songs.
+As Chef is smart, so he thought let's make my own remix songs of the original songs.
+Chef is not having much knowledge of making remix songs, so he came up with the simple technique in which he will pick the word which contains the smallest number of characters from the lyrics of the song, and then he will append that word to the start and end of the lyrics, also Chef will insert this word between every two words of the lyrics.
+Note: While inserting a new word Chef will also insert extra white-spaces, so that every word in the final remixed lyrics is separated by space.
+It is Recommended to use fast Input/Ouput techniques.
+Input:
+
+The input contains the text SS, which denotes the lyrics of the song.
+
+Output:
+
+Print the Remixed, lyrics as done by Chef.
+
+Constraints:
+
+1≤Lengthoftext1≤LengthoftextS≤107≤107
+
+Sample Input:
+Mai Hu Jiyaan
+
+Sample Output:
+Hu Mai Hu Hu Hu Jiyaan Hu
+
+
+
+
+Author:
+pro_army
+
+
+Tags:
+
+               
+                 pro_army, strg2020, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

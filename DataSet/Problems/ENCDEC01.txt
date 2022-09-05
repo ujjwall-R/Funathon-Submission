@@ -1,0 +1,81 @@
+
+Rachel has some candies and she decided to distribute them among NN kids. The ith kid receives AiAi candies. The kids are happy iff the difference between the highest and lowest number of candies received is less than XX.
+Find out if the children are happy or not.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+The first line contains N and X. 
+The second line contains N integers A1,A2,...,AN. 
+
+Output:
+For each test case print either "YES"(without quotes) if the kids are happy else "NO"(without quotes)
+Constraints
+
+1≤T≤100
+1≤N,X≤105
+1≤Ai≤109
+
+Sample Input:
+2
+
+5 6
+        3 5 6 8 1
+        3 10
+5 2 9
+Sample Output:
+NO
+
+YES
+EXPLANATION:
+
+Example 1: Difference between maximum and minimum candies received is 8-1=7. 7 is greater than 6, therefore, the kids are not happy.
+
+
+
+
+Author:
+3★anjali_190300
+
+
+Editorial:
+https://discuss.codechef.com/problems/ENCDEC01
+
+
+Tags:
+
+               
+                 anjali_190300, cakewalk, easy, ende2020
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

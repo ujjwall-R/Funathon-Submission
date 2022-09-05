@@ -1,0 +1,89 @@
+
+
+Chef is writing some arbitrary strings as he is getting bored. After writing some strings , he thinks that his arrangement of letters is very dirty. Then he is struck by an idea that he can play a game with those arbitrary strings .
+NOTE:NOTE:
+Strings are in form aabbbccdeefffff….. and so on. once the repetition of a letter is over , it can't be repeated again . ( abbcddddeefffabbcddddeefff (valid) ,    aabbbccbdd  ( invalid, as b is repeated again even after its repetition is over))
+He takes a string S and then decides to modify the string such that it should contain all the letters present in it in ascending order of their repetitions. To do that he starts swapping the groups of letters . ( swaps whole ′aa′ with ′ccc′ , swaps whole ′ddd′ with ′ffff′ , etc) and cost of swap is difference in the frequencies of the letters getting swapped . Frequency of a letter is the number of times the letter is repeated in the string.
+NOTE :  During a swap you have to swap all the repetitions of the selected letter with the other. suppose string is aabbbcccdd , if you want to swap a and c swapping occurs like ′aa′ with ′ccc′ , thus after swap , string is cccbbbaadd .
+Find the minimum cost to attain such a string .
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains of a single line of input, the string S. 
+
+Output:
+For each testcase, output a single line which gives minimum cost to attain the desired string.
+Constraints
+
+1≤T≤1000
+1≤|S|≤105 
+
+Subtasks
+
+30 points : 1≤|S|≤100
+70 points : Original Constraints
+
+Sample Input:
+    4
+    aabbcccdeffffggghhhhhii
+    aaaa
+    abbcccdd
+    aaaabbbccd
+
+Sample Output:
+    5
+    0
+    1
+    4
+
+EXPLANATION:
+Case−1 :  First swap 'd' with 'aa'( 2-1=1) and 'e' with 'bb' (2-1=1 ) , then swap 'ii' with 'ccc'( 3-2=1) , then 'ccc' with 'ffff' ( 4-3=1  )  , then 'ffff' with 'hhhhh' ( 5-4=1 ) . Thus total cost will  be 1+1+1+1+1 =5 and the final string would be deiiaabbcccgggffffhhhhh .
+
+
+
+Author:
+4★mann2108
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHFSTR
+
+
+Tags:
+
+               
+                 dynamic-programming, easy-medium, mann2108, observation, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+27-02-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,103 @@
+
+You are given an array B containing N integers, each of which is either −1 or a non-negative integer. Construct any integer array A of length N such that:
+
+0≤Ai≤109 for every 1≤i≤N
+If Bi≥0, A must satisfy mex(A1,A2,…,Ai)=Bi
+Otherwise, Bi=−1, which means there is no constraint on mex(A1,A2,…,Ai)
+
+If there does not exist any array satisfying the constraints, print −1 instead.
+Note: The mex of a set of non-negative integers is the smallest non-negative integer that does not belong to it. For example, mex(1,2,3)=0,mex(0,2,4,1)=3, and mex(0,0,0)=1.
+Input Format
+
+The first line of input contains an integer T, denoting the number of testcases. The description of T testcases follows.
+The first line of each testcase contains a single integer N.
+The second line of each testcase contains N space-separated integers B1,B2,…,BN.
+
+Output Format
+For each testcase, output the required answer on a new line: −1 if no valid array exists, or N space-separated integers denoting the elements of any valid array A. The elements of A must satisfy 0≤Ai≤109.
+Constraints
+
+1≤T≤104
+1≤N≤105
+−1≤Bi≤105
+The sum of N across all testcases won't exceed 2⋅105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+7
+0 -1 2 -1 5 -1 -1
+3
+2 -1 -1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1 3 0 4 2 6 5
+-1
+
+
+Explanation
+Test case 1: We have A=[1,3,0,4,2,6,5]. Let Ci=mex(A1,A2,…,Ai). Then, it can be seen that C=[0,0,2,2,5,5,7], which matches B at all positions where Bi≥0.
+Test case 2: It can be shown that no array A exists that satisfies the given constraints.
+
+
+
+Author:
+6★munch_01
+
+
+Editorial:
+https://discuss.codechef.com/problems/MEXYARR
+
+
+Tags:
+
+               
+                 easy, implementation, mex, munch_01, start31
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2190
+
+
+Date Added:
+21-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

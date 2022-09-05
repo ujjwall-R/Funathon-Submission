@@ -1,0 +1,97 @@
+
+Initially, Chef is at coordinate 0 on X-axis. For each i=1,2,…,N in order, Chef does the following:
+
+If Chef is at a non-negative coordinate, he moves i steps backward (i.e, his position's coordinate decreases by i), otherwise he moves i steps forward (i.e, his position's coordinate increases by i). 
+
+You are given the integer N. Find the final position of Chef on the X-axis after N operations.
+Input Format
+
+The first line of input contains an integer T, denoting the number of test cases. The T test cases then follow:
+The first and only line of each test case contains an integer N.
+
+Output Format
+For each test case, output in a single line the final position of Chef on the X-axis after N operations.
+Constraints
+
+1≤T≤105
+1≤N≤109
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+1
+2
+3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+-1
+1
+-2
+
+
+Explanation
+Test case 1: Initially, Chef is at coordinate 0 on X-axis. As 0 is non-negative, during the first operation Chef moves 1 step backward and reaches the coordinate −1.
+Test case 2: Chef is at coordinate −1 on X-axis after the first operation. As −1 is negative, during the second operation Chef moves 2 steps forward and reaches the coordinate 1.
+
+
+
+Author:
+5★soumyadeep_21
+
+
+Editorial:
+https://discuss.codechef.com/problems/SIGNMOVE
+
+
+Tags:
+
+               
+                 ad-hoc, implementation, simple, soumyadeep_21, start31
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1126
+
+
+Date Added:
+20-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

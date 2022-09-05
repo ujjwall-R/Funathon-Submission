@@ -1,0 +1,134 @@
+
+Read problems statements in Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+You are given a tree with NN vertices (numbered 11 through NN) rooted at vertex 11. There are MM blue tokens (numbered 11 through MM) and 11 red token. For each valid ii, the ii-th blue token appears at the root at an integer time titi seconds and moves to a leaf vertex vivi, crossing one edge per second. In the next second after reaching vivi, this token disappears.
+You control the red token. First, given a starting time SS, you must choose some leaf vertex of the tree and place it at this vertex at some integer time tt seconds such that t≥St≥S. In one second, you can move the red token to any vertex adjacent to its current vertex. Your aim is to move the red token to vertex 11.
+At each integer moment in time, the red token is not allowed to be in the same vertex as any blue token.
+Additionally, you have a hidden ability called KK-teleport, which can be used any number of times. Whenever KK-teleport is used to move the red token from its current vertex uu to some vertex vv of your choice (possibly uu itself), it phases out of existence (so it cannot clash with any blue token) and appears in vv at an integer moment in time of your choice which is at least K⋅dist(u,v)K⋅dist(u,v) seconds later. Here, dist(u,v)dist(u,v) denotes the shortest distance between vertices u and v.
+Find the minimum time at which the red token can reach the root without clashing with any blue token.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains four space-separated integers N, M, K and S.
+Each of the next N−1 lines contains two space-separated integers u and v denoting that vertices u and v are connected by an edge.
+M more lines follow. For each valid i, the i-th of these lines contains two space-separated integers ti and vi.
+
+Output
+For each test case, print a single line containing one integer ― the minimum time at which you can reach the root.
+Constraints
+
+1≤T≤105
+2≤N≤2⋅105
+1≤M≤2⋅105
+1≤K≤109
+0≤S≤109
+1≤u,v≤N
+the graph described on the input is a tree
+0≤ti≤109 for each valid i
+1≤vi≤N for each valid i
+vi is a leaf vertex for each valid i
+the sum of N over all test cases does not exceed 2⋅105
+the sum of M over all test cases does not exceed 2⋅105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+4 5 3 2
+1 2
+2 3
+2 4
+3 4
+3 3
+4 4
+5 4
+6 4
+2 1 3 0
+1 2
+1 2
+4 5 6 3
+2 1
+3 2
+4 2
+1 4
+1 3
+4 4
+5 4
+7 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+7
+2
+8
+
+
+Explanation
+Example case 1: One of the possible solutions is shown below.
+
+At t=3, you may use 3-teleport from 2 to 1, arriving at vertex 1 at the time t=7, since 3⋅dist(2,1)=3 and 3+3≤7.
+Example case 2: One of the possible solutions is shown below.
+
+Example case 3: One of the possible solutions is shown below.
+
+At t=4, you may use 6-teleport from 3 to 3, arriving at vertex 3 at the time t=6, since 6⋅dist(3,3)=0 and 4+0≤6.
+
+
+
+Author:
+5★fairy_winx
+
+
+Editorial:
+https://discuss.codechef.com/problems/BLUECHIP
+
+
+Tags:
+
+               
+                 cook127, dynamic-programming, fairy_winx, medium-hard, treap
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+9999
+
+
+Date Added:
+21-03-2021
+
+
+Time Limit:
+3.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,84 @@
+
+Given a  tree with NN nodes numbered 11 to NN rooted at node 1, where the ith node has a value Ai, answer  Q queries of the folowing type. :
+a b w: For all nodes in the simple path between a and b, print the sum of values of nodes where value  is <=w.
+Input:
+
+First line will contain N & Q
+Next N−1 lines contain u,v representing an edge between them.
+Next line contains N integers A1,A2,...,AN.
+Each of the following Q lines contain a query of type a b w.
+
+Output:
+Answer each Query in a new line.
+Constraints
+
+3≤N,Q≤105
+0≤Ai,W≤5∗105
+1≤u,v,a,b≤N
+u!=v
+
+Sample Input:
+5 3
+1 2
+2 3
+1 4
+4 5
+1 2 3 4 5
+1 3 2
+3 5 3
+4 5 1
+
+Sample Output:
+3
+6
+0
+
+
+
+
+Author:
+5★sandeep1103
+
+
+Editorial:
+https://discuss.codechef.com/problems/ECAUG209
+
+
+Tags:
+
+               
+                 enau2020, eulerian-tour, fenwick-tree, lowest-common-ancestor, sandeep1103, segment-tree, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+23-08-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

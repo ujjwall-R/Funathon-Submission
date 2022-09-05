@@ -1,0 +1,137 @@
+
+Chef has opened a new ice cream parlor. His friend Chefina is going to visit the parlor very soon. Chef knows that Chefina is going to order a triple sundae on her visit. However, he does not know which flavors she would order.
+Chef has three storage containers with capacities X,YX,Y and ZZ respectively. Each container can store multiple flavors of ice cream. Since Chef does not know which flavors Chefina would order, he wants to store maximum number of flavors in the storage containers. 
+Chef has a total of N flavors. In order to store the ith flavor, Chef must select exactly one container and fill it with Ci amount of flavor i. 
+Note that the total amount of ice cream filled in a container should not exceed its capacity.
+Find the maximum number of flavors Chef can store in the containers.
+Input Format
+
+The first line will contain T - the number of test cases. Then the test cases follow.
+The first line of each test case contains four integers N,X,Y and Z.
+The next line contains N integers, where the ith integer denotes Ci.
+
+Output Format
+For each test case, output in a single line the maximum number of distinct flavors Chef can store using the three containers.
+Constraints
+
+1≤T≤200
+1≤N≤2000
+1≤X,Y,Z≤1500
+1≤Ci≤1500
+Sum of N overall test cases does not exceed 2000.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+5 12 16 15
+11 8 5 10 9
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+
+
+Explanation
+Test Case 1: 
+
+Store flavor {4} in container X, since 10≤|X|.  
+Store flavors {1,3} in container Y, since (11+5)=16≤|Y|.
+Store flavors {5} in container Z, since 9≤|Z|. 
+This way we can store 4 flavors.
+
+There can be other ways to store 4 flavours but we cannot store more than 4 flavours.
+
+                        Sample Input 2
+                        
+
+
+
+
+
+1
+5 4 5 5
+1 2 3 4 5
+
+
+
+                        Sample Output 2
+                        
+
+
+
+
+
+4
+
+
+Explanation
+Test Case 2:
+
+Store flavor {4} in container X, since 4≤|X|=4.
+Store flavors {2,3} in container Y, since 2+3=5≤|Y|=5.
+Store flavors {5} in container Z, since 5≤|Z|=5. 
+This way we can store 4 flavors.
+
+It can be proven that we cannot store more than 4 flavors in this case.
+
+
+
+Author:
+7★sg1729
+
+
+Editorial:
+https://discuss.codechef.com/problems/TPT
+
+
+Tags:
+
+               
+                 bitset, dynamic-programming, medium, sg1729, start29
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3274
+
+
+Date Added:
+14-12-2021
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

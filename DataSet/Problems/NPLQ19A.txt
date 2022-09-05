@@ -1,0 +1,85 @@
+
+
+You are a transporter standing in a production plant where you see a series of boxes coming over a conveyor belt. Transporting system works on heavy load shipment, so they have a scale of 10 kgs. Hence, the total weight being transported is rounded off to nearest multiple of 10. This determines your profit/loss in the following way.
+For example, suppose the total weight to be shipped is 25 kgs, then it scales up to 30 kgs and hence you make a profit on 5 kgs extra shown. But in the similar way, if total weight to be shipped is 23 kgs, it scales down to 20 kgs and you makes a loss.
+A transporter uses a package to store and ship contiguous boxes coming on a conveyor belt and due to budget constraints you are allowed to use at max K different packages. Contiguous boxes coming over the belt are clubbed in a package and then the trasporter weighs the package and asks for shipment fee applicable. Help yourself in finding, what's the maximum weight which you can show. For better understanding, see the sample test case.
+
+
+Input
+First line will contain T, the number of test cases. Then T test cases follow.
+First line of each test case contains two integers N and K, the number of boxes coming over and the maximum number of boxes allowed respectively.
+Next line contains N space-separated integers W[i], the weight of respective boxes.
+
+Output
+For each test case print the maximum weight which can be shown.
+Constraints
+
+1 <= T <= 10
+1 <= N <=  3000 
+1 <= K <= 10
+1 <= W[i] <= 100000
+
+Example
+Input:
+2
+3 2
+2 5 8
+2 2
+7 7
+
+Output:
+20
+20
+
+Explanation for T.C. 1 - You can club 1st and 2nd box in one package and show its weight to be 10 (from 7) and 3rd in another package to show its weight 10(from 8).
+
+
+
+
+
+Author:
+6★himkha_100
+
+
+Editorial:
+https://discuss.codechef.com/problems/NPLQ19A
+
+
+Tags:
+
+               
+                 dynamic-programming, himkha_100, maths, nplq2019
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-10-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

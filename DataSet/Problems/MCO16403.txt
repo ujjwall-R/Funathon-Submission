@@ -1,0 +1,74 @@
+
+Flippy the bird has a tree with NN nodes. Each edge has a weight wiwi. We can choose one of the vertices as the root of the tree, say r. Then, the height of the node u would be the sum of the weights on the path from r to u.
+Suppose we take the node u as the root. What is the sum of the heights of all nodes? Answer this question for all possible nodes u.
+Input
+
+The first line contains a single integer N, the number of nodes of the tree.
+The next n−1 lines contain three space-separated integers, u, v, w, denoting the endpoints of the edge and the weight of the edge respectively.
+
+Output
+Output n space-separated integers. The ith integer denotes the sum of heights of all vertices if node i is chosen as root.
+Constraints
+
+2≤n≤3⋅105
+1≤wi≤108
+
+Subtasks
+Subtask 1 (28 points): 2≤n≤5000
+Subtask 2 (72 points): Original Constraints
+Example Input
+4
+1 2 3
+2 3 5
+2 4 6
+
+Example Output
+20 14 24 26
+
+Explanation
+The heights of the nodes when the root is 1 are 0, 3, 8, 9 respectively. So, the sum is 0+3+8+9=20. Similarly, you can calculate this value for the case when other nodes are chosen as root as well.
+
+
+
+Author:
+6★zscoder
+
+
+Tags:
+
+               
+                 dynamic-programming, easy, trees, zscoder
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-11-2016
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, CPP14, PYTH, PYP3
+
+
+
+
+
+Submit
+

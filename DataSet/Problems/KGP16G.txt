@@ -1,0 +1,96 @@
+
+You are mayor of Kolkata, and you've decided to create a new town in the outskirts of the city!
+
+
+This new town is very well planned. All the houses in the town are arranged in a rectangle of dimensions n * m, i.e. there are n rows of houses with each row containing m houses. The contract of painting the houses was given to a company Brute Inc, which did a rather lousy job. It had to paint all the houses in either red, blue or green color, but they left some of the houses unpainted.
+
+
+When you saw the shoddy work done by the contractor, you decided to give the task of completing the unfinished painting work to another company, Entropy Inc. This company works in a rather weird way; It paints each unpainted house with either red, blue or green color uniformly at random.
+
+Consider any square shaped sub-grid of houses in this rectangular town. It can be uniquely represented by the top left house and the bottom right house. This sub-grid of houses will be called beautiful if all the houses in it have the same color. The overall beauty of the town will be equal to the total number of beautiful square sub-grids in the town. Your task is to find expected beauty of the town after the painting work is completed.
+A sub-grid of houses can be uniquely defined by the coordinates of top left and bottom right houses, i.e. (x1, y1) and (x2, y2), respectively. The houses that lie in the sub-grid will be the ones that have their coordinates (x, y) satisfy both x1 ≤ x ≤ x2 and y1 ≤ y ≤ y2. This sub-grid will be a square sub-grid if x2 - x1 = y2 - y1. In particular 1 * 1 cell is also called a square sub-grid. Top left house of the town has coordinates (1, 1) and bottom right house has coordinates (n, m). 
+Input
+There is a single test case.
+The first line of the input contains two space separated integers n, m denoting dimensions of town.
+Each of the next n lines contains a string consisting of m characters, each of them can be 'R' (denoting red color), 'G' (denoting green color), 'B' (denoting blue color) or '*' (denoting unpainted house).
+Output
+Output a single real number corresponding to the expected beauty of the town after the painting of the houses. Your answer will be considered correct if its absolute error is within 1e-2 of the answer.
+Constraints
+
+1 ≤ n, m ≤ 2000
+
+Example 1
+Input:
+2 2
+RR
+RR
+
+Output:
+5
+
+Explanation
+There are total 5 square sub-grids of houses in the town. All of them painted with same color. So, beauty of the town will be 5.
+Example 2
+Input:
+2 2
+R*
+RR
+
+Output:
+4.33
+
+Explanation
+The unpainted house can be painted with any of the red, green, blue colors uniformly randomly. 
+
+It is colored red: In this case, beauty of town will be 5.
+It is colored green: In this case, beauty of town will be 4.
+It is colored blue: In this case, beauty of town will be 4.
+
+
+Hence, expected beauty of the town will be (5 + 4 + 4) / 3 = 13 / 3 = 4.33.
+
+
+
+
+Author:
+admin3
+
+
+Tags:
+
+               
+                 admin3, binary-search, breadth-first-search, brute-force, expected-value, icpc2016, kgp16, pre-computation, probability
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-12-2016
+
+
+Time Limit:
+5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3
+
+
+
+
+
+Submit
+

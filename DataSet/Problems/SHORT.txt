@@ -1,0 +1,86 @@
+
+Given n and k, find the number of pairs of integers (a, b) such that n < a < k, n < b < k and ab-n is divisible by (a-n)(b-n).
+
+Input
+The first line contains the number of test cases t (1 ≤ t ≤ 5). Then t test cases follow, each test case consists of a line containing two integers n and k (0 ≤ n ≤ 100000, n < k ≤ 1018).
+
+Output
+For each test case output one line containing the required number.
+
+Example
+Input:
+2
+1 5
+2 5
+
+Output:
+2
+3
+
+Explanation:
+
+In the first test case, the only sought pairs are (2,2) and (3,3). In the second one, they are (3,3), (3,4) and (4,3).
+
+            
+            
+            
+            
+            
+        
+
+        
+
+
+Author:
+gennady_adm
+
+
+Tester:
+1★gamabunta
+
+
+Editorial:
+https://discuss.codechef.com/problems/SHORT
+
+
+Tags:
+
+               
+                 Number Theory, Sieve of Eratosthenes, Divisors
+                 
+                     
+                     Mathematics, Integer Factorisation
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2495
+
+
+Date Added:
+7-08-2011
+
+
+Time Limit:
+1.00168 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,89 @@
+
+Chef is in love with his girlfriend chefina.Now,after being in relationship
+for so many years chef tries to propose chefina for marriage. Chefina being a 
+mathematics lover ,gives a equation of many-one function to chef and put a condition
+that she will marry him only when he will be able to find the roots of the given
+function in a given range.
+f(x)=(x−k1)∗(x−k2)∗(x−k3)∗(x−k4)+Cf(x)=(x−k1)∗(x−k2)∗(x−k3)∗(x−k4)+C
+Chefina tells some specific points about function ,i.e.,
+
+the values of k1,k2,k3,k4k1,k2,k3,k4 are integers and  given for each test file.
+In a given range (L,R)(L,R) ,there exists more than one roots of a function.
+In a given range (L,R), there exists only either a maxima or a minima.
+the value of the constant C will be given in each test case.
+chef has to print all the roots of a function in a given range.
+
+As, chef is weak in maths he wants your help so that he can marry his love.
+Input format:
+
+First line contain 4 space separated pairwise distinct integers ,i.e.,  k1 k2 k3 k4 
+Next line will contain T, number of testcases. Then the testcases follow.
+Each testcase contains of a single line of input ,consisting of 3 space separated integers,L,R,C.
+
+Output format:
+For each test case ,print all the roots of the function in increasing order in the given range containing space between each two of them
+such that: a1 a2 a3 .... an in increasing order i.e.,if there are n roots of a function in a given range.
+Constraints
+
+1≤ki≤200
+1≤T≤105
+−5∗103≤L,R≤5∗103
+−3∗106≤C≤107
+
+NOTE: You should round off your answer upto 3 decimal places.Answers with relative error less than 10^-2 will be accepted.
+It is also guaranteed that the roots always exists in the given range.
+sample input:
+1 5 9 10
+1
+-1 5 0  
+sample output:
+1 5
+
+
+
+Author:
+5★valiant_vidit
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHLOVE
+
+
+Tags:
+
+               
+                 binary-search, chil2020, easy-medium, valiant_vidit
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+21-07-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

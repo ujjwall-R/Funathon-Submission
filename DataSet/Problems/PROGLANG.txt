@@ -1,0 +1,104 @@
+
+Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
+Chef is a software developer, so he has to switch between different languages sometimes. Each programming language has some features, which are represented by integers here.
+Currently, Chef has to use a language with two given features AA and BB. He has two options --- switching to a language with two features A1 and B1, or to a language with two features A2 and B2. All four features of these two languages are pairwise distinct.
+Tell Chef whether he can use the first language, the second language or neither of these languages (if no single language has all the required features).
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains six space-separated integers A,B,A1,B1,A2,B2.
+
+Output Format
+For each test case, print a single line containing the integer 1 if Chef should switch to the first language, or 2 if Chef should switch to the second language, or 0 if Chef cannot switch to either language.
+Constraints
+
+1≤T≤288
+1≤A,B,A1,B1,A2,B2≤4
+A,B are distinct
+A1,B1,A2,B2 are pairwise distinct
+
+Subtasks
+Subtask #1 (100 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+1 2 2 1 3 4
+3 4 2 1 4 3
+1 2 1 3 2 4
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+2
+0
+
+
+Explanation
+Example case 1: The first language has the required features --- features 1 and 2.
+Example case 2: The second language has the required features --- features 3 and 4.
+Example case 3: Neither language has both features 1 and 2.
+
+
+
+Author:
+daanish_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/PROGLANG
+
+
+Tags:
+
+               
+                 Case work, Conditional Statements, Brute Force, Implementation
+                 
+                     
+                     Special, Basic Programming Concepts, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1001
+
+
+Date Added:
+25-08-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,87 @@
+
+As the zombie apocalypse is at its peak and there is rising tensions among nations for getting a hold of the zombie cure. 
+The cure is available as NN batches and each batch contains AiAi vials of the cure. Two superpowers are battling for the same. As a UN peace advocate, Prof Paradox, refuses to sort this quarrel out, turning it into the next World War. You, on the other hand, are determined to avoid another possible doomsday scenario. 
+You have to split the NN batches into 2 equal shares, such that each party gets an equal number of vials of cures without splitting any batch. You may even choose to discard some batches to ensure equal shares.  
+Find the maximum number of vials that each nation can get and prevent this war.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+First line of each testcase contains of a single integers N, the number of batches of cure.
+Second line of each testcase contains N integers, each denoting the number of vials of cure 
+present in each batch. 
+
+Output:
+For each testcase, Find the maximum number of vials that each nation can get and prevent this war. If you can’t divide the vials equally print zero.
+Constraints
+
+1≤T≤1000
+2≤N≤100
+Sum(Ai)≤10000
+
+Subtasks
+
+10 points : 1≤N≤10 , 1≤Ai≤10
+90 points : Original constraints
+
+Sample Input:
+2
+4
+1 2 3 6
+6
+1 2 3 4 5 6
+
+Sample Output:
+6
+10
+
+EXPLANATION 1:
+We can divide the batches into [1,2,3] and [6], which have the same number of vials = 6.
+
+
+
+Author:
+3★dharsan_r
+
+
+Editorial:
+https://discuss.codechef.com/problems/WOWR4
+
+
+Tags:
+
+               
+                 dharsan_r, dynamic-programming, easy, heli2021
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+31-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

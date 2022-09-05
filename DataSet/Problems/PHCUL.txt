@@ -1,0 +1,134 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef decided to exercise by running somewhere from ShareChat. He chose three sets of points in a plane:
+
+A set of N points (numbered 1 through N): for each valid i, the i-th of them has coordinates (ai,bi).
+A set of M points (numbered 1 through M): for each valid i, the i-th of them has coordinates (ci,di).
+A set of K points (numbered 1 through K): for each valid i, the i-th of them has coordinates (ei,fi).
+
+ShareChat has coordinates (x,y). Chef must choose one point (aj,bj), one point (ck,dk), and one point (el,fl). Then, he starts running from ShareChat, visits the chosen points (aj,bj) and (ck,dk) in any order, and then runs to the point (el,fl), where he finishes his run.
+Help Chef find the minimum distance he has to run.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers x and y.
+The second line contains three space-separated integers N, M and K.
+The third line contains 2N space-separated integers a1,b1,a2,b2,…,aN,bN.
+The fourth line contains 2M space-separated integers c1,d1,c2,d2,…,cM,dM.
+The fifth line contains 2K space-separated integers e1,f1,e2,f2,…,eK,fK.
+
+Output
+For each test case, print a single line containing one real number ― the minimum distance.
+Your answer will be considered correct if its absolute or relative error does not exceed 10−6.
+Constraints
+
+1≤T≤5,000
+1≤N,M,K≤5,000
+0≤x,y≤109
+0≤ai,bi≤109 for each valid i
+0≤ci,di≤109 for each valid i
+0≤ei,fi≤109 for each valid i
+the sum of N+M+K over all test cases does not exceed 15,000
+
+Subtasks
+Subtask #1 (50 points): 1≤N,M,K≤100
+Subtask #2 (50 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+1 4
+3 2 2
+4 4 2 0 8 1
+10 1 3 1
+1 3 9 5
+6 4
+2 2 3
+7 10 5 7
+1 6 2 3
+1 8 0 7 0 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+8.1820424980
+8.6995968482
+
+
+Explanation
+Example case 1:
+
+
+The black point is ShareChat,
+Points from the first set are red.
+Points from the second set are green.
+Points from the third set are blue.
+The black line corresponds to Chef's run.
+
+Chef should run from (1,4) to (3,1), then to (2,0) and then to (1,3). The distance is √13+√2+√10≐8.1820424980.
+Example case 2:
+
+Chef should run from (6,4) to (5,7), then to (1,6) and then to (0,7). The distance is √10+√17+√2≐8.6995968482.
+
+
+
+Author:
+6★vladprog
+
+
+Editorial:
+https://discuss.codechef.com/problems/PHCUL
+
+
+Tags:
+
+               
+                 Dynamic Programming
+                 
+                     
+                     Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1865
+
+
+Date Added:
+14-06-2019
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

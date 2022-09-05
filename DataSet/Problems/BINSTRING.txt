@@ -1,0 +1,103 @@
+
+You are given a binary string SS of length NN. 
+You have to perform the following operation exactly once:
+
+Select an index ii (1≤i≤N) and delete Si from S. The remaining parts of S are concatenated in the same order.
+
+How many distinct binary strings of length N−1 can you get after applying this operation?
+Input Format
+
+The first line of input contains a single integer T - the number of test cases. The description of T test cases follow.
+The first line of each test case contains N - the length of the binary string S.
+The second line contains the binary string S.
+
+Output Format
+For each test case, output the number of distinct binary strings that you can get after applying the operation exactly once.
+Constraints
+
+1≤T≤105
+2≤N≤105
+Sum of N does not exceed 2⋅105 over all testcases.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+3
+100
+4
+1111
+5
+10110
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+1
+4
+
+
+Explanation
+Test Case 1: We have S=100. Now, we can get 00 (on deleting S1), 10 (on deleting S2) and 10 (on deleting S3). Therefore, we can get 2 distinct strings.
+Test Case 2: We have S=1111. Now, we will always get 111 irrespective of the index i on which we apply the operation. Therefore, we can get 1 distinct string.
+
+
+
+Author:
+6★satyam_343
+
+
+Editorial:
+https://discuss.codechef.com/problems/BINSTRING
+
+
+Tags:
+
+               
+                 satyam_343, simple, start27, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1262
+
+
+Date Added:
+17-02-2022
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

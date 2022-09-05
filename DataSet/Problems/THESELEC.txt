@@ -1,0 +1,88 @@
+
+You are given NN integers A1,A2,...,ANA1,A2,...,AN. You are also given QQ queries. Each query i (1≤i≤Q) is of the following type: 
+Li Ri Xi: meaning, add the value Xi to all the integers in the array whose indices lie in the range [Li,Ri].
+Your task is to tell the maximum possible sum of all the elements of the array if you are allowed to choose at most K (≤Q) queries among the given queries. 
+Input:
+
+First line will contain T, the number of test cases. Then T the test cases follow. 
+First line of each test case contains three space-separated integers N,Q and K.
+Second line of each test case contains N space-separated integers A1,A2,...,AN.
+Then follows Q lines, each containing three space-separated integers Li,Ri and Xi.
+
+Output:
+For each test case, output in a single line the required answer.
+Constraints
+
+1≤T≤10
+1≤N,Q≤105
+1≤K≤Q
+|Ai|≤109
+1≤Li≤Ri≤N
+|Xi|≤109
+
+Sample Input:
+2
+4 7 3
+9 -2 0 0
+1 1 0
+2 3 10
+4 4 -3
+1 1 6
+1 1 4
+2 4 -8
+3 3 3
+10 1 1
+-7 -6 -7 1 -7 -5 5 9 8 0
+2 8 5  
+Sample Output:
+37
+26  
+
+
+
+Author:
+5★sibasish_14
+
+
+Editorial:
+https://discuss.codechef.com/problems/THESELEC
+
+
+Tags:
+
+               
+                 ftcf2020, greedy, math, sibasish_14, sibasish_14, simple, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+6-06-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

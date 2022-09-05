@@ -1,0 +1,110 @@
+
+
+Given a tree, you need to count how many subtrees exist such that the length of the longest path in the subtree is at most K.
+
+
+Input :
+
+The first line contains the number of test cases T.
+T test cases follow. For each test case, the first line contains N and K. The following N - 1 lines contain two integers ai and bi, indicating an edge between nodes ai and bi in the tree. There is a blank line after each test case.
+
+Output :
+
+
+Output T lines, one corresponding to each test case, containing the required answer.
+
+Constraints :
+1 <= T <= 2000
+2 <= N <= 60
+0 <= ai,bi < N
+1 <= K <= N - 1
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+3 1
+0 1
+1 2
+
+6 3
+0 1
+1 2
+2 3
+2 4
+3 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+5
+23
+
+
+
+
+
+Author:
+syco_adm
+
+
+Tester:
+4★anshuman_singh
+
+
+Editorial:
+https://discuss.codechef.com/problems/TREES
+
+
+Tags:
+
+               
+                 Trees
+                 
+                     
+                     Data Structures, Graphs
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2114
+
+
+Date Added:
+20-08-2010
+
+
+Time Limit:
+0.133333 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

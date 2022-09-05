@@ -1,0 +1,103 @@
+
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Chef has a sequence AA consisting of NN positive integers. 
+He is playing a game with this sequence. The goal of the game is to maximize the greatest common divisor of all elements of the sequence. Chef may perform the following operation an arbitrary number of times (including zero):
+
+Choose a positive integer dd and a valid index i such that Ai is divisible by d2.
+Divide Ai by d2.
+Choose a valid index j (not necessarily different from i) and multiply Aj by d.
+
+Help Chef and find the maximum GCD of all integers in the sequence he could obtain if he plays optimally!
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1,A2,…,AN.
+
+Output
+For each test case, print a single line containing one integer — the maximum possible value of the greatest common divisor of all elements of the sequence.
+Constraints
+
+1≤T≤5
+1≤N≤105
+1≤Ai≤106 for each valid i
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+2
+1 25
+5
+27 3 15 1024 15
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+6
+
+
+
+
+
+Author:
+6★kefaa
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHGCDG
+
+
+Tags:
+
+               
+                 Basic Maths, GCD, Sieve of Eratosthenes, Observation, Binary Search
+                 
+                     
+                     Mathematics, Number Theory, Algorithms, Searching
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2368
+
+
+Date Added:
+20-07-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

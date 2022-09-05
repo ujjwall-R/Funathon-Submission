@@ -1,0 +1,107 @@
+
+ 
+Fluffy the squirrel has a set of n nodes, numbered from 1 to n. Initially, there are no edges between any pair of nodes.
+
+Fluffy can perform q operations. He can either :
+Add an undirected edge between node i and node j, with length c
+Ask for the distance between node i and node j. (The distance is the sum of lengths on the shortest path from i to j)
+
+It is guaranteed that, at any time, no cycles will be formed, i.e. the given graph is always a forest of trees. Can you perform the operations efficiently?
+
+ 
+Input
+The first line of the input contains two space-seperated integers n, q, the number of nodes and number of operations respectively. The next q lines denote the operations. The first integer on each line is either 1 or 2, denoting the type of query.
+
+If the type of query is 1, 3 space-seperated integers follow, denoting i, j, c respectively, as described above. Otherwise, 2 space-seperated integers follow, denoting i, j.
+
+Since we want you to answer the queries online, i.e. you must answer the current query before processing the next query, we encoded the queries in a special manner. Let ans be the answer of the last query of type 2. (i.e. the last distance query) If there is no such query (i.e. no queries of type 2 has been asked), let ans = 0. Then, the values i, j of the current query can be found by the following formula :
+
+i = (i_input + ans)%n + 1
+
+j = (j_input + ans)%n + 1
+
+where i_input and j_input are the values of i and j given in the input. The % operator is the modulo operator. 
+ 
+Output
+For each query of type 2, output a single line containing the answer for that query. If there is no path between the two given nodes, the answer is -1.
+ 
+Constraints
+
+1 ≤ n, q ≤ 200000
+1 ≤ c ≤ 109
+
+Subtasks
+
+Subtask 1 (22 points) : 1 ≤ n, q ≤ 5000
+Subtask 2 (29 points) : All queries of type 2 come after queries of type 1
+Subtask 3 (49 points) : Original Constraints
+
+ 
+Example
+Input:
+5 7
+1 5 1 5
+1 2 4 7
+2 1 3
+1 5 4 1
+2 3 4
+1 2 1 6
+2 2 5
+Output:
+-1
+8
+7
+
+ 
+Explanation
+Example case. For the first query of type 2, nodes 2 and 4 (note that the values 2 and 4 are obtained after decoding the input) aren't connected, so we output -1. For the second query of type 2, the distance between nodes 3 and 4 is 7 + 1 = 8. For the third query of type 2, the distance between nodes 1 and 4 is 6 + 1 = 7.
+
+
+
+
+Author:
+6★zscoder
+
+
+Editorial:
+https://discuss.codechef.com/problems/MCO16305
+
+
+Tags:
+
+               
+                 disjoint-set-union, dynamic-programming, lowest-common-ancestor, mco1602, small-to-large, trees, zscoder
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-11-2016
+
+
+Time Limit:
+1.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, CPP14, PYTH, PYP3
+
+
+
+
+
+Submit
+

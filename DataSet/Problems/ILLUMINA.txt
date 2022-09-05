@@ -1,0 +1,78 @@
+
+Arun placed a laser on a sheet making 45 Degree with both the edges at the toptop leftleft cornercorner. The sheet is a rectangle with dimensions of length nn and width mm.
+Then he divided the sheet into n∗mn∗m boxes of size 1∗11∗1. He then put mirrors along all edges of the sheet facing inward so that the laser reflects accordingly.
+He considers the box illuminated if the laser passes through it. 
+If the laser strikes the corner of the sheet then it will retrace its path.
+Find the number of illuminated boxes.
+Input:
+
+First-line will contain TT, the number of test cases. Then the test cases follow. 
+Each test case contains a single line of input, two integers N,MN,M. 
+
+Output:
+For each test case, output in a single line number of illuminated boxes.
+Constraints
+
+1≤T≤100001≤T≤10000
+1≤N,M≤109
+
+Sample Input:
+1
+4 3
+
+Sample Output:
+12
+
+EXPLANATION:
+First test case:-
+n = 4 and m = 3 
+
+
+
+
+Author:
+5★adikr_singh
+
+
+Editorial:
+https://discuss.codechef.com/problems/ILLUMINA
+
+
+Tags:
+
+               
+                 adikr_singh, easy-medium, inro2021, math, number-theory
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+13-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

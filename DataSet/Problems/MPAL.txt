@@ -1,0 +1,85 @@
+
+Given a string of length NN consisting of lowercase alphabets and a pivot index PP (11-based index).
+Substring from Pth character till end is immutable while the following operations can be done on substring on the left of the Pth index:
+
+ Insert a character.
+ Delete a character.
+ Rearrange the characters.
+
+Cost of insertion and deletion is 1 while rearranging characters has no cost.
+Using above operations you need to form new string which will be palindrome about Pth character or Pth and (P+1)th characters of the original string.
+What is the minimum cost of operations for above task?
+
+Input:
+First line will contain T, number of testcases. Then the testcases follow.
+Each testcase contains of a single line of input, a string and P space seperated. 
+
+Output:
+For each testcase, output in a single line answer i.e. minimum cost of operations.
+
+Constraints
+1≤T≤100
+1≤N≤105
+1≤P≤N
+
+Subtasks
+Subtask #1 (100 points): Original Constraints
+
+Sample Input:
+1
+bacb 2
+
+Sample Output:
+1
+
+EXPLANATION:
+Insert c on just left to a. New string will be bcacb which is palindrome. Cost: 1
+
+
+
+Author:
+pec_chapter
+
+
+Editorial:
+https://discuss.codechef.com/problems/MPAL
+
+
+Tags:
+
+               
+                 array, easy, map, observation, pec_chapter
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+10-03-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

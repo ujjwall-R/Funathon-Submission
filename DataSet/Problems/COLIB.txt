@@ -1,0 +1,86 @@
+
+In your college library, there are N Volumes of Novel. You are given all volume numbers between 1,2,…,n except one. Your task is to find the missing volume number.
+Input Format
+
+The first input line contains an integer n.
+The second line contains n−1 numbers. Each number is distinct and between 1 and 
+n (inclusive).
+
+Output Format
+Print the missing number.
+Constraints
+
+2≤N≤2∗105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5
+2 3 1 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+
+
+
+
+
+Author:
+3★naqeeb2710
+
+
+Editorial:
+https://discuss.codechef.com/problems/COLIB
+
+
+Tags:
+
+               
+                 c-plus-plus, easy, math, naqeeb2710
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+12-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

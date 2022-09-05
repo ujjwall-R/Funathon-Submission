@@ -1,0 +1,138 @@
+
+   You are given a rooted tree having nodes N . Every node have value equal to zero initially ,
+
+ Let's call it version 1. You will be given Q queries of two type:-
+
+11 ver1ver1 ver2ver2 v c 
+You have to make version ver2 from version ver1 by adding value c in subtree
+ of vertex v at alternate levels , starting from level of vertex v.
+2 ver1 v
+
+You have to tell value of vertex v in version ver1
+
+
+It is guaranteed that in query , version ver1 already exist and version ver2 
+does not exist .
+
+Input Format
+
+First line contains Number of nodes N.
+Second line contains N-1 integers denoting the parent of nodes from 2 to N.
+Third line contains number of queries Q
+Next Q line contains queries of two types as explained in the question.
+
+Output Format
+
+For each query of type 2 answer the value of node v in version ver1 in a single line.
+
+Constraints
+
+1 ≤ N ≤ 200000
+1 ≤ Q ≤ 200000
+1  ≤ ver1 ≤Q
+1 ≤ ver2 ≤ Q+1
+1 ≤ c ≤ 300000
+1 ≤ v ≤ N
+
+Subtasks
+
+100 points : Orignal Constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+5
+1 1 2 4
+6
+1 1 2 4 1
+1 2 3 1 2
+2 1 5
+2 3 4
+1 2 4 2 4
+2 4 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+3
+4
+
+
+Explanation
+                 1
+                / \
+               2   3
+              /
+             4
+            /
+           5
+
+value in version 1 - > [0,0,0,0,0] 
+value in version 2 - > [0,0,0,1,0]
+value in version 3 - > [2,0,0,3,0]
+value in version 4 - > [0,4,0,1,4]
+
+
+
+Author:
+4★pratik291219
+
+
+Tester:
+6★gupta_nitin
+
+
+Editorial:
+https://discuss.codechef.com/problems/RDTREE
+
+
+Tags:
+
+               
+                 dynamic-programming, pratik291219, trees
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+10-02-2022
+
+
+Time Limit:
+1 - 2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

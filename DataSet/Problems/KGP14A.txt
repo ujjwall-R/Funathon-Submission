@@ -1,0 +1,69 @@
+
+Liliputs are holding a drawing competition for K kids, but with K human-sized pencils stolen from humans. In order to make life easier for the kids, the organizers want to give a pencil to each kid in a way such that the sum of the absolute differences of the height of a kid and the length of the pencil assigned to him/her is minimized. What is the minimum sum of absolute differences that can be achieved?
+Input
+The first line contains the number of test cases N (0 < N ≤ 3). 
+For each test case, the first line contains the number of kids and pencils K (0 < K ≤ 100). The second line contains K positive integers, each containing the height in millimeter of a kid. The third line contains K positive integers, each containing the length in millimeter of a pencil.
+Output
+For each test case, print the case number, followed by a colon, followed by a single space, followed by a single integer indicating the minimum sum of absolute differences achieved (in millimeter).
+Sample Input
+2
+5
+51 60 51 72 70 
+65 60 88 72 88 
+4 
+123 234 188 175 
+219 334 122 233
+
+Sample Output
+Case 1: 69 
+Case 2: 190
+
+
+
+
+Author:
+admin3
+
+
+Editorial:
+https://discuss.codechef.com/problems/KGP14A
+
+
+Tags:
+
+               
+                 ad-hoc, admin3, cakewalk, kgp14ros
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+12-12-2014
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

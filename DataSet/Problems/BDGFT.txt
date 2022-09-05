@@ -1,0 +1,94 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+All strings in Chefland are beautiful because they are binary strings (a binary string contains only characters '0' and '1'). The beauty of a binary string SS is defined as the number of pairs (i,j)(i,j) (1≤i≤j≤|S|) such that the substring Si,Si+1,…,Sj is special.
+For a binary string U, let's denote the number of occurrences of the characters '1' and '0' in U by cnt1 and cnt0 respectively; then, U is special if cnt0=cnt1⋅cnt1.
+Today, Chef's friend Araspa is celebrating her birthday. Chef wants to give Araspa the most beautiful binary string he can find. Currently, he is checking out binary strings in a shop, but he needs your help to calculate their beauties. Tell Chef the beauty of each binary string he gives you.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single string S.
+
+Output
+For each test case, print a single line containing one integer — the beauty of the string S.
+Constraints
+
+1≤T≤10
+1≤|S|≤105
+each character of S is '0' or '1'
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+010001
+10
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+1
+
+
+Explanation
+Example case 1: The special substrings correspond to (i,j)=(1,2),(1,6),(2,3),(5,6).
+
+
+
+Author:
+5★ezio_26
+
+
+Editorial:
+https://discuss.codechef.com/problems/BDGFT
+
+
+Tags:
+
+               
+                 brute-force, cook108, ezio_26, prefix-sum, sliding-window, taran_1407
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2010
+
+
+Date Added:
+11-07-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,82 @@
+
+It's Holi and like every time LakshayLakshay wants to go out and play Holi with his friend ManavManav. 
+But ManavManav is occupied with a problem and is unable to solve that. Your task is to help Manav solve the problem so that they both can go out and play Holi. The problem is as follows:
+For a given string S, comprising of only lowercase English alphabets, 
+eliminate the vowels from the string that occur between two consonants (sandwiched between two immediately adjacent consonants). 
+Print the updated string on a new line.
+
+Input:
+-First line of input is an integer T, denoting the number of test cases. 
+-For each test case, input S is given.
+
+Output:
+For each test case, the only line of output is the updated string after omission of all sandwiched vowels.
+
+Constraints:
+
+1≤T≤100
+1≤|S|≤105
+
+
+Subtasks
+ Subtask #1 (100 points): Original Constraints
+
+Sample Input:
+2
+bab
+gghho
+
+
+Sample Output:
+bb
+gghho
+
+
+
+
+Author:
+pec_chapter
+
+
+Editorial:
+https://discuss.codechef.com/problems/LMAN
+
+
+Tags:
+
+               
+                 basic-programming, cakewalk, cbhe2021, pec_chapter, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-03-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

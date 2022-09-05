@@ -1,0 +1,89 @@
+
+ 
+Problem description.
+In Bytelandian University, everyone has to enter his/her name on a computer when entering or leaving the library. The names are stored in a file on that computer. Assume that everyone adheres to this rule. Given the file, find out how many people are there in the library.
+There will not be spaces in names. Different people have different names.
+Input
+
+The first line of the input contains an integer T denoting the number of test cases.The description of T test cases follows.
+The first line of each testcase contains an integer n, the number of names in the file.
+Then n lines follow, each containing a name.
+
+ 
+Output
+
+For each test case, output a single line containing the number of people in the library.
+
+ 
+Constraints
+
+1 ≤ T ≤ 10
+1 ≤ n ≤ 50000
+1 ≤ Length of each name ≤ 30
+
+ 
+Example
+Input:
+1
+8
+Shubham
+Hasil
+Shubham
+Ravi
+Shikhar
+Hasil
+Jaiwant
+Hasil
+
+Output:
+4
+
+
+
+
+Author:
+2★f2012086
+
+
+Editorial:
+https://discuss.codechef.com/problems/ACMICL3
+
+
+Tags:
+
+               
+                 easy, f2012086, icl2015, sorting
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-02-2015
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3
+
+
+
+
+
+Submit
+

@@ -1,0 +1,70 @@
+
+AK and his friends have just submitted their assignments a few seconds before the deadline and they  want to celebrate at the Juice Canteen. They decide to pool in all their cash and order some oreo shakes.
+You are given an integer NN, the number of students, and a list of nn integers where ci is the amount of cash the i-th student has. Find the average amount that each student can place an order for, given that they pool all their money together.
+Input
+The first line contains a single integer N (1≤N≤100), the number of students
+The second line contains N integers, c1,c2,…cn, where ci is the amount of cash the i-th student has. (0≤ci≤100)
+Output
+Output the average of the N inputs.
+Let's assume that your answer is a, and the answer of the jury is b. The checker program will consider your answer correct, if |a−b|max(1,b)≤10−4
+Sample Input
+3 
+1 2 3
+
+Sample Output
+2.000000000
+
+Explanation
+The average of the three inputs is 3+2+13=2
+Hack case note
+Find the buggy solution to this problem on GitHub or Drive.
+This problem is part of DeCode contest, wherein you are given a problem (as given above) and its buggy solution (link in contest announcement). You have to submit a program that outputs a hack case to the buggy solution. Your program's output should satisfy the input constraints of the above problem.
+
+
+
+Author:
+4★akcube
+
+
+Editorial:
+https://discuss.codechef.com/problems/AVGNUMBS
+
+
+Tags:
+
+               
+                 akcube, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+20-02-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

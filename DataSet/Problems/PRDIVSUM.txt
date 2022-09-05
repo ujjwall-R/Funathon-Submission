@@ -1,0 +1,80 @@
+
+
+
+For a given positive integer N find the number of all pairs (a, b) of positive integers such that 1 <= a < b <= N and the sum a + b divides the product a * b.
+
+Input
+ The first line contains a single positive integer T <= 5, the number of test cases. T test cases follow. The only line of each test case contains a positive integer N <= 109.
+
+Output
+ For each test case, output a single line containing the answer for the corresponding test case.
+
+Example
+Input:
+2
+2
+15
+
+Output:
+0
+4
+
+
+Explanation
+In the second test case required pairs are (3, 6), (4, 12), (6, 12) and (10, 15).
+
+
+
+Author:
+2★anton_adm
+
+
+Tester:
+6★pieguy
+
+
+Editorial:
+https://discuss.codechef.com/problems/PRDIVSUM
+
+
+Tags:
+
+               
+                 Discrete Maths, GCD
+                 
+                     
+                     Mathematics, Number Theory
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2384
+
+
+Date Added:
+12-04-2011
+
+
+Time Limit:
+0.527616 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

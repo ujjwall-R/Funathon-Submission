@@ -1,0 +1,106 @@
+
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Leha is a bright mathematician. Today he is investigating whether an integer is divisible by some square number or not.
+He has a positive integer X represented as a product of N integers a1, a2, .... aN. He has somehow figured out that there exists some integer P such that the number X is divisible by P2, but he is not able to find such P himself. Can you find it for him? If there are more than one possible values of P possible, you can print any one of them.
+
+Input
+The first line of the input contains an integer T denoting the number of test cases. T test cases follow.
+The first line of each test case contains one integer N denoting the number of intgers in presentation of X.
+The second line contains N space-separated integers a1, a2, .... aN.
+Output
+For each test case, output a single integer P deoting the answer for this test case. Note that P must be in range from 2 to 1018 inclusive. It's guaranteed that at least one answer exists. If there are more than one possible answers, print any.
+Constraints
+
+1 ≤ T ≤ 5
+1 ≤ N ≤ 100
+1 ≤ ai ≤ 1018
+
+Subtasks
+
+Subtask 1[19 points]: 1 ≤ a1*a2*...*aN ≤ 106
+Subtask 2[22 points]: 1 ≤ a1*a2*...*aN ≤ 1012
+Subtask 3[23 points]: 1 ≤ ai ≤ 1012
+Subtask 4[36 points]: no additional constraints
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+3
+21 11 6
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+
+
+Explanation
+Example case 1. X = 21 * 11 * 6 = 1386. It's divisible by 9 which is a square number, as 9 = 32. So P = 3.
+
+
+
+Author:
+4★pavel1996
+
+
+Tester:
+3★karanaggarwal
+
+
+Editorial:
+https://discuss.codechef.com/problems/SQNUMBF
+
+
+Tags:
+
+               
+                 GCD, Integer Factorisation
+                 
+                     
+                     Mathematics, Number Theory
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2337
+
+
+Date Added:
+13-06-2016
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,85 @@
+
+A beautiful sequence is defined as a sequence that do not have any repeating elements in it.
+You will be given any random sequence of integers, and you have to tell whether it is a beautiful sequence or not. 
+Input:
+
+The first line of the input contains a single integer TT. TT denoting the number of test cases. The description of TT test cases is as follows.
+The next line of the input contains a single integer N. N denotes the total number of elements in the sequence.
+The next line of the input contains N space-separated integers A1,A2,A3...An denoting the sequence.
+
+Output:
+
+Print "prekrasnyy"(without quotes) if the given sequence is a beautiful sequence, else print "ne krasivo"(without quotes)
+
+Note: each test case output must be printed on new line
+Constraints:
+
+1≤T≤102
+1≤N≤103
+1≤A1,A2,A3...An≤105
+
+Sample Input:
+2
+4
+1 2 3 4
+6
+1 2 3 5 1 4
+
+Sample Output:
+prekrasnyy
+ne krasivo
+
+Explanation:
+
+As 1st sequence do not have any elements repeating, hence it is a beautiful sequence
+As in 2nd sequence the element 1 is repeated twice, hence it is not a beautiful sequence
+
+
+
+
+Author:
+pro_army
+
+
+Editorial:
+https://discuss.codechef.com/problems/FREQARRY
+
+
+Tags:
+
+               
+                 array, arys2020, easy, pro_army
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-11-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

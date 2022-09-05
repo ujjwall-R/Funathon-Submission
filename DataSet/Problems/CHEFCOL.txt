@@ -1,0 +1,79 @@
+
+ Problem Statement 
+
+Chef and his brother Bakku has N balls each. It is also known that both of them also have equal number of distinct colored balls.
+There are 2 special balls, out of which any one is randomly given to Chef and other is given to Bakku.
+
+Help Chef to find number of ways to color all 2*N+2 balls with K colors before distributing special balls so that both of them have equal number of distinct balls for any distribution of special balls.
+
+Note: For any distribution of Special balls both must have equal number of distinct colored balls.
+
+
+
+ Constraints 
+1 <= N <= 1000 
+1 <= K <= 1000000 
+Input Format 
+A Single line containing of 2 integers N and K.
+
+ Output Format  
+Print the number of ways of coloring so that given constraint is satisfied modulo 1000000007. 
+Sample 
+
+Input
+2 1
+
+Output
+1
+
+Input
+2 2
+
+Output
+24
+
+
+
+
+Author:
+skullcrackers
+
+
+Tags:
+
+               
+                 dynamic-programming, ipc15flb, medium, skullcrackers
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+28-09-2016
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

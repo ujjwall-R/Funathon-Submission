@@ -1,0 +1,101 @@
+
+Alice has recently learned in her economics class that the market is said to be in equilibrium when the supply is equal to the demand.
+Alice has market data for NN time points in the form of two integer arrays SS and D. Here, Si denotes the supply at the ith point of time and Di denotes the demand at the ith point of time, for each 1≤i≤N.
+Help Alice in finding out the number of time points at which the market was in equilibrium. 
+Input Format
+
+The first line of input will contain an integer T — the number of test cases. The description of T test cases follows.
+Each test case contains three lines of input.
+The first line of each test case contains an integer N, the length of the arrays S and D.
+The second line of each test case contains N space-separated integers S1,S2,…,SN.
+The third line of each test case contains N space-separated integers D1,D2,…,DN. 
+
+Output Format
+For each test case, output the number of time points at which the market was in equilibrium.
+Constraints
+
+1≤T≤10
+1≤N≤100
+1≤Si,Di≤100 for every 1≤i≤N
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+4
+1 2 3 4
+2 1 3 4
+4
+1 1 2 2
+1 2 1 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+1
+
+
+Explanation
+Test case 1: For i=3 and i=4, we have supply equal to demand, hence the market is in equilibrium.
+Test case 2: For i=1, we have supply equal to demand, hence the market is in equilibrium.
+
+
+
+Author:
+utkarsh_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/ECOCLASS
+
+
+Tags:
+
+               
+                 array, cakewalk, implementation, start31, utkarsh_adm
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+787
+
+
+Date Added:
+21-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

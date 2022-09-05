@@ -1,0 +1,79 @@
+
+Rocky loves watching the stars of the night sky. He has a telescope with a range length LL whose stand is damaged in such a way that you can’t move the telescope up, down, left or right. It can point only to a fixed point in the sky. Rocky likes to watch as many stars as possible. So, he got an idea and made a slider for the base of the stand. But the slider was too slippery, so you have to fix the telescope to view through it. Given NN stars and their coordinates on the horizontal line of vision of the telescope, can you help Rocky find the position to fix the telescope such that he can watch maximum number of stars?
+[Note: Range length LL of the telescope is defined as, if you fix the telescope such that the left endpoint is at coordinate xx on the horizontal line of vision, then Rocky can see all stars in the range x to x+L, inclusive of endpoints.
+Input:
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N, L.
+The second line contains N space separated integers X1,X2,….XN, where Xi denotes the x-coordinate of the ith star. (As you can see, the y-coordinate is irrelevant, as all are along the same line)
+
+Output:
+For each test case, print a single line containing two space separated integers A, X,  where A denotes the maximum stars possible to see when the telescope is fixed, and X denotes the x-coordinate of the left part of the range of the telescope. 
+If there are multiple answers with the same highest no. of stars, print the highest x-coordinate among them.
+Constraints
+
+1≤T≤100
+1≤N≤105
+1≤L≤109
+|Xi|≤109
+
+Sample Input:
+2
+5 2
+0 1 2 4 5
+5 4
+-15 6 -11  -2 1
+
+Sample Output:
+3 0
+2 -2
+
+
+
+
+Author:
+5★kishen1912000
+
+
+Editorial:
+https://discuss.codechef.com/problems/SKYFALL
+
+
+Tags:
+
+               
+                 binary-search, cnxh2020, easy, kishen1912000, two-pointers
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+3-01-2020
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

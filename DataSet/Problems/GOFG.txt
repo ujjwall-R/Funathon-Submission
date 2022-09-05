@@ -1,0 +1,100 @@
+
+
+Lets define G(x, {A1, A2, A3, ..., Ax}) as a game played by 2 players in which we have x piles of stones with ith pile having Ai stones. Player 1 moves first. The players move alternatively. In a move a player can select a single non empty pile of stones and remove any number ( > 0 ) of stones from it. When a player cannot make a move, the player loses.
+
+Adarsh and Saharsh are playing a modification of this game. There are N piles of stones lined up and ith pile has Ai number of stones. Saharsh needs to divide the N piles into disjoint contiguous segments. It is possible for a pile to not belong in a segment at all. The segments need to be selected in such a way such that, if ith pile is in a segment, then all the j's such that Ai = Aj, are also in the segment. Now they play games on these segments considering only the 'distinct sized piles' in the segment with Adarsh as Player 1 and Saharsh as Player 2.
+
+Consider A = {1, 1, 2, 3, 3, 2}.
+
+A possible division is {1, 1} and {2, 3, 3, 2}. 
+  For the segment {1, 1}, game G(1, {1}) would be played. For the segment {2, 3, 3, 2}, game G(2, {2, 3}) would be played.
+      
+G(1, {1}) would be won by Player 1
+G(2, {2, 3}) would be won by Player 1
+
+  So number of games that Player 2 wins would be 0.
+Another possible division is {1, 1, 2, 3, 3, 2}. 
+  For the segment {1, 1, 2, 3, 3, 2}, game G(3, {1, 2, 3}) would be played. 
+      G(3, {1, 2, 3}) would be won by Player 2
+  So number of games that Player 2 wins would be 1.
+
+
+What is the maximum possible games that Saharsh can win?
+
+Input Format: 
+The first line contains an integer N, the number of piles.
+Next line contains N space separated integers where ith integer denotes number of stones in the ith pile, Ai.
+
+Output Format:
+For each test case, output the corresponding answer.
+
+Constraints:
+
+1<= N <=500000
+1<= Ai <=500000
+
+Sample Input:
+6
+1 1 2 3 3 2
+
+Sample Output:
+1
+
+Explanation:
+Given in the problem statement.
+            
+            
+            
+            
+            
+        
+
+        
+
+
+Author:
+7★gvaibhav21
+
+
+Editorial:
+https://discuss.codechef.com/problems/GOFG
+
+
+Tags:
+
+               
+                 dynamic-programming, gvaibhav21, inso2018, insomnia18
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2892
+
+
+Date Added:
+19-03-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,115 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef has been teaching probability and expectation in his class. He wants his N students (numbered 1 through N) to play a game so that they could understand the concepts clearly.
+For each valid i, the i-th student should choose an integer from a range [Li,Ri] uniformly randomly. Chef wants to know the expected value of the ratio A/B, where A is the product of the integers chosen by the students and B is the GCD of these integers. Please help him calculate it.
+It can be proved that this expected value can be expressed as a fraction PQ, where P and Q are positive integers and Q is coprime with 998,244,353. You should compute P⋅Q−1 modulo 998,244,353, where Q−1 denotes the multiplicative inverse of Q modulo 998,244,353.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+N lines follow. For each valid i, the i-th of these lines contains two space-separated integers Li and Ri.
+
+Output
+For each test case, print a single line containing one integer P⋅Q−1 modulo 998,244,353.
+Constraints
+
+1≤T≤2
+1≤N≤105
+1≤Li≤Ri≤105 for each valid i
+
+Subtasks
+Subtask #1 (50 points):
+
+N≤103
+Ri≤103 for each valid i
+
+Subtask #2 (50 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+1
+1 3
+2
+2 4
+5 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+15
+
+
+Explanation
+Example case 1: There are three possible scenarios: student 1 can choose 1, 2 or 3. In all of them, A=B, so the expected value is 1.
+Example case 2: There are three possible scenarios:
+
+Student 1 chooses 2, student 2 chooses 5: AB=2⋅5gcd(2,5)=10.
+Student 1 chooses 3, student 2 chooses 5: AB=3⋅5gcd(3,5)=15.
+Student 1 chooses 4, student 2 chooses 5: AB=4⋅5gcd(4,5)=20.
+
+The expected value of the ratio is 10+15+203=15.
+
+
+
+Author:
+6★imanik
+
+
+Editorial:
+https://discuss.codechef.com/problems/RNDRATIO
+
+
+Tags:
+
+               
+                 Integer Factorisation, Expected Value, Inclusion Exclusion Principle, Dynamic Programming
+                 
+                     
+                     Mathematics, Number Theory, Probability, Set Theory, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+24-03-2020
+
+
+Time Limit:
+5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

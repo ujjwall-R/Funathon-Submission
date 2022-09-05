@@ -1,0 +1,103 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Dr.D is tired of making up stories, so here is the formal description of this problem :
+You are given a set S={S1,S2,…,SK}S={S1,S2,…,SK}, an integer XX and a sequence A1,A2,…,AMA1,A2,…,AM. Let's define an infinite sequence W1,W2,…: for each valid i, Wi=A((i−1)%M)+1. Then, let's define a function F(i) for any non-negative integer i in the following way:
+
+F(0)=X
+if i∈S, F(i)=0
+otherwise, for i≠0, F(i)=(∑ij=1F(i−j)⋅Wj)%(109+7)
+
+Find the value of F(N).
+Input
+
+The first line of the input contains four space-separated integers X, K, M and N.
+The second line contains K space-separated integers S1,S2,…,SK.
+The third line contains M space-separated integers A1,A2,…,AM.
+
+Output
+Print a single line containing one integer F(N).
+Constraints
+
+0≤X<109+7
+0≤K≤200
+1≤M≤200
+0≤N≤1018
+0≤Ai<109+7 for each valid i
+1≤Si≤N for each valid i
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3 1 3 5
+4
+2 3 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+231
+
+
+
+
+
+Author:
+7★kmaaszraa
+
+
+Editorial:
+https://discuss.codechef.com/problems/DFNC
+
+
+Tags:
+
+               
+                 Matrix Exponentiation, Recurrence Relation
+                 
+                     
+                     Mathematics, Matrices, Matrix Multiplication, Algorithms, Recursion
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3178
+
+
+Date Added:
+14-10-2019
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,116 @@
+
+A number XX is called bad if its binary representation contains odd number of 11 bits. For example, X=13=(1101)2X=13=(1101)2 is bad while X=3=(11)2X=3=(11)2 is not bad.
+Chef calls an array A of length N special if the following conditions hold:
+
+For each 1≤i≤N, 0≤Ai<220
+All the elements of A are distinct
+There does not exist any non-empty subset of A such that the bitwise XOR of the subset is bad.
+
+For example,
+
+A=[2,3,4] is not special because the XOR of the subset [2,3] is 2⊕3=1, which is bad. (⊕ denotes the bitwise XOR operation)
+A=[3,3] is not special because its elements are not distinct.
+A=[3,5] is special because it satisfies all the conditions.
+
+Chef challenges you to construct any special array of length N. Can you complete Chef's challenge?
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer N — the length of the special array to be constructed.
+
+Output Format
+For each test case, output a single line containing N space-separated integers, denoting the elements of the special array of length N you constructed.
+Note: It can be proved that a special array of length N always exists under the given constraints.
+Constraints
+
+1≤T≤100
+1≤N≤1000
+0≤Ai<220
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+1
+2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+6
+3 5
+
+
+Explanation
+Test Case 1: There is only one non-empty subset of the given array, namely [6]. The XOR of this subset is 6=(110)2, which is not bad.
+Test Case 2: The given array has three non-empty subsets, namely [3],[5], and [3,5].
+
+[3] has XOR 3=(11)2, which is not bad.
+[5] has XOR 5=(101)2, which is not bad.
+[3,5] has XOR 6=(110)2, which is not bad.
+
+None of the subsets have bad XOR, and the elements are distinct. Hence, the array is special.
+
+
+
+Author:
+6★jeevanjyot
+
+
+Tester:
+7★aryanc403
+
+
+Editorial:
+https://discuss.codechef.com/problems/EVENXOR
+
+
+Tags:
+
+               
+                 bitwise-xor, jeevanjyot, simple, start22
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1714
+
+
+Date Added:
+15-01-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

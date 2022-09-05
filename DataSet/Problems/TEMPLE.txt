@@ -1,0 +1,84 @@
+
+J.D.  a travel freak guy in NIT goes to hills in Nepal. JD want to take  exactly kk  steps to reach to the top and in  each step he climb aa or b or c  height above his initial position. Given height of hill as  H and you have to find no of ways he can climb to the top of hill taking exactly k steps.
+Finally output the answer modulo 10^9+7(1000000007).
+Read about modulo from here.  modulo_arithmetic
+Input:
+
+First line will contain H 
+Next Line contain space separated integers the value of a, b, c
+Last contain value of and K.
+
+Output:
+No of ways to reach the top of hill (can be 0 ).
+Constraints
+
+1≤H≤10000
+1≤K≤100
+1≤a,b,c≤10000
+
+Subtasks
+
+50 points : 1≤a,b,c,k,n≤10
+50 points : Original Constraints
+
+Sample Input:
+6
+1 2 3
+3
+
+Sample Output:
+7
+
+EXPLANATION:
+The total ways can be 1+2+3=6 , 1+3+2=6 , 2+1+3=6  ,2+3+1=6 ,  3+1+2=6  , 3+2+1=6 ,  2+2+2=6 .
+Hence total answer is 7.
+Best of Luck!!
+
+
+
+Author:
+4★aayushindwan
+
+
+Editorial:
+https://discuss.codechef.com/problems/TEMPLE
+
+
+Tags:
+
+               
+                 aayushindwan, dynamic-programming, recursion, strt2020
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+15-02-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

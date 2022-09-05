@@ -1,0 +1,100 @@
+
+ Read problems statements in Mandarin Chinese  and Russian.
+
+Your task is simple. 
+You need to find the value of .
+As the value could be too large, output it modulo M.
+
+Input
+
+The first contains an integer T, denoting the number of the test cases. 
+Then there are T lines, each describing a single test case and contains two space separated integers N and M respectively. 
+Output
+For each test case, output the value of summation modulo M on a separate line.
+Constraints
+1 ≤  M  ≤ 100000 
+There are two types of datasets:
+ 1 ≤ N ≤ 106 , 1 ≤ T ≤ 3000 
+ 106 ≤ N ≤ 1010 , 1 ≤ T ≤ 30 
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+4 1000
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+373
+
+
+Explanation
+14*4 + 24*2 + 34*1 + 44*1 = 373 
+
+
+
+Author:
+4★devuy11
+
+
+Tester:
+6★xcwgf666
+
+
+Editorial:
+https://discuss.codechef.com/problems/FLOORI4
+
+
+Tags:
+
+               
+                 Basic Maths, ad-hoc, Observation
+                 
+                     
+                     Mathematics, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2116
+
+
+Date Added:
+21-07-2014
+
+
+Time Limit:
+1.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

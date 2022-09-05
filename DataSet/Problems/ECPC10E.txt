@@ -1,0 +1,94 @@
+
+You have given two arrays of NN integers as AA = { A1,A2,A3,...,AN }  and
+B = { B1,B2,B3,...,BN } such that for each i (1≤i≤N) , Bi≤Ai holds true. 
+Lets define a functions F(L,R) where 1≤L≤R≤N  as follows
+F(L,R) = max(AL,AL+1,AL+2,...,AR) − min(BL,BL+1,BL+2,...,BR) 
+For is a postive integer k G(k) is defined below.
+G(k) = count of  pairs (L,R) such that   F(L,R)≤k for all 1≤L≤R≤N . 
+You  have given a positive integer U.
+Your task is to find Minimum k greater than or equal to zero for which G(k) = U .
+Print -1 if no such k exist.
+Input:
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space separated integers N,U.
+The second Line contains N space separated integers A1,A2,....AN.       
+The third Line contains N space separated integers B1,B2,....BN.
+
+Output:
+For each testcase, output in a single line minimum possible value of k  or print -1 If no such k exist. 
+Constraints
+
+1≤T≤10
+1≤N≤105 
+1≤Bi≤Ai≤107 
+1≤U≤1010
+
+Sample Input:
+1
+2 2
+
+1 5
+1 3
+Sample Output:
+2
+
+EXPLANATION:
+A = [1,5] , B = [1,3]     U = 2
+F(1,1) = 0
+ F(2,2) = 2
+ F(1,2) = max(A1,A2)−min(B1,B2)  = max(1,5) - min(1,3) = 5 - 1 = 4. 
+G(0) = 1  as only F(1,1) ≤ 0
+G(1) = 1  as only F(1,1) ≤ 1
+G(2) = 2  as only F(1,1) ≤ 0 and F(2,2) ≤ 0
+G(3) = 2  as only F(1,1) ≤ 0 and F(2,2) ≤ 0
+So min value of k = 2 for which G(k) = U 
+
+
+
+Author:
+5★pankajsharma1
+
+
+Editorial:
+https://discuss.codechef.com/problems/ECPC10E
+
+
+Tags:
+
+               
+                 binary-search, ecpg2020, medium, pankajsharma1, sliding-window, two-pointers
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+22-10-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

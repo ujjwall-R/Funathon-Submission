@@ -1,0 +1,100 @@
+
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Zanka finds fun in everyday simple things. One fine day he got interested in a very trivial sequence. Given a natural number kk, he considers the sequence Ai=k+i2Ai=k+i2 so that the terms are
+k+1,k+4,k+9,k+16,…k+1,k+4,k+9,k+16,…
+Now to make things more interesting, he considers the gcd of consecutive terms in the sequence, then takes the sum of the first 2k values. More formally, he wants to compute
+2k∑i=1gcd(Ai,Ai+1)
+Denote this sum by S. Zanka wants you to print  the number S for each k.
+Input
+
+The first line contains an integer T, the number of test cases. Descriptions of test cases follow.
+The only line of each test case contains a single integer k.
+
+Output
+For each test case, output a single line containing the sum S for the given k.
+Constraints
+
+1≤T≤106
+1≤k≤106
+
+Subtasks
+Subtask #1 (20 points): t≤103,k≤103
+Subtask #2 (80 points): Original Constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+6
+
+
+Explanation
+The first 2k+1 terms of the sequence A are 2,5,10.
+So the answer is gcd(2,5)+gcd(5,10)=1+5=6
+
+
+
+Author:
+5★zankanotachi
+
+
+Editorial:
+https://discuss.codechef.com/problems/ISS
+
+
+Tags:
+
+               
+                 GCD, Euler Totient Function, Sieve of Eratosthenes, Inclusion Exclusion Principle, Observation
+                 
+                     
+                     Mathematics, Number Theory, Set Theory, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2071
+
+
+Date Added:
+18-04-2021
+
+
+Time Limit:
+1.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

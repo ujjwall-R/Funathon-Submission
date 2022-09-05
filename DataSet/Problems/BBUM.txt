@@ -1,0 +1,90 @@
+
+Bumble is a hardworking bee. Bumble wants to make hives and gift them to the charming Queen Bee. He also wants to make the hives in a hexagonal lattice shape to maintain its geometrical beauty.
+He makes a new hive each day ,starting anew and making them next to the previous day's hive, not over it or on it and with a size just larger to it, while still forming a hexagonal lattice.
+On the first day, he makes a hive with one unit cell as:   
+
+The next day, it makes a new hexagonal lattice hive with seven unit cells combined and next to the previous one as:
+[Note that the centre of the outer cells form a hexagonal lattice]
+
+After the end of day 2, the hives look like this:  
+
+On the third day, it makes another hive next to the two previous ones, in the same pattern and goes on doing so for n  days.
+Seeing his hard work, the Queen Bee decided to award him with a constant times the number of cells he has used altogether to make the hives. Given the number of days n Bumble has worked and the value of the constant c, help the queen calculate the reward.  
+Input
+
+The first line contains an integer T , denoting the number of test cases.  
+Each of the subsequent T lines contain two numbers c  and n , denoting the value of the constant and the number of days Bumble has worked.
+
+Constraints
+
+1 ≤T ≤ 1000000
+1 ≤ n ≤ 10000
+1 ≤ c ≤ 50
+
+Output
+
+For each testcase print the reward
+
+Sample Input:
+2
+47 1  
+39 2
+
+Sample Output:
+47  
+312
+
+Explaination
+
+For one day worked, Bumble has used 1  cell so the reward is 47 * 1 = 47 
+For two days worked, Bumble has used 1  cell on first day plus  7 cells on the second day so, the reward is 39 * (1 + 7) = 312 
+
+
+
+
+Author:
+3★najiba
+
+
+Editorial:
+https://discuss.codechef.com/problems/BBUM
+
+
+Tags:
+
+               
+                 cakewalk, maths, najiba
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+4-03-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, PYPY, NODEJS, PHP, JS
+
+
+
+
+
+Submit
+

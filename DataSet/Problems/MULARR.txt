@@ -1,0 +1,73 @@
+
+ 
+ Churchill was a kindhearted man, and he wanted to give a cakewalk problem to the coders present, to warm them up. 
+ Given an array of N integers, print the product of the numbers present in the array. 
+  Use appropriate variable types to avoid overflow errors 
+Input
+The first line contains T, the number of test cases. 
+Each test cases consists of two lines, the first line containing N, the number of elements, and the second line containing N integers. 
+Output
+ For each test case, print the required answer in a single line.
+ 
+Constraints
+ 1 <= T <= 100 
+ 1 <= N <= 10 
+ 0 <= A[i] <= 15 
+Example
+Input:
+1
+2
+2 2
+
+Output:
+4
+
+
+
+
+Author:
+5★akshayvenkat97
+
+
+Editorial:
+https://discuss.codechef.com/problems/MULARR
+
+
+Tags:
+
+               
+                 akshayvenkat97, array, cakewalk, popc2018
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+14-01-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

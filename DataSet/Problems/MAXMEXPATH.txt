@@ -1,0 +1,136 @@
+
+Consider a tree with NN nodes, rooted at node 1.
+The value of the ith node (1≤i≤N) is denoted by Ai.
+Chef defines the function MEX(u,v) as follows:
+Let B denote the set of all the values of nodes that lie in the shortest path from u to v (including both u and v). Then, MEX(u,v) denotes the MEX of the set B.
+Find the maximum value of MEX(1,i), where 1≤i≤N. 
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of the T test cases follows.
+The first line of each test case contains a single integer N - the number of nodes in the tree.
+The second line of each test case contains N space separated integers A1,A2,...,AN. Ai represents the value of the ith node.
+The following N−1 lines contain two space-separated integers X and Y, denoting that there exists an edge between the nodes X and Y.
+
+Output Format
+For each test case, output in a single line, the maximum value of MEX(1,i) where 1≤i≤N. 
+Constraints
+
+1≤T≤104
+1≤N≤105
+0≤Ai≤N
+1≤X,Y≤N
+Sum of N over all test cases does not exceed 3⋅105.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+3
+0 1 2
+1 2
+1 3
+4
+0 1 2 3
+1 2
+2 3
+1 4
+5
+1 2 3 4 0
+1 2
+2 3
+2 4
+1 5
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+2
+3
+2
+
+
+Explanation
+Test case 1:
+
+MEX(1,1)=MEX({A1})=MEX({0})=1.
+MEX(1,2)=MEX({A1,A2})=MEX({0,1})=2.
+MEX(1,3)=MEX({A1,A3})=MEX({0,2})=1.
+Thus, the answer is 2.
+
+Test case 2:
+
+MEX(1,1)=MEX({A1})=MEX({0})=1.
+MEX(1,2)=MEX({A1,A2})=MEX({0,1})=2.
+MEX(1,3)=MEX({A1,A2,A3})=MEX({0,1,2})=3.  
+MEX(1,4)=MEX({A1,A4})=MEX({0,3})=1.
+Thus, the answer is 3.
+
+Test case 3:
+
+MEX(1,1)=MEX({A1})=MEX({1})=0.
+MEX(1,2)=MEX({A1,A2})=MEX({1,2})=0.
+MEX(1,3)=MEX({A1,A2,A3})=MEX({1,2,3})=0.  
+MEX(1,4)=MEX({A1,A2,A4})=MEX({1,2,4})=0.  
+MEX(1,5)=MEX({A1,A5})=MEX({1,0})=2.
+Thus, the answer is 2.
+
+
+
+
+Author:
+lavish_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/MAXMEXPATH
+
+
+Tags:
+
+               
+                 easy-medium, lavish_adm, march221, segment-tree
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2322
+
+
+Date Added:
+10-03-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,74 @@
+
+The Festival of Dahi Handi is about to start in an hour. It involves communities hanging an earthen pot filled with dahi (yogurt) or other milk-based delicacy, at a convenient or difficult to reach height. Young men and boys form teams, make a human pyramid and attempt to reach or break the pot. Gokuldham Society, the organizer of this years Dahi Handi wants its grand this time. For that they have printed numbered T-shirts for different teams which follows a pattern i.e in row 00 i.e. is the topmost row of the human pyramid, The T-shirt no. printed will be 11. Each T Shirt no. of each subsequent row of the human pyramid is constructed by adding the T Shirt no. above and to the left with the T Shirt no. above and to the right . If the person wearing the T shirt is along the right edge or the left edge of the human Pyramid, then his T shirt no. will be one. For example, the initial T shirt number in the first (or any other) row is 11 (the sum of Tshirt no. 00 and Tshirt no. 1), whereas the numbers Tshirt no. 1 and Tshirt no. 3 in the third row are added to produce the number Tshirt no. 4 in the fourth row.
+Assume that the Human Pyramid constructed is completely perfect and after hitting the pot the dahi comes down in a way hitting the immediate left and right person to the person breaking the pot, and falling down vertically, hitting each and every person in the vertical direction. The person who breaks the pot jumps after breaking it and no dahi falls on him.
+We define amount of dahi hit to a person i.e X=(T shirt no. of the person/row no.) precised to row places of decimal i.e if a person in row 3 is hit, X will be precised to 3 places of decimal.
+Your task is to find the sum of X and display it. 
+If there are no digits after the decimal other than ZEROES in the final X, then just display the integer part of the X.
+For eg. If X comes out to be 1.000 then your output must be 1.
+INPUT
+
+First line of the input includes total number of test cases T.
+Next T lines has an input N, total no. of rows.
+
+OUTPUT
+X as required by the question.
+CONSTRAINTS:
+0<=N<=19
+Sample Input:
+2
+1
+3
+
+Sample Output:
+2
+4
+
+
+
+
+Author:
+3★thesuraj007
+
+
+Editorial:
+https://discuss.codechef.com/problems/MATP
+
+
+Tags:
+
+               
+                 coss2020, externalcontest, memoization, recursion, simple, thesuraj007
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+12-01-2020
+
+
+Time Limit:
+0.1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, CS2, PYPY, NODEJS, RUBY, PHP, GO, kotlin, SCALA, JS, rust, R, swift
+
+
+
+
+
+Submit
+

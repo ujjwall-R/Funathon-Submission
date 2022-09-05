@@ -1,0 +1,105 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Recently, Chef hosted a strange competition at the Byteland annual fair. There were NN participants in the competition (numbered 11 through NN); at the end of the competition, their scores were A1,A2,…,AN. Since it was a strange competition, negative scores were allowed too.
+The total score of the competition is calculated as follows:
+
+Divide the participants into one or more non-empty groups (subsets); if there are K groups, let's denote them by G1,G2,…,GK. Each participant should be a member of exactly one group.
+Sum up the scores of participants in each individual group. For each valid i, let's denote the sum of scores of participants in group i by Xi.
+The total score of the competition is the sum of squares of these summed up scores, i.e. X21+X22+…+X2K.
+
+Chef wants to choose the groups in such a way that the total score is maximum possible. Since there may be many ways to form the groups that lead to the maximum total score, Chef wants to know just the size of the largest group and the size of the smallest group which could be formed while still maximising the total score. These sizes are independent - formally, they are the maximum and minimum size s of a group such that there is a way to form groups which maximises the total score and contains a group with size s.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1,A2,…,AN.
+
+Output
+For each test case, print a single line containing two space-separated integers - the size of the largest possible group and the size of the smallest possible group.
+Constraints
+
+1≤T≤20
+1≤N≤105
+1≤|Ai|≤109 for each valid i
+the sum of N over all test cases does not exceed 5⋅105
+
+Subtasks
+Subtask #1 (100 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+5
+5 2 4 6 7
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+5 5
+
+
+Explanation
+Example case 1: To maximise the total score, everyone has to belong to the same group with scores [5,2,4,6,7]. For this group, X=5+2+4+6+7=24 and the total score is 242=576. The size of the largest possible group, as well as the size of the smallest possible group, is 5.
+
+
+
+Author:
+4★adityad1998
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHNUM
+
+
+Tags:
+
+               
+                 Basic Maths, Observation
+                 
+                     
+                     Mathematics, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1188
+
+
+Date Added:
+19-02-2019
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

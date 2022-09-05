@@ -1,0 +1,75 @@
+
+ 
+Beware! You might lose time on this. Try others and jump back here.
+So the deal is, you need to find the lexicographically maximum anagram of the given string. Can you do this?
+
+Input
+First line contains T, the number of test cases.
+Next T lines contain a string S.
+
+Output
+Print the lexicographically maximum anagram of S.
+Constraints
+
+1 <= T <= 100
+1 <= |S| <= 100000
+
+Example
+Input:
+2
+cabnrc
+bjprss
+
+Output:
+rnccba
+ssrpjb
+
+
+
+
+Author:
+6★himkha_100
+
+
+Editorial:
+https://discuss.codechef.com/problems/COWA19F
+
+
+Tags:
+
+               
+                 cowr2020, himkha_100, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-01-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

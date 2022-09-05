@@ -1,0 +1,101 @@
+
+Read problems statements Hindi ,Bengali , Mandarin chinese , Russian and Vietnamese as well.
+In a regular table tennis match, the player who serves changes every time after 2 points are scored, regardless of which players scored them.
+Chef and Cook are playing a different match — they decided that the player who serves would change every time after KK points are scored instead (again regardless of which players scored them). When the game starts, it's Chef's turn to serve.
+You are given the current number of points scored by Chef and Cook (P1P1 and P2P2 respectively). Find out whether Chef or Cook has to serve next.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains three space-separated integers P1, P2 and K.
+
+Output
+For each test case, print a single line containing the string "CHEF" if it is Chef's turn or "COOK" if it is Cook's turn.
+Constraints
+
+1≤T≤105
+1≤K≤109
+0≤P1,P2≤109 
+
+Subtasks
+Subtask #1 (100 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+1 3 2
+0 3 2
+34 55 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+CHEF
+COOK
+CHEF
+
+
+Explanation
+Example case 1: Chef serves for the first two points, Cook serves for the next two, so Chef has to serve again now.
+
+
+
+Author:
+4★abdul135
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHSERVE
+
+
+Tags:
+
+               
+                 Basic Maths, ad-hoc
+                 
+                     
+                     Mathematics, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1101
+
+
+Date Added:
+17-09-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,82 @@
+
+Once G. H. Hardy arrived in a cab numbered 1729 when Srinivasa Ramanujan was hospitalized. He remarked that the cab number was dull. Instantly Ramanujan replied that "No, it is a very interesting number; it is the smallest number expressible as the sum of two cubes in two different ways."
+1729=13+123=93+103
+Input:
+
+First line will contain T, number of testcases. 
+Each testcase contains of a single line of input, an integer N. 
+
+Output:
+
+For each testcase, print a single line containing the string "Yes" if 1729 is present in the integer or "No" if it is not present.
+
+Constraints
+
+1≤T≤50
+1≤N≤1018
+
+Subtasks
+
+Subtask #1 (20 points) : 1≤N≤105
+Subtask #2 (80 points) : original constraints
+
+Sample Input:
+4
+1729
+10729
+11729
+17299   
+Sample Output:
+Yes
+No
+Yes
+Yes   
+
+
+
+Author:
+3★vicasindia
+
+
+Editorial:
+https://discuss.codechef.com/problems/BRTNUM
+
+
+Tags:
+
+               
+                 cakewalk, modulo, ttoe2020, vicasindia
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+28-07-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, NODEJS, RUBY, PHP, GO, HASK, kotlin, PERL, LUA, JS, rust, LISP sbcl, CLOJ, R, D, CAML, swift, FORT, ASM, FS, LISP clisp, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, NEM
+
+
+
+
+
+Submit
+

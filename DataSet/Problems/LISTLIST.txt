@@ -1,0 +1,122 @@
+
+You are given a positive integer NN and an array AA of size NN. There are N lists L1,L2…LN. Initially, Li=[Ai].
+You can perform the following operation any number of times as long as there are at least 2 lists:
+
+Select 2 (non-empty) lists Li and Lj (i≠j)
+Append Lj to Li and remove the list Lj. Note that this means Lj cannot be chosen in any future operation.
+
+Find the minimum number of operations required to obtain a set of lists that satisfies the following conditions:
+
+The first element and last element of each list are equal.
+The first element of all the lists is the same.
+
+Print −1 if it is not possible to achieve this via any sequence of operations.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains an integer N.
+The second line of each test case contains N space-separated integers A1,A2,…,AN.
+
+Output Format
+For each test case, print a single line containing one integer: the minimum number of operations required to obtain an array of lists that satisfies the given conditions.
+Print −1 if it is impossible to achieve such an array of lists.
+Constraints
+
+1≤T≤105
+1≤N≤2⋅105
+1≤Ai≤N
+Sum of N over all test cases doesn't exceed 2⋅105
+
+Subtasks
+Subtask 1(100 points): Original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+1
+1
+2
+1 2
+3
+1 1 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+0
+-1
+2
+
+
+Explanation
+Test case 1: There is only one list [1], and it trivially satisfies the condition so no operations are required.
+Test case 2: There are only 2 ways to do an operation - either take list [1] and append it to list [2] or take list [2] and append it to list [1]. In both cases, it is not possible to satisfy both given conditions at the same time. Hence, the answer is −1.
+Test case 3: Here is one possible order of operations:
+
+Select the 3rd list [2] and append it to the 1st list [1].
+Then, select the 2nd list [1] and append it to the 1st list [1,2].
+
+Finally, we are left with the single list [1,2,1] which satisfies the given conditions. It can be verified that it is impossible to do this using less than 2 operations.
+
+
+
+Author:
+suryaprak_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/LISTLIST
+
+
+Tags:
+
+               
+                 1D Arrays, Maps, Hashmaps, Sorting
+                 
+                     
+                     Data Structures, Arrays, Algorithms
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+1-12-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

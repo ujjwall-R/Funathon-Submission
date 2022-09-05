@@ -1,0 +1,89 @@
+
+Raj is the mayor of Krypton city and wishes to bring back the long lost glory of the city of Krypton.
+Raj has proposed to change the name of Krypton to Kripa Nagar.
+There were mixed reactions from the citizens of the the city over this proposal.
+Those in support claimed that Kripa Nagar is the original name of Krypton city which was changed by the foreign colonial rulers. Those against it said it was futile changing the name as it would incur a lot of government expenses which is taxpayers’ hard earned money.
+Government uncertain of what to do and unwilling to angry the voters decided to conduct a referendum.
+In the voting process people can choose from three options 11, 00 and −1.
+'1' means they favor the renaming process, '−1' means they oppose it while '0' means that they are neutral to any move.
+Finally the votes will be counted and government will rename the city if number of people supporting the name change proposal is greater than or equal to those in its opposition.
+Your job is to declare the result of the referendum. Print "YES" (without Quotes)  if the name will be changed or "NO" (without Quotes) if it stays the same.
+
+INPUT:
+
+First line consists of an integer T denoting the number of test cases.Then T test cases follow. 
+First line of each test case consists of an integer N denoting the number of voters. 
+Next line is an integer array of size N where each element can have values ‘1’, ‘−1’ or ‘0’ as described above.
+
+
+OUTPUT:
+Print "YES" or "NO" for each test case, in a new line.
+
+Constraints
+
+1≤T≤10
+1≤N≤105
+Ai is 1, −1 or 0.
+
+
+Sample Input:
+2
+5
+-1 1 0 -1 1
+2
+1 1
+
+
+Sample Output:
+YES
+YES
+
+
+
+
+Author:
+6★arjun8115
+
+
+Editorial:
+https://discuss.codechef.com/problems/COG1803
+
+
+Tags:
+
+               
+                 arjun8115, cakewalk, codigo2k18
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+20-11-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

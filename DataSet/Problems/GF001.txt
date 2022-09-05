@@ -1,0 +1,91 @@
+
+A boy named flick wants to buy some lottery tickets. so he visits a Fortune Teller to determine his lucky 
+numbers for which he can win. the Fortune Teller tells him to buy  Tickets whose number Ends with either
+4,7 or 9.but the lottery counter has tickets of Numbers from Range L to R(both Inclusive).
+so flick has to buy the tickets with numbers between L and R (both inclusive),
+so he asked you to determine how many Lucky numbers (numbers ending with either 4,7 or 9) are in this range so that he can buy all the tickets with his lucky numbers on it. Can you help him?
+Input Format
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers L and R.
+Output Format
+For each test case, print a single line containing one integer — the total number of Lucky numbers between L and R.
+Constraints
+1≤T≤100
+1≤L≤R≤105
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2
+1 10
+11 33
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+3
+6
+
+
+Explanation
+Example case 1: The Lucky numbers between 1 and 10 are 4, 7 and 9.
+Example case 2: The Lucky numbers between 11 and 33 are 14, 17, 19, 24, 27 and 29.
+
+
+
+Author:
+3★amannadaf
+
+
+Editorial:
+https://discuss.codechef.com/problems/GF001
+
+
+Tags:
+
+               
+                 amannadaf, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+20-10-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

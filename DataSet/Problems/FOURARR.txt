@@ -1,0 +1,105 @@
+
+You have been given an integer KK and four arrays AA, BB, C, and D with sizes SA, SB, SC and SD respectively.
+Follow the given steps:
+
+Pick four indices x, y, z, and w from arrays A, B, C, and D respectively. Note that (1≤x≤SA), (1≤y≤SB), (1≤z≤SC) and (1≤w≤SD).  
+There are in total SA×SB×SC×SD ways to do the above step. For each way, write down the value of (Ax+By)×(Cz+Dw) on a board. 
+Sort all the numbers written on the board in non-decreasing order. 
+
+Find the Kth element written on the board.
+Input Format
+
+First line contains five integers SA, SB, SC, SD and K.
+The second line contains SA space-separated integers A1,A2,...,ASA denoting the array A.
+The third line contains SB space-separated integers B1,B2,...,BSB denoting the array B.
+The fourth line contains SC space-separated integers C1,C2,...,CSC denoting the array C.
+The fifth line contains SD space-separated integers D1,D2,...,DSD denoting the array D.
+
+Output Format
+For each test case, output the required number in a single line .
+Constraints
+
+1≤SA,SB,SC,SD≤3⋅104
+1≤K≤SA×SB×SC×SD
+0≤Ai,Bi,Ci,Di≤105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+2 1 3 2 10
+2 3
+2
+1 1 2
+3 1
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+20
+
+
+Explanation
+After sorting the numbers on the board are in the following order {8,8,10,10,12,15,16,16,20,20,20,25}. So, the 10th number is 20.
+
+
+
+Author:
+6★inov_360
+
+
+Editorial:
+https://discuss.codechef.com/problems/FOURARR
+
+
+Tags:
+
+               
+                 Polynomial, Convolution, FFT, Binary Search, Two pointers
+                 
+                     
+                     Mathematics, Algebra, Transformations, Algorithms, Searching, Simple Algos
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2709
+
+
+Date Added:
+5-05-2022
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

@@ -1,0 +1,102 @@
+
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef's house is an axis-parallel stripe-like building in a 3D Cartesian coordinate system. It contains all points with coordinates (x,y,z), where x1≤x≤x2 and y1≤y≤y2; z can be any real number.
+A plane {(x,y,z):ax+by+cz=d} in this coordinate system intersects Chef's house. Chef's kitchen is the intersection of that plane and Chef's house. You know that Chef likes to cook his codes with a lot of secret masalas, so he wants to hide his masala boxes in some safe places. He decided to keep his masala boxes at the lattice points of his kitchen, i.e. points (x,y,z) which belong to Chef's kitchen such that x, y and z are integers.
+Since Chef is very busy with all of his dishes, he gave you the job of counting the lattice points in the kitchen. Since this number can be very large, compute it modulo 109+7.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains four space-separated integers x1, x2, y1 and y2.
+The second line contains four space-separated integers a, b, c and d.
+
+Output
+For each test case, print a single line containing one integer ― the number of lattice points modulo 109+7.
+Constraints
+
+1≤T≤5⋅105
+1≤x1,x2,y1,y2≤109
+1≤a,b,c≤108
+1≤d≤1014
+
+Subtasks
+Subtask #1 (25 points):
+
+T≤2⋅104
+x1,x2,y1,y2≤5⋅105
+a,b,c≤105
+d≤108
+
+Subtask #2 (75 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+1 1 1 1
+1 1 1 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+
+
+
+
+
+Author:
+5★sajib_readd
+
+
+Editorial:
+https://discuss.codechef.com/problems/GEOXD
+
+
+Tags:
+
+               
+                 hard, july20, math, sajib_readd, sajib_readd
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3053
+
+
+Date Added:
+17-03-2020
+
+
+Time Limit:
+5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

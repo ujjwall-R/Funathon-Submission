@@ -1,0 +1,99 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Chef has a string SS. A substring of SS is obtained by removing zero or more characters from the beginning and/or end of SS. For each L (1≤L≤|S|):
+
+K times, Chef wants to choose a substring of S with length L uniformly randomly and independently.
+Find the probability that all these K substrings will be pairwise distinct. It can be proved that this probability can be expressed as a fraction PQ, where P and Q are integers and Q is coprime with 998,244,353. You should compute P⋅Q−1 modulo 998,244,353, where Q−1 denotes the multiplicative inverse of Q modulo 998,244,353.
+
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a string S followed by a space and an integer K.
+
+Output
+For each test case, print a single line containing |S| integers. For each valid i, the i-th of these integers should be P⋅Q−1 for L=i.
+Constraints
+
+1≤T≤1,000
+1≤|S|≤2⋅105
+S contains only lowercase English letters
+1≤K≤500
+the sum of |S| over all test cases does not exceed 2⋅105
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+aba 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+776412275 499122177 0
+
+
+Explanation
+Example case 1: The actual probabilities are 49, 12 and 0.
+
+
+
+Author:
+6★nirjhor
+
+
+Editorial:
+https://discuss.codechef.com/problems/PRDRAW
+
+
+Tags:
+
+               
+                 Suffix Arrays, Disjoint Set Union, Suffix Trees, Combinatorics, Longest Common Prefix
+                 
+                     
+                     Advanced Data Structures, Suffix Structures, Mathematics, Algorithms, Dynamic Programming, DP on sequences
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3053
+
+
+Date Added:
+17-06-2020
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

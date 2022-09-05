@@ -1,0 +1,83 @@
+
+Geralt is an expert alchemist but always finds it difficult to find the right herbs. So he started his own farm of herbs, where he would grow his own herbs. Right now, he has NN different herbs in a row on his farm. He was getting bored, so he came up with a challenging problem for you:
+You are allowed to divide the NN herbs into non-empty groups by creating some partitions (possibly zero) between the herbs such that each group contains at most MM herbs. Your task is to find the number of distinct groupings. Since the answer can be large, print it modulo 109+7.
+Note: Two groupings are considered distinct if
+
+Both contain a different number of groups, else if
+The ith groups (from the left) for both groupings contain different numbers of herbs.
+
+Input:
+
+First line will contain T, the number of test cases. Then T test cases follow. 
+Each test case contains two space-separated integers N and M.
+
+Output:
+For each test case, output in a single line the required answer modulo 109+7.
+Constraints
+
+1≤T≤10
+1≤N≤2000
+1≤M≤N
+
+Sample Input:
+4
+1 1
+3 2
+2 1
+8 3  
+Sample Output:
+1
+3
+1
+81  
+Explanation:
+For the 2nd test case, the different groupings are: (1,1,1),(1,2) and (2,1). Here, the numbers in the braces represent the number of herbs in each group for the respective grouping. There's only one possible grouping for test case 1 and 3, i.e., group each herb individually.
+
+
+
+Author:
+5★sibasish_14
+
+
+Editorial:
+https://discuss.codechef.com/problems/QLK02
+
+
+Tags:
+
+               
+                 dynamic-programming, easy-medium, sibasish_14, sibasish_14, yapc2020
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+7-05-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

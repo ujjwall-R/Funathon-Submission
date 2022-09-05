@@ -1,0 +1,81 @@
+
+ 
+Dexter is the smartest kid in his class. He gave N tests and scored S[i] in each.
+If there are Y papers with marks greater than or equal to the median Dexter will be happy else he'll be sad. Determine the minimum marks he would additionally need to be happy. 
+ 
+Input
+First line of input contains T - the number of test cases. First line of each test case consists of N , denoting the number of tests and Y , denoting number of papers for which marks should be greater than or equal to the median. Second line of each test case consists of N numbers denoting scores in N papers.
+
+ 
+Output
+For each test case, output the minimum additional marks required to make Dexter happy.
+If Dexter is already happy print “0” (without quotes).
+If it is not possible to make Dexter happy print "-1" (without quotes).
+ 
+Constraints
+
+1 ≤ T ≤ 100
+1 ≤ N, Y ≤ 105 where N is always odd.
+1 ≤ S[i] ≤ 109
+
+ 
+Example
+Input:
+1
+7 5
+1 5 3 2 2 5 6
+
+
+Output:
+1
+
+ 
+Explanation
+Example case 1:
+1 2 2 3 5 5 6 (so median is 3)
+Since RHS elements of 3 are already greater than 3 we have a total of 4 subjects that Dexter is satisfied with. So now he needs one extra mark from the LHS element 2 to make it equal to 3
+
+
+
+Author:
+2★nerdyninja
+
+
+Tags:
+
+               
+                 codechef, nerdyninja, simple
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+28-01-2018
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

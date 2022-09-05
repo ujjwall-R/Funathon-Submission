@@ -1,0 +1,70 @@
+
+You are given an array of candies(Arr) of size N. The power of the Santa represents the sum of the values that you obtain after performing the described operations for N times.
+Your task is to delete the array by performing the following operations:
+•∙ For any turn(i) where (1 <= i <= N), delete either of the end (first or last) elements of remaining array.
+•∙ Before deleting that element (let's say at index K), it contributes to the sum of the values as Arr[K] x turn(i) + SV(i) the power of the array. Here, turn(i) represents the number of turns in which you are performing the operation
+• SV(i) represents the value of the maximum element that is present in the remaining array before the ith turn is performed
+You are required to perform this in such a way that you maximize the value of the power of the Santa.
+You must print the maximum value of the power that can be obtained after the array is completely deleted.
+Input:
+First line contain N i.e length of Array
+Second line contains N space separated integers denoting the elements of the array.  
+Output:
+Print in a new line the value that represents the maximum power that can be obtained after the array is completely deleted.
+Constraint:
+1 <= N <= 10^3
+1 <= Arr(i) <= 10^9
+Sample Input:
+5
+5 4 3 6 2
+Sample Output:
+96  
+
+
+
+Author:
+3★avishake_maji
+
+
+Editorial:
+https://discuss.codechef.com/problems/SANPOWER
+
+
+Tags:
+
+               
+                 avishake_maji, c-plus-plus, dynamic-programming, hard, jc22020
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+24-12-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

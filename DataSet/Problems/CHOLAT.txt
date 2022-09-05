@@ -1,0 +1,72 @@
+
+As we know, Chef has a party and he has many chocolates in which some chocolates are of the same type. He wants to give the chocolates to his friends as perfect gift. i.e. if each friend gets at-least one unique chocolate.
+Help Chef to find the maximum number of perfect gifts. 
+Input:
+
+First-line will contain TT, the number of test cases. Then the test cases follow: 
+Each test case contains two lines of input, the First line contains NN size of the array. 
+Second line contains  Arr array of N elements as id of chocolates. 
+
+Output:
+For each test case, output in a single line maximum number of perfect gifts.
+Constraints
+
+1≤T≤10
+1≤N≤104
+0≤Arr[i]≤109
+
+Sample Input:
+1
+ 3
+ 1 2 2   
+Sample Output:
+2   
+
+
+
+Author:
+3★vicasindia
+
+
+Editorial:
+https://discuss.codechef.com/problems/CHOLAT
+
+
+Tags:
+
+               
+                 array, cafe2020, easy, set, sorting, vicasindia
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+20-10-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

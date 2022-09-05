@@ -1,0 +1,72 @@
+
+A country has total BB Covid Beds under its control.There are total NN states in the country.Each state can demand at most KiKi,  1≤i≤N  beds so that they can successfully use them for treatment of  Covid Patients. Now,head of the country wants to allocate all the B beds to different states. He wants to know the number of ways to do so.Each state might also get 0 beds.Help him!
+Since total number of ways can be large, output the answer modulo  109+7.
+Input:
+
+First line will contain two space separated integers B,N representing number of beds and number of states respectively.Then N lines follow. 
+Second line contains N  space separated integers Ki. 
+
+Output:
+For each testcase, output in a single line answer modulo 109+7.
+Constraints
+
+1≤B≤100000
+1≤N≤50
+0≤Ki≤B
+
+Sample Input:
+   4 3
+   2 2 3
+
+Sample Output:
+   8
+
+
+
+
+Author:
+3★yashu2040
+
+
+Editorial:
+https://discuss.codechef.com/problems/COCA2006
+
+
+Tags:
+
+               
+                 coca2020, dynamic-programming, math, yashu2040
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+17-06-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

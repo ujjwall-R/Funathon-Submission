@@ -1,0 +1,88 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+The final elections for the government of Berland are taking place. There are only two parties in these elections; let's denote them by 'A' and 'B'. A party wins the elections if it has strictly more votes than the other party; if a tie occurs, the elections are invalid. The voting system is fully electronic, so throughout the day, the current results of the elections are updated live, as soon as each vote is cast. However, what the citizens do not know is that the whole election is a setup: the parties are actually working together to make the population think party A is winning until the end of the elections, which is when party B would come out victorious.
+The parties want to make this work by simply ignoring all votes which are not set up by them. Instead, they want to bring NN convoys of buses (numbered 11 through N) carrying people whose votes will be actually counted. Let's denote the number of buses in the i-th convoy by Vi. Each bus in an odd-numbered convoy should carry X people voting for party A and each bus in an even-numbered convoy should carry Y people voting for party B.
+The convoys arrive in the given order. For a convoy with Vi buses, the people from the first bus of this convoy cast their votes one by one, then the people from the second bus cast their votes, and so on until the people from the Vi-th bus cast their votes. Then, all the people leave on the same buses before the next convoy arrives. For each bus except the last bus from the last convoy, after the people from this bus cast their votes, party A must have strictly more votes than party B. After the people from the last bus overall cast their votes, party B must have strictly more votes than party A.
+Party A can afford buses with at most C1 seats and party B can affords buses with at most C2 seats, so 1≤X≤C1 and 1≤Y≤C2 must hold. Find values of X and Y which make this scenario possible or report that there is no solution. If there are multiple solutions, you may find any one.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case will contain three space-separated integers N, C1 and C2. 
+The second line contains N space-separated integers V1,V2,…,VN.
+
+Output
+For each test case, print a single line. It should contain two space-separated integers X and Y, or a single integer −1 if there is no solution.
+Constraints
+
+1≤T≤500
+1≤C1,C2≤109
+1≤Vi≤109 for each valid i
+∑Ni=1Vi≤109
+the sum of N over all test cases does not exceed 106
+
+Example Input
+2
+4 30 30
+3 4 1 8
+6 20 10
+1 1 1 2 1 4
+
+Example Output
+28 10
+20 9
+
+Explanation
+Example case 1: The sequence of buses is "AAABBBBABBBBBBBB". Whenever we find an 'A', X=28 people vote for party A and whenever we find a 'B', Y=10 people vote for party B.
+Example case 2: We can verify that the number of people voting for party A is greater than the number of people voting for party B after the people from each bus vote, except for the last bus, which is when the number of votes for party B is 120 and the number of votes for party A is 112.
+
+
+
+Author:
+7★bciobanu
+
+
+Editorial:
+https://discuss.codechef.com/problems/EBAIT
+
+
+Tags:
+
+               
+                 Inequalities, Continued Fraction
+                 
+                     
+                     Mathematics, Algebra, Series
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+18-11-2018
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

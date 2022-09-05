@@ -1,0 +1,88 @@
+
+A machine recycles scrap bottles, the size of the bottle is categorised into types. For nn number of bottles you have to calculate the number of bottles in each category type.
+Size to category table:-
+BOTTLE SIZE:      |    1,2    -      TYPE 1
+                     |    3,4       -      TYPE 2
+                     |    5,6       -      TYPE 3
+Input:
+
+The first line of the input contains a single integer T. T denoting the number of test cases. The description of T test cases is as follows.
+The first line of each testcase will contain the total number of bottles NN . The next line will contain the size of each bottle separated by a space. 
+
+Output:
+
+For each test case, print "TYPE # - 5". where # denotes the type of bottle and 5 denotes the total count of it.
+
+Constraints:
+
+1≤T≤10001≤T≤1000
+1≤N≤105
+1≤SizeOfBottle≤106
+
+Sample Input:
+1
+11
+1 1 2 3 4 5 3 6 2 3 1 
+
+Sample Output:
+TYPE 1 - 5
+TYPE 2 - 4
+TYPE 3 - 2
+
+Explanation:
+The first line of input is the number of testcases which in this case is 1.
+The second line of input is the number of bottles which in this case is 11.
+The third line of input is the size of each bottle.
+On comparing the size of the bottles which in this case are 1 1 2 3 4 5 3 6 2 3 1 we can see that 
+TYPE 1 has 5 bottles (i.e 1 1 2 2 1)
+TYPE 2 has 4 bottles (i.e 3 4 3 3)
+TYPE 3 has 2 bottles (i.e 5 6)
+
+
+
+Author:
+1★vishalmourya
+
+
+Editorial:
+https://discuss.codechef.com/problems/CMAN2
+
+
+Tags:
+
+               
+                 c-plus-plus, cakewalk, cman2020, codechef, easy, number-theory, strings, vishalmourya
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+29-03-2020
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

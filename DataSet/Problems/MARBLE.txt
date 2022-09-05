@@ -1,0 +1,123 @@
+
+"You have a reason to leave this place, but I don't."
+In the fourth game, Sang-Woo and Ali are competing against each other. Sang-Woo is the more intelligent one between them, and he plans to win the game by cheating. Ali is your childhood friend and you want to help him win this game. The game goes as follows.
+Both of them are given 22 strings — SS and PP — of equal length (say NN). The task is to find the minimum number of operations required to convert the string PP into SS. Every character of both SS and PP is either a lowercase English alphabet or ??.
+First, before performing any operation, you must choose a single lowercase character from the English alphabet, and replace every occurrence of ?? with this character. Note that every ?? present in either SS or PP is replaced by the exact same character. This does not count as an operation.
+Once the above step is done, you are allowed to perform the following two operations on PP any number of times:
+
+Pick an index 1≤i≤N1≤i≤N such that PiPi is a vowel, and change PiPi to any consonant.
+Pick an index 1≤i≤N such that Pi is a consonant, and change Pi to any vowel.
+
+Note: The vowels are the 5 characters {a,e,i,o,u} — the other 21 are consonants.
+Find the minimum number of operations required to convert P into S.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains an integer N, denoting the length of strings S and P.
+The second and third lines contain strings S and P respectively.
+
+Output Format
+For each test case, output in a single line the minimum number of operations required to convert P into S.
+Constraints
+
+1≤T≤104
+1≤N≤105
+The sum of all N across all test cases does not exceed 5∗105.
+|S|=|P|
+Every character of both S and P is either a lowercase English alphabet or ?.
+Every ? present in S and P should be assigned the same character.
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+5
+ab?c?
+aeg?k
+6
+abcde?
+ehio??
+4
+abcd
+abcd
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+6
+0
+
+
+Explanation
+Test Case 1: First, replace every ? by u. This gives us S=abucu and P=aeguk. Now P can be converted to S as follows:
+
+Convert P2=e to b in 1 operation.
+Convert P3=g to u in 1 operation.
+Convert P4=u to c in 1 operation.
+Convert P5=k to u in 1 operation.
+
+Test Case 3: The strings are already equal, so no operations are required.
+
+
+
+Author:
+5★reyaan44
+
+
+Editorial:
+https://discuss.codechef.com/problems/MARBLE
+
+
+Tags:
+
+               
+                 String, ad-hoc, Brute Force
+                 
+                     
+                     Data Structures, Algorithms, Constructive
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+1716
+
+
+Date Added:
+8-12-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

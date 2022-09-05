@@ -1,0 +1,104 @@
+
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Ada has a set of NN non-negative integers S={x1,x2,…,xN}S={x1,x2,…,xN}. She defined the function WW as follows:
+
+W({})=0.
+If S={a}, then W(S)=a.
+If S={a,b} (so |S|=2), then W(S)=(a⊕b)−1.
+If |S|≥3, then to calculate W(S), find any two elements of S that are congruent (have the same remainders) modulo the highest possible power of 2 (the highest power for which such a pair exists). Let's denote them by a and b. Then W(S)=W({a,b})⊕W(S∖{a,b}).
+It is guaranteed that W(S) is well-defined, i.e. does not depend on the exact choice of the two congruent elements.
+
+Here, ⊕ represents the binary XOR operation and A∖B represents set difference.
+Ada needs to calculate the function W for each set that is created by removing exactly one element from S. Formally, she wants to find W(S∖{xi}) for each valid i. Can you help her?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The next line contains N space-separated integers x1,x2,…,xN.
+
+Output
+For each test case, print a single line containing N space-separated integers. For each valid i, the i-th of these integers should denote W(S∖{xi}).
+Constraints
+
+1≤T≤106
+1≤N≤105
+0≤xi≤1018 for each valid i
+x1,x2,…,xN are pairwise distinct
+the sum of N over all test cases does not exceed 106
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+6
+0 1 2 5 7 8
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+13 4 3 0 6 5
+
+
+
+
+
+Author:
+7★alei
+
+
+Editorial:
+https://discuss.codechef.com/problems/ADAFUN
+
+
+Tags:
+
+               
+                 Tries, Bit Manipulation, Dynamic Programming, DFS
+                 
+                     
+                     Advanced Data Structures, Mathematics, Algorithms, Graph Algos, Traversals
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3028
+
+
+Date Added:
+17-10-2018
+
+
+Time Limit:
+3 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

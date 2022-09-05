@@ -1,0 +1,91 @@
+
+ 
+While developing Apps for Artificial Intelligence, Arush has to use specific type of strings (words) called Class C strings. 
+All the strings have been classified into 3 classes:
+Class A : A sequence of letters that read the same forward and backward.
+Class B : A string of class B can be converted to class A type by changing exactly one letter to a different letter. 
+For Example, CAT is class B type, since it can be changed to class A by either changing "C" to "T" or "T" to "C".
+Note that "SEES" is not a class B type, since changing one letter would not make it to a class A type.
+Class C : A string of class C is one that is formed by concatenating 2 strings of class B together. 
+For example, BATMAN is a class C type, since BAT and MAN both belong to class B type.
+
+Given a list of words, help Arush determine which words belong to class C type and which do not.
+ 
+Input
+
+Input will consist of all uppercase words which will not be more than 25 characters in length.
+The last word will be *END* which is not to be processed, it is just to mark the end of input.
+
+ 
+Output
+
+For each input, output "INPUT_STRING YES" if it is a class C type otherwise "INPUT_STRING NO" (without quotes).
+
+ 
+Constraints
+
+1 ≤  Length of each word  ≤ 25
+
+ 
+Example
+Input:
+BATMAN
+SUPERMAN
+*END*
+
+Output:
+BATMAN YES
+SUPERMAN NO
+
+ 
+Explanation
+Example case : Already Explained Above.
+
+
+
+Author:
+3★rjohari23
+
+
+Editorial:
+https://discuss.codechef.com/problems/CLCO07
+
+
+Tags:
+
+               
+                 clco2015, easy, externalcontest, palindrome, rjohari23, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+30-04-2015
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, PERL, SCALA, LUA, BASH, JS, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

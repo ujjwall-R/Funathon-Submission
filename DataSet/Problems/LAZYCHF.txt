@@ -1,0 +1,99 @@
+
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef is a very lazy person. Whatever work is supposed to be finished in xx units of time, he finishes it in m∗xm∗x units of time. But there is always a limit to laziness, so he delays the work by at max dd units of time. Given x,m,d, find the maximum time taken by Chef to complete the work.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow. 
+Each testcase contains a single line of input, three integers x,m,d. 
+
+Output:
+For each testcase, output in a single line answer to the problem.
+Constraints
+
+1≤T≤104
+1≤x,m≤10
+0≤d<100
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3
+1 1 0
+1 3 1
+2 2 3
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+1
+2
+4
+
+
+Explanation
+TestCase 1: Chef takes 1∗1=1 unit of time which is equal to the upper bound(1+0=1 unit) to do the work.   
+TestCase 2: Chef takes min(1∗3,1+1)=min(3,2)=2 units of time to do the work.   
+TestCase 3: Chef takes 2∗2=4 units of time which is less than the upper bound(2+3=5 units) to do the work.
+
+
+
+Author:
+daanish_adm
+
+
+Editorial:
+https://discuss.codechef.com/problems/LAZYCHF
+
+
+Tags:
+
+               
+                 Case work, Conditional Statements
+                 
+                     
+                     Special, Basic Programming Concepts
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+801
+
+
+Date Added:
+18-05-2021
+
+
+Time Limit:
+0.5 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

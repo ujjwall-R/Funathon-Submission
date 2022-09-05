@@ -1,0 +1,122 @@
+
+Read problems statements in Mandarin chinese
+, Russian and Vietnamese as well.
+Maybe Fulu is not so good at writing codes for median elements, but solving problems with queries is really easy for him. Today, he decided to give you one hard problem with queries from his national contest.
+You are given two sequences AA and BB, each with length NN (1-indexed), and Q queries. There are four types of queries:
+
+1lr — find max(Al,Al+1,…,Ar)
+2lr — increase Al,Al+1,…,Ar by Bl,Bl+1,…,Br, i.e. for each i (l≤i≤r), change Ai to Ai+Bi
+3lrx — for each l≤i≤r, increase Bi by x
+4lrx — for each l≤i≤r, increase Ai by x
+
+Can you quickly process the queries?
+Input
+
+The first line of the input contains two space-separated integers N and Q.
+The second line contains N space-separated integers A1,A2,…,AN denoting the initial sequence A.
+The third line contains N space-separated integers B1,B2,…,BN denoting the initial sequence B.
+The following Q lines describe queries. Each of these lines starts with an integer t denoting the type of the query. If 1≤t≤2, it is followed by a space and two space-separated integers l and r. If 3≤t≤4, it is followed by a space and three space-separated integers l, r and x.
+
+Output
+For each query of the first type, print a single line containing one integer — the maximum element in the subsequence Al..r.
+Constraints
+
+1≤N,Q≤105
+|Ai|≤109 for each valid i
+|Bi|≤109 for each valid i
+|x|≤109
+1≤l≤r≤N
+
+
+                        Sample Input 1
+                        
+
+
+
+
+
+3 6
+1 4 2
+3 1 2
+1 1 3
+2 1 3
+3 1 1 -2
+2 1 3
+4 1 2 3
+1 1 2
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+4
+9
+
+
+Explanation
+Initially, A=[1,4,2] and B=[3,1,2].
+
+In the first query, we should find the maximum element of A, which is 4.
+After the second query, A=[4,5,4].
+After the third query, B=[1,1,2].
+After the fourth query, A=[5,6,6].
+After the fifth query, A=[8,9,6].
+In the sixth query, we should find the maximum of A1 and A2, which is 9.
+
+
+
+
+Author:
+6★allllekssssa
+
+
+Editorial:
+https://discuss.codechef.com/problems/NQNF
+
+
+Tags:
+
+               
+                 Square Root Decomposition, Convex Hull, Range Queries, Online Queries
+                 
+                     
+                     Advanced Algorithms, Computational Geometry, Polygons, Algorithms, Queries
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+3420
+
+
+Date Added:
+16-08-2018
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

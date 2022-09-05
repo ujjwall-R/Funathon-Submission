@@ -1,0 +1,107 @@
+
+ 
+As Valentine week is going on, bajrang dal is in mood to execute their plans on upcoming Valentine's day. Today they called a meeting of all the members to decide their plans. After the discussions they came to an idea. The idea is as follows:
+The Leader of the dal will be having a huge string upto 100000 characters known master string M. And all the coordinators of the dal will visit all the parks and places of the city where there is probability to find the couples. Their task is to bring them to the leader of the group. After that the leader will assign a number to each of the couples. The number assigned is the length of substring of master string such that name of both the couples(Let a and b) is present in that substring. If there are multiple substrings containing name of both the couples the number assigned is the length of the substring which is having minimum length.
+After the number is assigned to all the couples leader of the dal puts a condition among them to set them free. He told them to divide themselves in two groups such that if they take xor of assigned numbers of all the couples, the result after addition of xor of both the groups is maximum. Can you help them ?
+Lets consider P is the xor of all the number of first group and Q is the xor of all the numbers of second group. You need to maximise P + Q. If there are multiple ways to divide the couples so that the previous condition fulfilled, then minimize the value P.
+Note: There is always a substring in the master string which will contain the names of both in the couple.
+Input:
+First line of each test file is a strigs, the master string.
+Second line conatins the number of couples, N that the coordinaters brought to the Leader. Next N lines contains two strings a and b the name of both in the couple.
+Output:
+Print N space-separated integers, the i-th of them should equal either 1 if this couple should be kept in first group, or 2 if it kept in second group.
+Contraints:
+1 ≤ length of M ≤ 100000
+1 ≤ N ≤ 50000
+1 ≤ length of a,b ≤ 10
+Sample Input:
+akashikharishasenorita
+3
+shikhar isha
+aka norita
+harish isha
+Sample Output:
+2 2 1
+Explanation:
+Master String M is akashikharishasenorita.
+minimum length substring of this string which contains the name of couples is as follows:
+
+
+
+names
+minlength
+substring
+
+
+shikhar, isha
+11 
+shikharisha
+
+
+aka norita
+22
+akashikharishasenorita
+
+
+harish isha
+7
+harisha
+
+
+
+Now our array is (11,22,7). We have to divide the array in two parts such that xor sum of both the array is maximum. 
+some of the combinations are
+(11) and (22,7), xor sum is (11) + (22^7 = 17) = 28
+(11,22) and (7), xor sum is (11^22 = 29) + (7) = 36
+(7) and (11,22), xor sum is (7) + (11^22 = 29)  = 36
+(11,7) and (22) , xor sum is (11^7 = 12) + (12) = 34
+As we have to minimize the xor of first group we would choose the 3rd partition among 2nd and 3rd, as both are correct.
+
+
+
+Author:
+5★akash1rakshit
+
+
+Editorial:
+https://discuss.codechef.com/problems/COMAPR04
+
+
+Tags:
+
+               
+                 akash1rakshit, binary-search, bitmasking, com2018, hard, strings
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+2-02-2018
+
+
+Time Limit:
+1 - 2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3
+
+
+
+
+
+Submit
+

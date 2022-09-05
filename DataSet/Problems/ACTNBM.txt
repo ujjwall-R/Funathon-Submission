@@ -1,0 +1,80 @@
+
+Your little friend, Shinchan is playing video games with his little sister, Himawari during his holidays.
+The video game is about their Superhero, Action Kamen. According to the game, in each trail,  Shinchan will have some power of Action Beam S and Himawari will have some power of Action Beam H. In each trial, the winner is one with greater power of Action Beam.If the power of Action Beam of Shinchan and Himawari is same, Shinchan considers his little sister, Himawari the winner, since he has a soft corner for his little sister.
+Can you figure out who is the winner, given the power of Action Beams of Shinchan and Himawari.
+
+Input
+
+The first line contains a single integer T denoting the number of test cases. Then, T test cases follow.
+The one and only line of each test case, contains two space-separated integers S and H.
+
+
+Output
+For each test case output a single line containing the winner of each trial, “Shinchan”(without quotes) or “Himawari”(without quotes).
+
+Constraints
+
+1 ≤ T ≤ 106
+0 ≤ S, H ≤ 105
+
+
+Example
+Input
+3
+2 9
+5 5
+8 4
+Output
+Himawari
+Himawari
+Shinchan
+
+
+
+
+Author:
+5★horsbug98
+
+
+Editorial:
+https://discuss.codechef.com/problems/ACTNBM
+
+
+Tags:
+
+               
+                 condition, encoding, horsbug98, horsbug98, implementation
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+N/A
+
+
+Date Added:
+5-08-2018
+
+
+Time Limit:
+2 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SCM guile, PERL6, ERL, CLPS, PRLG, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+

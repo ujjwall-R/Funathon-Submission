@@ -1,0 +1,105 @@
+
+Read problem statements in Russian, Bengali, and Mandarin Chinese as well.
+In a school, there are CC clubs (numbered 11 through CC) that students can participate in. Each student can be in zero, one or multiple clubs.
+Tomorrow, there is a school assembly and N students (numbered 1 through N) will be standing in a line. Each student should wear one of M single-colour shirts provided by the school. The only restriction is that for each club, students in this club must wear shirts with the same colour (possibly the same colour for multiple clubs).
+Students in the same clubs try to stand near each other. Formally, for each club i, you are given xi segments — let's denote them by [l1,r1],[l2,r2],…,[lxi,rxi], where 1≤l1≤r1<l2≤r2<…<lxi≤rxi≤N — such for each valid j, the students lj,lj+1,…,rj belong to this club.
+Determine the number of ways in which the students can choose the colours of their shirts. Two ways to choose colours are considered different if there is at least one student wearing a shirt with a different colour. Since this number can be very large, compute it modulo 998,244,353.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers C, N and M. 
+Then, 2C lines follow. For each valid i, the (2i−1)-th of these lines contains a single integer xi and the 2i-th line contains 2⋅xi space-separated integers l1,r1,l2,r2,…,lxi,rxi.
+
+Output
+For each test case, print a single line containing one integer — the number of ways to choose colours modulo 998,244,353.
+Constraints
+
+1≤T≤10
+1≤N,M≤109
+1≤C≤1,000
+1≤xi≤100 for each valid i
+
+Subtasks
+Subtask #1 (30 points): N≤1,000
+Subtask #2 (70 points): original constraints
+
+                        Sample Input 1
+                        
+
+
+
+
+
+1
+2 6 3
+2
+1 2 5 6
+1
+4 6
+
+
+
+                        Sample Output 1
+                        
+
+
+
+
+
+9
+
+
+Explanation
+Example case 1: Students 5 and 6 are in both clubs, so these two clubs must wear shirts with the same colour. Student 3 does not participate in any club and can wear a shirt with any colour out of the three available options.
+
+
+
+Author:
+trafagar3
+
+
+Editorial:
+https://discuss.codechef.com/problems/UNICOLOR
+
+
+Tags:
+
+               
+                 Graphs, Modular Exponentiation
+                 
+                     
+                     Data Structures, Mathematics, Modular Arithmetic
+                 
+               
+             
+             
+
+
+
+                        Difficulty Rating:
+                    
+
+2444
+
+
+Date Added:
+2-01-2021
+
+
+Time Limit:
+1 secs
+
+
+Source Limit:
+50000 Bytes
+
+
+Languages:
+CPP17, PYTH 3.6, JAVA, C, CPP14, PYTH, PYP3, CS2, ADA, PYPY, TEXT, PAS fpc, NODEJS, RUBY, PHP, GO, HASK, TCL, kotlin, PERL, SCALA, LUA, BASH, JS, rust, LISP sbcl, PAS gpc, BF, CLOJ, R, D, CAML, swift, FORT, ASM, FS, WSPC, LISP clisp, SQL, SCM guile, PERL6, ERL, CLPS, PRLG, SQLQ, ICK, NICE, ICON, COB, SCM chicken, PIKE, SCM qobi, ST, NEM
+
+
+
+
+
+Submit
+
