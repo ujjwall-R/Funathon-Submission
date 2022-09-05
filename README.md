@@ -84,6 +84,3 @@ cd client
 npm start
 ```
 Visit your localHost address where the client side app is running and enjoy searching.
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please contact to suggest any change in the corpus of the [live](https://algosearchujjwal.herokuapp.com/) application.
