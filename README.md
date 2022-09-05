@@ -1,4 +1,4 @@
-# ALGOsearch
+# ALGOsearch (Education)
 
 ## Inspiration
 Googling coding questions from google and searching for the desired approach is quite annoying. Why not develop our own search engine which target a particular dataset?
