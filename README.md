@@ -1,6 +1,31 @@
 # ALGOsearch
 
+## Inspiration
+Googling coding questions from google and searching for the desired approach is quite annoying. Why not develop our own search engine which target a particular dataset?
+
+## What it does
 ALGOsearch is a Search Engine designed specifically for Data Structure and Algorithm questions in platforms like codechef and codeforces.
+
+## How we built it
+– Scrapped more than 3300 DSA Problems in python from coding platforms using BS4 and Selenium Web Driver
+– Implimented the TF-IDF algorithm from scratch in nodejs to generate the corpus and rank the search results among the scrapped problems
+– Used reactjs as frontend framework and successfully deployed the application using heroku CLI: archujjwal.herokuapp.com
+
+## Challenges we ran into
+– The first challenge I ran into was to scrap the data properly. I handled in an awesome way using error throwing techniques in Python programming language.
+– Implementing TF-IDF machine learning algorithm in nodejs was another challenge which took alot of time to tackle.
+ 
+
+## Accomplishments that we're proud of
+– The search result is very accurate in the target corpus.
+
+## What we learned
+– How search Engine Works?
+– TF-IDF Machine Learning Algorithm
+– Web Scraping in python
+
+## What's next for Algosearch
+– I aim for increasing the accuracy of the search engine and expanding the dataset.
 
 ## Web Application
 
